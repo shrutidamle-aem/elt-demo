@@ -1,0 +1,49 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-13T16:10:31.455Z",
+  "tol": 4,
+  "n": 4,
+  "width": 1440,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://elt.eso.org/about/road/",
+  "at": "2026-11-13T14:53:35.543Z",
+  "docH": 5566
+ },
+ "eds": {
+  "url": "https://main--26c59ee1--aemcoder.aem.page/about/road",
+  "at": "2026-11-13T16:10:31.267Z",
+  "docH": 5709
+ },
+ "results": [
+  {
+   "sel": "footer .col-12=.site-footer__row > .footer-item",
+   "family": "footer-columns",
+   "required": true,
+   "originMatches": 2,
+   "edsMatches": 0,
+   "units": [],
+   "error": "no visible unit on the served side (2 / 0 DOM matches)"
+  },
+  {
+   "sel": ".page-section > .m-0=.page-section > .article-image",
+   "family": "article-image-rows",
+   "required": true,
+   "originMatches": 4,
+   "edsMatches": 0,
+   "units": [],
+   "error": "no visible unit on the served side (4 / 0 DOM matches)"
+  }
+ ],
+ "verdict": {
+  "units": 0,
+  "within": 0,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 2,
+  "requiredOff": 0
+ }
+}

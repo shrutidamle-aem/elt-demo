@@ -1,0 +1,622 @@
+{
+ "source": "file:///workspace/26c59ee1/stardust/prototypes/instrument-harmoni-proposed.html",
+ "width": 1440,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "container-dark",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "HARMONI"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "High Angular Resolution Monolithic Optical and Near-infrared Integral field spectrograph"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "HARMONI will be one of the first generation of ELT instruments and will transform the visible and near-infrared astronomy landscape. This workhorse instrument, a 3D spectrograph, will disperse the light from astronomical objects into its component wavelengths, allowing scientists to study them in fine detail and go beyond what we can achieve with current spectrographs."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Quick Links:"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "| | |"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Science",
+     "href": "#science"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Design",
+     "href": "#design"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Documents",
+     "href": "#docsntools"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Consortium",
+     "href": "#consortium"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "container-light",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "In a nutshell"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Share on Facebook",
+     "href": "https://www.facebook.com/sharer/sharer.php?u=https://elt.eso.org/instrument/HARMONI/"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "E-Mail",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Copy Link",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Share on LinkedIn",
+     "href": "https://www.linkedin.com/sharing/share-offsite/?url=https://elt.eso.org/instrument/HARMONI/"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "HARMONI will be one of the first generation of ELT instruments and will transform the visible and near-infrared astronomy landscape. This workhorse instrument, a 3D spectrograph, will disperse the light from astronomical objects into its component wavelengths, allowing scientists to study them in fine detail and go beyond what we can achieve with current spectrographs."
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "High Angular Resolution Monolithic Optical and Near-infrared Integral field spectrograph"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "HARMONI will be one of the first generation of ELT instruments and will transform the visible and near-infrared astronomy landscape. This workhorse instrument, a 3D spectrograph, will disperse the light from astronomical objects into its component wavelengths, allowing scientists to study them in fine detail and go beyond what we can achieve with current spectrographs."
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Powerful and versatile, HARMONI will enable astronomers to study many different astronomical targets, from the far-off — distant galaxies, energetic quasars, and gamma-ray bursts — to individual stars in nearby galaxies and exoplanets in the Milky Way."
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "HARMONI will provide visible and near-infrared spectroscopy over a range of resolving powers and spatial scales and can work both with and without adaptive optics."
+    }
+   ],
+   "imgCount": 6,
+   "editableTexts": 4,
+   "repeats": [
+    {
+     "unitSelector": "DIV.container-paragraph",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 6,
+      "textRuns": 5
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.container-subtitle",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "container-light",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Science with HARMONI"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Large-area galaxy surveys have allowed us to study the global properties of galaxies at high-redshift, that is, galaxies that are very far away and thus far back in cosmic time. However, we have very little data to test the physical mechanisms at work, as probing the internal structure of galaxies is largely beyond our current capabilities. By studying the properties of these distant galaxies (internal kinematics, internal stellar population gradients, dust distribution, ionisation structure, nuclear properties, and interaction with the intergalactic medium), HARMONI will show how the different physical processes involved are related, and how they give rise to the physical properties we observe."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "By probing the processes occurring within galaxies on the scale of individual star-forming regions, HARMONI also promises to help astronomers study the star formation, gas dynamics, metallicity and gas outflows of very distant galaxies in unprecedented detail. Moreover, the same data will tell us what fraction of galaxies at redshift z=2 have settled into stable, rotating disks and how individual episodes of star formation are related to outflowing winds, accretion of matter or steady evolution. This gives astronomers the opportunity to understand what physical mechanisms drive the star formation rate to peak at this redshift, which corresponds to a look-back time of about 10.3 billion years."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "In addition, HARMONI's high angular resolution mode will help astronomers probe the environment surrounding galaxy nuclei, revealing not only the relationship between Active Galactic Nucleus (AGN) activity and star formation, but also opening up the opportunity to estimate the mass of the central supermassive black hole."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "A simulation of how a galaxy in the early universe would look like when observed with various instruments on the VLT and the ELT. Credit: ESO/HARMONI consortium"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "By resolving individual stars in other galaxies, astronomers will find out more about their chemical and dynamical evolution. Such resolved stellar populations provide an archaeological record of a galaxy’s star formation history and dynamical assembly. So far, intricate studies like this have been limited to very nearby galaxies, but the stellar populations of more distant — and therefore older — galaxies are beyond current capabilities. One of the main goals of the ELT is to study the resolved stellar populations of massive galaxies with a variety of shapes, with the ultimate goal being to reach the rich and diverse galaxy population of the Virgo Cluster, which contains around 1300 galaxies and whose centre lies about 54 million light-years away."
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "To make direct measurements of the chemical and dynamical properties of resolved stars, HARMONI will make accurate velocity measurements combined with measurements of the chemical make-up (metallicity) of a significant numbers of stars in the different parts of a galaxy (e.g. thin disc, thick disc, halo, bulge). Such observations will enable astronomers to study the current dynamical state and thus dark matter masses and distributions in these systems as well as their chemical evolution. Simulations show that the higher spectral resolution modes of HARMONI will provide the most accurate measurements of velocity and metallicity for a fixed integration time. These features can be measured for main sequence stars in globular clusters and the field throughout the halo of the Milky Way, making it possible to study in detail the picture of halo assembly that will emerge from the European Space Agency’s Gaia mission. It will be possible to extend this work to the larger range of ages and star-forming environments in globular star clusters in the nearby Magellanic Cloud dwarf galaxies. Probing massive elliptical galaxies will be more challenging, but simulations show that HARMONI will be able to make precise measurements of velocity and metallicity below the tip of the red giant branch in the Centaurus A galaxy, and will be able to observe 1000 resolved stars in just 90 hours."
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Astronomers believe that nearly all large galaxies have a massive black hole at their centre. Observing how the relationship between this black hole and its host galaxy changes with cosmic time will help uncover the details behind the assembly and evolution of galaxies and their black holes. HARMONl's high sensitivity and spatial resolution will allow astronomers to measure black hole masses, stellar velocities and other properties of host galaxies out to a cosmological redshift of z=2."
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Closer to home, with its special high-contrast mode, HARMONI will allow a detailed spectral characterisation of giant exoplanets. The focus will be on planets less than 300 million years old, orbiting their host stars at 1 to 40 AU (1 AU is the Sun-Earth distance)."
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 8,
+   "repeats": [
+    {
+     "unitSelector": "DIV.container-paragraph",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "FIGURE.wide-image",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "container-light",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Instrument Design"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "With its 3D spectroscopic capabilities and a variety of spatial and spectral settings, HARMONI will be a very powerful and versatile first-generation instrument for the ELT."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "The various spatial pixel scales and corresponding fields of view for HARMONI. Credit: ESO/HARMONI Consortium"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "The various spatial pixel scales and corresponding fields of view for HARMONI. Credit: ESO/HARMONI Consortium"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "HARMONI will use an Integral Field Unit (IFU) with an image slicer to divide a single contiguous field of view into many spatial pixels (called spaxels). The signal from each spaxel will be fed into a spectrograph that generates a spectrum for each one of them. Astronomers will be able to choose between four spaxel scales (from 4 mas to 60 mas) that result in different fields of view - with smaller spaxels comes a smaller field of view but a higher spatial resolution. This makes HARMONI very versatile."
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Astronomers will also be able to choose between a range of spectral resolution settings (3000, 7000, 18000) available in all spatial scales covering wavelengths between 0.47 μm and 2.45 μm, though not simultaneously. The instrument will be able to work with two different adaptive optics systems that will correct for atmospheric turbulence: single-conjugate adaptive optics (SCAO) that uses a bright (R≤16) reference star to provide high Strehl image quality over a small fraction of the sky, and laser tomography adaptive optics (LTAO) that combines laser guide stars with fainter natural stars to deliver diffraction-limited image quality in the JHK bands over a large fraction of the sky."
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "HARMONI will be located at the “side-looking” Nasmyth port of the ELT. The first element in the optical path is a user-selectable dichroic that separates the light at the wavelength of about 600 nm used by the laser guide stars to enable LTAO observations from the science and natural guide stars light. This dichroic will be removed in case of science observations at visible wavelength below 600 nm. When using LTAO, the reflected laser light is redirected to a rotating Laser Guide Star Sensing system, which contains six laser guide star wavefront sensors. The light transmitted by the dichroic over a field of view of 120 arcsec in diameter for science and pick-up of the natural guide stars is relayed towards the instrument by using cold relay optics, to minimise the thermal background."
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "The bulk of the HARMONI’s optical and mechanical parts is hosted in a single up-looking gravity invariant cryostat cooled to a low temperature of around 140 K. A subsystem of pre-optics provides four selectable spaxel scales, as well as filters and pupil masks. The light from the entire field is then reformatted into four linear slits by the IFU subsystem, each of which feeds one of four spectrograph subsystems. Each spectrograph then collimates, disperses, and focuses the light onto a pair of 4k x 4k detectors, providing a choice of spectral ranges and resolving powers."
+    }
+   ],
+   "imgCount": 4,
+   "editableTexts": 5,
+   "repeats": [
+    {
+     "unitSelector": "DIV.container-paragraph",
+     "count": 5,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "container-light",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Wavelength"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "0.47—2.45 μm"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Spectral resolution"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "~3,500, 7,500, and 18,000 in the NIR and ~3,500 in the VIS bands"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Simultaneous spectral range"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "at least one band at a time R~7,500 (i, z, J, H, K), two at R~3,500"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Field(s)-of-view"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "four, corresponding to different spaxel scales"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "AO"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "LTAO and SCAO"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 10,
+   "repeats": [
+    {
+     "unitSelector": "DIV.tech-row",
+     "count": 5,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "container-light",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Tools and Documents"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Simulator",
+     "href": "https://harmoni-elt.physics.ox.ac.uk/Hsim.html"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Tool to simulate instrument observations"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Top Level Requirements",
+     "href": "https://www.eso.org/sci/facilities/eelt/docs/ESO-191883_2_Top_Level_Requirements_for_ELT-IFU.pdf"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Description of the characteristics of the instrument required by the science case"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 4,
+   "repeats": [
+    {
+     "unitSelector": "DIV.container-paragraph",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "P.",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "container-light",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Instrument Consortium and Contacts"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "HARMONI is made possible through an composed of research institues from four different countries."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "international consortium",
+     "href": "https://harmoni-elt.physics.ox.ac.uk/consortium.html"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "The institutes that make up the HARMONI consortium are the University of Oxford (Oxford, United Kingdom), the UK Astronomy Technology Centre (Edinburgh, United Kingdom), the Durham University (UK), the Lyon Centre for Astrophysics Research (Lyon, France), the Marseille Astrophysics Laboratory (Marseille, France), the Canary Islands Institute of Astrophysics (Santa Cruz de Tenerife, Spain), the Spanish Astrobiology Centre (Torrejón de Ardoz, Spain), the University of Michigan (Ann Arbor, Michigan, US), the French Aerospace Lab (ONERA, France), the Grenoble Institute for Planetary Sciences and Astrophysics (IPAG) and the Toulouse Institute for Planetary Sciences and Astrophysics (IRAP)."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Principal Investigator"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "(University of Edinburgh, UK)"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "James Dunlop",
+     "href": "mailto:James.Dunlop@ed.ac.uk"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "(Deputy; LAM, France)"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Benoit Neichel",
+     "href": "mailto:benoit.neichel@lam.fr"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Project Scientist"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "(Durham University, UK)"
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "Mark Swinbank",
+     "href": "mailto:a.m.swinbank@durham.ac.uk"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "(STFC UKRI)"
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "Óscar González",
+     "href": "mailto:oscar.gonzalez@stfc.ac.uk"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Project Manager"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "(ESO)"
+    },
+    {
+     "role": "cta",
+     "order": 16,
+     "text": "Michele Cirasuolo (in interim)",
+     "href": "mailto:mciras@eso.org"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "(UK Astronomy Technology Centre, UK)"
+    },
+    {
+     "role": "cta",
+     "order": 18,
+     "text": "Stephen Chittick",
+     "href": "mailto:stephen.chittick@stfc.ac.uk"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "(Deputy; LAM, France)"
+    },
+    {
+     "role": "cta",
+     "order": 20,
+     "text": "David Le Mignant",
+     "href": "mailto:david.lemignant@lam.fr"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Simulation Scientist"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "(Centre for Astrobiology CAB, INTA-CSIC, Spain)"
+    },
+    {
+     "role": "cta",
+     "order": 23,
+     "text": "Miguel Pereira-Santaella",
+     "href": "mailto:miguel.pereira@physics.ox.ac.uk"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "ESO Project Engineer"
+    },
+    {
+     "role": "cta",
+     "order": 25,
+     "text": "Peter Hammersley",
+     "href": "mailto:Peter.Hammersley@eso.org"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "ESO Project Scientist"
+    },
+    {
+     "role": "cta",
+     "order": 27,
+     "text": "Morten Andersen",
+     "href": "mailto:Morten.Andersen@eso.org"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "Instrument Scientist"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "(UK Astronomy Technology Centre, UK)"
+    },
+    {
+     "role": "cta",
+     "order": 30,
+     "text": "William Taylor",
+     "href": "mailto:None"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 20,
+   "repeats": [
+    {
+     "unitSelector": "DIV.container-paragraph",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "P.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "P.",
+     "count": 18,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  }
+ ]
+}

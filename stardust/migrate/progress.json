@@ -1,0 +1,13 @@
+{
+  "units": {
+    "plan": {
+      "status": "done",
+      "kind": "plan",
+      "templates": ["landing", "listing", "media", "timeline", "facts", "article", "program", "instrument"],
+      "pages": 8,
+      "startedAt": "2026-11-13T14:57:50Z",
+      "endedAt": "2026-11-13T14:58:42Z",
+      "verdict": "rendered 8 archetypes (Path A, approved), unchanged 0, refused 0, passthrough 0; index-b7ff (/?lang) delivered by index (duplicate-url decision); sibling render units run per template after its C-deliver archetype unit; modules[] still empty on 7 archetypes (fill before rollout B-block)"
+    }
+  }
+}

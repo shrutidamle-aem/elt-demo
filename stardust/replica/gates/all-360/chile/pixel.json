@@ -1,0 +1,62 @@
+{
+  "a": "stardust/replica/gates/all-360/chile/origin.png",
+  "b": "stardust/replica/gates/all-360/chile/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 1350,
+    "mode": "overlap"
+  },
+  "heightDelta": -1,
+  "differingPixels": 9768,
+  "pct": 2.68,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/chile/diff.png",
+  "masks": [
+    {
+      "yA": 350,
+      "h": 60,
+      "yB": 350
+    },
+    {
+      "yA": 1130,
+      "h": 110,
+      "yB": 1130
+    },
+    {
+      "yA": 421,
+      "h": 169,
+      "yB": 421
+    }
+  ],
+  "maskedRows": 339,
+  "textPct": 12.14,
+  "textBoxes": 70,
+  "textPixels": 86856,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 2.5
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.7
+    },
+    {
+      "y0": 1000,
+      "y1": 1350,
+      "pct": 3.2
+    }
+  ],
+  "maskReason": "same composition as index (sibling-variance within tolerance): timer/live-data only: teaser video control bar (build autoplays per captureState restore, source captured at 0:00), the webcam panorama (live image from elt.eso.org, changes between captures) and the science carousel (auto-advances every 5 s, same mask as 1440)",
+  "capturesDropped": {
+    "masks": [
+      "350:60",
+      "1130:110",
+      "421:169"
+    ],
+    "edsUrl": "https://main--26c59ee1--aemcoder.aem.page/chile"
+  }
+}

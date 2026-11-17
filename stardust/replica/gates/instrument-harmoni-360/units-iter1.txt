@@ -1,0 +1,79 @@
+[live-session] waiting to pace live navigations to elt.eso.org (4000 ms apart, 1 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+unit-geometry @ 360px, tol 4px — https://elt.eso.org/instrument/HARMONI/ vs http://localhost:8791/instrument-harmoni-proposed.html
+unit 1 of footer-columns (required) footer .col-12=.site-footer__row > .footer-item: origin -15,12307 360×34 vs served -15,12307 360×34 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "eso" | 134,0 24×18 | 134,0 24×18 | 0 | 0 | 0 | 0 | ✓ |
+| text "2026" | 199,0 27×18 | 199,0 27×18 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of footer-columns (required) footer .col-12=.site-footer__row > .footer-item: origin -15,12341 360×55 vs served -15,12341 360×55 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "| | | | |" | 15,0 330×55 | 15,0 330×55 | 0 | 0 | 0 | 0 | ✓ |
+| link "credits" | 38,1 41×15 | 38,1 41×15 | 0 | 0 | 0 | 0 | ✓ |
+| link "contact us" | 98,1 61×15 | 98,1 61×15 | 0 | 0 | 0 | 0 | ✓ |
+| link "subscribe to eso news" | 178,1 128×15 | 178,1 128×15 | 0 | 0 | 0 | 0 | ✓ |
+| link "accelerated by cdn77" | 28,19 123×15 | 28,19 123×15 | 0 | 0 | 0 | 0 | ✓ |
+| link "cookie settings and policy" | 130,19 202×33 | 130,19 202×33 | 0 | 0 | 0 | 0 | ✓ |
+| link "terms & conditions" | 171,19 105×15 | 171,19 105×15 | 0 | 0 | 0 | 0 | ✓ |
+unit 1 of instrument-lightlink-rows (required) .lightlinks > .row=.lightlinks > .lightlink-row: origin 0,1317 360×521 vs served 0,1317 360×521 → Δx 0 Δy 0 Δw 0 Δh 0; 4 elements: 4 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:img.w-100#1" | 0,0 360×169 | 0,0 360×169 | 0 | 0 | 0 | 0 | ✓ |
+| link "link:a#1" | 0,74 360×19 | 0,74 360×19 | 0 | 0 | 0 | 0 | ✓ |
+| link "science with harmoni" | 38,117 266×31 | 38,117 266×31 | 0 | 0 | 0 | 0 | ✓ |
+| text "harmoni's versatility will allow ast" | 38,185 284×304 | 38,185 284×304 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of instrument-lightlink-rows (required) .lightlinks > .row=.lightlinks > .lightlink-row: origin 0,1838 360×402 vs served 0,1838 360×402 → Δx 0 Δy 0 Δw 0 Δh 0; 4 elements: 4 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:img.w-100#1" | 0,0 360×169 | 0,0 360×169 | 0 | 0 | 0 | 0 | ✓ |
+| link "link:a#1" | 0,74 360×19 | 0,74 360×19 | 0 | 0 | 0 | 0 | ✓ |
+| link "instrument design" | 38,117 203×31 | 38,117 203×31 | 0 | 0 | 0 | 0 | ✓ |
+| text "with its 3d spectroscopic capabiliti" | 38,185 284×185 | 38,185 284×185 | 0 | 0 | 0 | 0 | ✓ |
+unit 3 of instrument-lightlink-rows (required) .lightlinks > .row=.lightlinks > .lightlink-row: origin 0,2239 360×300 vs served 0,2239 360×300 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:img.w-100#1" | 0,0 360×169 | 0,0 360×169 | 0 | 0 | 0 | 0 | ✓ |
+| link "link:a#1" | 0,74 360×19 | 0,74 360×19 | 0 | 0 | 0 | 0 | ✓ |
+| link "tools and documents" | 38,117 244×31 | 38,117 244×31 | 0 | 0 | 0 | 0 | ✓ |
+| link "simulator" | 38,192 65×19 | 38,192 65×19 | 0 | 0 | 0 | 0 | ✓ |
+| link "top level requirements" | 38,242 165×19 | 38,242 165×19 | 0 | 0 | 0 | 0 | ✓ |
+unit 4 of instrument-lightlink-rows (required) .lightlinks > .row=.lightlinks > .lightlink-row: origin 0,2539 360×352 vs served 0,2539 360×352 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 5 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:img.w-100#1" | 0,0 360×169 | 0,0 360×169 | 0 | 0 | 0 | 0 | ✓ |
+| link "link:a#2" | 0,74 360×19 | 0,74 360×19 | 0 | 0 | 0 | 0 | ✓ |
+| link "instrument consortium and contacts" | 38,78 256×70 | 38,78 256×70 | 0 | 0 | 0 | 0 | ✓ |
+| text "harmoni is made possible through an " | 38,185 284×135 | 38,185 284×135 | 0 | 0 | 0 | 0 | ✓ |
+| link "international consortium" | 59,226 164×19 | 59,226 164×19 | 0 | 0 | 0 | 0 | ✓ |
+unit 1 of instrument-tech-rows (required) .page-section > .row.no-gutters=.tech-specs__list > .tech-row: origin 0,9646 360×81 vs served 0,9646 360×81 → Δx 0 Δy 0 Δw 0 Δh 0; 3 elements: 3 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:svg#1" | 0,0 360×48 | 0,0 360×48 | 0 | 0 | 0 | 0 | ✓ |
+| text "wavelength" | 36,7 80×33 | 36,7 80×33 | 0 | 0 | 0 | 0 | ✓ |
+| text "0.47—2.45 μm" | 0,48 360×33 | 0,48 360×33 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of instrument-tech-rows (required) .page-section > .row.no-gutters=.tech-specs__list > .tech-row: origin 0,9735 360×108 vs served 0,9735 360×108 → Δx 0 Δy 0 Δw 0 Δh 0; 3 elements: 3 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:svg#1" | 0,0 360×48 | 0,0 360×48 | 0 | 0 | 0 | 0 | ✓ |
+| text "spectral resolution" | 36,7 127×33 | 36,7 127×33 | 0 | 0 | 0 | 0 | ✓ |
+| text "~3,500, 7,500, and 18,000 in the nir" | 0,55 360×46 | 0,55 360×46 | 0 | 0 | 0 | 0 | ✓ |
+unit 3 of instrument-tech-rows (required) .page-section > .row.no-gutters=.tech-specs__list > .tech-row: origin 0,9851 360×108 vs served 0,9851 360×108 → Δx 0 Δy 0 Δw 0 Δh 0; 3 elements: 3 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:svg#1" | 0,0 360×48 | 0,0 360×48 | 0 | 0 | 0 | 0 | ✓ |
+| text "simultaneous spectral range" | 36,7 195×33 | 36,7 195×33 | 0 | 0 | 0 | 0 | ✓ |
+| text "at least one band at a time r~7,500 " | 10,55 340×46 | 10,55 340×46 | 0 | 0 | 0 | 0 | ✓ |
+unit 4 of instrument-tech-rows (required) .page-section > .row.no-gutters=.tech-specs__list > .tech-row: origin 0,9968 360×81 vs served 0,9968 360×81 → Δx 0 Δy 0 Δw 0 Δh 0; 3 elements: 3 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:svg#1" | 0,0 360×48 | 0,0 360×48 | 0 | 0 | 0 | 0 | ✓ |
+| text "field(s)-of-view" | 36,7 103×33 | 36,7 103×33 | 0 | 0 | 0 | 0 | ✓ |
+| text "four, corresponding to different spa" | 26,55 308×19 | 26,55 308×19 | 0 | 0 | 0 | 0 | ✓ |
+unit 5 of instrument-tech-rows (required) .page-section > .row.no-gutters=.tech-specs__list > .tech-row: origin 0,10057 360×81 vs served 0,10057 360×81 → Δx 0 Δy 0 Δw 0 Δh 0; 3 elements: 3 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:svg#1" | 0,0 360×48 | 0,0 360×48 | 0 | 0 | 0 | 0 | ✓ |
+| text "ao" | 36,7 22×33 | 36,7 22×33 | 0 | 0 | 0 | 0 | ✓ |
+| text "ltao and scao" | 123,55 114×19 | 123,55 114×19 | 0 | 0 | 0 | 0 | ✓ |
+Units: 11 compared; elements within 42, off 0, hidden 0, missing 0 → PASS
+json → stardust/replica/gates/instrument-harmoni-360/units-iter1.json

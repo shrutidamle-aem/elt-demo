@@ -1,0 +1,367 @@
+{
+ "source": "file:///workspace/26c59ee1/stardust/prototypes/about-road-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "container-light",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "The 100 m OWL"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Share on Facebook",
+     "href": "https://www.facebook.com/sharer/sharer.php?u=https://elt.eso.org/about/road/"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "E-Mail",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Copy Link",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Share on LinkedIn",
+     "href": "https://www.linkedin.com/sharing/share-offsite/?url=https://elt.eso.org/about/road/"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "ESO started pursuing a conceptual study for a giant optical-infrared telescope with a primary mirror diameter up to 100 metres in 1998. This was dubbed the OverWhelmingly Large telescope or OWL, in reference to the keen night vision of the bird of the same name and the size of the telescope. What started as a low-key evaluation of the main promises and challenges associated with such a daring endeavour picked up considerable momentum, leading to the OWL Conceptual Study for a 100 m telescope. The study was concluded by the end of 2005 with the publication of the and a review by an international panel, which, based on the substantial technical risks identified, considering a smaller diameter, less complex, and less risky extremely large telescope — ELT."
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "OWL Blue Book",
+     "href": "https://www.eso.org/sci/facilities/eelt/owl/Phase_A_Review.html"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "recommended",
+     "href": "https://www.eso.org/sci/publications/messenger/archive/no.123-mar06/messenger-no123-4-5.pdf"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "In the meantime, in December 2004, the ESO Council defined ESO’s highest priority strategic goal as “the retention of European astronomical leadership and excellence in the era of ELTs”, asking that “the construction of an ELT on a competitive timescale be addressed by radical strategic planning”. Following the work done through the OWL project, ESO conducted a new study in 2006, produced with the help of more than 100 astronomers, to carefully evaluate performance, cost, schedule and risk. In November 2006, the results were subject to detailed discussions by more than 250 European astronomers at a in Marseille. Their enthusiastic welcome paved the way for the ESO Council’s decision to move to the crucial next phase of detailed design of the full facility."
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "conference",
+     "href": "https://www.eso.org/public/images/e-elt_marseillenov20/"
+    }
+   ],
+   "imgCount": 7,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.container-paragraph",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 6,
+      "textRuns": 5
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "P.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 2,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "container-light",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Designing the ELT"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "At the end of 2006, the European Strategy Forum on Research Infrastructures the ELT as one of the large-scale projects to be conducted in astronomy and the only one in optical astronomy. ESO had already begun developing an , a detailed, hands-on exploration of selected science cases which analysed simulated ELT data and was completed in 2010. ESO also collated cases from the astronomy community in the ELT , aimed at exploring the full range of science cases the ELT will be used for. The was completed in 2010, a year which also saw Cerro Armazones as the ELT site and the ELT its “Phase B” final design review, with the 39 m concept becoming the baseline design. At the end of 2011, the was published and ESO Council the 2012 budget, which contained funding for preparatory work on the road to the ELT site at Cerro Armazones and development started on some very challenging optical components for the telescope."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "chose",
+     "href": "https://www.eso.org/public/news/eso0640/"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "ELT Design Reference Mission",
+     "href": "https://www.eso.org/sci/facilities/eelt/science/drm/"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Design Reference Science Plan",
+     "href": "https://www.eso.org/sci/facilities/eelt/science/drsp/drsp_report.pdf"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Design Reference Mission report",
+     "href": "https://www.eso.org/sci/facilities/eelt/science/drm/drm_report.pdf"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "selected",
+     "href": "https://www.eso.org/public/news/eso1018/"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "passing",
+     "href": "https://www.eso.org/sci/facilities/eelt/docs/E-ELT-PhaseB-BoardReport_ExecSummary.pdf"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "ELT Construction Proposal",
+     "href": "https://www.eso.org/sci/facilities/eelt/docs/e-elt_constrproposal.pdf"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "approved",
+     "href": "https://www.eso.org/public/news/eso1150/"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "DIV.container-paragraph",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "container-light",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Selecting the ELT’s Instruments"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "The development of the ELT science case was accompanied from the start by an evolving instrument suite selected to achieve the scientific goals of the project. The instrument concepts were defined so that they covered all key science cases defined for the ELT. In 2009, the Science Working Group defined the scientific criteria by which the instruments would be assessed for suitability. The group evaluated first-light instruments for their immediate scientific impact, their complementarity with existing high-impact facilities, their scientific flexibility, their secure scientific return and against their coverage of the expected atmospheric conditions. The first-light pair of a diffraction-limited, near-infrared camera ( ) and a wideband, integral-field spectrograph ( ), including the adaptive optics systems ( for MICADO and LTAO for HARMONI) required to deliver their science cases, emerged as the clear preference in 2010. The next three instruments, a mid-infrared imager and spectrometer ( ), a high dispersion echelle spectrograph ( ) and a multi-object spectrometer ( ), were considered of equal scientific importance."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "MICADO",
+     "href": "/instrument/MICADO/"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "HARMONI",
+     "href": "/instrument/HARMONI/"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "MORFEO",
+     "href": "/instrument/MORFEO/"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "METIS",
+     "href": "/instrument/METIS/"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "ANDES",
+     "href": "/instrument/ANDES/"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "MOSAIC",
+     "href": "/instrument/MOSAIC/"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "DIV.container-paragraph",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "container-light",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "The Green Light for the ELT"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "With the project entering its construction phase, the Science Working Group was disbanded after its final meeting in February 2012 and a new group, the , was appointed that June. The ESO Council approved the ELT programme in December of the same year."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "ELT Project Science Team",
+     "href": "/about/team/"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "In June 2014, part of the 3000-metre peak of Cerro Armazones was blasted away during a groundbreaking ceremony; the first step towards levelling the summit ready for construction. In December 2014 the ESO Council gave the green light for the ELT construction in two phases."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Following the recommendations of the ESO and , in July 2015 the ESO Council authorised the Director General to sign the contracts for the first set of instruments for the ELT, (MICADO, MORFEO, HARMONI and METIS)."
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Finance Committee",
+     "href": "https://www.eso.org/public/about-eso/committees/fc/fc2015.html"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Scientific Technical Committee",
+     "href": "https://www.eso.org/public/about-eso/committees/stc/stc2015.html"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "In May 2016, ESO signed a contract with the ACe Consortium for the construction of the ELT’s dome and telescope structure. This was the largest contract ever awarded by ESO and in fact in ground-based astronomy more generally. Many more contracts have followed since, including those for the ELT secondary and tertiary mirrors, mirror cells, and edge sensors (January 2017), that for the 39-metre primary mirror (May 2017) and the M5 mirror (March 2019)."
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 4,
+   "repeats": [
+    {
+     "unitSelector": "DIV.container-paragraph",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "P.",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "container-light",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Historical Documents"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "ELT Science Case Documents",
+     "href": "https://www.eso.org/sci/facilities/eelt/science/doc/"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "ELT Publications and Documentation",
+     "href": "https://www.eso.org/sci/facilities/eelt/docs/"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "List of ELT Science Publications until 2015",
+     "href": "https://www.eso.org/sci/facilities/eelt/science/publications.html"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "DIV.container-paragraph",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "P.",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  }
+ ]
+}

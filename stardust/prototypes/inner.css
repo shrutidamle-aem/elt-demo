@@ -1,0 +1,86 @@
+/*
+ * inner.css — rules shared by every inner (non-landing) page of the elt.eso.org replica.
+ * Link AFTER canon.css and BEFORE the per-archetype file. Holds only the inner-page rules the
+ * listing archetype (telescope) proved: hero title, active sub-menu entry, the link-colour
+ * override of canon's `a, a:hover { color: #fff }` inside light sections, share icons + share
+ * dropdown, and the Bootstrap reboot svg alignment. Values from elt_assets.66fa71510905.css (Lnnnnn).
+ */
+
+/* Active sub-menu entry (L20037 over Bootstrap L4369) */
+.dropdown-item.active { color: rgba(255, 255, 255, 0.9); background-color: transparent; border-color: #ef3c3c; }
+
+/* Inner-page hero title (big-header frame lives in canon) — L16689… */
+.big-header-title {
+  position: absolute;
+  margin: 0;
+  font-size: 1.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-shadow: 2px 0 black;
+  bottom: 14%;
+  left: 10.5%;
+  right: 10.5%;
+}
+@media only screen and (min-width: 576px)  { .big-header-title { font-size: 2.15625rem; } }
+@media only screen and (min-width: 768px)  { .big-header-title { font-size: 2.40625rem; } }
+@media only screen and (min-width: 992px)  { .big-header-title { font-size: 2.71875rem; } }
+@media only screen and (min-width: 1200px) { .big-header-title { font-size: 3rem; } }
+@media only screen and (min-width: 1440px) { .big-header-title { font-size: 3.34375rem; } }
+@media only screen and (min-width: 1680px) { .big-header-title { font-size: 3.6875rem; } }
+@media only screen and (min-width: 1920px) { .big-header-title { font-size: 4rem; } }
+
+/* Link colours inside light sections — overrides canon's `a, a:hover { color: #fff }` (L19621 frame) */
+.container-light a { color: var(--esoblue); }
+.container-light a:hover { color: #0056b3; }
+
+/* Share icons + share dropdown (L15806–L15890) */
+.share { display: flex; }
+.share-social-media-icons {
+  padding: 0 0.3rem;
+  transform: scale(0.95);
+  transition: all 0.5s ease;
+}
+.share-social-media-icons:hover { transform: scale(1.05); }
+.share-menu { position: relative; display: flex; }
+.share-social-media { cursor: pointer; }
+.share-social-media-dropdown {
+  position: absolute;
+  top: 100%;
+  right: -25px;
+  width: 350px;
+  z-index: 100;
+  background: transparent;
+  transform: scale(1, 0);
+  transition: all 0.5s ease;
+}
+.share-social-media-dropdown:hover,
+.share-social-media:hover ~ .share-social-media-dropdown { transform: scale(1, 1); }
+.share-social-media-dropdown-icons {
+  position: relative;
+  margin-top: 2.5rem;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  background: rgb(232, 232, 232);
+  box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.3);
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0 12px;
+}
+.share-social-media-dropdown-icons::before {
+  content: '';
+  position: absolute;
+  width: 0; height: 0;
+  bottom: 99%; right: 25px;
+  border: 18px solid transparent;
+  border-top: none;
+  border-bottom-color: rgb(232, 232, 232);
+  filter: drop-shadow(0 -4px 3px rgba(0, 0, 0, .3));
+}
+.share-social-media-dropdown-icons a { color: var(--esoblue); }
+.share-social-media-dropdown-icons a img { transform: scale(0.95); transition: all 0.5s ease; }
+.share-social-media-dropdown-icons a:hover img { transform: scale(1.05); }
+.share-social-media-dropdown-text { font-size: 14px; }
+
+/* Bootstrap reboot `svg { overflow: hidden; vertical-align: middle }` (L118) */
+svg { overflow: hidden; vertical-align: middle; }

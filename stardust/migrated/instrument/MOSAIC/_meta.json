@@ -1,0 +1,271 @@
+{
+  "slug": "instrument-mosaic",
+  "type": "instrument",
+  "renderBranch": "A'",
+  "template": "instrument-harmoni",
+  "modules": [
+    "big-header",
+    "page-intro",
+    "share-bar",
+    "text-section",
+    "subpage-tiles",
+    "tech-table"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "big-header-text",
+    "navbar",
+    "container-fluid",
+    "container-fluid",
+    "container-fluid",
+    "container-fluid",
+    "container-fluid",
+    "container-fluid",
+    "container-fluid",
+    "container-fluid"
+  ],
+  "canonShas": {
+    "header": null,
+    "footer": "df97728fd0f7",
+    "css": "7a5011377ec8"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "HARMONI | ELT | ESO",
+    "description": "The Extremely Large Telescope: The World&#x27;s Biggest Eye On The Sky",
+    "canonical": null,
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "HARMONI | ELT | ESO",
+    "description": "The Extremely Large Telescope: The World&#x27;s Biggest Eye On The Sky",
+    "url": "https://elt.eso.org/instrument/MOSAIC/"
+  },
+  "migratedAt": "2026-11-13T18:19:42Z",
+  "designMdSha": "bcd81ac1bff9",
+  "designJsonSha": "1687cec3d675",
+  "sourceCurrentSha": "ec63832f2c02",
+  "sourceProposedSha": "bc2a6dc2b763",
+  "fidelityTier": "sibling",
+  "archetypeSource": "instrument-harmoni",
+  "archetypeSha": "cf4a2c7ee2b3",
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 12,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/chile/telescope/?lang",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/about/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/about/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/telescope/structure/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/mirror/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/mirror/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/mirror/M1/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/mirror/M2M3/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/mirror/M4/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/mirror/M5/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/telescope/adaptiveoptics/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/telescope/prefocal/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/telescope/controls/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/telescope/operations/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/instrument/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/instrument/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/science/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/science/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/science/solarsystem/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/science/exoplanets/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/science/stars/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/science/blackholes/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/science/galaxies/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/science/cosmodm/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/science/fundamentalphysics/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/science/discoveries/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/about/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/about/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/telescope/structure/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/mirror/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/mirror/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/mirror/M1/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/mirror/M2M3/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/mirror/M4/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/mirror/M5/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/telescope/adaptiveoptics/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/telescope/prefocal/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/telescope/controls/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/telescope/operations/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/instrument/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/instrument/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/science/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/science/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/science/solarsystem/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/science/exoplanets/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/science/stars/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/science/blackholes/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/science/galaxies/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/science/cosmodm/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/science/fundamentalphysics/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/science/discoveries/",
+      "reason": "in-inventory-not-migrated"
+    }
+  ],
+  "outputPath": "instrument/MOSAIC/index.html",
+  "outputPathDefault": null,
+  "sidecar": "instrument/MOSAIC/_meta.json",
+  "driverVersion": "1"
+}

@@ -1,0 +1,30 @@
+[live-session] waiting to pace live navigations to main--26c59ee1--aemcoder.aem.page (15000 ms apart, 1 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+content-presence @ 1440px (chrome) — origin https://elt.eso.org/ (docH 3168, 157 items, HTTP 200) vs served https://main--26c59ee1--aemcoder.aem.page/ (docH 3168, 55 items, HTTP 200)
+scope: whole page (one side has no <main> / --main root) (header/footer left to the chrome crop gate; --chrome to include)
+| band | heading | links O/E (+hidden) | buttons O/E (+hidden) | text O/E | images O/E | findings |
+|---|---|---|---|---|---|---|
+| 0 | (top) | 22/13 | 13/10 | 77/3 | 12/7 | MISSING HEADING, MISSING LINK, EXTRA LINK, MISSING BUTTON, COUNT TEXT, COUNT IMAGES |
+  🔴 MISSING HEADING: h1 "eso cookies policy" (origin y 1006) has no served heading
+  🔴 MISSING HEADING: h2 "what are cookies?" (origin y 1238) has no served heading
+  🔴 MISSING HEADING: h2 "categories of cookies we use" (origin y 1348) has no served heading
+  🔴 MISSING HEADING: h1 "our use of cookies" (origin y 1544) has no served heading
+  🔴 MISSING LINK: "eso on facebook" → /ESOAstronomy in band "(top)" (origin y 11) not on the served page
+  🔴 MISSING LINK: "eso on instagram" → /esoastronomy/ in band "(top)" (origin y 11) not on the served page
+  🔴 MISSING LINK: "eso on linkedin" → /company/european-southern-observatory in band "(top)" (origin y 11) not on the served page
+  🔴 MISSING LINK: "eso on youtube" → /channel/UCIhYoC2VIAJqCkoIWNHBQ3Q in band "(top)" (origin y 11) not on the served page
+  🔴 MISSING LINK: "search" → / in band "(top)" (origin y 2) not on the served page
+  🔴 MISSING LINK: "fundamental physics" → /science/ in band "(top)" (origin y 1807) not on the served page
+  🔴 MISSING LINK: "youtube" → /t/terms in band "(top)" (origin y 2869) not on the served page
+  🔴 MISSING LINK: "eso’s official youtube channel" → /channel/UCIhYoC2VIAJqCkoIWNHBQ3Q in band "(top)" (origin y 2869) not on the served page
+  🔴 MISSING LINK: "embedding videos information page" → /youtube/answer/171780 in band "(top)" (origin y 2917) not on the served page
+  🟠 MISSING BUTTON: "accept all" in band "(top)" (origin y 1728) not on the served page
+  🟠 MISSING BUTTON: "accept only essential cookies" in band "(top)" (origin y 1728) not on the served page
+  🟠 MISSING BUTTON: "cookie settings and policy" in band "(top)" (origin y 1728) not on the served page
+  🟡 EXTRA HEADING: served h1 "the extremely large telescope" (y 480) has no origin heading
+  🟡 EXTRA LINK: "black holes" served in band "(top)", no origin link or button
+  🟡 COUNT TEXT: band "(top)": 77 origin → 3 served visible
+  🟡 COUNT IMAGES: band "(top)": 12 origin → 7 served visible
+Content: MISSING 13 (headings 4, links 9) / HIDDEN 0 (headings 0, links 0) / control-state 0 / buttons missing 3 hidden 0 / moved 0 extra 1 / count deltas 2
+Findings: 20 (13 structural 🔴)
+Clipped (served side): 0 — origin side 0
+json → stardust/replica/gates/index-1440/content-presence-pub3.json

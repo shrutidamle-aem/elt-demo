@@ -1,0 +1,457 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-13T16:23:46.716Z",
+  "tol": 4,
+  "n": 4,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://elt.eso.org/about/road/",
+  "at": "2026-11-13T16:23:26.571Z",
+  "docH": 5566
+ },
+ "eds": {
+  "url": "https://main--26c59ee1--aemcoder.aem.page/about/road",
+  "at": "2026-11-13T16:23:46.568Z",
+  "docH": 5566
+ },
+ "results": [
+  {
+   "sel": "footer .col-12=.site-footer__row > .footer-item",
+   "family": "footer-columns",
+   "required": true,
+   "originMatches": 2,
+   "edsMatches": 0,
+   "units": [],
+   "error": "no visible unit on the served side (2 / 0 DOM matches)"
+  },
+  {
+   "sel": ".page-section > .m-0=.page-section > .article-image",
+   "family": "article-image-rows",
+   "required": true,
+   "originMatches": 4,
+   "edsMatches": 4,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div#nutshell > div.m-0"
+     },
+     "eds": {
+      "path": "div.text-section-wrapper > div.text-section.bleed > figure.article-image"
+     },
+     "rows": [
+      {
+       "key": "link:a.d-flex.align-items-center#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 169
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 169,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:img#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 169
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 169,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 1500,
+       "w": 360,
+       "h": 173
+      },
+      "eds": {
+       "x": 0,
+       "y": 1499,
+       "w": 360,
+       "h": 173
+      },
+      "dx": 0,
+      "dy": -1,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div#about-road-designing > div.m-0.container-paragraph"
+     },
+     "eds": {
+      "path": "div.text-section-wrapper > div.text-section.block > figure.article-image"
+     },
+     "rows": [
+      {
+       "key": "link:a.d-flex.align-items-center#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 38,
+        "y": 0,
+        "w": 284,
+        "h": 124
+       },
+       "eds": {
+        "x": 38,
+        "y": 0,
+        "w": 284,
+        "h": 124,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:img#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 38,
+        "y": 0,
+        "w": 284,
+        "h": 124
+       },
+       "eds": {
+        "x": 38,
+        "y": 0,
+        "w": 284,
+        "h": 124,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 2606,
+       "w": 360,
+       "h": 128
+      },
+      "eds": {
+       "x": 0,
+       "y": 2606,
+       "w": 360,
+       "h": 128
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div#about-road-selecting > div.m-0.container-paragraph"
+     },
+     "eds": {
+      "path": "div.text-section-wrapper > div.text-section.block > figure.article-image"
+     },
+     "rows": [
+      {
+       "key": "link:a.d-flex.align-items-center#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 38,
+        "y": 0,
+        "w": 284,
+        "h": 120
+       },
+       "eds": {
+        "x": 38,
+        "y": 0,
+        "w": 284,
+        "h": 121,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 1,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:img#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 38,
+        "y": 0,
+        "w": 284,
+        "h": 120
+       },
+       "eds": {
+        "x": 38,
+        "y": 0,
+        "w": 284,
+        "h": 121,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 1,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 3734,
+       "w": 360,
+       "h": 124
+      },
+      "eds": {
+       "x": 0,
+       "y": 3733,
+       "w": 360,
+       "h": 124
+      },
+      "dx": 0,
+      "dy": -1,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div#about-road-green > div.m-0.container-paragraph"
+     },
+     "eds": {
+      "path": "div.text-section-wrapper > div.text-section.block > figure.article-image"
+     },
+     "rows": [
+      {
+       "key": "link:a.d-flex.align-items-center#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 38,
+        "y": 0,
+        "w": 284,
+        "h": 132
+       },
+       "eds": {
+        "x": 38,
+        "y": 0,
+        "w": 284,
+        "h": 132,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:img#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 38,
+        "y": 0,
+        "w": 284,
+        "h": 132
+       },
+       "eds": {
+        "x": 38,
+        "y": 0,
+        "w": 284,
+        "h": 132,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 5033,
+       "w": 360,
+       "h": 136
+      },
+      "eds": {
+       "x": 0,
+       "y": 5033,
+       "w": 360,
+       "h": 136
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 4,
+  "within": 8,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 1,
+  "requiredOff": 0
+ }
+}

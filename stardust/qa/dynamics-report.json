@@ -1,0 +1,179 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics check",
+  "writtenAt": "2026-11-14T04:16:03.715Z",
+  "origin": "https://main--26c59ee1--aemcoder.aem.live",
+  "parity": "stardust/dynamics/parity.json",
+  "contract": "stardust/martech-contract.json"
+ },
+ "results": [
+  {
+   "feature": "Swiper carousels (home science slider, facts and media carousels)",
+   "id": "carousel-swiper",
+   "class": "CR",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "25 × .carousel .swiper-slide, .carousel [class*=slide] (min 3)",
+   "thirdParty": "cdn.eso.org:206×1 elt.eso.org:200×1",
+   "ms": 3272,
+   "environmentLimit": null
+  },
+  {
+   "feature": "Swiper carousels (home science slider, facts and media carousels)",
+   "id": "carousel-swiper",
+   "class": "CR",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "2 × .carousel (min 2)",
+   "thirdParty": "",
+   "ms": 2183,
+   "environmentLimit": null
+  },
+  {
+   "feature": "Webcam stills + 360° panoramas",
+   "id": "webcam-stills",
+   "class": "D",
+   "status": "interim",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "1 × .webcam-panel img (min 1)",
+   "thirdParty": "cdn.eso.org:206×1 elt.eso.org:200×1",
+   "ms": 2175,
+   "environmentLimit": null
+  },
+  {
+   "feature": "Webcam stills + 360° panoramas",
+   "id": "webcam-stills",
+   "class": "D",
+   "status": "interim",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "14 × main img (min 12)",
+   "thirdParty": "elt.eso.org:200×4",
+   "ms": 4394,
+   "environmentLimit": null
+  },
+  {
+   "feature": "Header search form → results page",
+   "id": "site-search",
+   "class": "S",
+   "status": "done",
+   "type": "search-query",
+   "pass": true,
+   "detail": "10 results · first: harmoni · matches the source",
+   "thirdParty": "",
+   "ms": 2287,
+   "environmentLimit": "the source search is a hosted web-search box over all of elt.eso.org incl. the Spanish tree (HARMONI: about 76 results; Webcams: about 133); the new search covers the 43 delivered pages, so result counts are not comparable — top title and a known hit are asserted instead"
+  },
+  {
+   "feature": "Header search form → results page",
+   "id": "site-search",
+   "class": "S",
+   "status": "done",
+   "type": "search-query",
+   "pass": true,
+   "detail": "4 results · first: webcams · matches the source",
+   "thirdParty": "",
+   "ms": 2122,
+   "environmentLimit": "the source search is a hosted web-search box over all of elt.eso.org incl. the Spanish tree (HARMONI: about 76 results; Webcams: about 133); the new search covers the 43 delivered pages, so result counts are not comparable — top title and a known hit are asserted instead"
+  },
+  {
+   "feature": "Header search form → results page",
+   "id": "site-search",
+   "class": "S",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "1 × header form[action='/search'] input[name='q'] (min 1)",
+   "thirdParty": "cdn.eso.org:206×1 elt.eso.org:200×1",
+   "ms": 2087,
+   "environmentLimit": "the source search is a hosted web-search box over all of elt.eso.org incl. the Spanish tree (HARMONI: about 76 results; Webcams: about 133); the new search covers the 43 delivered pages, so result counts are not comparable — top title and a known hit are asserted instead"
+  },
+  {
+   "feature": "English / Español switch",
+   "id": "language-switch",
+   "class": "I18N",
+   "status": "interim",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "1 × header a[href*='chile'] (min 1)",
+   "thirdParty": "cdn.eso.org:206×1 elt.eso.org:200×1",
+   "ms": 2098,
+   "environmentLimit": null
+  },
+  {
+   "feature": "Social share dropdown",
+   "id": "share-dropdown",
+   "class": "R",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "5 × .share-bar a, .share-bar button (min 4)",
+   "thirdParty": "",
+   "ms": 2089,
+   "environmentLimit": null
+  },
+  {
+   "feature": "Top/secondary nav dropdowns + mobile toggler",
+   "id": "nav-dropdowns",
+   "class": "R",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "39 × header .dropdown-menu a (min 30)",
+   "thirdParty": "cdn.eso.org:206×1 elt.eso.org:200×1",
+   "ms": 2116,
+   "environmentLimit": null
+  },
+  {
+   "feature": "YouTube (privacy-enhanced) player",
+   "id": "youtube-embed",
+   "class": "V",
+   "status": "done",
+   "type": "video-plays",
+   "pass": true,
+   "detail": "iframe/video: true · no <video> · playback requests 8 (ok)",
+   "thirdParty": "www.youtube-nocookie.com:200×7 fonts.gstatic.com:200×1 www.google.com:200×1 i.ytimg.com:200×1 www.youtube-nocookie.com:204×1 jnn-pa.googleapis.com:200×1 yt3.ggpht.com:200×1 www.gstatic.com:200×1",
+   "ms": 7062,
+   "environmentLimit": null
+  },
+  {
+   "feature": "Video thumbnails opening eso.org video pages",
+   "id": "video-triggers",
+   "class": "CR",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "23 × a[href*='eso.org/public/videos'] (min 10)",
+   "thirdParty": "",
+   "ms": 2097,
+   "environmentLimit": null
+  },
+  {
+   "feature": "no uncaught errors on the archetypes",
+   "id": "page-errors",
+   "class": "R",
+   "status": "done",
+   "type": "no-page-errors",
+   "pass": true,
+   "detail": "none on 9 page(s)",
+   "thirdParty": "",
+   "ms": 17756,
+   "environmentLimit": null
+  },
+  {
+   "feature": "martech: consent + tag routing",
+   "id": "martech",
+   "class": "T",
+   "status": "scaffolded-off",
+   "type": "martech",
+   "pass": true,
+   "detail": "no tag host requested (1 gated · 0 cross-site host(s) blocked)",
+   "thirdParty": "",
+   "ms": 6209,
+   "environmentLimit": null
+  }
+ ]
+}

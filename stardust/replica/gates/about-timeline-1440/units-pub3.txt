@@ -1,0 +1,183 @@
+unit-geometry @ 1440px, tol 4px — https://elt.eso.org/about/timeline/ vs https://main--26c59ee1--aemcoder.aem.page/about/timeline
+footer .col-12=.site-footer__row > .footer-item: no visible unit on the served side (2 / 0 DOM matches)
+unit 1 of timeline-cards (required) .timeline-content=.timeline-content: origin 73,814 612×356 vs served 73,814 612×356 → Δx 0 Δy 0 Δw 0 Δh 0; 3 elements: 3 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "2030 (planned)" | 20,25 252×48 | 20,25 254×48 | 0 | 0 | +2 | 0 | ✓ |
+| text "scientific first light" | 20,79 572×115 | 20,79 572×115 | 0 | 0 | 0 | 0 | ✓ |
+| text "the first observations with scientif" | 20,194 572×126 | 20,194 572×126 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of timeline-cards (required) .timeline-content=.timeline-content: origin 755,1210 612×314 vs served 755,1210 612×314 → Δx 0 Δy 0 Δw 0 Δh 0; 3 elements: 3 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "2029 (planned)" | 20,25 252×48 | 20,25 254×48 | 0 | 0 | +2 | 0 | ✓ |
+| text "telescope first light" | 20,79 572×115 | 20,79 572×115 | 0 | 0 | 0 | 0 | ✓ |
+| text "the elt is set to make its first tes" | 20,194 572×84 | 20,194 572×84 | 0 | 0 | 0 | 0 | ✓ |
+unit 3 of timeline-cards (required) .timeline-content=.timeline-content: origin 73,1564 612×417 vs served 73,1564 612×417 → Δx 0 Δy 0 Δw 0 Δh 0; 3 elements: 3 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "2028 (planned)" | 20,25 252×48 | 20,25 254×48 | 0 | 0 | +2 | 0 | ✓ |
+| text "main mirror segments installation" | 20,79 572×176 | 20,79 572×176 | 0 | 0 | 0 | 0 | ✓ |
+| text "the installation of the 798 segments" | 20,255 572×126 | 20,255 572×126 | 0 | 0 | 0 | 0 | ✓ |
+unit 4 of timeline-cards (required) .timeline-content=.timeline-content: origin 755,2020 612×356 vs served 755,2020 612×356 → Δx 0 Δy 0 Δw 0 Δh 0; 3 elements: 3 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "2028 (planned)" | 20,25 252×48 | 20,25 254×48 | 0 | 0 | +2 | 0 | ✓ |
+| text "m5 mirror complete" | 20,79 572×115 | 20,79 572×115 | 0 | 0 | 0 | 0 | ✓ |
+| text "m5 is the fifth mirror in the elt li" | 20,194 572×126 | 20,194 572×126 | 0 | 0 | 0 | 0 | ✓ |
+unit 5 of timeline-cards (required) .timeline-content=.timeline-content: origin 73,2416 612×417 vs served 73,2416 612×417 → Δx 0 Δy 0 Δw 0 Δh 0; 3 elements: 3 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "2028 (planned)" | 20,25 252×48 | 20,25 254×48 | 0 | 0 | +2 | 0 | ✓ |
+| text "m4 adaptive unit complete" | 20,79 572×176 | 20,79 572×176 | 0 | 0 | 0 | 0 | ✓ |
+| text "m4 is the fourth mirror in the elt l" | 20,255 572×126 | 20,255 572×126 | 0 | 0 | 0 | 0 | ✓ |
+unit 6 of timeline-cards (required) .timeline-content=.timeline-content: origin 755,2873 612×314 vs served 755,2873 612×314 → Δx 0 Δy 0 Δw 0 Δh 0; 3 elements: 3 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "2027 (planned)" | 20,25 252×48 | 20,25 254×48 | 0 | 0 | +2 | 0 | ✓ |
+| text "tertiary mirror complete" | 20,79 572×115 | 20,79 572×115 | 0 | 0 | 0 | 0 | ✓ |
+| text "m3, the third mirror in the elt’s li" | 20,194 572×84 | 20,194 572×84 | 0 | 0 | 0 | 0 | ✓ |
+unit 7 of timeline-cards (required) .timeline-content=.timeline-content: origin 73,3227 612×356 vs served 73,3227 612×356 → Δx 0 Δy 0 Δw 0 Δh 0; 3 elements: 3 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "2027 (planned)" | 20,25 252×48 | 20,25 254×48 | 0 | 0 | +2 | 0 | ✓ |
+| text "dome complete" | 20,79 572×115 | 20,79 572×115 | 0 | 0 | 0 | 0 | ✓ |
+| text "the elt dome is the largest telescop" | 20,194 572×126 | 20,194 572×126 | 0 | 0 | 0 | 0 | ✓ |
+unit 8 of timeline-cards (required) .timeline-content=.timeline-content: origin 755,3623 612×417 vs served 755,3623 612×417 → Δx 0 Δy 0 Δw 0 Δh 0; 3 elements: 3 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "2027 (planned)" | 20,25 252×48 | 20,25 254×48 | 0 | 0 | +2 | 0 | ✓ |
+| text "telescope structure complete" | 20,79 572×176 | 20,79 572×176 | 0 | 0 | 0 | 0 | ✓ |
+| text "the main structure of the elt telesc" | 20,255 572×126 | 20,255 572×126 | 0 | 0 | 0 | 0 | ✓ |
+unit 9 of timeline-cards (required) .timeline-content=.timeline-content: origin 73,4080 612×417 vs served 73,4080 612×417 → Δx 0 Δy 0 Δw 0 Δh 0; 3 elements: 3 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "2026" | 20,25 87×48 | 20,25 84×48 | 0 | 0 | -3 | 0 | ✓ |
+| text "secondary mirror complete" | 20,79 572×176 | 20,79 572×176 | 0 | 0 | 0 | 0 | ✓ |
+| text "with a diameter of 4.25 metres, elt'" | 20,255 572×126 | 20,255 572×126 | 0 | 0 | 0 | 0 | ✓ |
+unit 10 of timeline-cards (required) .timeline-content=.timeline-content: origin 755,4537 612×478 vs served 755,4537 612×478 → Δx 0 Δy 0 Δw 0 Δh 0; 3 elements: 3 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "jan 2024" | 20,25 158×48 | 20,25 155×48 | 0 | 0 | -3 | 0 | ✓ |
+| text "first segments of elt’s main mirror " | 20,79 572×237 | 20,79 572×237 | 0 | 0 | 0 | 0 | ✓ |
+| text "the first 18 of the 798 segments for" | 20,316 572×126 | 20,316 572×126 | 0 | 0 | 0 | 0 | ✓ |
+unit 11 of timeline-cards (required) .timeline-content=.timeline-content: origin 73,5055 612×356 vs served 73,5055 612×356 → Δx 0 Δy 0 Δw 0 Δh 0; 4 elements: 2 within 4px, 1 off, 0 hidden, 1 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "jul 2023 elt half completed in 2023," | 20,48 572×272 | 20,25 143×48 | 0 | -23 | -429 | -224 | ✗ |
+| text "elt half completed" | 20,79 572×115 | 20,79 572×115 | 0 | 0 | 0 | 0 | ✓ |
+| text "in 2023, the elt surpassed an import" | 20,194 572×126 | 20,194 572×126 | 0 | 0 | 0 | 0 | ✓ |
+| text "jul 2023" | 20,25 145×48 | — | | | | | ✗ missing |
+unit 12 of timeline-cards (required) .timeline-content=.timeline-content: origin 755,5450 612×562 vs served 755,5450 612×562 → Δx 0 Δy 0 Δw 0 Δh 0; 4 elements: 2 within 4px, 1 off, 0 hidden, 1 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "aug 2019 first 18 elt primary mirror" | 20,48 572×478 | 20,25 162×48 | 0 | -23 | -410 | -430 | ✗ |
+| text "first 18 elt primary mirror blanks a" | 20,79 572×237 | 20,79 572×237 | 0 | 0 | 0 | 0 | ✓ |
+| text "manufactured by schott, the first m1" | 20,316 572×210 | 20,316 572×210 | 0 | 0 | 0 | 0 | ✓ |
+| text "aug 2019" | 20,25 165×48 | — | | | | | ✗ missing |
+unit 13 of timeline-cards (required) .timeline-content=.timeline-content: origin 73,6052 612×375 vs served 73,6052 612×375 → Δx 0 Δy 0 Δw 0 Δh 0; 4 elements: 2 within 4px, 1 off, 0 hidden, 1 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "may 2018 dome and main structure sta" | 20,48 572×291 | 20,25 166×48 | 0 | -23 | -406 | -243 | ✗ |
+| text "dome and main structure start" | 20,79 572×176 | 20,79 572×176 | 0 | 0 | 0 | 0 | ✓ |
+| text "the elt site on cerro armazones got " | 20,255 572×84 | 20,255 572×84 | 0 | 0 | 0 | 0 | ✓ |
+| text "may 2018" | 20,25 169×48 | — | | | | | ✗ missing |
+unit 14 of timeline-cards (required) .timeline-content=.timeline-content: origin 755,6467 612×478 vs served 755,6467 612×478 → Δx 0 Δy 0 Δw 0 Δh 0; 4 elements: 2 within 4px, 1 off, 0 hidden, 1 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "jan 2018 first elt main mirror segme" | 20,48 572×394 | 20,25 155×48 | 0 | -23 | -417 | -346 | ✗ |
+| text "first elt main mirror segments succe" | 20,79 572×237 | 20,79 572×237 | 0 | 0 | 0 | 0 | ✓ |
+| text "the first hexagonal segments for the" | 20,316 572×126 | 20,316 572×126 | 0 | 0 | 0 | 0 | ✓ |
+| text "jan 2018" | 20,25 158×48 | — | | | | | ✗ missing |
+unit 15 of timeline-cards (required) .timeline-content=.timeline-content: origin 73,6985 612×581 vs served 73,6985 612×581 → Δx 0 Δy 0 Δw 0 Δh 0; 4 elements: 2 within 4px, 1 off, 0 hidden, 1 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "may 2016 contract awarded for constr" | 20,48 572×497 | 20,25 166×48 | 0 | -23 | -406 | -449 | ✗ |
+| text "contract awarded for construction of" | 20,79 572×298 | 20,79 572×298 | 0 | 0 | 0 | 0 | ✓ |
+| text "at a ceremony in garching bei münche" | 20,377 572×168 | 20,377 572×168 | 0 | 0 | 0 | 0 | ✓ |
+| text "may 2016" | 20,25 169×48 | — | | | | | ✗ missing |
+unit 16 of timeline-cards (required) .timeline-content=.timeline-content: origin 755,7606 612×375 vs served 755,7606 612×375 → Δx 0 Δy 0 Δw 0 Δh 0; 4 elements: 2 within 4px, 1 off, 0 hidden, 1 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "dec 2015 agreement signed for maory " | 20,48 572×291 | 20,25 162×48 | 0 | -23 | -410 | -243 | ✗ |
+| text "agreement signed for maory" | 20,79 572×176 | 20,79 572×176 | 0 | 0 | 0 | 0 | ✓ |
+| text "agreement signed for the elt's maory" | 20,255 572×84 | 20,255 572×84 | 0 | 0 | 0 | 0 | ✓ |
+| text "dec 2015" | 20,25 165×48 | — | | | | | ✗ missing |
+unit 17 of timeline-cards (required) .timeline-content=.timeline-content: origin 73,8021 612×375 vs served 73,8021 612×375 → Δx 0 Δy 0 Δw 0 Δh 0; 4 elements: 2 within 4px, 1 off, 0 hidden, 1 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "sep 2015 agreement signed for metis " | 20,48 572×291 | 20,25 162×48 | 0 | -23 | -410 | -243 | ✗ |
+| text "agreement signed for metis" | 20,79 572×176 | 20,79 572×176 | 0 | 0 | 0 | 0 | ✓ |
+| text "eso has signed an agreement for the " | 20,255 572×84 | 20,255 572×84 | 0 | 0 | 0 | 0 | ✓ |
+| text "sep 2015" | 20,25 165×48 | — | | | | | ✗ missing |
+unit 18 of timeline-cards (required) .timeline-content=.timeline-content: origin 755,8436 612×375 vs served 755,8436 612×375 → Δx 0 Δy 0 Δw 0 Δh 0; 4 elements: 2 within 4px, 1 off, 0 hidden, 1 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "sep 2015 agreement signed for harmon" | 20,48 572×291 | 20,25 162×48 | 0 | -23 | -410 | -243 | ✗ |
+| text "agreement signed for harmoni" | 20,79 572×176 | 20,79 572×176 | 0 | 0 | 0 | 0 | ✓ |
+| text "agreement signed for the design and " | 20,255 572×84 | 20,255 572×84 | 0 | 0 | 0 | 0 | ✓ |
+| text "sep 2015" | 20,25 165×48 | — | | | | | ✗ missing |
+unit 19 of timeline-cards (required) .timeline-content=.timeline-content: origin 73,8851 612×375 vs served 73,8851 612×375 → Δx 0 Δy 0 Δw 0 Δh 0; 4 elements: 2 within 4px, 1 off, 0 hidden, 1 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "sep 2015 agreement signed for micado" | 20,48 572×291 | 20,25 162×48 | 0 | -23 | -410 | -243 | ✗ |
+| text "agreement signed for micado" | 20,79 572×176 | 20,79 572×176 | 0 | 0 | 0 | 0 | ✓ |
+| text "eso has signed an agreement to desig" | 20,255 572×84 | 20,255 572×84 | 0 | 0 | 0 | 0 | ✓ |
+| text "sep 2015" | 20,25 165×48 | — | | | | | ✗ missing |
+unit 20 of timeline-cards (required) .timeline-content=.timeline-content: origin 755,9265 612×417 vs served 755,9265 612×417 → Δx 0 Δy 0 Δw 0 Δh 0; 4 elements: 2 within 4px, 1 off, 0 hidden, 1 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "dec 2014 green light given for elt c" | 20,48 572×333 | 20,25 162×48 | 0 | -23 | -410 | -285 | ✗ |
+| text "green light given for elt constructi" | 20,79 572×176 | 20,79 572×176 | 0 | 0 | 0 | 0 | ✓ |
+| text "eso’s main governing body, the counc" | 20,255 572×126 | 20,255 572×126 | 0 | 0 | 0 | 0 | ✓ |
+| text "dec 2014" | 20,25 165×48 | — | | | | | ✗ missing |
+unit 21 of timeline-cards (required) .timeline-content=.timeline-content: origin 73,9722 612×581 vs served 73,9722 612×581 → Δx 0 Δy 0 Δw 0 Δh 0; 4 elements: 2 within 4px, 1 off, 0 hidden, 1 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "jun 2014 part of cerro armazones pea" | 20,48 572×497 | 20,25 155×48 | 0 | -23 | -417 | -449 | ✗ |
+| text "part of cerro armazones peak flatten" | 20,79 572×298 | 20,79 572×298 | 0 | 0 | 0 | 0 | ✓ |
+| text "part of the 3000-metre peak of cerro" | 20,377 572×168 | 20,377 572×168 | 0 | 0 | 0 | 0 | ✓ |
+| text "jun 2014" | 20,25 159×48 | — | | | | | ✗ missing |
+unit 22 of timeline-cards (required) .timeline-content=.timeline-content: origin 755,10343 612×520 vs served 755,10343 612×520 → Δx 0 Δy 0 Δw 0 Δh 0; 4 elements: 2 within 4px, 1 off, 0 hidden, 1 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "mar 2014 construction begins on road" | 20,48 572×436 | 20,25 159×48 | 0 | -23 | -413 | -388 | ✗ |
+| text "construction begins on road to cerro" | 20,79 572×237 | 20,79 572×237 | 0 | 0 | 0 | 0 | ✓ |
+| text "the civil works for the elt began. t" | 20,316 572×168 | 20,316 572×168 | 0 | 0 | 0 | 0 | ✓ |
+| text "mar 2014" | 20,25 163×48 | — | | | | | ✗ missing |
+unit 23 of timeline-cards (required) .timeline-content=.timeline-content: origin 73,10903 612×520 vs served 73,10903 612×520 → Δx 0 Δy 0 Δw 0 Δh 0; 4 elements: 2 within 4px, 1 off, 0 hidden, 1 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "oct 2013 land around cerro armazones" | 20,48 572×436 | 20,25 153×48 | 0 | -23 | -419 | -388 | ✗ |
+| text "land around cerro armazones donated " | 20,79 572×237 | 20,79 572×237 | 0 | 0 | 0 | 0 | ✓ |
+| text "the president of chile sebastián piñ" | 20,316 572×168 | 20,316 572×168 | 0 | 0 | 0 | 0 | ✓ |
+| text "oct 2013" | 20,25 158×48 | — | | | | | ✗ missing |
+unit 24 of timeline-cards (required) .timeline-content=.timeline-content: origin 755,11463 612×417 vs served 755,11463 612×417 → Δx 0 Δy 0 Δw 0 Δh 0; 4 elements: 2 within 4px, 1 off, 0 hidden, 1 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "jun 2012 eso council approves elt pr" | 20,48 572×333 | 20,25 155×48 | 0 | -23 | -417 | -285 | ✗ |
+| text "eso council approves elt programme" | 20,79 572×176 | 20,79 572×176 | 0 | 0 | 0 | 0 | ✓ |
+| text "eso’s governing body, the council, m" | 20,255 572×126 | 20,255 572×126 | 0 | 0 | 0 | 0 | ✓ |
+| text "jun 2012" | 20,25 159×48 | — | | | | | ✗ missing |
+unit 25 of timeline-cards (required) .timeline-content=.timeline-content: origin 73,11920 612×501 vs served 73,11920 612×501 → Δx 0 Δy 0 Δw 0 Δh 0; 4 elements: 2 within 4px, 1 off, 0 hidden, 1 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "oct 2011 eso and chile sign agreemen" | 20,48 572×417 | 20,25 153×48 | 0 | -23 | -419 | -369 | ✗ |
+| text "eso and chile sign agreement on elt" | 20,79 572×176 | 20,79 572×176 | 0 | 0 | 0 | 0 | ✓ |
+| text "the republic of chile and eso signed" | 20,255 572×210 | 20,255 572×210 | 0 | 0 | 0 | 0 | ✓ |
+| text "oct 2011" | 20,25 158×48 | — | | | | | ✗ missing |
+unit 26 of timeline-cards (required) .timeline-content=.timeline-content: origin 755,12461 612×627 vs served 755,12461 612×585 → Δx 0 Δy 0 Δw 0 Δh -42  ✗ unit size; 4 elements: 1 within 4px, 2 off, 0 hidden, 1 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "apr 2010 cerro armazones selected as" | 20,48 572×543 | 20,25 153×48 | 0 | -23 | -419 | -495 | ✗ |
+| text "cerro armazones selected as site for" | 20,79 572×176 | 20,79 572×176 | 0 | 0 | 0 | 0 | ✓ |
+| text "cerro armazones was chosen as the si" | 20,255 572×336 | 20,255 572×294 | 0 | 0 | 0 | -42 | ✗ |
+| text "apr 2010" | 20,25 157×48 | — | | | | | ✗ missing |
+unit 27 of timeline-cards (required) .timeline-content=.timeline-content: origin 73,13128 612×459 vs served 73,13086 612×459 → Δx 0 Δy -42 Δw 0 Δh 0; 4 elements: 2 within 4px, 1 off, 0 hidden, 1 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "dec 2006 green light given for detai" | 20,48 572×375 | 20,25 162×48 | 0 | -23 | -410 | -327 | ✗ |
+| text "green light given for detailed elt s" | 20,79 572×176 | 20,79 572×176 | 0 | 0 | 0 | 0 | ✓ |
+| text "eso council decided to proceed with " | 20,255 572×168 | 20,255 572×168 | 0 | 0 | 0 | 0 | ✓ |
+| text "dec 2006" | 20,25 165×48 | — | | | | | ✗ missing |
+Units: 27 compared; elements within 63, off 18, hidden 0, missing 17; 1 selector error(s) → FAIL
+json → stardust/replica/gates/about-timeline-1440/units-pub3.json

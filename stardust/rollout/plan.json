@@ -1,0 +1,221 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/plan",
+    "writtenAt": "2026-11-13T14:59:57.509Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-13T14:59:57.509Z",
+  "fragments": [],
+  "deliveryOrder": [
+    "about-facts",
+    "about-road",
+    "about-timeline",
+    "index",
+    "instrument-harmoni",
+    "media",
+    "telescope",
+    "telescope-dome"
+  ],
+  "steps": [
+    {
+      "slug": "about-facts",
+      "path": "/about/facts",
+      "templateId": "about-facts",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "facts",
+          "edsBlockName": "facts"
+        },
+        {
+          "id": "carousel",
+          "edsBlockName": "carousel"
+        }
+      ],
+      "reuse": []
+    },
+    {
+      "slug": "about-road",
+      "path": "/about/road",
+      "templateId": "about-road",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "text-section",
+          "edsBlockName": "text-section"
+        },
+        {
+          "id": "share-bar",
+          "edsBlockName": "share-bar"
+        }
+      ],
+      "reuse": []
+    },
+    {
+      "slug": "about-timeline",
+      "path": "/about/timeline",
+      "templateId": "about-timeline",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "timeline",
+          "edsBlockName": "timeline"
+        }
+      ],
+      "reuse": []
+    },
+    {
+      "slug": "index",
+      "path": "/",
+      "templateId": "index",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "home-tiles",
+          "edsBlockName": "home-tiles"
+        },
+        {
+          "id": "webcam-panel",
+          "edsBlockName": "webcam-panel"
+        }
+      ],
+      "reuse": [
+        {
+          "id": "carousel",
+          "edsBlockName": "carousel",
+          "convertedBy": "about-facts"
+        }
+      ]
+    },
+    {
+      "slug": "instrument-harmoni",
+      "path": "/instrument/HARMONI",
+      "templateId": "instrument-harmoni",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "page-intro",
+          "edsBlockName": "page-intro"
+        },
+        {
+          "id": "subpage-tiles",
+          "edsBlockName": "subpage-tiles"
+        },
+        {
+          "id": "tech-table",
+          "edsBlockName": "tech-table"
+        }
+      ],
+      "reuse": [
+        {
+          "id": "text-section",
+          "edsBlockName": "text-section",
+          "convertedBy": "about-road"
+        },
+        {
+          "id": "share-bar",
+          "edsBlockName": "share-bar",
+          "convertedBy": "about-road"
+        }
+      ]
+    },
+    {
+      "slug": "media",
+      "path": "/media",
+      "templateId": "media",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "media-stories",
+          "edsBlockName": "media-stories"
+        }
+      ],
+      "reuse": [
+        {
+          "id": "carousel",
+          "edsBlockName": "carousel",
+          "convertedBy": "about-facts"
+        },
+        {
+          "id": "text-section",
+          "edsBlockName": "text-section",
+          "convertedBy": "about-road"
+        },
+        {
+          "id": "share-bar",
+          "edsBlockName": "share-bar",
+          "convertedBy": "about-road"
+        }
+      ]
+    },
+    {
+      "slug": "telescope",
+      "path": "/telescope",
+      "templateId": "telescope",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "overview-bands",
+          "edsBlockName": "overview-bands"
+        }
+      ],
+      "reuse": [
+        {
+          "id": "text-section",
+          "edsBlockName": "text-section",
+          "convertedBy": "about-road"
+        },
+        {
+          "id": "share-bar",
+          "edsBlockName": "share-bar",
+          "convertedBy": "about-road"
+        }
+      ]
+    },
+    {
+      "slug": "telescope-dome",
+      "path": "/telescope/dome",
+      "templateId": "telescope-dome",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "data-table",
+          "edsBlockName": "data-table"
+        }
+      ],
+      "reuse": [
+        {
+          "id": "page-intro",
+          "edsBlockName": "page-intro",
+          "convertedBy": "instrument-harmoni"
+        },
+        {
+          "id": "subpage-tiles",
+          "edsBlockName": "subpage-tiles",
+          "convertedBy": "instrument-harmoni"
+        },
+        {
+          "id": "text-section",
+          "edsBlockName": "text-section",
+          "convertedBy": "about-road"
+        },
+        {
+          "id": "share-bar",
+          "edsBlockName": "share-bar",
+          "convertedBy": "about-road"
+        }
+      ]
+    }
+  ]
+}

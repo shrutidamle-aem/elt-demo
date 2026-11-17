@@ -1,0 +1,23 @@
+{
+  "index": {
+    "masks": [
+      "1570:720"
+    ],
+    "reason": "science carousel auto-advances every 5 s (observed live, restored at delivery per captureState); slide at capture time is timer phase, not layout — same mask as the prototype table"
+  },
+  "chile": {
+    "masks": [
+      "1570:720"
+    ],
+    "reason": "same composition as index (sibling-variance within tolerance): science carousel auto-advances every 5 s (observed live, restored at delivery per captureState); slide at capture time is timer phase, not layout — same mask as the prototype table"
+  },
+  "about-webcams": {
+    "masks": [
+      "1246:400",
+      "2551:400",
+      "4996:400",
+      "6419:400"
+    ],
+    "reason": "timer only: four 360° panorama viewers autorotate (observed live, implemented with the source view settings); the angle at capture time is timer phase, not layout"
+  }
+}

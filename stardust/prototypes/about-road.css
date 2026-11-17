@@ -1,0 +1,157 @@
+/*
+ * about-road.css — `article` template (about-road, credits, about-location, about-webcams, about-team,
+ * about-workinggroups, about-industrial, about-faq, success-buildingon): hero title with a coloured
+ * section label, light page sections (title + optional share icons, text paragraphs, sub-titles),
+ * linked wide images (full-bleed or inset), FAQ question/answer paragraphs.
+ * Link order: canon.css → inner.css (hero title, share icons, light-section link colour) → this file.
+ *
+ * Source of every value: elt_assets.66fa71510905.css (captured: stardust/current/assets/css/),
+ * line refs Lnnnnn; tiers are the source's own (max 576 / min 576, 768, 992, 1200, 1440, 1680, 1920).
+ * Sections 2–3 are the gated program-template ramp (telescope-dome.css §3, §5), repeated here so the
+ * article template does not depend on another archetype's file.
+ */
+
+/* 1 ─ Hero section label — inline style on the source span (color: rgb(232, 133, 38)) ─ */
+.big-header-section { color: rgb(232, 133, 38); }
+
+/* 2 ─ Section containers — .container-light L19621, a.anchor L20502 ─ */
+.container-light {
+  margin: 0;
+  padding: 2rem 0 0;
+  background-color: rgb(232, 232, 232);
+  color: #000;
+}
+a.anchor { display: block; position: relative; top: -150px; visibility: hidden; } /* L20502 */
+
+
+/* 3 ─ Section type ramp — L16125, L16163–16207, L20244–20250 + per-tier rules ─ */
+.container-paragraph { padding: 0 10.5% 0.005rem; }
+.container-subtitle, .container-heading { padding: 0 10.5%; }
+.section-subtitle-paragraph, .section-subtitle-paragraph-aftertitle,
+.section-heading-paragraph { padding-top: 0; padding-bottom: 0; font-weight: 700; }
+.section-subtitle-paragraph p, .section-subtitle-paragraph-aftertitle p,
+.section-heading-paragraph p { padding-top: 0; padding-bottom: 0; }
+.section-title-paragraph { font-weight: 600; }
+.section-title-paragraph--share { display: flex; align-items: center; justify-content: space-between; }
+@media only screen and (max-width: 576px) {
+  .section-title-paragraph { font-size: 1.625rem; padding-top: 0; padding-bottom: 1.5rem; }
+  .section-subtitle-paragraph, .section-subtitle-paragraph-aftertitle { font-size: 1.25rem; line-height: 2rem; }
+  .section-heading-paragraph { font-size: 1rem; line-height: 1.6875rem; }
+  .section-text-paragraph { font-size: 1rem; line-height: 1.6875rem; padding-top: 0.2rem; padding-bottom: 0.2rem; }
+  .page-section p { font-size: 1rem; line-height: 1.6875rem; padding-top: 0.2rem; padding-bottom: 0.2rem; }
+  .section-subtitle-paragraph p, .section-subtitle-paragraph-aftertitle p { font-size: 1.25rem !important; line-height: 2rem !important; }
+  .section-heading-paragraph p, .section-text-paragraph p { font-size: 1rem !important; line-height: 1.6875rem !important; }
+  .section-text-paragraph p { padding-top: 0.2rem !important; padding-bottom: 0.2rem !important; }
+}
+@media only screen and (min-width: 576px) {
+  .section-title-paragraph { font-size: 1.6875rem; padding-top: 0.2rem; padding-bottom: 1.7rem; }
+  .section-subtitle-paragraph, .section-subtitle-paragraph-aftertitle { font-size: 1.31rem; line-height: 2.1rem; }
+  .section-heading-paragraph { font-size: 1.03125rem; line-height: 1.75rem; }
+  .section-text-paragraph { font-size: 1.03125rem; line-height: 1.75rem; padding-top: 0.25rem; padding-bottom: 0.25rem; }
+  .page-section p { font-size: 1.03125rem; line-height: 1.75rem; padding-top: 0.25rem; padding-bottom: 0.25rem; }
+  .section-subtitle-paragraph p, .section-subtitle-paragraph-aftertitle p { font-size: 1.31rem !important; line-height: 2.1rem !important; }
+  .section-heading-paragraph p, .section-text-paragraph p { font-size: 1.03125rem !important; line-height: 1.75rem !important; }
+  .section-text-paragraph p { padding-top: 0.25rem !important; padding-bottom: 0.25rem !important; }
+}
+@media only screen and (min-width: 768px) {
+  .section-title-paragraph { font-size: 1.75rem; padding-top: 0.4rem; padding-bottom: 1.9rem; }
+  .section-subtitle-paragraph, .section-subtitle-paragraph-aftertitle { font-size: 1.36rem; line-height: 2.17rem; }
+  .section-heading-paragraph { font-size: 1.0625rem; line-height: 1.8125rem; }
+  .section-text-paragraph { font-size: 1.0625rem; line-height: 1.8125rem; padding-top: 0.3rem; padding-bottom: 0.3rem; }
+  .page-section p { font-size: 1.0625rem; line-height: 1.8125rem; padding-top: 0.3rem; padding-bottom: 0.3rem; }
+  .section-subtitle-paragraph p, .section-subtitle-paragraph-aftertitle p { font-size: 1.36rem !important; line-height: 2.17rem !important; }
+  .section-heading-paragraph p, .section-text-paragraph p { font-size: 1.0625rem !important; line-height: 1.8125rem !important; }
+  .section-text-paragraph p { padding-top: 0.3rem !important; padding-bottom: 0.3rem !important; }
+}
+@media only screen and (min-width: 992px) {
+  .section-title-paragraph { font-size: 1.84375rem; padding-top: 0.6rem; padding-bottom: 2.1rem; }
+  .section-subtitle-paragraph, .section-subtitle-paragraph-aftertitle { font-size: 1.43rem; line-height: 2.3rem; }
+  .section-heading-paragraph { font-size: 1.125rem; line-height: 1.90625rem; }
+  .section-text-paragraph { font-size: 1.125rem; line-height: 1.90625rem; padding-top: 0.35rem; padding-bottom: 0.35rem; }
+  .page-section p { font-size: 1.125rem; line-height: 1.90625rem; padding-top: 0.35rem; padding-bottom: 0.35rem; }
+  .section-subtitle-paragraph p, .section-subtitle-paragraph-aftertitle p { font-size: 1.43rem !important; line-height: 2.3rem !important; }
+  .section-heading-paragraph p, .section-text-paragraph p { font-size: 1.125rem !important; line-height: 1.90625rem !important; }
+  .section-text-paragraph p { padding-top: 0.35rem !important; padding-bottom: 0.35rem !important; }
+}
+@media only screen and (min-width: 1200px) {
+  .section-title-paragraph { font-size: 1.9375rem; padding-top: 0.8rem; padding-bottom: 2.3rem; }
+  .section-subtitle-paragraph, .section-subtitle-paragraph-aftertitle { font-size: 1.49rem; line-height: 2.4rem; }
+  .section-heading-paragraph { font-size: 1.15625rem; line-height: 2rem; }
+  .section-text-paragraph { font-size: 1.15625rem; line-height: 2rem; padding-top: 0.4rem; padding-bottom: 0.4rem; }
+  .page-section p { font-size: 1.15625rem; line-height: 2rem; padding-top: 0.4rem; padding-bottom: 0.4rem; }
+  .section-subtitle-paragraph p, .section-subtitle-paragraph-aftertitle p { font-size: 1.49rem !important; line-height: 2.4rem !important; }
+  .section-heading-paragraph p, .section-text-paragraph p { font-size: 1.15625rem !important; line-height: 2rem !important; }
+  .section-text-paragraph p { padding-top: 0.4rem !important; padding-bottom: 0.4rem !important; }
+}
+@media only screen and (min-width: 1440px) {
+  .section-title-paragraph { font-size: 2rem; padding-top: 1rem; padding-bottom: 2.5rem; }
+  .section-subtitle-paragraph, .section-subtitle-paragraph-aftertitle { font-size: 1.56rem; line-height: 2.5rem; }
+  .section-heading-paragraph { font-size: 1.21875rem; line-height: 2.0625rem; }
+  .section-text-paragraph { font-size: 1.21875rem; line-height: 2.0625rem; padding-top: 0.48rem; padding-bottom: 0.48rem; }
+  .page-section p { font-size: 1.21875rem; line-height: 2.0625rem; padding-top: 0.48rem; padding-bottom: 0.48rem; }
+  .section-subtitle-paragraph p, .section-subtitle-paragraph-aftertitle p { font-size: 1.56rem !important; line-height: 2.5rem !important; }
+  .section-heading-paragraph p, .section-text-paragraph p { font-size: 1.21875rem !important; line-height: 2.0625rem !important; }
+  .section-text-paragraph p { padding-top: 0.48rem !important; padding-bottom: 0.48rem !important; }
+}
+@media only screen and (min-width: 1680px) {
+  .section-title-paragraph { font-size: 2.09375rem; padding-top: 1.25rem; padding-bottom: 2.8rem; }
+  .section-subtitle-paragraph, .section-subtitle-paragraph-aftertitle { font-size: 1.63rem; line-height: 2.6rem; }
+  .section-heading-paragraph { font-size: 1.25rem; line-height: 2.15625rem; }
+  .section-text-paragraph { font-size: 1.25rem; line-height: 2.15625rem; padding-top: 0.54rem; padding-bottom: 0.54rem; }
+  .page-section p { font-size: 1.25rem; line-height: 2.15625rem; padding-top: 0.54rem; padding-bottom: 0.54rem; }
+  .section-subtitle-paragraph p, .section-subtitle-paragraph-aftertitle p { font-size: 1.63rem !important; line-height: 2.6rem !important; }
+  .section-heading-paragraph p, .section-text-paragraph p { font-size: 1.25rem !important; line-height: 2.15625rem !important; }
+  .section-text-paragraph p { padding-top: 0.54rem !important; padding-bottom: 0.54rem !important; }
+}
+@media only screen and (min-width: 1920px) {
+  .section-title-paragraph { font-size: 2.1875rem; padding-top: 1.5rem; padding-bottom: 3rem; }
+  .section-subtitle-paragraph, .section-subtitle-paragraph-aftertitle { font-size: 1.7rem; line-height: 2.7rem; }
+  .section-heading-paragraph { font-size: 1.3125rem; line-height: 2.25rem; }
+  .section-text-paragraph { font-size: 1.3125rem; line-height: 2.25rem; padding-top: 0.6rem; padding-bottom: 0.6rem; }
+  .page-section p { font-size: 1.3125rem; line-height: 2.25rem; padding-top: 0.6rem; padding-bottom: 0.6rem; }
+  .section-subtitle-paragraph p, .section-subtitle-paragraph-aftertitle p { font-size: 1.7rem !important; line-height: 2.7rem !important; }
+  .section-heading-paragraph p, .section-text-paragraph p { font-size: 1.3125rem !important; line-height: 2.25rem !important; }
+  .section-text-paragraph p { padding-top: 0.6rem !important; padding-bottom: 0.6rem !important; }
+}
+
+
+/* 4 ─ Linked wide image — .m-0 L10018 / .row.w-100 / .col-lg-12.p-0.d-flex / a.d-flex.w-100;
+       full-bleed in the first section, inset by .container-paragraph (L16125) in the others ─ */
+.article-image { margin: 0; padding-bottom: 1vw; } /* inline style on the source row */
+.article-image a { display: flex; align-items: center; justify-content: center; width: 100%; }
+.article-image img { width: 100%; height: auto; vertical-align: middle; }
+
+/* 5 ─ FAQ question / answer paragraphs (about-faq) — L15775 + per-tier .faq-question ─ */
+.faq-paragraph p { display: inline; }
+@media only screen and (max-width: 576px) {
+  .faq-question { font-size: 1.125rem; line-height: 2rem; }
+  .section-text-paragraph .faq-question p { font-size: 1.125rem !important; }
+}
+@media only screen and (min-width: 576px) {
+  .faq-question { font-size: 1.1875rem; line-height: 2.09375rem; }
+  .section-text-paragraph .faq-question p { font-size: 1.1875rem !important; }
+}
+@media only screen and (min-width: 768px) {
+  .faq-question { font-size: 1.25rem; line-height: 2.1875rem; }
+  .section-text-paragraph .faq-question p { font-size: 1.25rem !important; }
+}
+@media only screen and (min-width: 992px) {
+  .faq-question { font-size: 1.3125rem; line-height: 2.296875rem; }
+  .section-text-paragraph .faq-question p { font-size: 1.3125rem !important; }
+}
+@media only screen and (min-width: 1200px) {
+  .faq-question { font-size: 1.390625rem; line-height: 2.40625rem; }
+  .section-text-paragraph .faq-question p { font-size: 1.390625rem !important; }
+}
+@media only screen and (min-width: 1440px) {
+  .faq-question { font-size: 1.46875rem; line-height: 2.515625rem; }
+  .section-text-paragraph .faq-question p { font-size: 1.46875rem !important; }
+}
+@media only screen and (min-width: 1680px) {
+  .faq-question { font-size: 1.546875rem; line-height: 2.625rem; }
+  .section-text-paragraph .faq-question p { font-size: 1.546875rem !important; }
+}
+@media only screen and (min-width: 1920px) {
+  .faq-question { font-size: 1.625rem; line-height: 2.75rem; }
+  .section-text-paragraph .faq-question p { font-size: 1.625rem !important; }
+}

@@ -1,0 +1,47 @@
+{
+  "/telescope": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-13T20:36:53.710Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/about": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-13T20:36:26.233Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/instrument": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-13T20:36:33.547Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/mirror": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-14T00:35:04.854Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/science": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-13T20:36:46.632Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

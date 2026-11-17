@@ -1,0 +1,9 @@
+measure: http://localhost:8791/media-proposed.html @1440: horizontal overflow +15px (scrollWidth 1455 > viewport 1440)
+measure  http://localhost:8791/media-proposed.html
+  widths 1440 · 1 selector(s) · 1 props · first match
+
+@ 1440px
+  root  scrollWidth  1455  viewport 1440  scrollHeight   5593  ◄◄ OVERFLOW +15px
+  html
+       x     0  y      0  w  1440  h  5593  vis  "Choose your language search European So…"
+      display: block

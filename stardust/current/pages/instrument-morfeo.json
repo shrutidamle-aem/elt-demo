@@ -1,0 +1,709 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-11-13T11:15:55.654Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "instrument-morfeo",
+  "url": "https://elt.eso.org/instrument/MORFEO/",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-11-13T11:15:55.654Z",
+  "finalUrl": "https://elt.eso.org/instrument/MORFEO/",
+  "title": "MORFEO | ELT | ESO",
+  "description": "The Extremely Large Telescope: The World's Biggest Eye On The Sky",
+  "og": {
+    "title": "MORFEO | ELT | ESO",
+    "description": "The Extremely Large Telescope: The World's Biggest Eye On The Sky",
+    "image": "http://cdn.eso.org/images/screen/header-frontpage.jpg",
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Our use of Cookies"
+    },
+    {
+      "tag": "h1",
+      "text": "ESO Cookies Policy"
+    },
+    {
+      "tag": "h2",
+      "text": "What are cookies?"
+    },
+    {
+      "tag": "h2",
+      "text": "Categories of cookies we use"
+    },
+    {
+      "tag": "h2",
+      "text": "How to manage cookies"
+    },
+    {
+      "tag": "h2",
+      "text": "Updates to the ESO Cookies Policy"
+    },
+    {
+      "tag": "h2",
+      "text": "Additional information"
+    }
+  ],
+  "body": [
+    "Choose your language English Español",
+    "search Search",
+    "EuropeanSouthernObservatory",
+    "ELT HOME",
+    "ABOUT About the ELT Timeline Location Webcams Facts Road to the ELT Meet the Team Working Groups Industrial and Institutional Partners FAQ",
+    "TELESCOPE Telescope Overview Dome Main Structure Mirrors Mirrors Overview M1 M2M3 M4 M5 Adaptive Optics Prefocal Station Controls Operations",
+    "INSTRUMENTS Instruments Overview HARMONI MICADO MORFEO METIS ANDES MOSAIC",
+    "SCIENCE Science Overview Solar System Exoplanets Stars Black Holes Galaxies Cosmology and Dark Matter Fundamental Physics Unexpected Discoveries",
+    "NEWS & MULTIMEDIA",
+    "SUCCESS STORIES",
+    "As a first-generation ELT instrument, MORFEO, will help compensate for the distortion of light caused by turbulence in the Earth’s atmosphere which makes astronomical images blurry. MORFEO will not make observations itself; rather, it will enable other instruments, such as MICADO in the first instance, to take exceptional images.",
+    "Modern ground-based telescopes cannot achieve their full potential without adaptive optics, sophisticated systems that correct for the blurring effects of the Earth’s turbulent atmosphere and allow us to obtain sharp images of astronomical objects near and far. MORFEO is one of the key adaptive optics systems on the ELT. During the first years of operation of the telescope, this instrument will work with near-infrared camera MICADO, moreover MORFEO is designed to also feed light to a second instrument in the future. For scientists to make very precise measurements of the positions, brightness, and motions of stars, MICADO needs stable and sharp images across a large field of view — the adaptive optics provided by MORFEO will help it to achieve this.",
+    "MORFEO will use deformable mirrors and other state-of-the-art systems to correct for different layers of turbulence high above the ELT. In particular, it will rely on six laser guide (artificial) stars, projected from around the circumference of the ELT’s primary mirror and arranged in a circle on the sky, that are used as a reference to measure the distortion caused by the Earth’s atmosphere. These lasers will help MORFEO obtain a 3D map of atmospheric turbulence.",
+    "MORFEO will enable MICADO and a future instrument to take extremely high-quality images of the cosmos. In particular, astronomers will use MORFEO and MICADO together to observe individual stars and star formation sites in distant galaxies in unprecedented detail, as well as to explore the centre of the Milky Way.",
+    "MORFEO will use nine guide stars (three real stars and six artificial laser stars), state-of-the-art wavefront sensors, and up to three deformable mirrors to measure and correct for turbulence at three different heights in the atmosphere.",
+    "Simulator",
+    "Science Case",
+    "The MORFEO project is managed, together with ESO, by an international consortium composed of three research institutes.",
+    "MORFEO is a multi-conjugate adaptive optics system: it will not make scientific observations by itself, but will instead enable other instruments to make observations with excellent image quality.",
+    "In combination with MICADO, and making full use of the increased light-gathering power of the ELT, MORFEO will help astronomers to observe distant galaxies at approximately redshifts 2-3 in unprecedented detail. This is an important epoch in the history of the Universe as we are looking at the light from galaxies at the time when astronomers believe that most galaxies formed. Additionally, by taking spatially resolved images with ELT, the individual sites of star formation in the galaxies can be measured and their physical characteristics determined.",
+    "MORFEO will also enable MICADO to get a closer look at the massive black hole at the centre of the Milky Way than ever before. The black hole affects the orbits of nearby stars; using previous instruments, astronomers have mapped the motions of these stars down to a distance of 25 light days from the black hole, but the MORFEO/MICADO duo will get to a distance of just five light-days.",
+    "MORFEO is a multi-conjugate adaptive optics system: it will not make scientific observations by itself, but will instead enable other instruments to make observations with excellent image quality.",
+    "MORFEO will use nine guide stars (three real stars and six artificial laser stars), state-of-the-art wavefront sensors, and up to three deformable mirrors to measure and correct for turbulence at three different heights in the atmosphere.",
+    "To measure atmospheric turbulence, MORFEO will observe three natural guide stars around the scientific field-of-view of the camera (MICADO) but it will also use the ELT’s laser guide stars to reach the demanding image quality required for MICADO’s ambitious science goals. The distortion of light by atmospheric turbulence will be measured by wavefront sensors using newly developed detectors capable of reading images hundreds of times per second with low noise.",
+    "MORFEO uses six large mirrors to deliver light from the focal plane of the telescope to the focal plane of MICADO. By tilting one of those mirrors, it is possible to steer the light beam towards MICADO or the second client instrument. The wavefront sensors for the natural guide stars are physically attached to MICADO to maximise the scientific performance. A dichroic beam splitter in the optical path separates the short wavelength (laser) light into the laser guide star module from the infrared light to the science instruments, and the natural guide star wavefront sensor cameras.",
+    "Multi-conjugate AO system",
+    "Six laser guide stars and three natural guide stars",
+    "Up to two deformable mirrors",
+    "in addition to ELT M4 to correct atmospheric turbulence",
+    "Two ports for instruments",
+    "MICADO and a future spectrograph",
+    "Single-conjugate AO",
+    "as joint development between MORFEO and MICADO",
+    "Performance requirements",
+    "50% Strehl ratio at 2.2 μm in the best conditions30% Strehl ratio at 2.2 μm in the median conditions",
+    "Sky coverage",
+    "50% at the South Galactic Pole",
+    "Simulator",
+    "Tool to predict the exposure time needed to study an object with the instrument, for set environmental conditions",
+    "Science Case",
+    "Description of the scientific motivations for the instrument, as initially submitted by the Instrument Consortium",
+    "The MORFEO project is managed, together with ESO, by an international consortium composed of four research institutes: the Istituto Nazionale di Astrofisica, National Institute of Astrophysics (INAF, Italy), the Centre National de la Recherche Scientifique, CNRS Earth and Space Institute (CNRS/INSU, France), the University of Galway (GALW, Ireland) and the National Research Council of Canada (NRC).",
+    "Principal Investigator",
+    "Paolo Ciliegi (INAF Osservatorio Astronomico di Bologna, Italy)",
+    "Project Scientist",
+    "Francesca Annibali (INAF Osservatorio di Bologna, Italy)",
+    "Project Manager",
+    "Andrea Di Rocco (INAF Osservatorio di Bologna, Italy)",
+    "ESO Project Engineer",
+    "Paola Amico",
+    "ESO Project Scientist",
+    "Elena Valenti",
+    "ESO Project Manager",
+    "Patrick Cailler",
+    "We use cookies that are essential for accessing our websites and using our services. We also use cookies to analyse, measure and improve our websites’ performance, to enable content sharing via social media and to display media content hosted on third-party platforms.",
+    "The European Organisation for Astronomical Research in the Southern Hemisphere (ESO) is the pre-eminent intergovernmental science and technology organisation in astronomy. It carries out an ambitious programme focused on the design, construction and operation of powerful ground-based observing facilities for astronomy.",
+    "This Cookies Policy is intended to provide clarity by outlining the cookies used on the ESO public websites, their functions, the options you have for controlling them, and the ways you can contact us for additional details.",
+    "Cookies are small pieces of data stored on your device by websites you visit. They serve various purposes, such as remembering login credentials and preferences and enhance your browsing experience.",
+    "Essential cookies (always active): These cookies are strictly necessary for the proper functioning of our website. Without these cookies, the website cannot operate correctly, and certain services, such as logging in or accessing secure areas, may not be available; because they are essential for the website’s operation, they cannot be disabled.",
+    "Functional Cookies: These cookies enhance your browsing experience by enabling additional features and personalization, such as remembering your preferences and settings. While not strictly necessary for the website to function, they improve usability and convenience; these cookies are only placed if you provide your consent.",
+    "Analytics cookies: These cookies collect information about how visitors interact with our website, such as which pages are visited most often and how users navigate the site. This data helps us improve website performance, optimize content, and enhance the user experience; these cookies are only placed if you provide your consent. We use the following analytics cookies.",
+    "Matomo Cookies:",
+    "This website uses Matomo (formerly Piwik), an open source software which enables the statistical analysis of website visits. Matomo uses cookies (text files) which are saved on your computer and which allow us to analyze how you use our website. The website user information generated by the cookies will only be saved on the servers of our IT Department. We use this information to analyze www.eso.org visits and to prepare reports on website activities. These data will not be disclosed to third parties.",
+    "On behalf of ESO, Matomo will use this information for the purpose of evaluating your use of the website, compiling reports on website activity and providing other services relating to website activity and internet usage.",
+    "Matomo cookies settings:",
+    "Additional Third-party cookies on ESO websites: some of our pages display content from external providers, e.g. YouTube.",
+    "Such third-party services are outside of ESO control and may, at any time, change their terms of service, use of cookies, etc.",
+    "YouTube: Some videos on the ESO website are embedded from ESO’s official YouTube channel. We have enabled YouTube’s privacy-enhanced mode, meaning that no cookies are set unless the user actively clicks on the video to play it. Additionally, in this mode, YouTube does not store any personally identifiable cookie data for embedded video playbacks. For more details, please refer to YouTube’s embedding videos information page.",
+    "Cookies can also be classified based on the following elements.",
+    "Regarding the domain, there are:",
+    "First-party cookies, set by the website you are currently visiting. They are stored by the same domain that you are browsing and are used to enhance your experience on that site;",
+    "Third-party cookies, set by a domain other than the one you are currently visiting.",
+    "As for their duration, cookies can be:",
+    "Browser-session cookies, which are deleted when the user closes the browser;",
+    "Stored cookies, which stay on the user's device for a predetermined period of time.",
+    "Cookie settings: You can modify your cookie choices for the ESO webpages at any time by clicking on the link Cookie settings at the bottom of any page.",
+    "In your browser: If you wish to delete cookies or instruct your browser to delete or block cookies by default, please visit the help pages of your browser:",
+    "Brave",
+    "Chrome",
+    "Edge",
+    "Firefox",
+    "Safari",
+    "Please be aware that if you delete or decline cookies, certain functionalities of our website may be not be available and your browsing experience may be affected.",
+    "You can set most browsers to prevent any cookies being placed on your device, but you may then have to manually adjust some preferences every time you visit a site/page. And some services and functionalities may not work properly at all (e.g. profile logging-in, shop check out).",
+    "The ESO Cookies Policy may be subject to future updates, which will be made available on this page.",
+    "For any queries related to cookies, please contact: pdprATesoDOTorg.",
+    "As ESO public webpages are managed by our Department of Communication, your questions will be dealt with the support of the said Department."
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "search",
+      "href": "#"
+    },
+    {
+      "label": "ELT HOME",
+      "href": "/"
+    },
+    {
+      "label": "ABOUT",
+      "href": "/about/"
+    },
+    {
+      "label": "TELESCOPE",
+      "href": "/telescope/"
+    },
+    {
+      "label": "INSTRUMENTS",
+      "href": "/instrument/"
+    },
+    {
+      "label": "SCIENCE",
+      "href": "/science/"
+    },
+    {
+      "label": "NEWS & MULTIMEDIA",
+      "href": "/media/"
+    },
+    {
+      "label": "SUCCESS STORIES",
+      "href": "/success/buildingon/"
+    },
+    {
+      "label": "Science",
+      "href": "#science"
+    },
+    {
+      "label": "Design",
+      "href": "#design"
+    },
+    {
+      "label": "Documents",
+      "href": "#docsntools"
+    },
+    {
+      "label": "Consortium",
+      "href": "#consortium"
+    },
+    {
+      "label": "MICADO",
+      "href": "/instrument/MICADO/"
+    },
+    {
+      "label": "Science with MORFEO",
+      "href": "#science"
+    },
+    {
+      "label": "Read More",
+      "href": "#science"
+    },
+    {
+      "label": "Read More",
+      "href": "#design"
+    },
+    {
+      "label": "Instrument Design",
+      "href": "#design"
+    },
+    {
+      "label": "Tools and Documents",
+      "href": "#docsntools"
+    },
+    {
+      "label": "Simulator",
+      "href": "https://simcado.readthedocs.io/en/latest/index.html"
+    },
+    {
+      "label": "Science Case",
+      "href": "https://arxiv.org/abs/1712.04222"
+    },
+    {
+      "label": "Read More",
+      "href": "#docsntools"
+    },
+    {
+      "label": "Read More",
+      "href": "#consortium"
+    },
+    {
+      "label": "Instrument Consortium and Contacts",
+      "href": "#consortium"
+    },
+    {
+      "label": "Simulator",
+      "href": "https://simcado.readthedocs.io/en/latest/index.html"
+    },
+    {
+      "label": "Science Case",
+      "href": "https://arxiv.org/abs/1712.04222"
+    },
+    {
+      "label": "consortium",
+      "href": "http://wwwmaory.oabo.inaf.it/"
+    },
+    {
+      "label": "Paolo Ciliegi",
+      "href": "mailto:paolo.ciliegi@inaf.it"
+    },
+    {
+      "label": "Francesca Annibali",
+      "href": "mailto:francesca.annibali@inaf.it"
+    },
+    {
+      "label": "Andrea Di Rocco",
+      "href": "mailto:andrea.dirocco@inaf.it"
+    },
+    {
+      "label": "Paola Amico",
+      "href": "mailto:pamico@eso.org"
+    },
+    {
+      "label": "Elena Valenti",
+      "href": "mailto:evalenti@eso.org"
+    },
+    {
+      "label": "Patrick Cailler",
+      "href": "mailto:Patrick.Caillier@eso.org"
+    },
+    {
+      "label": "ESO",
+      "href": "https:///www.eso.org/"
+    },
+    {
+      "label": "Credits",
+      "href": "/credits/"
+    },
+    {
+      "label": "Contact us",
+      "href": "mailto:information@eso.org"
+    },
+    {
+      "label": "Subscribe to ESO news",
+      "href": "https://www.eso.org/public/outreach/newsletters/"
+    },
+    {
+      "label": "Accelerated by CDN77",
+      "href": "https://www.cdn77.com/"
+    },
+    {
+      "label": "Terms & Conditions",
+      "href": "https://www.eso.org/public/about-eso/privacy/"
+    },
+    {
+      "label": "Cookie Settings and Policy",
+      "href": "#"
+    },
+    {
+      "label": "Accept All",
+      "href": null
+    },
+    {
+      "label": "Accept Only Essential Cookies",
+      "href": null
+    },
+    {
+      "label": "Cookie Settings and Policy",
+      "href": null
+    },
+    {
+      "label": "YouTube",
+      "href": "https://www.youtube.com/t/terms"
+    },
+    {
+      "label": "ESO’s official YouTube channel",
+      "href": "https://www.youtube.com/channel/UCIhYoC2VIAJqCkoIWNHBQ3Q"
+    },
+    {
+      "label": "embedding videos information page",
+      "href": "https://support.google.com/youtube/answer/171780?hl=en-GB"
+    },
+    {
+      "label": "Brave",
+      "href": "https://support.brave.com/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.brave.com%2Fhc%2Fen-us%2Farticles%2F360050634931-How-Do-I-Manage-Cookies-In-Brave"
+    },
+    {
+      "label": "Chrome",
+      "href": "https://support.google.com/chrome/bin/answer.py?hl=en&answer=95647&p=cpn_cookies"
+    },
+    {
+      "label": "Edge",
+      "href": "https://support.microsoft.com/en-us/windows/manage-cookies-in-microsoft-edge-view-allow-block-delete-and-use-168dab11-0753-043d-7c16-ede5947fc64d"
+    },
+    {
+      "label": "Firefox",
+      "href": "https://support.mozilla.org/en-US/kb/Blocking cookies"
+    },
+    {
+      "label": "Safari",
+      "href": "https://docs.info.apple.com/article.html?path=Safari/3.0/en/9277.html"
+    },
+    {
+      "label": "Save",
+      "href": null
+    },
+    {
+      "label": "Cancel",
+      "href": null
+    }
+  ],
+  "links": [
+    "https://www.eso.org/",
+    "https://elt.eso.org/instrument/MORFEO/?lang",
+    "https://elt.eso.org/chile/instrument/MORFEO/?lang",
+    "https://facebook.com/ESOAstronomy",
+    "https://www.instagram.com/esoastronomy/",
+    "https://www.linkedin.com/company/european-southern-observatory",
+    "https://www.youtube.com/channel/UCIhYoC2VIAJqCkoIWNHBQ3Q",
+    "https://elt.eso.org/",
+    "https://elt.eso.org/about/",
+    "https://elt.eso.org/about/timeline/",
+    "https://elt.eso.org/about/location/",
+    "https://elt.eso.org/about/webcams/",
+    "https://elt.eso.org/about/facts/",
+    "https://elt.eso.org/about/road/",
+    "https://elt.eso.org/about/team/",
+    "https://elt.eso.org/about/workinggroups/",
+    "https://elt.eso.org/about/industrial/",
+    "https://elt.eso.org/about/faq/",
+    "https://elt.eso.org/telescope/",
+    "https://elt.eso.org/telescope/dome/",
+    "https://elt.eso.org/telescope/structure/",
+    "https://elt.eso.org/mirror/",
+    "https://elt.eso.org/mirror/M1/",
+    "https://elt.eso.org/mirror/M2M3/",
+    "https://elt.eso.org/mirror/M4/",
+    "https://elt.eso.org/mirror/M5/",
+    "https://elt.eso.org/telescope/adaptiveoptics/",
+    "https://elt.eso.org/telescope/prefocal/",
+    "https://elt.eso.org/telescope/controls/",
+    "https://elt.eso.org/telescope/operations/",
+    "https://elt.eso.org/instrument/",
+    "https://elt.eso.org/instrument/HARMONI/",
+    "https://elt.eso.org/instrument/MICADO/",
+    "https://elt.eso.org/instrument/MORFEO/",
+    "https://elt.eso.org/instrument/METIS/",
+    "https://elt.eso.org/instrument/ANDES/",
+    "https://elt.eso.org/instrument/MOSAIC/",
+    "https://elt.eso.org/science/",
+    "https://elt.eso.org/science/solarsystem/",
+    "https://elt.eso.org/science/exoplanets/",
+    "https://elt.eso.org/science/stars/",
+    "https://elt.eso.org/science/blackholes/",
+    "https://elt.eso.org/science/galaxies/",
+    "https://elt.eso.org/science/cosmodm/",
+    "https://elt.eso.org/science/fundamentalphysics/",
+    "https://elt.eso.org/science/discoveries/",
+    "https://elt.eso.org/media/",
+    "https://elt.eso.org/success/buildingon/",
+    "https://elt.eso.org/instrument/MORFEO/#",
+    "https://elt.eso.org/instrument/MORFEO/#science",
+    "https://elt.eso.org/instrument/MORFEO/#design",
+    "https://elt.eso.org/instrument/MORFEO/#docsntools",
+    "https://elt.eso.org/instrument/MORFEO/#consortium",
+    "https://www.facebook.com/sharer/sharer.php?u=https://elt.eso.org/instrument/MORFEO/",
+    "https://www.linkedin.com/sharing/share-offsite/?url=https://elt.eso.org/instrument/MORFEO/",
+    {},
+    {},
+    "https://simcado.readthedocs.io/en/latest/index.html",
+    "https://arxiv.org/abs/1712.04222",
+    {},
+    {},
+    "https://www.eso.org/public/images/MAORY-2/",
+    "https://www.eso.org/public/images/MAORY-5/",
+    "http://wwwmaory.oabo.inaf.it/",
+    "mailto:paolo.ciliegi@inaf.it",
+    "mailto:francesca.annibali@inaf.it",
+    "mailto:andrea.dirocco@inaf.it",
+    "mailto:pamico@eso.org",
+    "mailto:evalenti@eso.org",
+    "mailto:Patrick.Caillier@eso.org",
+    "https://elt.eso.org/credits/",
+    "mailto:information@eso.org",
+    "https://www.eso.org/public/outreach/newsletters/",
+    "https://www.cdn77.com/",
+    "https://www.eso.org/public/about-eso/privacy/",
+    "https://www.youtube.com/t/terms",
+    "https://support.google.com/youtube/answer/171780?hl=en-GB",
+    "https://support.brave.com/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.brave.com%2Fhc%2Fen-us%2Farticles%2F360050634931-How-Do-I-Manage-Cookies-In-Brave",
+    "https://support.google.com/chrome/bin/answer.py?hl=en&answer=95647&p=cpn_cookies",
+    "https://support.microsoft.com/en-us/windows/manage-cookies-in-microsoft-edge-view-allow-block-delete-and-use-168dab11-0753-043d-7c16-ede5947fc64d",
+    "https://support.mozilla.org/en-US/kb/Blocking%20cookies",
+    "https://docs.info.apple.com/article.html?path=Safari/3.0/en/9277.html"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/eso_logo.jpg",
+        "alt": "",
+        "w": 100,
+        "h": 130
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_topbar_mobile_1.png",
+        "alt": "ESO on Facebook",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_topbar_mobile_3.png",
+        "alt": "ESO on Instagram",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_topbar_mobile_4.png",
+        "alt": "ESO on LinkedIn",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_topbar_mobile_5.png",
+        "alt": "ESO on YouTube",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_topbar_mobile_1.png",
+        "alt": "ESO on Facebook",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_topbar_mobile_3.png",
+        "alt": "ESO on Instagram",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_topbar_mobile_4.png",
+        "alt": "ESO on LinkedIn",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_topbar_mobile_5.png",
+        "alt": "ESO on YouTube",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://cdn.eso.org/images/banner1920/header-instruments.jpg",
+        "alt": "",
+        "w": 1920,
+        "h": 900
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/eso_logo_transparent.png",
+        "alt": "",
+        "w": 981,
+        "h": 1279
+      },
+      {
+        "src": "https://cdn.eso.org/images/banner1920/subheader-maory.jpg",
+        "alt": "",
+        "w": 1920,
+        "h": 900
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_share_1.png",
+        "alt": "Share on Facebook",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_share_3.png",
+        "alt": "",
+        "w": 36,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_share_1.png",
+        "alt": "Share on Facebook",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_share_5.png",
+        "alt": "E-Mail",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_share_6.png",
+        "alt": "Copy link",
+        "w": 36,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_share_4.png",
+        "alt": "Share on LinkedIn",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://cdn.eso.org/images/banner1920/instruments-maory-science.jpg",
+        "alt": "",
+        "w": 1920,
+        "h": 900
+      },
+      {
+        "src": "https://cdn.eso.org/images/banner1920/instruments-maory-design.jpg",
+        "alt": "",
+        "w": 1920,
+        "h": 900
+      },
+      {
+        "src": "https://cdn.eso.org/images/banner1920/instruments-maory-documents.jpg",
+        "alt": "",
+        "w": 1920,
+        "h": 900
+      },
+      {
+        "src": "https://cdn.eso.org/images/banner1920/instruments-maory-consortium.jpg",
+        "alt": "",
+        "w": 1920,
+        "h": 900
+      },
+      {
+        "src": "https://cdn.eso.org/images/original/instruments-maory-science-banner1.jpg",
+        "alt": "",
+        "w": 1919,
+        "h": 911
+      },
+      {
+        "src": "https://cdn.eso.org/images/screen/instruments-maory-design-image1.jpg",
+        "alt": "",
+        "w": 1280,
+        "h": 1249
+      },
+      {
+        "src": "https://cdn.eso.org/images/screen/instruments-maory-design-image1.jpg",
+        "alt": "",
+        "w": 1280,
+        "h": 1249
+      }
+    ],
+    "allImgCount": 25,
+    "cssBackgrounds": [],
+    "modals": [],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {
+    "--blue": "#007bff",
+    "--indigo": "#6610f2",
+    "--purple": "#6f42c1",
+    "--pink": "#e83e8c",
+    "--red": "#dc3545",
+    "--orange": "rgb(232, 133, 38)",
+    "--yellow": "#ffc107",
+    "--green": "#28a745",
+    "--teal": "#20c997",
+    "--cyan": "#17a2b8",
+    "--white": "#fff",
+    "--gray": "#6c757d",
+    "--gray-dark": "#343a40",
+    "--primary": "#007bff",
+    "--secondary": "#6c757d",
+    "--success": "#28a745",
+    "--info": "#17a2b8",
+    "--warning": "#ffc107",
+    "--danger": "#dc3545",
+    "--light": "#f8f9fa",
+    "--dark": "#343a40",
+    "--breakpoint-xxxs": "0",
+    "--breakpoint-xxs": "320px",
+    "--breakpoint-xs": "480px",
+    "--breakpoint-sm": "576px",
+    "--breakpoint-md": "768px",
+    "--breakpoint-lg": "992px",
+    "--breakpoint-xl": "1200px",
+    "--breakpoint-xxl": "1440px",
+    "--breakpoint-xxxl": "1680px",
+    "--breakpoint-xxxxl": "1920px",
+    "--font-family-sans-serif": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+    "--font-family-monospace": "SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+    "--swiper-theme-color": "#007aff",
+    "--swiper-navigation-size": "44px",
+    "--esoblue": "rgb(0, 119, 190)",
+    "--esoblueshade": "rgba(0, 119, 190, 0.1)",
+    "--esobluelightshade": "rgba(0, 119, 190, 0.4)",
+    "--headerblue": "rgb(45, 164, 245)",
+    "--esobluedarkdarkshade": "#005e97",
+    "--esobluedarkshade": "#0077be",
+    "--esogray": "#878787"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 7,
+    "mainTextLen": 15797,
+    "realImageCount": 25,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [],
+    "thirdPartyScriptHosts": [],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [],
+    "frameworkHints": [],
+    "forms": [],
+    "ariaLiveRegions": 0,
+    "triggers": [],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 0,
+      "thirdPartyEndpoints": 0,
+      "thirdPartyScriptHosts": 0,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": false
+    }
+  },
+  "screenshot": "assets/screenshots/instrument-morfeo.png",
+  "renderedHtml": "pages/instrument-morfeo.html",
+  "slots": {
+    "pageTitle": "ELT Instruments",
+    "heroImage": "https://cdn.eso.org/images/banner1920/header-instruments.jpg",
+    "program-headline": "MORFEO",
+    "summary": "Multiconjugate adaptive Optics Relay For ELT Observations",
+    "description": "As a first-generation ELT instrument, MORFEO, will help compensate for the distortion of light caused by turbulence in the Earth’s atmosphere which makes astronomical images blurry. MORFEO will not make observations itself; rather, it will enable other instruments, such as MICADO in the first instance, to take exceptional images.",
+    "quick-links": [
+      {
+        "label": "Science",
+        "href": "#science"
+      },
+      {
+        "label": "Design",
+        "href": "#design"
+      },
+      {
+        "label": "Documents",
+        "href": "#docsntools"
+      },
+      {
+        "label": "Consortium",
+        "href": "#consortium"
+      }
+    ],
+    "feature-grid": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "sections": [
+      "In a nutshell Share on Facebook E-Mail Copy Link Share on LinkedIn",
+      "Science with MORFEO",
+      "Instrument Design",
+      "Tools and Documents",
+      "Instrument Consortium and Contacts"
+    ]
+  }
+}

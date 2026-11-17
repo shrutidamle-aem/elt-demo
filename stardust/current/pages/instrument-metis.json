@@ -1,0 +1,762 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-11-13T11:30:07.106Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "instrument-metis",
+  "url": "https://elt.eso.org/instrument/METIS/",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-11-13T11:30:07.106Z",
+  "finalUrl": "https://elt.eso.org/instrument/METIS/",
+  "title": "METIS | ELT | ESO",
+  "description": "The Extremely Large Telescope: The World's Biggest Eye On The Sky",
+  "og": {
+    "title": "METIS | ELT | ESO",
+    "description": "The Extremely Large Telescope: The World's Biggest Eye On The Sky",
+    "image": "http://cdn.eso.org/images/screen/header-frontpage.jpg",
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Our use of Cookies"
+    },
+    {
+      "tag": "h1",
+      "text": "ESO Cookies Policy"
+    },
+    {
+      "tag": "h2",
+      "text": "What are cookies?"
+    },
+    {
+      "tag": "h2",
+      "text": "Categories of cookies we use"
+    },
+    {
+      "tag": "h2",
+      "text": "How to manage cookies"
+    },
+    {
+      "tag": "h2",
+      "text": "Updates to the ESO Cookies Policy"
+    },
+    {
+      "tag": "h2",
+      "text": "Additional information"
+    }
+  ],
+  "body": [
+    "Choose your language English Español",
+    "search Search",
+    "EuropeanSouthernObservatory",
+    "ELT HOME",
+    "ABOUT About the ELT Timeline Location Webcams Facts Road to the ELT Meet the Team Working Groups Industrial and Institutional Partners FAQ",
+    "TELESCOPE Telescope Overview Dome Main Structure Mirrors Mirrors Overview M1 M2M3 M4 M5 Adaptive Optics Prefocal Station Controls Operations",
+    "INSTRUMENTS Instruments Overview HARMONI MICADO MORFEO METIS ANDES MOSAIC",
+    "SCIENCE Science Overview Solar System Exoplanets Stars Black Holes Galaxies Cosmology and Dark Matter Fundamental Physics Unexpected Discoveries",
+    "NEWS & MULTIMEDIA",
+    "SUCCESS STORIES",
+    "METIS will be one of the first-generation ELT instruments. It will cover the infrared wavelength range and make full use of the giant, 39-metre main mirror of the telescope to study a wide range of science topics, from objects in our Solar System to distant active galaxies.",
+    "METIS’s powerful spectrograph and high-contrast imager will allow us to make stunning discoveries near and far and unravel some of the most pressing mysteries about our Universe. In particular, it is expected to make large contributions to one of the most dynamic and exciting fields of astronomy for both scientists and the public — exoplanets. It will allow astronomers to investigate the basic physical and chemical properties of exoplanets, like their orbital parameters, their temperature, luminosity and the composition and dynamics in their atmospheres. In addition, METIS will contribute to numerous other areas, including the study of Solar System objects, circumstellar discs and star forming regions, properties of brown dwarfs, the centre of the Milky Way, the environment of evolved stars, and active galactic nuclei.",
+    "Meet METIS, a muti-tool instrument for the ELT",
+    "METIS is well-suited to investigating a variety of astronomical objects, including protoplanetary discs, exoplanets, Solar System bodies, and stars.",
+    "The cold optical system consists of two scientific subsystems, an imager and an integral field unit (IFU) spectrograph, in addition to an adaptive-optics wavefront sensor. It is entirely in a cryostat to maintain the stable low temperatures required for good performance at mid-infrared wavelengths.",
+    "Simulator",
+    "Science Case",
+    "Top Level Requirements",
+    "METIS is made possible through the collaboration between astronomy institutes in various countries in Europe and overseas.",
+    "How do stars and planets form? How many Earth-sized planets exist around the nearest stars? What lurks at the centre of the Milky Way and galaxies further afield? These are just some of the questions the METIS instrument on the ELT will tackle.",
+    "METIS will help astronomers better understand planet formation by investigating the physical structure and evolution of protoplanetary discs, as well as the chemical composition of planet-forming material. The instrument will also allow astronomers to look into already formed planets around other stars, by investigating the climates and atmospheric properties of short- and long-period gas-dominated exoplanets, as well as searching for small planets around the nearest stars.",
+    "In our own Solar System, METIS will allow astronomers to peer through the Martian atmosphere, searching for unknown molecular species in the limb of Mars, which formed at altitudes of 80–100 km under the solar ultraviolet flux. METIS will also study asteroids and Kuiper belt objects, which provide a window into the properties of the protoplanetary disc where Earth and other planets formed. With METIS, astronomers will be able to derive the physical conditions and chemical composition of our planet-formation disc via spectroscopy of asteroids (inner regions) and Kuiper belt objects (outer regions).",
+    "METIS will be extremely well suited to study the life cycle of stars, from infant protostars to older stars near the end of their lifetime. It will further our understanding of the formation of massive stars by investigating accretion processes and disc properties, multiplicities, feedback processes, and luminosity functions in embedded stellar clusters. It will also help astronomers study evolved stars and their circumstellar environments, allowing us to better understand the complex inner wind zone of asymptotic giant branch star envelopes: the velocity, density and thermal structures of the complex envelopes, and their chemistry. METIS is also well suited to study low-mass brown dwarfs (\"failed\" stars), allowing the search for a possible population of cooler (T < 400 K) brown dwarfs and studies of their rotational velocity.",
+    "In addition, the instrument will allow astronomers to study galaxies and the environments at their centres where black holes lurk. In our own Milky Way, METIS will investigate the immediate vicinity of the galactic black hole, as well as the properties of surrounding young star clusters. METIS will also allow us to do extragalactic science, both at low and intermediate redshift. Looking at closer-by galaxies, it will help us understand the physical origin of the correlation between black hole and galactic spheroid mass from size, geometry, and dynamics of the circumnuclear region, and the interplay between star formation and nuclear feedback. At intermediate redshifts, METIS will study the evolution and merger history of the most luminous infrared galaxies via the morphology and velocity field of their redshifted Hα emission.",
+    "The cold optical system consists of two scientific subsystems, an imager and an integral field unit (IFU) spectrograph, in addition to an adaptive-optics wavefront sensor. It is entirely encased in a cryostat to maintain the stable low temperatures required for good performance at mid-infrared wavelengths.",
+    "Imaging at L/M (3–5 μm) band. The imager will include medium resolution (R ~ 1,000) slit spectroscopy as well as coronagraphy for high contrast imaging;",
+    "Imaging at N (7.5–13.5 μm) band. The N-band imager will include low resolution (R ~ few hundred) slit spectroscopy as well as coronagraphy for high contrast imaging;",
+    "High resolution (R ~ 100,000) IFU spectroscopy at L/M band, including a mode with extended instantaneous wavelength coverage (assisted by a coronagraph in front of the IFS).",
+    "To achieve diffraction-limited performance, METIS will use a single-conjugate adaptive-optics (AO) system to compensate for atmospheric turbulence. The wavefront will be measured inside METIS, and this information will be used to control the adaptive ELT mirrors (M4 and M5).",
+    "Wavelength coverage",
+    "3 − 13 μm (imaging); the imager includes low-resolution slit spectroscopy and coronography3 − 5 μm IFU spectroscopy",
+    "Spectral resolution",
+    "Low-resolution, long-slit R~400 (N-band), R~1500 (L-band), R~1900 (M-band) High-resolution, IFU R~100,000 (L,M bands)",
+    "Field-of-view",
+    "~10'' (imager), <1'' (high resolution IFU spectroscopy)",
+    "AO",
+    "all observing modes work at the diffraction limit with a single conjugate AO system",
+    "Simulator",
+    "Tool to simulate instrument observations",
+    "Science Case",
+    "Description of the scientific motivations for the instrument, as initially submitted by the instrument consortium",
+    "Top Level Requirements",
+    "Description of the characteristics of the instrument required by the science",
+    "METIS is made possible through the collaboration between astronomy institutes in various countries in Europe and overseas.",
+    "The METIS international consortium consists of NOVA (Netherlands Research School for Astronomy represented by the University of Leiden, The Netherlands), the Max Planck Institute for Astronomy (MPIA, based in Heidelberg, Germany), the University of Cologne (Germany), the UK Astronomy Technology Centre (UKATC, in Edinburgh, Scotland, UK), the KULeuven (Belgium), the Paris Saclay research center of the CEA (French Alternative Energies and Atomic Energy Commission, France), Center for Astrophysics and Gravitation (CENTRA, University of Lisbon, Portugal), ETH Zürich (Switzerland), University of Vienna (on behalf of the A* consortium (Universities of Innsbruck, Linz and Vienna), Austria), the University of Michigan at Ann Arbor (United States), Academia Sinica Institute of Astronomy and Astrophysics in Taipei (Taiwan), Universite de Liege (Belgium), and with contributions from ESO.",
+    "Principal Investigator",
+    "Bernhard Brandl (Sterrewacht Leiden, Leiden University, The Netherlands)",
+    "Project Scientist",
+    "Gaël Chauvin (Max Planck Institute for Astronomy, Germany)",
+    "Project Manager",
+    "Felix Bettonvil (Sterrewacht Leiden, Leiden University, The Netherlands)",
+    "ESO Project Engineer",
+    "Reinhold Dorn (ESO)",
+    "ESO Project Scientist",
+    "Ralf Siebenmorgen (ESO)",
+    "ESO Project Manager",
+    "Christoph Haupt (ESO)",
+    "Instrument Scientist",
+    "Roy van Boekel (MPIA Heidelberg, Germany)",
+    "Systems Engineer",
+    "Adrian Glauser (ETH Zurich, Switzerland)",
+    "We use cookies that are essential for accessing our websites and using our services. We also use cookies to analyse, measure and improve our websites’ performance, to enable content sharing via social media and to display media content hosted on third-party platforms.",
+    "The European Organisation for Astronomical Research in the Southern Hemisphere (ESO) is the pre-eminent intergovernmental science and technology organisation in astronomy. It carries out an ambitious programme focused on the design, construction and operation of powerful ground-based observing facilities for astronomy.",
+    "This Cookies Policy is intended to provide clarity by outlining the cookies used on the ESO public websites, their functions, the options you have for controlling them, and the ways you can contact us for additional details.",
+    "Cookies are small pieces of data stored on your device by websites you visit. They serve various purposes, such as remembering login credentials and preferences and enhance your browsing experience.",
+    "Essential cookies (always active): These cookies are strictly necessary for the proper functioning of our website. Without these cookies, the website cannot operate correctly, and certain services, such as logging in or accessing secure areas, may not be available; because they are essential for the website’s operation, they cannot be disabled.",
+    "Functional Cookies: These cookies enhance your browsing experience by enabling additional features and personalization, such as remembering your preferences and settings. While not strictly necessary for the website to function, they improve usability and convenience; these cookies are only placed if you provide your consent.",
+    "Analytics cookies: These cookies collect information about how visitors interact with our website, such as which pages are visited most often and how users navigate the site. This data helps us improve website performance, optimize content, and enhance the user experience; these cookies are only placed if you provide your consent. We use the following analytics cookies.",
+    "Matomo Cookies:",
+    "This website uses Matomo (formerly Piwik), an open source software which enables the statistical analysis of website visits. Matomo uses cookies (text files) which are saved on your computer and which allow us to analyze how you use our website. The website user information generated by the cookies will only be saved on the servers of our IT Department. We use this information to analyze www.eso.org visits and to prepare reports on website activities. These data will not be disclosed to third parties.",
+    "On behalf of ESO, Matomo will use this information for the purpose of evaluating your use of the website, compiling reports on website activity and providing other services relating to website activity and internet usage.",
+    "Matomo cookies settings:",
+    "Additional Third-party cookies on ESO websites: some of our pages display content from external providers, e.g. YouTube.",
+    "Such third-party services are outside of ESO control and may, at any time, change their terms of service, use of cookies, etc.",
+    "YouTube: Some videos on the ESO website are embedded from ESO’s official YouTube channel. We have enabled YouTube’s privacy-enhanced mode, meaning that no cookies are set unless the user actively clicks on the video to play it. Additionally, in this mode, YouTube does not store any personally identifiable cookie data for embedded video playbacks. For more details, please refer to YouTube’s embedding videos information page.",
+    "Cookies can also be classified based on the following elements.",
+    "Regarding the domain, there are:",
+    "First-party cookies, set by the website you are currently visiting. They are stored by the same domain that you are browsing and are used to enhance your experience on that site;",
+    "Third-party cookies, set by a domain other than the one you are currently visiting.",
+    "As for their duration, cookies can be:",
+    "Browser-session cookies, which are deleted when the user closes the browser;",
+    "Stored cookies, which stay on the user's device for a predetermined period of time.",
+    "Cookie settings: You can modify your cookie choices for the ESO webpages at any time by clicking on the link Cookie settings at the bottom of any page.",
+    "In your browser: If you wish to delete cookies or instruct your browser to delete or block cookies by default, please visit the help pages of your browser:",
+    "Brave",
+    "Chrome",
+    "Edge",
+    "Firefox",
+    "Safari",
+    "Please be aware that if you delete or decline cookies, certain functionalities of our website may be not be available and your browsing experience may be affected.",
+    "You can set most browsers to prevent any cookies being placed on your device, but you may then have to manually adjust some preferences every time you visit a site/page. And some services and functionalities may not work properly at all (e.g. profile logging-in, shop check out).",
+    "The ESO Cookies Policy may be subject to future updates, which will be made available on this page.",
+    "For any queries related to cookies, please contact: pdprATesoDOTorg.",
+    "As ESO public webpages are managed by our Department of Communication, your questions will be dealt with the support of the said Department."
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "search",
+      "href": "#"
+    },
+    {
+      "label": "ELT HOME",
+      "href": "/"
+    },
+    {
+      "label": "ABOUT",
+      "href": "/about/"
+    },
+    {
+      "label": "TELESCOPE",
+      "href": "/telescope/"
+    },
+    {
+      "label": "INSTRUMENTS",
+      "href": "/instrument/"
+    },
+    {
+      "label": "SCIENCE",
+      "href": "/science/"
+    },
+    {
+      "label": "NEWS & MULTIMEDIA",
+      "href": "/media/"
+    },
+    {
+      "label": "SUCCESS STORIES",
+      "href": "/success/buildingon/"
+    },
+    {
+      "label": "Science",
+      "href": "#science"
+    },
+    {
+      "label": "Design",
+      "href": "#design"
+    },
+    {
+      "label": "Documents",
+      "href": "#docsntools"
+    },
+    {
+      "label": "Consortium",
+      "href": "#consortium"
+    },
+    {
+      "label": "Science with METIS",
+      "href": "#science"
+    },
+    {
+      "label": "Read More",
+      "href": "#science"
+    },
+    {
+      "label": "Read More",
+      "href": "#design"
+    },
+    {
+      "label": "Instrument Design",
+      "href": "#design"
+    },
+    {
+      "label": "Tools and Documents",
+      "href": "#docsntools"
+    },
+    {
+      "label": "Read More",
+      "href": "#docsntools"
+    },
+    {
+      "label": "Read More",
+      "href": "#consortium"
+    },
+    {
+      "label": "Instrument Consortium and Contacts",
+      "href": "#consortium"
+    },
+    {
+      "label": "Simulator",
+      "href": "https://irdb.readthedocs.io/en/latest/METIS/docs/readme.html"
+    },
+    {
+      "label": "Science Case",
+      "href": "https://ui.adsabs.harvard.edu/abs/2010SPIE.7735E..2GB/abstract"
+    },
+    {
+      "label": "Top Level Requirements",
+      "href": "https://www.eso.org/sci/facilities/eelt/docs/ESO-204695_2_Top_Level_Requirements_for_ELT-MIDIR.pdf"
+    },
+    {
+      "label": "international consortium",
+      "href": "http://metis.strw.leidenuniv.nl/about/"
+    },
+    {
+      "label": "Bernhard Brandl",
+      "href": "mailto:brandl@strw.leidenuniv.nl"
+    },
+    {
+      "label": "Gaël Chauvin",
+      "href": "mailto:chauvin@mpia.de"
+    },
+    {
+      "label": "Felix Bettonvil",
+      "href": "mailto:bettonvil@strw.leidenuniv.nl"
+    },
+    {
+      "label": "Reinhold Dorn",
+      "href": "mailto:rdorn@eso.org"
+    },
+    {
+      "label": "Ralf Siebenmorgen",
+      "href": "mailto:rsiebenm@eso.org"
+    },
+    {
+      "label": "Christoph Haupt",
+      "href": "mailto:chaupt@eso.org"
+    },
+    {
+      "label": "Roy van Boekel",
+      "href": "mailto:boekel@mpia.de"
+    },
+    {
+      "label": "Adrian Glauser",
+      "href": "mailto:glausera@ethz.ch"
+    },
+    {
+      "label": "ESO",
+      "href": "https:///www.eso.org/"
+    },
+    {
+      "label": "Credits",
+      "href": "/credits/"
+    },
+    {
+      "label": "Contact us",
+      "href": "mailto:information@eso.org"
+    },
+    {
+      "label": "Subscribe to ESO news",
+      "href": "https://www.eso.org/public/outreach/newsletters/"
+    },
+    {
+      "label": "Accelerated by CDN77",
+      "href": "https://www.cdn77.com/"
+    },
+    {
+      "label": "Terms & Conditions",
+      "href": "https://www.eso.org/public/about-eso/privacy/"
+    },
+    {
+      "label": "Cookie Settings and Policy",
+      "href": "#"
+    },
+    {
+      "label": "Accept All",
+      "href": null
+    },
+    {
+      "label": "Accept Only Essential Cookies",
+      "href": null
+    },
+    {
+      "label": "Cookie Settings and Policy",
+      "href": null
+    },
+    {
+      "label": "YouTube",
+      "href": "https://www.youtube.com/t/terms"
+    },
+    {
+      "label": "ESO’s official YouTube channel",
+      "href": "https://www.youtube.com/channel/UCIhYoC2VIAJqCkoIWNHBQ3Q"
+    },
+    {
+      "label": "embedding videos information page",
+      "href": "https://support.google.com/youtube/answer/171780?hl=en-GB"
+    },
+    {
+      "label": "Brave",
+      "href": "https://support.brave.com/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.brave.com%2Fhc%2Fen-us%2Farticles%2F360050634931-How-Do-I-Manage-Cookies-In-Brave"
+    },
+    {
+      "label": "Chrome",
+      "href": "https://support.google.com/chrome/bin/answer.py?hl=en&answer=95647&p=cpn_cookies"
+    },
+    {
+      "label": "Edge",
+      "href": "https://support.microsoft.com/en-us/windows/manage-cookies-in-microsoft-edge-view-allow-block-delete-and-use-168dab11-0753-043d-7c16-ede5947fc64d"
+    },
+    {
+      "label": "Firefox",
+      "href": "https://support.mozilla.org/en-US/kb/Blocking cookies"
+    },
+    {
+      "label": "Safari",
+      "href": "https://docs.info.apple.com/article.html?path=Safari/3.0/en/9277.html"
+    },
+    {
+      "label": "Save",
+      "href": null
+    },
+    {
+      "label": "Cancel",
+      "href": null
+    }
+  ],
+  "links": [
+    "https://www.eso.org/",
+    "https://elt.eso.org/instrument/METIS/?lang",
+    "https://elt.eso.org/chile/instrument/METIS/?lang",
+    "https://facebook.com/ESOAstronomy",
+    "https://www.instagram.com/esoastronomy/",
+    "https://www.linkedin.com/company/european-southern-observatory",
+    "https://www.youtube.com/channel/UCIhYoC2VIAJqCkoIWNHBQ3Q",
+    "https://elt.eso.org/",
+    "https://elt.eso.org/about/",
+    "https://elt.eso.org/about/timeline/",
+    "https://elt.eso.org/about/location/",
+    "https://elt.eso.org/about/webcams/",
+    "https://elt.eso.org/about/facts/",
+    "https://elt.eso.org/about/road/",
+    "https://elt.eso.org/about/team/",
+    "https://elt.eso.org/about/workinggroups/",
+    "https://elt.eso.org/about/industrial/",
+    "https://elt.eso.org/about/faq/",
+    "https://elt.eso.org/telescope/",
+    "https://elt.eso.org/telescope/dome/",
+    "https://elt.eso.org/telescope/structure/",
+    "https://elt.eso.org/mirror/",
+    "https://elt.eso.org/mirror/M1/",
+    "https://elt.eso.org/mirror/M2M3/",
+    "https://elt.eso.org/mirror/M4/",
+    "https://elt.eso.org/mirror/M5/",
+    "https://elt.eso.org/telescope/adaptiveoptics/",
+    "https://elt.eso.org/telescope/prefocal/",
+    "https://elt.eso.org/telescope/controls/",
+    "https://elt.eso.org/telescope/operations/",
+    "https://elt.eso.org/instrument/",
+    "https://elt.eso.org/instrument/HARMONI/",
+    "https://elt.eso.org/instrument/MICADO/",
+    "https://elt.eso.org/instrument/MORFEO/",
+    "https://elt.eso.org/instrument/METIS/",
+    "https://elt.eso.org/instrument/ANDES/",
+    "https://elt.eso.org/instrument/MOSAIC/",
+    "https://elt.eso.org/science/",
+    "https://elt.eso.org/science/solarsystem/",
+    "https://elt.eso.org/science/exoplanets/",
+    "https://elt.eso.org/science/stars/",
+    "https://elt.eso.org/science/blackholes/",
+    "https://elt.eso.org/science/galaxies/",
+    "https://elt.eso.org/science/cosmodm/",
+    "https://elt.eso.org/science/fundamentalphysics/",
+    "https://elt.eso.org/science/discoveries/",
+    "https://elt.eso.org/media/",
+    "https://elt.eso.org/success/buildingon/",
+    "https://elt.eso.org/instrument/METIS/#",
+    "https://elt.eso.org/instrument/METIS/#science",
+    "https://elt.eso.org/instrument/METIS/#design",
+    "https://elt.eso.org/instrument/METIS/#docsntools",
+    "https://elt.eso.org/instrument/METIS/#consortium",
+    "https://www.facebook.com/sharer/sharer.php?u=https://elt.eso.org/instrument/METIS/",
+    "https://www.linkedin.com/sharing/share-offsite/?url=https://elt.eso.org/instrument/METIS/",
+    {},
+    {},
+    {},
+    {},
+    "https://www.eso.org/public/images/eso1706a/",
+    "https://www.eso.org/public/images/ann20016b/",
+    "https://irdb.readthedocs.io/en/latest/METIS/docs/readme.html",
+    "https://ui.adsabs.harvard.edu/abs/2010SPIE.7735E..2GB/abstract",
+    "https://www.eso.org/sci/facilities/eelt/docs/ESO-204695_2_Top_Level_Requirements_for_ELT-MIDIR.pdf",
+    "http://metis.strw.leidenuniv.nl/about/",
+    "mailto:brandl@strw.leidenuniv.nl",
+    "mailto:chauvin@mpia.de",
+    "mailto:bettonvil@strw.leidenuniv.nl",
+    "mailto:rdorn@eso.org",
+    "mailto:rsiebenm@eso.org",
+    "mailto:chaupt@eso.org",
+    "mailto:boekel@mpia.de",
+    "mailto:glausera@ethz.ch",
+    "https://elt.eso.org/credits/",
+    "mailto:information@eso.org",
+    "https://www.eso.org/public/outreach/newsletters/",
+    "https://www.cdn77.com/",
+    "https://www.eso.org/public/about-eso/privacy/",
+    "https://www.youtube.com/t/terms",
+    "https://support.google.com/youtube/answer/171780?hl=en-GB",
+    "https://support.brave.com/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.brave.com%2Fhc%2Fen-us%2Farticles%2F360050634931-How-Do-I-Manage-Cookies-In-Brave",
+    "https://support.google.com/chrome/bin/answer.py?hl=en&answer=95647&p=cpn_cookies",
+    "https://support.microsoft.com/en-us/windows/manage-cookies-in-microsoft-edge-view-allow-block-delete-and-use-168dab11-0753-043d-7c16-ede5947fc64d",
+    "https://support.mozilla.org/en-US/kb/Blocking%20cookies",
+    "https://docs.info.apple.com/article.html?path=Safari/3.0/en/9277.html"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/eso_logo.jpg",
+        "alt": "",
+        "w": 100,
+        "h": 130
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_topbar_mobile_1.png",
+        "alt": "ESO on Facebook",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_topbar_mobile_3.png",
+        "alt": "ESO on Instagram",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_topbar_mobile_4.png",
+        "alt": "ESO on LinkedIn",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_topbar_mobile_5.png",
+        "alt": "ESO on YouTube",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_topbar_mobile_1.png",
+        "alt": "ESO on Facebook",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_topbar_mobile_3.png",
+        "alt": "ESO on Instagram",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_topbar_mobile_4.png",
+        "alt": "ESO on LinkedIn",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_topbar_mobile_5.png",
+        "alt": "ESO on YouTube",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://cdn.eso.org/images/banner1920/header-instruments.jpg",
+        "alt": "",
+        "w": 1920,
+        "h": 900
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/eso_logo_transparent.png",
+        "alt": "",
+        "w": 981,
+        "h": 1279
+      },
+      {
+        "src": "https://cdn.eso.org/images/banner1920/subheader-instruments-metis.jpg",
+        "alt": "",
+        "w": 1920,
+        "h": 900
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_share_1.png",
+        "alt": "Share on Facebook",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_share_3.png",
+        "alt": "",
+        "w": 36,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_share_1.png",
+        "alt": "Share on Facebook",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_share_5.png",
+        "alt": "E-Mail",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_share_6.png",
+        "alt": "Copy link",
+        "w": 36,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_share_4.png",
+        "alt": "Share on LinkedIn",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://cdn.eso.org/images/banner1920/eso1706a.jpg",
+        "alt": "",
+        "w": 1920,
+        "h": 900
+      },
+      {
+        "src": "https://cdn.eso.org/images/banner1920/ann20016b.jpg",
+        "alt": "",
+        "w": 1920,
+        "h": 900
+      },
+      {
+        "src": "https://cdn.eso.org/images/banner1920/ann20016a.jpg",
+        "alt": "",
+        "w": 1920,
+        "h": 900
+      },
+      {
+        "src": "https://cdn.eso.org/images/banner1920/eso1805b.jpg",
+        "alt": "",
+        "w": 1920,
+        "h": 900
+      },
+      {
+        "src": "https://cdn.eso.org/images/banner1920/eso1706a.jpg",
+        "alt": "",
+        "w": 1920,
+        "h": 900
+      },
+      {
+        "src": "https://cdn.eso.org/images/screen/ann20016b.jpg",
+        "alt": "",
+        "w": 1280,
+        "h": 720
+      },
+      {
+        "src": "https://cdn.eso.org/images/screen/ann20016b.jpg",
+        "alt": "",
+        "w": 1280,
+        "h": 720
+      }
+    ],
+    "allImgCount": 25,
+    "cssBackgrounds": [],
+    "modals": [],
+    "videos": [],
+    "iframes": [
+      {
+        "src": "https://www.youtube-nocookie.com/embed/YG5gJqi7nwM",
+        "title": null
+      }
+    ]
+  },
+  "customProps": {
+    "--blue": "#007bff",
+    "--indigo": "#6610f2",
+    "--purple": "#6f42c1",
+    "--pink": "#e83e8c",
+    "--red": "#dc3545",
+    "--orange": "rgb(232, 133, 38)",
+    "--yellow": "#ffc107",
+    "--green": "#28a745",
+    "--teal": "#20c997",
+    "--cyan": "#17a2b8",
+    "--white": "#fff",
+    "--gray": "#6c757d",
+    "--gray-dark": "#343a40",
+    "--primary": "#007bff",
+    "--secondary": "#6c757d",
+    "--success": "#28a745",
+    "--info": "#17a2b8",
+    "--warning": "#ffc107",
+    "--danger": "#dc3545",
+    "--light": "#f8f9fa",
+    "--dark": "#343a40",
+    "--breakpoint-xxxs": "0",
+    "--breakpoint-xxs": "320px",
+    "--breakpoint-xs": "480px",
+    "--breakpoint-sm": "576px",
+    "--breakpoint-md": "768px",
+    "--breakpoint-lg": "992px",
+    "--breakpoint-xl": "1200px",
+    "--breakpoint-xxl": "1440px",
+    "--breakpoint-xxxl": "1680px",
+    "--breakpoint-xxxxl": "1920px",
+    "--font-family-sans-serif": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+    "--font-family-monospace": "SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+    "--swiper-theme-color": "#007aff",
+    "--swiper-navigation-size": "44px",
+    "--esoblue": "rgb(0, 119, 190)",
+    "--esoblueshade": "rgba(0, 119, 190, 0.1)",
+    "--esobluelightshade": "rgba(0, 119, 190, 0.4)",
+    "--headerblue": "rgb(45, 164, 245)",
+    "--esobluedarkdarkshade": "#005e97",
+    "--esobluedarkshade": "#0077be",
+    "--esogray": "#878787"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 7,
+    "mainTextLen": 17396,
+    "realImageCount": 25,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "POST",
+        "host": "jnn-pa.googleapis.com",
+        "path": "/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json+protobuf",
+        "status": 200,
+        "bytes": 126,
+        "hits": 1,
+        "example": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.youtube-nocookie.com",
+        "path": "/youtubei/v1/log_event",
+        "query": [
+          "alt"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 31,
+        "hits": 1,
+        "example": "https://www.youtube-nocookie.com/youtubei/v1/log_event",
+        "sameSite": false
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "www.youtube-nocookie.com",
+        "count": 3
+      },
+      {
+        "host": "www.google.com",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [],
+    "frameworkHints": [],
+    "forms": [],
+    "ariaLiveRegions": 0,
+    "triggers": [],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 0,
+      "thirdPartyEndpoints": 2,
+      "thirdPartyScriptHosts": 2,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": false
+    }
+  },
+  "screenshot": "assets/screenshots/instrument-metis.png",
+  "renderedHtml": "pages/instrument-metis.html",
+  "slots": {
+    "pageTitle": "ELT Instruments",
+    "heroImage": "https://cdn.eso.org/images/banner1920/header-instruments.jpg",
+    "program-headline": "METIS",
+    "summary": "Mid-infrared ELT Imager and Spectrograph",
+    "description": "METIS will be one of the first-generation ELT instruments. It will cover the infrared wavelength range and make full use of the giant, 39-metre main mirror of the telescope to study a wide range of science topics, from objects in our Solar System to distant active galaxies.",
+    "quick-links": [
+      {
+        "label": "Science",
+        "href": "#science"
+      },
+      {
+        "label": "Design",
+        "href": "#design"
+      },
+      {
+        "label": "Documents",
+        "href": "#docsntools"
+      },
+      {
+        "label": "Consortium",
+        "href": "#consortium"
+      }
+    ],
+    "feature-grid": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "sections": [
+      "In a nutshell Share on Facebook E-Mail Copy Link Share on LinkedIn",
+      "Science with METIS",
+      "Instrument Design",
+      "Tools and Documents",
+      "Instrument Consortium and Contacts"
+    ]
+  }
+}

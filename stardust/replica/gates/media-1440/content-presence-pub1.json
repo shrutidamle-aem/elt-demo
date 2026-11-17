@@ -1,0 +1,6525 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-13T19:35:17.874Z",
+  "width": 1440,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://elt.eso.org/media/",
+  "at": "2026-11-13T19:34:57.583Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 5593,
+  "root": null,
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "span.navbar-brand.ml-xl-5 > div.d-block > a",
+    "x": 64,
+    "y": 11,
+    "w": 70,
+    "h": 24,
+    "text": "",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.d-block > a > img.navbar-eso-logo",
+    "x": 64,
+    "y": 0,
+    "w": 38,
+    "h": 50,
+    "text": "",
+    "file": "eso_logo"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "ul#navbar-flags > li.nav-item.text-center > div.choose-language-message.dropdown-toggle",
+    "x": 596,
+    "y": 15,
+    "w": 143,
+    "h": 19,
+    "text": "Choose your language"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "ul.navbar-nav.ml-auto > li.nav-item_.menu-item_ > a",
+    "x": 1121,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on facebook",
+    "href": "/ESOAstronomy"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "li.nav-item_.menu-item_ > a > img.desktop-top-sm-element",
+    "x": 1121,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on facebook",
+    "file": "icon_topbar_mobile_1"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "ul.navbar-nav.ml-auto > li.nav-item_.menu-item_ > a",
+    "x": 1184,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on instagram",
+    "href": "/esoastronomy/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "li.nav-item_.menu-item_ > a > img.desktop-top-sm-element",
+    "x": 1184,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on instagram",
+    "file": "icon_topbar_mobile_3"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "ul.navbar-nav.ml-auto > li.nav-item_.menu-item_ > a",
+    "x": 1246,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on linkedin",
+    "href": "/company/european-southern-observatory"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "li.nav-item_.menu-item_ > a > img.desktop-top-sm-element",
+    "x": 1246,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on linkedin",
+    "file": "icon_topbar_mobile_4"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "ul.navbar-nav.ml-auto > li.nav-item_.menu-item_ > a",
+    "x": 1309,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on youtube",
+    "href": "/channel/UCIhYoC2VIAJqCkoIWNHBQ3Q"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "li.nav-item_.menu-item_ > a > img.desktop-top-sm-element",
+    "x": 1309,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on youtube",
+    "file": "icon_topbar_mobile_5"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "ul.navbar-nav.ml-auto > li#nav-search > a.nav-link",
+    "x": 1370,
+    "y": 2,
+    "w": 40,
+    "h": 47,
+    "text": "search",
+    "href": "/media/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "img.big-header-image.d-block",
+    "x": 0,
+    "y": 50,
+    "w": 1440,
+    "h": 675,
+    "text": "",
+    "file": "header-visuals"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#big-header > div.position-absolute.d-lg-block_ > img.big-header-eso-logo",
+    "x": 151,
+    "y": 118,
+    "w": 78,
+    "h": 102,
+    "text": "",
+    "file": "eso_logo_transparent"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#big-header > div.position-absolute.d-lg-block_ > p.esologo-text",
+    "x": 151,
+    "y": 224,
+    "w": 435,
+    "h": 79,
+    "text": "European Southern Observatory"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#big-header > div.position-absolute.big-header-title",
+    "x": 151,
+    "y": 550,
+    "w": 1138,
+    "h": 80,
+    "text": "News & Multimedia"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "ul.navbar-nav.mx-auto > li.nav-home.nav-item > a.nav-link",
+    "x": 231,
+    "y": 739,
+    "w": 92,
+    "h": 40,
+    "text": "elt home",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "ul.navbar-nav.mx-auto > li.nav-about.nav-item > a.nav-link",
+    "x": 353,
+    "y": 739,
+    "w": 68,
+    "h": 40,
+    "text": "about",
+    "href": "/about/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "ul.navbar-nav.mx-auto > li.nav-telescope.nav-item > a.nav-link",
+    "x": 451,
+    "y": 739,
+    "w": 105,
+    "h": 40,
+    "text": "telescope",
+    "href": "/telescope/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "ul.navbar-nav.mx-auto > li.nav-instruments.nav-item > a.nav-link",
+    "x": 586,
+    "y": 739,
+    "w": 124,
+    "h": 40,
+    "text": "instruments",
+    "href": "/instrument/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "ul.navbar-nav.mx-auto > li.nav-science.nav-item > a.nav-link",
+    "x": 740,
+    "y": 739,
+    "w": 82,
+    "h": 40,
+    "text": "science",
+    "href": "/science/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "ul.navbar-nav.mx-auto > li.nav-multimedia.nav-item > a.nav-link",
+    "x": 852,
+    "y": 739,
+    "w": 171,
+    "h": 40,
+    "text": "news & multimedia",
+    "href": "/media/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "ul.navbar-nav.mx-auto > li.nav-success-buildingon.nav-item > a.nav-link",
+    "x": 1053,
+    "y": 739,
+    "w": 157,
+    "h": 40,
+    "text": "success stories",
+    "href": "/success/buildingon/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.container-fluid.container-light > div.container-paragraph.section-title-paragraph > div",
+    "x": 151,
+    "y": 842,
+    "w": 234,
+    "h": 48,
+    "text": "Featured Stories"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.container-paragraph.section-title-paragraph > div.d-flex > a.share-social-media-link.share-social-media-icons",
+    "x": 1200,
+    "y": 843,
+    "w": 42,
+    "h": 46,
+    "text": "share on facebook",
+    "href": "/sharer/sharer.php"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.d-flex > a.share-social-media-link.share-social-media-icons > img",
+    "x": 1204,
+    "y": 852,
+    "w": 33,
+    "h": 33,
+    "text": "share on facebook",
+    "file": "icon_share_1"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "span.position-relative.d-flex > span.share-social-media.share-social-media-icons > img.share-social-media",
+    "x": 1249,
+    "y": 852,
+    "w": 34,
+    "h": 33,
+    "text": "",
+    "file": "icon_share_3"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.container-fluid.container-light > div.container-paragraph.section-text-paragraph > p",
+    "x": 151,
+    "y": 937,
+    "w": 1138,
+    "h": 81,
+    "text": "This section shows ELT-related content retrieved from the main ESO website. For "
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.container-paragraph.section-text-paragraph > p > a",
+    "x": 622,
+    "y": 982,
+    "w": 63,
+    "h": 24,
+    "text": "eso.org",
+    "href": "/public/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.title-categories > div.story-categories > span.story-category.story-selected-category",
+    "x": 245,
+    "y": 1114,
+    "w": 68,
+    "h": 36,
+    "text": "All"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.title-categories > div.story-categories > span.story-category",
+    "x": 319,
+    "y": 1114,
+    "w": 202,
+    "h": 36,
+    "text": "Press Releases"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.title-categories > div.story-categories > span.story-category",
+    "x": 527,
+    "y": 1114,
+    "w": 213,
+    "h": 36,
+    "text": "Announcements"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.title-categories > div.story-categories > span.story-category",
+    "x": 746,
+    "y": 1114,
+    "w": 258,
+    "h": 36,
+    "text": "Pictures of the Week"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.title-categories > div.story-categories > span.story-category",
+    "x": 1010,
+    "y": 1114,
+    "w": 155,
+    "h": 36,
+    "text": "Blog Posts"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.title-categories > div.story-categories > span.story-category",
+    "x": 1172,
+    "y": 1114,
+    "w": 113,
+    "h": 36,
+    "text": "Videos"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.title-categories > div.story-categories > a.story-category",
+    "x": 1157,
+    "y": 1166,
+    "w": 129,
+    "h": 36,
+    "text": "explorer",
+    "href": "/media/explorer/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.stories-container > div.story-container > a",
+    "x": 151,
+    "y": 1258,
+    "w": 358,
+    "h": 289,
+    "text": "video 5 nov 2026 — cs0032a chatting science with the world's largest telescope (",
+    "href": "/public/videos/cs0032a/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "a > div.story-img-container > img.story-img",
+    "x": 151,
+    "y": 1258,
+    "w": 358,
+    "h": 201,
+    "text": "chatting science with the world's largest telescope (ft. dr ",
+    "file": "cs0032a"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.stories-container > div.story-container > a",
+    "x": 541,
+    "y": 1258,
+    "w": 358,
+    "h": 265,
+    "text": "video 26 oct 2026 — potw2643b tilting the elt upwards",
+    "href": "/public/videos/potw2643b/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "a > div.story-img-container > img.story-img",
+    "x": 541,
+    "y": 1258,
+    "w": 358,
+    "h": 201,
+    "text": "tilting the elt upwards",
+    "file": "potw2643b"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.stories-container > div.story-container > a",
+    "x": 931,
+    "y": 1258,
+    "w": 358,
+    "h": 265,
+    "text": "video 26 oct 2026 — potw2643a moving forward",
+    "href": "/public/videos/potw2643a/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "a > div.story-img-container > img.story-img",
+    "x": 931,
+    "y": 1258,
+    "w": 358,
+    "h": 201,
+    "text": "moving forward",
+    "file": "potw2643a"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.stories-container > div.story-container > a",
+    "x": 151,
+    "y": 1580,
+    "w": 358,
+    "h": 265,
+    "text": "video 26 oct 2026 — potw2643d inclining the elt for the first time",
+    "href": "/public/videos/potw2643d/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "a > div.story-img-container > img.story-img",
+    "x": 151,
+    "y": 1580,
+    "w": 358,
+    "h": 201,
+    "text": "inclining the elt for the first time",
+    "file": "potw2643d"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.stories-container > div.story-container > a",
+    "x": 541,
+    "y": 1580,
+    "w": 358,
+    "h": 265,
+    "text": "video 26 oct 2026 — potw2643c inclining the elt for the first time",
+    "href": "/public/videos/potw2643c/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "a > div.story-img-container > img.story-img",
+    "x": 541,
+    "y": 1580,
+    "w": 358,
+    "h": 201,
+    "text": "inclining the elt for the first time",
+    "file": "potw2643c"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.story-container > div.story-more-container > span.story-more",
+    "x": 1046,
+    "y": 1647,
+    "w": 128,
+    "h": 60,
+    "text": "More..."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.visuals-dashboard.position-relative > div.position-absolute > a",
+    "x": 72,
+    "y": 1970,
+    "w": 49,
+    "h": 19,
+    "text": "fullscreen",
+    "href": "/media/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.visuals-dashboard.position-relative > div.py-1.d-flex > span#videos-link",
+    "x": 668,
+    "y": 1937,
+    "w": 104,
+    "h": 54,
+    "text": "Videos"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.row.d-flex > div.py-1.col-12 > span",
+    "x": 918,
+    "y": 1953,
+    "w": 53,
+    "h": 21,
+    "text": "Sort by"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.row.d-flex > div.py-1.col-12 > a#video-date-link",
+    "x": 977,
+    "y": 1953,
+    "w": 40,
+    "h": 21,
+    "text": "date",
+    "href": "/media/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.row.d-flex > div.py-1.col-12 > a#video-ranking-link",
+    "x": 1030,
+    "y": 1953,
+    "w": 74,
+    "h": 21,
+    "text": "ranking",
+    "href": "/media/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.input-group > div.input-group-append > button.btn.btn-light",
+    "x": 1389,
+    "y": 1945,
+    "w": 42,
+    "h": 38,
+    "text": "search"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.row.no-gutters > div.col.w-100 > a.videoTrigger",
+    "x": 0,
+    "y": 2011,
+    "w": 480,
+    "h": 270,
+    "text": "",
+    "href": "/media/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.col.w-100 > a.videoTrigger > img.d-block.h-100",
+    "x": 0,
+    "y": 2011,
+    "w": 480,
+    "h": 270,
+    "text": "",
+    "file": "cs0032a"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.row.no-gutters > div.col.w-100 > a.videoTrigger",
+    "x": 480,
+    "y": 2011,
+    "w": 480,
+    "h": 270,
+    "text": "",
+    "href": "/media/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.col.w-100 > a.videoTrigger > img.d-block.h-100",
+    "x": 480,
+    "y": 2011,
+    "w": 480,
+    "h": 270,
+    "text": "",
+    "file": "potw2643a"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.row.no-gutters > div.col.w-100 > a.videoTrigger",
+    "x": 960,
+    "y": 2011,
+    "w": 480,
+    "h": 270,
+    "text": "",
+    "href": "/media/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.col.w-100 > a.videoTrigger > img.d-block.h-100",
+    "x": 960,
+    "y": 2011,
+    "w": 480,
+    "h": 270,
+    "text": "",
+    "file": "potw2643b"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#videoCarouselMedia > div.swiper-button-next.swiper-button-next-video",
+    "x": 1403,
+    "y": 2124,
+    "w": 27,
+    "h": 44,
+    "text": "next slide"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#videoCarouselMedia > div.swiper-button-prev.swiper-button-prev-video",
+    "x": 10,
+    "y": 2124,
+    "w": 27,
+    "h": 44,
+    "text": "previous slide"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.visuals-dashboard.position-relative > div.position-absolute > a",
+    "x": 72,
+    "y": 2366,
+    "w": 49,
+    "h": 19,
+    "text": "fullscreen",
+    "href": "/media/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.visuals-dashboard.position-relative > div.py-1.d-flex > span#videos-link",
+    "x": 664,
+    "y": 2333,
+    "w": 113,
+    "h": 54,
+    "text": "Images"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.row.d-flex > div.py-1.col-12 > span",
+    "x": 918,
+    "y": 2349,
+    "w": 53,
+    "h": 21,
+    "text": "Sort by"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.row.d-flex > div.py-1.col-12 > a#video-date-link",
+    "x": 977,
+    "y": 2349,
+    "w": 40,
+    "h": 21,
+    "text": "date",
+    "href": "/media/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.row.d-flex > div.py-1.col-12 > a#video-ranking-link",
+    "x": 1030,
+    "y": 2349,
+    "w": 74,
+    "h": 21,
+    "text": "ranking",
+    "href": "/media/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.input-group > div.input-group-append > button.btn.btn-light",
+    "x": 1389,
+    "y": 2341,
+    "w": 42,
+    "h": 38,
+    "text": "search"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.row.no-gutters > div.col.w-100 > a",
+    "x": 0,
+    "y": 2407,
+    "w": 480,
+    "h": 270,
+    "text": "",
+    "href": "/public/images/potw2643a/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.col.w-100 > a > img.d-block.h-100",
+    "x": 0,
+    "y": 2407,
+    "w": 480,
+    "h": 270,
+    "text": "",
+    "file": "potw2643a"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.row.no-gutters > div.col.w-100 > a",
+    "x": 480,
+    "y": 2407,
+    "w": 480,
+    "h": 270,
+    "text": "",
+    "href": "/public/images/potw2643c/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.col.w-100 > a > img.d-block.h-100",
+    "x": 480,
+    "y": 2407,
+    "w": 480,
+    "h": 270,
+    "text": "",
+    "file": "potw2643c"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.row.no-gutters > div.col.w-100 > a",
+    "x": 960,
+    "y": 2407,
+    "w": 480,
+    "h": 270,
+    "text": "",
+    "href": "/public/images/potw2643b/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.col.w-100 > a > img.d-block.h-100",
+    "x": 960,
+    "y": 2407,
+    "w": 480,
+    "h": 270,
+    "text": "",
+    "file": "potw2643b"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#carouselMedia > div.swiper-button-next.swiper-button-next-media",
+    "x": 1403,
+    "y": 2520,
+    "w": 27,
+    "h": 44,
+    "text": "next slide"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#carouselMedia > div.swiper-button-prev.swiper-button-prev-media",
+    "x": 10,
+    "y": 2520,
+    "w": 27,
+    "h": 44,
+    "text": "previous slide"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.container-fluid.container-light > div.container-paragraph.section-title-paragraph",
+    "x": 0,
+    "y": 2709,
+    "w": 1440,
+    "h": 104,
+    "text": "Media information and contacts"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.container-fluid.container-light > div.container-paragraph.section-text-paragraph > h2",
+    "x": 151,
+    "y": 2821,
+    "w": 1138,
+    "h": 33,
+    "level": 2,
+    "text": "elt news"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.container-fluid.container-light > div.container-paragraph.section-text-paragraph > p",
+    "x": 151,
+    "y": 2862,
+    "w": 1138,
+    "h": 81,
+    "text": "To receive news updates about the ELT, please sign up to ESO’s media newsletter "
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.container-paragraph.section-text-paragraph > p > a",
+    "x": 151,
+    "y": 2873,
+    "w": 1093,
+    "h": 57,
+    "text": "press room",
+    "href": "/public/outreach/pressmedia/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.container-fluid.container-light > div.container-paragraph.section-text-paragraph > h2",
+    "x": 151,
+    "y": 2975,
+    "w": 1138,
+    "h": 33,
+    "level": 2,
+    "text": "elt press kit"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.container-paragraph.section-text-paragraph > div > a",
+    "x": 151,
+    "y": 3016,
+    "w": 1138,
+    "h": 804,
+    "text": "elt press brochure",
+    "href": "/public/products/brochures/brochure_0079/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div > a > img",
+    "x": 436,
+    "y": 3016,
+    "w": 569,
+    "h": 804,
+    "text": "elt press brochure",
+    "file": "brochure_0079"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.container-fluid.container-light > div.container-paragraph.section-text-paragraph > h2",
+    "x": 151,
+    "y": 3899,
+    "w": 1138,
+    "h": 33,
+    "level": 2,
+    "text": "media visits"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.container-fluid.container-light > div.container-paragraph.section-text-paragraph > p",
+    "x": 151,
+    "y": 3940,
+    "w": 1138,
+    "h": 147,
+    "text": "ESO welcomes journalists, science writers and producers who are interested in vi"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.container-paragraph.section-text-paragraph > p > a",
+    "x": 856,
+    "y": 3985,
+    "w": 41,
+    "h": 24,
+    "text": "visits",
+    "href": "/public/outreach/pressmedia/mediavisits/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.container-fluid.container-light > div.container-paragraph.section-text-paragraph > p",
+    "x": 151,
+    "y": 4104,
+    "w": 1138,
+    "h": 81,
+    "text": "The ELT will be part of ESO’s Paranal Observatory, located 120 km south of the c"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.container-fluid.container-light > div.container-paragraph.section-text-paragraph > p",
+    "x": 151,
+    "y": 4201,
+    "w": 1138,
+    "h": 147,
+    "text": "There are two ways to visit the ELT as a media representative: individual media "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.container-fluid.container-light > div.container-paragraph.section-text-paragraph > p",
+    "x": 151,
+    "y": 4364,
+    "w": 1138,
+    "h": 180,
+    "text": "ESO also organises group media visits through its Department of Communication an"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.container-paragraph.section-text-paragraph > p > a",
+    "x": 1134,
+    "y": 4376,
+    "w": 52,
+    "h": 24,
+    "text": "eson",
+    "href": "/public/outreach/partnerships/eson/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.container-paragraph.section-text-paragraph > p > a",
+    "x": 763,
+    "y": 4508,
+    "w": 153,
+    "h": 24,
+    "text": "contacto@eso.org",
+    "href": "contacto@eso.org"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.col-lg-12.p-0 > a.d-flex.align-items-center > img",
+    "x": 379,
+    "y": 4568,
+    "w": 683,
+    "h": 410,
+    "text": "",
+    "file": "map-v4"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.container-fluid.container-light > div.container-paragraph.section-text-paragraph > h2",
+    "x": 151,
+    "y": 5064,
+    "w": 1138,
+    "h": 33,
+    "level": 2,
+    "text": "media contacts"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.container-fluid.container-light > div.container-paragraph.section-text-paragraph > p",
+    "x": 151,
+    "y": 5105,
+    "w": 1138,
+    "h": 213,
+    "text": "Bárbara Ferreira ESO Media Manager Garching bei München, Germany Phone: +49 89 3"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.container-paragraph.section-text-paragraph > p > a",
+    "x": 207,
+    "y": 5282,
+    "w": 125,
+    "h": 24,
+    "text": "press@eso.org",
+    "href": "press@eso.org"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.container-fluid.container-light > div.container-paragraph.section-text-paragraph > p",
+    "x": 151,
+    "y": 5335,
+    "w": 1138,
+    "h": 180,
+    "text": "Cristian Soto ESO Media Officer Chile Vitacura, Santiago, Chile Tel: +56 2 2463 "
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.container-paragraph.section-text-paragraph > p > a",
+    "x": 207,
+    "y": 5478,
+    "w": 187,
+    "h": 24,
+    "text": "cristian.soto@eso.org",
+    "href": "Cristian.Soto@eso.org"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "footer.container-fluid.container-footer > div.row.d-flex > div.col-12.col-lg-3",
+    "x": -15,
+    "y": 5555,
+    "w": 360,
+    "h": 22,
+    "text": "| ELT ©"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.row.d-flex > div.col-12.col-lg-3 > a",
+    "x": 109,
+    "y": 5555,
+    "w": 29,
+    "h": 22,
+    "text": "eso",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.row.d-flex > div.col-12.col-lg-9 > div.text-center",
+    "x": 464,
+    "y": 5555,
+    "w": 842,
+    "h": 22,
+    "text": "| | | | |"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.col-12.col-lg-9 > div.text-center > a.w-100",
+    "x": 464,
+    "y": 5557,
+    "w": 49,
+    "h": 18,
+    "text": "credits",
+    "href": "/credits/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.col-12.col-lg-9 > div.text-center > a.w-100",
+    "x": 537,
+    "y": 5557,
+    "w": 74,
+    "h": 18,
+    "text": "contact us",
+    "href": "information@eso.org"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.col-12.col-lg-9 > div.text-center > a.w-100",
+    "x": 634,
+    "y": 5557,
+    "w": 155,
+    "h": 18,
+    "text": "subscribe to eso news",
+    "href": "/public/outreach/newsletters/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.col-12.col-lg-9 > div.text-center > a.w-100",
+    "x": 813,
+    "y": 5557,
+    "w": 149,
+    "h": 18,
+    "text": "accelerated by cdn77",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.col-12.col-lg-9 > div.text-center > a.w-100",
+    "x": 986,
+    "y": 5557,
+    "w": 128,
+    "h": 18,
+    "text": "terms & conditions",
+    "href": "/public/about-eso/privacy/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.col-12.col-lg-9 > div.text-center > a.w-100",
+    "x": 1137,
+    "y": 5557,
+    "w": 169,
+    "h": 18,
+    "text": "cookie settings and policy",
+    "href": "/media/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-notice > h1",
+    "x": 16,
+    "y": 1544,
+    "w": 1408,
+    "h": 48,
+    "level": 1,
+    "text": "our use of cookies"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-container.centered-container > div.privacy-text-element > p",
+    "x": 49,
+    "y": 1600,
+    "w": 640,
+    "h": 96,
+    "text": "We use cookies that are essential for accessing our websites and using our servi"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-notice > div.privacy-container.centered-container > div.privacy-text-element",
+    "x": 751,
+    "y": 1600,
+    "w": 640,
+    "h": 112,
+    "text": "You can manage your cookie preferences and find out more by visiting 'Cookie Set"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-notice > div.centered-container > button.privacy-button.accept-all",
+    "x": 372,
+    "y": 1728,
+    "w": 101,
+    "h": 40,
+    "text": "accept all"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-notice > div.centered-container > button.privacy-button.reject-all",
+    "x": 542,
+    "y": 1728,
+    "w": 242,
+    "h": 40,
+    "text": "accept only essential cookies"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-notice > div.centered-container > button.privacy-button.settings",
+    "x": 852,
+    "y": 1728,
+    "w": 216,
+    "h": 40,
+    "text": "cookie settings and policy"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > h1",
+    "x": 176,
+    "y": 1006,
+    "w": 1088,
+    "h": 48,
+    "level": 1,
+    "text": "eso cookies policy"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 176,
+    "y": 1086,
+    "w": 1088,
+    "h": 72,
+    "text": "The European Organisation for Astronomical Research in the Southern Hemisphere ("
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 176,
+    "y": 1174,
+    "w": 1088,
+    "h": 48,
+    "text": "This Cookies Policy is intended to provide clarity by outlining the cookies used"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > h2",
+    "x": 176,
+    "y": 1238,
+    "w": 1088,
+    "h": 38,
+    "level": 2,
+    "text": "what are cookies?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 176,
+    "y": 1284,
+    "w": 1088,
+    "h": 48,
+    "text": "Cookies are small pieces of data stored on your device by websites you visit. Th"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > h2",
+    "x": 176,
+    "y": 1348,
+    "w": 1088,
+    "h": 38,
+    "level": 2,
+    "text": "categories of cookies we use"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 176,
+    "y": 1395,
+    "w": 1088,
+    "h": 72,
+    "text": ": These cookies are strictly necessary for the proper functioning of our website"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 176,
+    "y": 1483,
+    "w": 238,
+    "h": 88,
+    "text": "Cookie ID/Name"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 414,
+    "y": 1483,
+    "w": 340,
+    "h": 88,
+    "text": "Description/Purpose"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 754,
+    "y": 1483,
+    "w": 170,
+    "h": 88,
+    "text": "Provider (1 party or 3 party)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 924,
+    "y": 1483,
+    "w": 170,
+    "h": 88,
+    "text": "Browser session cookie or Stored cookie?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 1094,
+    "y": 1483,
+    "w": 170,
+    "h": 88,
+    "text": "Duration"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 176,
+    "y": 1571,
+    "w": 238,
+    "h": 88,
+    "text": "csrftoken"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 414,
+    "y": 1571,
+    "w": 340,
+    "h": 88,
+    "text": "XSRF protection token. We use this cookie to protect against cross-site request "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 754,
+    "y": 1571,
+    "w": 170,
+    "h": 88,
+    "text": "1 party"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 924,
+    "y": 1571,
+    "w": 170,
+    "h": 88,
+    "text": "Stored"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 1094,
+    "y": 1571,
+    "w": 170,
+    "h": 88,
+    "text": "1 year"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 176,
+    "y": 1659,
+    "w": 238,
+    "h": 64,
+    "text": "user_privacy"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 414,
+    "y": 1659,
+    "w": 340,
+    "h": 64,
+    "text": "Your privacy choices. We use this cookie to save your privacy preferences."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 754,
+    "y": 1659,
+    "w": 170,
+    "h": 64,
+    "text": "1 party"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 924,
+    "y": 1659,
+    "w": 170,
+    "h": 64,
+    "text": "Stored"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 1094,
+    "y": 1659,
+    "w": 170,
+    "h": 64,
+    "text": "6 months"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 176,
+    "y": 1739,
+    "w": 1088,
+    "h": 72,
+    "text": ": These cookies enhance your browsing experience by enabling additional features"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row-choice.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 176,
+    "y": 1827,
+    "w": 206,
+    "h": 88,
+    "text": "Cookie ID/Name"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row-choice.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 382,
+    "y": 1827,
+    "w": 294,
+    "h": 88,
+    "text": "Description/Purpose"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row-choice.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 676,
+    "y": 1827,
+    "w": 147,
+    "h": 88,
+    "text": "Provider (1 party or 3 party)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row-choice.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 823,
+    "y": 1827,
+    "w": 147,
+    "h": 88,
+    "text": "Browser session cookie or Stored cookie?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row-choice.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 970,
+    "y": 1827,
+    "w": 147,
+    "h": 88,
+    "text": "Duration"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row-choice.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 1117,
+    "y": 1827,
+    "w": 147,
+    "h": 88,
+    "text": "Settings"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row-choice > div.cookies-table-cell",
+    "x": 176,
+    "y": 1915,
+    "w": 206,
+    "h": 88,
+    "text": "preferred_language"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row-choice > div.cookies-table-cell",
+    "x": 382,
+    "y": 1915,
+    "w": 294,
+    "h": 88,
+    "text": "Language settings. We use this cookie to remember your preferred language settin"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row-choice > div.cookies-table-cell",
+    "x": 676,
+    "y": 1915,
+    "w": 147,
+    "h": 88,
+    "text": "1 party"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row-choice > div.cookies-table-cell",
+    "x": 823,
+    "y": 1915,
+    "w": 147,
+    "h": 88,
+    "text": "Stored"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row-choice > div.cookies-table-cell",
+    "x": 970,
+    "y": 1915,
+    "w": 147,
+    "h": 88,
+    "text": "1 year"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table-cell > div.privacy-setting-toggle.privacy-language > span.privacy-option.privacy-option-off",
+    "x": 1175,
+    "y": 1926,
+    "w": 39,
+    "h": 21,
+    "text": "OFF"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 176,
+    "y": 2019,
+    "w": 1088,
+    "h": 72,
+    "text": ": These cookies collect information about how visitors interact with our website"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > p > span",
+    "x": 208,
+    "y": 2109,
+    "w": 126,
+    "h": 19,
+    "text": "Matomo Cookies"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 176,
+    "y": 2147,
+    "w": 1088,
+    "h": 96,
+    "text": "This website uses Matomo (formerly Piwik), an open source software which enables"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 176,
+    "y": 2259,
+    "w": 1088,
+    "h": 48,
+    "text": "On behalf of ESO, Matomo will use this information for the purpose of evaluating"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > div.privacy-setting-toggle.privacy-matomo > span.privacy-option.privacy-option-off",
+    "x": 1205,
+    "y": 2326,
+    "w": 39,
+    "h": 21,
+    "text": "OFF"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 176,
+    "y": 2323,
+    "w": 1088,
+    "h": 24,
+    "text": "Matomo cookies settings:"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 176,
+    "y": 2363,
+    "w": 238,
+    "h": 88,
+    "text": "Cookie ID/Name"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 414,
+    "y": 2363,
+    "w": 340,
+    "h": 88,
+    "text": "Description/Purpose"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 754,
+    "y": 2363,
+    "w": 170,
+    "h": 88,
+    "text": "Provider (1 party or 3 party)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 924,
+    "y": 2363,
+    "w": 170,
+    "h": 88,
+    "text": "Browser session cookie or Stored cookie?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 1094,
+    "y": 2363,
+    "w": 170,
+    "h": 88,
+    "text": "Duration"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 176,
+    "y": 2451,
+    "w": 238,
+    "h": 40,
+    "text": "Settings"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 176,
+    "y": 2491,
+    "w": 238,
+    "h": 40,
+    "text": "_pk_id"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 414,
+    "y": 2491,
+    "w": 340,
+    "h": 40,
+    "text": "Stores a unique visitor ID."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 754,
+    "y": 2491,
+    "w": 170,
+    "h": 40,
+    "text": "1 party"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 924,
+    "y": 2491,
+    "w": 170,
+    "h": 40,
+    "text": "Stored"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 1094,
+    "y": 2491,
+    "w": 170,
+    "h": 40,
+    "text": "13 months"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 176,
+    "y": 2531,
+    "w": 238,
+    "h": 64,
+    "text": "_pk_ses"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 414,
+    "y": 2531,
+    "w": 340,
+    "h": 64,
+    "text": "Session cookie temporarily stores data for the visit."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 754,
+    "y": 2531,
+    "w": 170,
+    "h": 64,
+    "text": "1 party"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 924,
+    "y": 2531,
+    "w": 170,
+    "h": 64,
+    "text": "Stored"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 1094,
+    "y": 2531,
+    "w": 170,
+    "h": 64,
+    "text": "30 minutes"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 176,
+    "y": 2595,
+    "w": 238,
+    "h": 64,
+    "text": "_pk_ref"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 414,
+    "y": 2595,
+    "w": 340,
+    "h": 64,
+    "text": "Stores attribution information (the referrer that brought the visitor to the web"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 754,
+    "y": 2595,
+    "w": 170,
+    "h": 64,
+    "text": "1 party"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 924,
+    "y": 2595,
+    "w": 170,
+    "h": 64,
+    "text": "Stored"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 1094,
+    "y": 2595,
+    "w": 170,
+    "h": 64,
+    "text": "6 months"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 176,
+    "y": 2659,
+    "w": 238,
+    "h": 112,
+    "text": "_pk_testcookie"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 414,
+    "y": 2659,
+    "w": 340,
+    "h": 112,
+    "text": "Temporary cookie to check if a visitor’s browser supports cookies (set in Intern"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 754,
+    "y": 2659,
+    "w": 170,
+    "h": 112,
+    "text": "1 party"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 924,
+    "y": 2659,
+    "w": 170,
+    "h": 112,
+    "text": "Stored"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 1094,
+    "y": 2659,
+    "w": 170,
+    "h": 112,
+    "text": "Temporary cookie that expires almost immediately after being set."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 176,
+    "y": 2787,
+    "w": 1088,
+    "h": 24,
+    "text": ": some of our pages display content from external providers, e.g. YouTube."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 176,
+    "y": 2827,
+    "w": 1088,
+    "h": 24,
+    "text": "Such third-party services are outside of ESO control and may, at any time, chang"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 176,
+    "y": 2867,
+    "w": 1088,
+    "h": 72,
+    "text": ": Some videos on the ESO website are embedded from . We have enabled YouTube’s p"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > p > a",
+    "x": 176,
+    "y": 2869,
+    "w": 59,
+    "h": 19,
+    "text": "youtube",
+    "href": "/t/terms"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > p > a",
+    "x": 620,
+    "y": 2869,
+    "w": 211,
+    "h": 19,
+    "text": "eso’s official youtube channel",
+    "href": "/channel/UCIhYoC2VIAJqCkoIWNHBQ3Q"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > p > a",
+    "x": 856,
+    "y": 2917,
+    "w": 247,
+    "h": 19,
+    "text": "embedding videos information page",
+    "href": "/youtube/answer/171780"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 176,
+    "y": 2955,
+    "w": 1088,
+    "h": 24,
+    "text": "Cookies can also be classified based on the following elements."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 176,
+    "y": 2995,
+    "w": 1088,
+    "h": 24,
+    "text": "Regarding the domain, there are:"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > ul.ul-privacy > li",
+    "x": 216,
+    "y": 3035,
+    "w": 1048,
+    "h": 48,
+    "text": ", set by the website you are currently visiting. They are stored by the same dom"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > ul.ul-privacy > li",
+    "x": 216,
+    "y": 3083,
+    "w": 1048,
+    "h": 24,
+    "text": ", set by a domain other than the one you are currently visiting."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 176,
+    "y": 3123,
+    "w": 1088,
+    "h": 24,
+    "text": "As for their duration, cookies can be:"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > ul.ul-privacy > li",
+    "x": 216,
+    "y": 3163,
+    "w": 1048,
+    "h": 24,
+    "text": ", which are deleted when the user closes the browser;"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > ul.ul-privacy > li",
+    "x": 216,
+    "y": 3187,
+    "w": 1048,
+    "h": 24,
+    "text": ", which stay on the user's device for a predetermined period of time."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > h2",
+    "x": 176,
+    "y": 3227,
+    "w": 1088,
+    "h": 38,
+    "level": 2,
+    "text": "how to manage cookies"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 176,
+    "y": 3273,
+    "w": 1088,
+    "h": 24,
+    "text": ": You can modify your cookie choices for the ESO webpages at any time by clickin"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 176,
+    "y": 3313,
+    "w": 1088,
+    "h": 24,
+    "text": ": If you wish to delete cookies or instruct your browser to delete or block cook"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "ul.ul-privacy > li > a",
+    "x": 216,
+    "y": 3355,
+    "w": 39,
+    "h": 19,
+    "text": "brave",
+    "href": "/hc/en-us/signin"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "ul.ul-privacy > li > a",
+    "x": 216,
+    "y": 3379,
+    "w": 55,
+    "h": 19,
+    "text": "chrome",
+    "href": "/chrome/bin/answer.py"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "ul.ul-privacy > li > a",
+    "x": 216,
+    "y": 3403,
+    "w": 36,
+    "h": 19,
+    "text": "edge",
+    "href": "/en-us/windows/manage-cookies-in-microsoft-edge-view-allow-block-delete-and-use-168dab11-0753-043d-7c16-ede5947fc64d"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "ul.ul-privacy > li > a",
+    "x": 216,
+    "y": 3427,
+    "w": 45,
+    "h": 19,
+    "text": "firefox",
+    "href": "/en-US/kb/Blocking%20cookies"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "ul.ul-privacy > li > a",
+    "x": 216,
+    "y": 3451,
+    "w": 39,
+    "h": 19,
+    "text": "safari",
+    "href": "/article.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 176,
+    "y": 3489,
+    "w": 1088,
+    "h": 48,
+    "text": "Please be aware that if you delete or decline cookies, certain functionalities o"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 176,
+    "y": 3553,
+    "w": 1088,
+    "h": 48,
+    "text": "You can set most browsers to prevent any cookies being placed on your device, bu"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > h2",
+    "x": 176,
+    "y": 3617,
+    "w": 1088,
+    "h": 38,
+    "level": 2,
+    "text": "updates to the eso cookies policy"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 176,
+    "y": 3664,
+    "w": 1088,
+    "h": 24,
+    "text": "The ESO Cookies Policy may be subject to future updates, which will be made avai"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > h2",
+    "x": 176,
+    "y": 3704,
+    "w": 1088,
+    "h": 38,
+    "level": 2,
+    "text": "additional information"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 176,
+    "y": 3750,
+    "w": 1088,
+    "h": 24,
+    "text": "For any queries related to cookies, please contact: pdprATesoDOTorg."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 176,
+    "y": 3790,
+    "w": 1088,
+    "h": 24,
+    "text": "As ESO public webpages are managed by our Department of Communication, your ques"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > div.centered-container > button.privacy-button.save-settings",
+    "x": 208,
+    "y": 3846,
+    "w": 66,
+    "h": 40,
+    "text": "save"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > div.centered-container > button.privacy-button.cancel-settings",
+    "x": 343,
+    "y": 3846,
+    "w": 80,
+    "h": 40,
+    "text": "cancel"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 121,
+    "horizontal": 0,
+    "offPage": 6,
+    "textNodes": 247,
+    "controls": 72,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 30,
+     "clipper": "div.privacy-settings",
+     "path": "div.cookies-table-container > div.cookies-table > div.cookies-table-row-choice > div.cookies-table-cell",
+     "text": "preferred_language",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 22,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > p",
+     "text": ": these cookies enhance your browsing experience by enabling",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 16,
+     "clipper": "div.privacy-settings",
+     "path": "div.cookies-table-container > div.cookies-table > div.cookies-table-row-choice.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+     "text": "cookie id/name",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 11,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > p > span",
+     "text": "functional cookies",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 9,
+     "clipper": "div.privacy-settings",
+     "path": "div.cookies-table > div.cookies-table-row-choice.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header > sup",
+     "text": "st",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "CONTROL SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 8,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > p > a",
+     "text": "youtube",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 8,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > p > a",
+     "text": "youtube",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 4,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > ul.ul-privacy > li",
+     "text": ", set by the website you are currently visiting. they are st",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 3,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > h2",
+     "text": "how to manage cookies",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 2,
+     "clipper": "div.privacy-settings",
+     "path": "div.cookies-table-row-choice > div.cookies-table-cell > div.privacy-setting-toggle.privacy-language > span.privacy-option.privacy-option-on",
+     "text": "on",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 2,
+     "clipper": "div.privacy-settings",
+     "path": "div.cookies-table-row-choice > div.cookies-table-cell > div.privacy-setting-toggle.privacy-language > span.privacy-option.privacy-option-off",
+     "text": "off",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.privacy-settings",
+     "path": "div.cookies-table > div.cookies-table-row-choice > div.cookies-table-cell > div.privacy-setting-toggle.privacy-language",
+     "text": "|",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > div.privacy-setting-toggle.privacy-matomo",
+     "text": "|",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "CONTROL SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > div.centered-container > button.privacy-button.save-settings",
+     "text": "save",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > div.centered-container > button.privacy-button.save-settings",
+     "text": "save",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "CONTROL SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > div.centered-container > button.privacy-button.cancel-settings",
+     "text": "cancel",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > div.centered-container > button.privacy-button.cancel-settings",
+     "text": "cancel",
+     "cutMin": null,
+     "cutMax": null
+    }
+   ]
+  }
+ },
+ "eds": {
+  "url": "https://main--26c59ee1--aemcoder.aem.page/media",
+  "at": "2026-11-13T19:35:17.693Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 5528,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "span.navbar-brand.navbar-brand-main > div.brand-logo > a",
+    "x": 64,
+    "y": 0,
+    "w": 70,
+    "h": 50,
+    "text": "eso",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img.navbar-eso-logo",
+    "x": 64,
+    "y": 0,
+    "w": 38,
+    "h": 50,
+    "text": "eso",
+    "file": "media_175cb2986e8ee49e7c64e8a9df5fa3f1f9"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.language-menu > div.choose-language-message > p",
+    "x": 596,
+    "y": 15,
+    "w": 143,
+    "h": 19,
+    "text": "Choose your language"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.navbar-nav > li.social-desktop.desktop-top-sm-icons > a",
+    "x": 1121,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on facebook",
+    "href": "/ESOAstronomy"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 1121,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on facebook",
+    "file": "media_1f386e2b9f7ed0b34b2f603a73f839485d"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.navbar-nav > li.social-desktop.desktop-top-sm-icons > a",
+    "x": 1184,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on instagram",
+    "href": "/esoastronomy/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 1184,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on instagram",
+    "file": "media_19faa7be92695e315cea4cad487aa3e15b"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.navbar-nav > li.social-desktop.desktop-top-sm-icons > a",
+    "x": 1246,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on linkedin",
+    "href": "/company/european-southern-observatory"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 1246,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on linkedin",
+    "file": "media_15b4dfde77d1909c3b38baaf7167a2e3d4"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.navbar-nav > li.social-desktop.desktop-top-sm-icons > a",
+    "x": 1309,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on youtube",
+    "href": "/channel/UCIhYoC2VIAJqCkoIWNHBQ3Q"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 1309,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on youtube",
+    "file": "media_101417719196c90d4b42a69d39754d790f"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.navbar-nav > li#nav-search > a.nav-link",
+    "x": 1370,
+    "y": 2,
+    "w": 40,
+    "h": 46,
+    "text": "search",
+    "href": "/media"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.big-header-media > picture > img.big-header-image",
+    "x": 0,
+    "y": 50,
+    "w": 1440,
+    "h": 675,
+    "text": "",
+    "file": "media_1571af4f4561589f3057d6e09531c79705"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.big-header-logos > picture > img.big-header-eso-logo",
+    "x": 151,
+    "y": 118,
+    "w": 78,
+    "h": 102,
+    "text": "eso",
+    "file": "media_1a043431fda0378cd219e1a181f4b0998c"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.big-header-text > div.big-header-logos > p.esologo-text",
+    "x": 151,
+    "y": 224,
+    "w": 435,
+    "h": 79,
+    "text": "European Southern Observatory"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.big-header-text > div.big-header-title > h1#news--multimedia",
+    "x": 151,
+    "y": 550,
+    "w": 1138,
+    "h": 80,
+    "level": 1,
+    "text": "news & multimedia"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.navbar-nav > li.nav-item.menu-item > a.nav-link",
+    "x": 231,
+    "y": 739,
+    "w": 91,
+    "h": 40,
+    "text": "elt home",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.navbar-nav > li.nav-item.menu-item > a.nav-link",
+    "x": 352,
+    "y": 739,
+    "w": 68,
+    "h": 40,
+    "text": "about",
+    "href": "/about/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.navbar-nav > li.nav-item.menu-item > a.nav-link",
+    "x": 449,
+    "y": 739,
+    "w": 106,
+    "h": 40,
+    "text": "telescope",
+    "href": "/telescope/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.navbar-nav > li.nav-item.menu-item > a.nav-link",
+    "x": 585,
+    "y": 739,
+    "w": 124,
+    "h": 40,
+    "text": "instruments",
+    "href": "/instrument/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.navbar-nav > li.nav-item.menu-item > a.nav-link",
+    "x": 739,
+    "y": 739,
+    "w": 83,
+    "h": 40,
+    "text": "science",
+    "href": "/science/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.navbar-nav > li.nav-item.menu-item > a.nav-link",
+    "x": 852,
+    "y": 739,
+    "w": 171,
+    "h": 40,
+    "text": "news & multimedia",
+    "href": "/media/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.navbar-nav > li.nav-item.menu-item > a.nav-link",
+    "x": 1052,
+    "y": 739,
+    "w": 158,
+    "h": 40,
+    "text": "success stories",
+    "href": "/success/buildingon/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.block > div.section-title-paragraph.container-paragraph > p",
+    "x": 151,
+    "y": 842,
+    "w": 238,
+    "h": 48,
+    "text": "Featured Stories"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-title-paragraph.container-paragraph > div.share-bar.block > a.share-social-media-link.share-social-media-icons",
+    "x": 1200,
+    "y": 843,
+    "w": 42,
+    "h": 46,
+    "text": "share on facebook",
+    "href": "/sharer/sharer.php"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.share-bar.block > a.share-social-media-link.share-social-media-icons > img",
+    "x": 1204,
+    "y": 852,
+    "w": 33,
+    "h": 33,
+    "text": "share on facebook",
+    "file": "icon_share_1"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "span.share-menu > span.share-social-media.share-social-media-icons > img.share-social-media",
+    "x": 1249,
+    "y": 852,
+    "w": 34,
+    "h": 33,
+    "text": "",
+    "file": "icon_share_3"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.block > div.section-text-paragraph.container-paragraph > p",
+    "x": 151,
+    "y": 937,
+    "w": 1138,
+    "h": 81,
+    "text": "This section shows ELT-related content retrieved from the main ESO website. For "
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-text-paragraph.container-paragraph > p > a",
+    "x": 617,
+    "y": 982,
+    "w": 63,
+    "h": 24,
+    "text": "eso.org",
+    "href": "/public/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.title-categories > div.story-categories > span.story-category.story-selected-category",
+    "x": 238,
+    "y": 1114,
+    "w": 70,
+    "h": 36,
+    "text": "All"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.title-categories > div.story-categories > span.story-category",
+    "x": 314,
+    "y": 1114,
+    "w": 207,
+    "h": 36,
+    "text": "Press Releases"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.title-categories > div.story-categories > span.story-category",
+    "x": 527,
+    "y": 1114,
+    "w": 212,
+    "h": 36,
+    "text": "Announcements"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.title-categories > div.story-categories > span.story-category",
+    "x": 745,
+    "y": 1114,
+    "w": 258,
+    "h": 36,
+    "text": "Pictures of the Week"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.title-categories > div.story-categories > span.story-category",
+    "x": 1010,
+    "y": 1114,
+    "w": 155,
+    "h": 36,
+    "text": "Blog Posts"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.title-categories > div.story-categories > span.story-category",
+    "x": 1171,
+    "y": 1114,
+    "w": 115,
+    "h": 36,
+    "text": "Videos"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.title-categories > div.story-categories > a.story-category",
+    "x": 1155,
+    "y": 1166,
+    "w": 130,
+    "h": 36,
+    "text": "explorer",
+    "href": "/media/explorer/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.stories-container > div.story-container > a",
+    "x": 151,
+    "y": 1258,
+    "w": 358,
+    "h": 289,
+    "text": "video 5 nov 2026 — cs0032a chatting science with the world's largest telescope (",
+    "href": "/public/videos/cs0032a/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.story-img-container > picture > img.story-img",
+    "x": 151,
+    "y": 1258,
+    "w": 358,
+    "h": 201,
+    "text": "chatting science with the world's largest telescope (ft. dr ",
+    "file": "media_1849eee9be0d8ff12513d02c6df6d390f3"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.stories-container > div.story-container > a",
+    "x": 541,
+    "y": 1258,
+    "w": 358,
+    "h": 265,
+    "text": "video 26 oct 2026 — potw2643b tilting the elt upwards",
+    "href": "/public/videos/potw2643b/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.story-img-container > picture > img.story-img",
+    "x": 541,
+    "y": 1258,
+    "w": 358,
+    "h": 201,
+    "text": "tilting the elt upwards",
+    "file": "media_1c8662f912ed14abc90b383aaf77b826a2"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.stories-container > div.story-container > a",
+    "x": 931,
+    "y": 1258,
+    "w": 358,
+    "h": 265,
+    "text": "video 26 oct 2026 — potw2643a moving forward",
+    "href": "/public/videos/potw2643a/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.story-img-container > picture > img.story-img",
+    "x": 931,
+    "y": 1258,
+    "w": 358,
+    "h": 201,
+    "text": "moving forward",
+    "file": "media_1ed8f904c055410abecbe0dceb5c28753c"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.stories-container > div.story-container > a",
+    "x": 151,
+    "y": 1580,
+    "w": 358,
+    "h": 265,
+    "text": "video 26 oct 2026 — potw2643d inclining the elt for the first time",
+    "href": "/public/videos/potw2643d/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.story-img-container > picture > img.story-img",
+    "x": 151,
+    "y": 1580,
+    "w": 358,
+    "h": 201,
+    "text": "inclining the elt for the first time",
+    "file": "media_1c99b43cdfbd1c377d70fc26206e276898"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.stories-container > div.story-container > a",
+    "x": 541,
+    "y": 1580,
+    "w": 358,
+    "h": 265,
+    "text": "video 26 oct 2026 — potw2643c inclining the elt for the first time",
+    "href": "/public/videos/potw2643c/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.story-img-container > picture > img.story-img",
+    "x": 541,
+    "y": 1580,
+    "w": 358,
+    "h": 201,
+    "text": "inclining the elt for the first time",
+    "file": "media_14083421365f4da6733f3705f8d52ed885"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.story-more-container > div.story-more > p",
+    "x": 1047,
+    "y": 1647,
+    "w": 125,
+    "h": 60,
+    "text": "More..."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.visuals-dashboard > div.visuals-fullscreen-wrap > a",
+    "x": 72,
+    "y": 1969,
+    "w": 49,
+    "h": 20,
+    "text": "fullscreen",
+    "href": "/media"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-type > div.media-type-label > p",
+    "x": 667,
+    "y": 1937,
+    "w": 106,
+    "h": 54,
+    "text": "Videos"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-ranking > p > span.media-ranking-label",
+    "x": 917,
+    "y": 1953,
+    "w": 57,
+    "h": 21,
+    "text": "Sort by"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-ranking > p > a.media-type-active",
+    "x": 974,
+    "y": 1953,
+    "w": 43,
+    "h": 21,
+    "text": "date",
+    "href": "/media"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-ranking > p > a",
+    "x": 1030,
+    "y": 1953,
+    "w": 75,
+    "h": 21,
+    "text": "ranking",
+    "href": "/media"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.input-group > div.input-group-append > button.btn",
+    "x": 1395,
+    "y": 1945,
+    "w": 42,
+    "h": 38,
+    "text": "search"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rail-tile.rail-tile-video > div.img-col > a",
+    "x": 0,
+    "y": 2011,
+    "w": 480,
+    "h": 270,
+    "text": "",
+    "href": "/public/videos/cs0032a/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img.img-thumb",
+    "x": 0,
+    "y": 2011,
+    "w": 480,
+    "h": 270,
+    "text": "",
+    "file": "media_1849eee9be0d8ff12513d02c6df6d390f3"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rail-tile.rail-tile-video > div.img-col > a",
+    "x": 480,
+    "y": 2011,
+    "w": 480,
+    "h": 270,
+    "text": "",
+    "href": "/public/videos/potw2643a/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img.img-thumb",
+    "x": 480,
+    "y": 2011,
+    "w": 480,
+    "h": 270,
+    "text": "",
+    "file": "media_1ed8f904c055410abecbe0dceb5c28753c"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rail-tile.rail-tile-video > div.img-col > a",
+    "x": 960,
+    "y": 2011,
+    "w": 480,
+    "h": 270,
+    "text": "",
+    "href": "/public/videos/potw2643b/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img.img-thumb",
+    "x": 960,
+    "y": 2011,
+    "w": 480,
+    "h": 270,
+    "text": "",
+    "file": "media_1c8662f912ed14abc90b383aaf77b826a2"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.carousel.rail > div.rail-stage > button.rail-arrow.rail-arrow-next",
+    "x": 1403,
+    "y": 2124,
+    "w": 27,
+    "h": 44,
+    "text": "next slide"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.carousel.rail > div.rail-stage > button.rail-arrow.rail-arrow-prev",
+    "x": 10,
+    "y": 2124,
+    "w": 27,
+    "h": 44,
+    "text": "previous slide"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.visuals-dashboard > div.visuals-fullscreen-wrap > a",
+    "x": 72,
+    "y": 2365,
+    "w": 49,
+    "h": 20,
+    "text": "fullscreen",
+    "href": "/media"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-type > div.media-type-label > p",
+    "x": 663,
+    "y": 2333,
+    "w": 114,
+    "h": 54,
+    "text": "Images"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-ranking > p > span.media-ranking-label",
+    "x": 917,
+    "y": 2349,
+    "w": 57,
+    "h": 21,
+    "text": "Sort by"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-ranking > p > a.media-type-active",
+    "x": 974,
+    "y": 2349,
+    "w": 43,
+    "h": 21,
+    "text": "date",
+    "href": "/media"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.media-ranking > p > a",
+    "x": 1030,
+    "y": 2349,
+    "w": 75,
+    "h": 21,
+    "text": "ranking",
+    "href": "/media"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.input-group > div.input-group-append > button.btn",
+    "x": 1395,
+    "y": 2341,
+    "w": 42,
+    "h": 38,
+    "text": "search"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rail-tile > div.img-col > a",
+    "x": 0,
+    "y": 2407,
+    "w": 480,
+    "h": 270,
+    "text": "",
+    "href": "/public/images/potw2643a/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img.img-thumb",
+    "x": 0,
+    "y": 2407,
+    "w": 480,
+    "h": 270,
+    "text": "",
+    "file": "media_18f9ac1906ea502cbc8d48331f1af83e1f"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rail-tile > div.img-col > a",
+    "x": 480,
+    "y": 2407,
+    "w": 480,
+    "h": 270,
+    "text": "",
+    "href": "/public/images/potw2643c/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img.img-thumb",
+    "x": 480,
+    "y": 2407,
+    "w": 480,
+    "h": 270,
+    "text": "",
+    "file": "media_1e8e01d10625372fdcc37baf004f065945"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rail-tile > div.img-col > a",
+    "x": 960,
+    "y": 2407,
+    "w": 480,
+    "h": 270,
+    "text": "",
+    "href": "/public/images/potw2643b/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img.img-thumb",
+    "x": 960,
+    "y": 2407,
+    "w": 480,
+    "h": 270,
+    "text": "",
+    "file": "media_14bc5b211f60827d42e33299fd6739631d"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.carousel.rail > div.rail-stage > button.rail-arrow.rail-arrow-next",
+    "x": 1403,
+    "y": 2520,
+    "w": 27,
+    "h": 44,
+    "text": "next slide"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.carousel.rail > div.rail-stage > button.rail-arrow.rail-arrow-prev",
+    "x": 10,
+    "y": 2520,
+    "w": 27,
+    "h": 44,
+    "text": "previous slide"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.row-styles > div.section-title-paragraph.container-paragraph > p",
+    "x": 151,
+    "y": 2725,
+    "w": 1138,
+    "h": 48,
+    "text": "Media information and contacts"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.row-styles > div.section-text-paragraph.container-paragraph > h2#elt-news",
+    "x": 151,
+    "y": 2821,
+    "w": 1138,
+    "h": 33,
+    "level": 2,
+    "text": "elt news"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.row-styles > div.section-text-paragraph.container-paragraph > p",
+    "x": 151,
+    "y": 2862,
+    "w": 1138,
+    "h": 81,
+    "text": "To receive news updates about the ELT, please sign up to ESO’s media newsletter "
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-text-paragraph.container-paragraph > p > a",
+    "x": 151,
+    "y": 2873,
+    "w": 1090,
+    "h": 57,
+    "text": "press room",
+    "href": "/public/outreach/pressmedia/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.row-styles > div.section-text-paragraph.container-paragraph > h2#elt-press-kit",
+    "x": 151,
+    "y": 2975,
+    "w": 1138,
+    "h": 33,
+    "level": 2,
+    "text": "elt press kit"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.row-styles > figure.article-image.article-image-half > a",
+    "x": 151,
+    "y": 3023,
+    "w": 1138,
+    "h": 804,
+    "text": "elt press brochure",
+    "href": "/public/products/brochures/brochure_0079/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 436,
+    "y": 3023,
+    "w": 569,
+    "h": 804,
+    "text": "elt press brochure",
+    "file": "media_102c223f7f0a94e503aba34259d5d5abe9"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.row-styles > div.section-text-paragraph.container-paragraph > h2#media-visits",
+    "x": 151,
+    "y": 3899,
+    "w": 1138,
+    "h": 33,
+    "level": 2,
+    "text": "media visits"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.row-styles > div.section-text-paragraph.container-paragraph > p",
+    "x": 151,
+    "y": 3940,
+    "w": 1138,
+    "h": 147,
+    "text": "ESO welcomes journalists, science writers and producers who are interested in vi"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-text-paragraph.container-paragraph > p > a",
+    "x": 846,
+    "y": 3985,
+    "w": 42,
+    "h": 24,
+    "text": "visits",
+    "href": "/public/outreach/pressmedia/mediavisits/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.row-styles > div.section-text-paragraph.container-paragraph > p",
+    "x": 151,
+    "y": 4104,
+    "w": 1138,
+    "h": 81,
+    "text": "The ELT will be part of ESO’s Paranal Observatory, located 120 km south of the c"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.row-styles > div.section-text-paragraph.container-paragraph > p",
+    "x": 151,
+    "y": 4201,
+    "w": 1138,
+    "h": 147,
+    "text": "There are two ways to visit the ELT as a media representative: individual media "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.row-styles > div.section-text-paragraph.container-paragraph > p",
+    "x": 151,
+    "y": 4364,
+    "w": 1138,
+    "h": 180,
+    "text": "ESO also organises group media visits through its Department of Communication an"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-text-paragraph.container-paragraph > p > a",
+    "x": 1131,
+    "y": 4376,
+    "w": 53,
+    "h": 24,
+    "text": "eson",
+    "href": "/public/outreach/partnerships/eson/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-text-paragraph.container-paragraph > p > a",
+    "x": 757,
+    "y": 4508,
+    "w": 153,
+    "h": 24,
+    "text": "contacto@eso.org",
+    "href": "contacto@eso.org"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "figure.article-image.article-image-wide > picture > img",
+    "x": 151,
+    "y": 4568,
+    "w": 683,
+    "h": 410,
+    "text": "",
+    "file": "media_13b5dfc9f0327956559ec8cbafb76f38d3"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.row-styles > div.section-text-paragraph.container-paragraph > h2#media-contacts",
+    "x": 151,
+    "y": 5000,
+    "w": 1138,
+    "h": 33,
+    "level": 2,
+    "text": "media contacts"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.row-styles > div.section-text-paragraph.container-paragraph > p",
+    "x": 151,
+    "y": 5041,
+    "w": 1138,
+    "h": 213,
+    "text": "Bárbara Ferreira ESO Media Manager Garching bei München, Germany Phone: +49 89 3"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-text-paragraph.container-paragraph > p > a",
+    "x": 209,
+    "y": 5217,
+    "w": 128,
+    "h": 24,
+    "text": "press@eso.org",
+    "href": "press@eso.org"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.row-styles > div.section-text-paragraph.container-paragraph > p",
+    "x": 151,
+    "y": 5270,
+    "w": 1138,
+    "h": 180,
+    "text": "Cristian Soto ESO Media Officer Chile Vitacura, Santiago, Chile Tel: +56 2 2463 "
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-text-paragraph.container-paragraph > p > a",
+    "x": 209,
+    "y": 5414,
+    "w": 190,
+    "h": 24,
+    "text": "cristian.soto@eso.org",
+    "href": "Cristian.Soto@eso.org"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer > div.site-footer-row > p.site-footer-brand.footer-item",
+    "x": -15,
+    "y": 5490,
+    "w": 360,
+    "h": 22,
+    "text": "| ELT ©"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-row > p.site-footer-brand.footer-item > a",
+    "x": 108,
+    "y": 5490,
+    "w": 30,
+    "h": 22,
+    "text": "eso",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-links.footer-item > div > p",
+    "x": 464,
+    "y": 5490,
+    "w": 843,
+    "h": 22,
+    "text": "| | | | |"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > p > a",
+    "x": 464,
+    "y": 5492,
+    "w": 49,
+    "h": 18,
+    "text": "credits",
+    "href": "/credits/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > p > a",
+    "x": 537,
+    "y": 5492,
+    "w": 72,
+    "h": 18,
+    "text": "contact us",
+    "href": "information@eso.org"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > p > a",
+    "x": 633,
+    "y": 5492,
+    "w": 155,
+    "h": 18,
+    "text": "subscribe to eso news",
+    "href": "/public/outreach/newsletters/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > p > a",
+    "x": 811,
+    "y": 5492,
+    "w": 150,
+    "h": 18,
+    "text": "accelerated by cdn77",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > p > a",
+    "x": 984,
+    "y": 5492,
+    "w": 128,
+    "h": 18,
+    "text": "terms & conditions",
+    "href": "/public/about-eso/privacy/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > p > a",
+    "x": 1136,
+    "y": 5492,
+    "w": 170,
+    "h": 18,
+    "text": "cookie settings and policy",
+    "href": "/media"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 6,
+    "textNodes": 99,
+    "controls": 59,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 33,
+    "button": 9,
+    "text": 84,
+    "image": 20
+   },
+   "eds": {
+    "link": 27,
+    "linkHidden": 0,
+    "button": 6,
+    "buttonHidden": 0,
+    "text": 15,
+    "textHidden": 0,
+    "image": 15,
+    "imageHidden": 0
+   },
+   "findings": [
+    "MISSING HEADING",
+    "MISSING LINK",
+    "MISSING LINK",
+    "MISSING LINK",
+    "MISSING LINK",
+    "MISSING BUTTON",
+    "MISSING BUTTON",
+    "MISSING BUTTON",
+    "COUNT TEXT"
+   ]
+  },
+  {
+   "index": 1,
+   "heading": "elt news",
+   "variable": false,
+   "origin": {
+    "link": 4,
+    "button": 0,
+    "text": 4,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": [
+    "MISSING HEADING",
+    "MISSING LINK",
+    "MISSING LINK",
+    "MISSING LINK"
+   ]
+  },
+  {
+   "index": 2,
+   "heading": "elt press kit",
+   "variable": false,
+   "origin": {
+    "link": 6,
+    "button": 2,
+    "text": 13,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": [
+    "MISSING HEADING",
+    "MISSING LINK",
+    "MISSING LINK",
+    "MISSING LINK",
+    "MISSING LINK",
+    "MISSING LINK",
+    "MISSING BUTTON",
+    "MISSING BUTTON",
+    "COUNT TEXT"
+   ]
+  },
+  {
+   "index": 3,
+   "heading": "media visits",
+   "variable": false,
+   "origin": {
+    "link": 3,
+    "button": 0,
+    "text": 4,
+    "image": 1
+   },
+   "eds": {
+    "link": 3,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 4,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": [
+    "MISSING HEADING"
+   ]
+  },
+  {
+   "index": 4,
+   "heading": "media contacts",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🔴",
+   "kind": "MISSING HEADING",
+   "msg": "h1 \"eso cookies policy\" (origin y 1006) has no served heading",
+   "band": 0,
+   "text": "eso cookies policy"
+  },
+  {
+   "sev": "🔴",
+   "kind": "MISSING HEADING",
+   "msg": "h2 \"what are cookies?\" (origin y 1238) has no served heading",
+   "band": 1,
+   "text": "what are cookies?"
+  },
+  {
+   "sev": "🔴",
+   "kind": "MISSING HEADING",
+   "msg": "h2 \"categories of cookies we use\" (origin y 1348) has no served heading",
+   "band": 2,
+   "text": "categories of cookies we use"
+  },
+  {
+   "sev": "🔴",
+   "kind": "MISSING HEADING",
+   "msg": "h1 \"our use of cookies\" (origin y 1544) has no served heading",
+   "band": 3,
+   "text": "our use of cookies"
+  },
+  {
+   "sev": "🔴",
+   "kind": "MISSING HEADING",
+   "msg": "h2 \"how to manage cookies\" (origin y 3227) has no served heading",
+   "band": 6,
+   "text": "how to manage cookies"
+  },
+  {
+   "sev": "🔴",
+   "kind": "MISSING HEADING",
+   "msg": "h2 \"updates to the eso cookies policy\" (origin y 3617) has no served heading",
+   "band": 7,
+   "text": "updates to the eso cookies policy"
+  },
+  {
+   "sev": "🔴",
+   "kind": "MISSING HEADING",
+   "msg": "h2 \"additional information\" (origin y 3704) has no served heading",
+   "band": 8,
+   "text": "additional information"
+  },
+  {
+   "sev": "🔴",
+   "kind": "MISSING LINK",
+   "msg": "\"eso on facebook\" → /ESOAstronomy in band \"(top)\" (origin y 11) not on the served page",
+   "band": 0,
+   "n": 1,
+   "text": "eso on facebook",
+   "href": "/ESOAstronomy"
+  },
+  {
+   "sev": "🔴",
+   "kind": "MISSING LINK",
+   "msg": "\"eso on instagram\" → /esoastronomy/ in band \"(top)\" (origin y 11) not on the served page",
+   "band": 0,
+   "n": 1,
+   "text": "eso on instagram",
+   "href": "/esoastronomy/"
+  },
+  {
+   "sev": "🔴",
+   "kind": "MISSING LINK",
+   "msg": "\"eso on linkedin\" → /company/european-southern-observatory in band \"(top)\" (origin y 11) not on the served page",
+   "band": 0,
+   "n": 1,
+   "text": "eso on linkedin",
+   "href": "/company/european-southern-observatory"
+  },
+  {
+   "sev": "🔴",
+   "kind": "MISSING LINK",
+   "msg": "\"eso on youtube\" → /channel/UCIhYoC2VIAJqCkoIWNHBQ3Q in band \"(top)\" (origin y 11) not on the served page",
+   "band": 0,
+   "n": 1,
+   "text": "eso on youtube",
+   "href": "/channel/UCIhYoC2VIAJqCkoIWNHBQ3Q"
+  },
+  {
+   "sev": "🔴",
+   "kind": "MISSING LINK",
+   "msg": "\"youtube\" → /t/terms in band \"elt news\" (origin y 2869) not on the served page",
+   "band": 1,
+   "n": 1,
+   "text": "youtube",
+   "href": "/t/terms"
+  },
+  {
+   "sev": "🔴",
+   "kind": "MISSING LINK",
+   "msg": "\"eso’s official youtube channel\" → /channel/UCIhYoC2VIAJqCkoIWNHBQ3Q in band \"elt news\" (origin y 2869) not on the served page",
+   "band": 1,
+   "n": 1,
+   "text": "eso’s official youtube channel",
+   "href": "/channel/UCIhYoC2VIAJqCkoIWNHBQ3Q"
+  },
+  {
+   "sev": "🔴",
+   "kind": "MISSING LINK",
+   "msg": "\"embedding videos information page\" → /youtube/answer/171780 in band \"elt news\" (origin y 2917) not on the served page",
+   "band": 1,
+   "n": 1,
+   "text": "embedding videos information page",
+   "href": "/youtube/answer/171780"
+  },
+  {
+   "sev": "🔴",
+   "kind": "MISSING LINK",
+   "msg": "\"brave\" → /hc/en-us/signin in band \"elt press kit\" (origin y 3355) not on the served page",
+   "band": 2,
+   "n": 1,
+   "text": "brave",
+   "href": "/hc/en-us/signin"
+  },
+  {
+   "sev": "🔴",
+   "kind": "MISSING LINK",
+   "msg": "\"chrome\" → /chrome/bin/answer.py in band \"elt press kit\" (origin y 3379) not on the served page",
+   "band": 2,
+   "n": 1,
+   "text": "chrome",
+   "href": "/chrome/bin/answer.py"
+  },
+  {
+   "sev": "🔴",
+   "kind": "MISSING LINK",
+   "msg": "\"edge\" → /en-us/windows/manage-cookies-in-microsoft-edge-view-allow-block-delete-and-use-168dab11-0753-043d-7c16-ede5947fc64d in band \"elt press kit\" (origin y 3403) not on the served page",
+   "band": 2,
+   "n": 1,
+   "text": "edge",
+   "href": "/en-us/windows/manage-cookies-in-microsoft-edge-view-allow-block-delete-and-use-168dab11-0753-043d-7c16-ede5947fc64d"
+  },
+  {
+   "sev": "🔴",
+   "kind": "MISSING LINK",
+   "msg": "\"firefox\" → /en-US/kb/Blocking%20cookies in band \"elt press kit\" (origin y 3427) not on the served page",
+   "band": 2,
+   "n": 1,
+   "text": "firefox",
+   "href": "/en-US/kb/Blocking%20cookies"
+  },
+  {
+   "sev": "🔴",
+   "kind": "MISSING LINK",
+   "msg": "\"safari\" → /article.html in band \"elt press kit\" (origin y 3451) not on the served page",
+   "band": 2,
+   "n": 1,
+   "text": "safari",
+   "href": "/article.html"
+  },
+  {
+   "sev": "🟠",
+   "kind": "MISSING BUTTON",
+   "msg": "\"accept all\" in band \"(top)\" (origin y 1728) not on the served page",
+   "band": 0,
+   "n": 1,
+   "text": "accept all"
+  },
+  {
+   "sev": "🟠",
+   "kind": "MISSING BUTTON",
+   "msg": "\"accept only essential cookies\" in band \"(top)\" (origin y 1728) not on the served page",
+   "band": 0,
+   "n": 1,
+   "text": "accept only essential cookies"
+  },
+  {
+   "sev": "🟠",
+   "kind": "MISSING BUTTON",
+   "msg": "\"cookie settings and policy\" in band \"(top)\" (origin y 1728) not on the served page",
+   "band": 0,
+   "n": 1,
+   "text": "cookie settings and policy"
+  },
+  {
+   "sev": "🟠",
+   "kind": "MISSING BUTTON",
+   "msg": "\"save\" in band \"elt press kit\" (origin y 3846) not on the served page",
+   "band": 2,
+   "n": 1,
+   "text": "save"
+  },
+  {
+   "sev": "🟠",
+   "kind": "MISSING BUTTON",
+   "msg": "\"cancel\" in band \"elt press kit\" (origin y 3846) not on the served page",
+   "band": 2,
+   "n": 1,
+   "text": "cancel"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h1 \"news & multimedia\" (y 550) has no origin heading",
+   "text": "news & multimedia"
+  },
+  {
+   "sev": "🟡",
+   "kind": "COUNT TEXT",
+   "msg": "band \"(top)\": 84 origin → 15 served visible",
+   "band": 0,
+   "origin": 84,
+   "eds": 15,
+   "hidden": 0
+  },
+  {
+   "sev": "🟡",
+   "kind": "COUNT TEXT",
+   "msg": "band \"elt press kit\": 13 origin → 0 served visible",
+   "band": 2,
+   "origin": 13,
+   "eds": 0,
+   "hidden": 0
+  }
+ ],
+ "totals": {
+  "missingHeadings": 7,
+  "hiddenHeadings": 0,
+  "extraHeadings": 1,
+  "missingLinks": 12,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 0,
+  "missingButtons": 5,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 2,
+  "findings": 27,
+  "structural": 19,
+  "missing": 19,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 596,
+    "y": 17,
+    "w": 131,
+    "h": 15
+   },
+   {
+    "x": 1378,
+    "y": 10,
+    "w": 24,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 233,
+    "w": 68,
+    "h": 20
+   },
+   {
+    "x": 151,
+    "y": 257,
+    "w": 65,
+    "h": 20
+   },
+   {
+    "x": 151,
+    "y": 281,
+    "w": 88,
+    "h": 20
+   },
+   {
+    "x": 151,
+    "y": 557,
+    "w": 443,
+    "h": 65
+   },
+   {
+    "x": 239,
+    "y": 749,
+    "w": 76,
+    "h": 19
+   },
+   {
+    "x": 361,
+    "y": 749,
+    "w": 52,
+    "h": 19
+   },
+   {
+    "x": 459,
+    "y": 749,
+    "w": 89,
+    "h": 19
+   },
+   {
+    "x": 594,
+    "y": 749,
+    "w": 108,
+    "h": 19
+   },
+   {
+    "x": 748,
+    "y": 749,
+    "w": 66,
+    "h": 19
+   },
+   {
+    "x": 860,
+    "y": 749,
+    "w": 155,
+    "h": 19
+   },
+   {
+    "x": 1061,
+    "y": 749,
+    "w": 141,
+    "h": 19
+   },
+   {
+    "x": 151,
+    "y": 846,
+    "w": 234,
+    "h": 39
+   },
+   {
+    "x": 151,
+    "y": 949,
+    "w": 1114,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 982,
+    "w": 470,
+    "h": 24
+   },
+   {
+    "x": 622,
+    "y": 982,
+    "w": 63,
+    "h": 24
+   },
+   {
+    "x": 685,
+    "y": 982,
+    "w": 5,
+    "h": 24
+   },
+   {
+    "x": 281,
+    "y": 1117,
+    "w": 24,
+    "h": 29
+   },
+   {
+    "x": 355,
+    "y": 1117,
+    "w": 158,
+    "h": 29
+   },
+   {
+    "x": 563,
+    "y": 1117,
+    "w": 169,
+    "h": 29
+   },
+   {
+    "x": 782,
+    "y": 1117,
+    "w": 214,
+    "h": 29
+   },
+   {
+    "x": 1046,
+    "y": 1117,
+    "w": 111,
+    "h": 29
+   },
+   {
+    "x": 1208,
+    "y": 1117,
+    "w": 69,
+    "h": 29
+   },
+   {
+    "x": 1193,
+    "y": 1169,
+    "w": 85,
+    "h": 29
+   },
+   {
+    "x": 463,
+    "y": 1264,
+    "w": 39,
+    "h": 19
+   },
+   {
+    "x": 159,
+    "y": 1470,
+    "w": 166,
+    "h": 19
+   },
+   {
+    "x": 159,
+    "y": 1494,
+    "w": 278,
+    "h": 19
+   },
+   {
+    "x": 159,
+    "y": 1518,
+    "w": 160,
+    "h": 19
+   },
+   {
+    "x": 852,
+    "y": 1264,
+    "w": 39,
+    "h": 19
+   },
+   {
+    "x": 549,
+    "y": 1470,
+    "w": 192,
+    "h": 19
+   },
+   {
+    "x": 549,
+    "y": 1494,
+    "w": 160,
+    "h": 19
+   },
+   {
+    "x": 1242,
+    "y": 1264,
+    "w": 39,
+    "h": 19
+   },
+   {
+    "x": 939,
+    "y": 1470,
+    "w": 191,
+    "h": 19
+   },
+   {
+    "x": 939,
+    "y": 1494,
+    "w": 107,
+    "h": 19
+   },
+   {
+    "x": 463,
+    "y": 1586,
+    "w": 39,
+    "h": 19
+   },
+   {
+    "x": 159,
+    "y": 1791,
+    "w": 192,
+    "h": 19
+   },
+   {
+    "x": 159,
+    "y": 1815,
+    "w": 223,
+    "h": 19
+   },
+   {
+    "x": 852,
+    "y": 1586,
+    "w": 39,
+    "h": 19
+   },
+   {
+    "x": 549,
+    "y": 1791,
+    "w": 191,
+    "h": 19
+   },
+   {
+    "x": 549,
+    "y": 1815,
+    "w": 223,
+    "h": 19
+   },
+   {
+    "x": 1046,
+    "y": 1653,
+    "w": 128,
+    "h": 48
+   },
+   {
+    "x": 72,
+    "y": 1936,
+    "w": 49,
+    "h": 49
+   },
+   {
+    "x": 668,
+    "y": 1942,
+    "w": 104,
+    "h": 44
+   },
+   {
+    "x": 918,
+    "y": 1953,
+    "w": 53,
+    "h": 21
+   },
+   {
+    "x": 977,
+    "y": 1953,
+    "w": 40,
+    "h": 21
+   },
+   {
+    "x": 1017,
+    "y": 1953,
+    "w": 13,
+    "h": 21
+   },
+   {
+    "x": 1030,
+    "y": 1953,
+    "w": 74,
+    "h": 21
+   },
+   {
+    "x": 1402,
+    "y": 1953,
+    "w": 16,
+    "h": 16
+   },
+   {
+    "x": 72,
+    "y": 2332,
+    "w": 49,
+    "h": 49
+   },
+   {
+    "x": 664,
+    "y": 2338,
+    "w": 113,
+    "h": 44
+   },
+   {
+    "x": 918,
+    "y": 2349,
+    "w": 53,
+    "h": 21
+   },
+   {
+    "x": 977,
+    "y": 2349,
+    "w": 40,
+    "h": 21
+   },
+   {
+    "x": 1017,
+    "y": 2349,
+    "w": 13,
+    "h": 21
+   },
+   {
+    "x": 1030,
+    "y": 2349,
+    "w": 74,
+    "h": 21
+   },
+   {
+    "x": 1402,
+    "y": 2349,
+    "w": 16,
+    "h": 16
+   },
+   {
+    "x": 151,
+    "y": 2729,
+    "w": 454,
+    "h": 39
+   },
+   {
+    "x": 151,
+    "y": 2825,
+    "w": 91,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 2873,
+    "w": 1046,
+    "h": 24
+   },
+   {
+    "x": 1197,
+    "y": 2873,
+    "w": 47,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 2906,
+    "w": 51,
+    "h": 24
+   },
+   {
+    "x": 202,
+    "y": 2906,
+    "w": 5,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 2979,
+    "w": 115,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 3903,
+    "w": 113,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 3952,
+    "w": 1077,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 3985,
+    "w": 705,
+    "h": 24
+   },
+   {
+    "x": 856,
+    "y": 3985,
+    "w": 41,
+    "h": 24
+   },
+   {
+    "x": 897,
+    "y": 3985,
+    "w": 306,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4018,
+    "w": 1130,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4051,
+    "w": 793,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4115,
+    "w": 1103,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4148,
+    "w": 303,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4213,
+    "w": 1117,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4246,
+    "w": 1114,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4279,
+    "w": 1094,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4312,
+    "w": 216,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4376,
+    "w": 983,
+    "h": 24
+   },
+   {
+    "x": 1134,
+    "y": 4376,
+    "w": 52,
+    "h": 24
+   },
+   {
+    "x": 1186,
+    "y": 4376,
+    "w": 66,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4409,
+    "w": 1115,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4442,
+    "w": 1128,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4475,
+    "w": 1125,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4508,
+    "w": 612,
+    "h": 24
+   },
+   {
+    "x": 763,
+    "y": 4508,
+    "w": 153,
+    "h": 24
+   },
+   {
+    "x": 916,
+    "y": 4508,
+    "w": 10,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5068,
+    "w": 145,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5117,
+    "w": 133,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5150,
+    "w": 175,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5183,
+    "w": 278,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5216,
+    "w": 223,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5249,
+    "w": 241,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5282,
+    "w": 56,
+    "h": 24
+   },
+   {
+    "x": 207,
+    "y": 5282,
+    "w": 125,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5346,
+    "w": 108,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5379,
+    "w": 202,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5412,
+    "w": 204,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5445,
+    "w": 181,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5478,
+    "w": 56,
+    "h": 24
+   },
+   {
+    "x": 207,
+    "y": 5478,
+    "w": 187,
+    "h": 24
+   },
+   {
+    "x": 109,
+    "y": 5557,
+    "w": 29,
+    "h": 18
+   },
+   {
+    "x": 138,
+    "y": 5557,
+    "w": 51,
+    "h": 18
+   },
+   {
+    "x": 188,
+    "y": 5557,
+    "w": 33,
+    "h": 18
+   },
+   {
+    "x": 464,
+    "y": 5557,
+    "w": 49,
+    "h": 18
+   },
+   {
+    "x": 513,
+    "y": 5557,
+    "w": 24,
+    "h": 18
+   },
+   {
+    "x": 537,
+    "y": 5557,
+    "w": 74,
+    "h": 18
+   },
+   {
+    "x": 610,
+    "y": 5557,
+    "w": 24,
+    "h": 18
+   },
+   {
+    "x": 634,
+    "y": 5557,
+    "w": 155,
+    "h": 18
+   },
+   {
+    "x": 789,
+    "y": 5557,
+    "w": 24,
+    "h": 18
+   },
+   {
+    "x": 813,
+    "y": 5557,
+    "w": 149,
+    "h": 18
+   },
+   {
+    "x": 962,
+    "y": 5557,
+    "w": 24,
+    "h": 18
+   },
+   {
+    "x": 986,
+    "y": 5557,
+    "w": 128,
+    "h": 18
+   },
+   {
+    "x": 1113,
+    "y": 5557,
+    "w": 24,
+    "h": 18
+   },
+   {
+    "x": 1137,
+    "y": 5557,
+    "w": 169,
+    "h": 18
+   },
+   {
+    "x": 541,
+    "y": 1543,
+    "w": 331,
+    "h": 49
+   },
+   {
+    "x": 49,
+    "y": 1602,
+    "w": 632,
+    "h": 20
+   },
+   {
+    "x": 49,
+    "y": 1626,
+    "w": 630,
+    "h": 20
+   },
+   {
+    "x": 49,
+    "y": 1650,
+    "w": 597,
+    "h": 20
+   },
+   {
+    "x": 49,
+    "y": 1674,
+    "w": 72,
+    "h": 20
+   },
+   {
+    "x": 751,
+    "y": 1602,
+    "w": 625,
+    "h": 20
+   },
+   {
+    "x": 751,
+    "y": 1626,
+    "w": 83,
+    "h": 20
+   },
+   {
+    "x": 388,
+    "y": 1738,
+    "w": 69,
+    "h": 19
+   },
+   {
+    "x": 558,
+    "y": 1738,
+    "w": 210,
+    "h": 19
+   },
+   {
+    "x": 868,
+    "y": 1738,
+    "w": 184,
+    "h": 19
+   },
+   {
+    "x": 550,
+    "y": 1005,
+    "w": 341,
+    "h": 49
+   },
+   {
+    "x": 176,
+    "y": 1088,
+    "w": 1037,
+    "h": 19
+   },
+   {
+    "x": 176,
+    "y": 1112,
+    "w": 1053,
+    "h": 19
+   },
+   {
+    "x": 176,
+    "y": 1136,
+    "w": 157,
+    "h": 19
+   },
+   {
+    "x": 176,
+    "y": 1176,
+    "w": 1084,
+    "h": 19
+   },
+   {
+    "x": 176,
+    "y": 1200,
+    "w": 418,
+    "h": 19
+   },
+   {
+    "x": 176,
+    "y": 1237,
+    "w": 256,
+    "h": 39
+   },
+   {
+    "x": 176,
+    "y": 1286,
+    "w": 1032,
+    "h": 19
+   },
+   {
+    "x": 176,
+    "y": 1310,
+    "w": 360,
+    "h": 19
+   },
+   {
+    "x": 176,
+    "y": 1347,
+    "w": 405,
+    "h": 39
+   },
+   {
+    "x": 176,
+    "y": 1397,
+    "w": 241,
+    "h": 19
+   },
+   {
+    "x": 417,
+    "y": 1397,
+    "w": 838,
+    "h": 19
+   },
+   {
+    "x": 176,
+    "y": 1421,
+    "w": 1037,
+    "h": 19
+   },
+   {
+    "x": 176,
+    "y": 1445,
+    "w": 243,
+    "h": 19
+   },
+   {
+    "x": 184,
+    "y": 1493,
+    "w": 121,
+    "h": 19
+   },
+   {
+    "x": 422,
+    "y": 1493,
+    "w": 152,
+    "h": 19
+   },
+   {
+    "x": 762,
+    "y": 1493,
+    "w": 80,
+    "h": 19
+   },
+   {
+    "x": 842,
+    "y": 1491,
+    "w": 10,
+    "h": 14
+   },
+   {
+    "x": 852,
+    "y": 1493,
+    "w": 62,
+    "h": 19
+   },
+   {
+    "x": 762,
+    "y": 1517,
+    "w": 9,
+    "h": 19
+   },
+   {
+    "x": 771,
+    "y": 1515,
+    "w": 11,
+    "h": 14
+   },
+   {
+    "x": 782,
+    "y": 1517,
+    "w": 47,
+    "h": 19
+   },
+   {
+    "x": 932,
+    "y": 1493,
+    "w": 122,
+    "h": 19
+   },
+   {
+    "x": 932,
+    "y": 1517,
+    "w": 122,
+    "h": 19
+   },
+   {
+    "x": 932,
+    "y": 1541,
+    "w": 58,
+    "h": 19
+   },
+   {
+    "x": 1102,
+    "y": 1493,
+    "w": 63,
+    "h": 19
+   },
+   {
+    "x": 184,
+    "y": 1581,
+    "w": 63,
+    "h": 19
+   },
+   {
+    "x": 422,
+    "y": 1581,
+    "w": 311,
+    "h": 19
+   },
+   {
+    "x": 422,
+    "y": 1605,
+    "w": 282,
+    "h": 19
+   },
+   {
+    "x": 422,
+    "y": 1629,
+    "w": 55,
+    "h": 19
+   },
+   {
+    "x": 762,
+    "y": 1581,
+    "w": 9,
+    "h": 19
+   },
+   {
+    "x": 771,
+    "y": 1578,
+    "w": 9,
+    "h": 15
+   },
+   {
+    "x": 780,
+    "y": 1581,
+    "w": 39,
+    "h": 19
+   },
+   {
+    "x": 932,
+    "y": 1581,
+    "w": 46,
+    "h": 19
+   },
+   {
+    "x": 1102,
+    "y": 1581,
+    "w": 42,
+    "h": 19
+   },
+   {
+    "x": 184,
+    "y": 1669,
+    "w": 86,
+    "h": 19
+   },
+   {
+    "x": 422,
+    "y": 1669,
+    "w": 298,
+    "h": 19
+   },
+   {
+    "x": 422,
+    "y": 1693,
+    "w": 209,
+    "h": 19
+   },
+   {
+    "x": 762,
+    "y": 1669,
+    "w": 9,
+    "h": 19
+   },
+   {
+    "x": 771,
+    "y": 1666,
+    "w": 9,
+    "h": 15
+   },
+   {
+    "x": 780,
+    "y": 1669,
+    "w": 39,
+    "h": 19
+   },
+   {
+    "x": 932,
+    "y": 1669,
+    "w": 46,
+    "h": 19
+   },
+   {
+    "x": 1102,
+    "y": 1669,
+    "w": 65,
+    "h": 19
+   }
+  ],
+  "eds": [
+   {
+    "x": 596,
+    "y": 17,
+    "w": 125,
+    "h": 15
+   },
+   {
+    "x": 1378,
+    "y": 10,
+    "w": 24,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 233,
+    "w": 70,
+    "h": 20
+   },
+   {
+    "x": 151,
+    "y": 257,
+    "w": 65,
+    "h": 20
+   },
+   {
+    "x": 151,
+    "y": 281,
+    "w": 88,
+    "h": 20
+   },
+   {
+    "x": 151,
+    "y": 557,
+    "w": 443,
+    "h": 65
+   },
+   {
+    "x": 239,
+    "y": 749,
+    "w": 75,
+    "h": 20
+   },
+   {
+    "x": 360,
+    "y": 749,
+    "w": 52,
+    "h": 20
+   },
+   {
+    "x": 457,
+    "y": 749,
+    "w": 90,
+    "h": 20
+   },
+   {
+    "x": 593,
+    "y": 749,
+    "w": 108,
+    "h": 20
+   },
+   {
+    "x": 747,
+    "y": 749,
+    "w": 67,
+    "h": 20
+   },
+   {
+    "x": 860,
+    "y": 749,
+    "w": 155,
+    "h": 20
+   },
+   {
+    "x": 1060,
+    "y": 749,
+    "w": 142,
+    "h": 20
+   },
+   {
+    "x": 151,
+    "y": 846,
+    "w": 238,
+    "h": 39
+   },
+   {
+    "x": 151,
+    "y": 949,
+    "w": 1119,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 982,
+    "w": 465,
+    "h": 24
+   },
+   {
+    "x": 617,
+    "y": 982,
+    "w": 63,
+    "h": 24
+   },
+   {
+    "x": 680,
+    "y": 982,
+    "w": 5,
+    "h": 24
+   },
+   {
+    "x": 274,
+    "y": 1117,
+    "w": 26,
+    "h": 29
+   },
+   {
+    "x": 350,
+    "y": 1117,
+    "w": 163,
+    "h": 29
+   },
+   {
+    "x": 563,
+    "y": 1117,
+    "w": 168,
+    "h": 29
+   },
+   {
+    "x": 781,
+    "y": 1117,
+    "w": 214,
+    "h": 29
+   },
+   {
+    "x": 1046,
+    "y": 1117,
+    "w": 111,
+    "h": 29
+   },
+   {
+    "x": 1207,
+    "y": 1117,
+    "w": 71,
+    "h": 29
+   },
+   {
+    "x": 1191,
+    "y": 1169,
+    "w": 86,
+    "h": 29
+   },
+   {
+    "x": 462,
+    "y": 1264,
+    "w": 39,
+    "h": 20
+   },
+   {
+    "x": 159,
+    "y": 1470,
+    "w": 162,
+    "h": 20
+   },
+   {
+    "x": 159,
+    "y": 1494,
+    "w": 275,
+    "h": 20
+   },
+   {
+    "x": 159,
+    "y": 1518,
+    "w": 161,
+    "h": 20
+   },
+   {
+    "x": 852,
+    "y": 1264,
+    "w": 39,
+    "h": 20
+   },
+   {
+    "x": 549,
+    "y": 1470,
+    "w": 184,
+    "h": 20
+   },
+   {
+    "x": 549,
+    "y": 1494,
+    "w": 161,
+    "h": 20
+   },
+   {
+    "x": 1242,
+    "y": 1264,
+    "w": 39,
+    "h": 20
+   },
+   {
+    "x": 939,
+    "y": 1470,
+    "w": 184,
+    "h": 20
+   },
+   {
+    "x": 939,
+    "y": 1494,
+    "w": 106,
+    "h": 20
+   },
+   {
+    "x": 462,
+    "y": 1586,
+    "w": 39,
+    "h": 20
+   },
+   {
+    "x": 159,
+    "y": 1791,
+    "w": 184,
+    "h": 20
+   },
+   {
+    "x": 159,
+    "y": 1815,
+    "w": 225,
+    "h": 20
+   },
+   {
+    "x": 852,
+    "y": 1586,
+    "w": 39,
+    "h": 20
+   },
+   {
+    "x": 549,
+    "y": 1791,
+    "w": 183,
+    "h": 20
+   },
+   {
+    "x": 549,
+    "y": 1815,
+    "w": 225,
+    "h": 20
+   },
+   {
+    "x": 1047,
+    "y": 1653,
+    "w": 125,
+    "h": 48
+   },
+   {
+    "x": 72,
+    "y": 1936,
+    "w": 49,
+    "h": 49
+   },
+   {
+    "x": 667,
+    "y": 1942,
+    "w": 106,
+    "h": 44
+   },
+   {
+    "x": 917,
+    "y": 1953,
+    "w": 57,
+    "h": 21
+   },
+   {
+    "x": 974,
+    "y": 1953,
+    "w": 43,
+    "h": 21
+   },
+   {
+    "x": 1017,
+    "y": 1953,
+    "w": 14,
+    "h": 21
+   },
+   {
+    "x": 1030,
+    "y": 1953,
+    "w": 75,
+    "h": 21
+   },
+   {
+    "x": 1408,
+    "y": 1954,
+    "w": 16,
+    "h": 16
+   },
+   {
+    "x": 72,
+    "y": 2332,
+    "w": 49,
+    "h": 49
+   },
+   {
+    "x": 663,
+    "y": 2338,
+    "w": 114,
+    "h": 44
+   },
+   {
+    "x": 917,
+    "y": 2349,
+    "w": 57,
+    "h": 21
+   },
+   {
+    "x": 974,
+    "y": 2349,
+    "w": 43,
+    "h": 21
+   },
+   {
+    "x": 1017,
+    "y": 2349,
+    "w": 14,
+    "h": 21
+   },
+   {
+    "x": 1030,
+    "y": 2349,
+    "w": 75,
+    "h": 21
+   },
+   {
+    "x": 1408,
+    "y": 2350,
+    "w": 16,
+    "h": 16
+   },
+   {
+    "x": 151,
+    "y": 2729,
+    "w": 448,
+    "h": 39
+   },
+   {
+    "x": 151,
+    "y": 2825,
+    "w": 82,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 2873,
+    "w": 1041,
+    "h": 24
+   },
+   {
+    "x": 1193,
+    "y": 2873,
+    "w": 48,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 2906,
+    "w": 50,
+    "h": 24
+   },
+   {
+    "x": 202,
+    "y": 2906,
+    "w": 5,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 2979,
+    "w": 108,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 3903,
+    "w": 99,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 3952,
+    "w": 1076,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 3985,
+    "w": 695,
+    "h": 24
+   },
+   {
+    "x": 846,
+    "y": 3985,
+    "w": 42,
+    "h": 24
+   },
+   {
+    "x": 888,
+    "y": 3985,
+    "w": 395,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4018,
+    "w": 1065,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4051,
+    "w": 765,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4115,
+    "w": 1094,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4148,
+    "w": 299,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4213,
+    "w": 1125,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4246,
+    "w": 1118,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4279,
+    "w": 1097,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4312,
+    "w": 210,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4376,
+    "w": 980,
+    "h": 24
+   },
+   {
+    "x": 1131,
+    "y": 4376,
+    "w": 53,
+    "h": 24
+   },
+   {
+    "x": 1185,
+    "y": 4376,
+    "w": 69,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4409,
+    "w": 1122,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4442,
+    "w": 1129,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4475,
+    "w": 1128,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4508,
+    "w": 606,
+    "h": 24
+   },
+   {
+    "x": 757,
+    "y": 4508,
+    "w": 153,
+    "h": 24
+   },
+   {
+    "x": 910,
+    "y": 4508,
+    "w": 12,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5004,
+    "w": 127,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5052,
+    "w": 138,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5085,
+    "w": 176,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5118,
+    "w": 278,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5151,
+    "w": 218,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5184,
+    "w": 234,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5217,
+    "w": 58,
+    "h": 24
+   },
+   {
+    "x": 209,
+    "y": 5217,
+    "w": 128,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5282,
+    "w": 108,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5315,
+    "w": 205,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5348,
+    "w": 207,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5381,
+    "w": 177,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5414,
+    "w": 58,
+    "h": 24
+   },
+   {
+    "x": 209,
+    "y": 5414,
+    "w": 190,
+    "h": 24
+   },
+   {
+    "x": 108,
+    "y": 5492,
+    "w": 30,
+    "h": 18
+   },
+   {
+    "x": 139,
+    "y": 5492,
+    "w": 51,
+    "h": 18
+   },
+   {
+    "x": 190,
+    "y": 5492,
+    "w": 32,
+    "h": 18
+   },
+   {
+    "x": 464,
+    "y": 5492,
+    "w": 45,
+    "h": 18
+   },
+   {
+    "x": 513,
+    "y": 5492,
+    "w": 24,
+    "h": 18
+   },
+   {
+    "x": 537,
+    "y": 5492,
+    "w": 68,
+    "h": 18
+   },
+   {
+    "x": 609,
+    "y": 5492,
+    "w": 24,
+    "h": 18
+   },
+   {
+    "x": 633,
+    "y": 5492,
+    "w": 151,
+    "h": 18
+   },
+   {
+    "x": 788,
+    "y": 5492,
+    "w": 23,
+    "h": 18
+   },
+   {
+    "x": 811,
+    "y": 5492,
+    "w": 146,
+    "h": 18
+   },
+   {
+    "x": 961,
+    "y": 5492,
+    "w": 23,
+    "h": 18
+   },
+   {
+    "x": 984,
+    "y": 5492,
+    "w": 124,
+    "h": 18
+   },
+   {
+    "x": 1112,
+    "y": 5492,
+    "w": 24,
+    "h": 18
+   },
+   {
+    "x": 1136,
+    "y": 5492,
+    "w": 170,
+    "h": 18
+   }
+  ]
+ }
+}

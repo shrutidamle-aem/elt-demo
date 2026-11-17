@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- stardust:migrate
+  writtenBy:        stardust:migrate
+  writtenAt:        2026-11-13T20:20:29Z
+  page:             Controls | ELT | ESO
+  slug:             telescope-controls
+  pagePath:         migrated/telescope/controls/index.html
+  renderBranch:     A'
+  template:         telescope-dome
+  archetypePath:    stardust/prototypes/telescope-dome-proposed.html
+  archetypeSha:     c42b9f92bef0
+  sourceCurrent:    stardust/current/pages/telescope-controls.json
+  againstDirection: stardust/direction.md (Active)
+  designMd:         DESIGN.md (sha: bcd81ac1bff9)
+  designJson:       DESIGN.json (sha: 1687cec3d675)
+  canonShas:        header:null footer:df97728fd0f7 css:7a5011377ec8
+  decisionTrace:    _meta.json
+  brokenInternalLinks: 17
+  stardustVersion:  local
+-->
+<style>
+:root {
+  --font-brand: "Helvetica Neue LT ESO", "Helvetica Neue", Helvetica, Arial, sans-serif; /* L15662 */
+  --esoblue: rgb(0, 119, 190);            /* L15617 */
+  --orange: rgb(232, 133, 38);
+  --headerblue: rgb(45, 164, 245);
+  --ink-black: #000;
+  --nav-gradient: linear-gradient(rgb(40, 39, 49), rgb(16, 17, 19)); /* .navbar L16313 */
+  --nav-link: rgba(255, 255, 255, 0.7);   /* L20043 */
+  --nav-link-hover: rgba(255, 255, 255, 0.9);
+  --nav-hover-bg: #232932;                /* L19971 */
+  --nav-accent: #ef3c3c;                  /* active / hover rule */
+  --menu-bg: #343a40;                     /* .bg-dark */
+  --menu-border: rgba(0, 0, 0, 0.15);
+  --light-bg: rgb(232, 232, 232);         /* .container-light, .medium-light */
+  --footer-bg: #202020;                   /* .container-footer */
+  --topbar-h: 50px;                       /* body padding-top, .mysticky top */
+}
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Dome | ELT | ESO","description":"The Extremely Large Telescope: The World&#x27;s Biggest Eye On The Sky","url":"https://elt.eso.org/telescope/controls/"}</script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dome | ELT | ESO</title>
+  <meta name="description" content="The Extremely Large Telescope: The World&#x27;s Biggest Eye On The Sky">
+  <link rel="icon" href="../../assets/media/favicon.ico">
+  <link rel="stylesheet" href="../../assets/canon.css">
+  <link rel="stylesheet" href="../../assets/telescope-dome.css">
+  <script src="../../assets/canon.js" defer></script>
+
+</head>
+<body class="page-program">
+  <nav id="top-navbar" class="navbar" aria-label="ESO and site navigation">
+    <span class="navbar-brand navbar-brand--main">
+      <div class="brand-logo"><a href="https://www.eso.org/" target="_blank" rel="noopener noreferrer"><img class="navbar-eso-logo" src="../../assets/media/eso_logo.jpg" alt="" width="100" height="130"></a></div>
+      <div class="brand-flags">
+        <ul id="navbar-flags">
+          <li><span class="flag flag-at"></span></li>
+          <li><span class="flag flag-be"></span></li>
+          <li><span class="flag flag-cl"></span></li>
+          <li><span class="flag flag-cz"></span></li>
+          <li><span class="flag flag-da"></span></li>
+          <li><span class="flag flag-fi"></span></li>
+          <li><span class="flag flag-fr"></span></li>
+          <li><span class="flag flag-de"></span></li>
+          <li><span class="flag flag-ie"></span></li>
+          <li><span class="flag flag-it"></span></li>
+          <li><span class="flag flag-nl"></span></li>
+          <li><span class="flag flag-pl"></span></li>
+          <li><span class="flag flag-pt"></span></li>
+          <li><span class="flag flag-es"></span></li>
+          <li><span class="flag flag-sv"></span></li>
+          <li><span class="flag flag-ch"></span></li>
+          <li><span class="flag flag-gb"></span></li>
+          <li class="language-menu">
+            <div class="choose-language-message"> Choose your language &nbsp;<i class="fa-arrow-down" aria-hidden="true"></i></div>
+            <div class="language-options">
+              <a href="../../index.html?lang"><span class="flag flag-gb">&nbsp;</span> English </a>
+              <a href="https://elt.eso.org/chile/?lang" data-broken-link="true"><span class="flag flag-cl">&nbsp;</span> Español </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </span>
+    <div class="navbar-brand brand-social">
+      <div class="desktop-top-sm-icons">
+        <a href="https://facebook.com/ESOAstronomy" title="ESO on Facebook" target="_blank" rel="noopener noreferrer"><img src="../../assets/media/icon_topbar_mobile_1.png" alt="ESO on Facebook" width="35" height="35"></a>
+        <a href="https://www.instagram.com/esoastronomy/" title="ESO on Instagram" target="_blank" rel="noopener noreferrer"><img src="../../assets/media/icon_topbar_mobile_3.png" alt="ESO on Instagram" width="35" height="35"></a>
+        <a href="https://www.linkedin.com/company/european-southern-observatory" title="ESO on LinkedIn" target="_blank" rel="noopener noreferrer"><img src="../../assets/media/icon_topbar_mobile_4.png" alt="ESO on LinkedIn" width="35" height="35"></a>
+        <a href="https://www.youtube.com/channel/UCIhYoC2VIAJqCkoIWNHBQ3Q" title="ESO on YouTube" target="_blank" rel="noopener noreferrer"><img src="../../assets/media/icon_topbar_mobile_5.png" alt="ESO on YouTube" width="35" height="35"></a>
+      </div>
+    </div>
+    <span class="lang-links"><a href="../../index.html?lang" class="lang-link">en</a> | <a href="../../index.html?lang" class="lang-link">es</a></span>
+    <button class="navbar-toggler" type="button" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+    <div class="navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item menu-item mobile-only">
+          <a class="nav-link" href="../../index.html">ELT HOME</a>
+        </li>
+        <li class="nav-item menu-item mobile-only dropdown-menu-top dropup">
+          <a class="nav-link" href="https://elt.eso.org/about/" data-broken-link="true">ABOUT</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="https://elt.eso.org/about/" data-broken-link="true">About the ELT</a>
+            <a class="dropdown-item" href="../../about/timeline/index.html">Timeline</a>
+            <a class="dropdown-item" href="../../about/location/index.html">Location</a>
+            <a class="dropdown-item" href="../../about/webcams/index.html">Webcams</a>
+            <a class="dropdown-item" href="../../about/facts/index.html">Facts</a>
+            <a class="dropdown-item" href="../../about/road/index.html">Road to the ELT</a>
+            <a class="dropdown-item" href="../../about/team/index.html">Meet the Team</a>
+            <a class="dropdown-item" href="../../about/workinggroups/index.html">Working Groups</a>
+            <a class="dropdown-item" href="../../about/industrial/index.html">Industrial and Institutional Partners</a>
+            <a class="dropdown-item" href="../../about/faq/index.html">FAQ</a>
+          </div>
+        </li>
+        <li class="nav-item menu-item mobile-only dropdown-menu-top dropup active">
+          <a class="nav-link" href="../../telescope/index.html">TELESCOPE</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="../../telescope/index.html">Telescope Overview</a>
+            <a class="dropdown-item active" href="../../telescope/dome/index.html" aria-current="page">Dome</a>
+            <a class="dropdown-item" href="../../telescope/structure/index.html">Main Structure</a>
+            <div class="dropdown-submenu">
+              <a class="dropdown-item" href="https://elt.eso.org/mirror/" data-broken-link="true">Mirrors</a>
+              <div class="dropdown-menu bottom-aligned">
+                <a class="dropdown-item" href="https://elt.eso.org/mirror/" data-broken-link="true">Mirrors Overview</a>
+                <a class="dropdown-item" href="../../mirror/M1/index.html">M1</a>
+                <a class="dropdown-item" href="../../mirror/M2M3/index.html">M2M3</a>
+                <a class="dropdown-item" href="../../mirror/M4/index.html">M4</a>
+                <a class="dropdown-item" href="../../mirror/M5/index.html">M5</a>
+              </div>
+            </div>
+            <a class="dropdown-item" href="../../telescope/adaptiveoptics/index.html">Adaptive Optics</a>
+            <a class="dropdown-item" href="../../telescope/prefocal/index.html">Prefocal Station</a>
+            <a class="dropdown-item" href="../../telescope/controls/index.html">Controls</a>
+            <a class="dropdown-item" href="../../telescope/operations/index.html">Operations</a>
+          </div>
+        </li>
+        <li class="nav-item menu-item mobile-only dropdown-menu-top dropup">
+          <a class="nav-link" href="https://elt.eso.org/instrument/" data-broken-link="true">INSTRUMENTS</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="https://elt.eso.org/instrument/" data-broken-link="true">Instruments Overview</a>
+            <a class="dropdown-item" href="../../instrument/HARMONI/index.html">HARMONI</a>
+            <a class="dropdown-item" href="../../instrument/MICADO/index.html">MICADO</a>
+            <a class="dropdown-item" href="../../instrument/MORFEO/index.html">MORFEO</a>
+            <a class="dropdown-item" href="../../instrument/METIS/index.html">METIS</a>
+            <a class="dropdown-item" href="../../instrument/ANDES/index.html">ANDES</a>
+            <a class="dropdown-item" href="../../instrument/MOSAIC/index.html">MOSAIC</a>
+          </div>
+        </li>
+        <li class="nav-item menu-item mobile-only dropdown-menu-top dropup">
+          <a class="nav-link" href="https://elt.eso.org/science/" data-broken-link="true">SCIENCE</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="https://elt.eso.org/science/" data-broken-link="true">Science Overview</a>
+            <a class="dropdown-item" href="../../science/solarsystem/index.html">Solar System</a>
+            <a class="dropdown-item" href="../../science/exoplanets/index.html">Exoplanets</a>
+            <a class="dropdown-item" href="../../science/stars/index.html">Stars</a>
+            <a class="dropdown-item" href="../../science/blackholes/index.html">Black Holes</a>
+            <a class="dropdown-item" href="../../science/galaxies/index.html">Galaxies</a>
+            <a class="dropdown-item" href="../../science/cosmodm/index.html">Cosmology and Dark Matter</a>
+            <a class="dropdown-item" href="../../science/fundamentalphysics/index.html">Fundamental Physics</a>
+            <a class="dropdown-item" href="../../science/discoveries/index.html">Unexpected Discoveries</a>
+          </div>
+        </li>
+        <li class="nav-item menu-item mobile-only">
+          <a class="nav-link" href="../../media/index.html">NEWS &amp; MULTIMEDIA</a>
+        </li>
+        <li class="nav-item menu-item mobile-only">
+          <a class="nav-link" href="../../success/buildingon/index.html">SUCCESS STORIES</a>
+        </li>
+        <li class="social-desktop desktop-top-sm-icons">
+          <a href="https://facebook.com/ESOAstronomy" title="ESO on Facebook" target="_blank" rel="noopener noreferrer"><img src="../../assets/media/icon_topbar_mobile_1.png" alt="ESO on Facebook" width="35" height="35"></a>
+          <a href="https://www.instagram.com/esoastronomy/" title="ESO on Instagram" target="_blank" rel="noopener noreferrer"><img src="../../assets/media/icon_topbar_mobile_3.png" alt="ESO on Instagram" width="35" height="35"></a>
+          <a href="https://www.linkedin.com/company/european-southern-observatory" title="ESO on LinkedIn" target="_blank" rel="noopener noreferrer"><img src="../../assets/media/icon_topbar_mobile_4.png" alt="ESO on LinkedIn" width="35" height="35"></a>
+          <a href="https://www.youtube.com/channel/UCIhYoC2VIAJqCkoIWNHBQ3Q" title="ESO on YouTube" target="_blank" rel="noopener noreferrer"><img src="../../assets/media/icon_topbar_mobile_5.png" alt="ESO on YouTube" width="35" height="35"></a>
+        </li>
+        <li id="nav-search" class="nav-item menu-item dropdown dropdown-menu-top-top">
+          <a class="nav-link" href="#"><i class="material-icons">search</i></a>
+          <div class="dropdown-menu">
+            <div class="dropdown-item">
+              <form class="search-form" action="/public/eltsearch/" method="get"><input type="search" placeholder="Search..." name="q" aria-label="Search"><button type="submit">Search</button></form>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <img class="big-header-image" src="https://cdn.eso.org/images/banner1920/header-dome.jpg" alt="" width="1920" height="900">
+  <main class="elt-program" data-template="telescope-dome">
+    <div id="big-header" class="big-header-text" data-section="1">
+      <div class="big-header-logos">
+        <img class="big-header-eso-logo" src="../../assets/media/eso_logo_transparent.png" alt="" width="981" height="1279">
+        <p class="esologo-text">European<br>Southern<br>Observatory</p>
+      </div>
+      <div class="big-header-title"> Telescope </div>
+    </div>
+
+    <nav id="main-navbar" class="navbar mysticky" aria-label="Main" data-section="2">
+      <button class="navbar-toggler" type="button" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      <div class="navbar-collapse">
+        <ul class="navbar-nav">
+          <li class="nav-item menu-item">
+            <a class="nav-link" href="../../index.html">ELT HOME</a>
+          </li>
+          <li class="nav-item menu-item dropdown-menu-top dropup">
+            <a class="nav-link" href="https://elt.eso.org/about/" data-broken-link="true">ABOUT</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="https://elt.eso.org/about/" data-broken-link="true">About the ELT</a>
+              <a class="dropdown-item" href="../../about/timeline/index.html">Timeline</a>
+              <a class="dropdown-item" href="../../about/location/index.html">Location</a>
+              <a class="dropdown-item" href="../../about/webcams/index.html">Webcams</a>
+              <a class="dropdown-item" href="../../about/facts/index.html">Facts</a>
+              <a class="dropdown-item" href="../../about/road/index.html">Road to the ELT</a>
+              <a class="dropdown-item" href="../../about/team/index.html">Meet the Team</a>
+              <a class="dropdown-item" href="../../about/workinggroups/index.html">Working Groups</a>
+              <a class="dropdown-item" href="../../about/industrial/index.html">Industrial and Institutional Partners</a>
+              <a class="dropdown-item" href="../../about/faq/index.html">FAQ</a>
+            </div>
+          </li>
+          <li class="nav-item menu-item dropdown-menu-top dropup active">
+            <a class="nav-link" href="../../telescope/index.html">TELESCOPE</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="../../telescope/index.html">Telescope Overview</a>
+              <a class="dropdown-item active" href="../../telescope/dome/index.html" aria-current="page">Dome</a>
+              <a class="dropdown-item" href="../../telescope/structure/index.html">Main Structure</a>
+              <div class="dropdown-submenu">
+                <a class="dropdown-item" href="https://elt.eso.org/mirror/" data-broken-link="true">Mirrors</a>
+                <div class="dropdown-menu bottom-aligned">
+                  <a class="dropdown-item" href="https://elt.eso.org/mirror/" data-broken-link="true">Mirrors Overview</a>
+                  <a class="dropdown-item" href="../../mirror/M1/index.html">M1</a>
+                  <a class="dropdown-item" href="../../mirror/M2M3/index.html">M2M3</a>
+                  <a class="dropdown-item" href="../../mirror/M4/index.html">M4</a>
+                  <a class="dropdown-item" href="../../mirror/M5/index.html">M5</a>
+                </div>
+              </div>
+              <a class="dropdown-item" href="../../telescope/adaptiveoptics/index.html">Adaptive Optics</a>
+              <a class="dropdown-item" href="../../telescope/prefocal/index.html">Prefocal Station</a>
+              <a class="dropdown-item" href="../../telescope/controls/index.html">Controls</a>
+              <a class="dropdown-item" href="../../telescope/operations/index.html">Operations</a>
+            </div>
+          </li>
+          <li class="nav-item menu-item dropdown-menu-top dropup">
+            <a class="nav-link" href="https://elt.eso.org/instrument/" data-broken-link="true">INSTRUMENTS</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="https://elt.eso.org/instrument/" data-broken-link="true">Instruments Overview</a>
+              <a class="dropdown-item" href="../../instrument/HARMONI/index.html">HARMONI</a>
+              <a class="dropdown-item" href="../../instrument/MICADO/index.html">MICADO</a>
+              <a class="dropdown-item" href="../../instrument/MORFEO/index.html">MORFEO</a>
+              <a class="dropdown-item" href="../../instrument/METIS/index.html">METIS</a>
+              <a class="dropdown-item" href="../../instrument/ANDES/index.html">ANDES</a>
+              <a class="dropdown-item" href="../../instrument/MOSAIC/index.html">MOSAIC</a>
+            </div>
+          </li>
+          <li class="nav-item menu-item dropdown-menu-top dropup">
+            <a class="nav-link" href="https://elt.eso.org/science/" data-broken-link="true">SCIENCE</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="https://elt.eso.org/science/" data-broken-link="true">Science Overview</a>
+              <a class="dropdown-item" href="../../science/solarsystem/index.html">Solar System</a>
+              <a class="dropdown-item" href="../../science/exoplanets/index.html">Exoplanets</a>
+              <a class="dropdown-item" href="../../science/stars/index.html">Stars</a>
+              <a class="dropdown-item" href="../../science/blackholes/index.html">Black Holes</a>
+              <a class="dropdown-item" href="../../science/galaxies/index.html">Galaxies</a>
+              <a class="dropdown-item" href="../../science/cosmodm/index.html">Cosmology and Dark Matter</a>
+              <a class="dropdown-item" href="../../science/fundamentalphysics/index.html">Fundamental Physics</a>
+              <a class="dropdown-item" href="../../science/discoveries/index.html">Unexpected Discoveries</a>
+            </div>
+          </li>
+          <li class="nav-item menu-item">
+            <a class="nav-link" href="../../media/index.html">NEWS &amp; MULTIMEDIA</a>
+          </li>
+          <li class="nav-item menu-item">
+            <a class="nav-link" href="../../success/buildingon/index.html">SUCCESS STORIES</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid container-dark container-tight position-relative" data-section="3">
+        <img class="d-block h-100 w-100" src="https://cdn.eso.org/images/banner1920/subheader-telescope-controls.jpg">
+        <div class="position-absolute science-header-textblock">
+            <div class="d-flex flex-column justify-content-around h-100">
+                <div class="header-title">Controls</div>
+                <div class="d-none d-xl-block header-subtitle"><p>The control system of the ELT allows the user to operate the telescope for science observations and maintenance activities.</p></div>
+                <div class="d-none d-xxl-block header-description">
+                    <p>It consists of computing hardware, sophisticated software, and communication infrastructure that bring together the many components of the ELT and ensure it is used in a safe and coordinated way.</p>
+                </div>
+                <div class="d-block header-quick-links">
+                    
+                    <div>Quick Links:</div>
+                    <div class="instrument-link-color">
+                        
+                        <a class="instrument-link-color instrument-link" href="#telescope-controls-control">Control system overview</a>
+                        
+                         | <a class="instrument-link-color instrument-link" href="#telescope-controls-layers">Layers of the control system</a>
+                        
+                         | <a class="instrument-link-color instrument-link" href="#telescope-controls-subsystems">The M1, M4 and M5 subsystems</a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="container-fluid container-light nutshell page-section" data-section="4">
+        
+        
+                <div class="container-paragraph section-title-paragraph d-flex align-items-center justify-content-between">
+            <div class="">In a nutshell</div>
+            <div class="d-flex">
+                <a class="share-social-media-link share-social-media-icons" href="https://www.facebook.com/sharer/sharer.php?u=https://elt.eso.org/telescope/controls/" title="Share on Facebook" target="_blank" rel="noopener noreferrer">
+                    <img src="/public/archives/djp/elt-assets/img/social-media/icon_share_1.png" alt="Share on Facebook">
+                </a>
+                <span class="position-relative d-flex" style="" title="Share on Social Media">
+                    <span class="share-social-media share-social-media-icons">
+                    <img class="share-social-media" src="/public/archives/djp/elt-assets/img/social-media/icon_share_3.png" alt"share="" on="" social="" media"="">
+                    </span>
+                    <div class="position-absolute share-social-media-dropdown">
+                        <div class="share-social-media-dropdown-icons">
+                        <a class="share-social-media-link" href="https://www.facebook.com/sharer/sharer.php?u=https://elt.eso.org/telescope/controls/" title="Share on Facebook" target="_blank" rel="noopener noreferrer">
+                            <img src="/public/archives/djp/elt-assets/img/social-media/icon_share_1.png" alt="Share on Facebook">
+                            <span class="share-social-media-dropdown-text">Share on Facebook</span>
+                        </a>
+                        <a class="share-social-media-link share-email" href="#" title="E-Mail">
+                            <img src="/public/archives/djp/elt-assets/img/social-media/icon_share_5.png" alt="E-Mail">
+                            <span class="share-social-media-dropdown-text">E-Mail</span>
+                        </a>
+                        <a href="#" class="share-social-media-link clipboard" title="Copy Link">
+                            <img src="/public/archives/djp/elt-assets/img/social-media/icon_share_6.png" alt="Copy link">
+                            <span class="share-social-media-dropdown-text">Copy Link</span>
+                        </a>
+                        <a class="share-social-media-link" href="https://www.linkedin.com/sharing/share-offsite/?url=https://elt.eso.org/telescope/controls/" title="Share on LinkedIn" target="_blank" rel="noopener noreferrer">
+                            <img src="/public/archives/djp/elt-assets/img/social-media/icon_share_4.png" alt="Share on LinkedIn">
+                            <span class="share-social-media-dropdown-text">Share on LinkedIn</span>
+                        </a>
+                        </div>
+                    </div>
+                </span>
+            </div>
+        </div>
+
+        <div class="container-subtitle d-none d-xl-block d-xxl-none section-subtitle-paragraph-aftertitle"><p>It consists of computing hardware, sophisticated software, and communication infrastructure that bring together the many components of the ELT and ensure it is used in a safe and coordinated way.</p></div>
+        <div class="container-subtitle d-block d-xl-none section-subtitle-paragraph-aftertitle"><p>The control system of the ELT allows the user to operate the telescope for science observations and maintenance activities.</p></div>
+        <div class="container-paragraph d-block d-xl-none section-text-paragraph"><p>It consists of computing hardware, sophisticated software, and communication infrastructure that bring together the many components of the ELT and ensure it is used in a safe and coordinated way.</p></div>
+        
+            
+            
+<div class="container-paragraph section-text-paragraph">
+    <p>The many advanced mechanical and optical components, or subsystems, of the ELT, are operated by means of a control system. This complex system integrates the various components of the telescope and works as the user interface to the ELT. It provides coordinated, safe operation of the subsystems as a single system to perform science observations and support engineering and maintenance activities.&nbsp;</p>
+<p>The telescope control systems are also key in helping the ELT obtain sharp images. The complex primary mirror control system monitors and corrects the positions of its 798 segments, which are distorted by the effects of gravity and temperature, so it continues acting as one mirror. The M4 and M5 mirror control systems are important for compensating for distortions in the images caused by atmospheric turbulence and wind, an important part of the ELT’s adaptive optics.</p>
+</div>
+
+        
+    </div>
+<div class="container-fluid container-light lightlinks" data-section="5">
+        
+        
+        <div class="row d-flex w-100 m-0 align-items-stretch" style="background-color: rgb(82, 117, 175);">
+            <div class="col-lg-6 p-0 position-relative">
+                <a href="#telescope-controls-control">
+                    <img class="w-100" src="https://cdn.eso.org/images/banner1920/telescope-controls-control.jpg">
+                </a>
+                <span class="position-absolute internal-menu-title"><a href="#telescope-controls-control">Control system overview</a></span>
+                
+            </div>
+            <div class="col-lg-6 pb-3 pt-3 d-flex align-items-center position-relative">
+                <div class="internal-menu-text">
+                    <p>The control system consists of hardware, software and communication infrastructure to integrate the many mechanical and optomechanical subsystems of the telescope.</p>
+                </div>
+                <div class="h-100 w-100 position-absolute d-flex align-items-end internal-menu-shape">
+                    <div class="w-100 d-none d-lg-block">
+                        <svg class="instrument-trapezoid internal-menu-trapezoid" viewBox="0 0 945 75" preserveAspectRatio="none" style="/* height: 75px; */">
+                            <a href="../../telescope/controls/index.html#telescope-controls-control">
+                            <polygon points="0,0 260,0 340,67 945,67 945,75 0,75"></polygon>
+                            </a>
+                        </svg>
+                    </div>
+                </div>
+                <div class="position-absolute d-none d-lg-flex align-items-center justify-content-center internal-menu-link internal-menu-trapezoid-link">
+                    <a href="#telescope-controls-control" style="color: rgb(82, 117, 175);">
+                    Read More
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        <div class="row d-flex w-100 m-0 align-items-stretch" style="background-color: rgb(86, 148, 97);">
+            <div class="col-lg-6 pb-3 pt-3 d-flex align-items-center position-relative order-2 order-lg-1">
+                
+                <div class="internal-menu-text">
+                    <p>The control system is divided into two layers: the local controls and the central control system.</p>
+                </div>
+                <div class="h-100 w-100 position-absolute d-flex align-items-end internal-menu-shape">
+                    <div class="w-100 d-none d-lg-block">
+                        <svg class="instrument-trapezoid internal-menu-trapezoid" viewBox="0 0 945 75" preserveAspectRatio="none" style="/* height: 75px; */">
+                            <a href="../../telescope/controls/index.html#telescope-controls-layers">
+                            <polygon points="0,0 260,0 340,67 945,67 945,75 0,75"></polygon>
+                            </a>
+                        </svg>
+                    </div>
+                </div>
+                <div class="position-absolute d-none d-lg-flex align-items-center justify-content-center internal-menu-link internal-menu-trapezoid-link">
+                    <a href="#telescope-controls-layers" style="color: rgb(86, 148, 97);">
+                    Read More
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-6 p-0 position-relative order-1 order-lg-2">
+                <a href="#telescope-controls-layers">
+                    <img class="w-100" src="https://cdn.eso.org/images/banner1920/telescope-controls-layers.jpg">
+                </a>
+                <span class="position-absolute internal-menu-title"><a href="#telescope-controls-layers">Layers of the control system</a></span>
+            </div>
+        </div>
+        
+        
+        
+        <div class="row d-flex w-100 m-0 align-items-stretch" style="background-color: rgb(144, 82, 57);">
+            <div class="col-lg-6 p-0 position-relative">
+                <a href="#telescope-controls-subsystems">
+                    <img class="w-100" src="https://cdn.eso.org/images/banner1920/telescope-controls-subsystems.jpg">
+                </a>
+                <span class="position-absolute internal-menu-title"><a href="#telescope-controls-subsystems">The M1, M4 and M5 subsystems</a></span>
+                
+            </div>
+            <div class="col-lg-6 pb-3 pt-3 d-flex align-items-center position-relative">
+                <div class="internal-menu-text">
+                    <p>Three of the telescope mirrors have some of the most important local control systems in the ELT.</p>
+                </div>
+                <div class="h-100 w-100 position-absolute d-flex align-items-end internal-menu-shape">
+                    <div class="w-100 d-none d-lg-block">
+                        <svg class="instrument-trapezoid internal-menu-trapezoid" viewBox="0 0 945 75" preserveAspectRatio="none" style="/* height: 75px; */">
+                            <a href="../../telescope/controls/index.html#telescope-controls-subsystems">
+                            <polygon points="0,0 260,0 340,67 945,67 945,75 0,75"></polygon>
+                            </a>
+                        </svg>
+                    </div>
+                </div>
+                <div class="position-absolute d-none d-lg-flex align-items-center justify-content-center internal-menu-link internal-menu-trapezoid-link">
+                    <a href="#telescope-controls-subsystems" style="color: rgb(144, 82, 57);">
+                    Read More
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        
+    </div>
+<div id="telescope-controls-control_" class="container-fluid container-light page-section" data-section="6">
+        
+        <div class="container-paragraph section-title-paragraph">Control system overview</div>
+        
+            
+            
+<div class="container-paragraph section-text-paragraph">
+    <p>Overall, the control system manages around 15000 actuators and over 25000 sensors distributed throughout the telescope and dome.&nbsp;&nbsp;</p>
+<p>The communication infrastructure allows the majority of the computing units to be hosted in the computer room in the auxiliary building of the dome. This reduces vibration and heat pollution in the telescope area and provides a controlled data centre environment for the hardware.&nbsp;</p>
+<p>The control system itself is a software-intensive system of systems. In designing such a system, decisions on algorithms and computational performance are not the only major problems. The organisation of the overall system, its behaviour and interactions present a complex challenge.</p>
+</div>
+
+        
+            
+            
+<div class="m-0 " style="padding-bottom: 1vw;">
+        <div class="row w-100 m-0">
+            <div class="col-lg-12 p-0 position-relative d-flex align-items-center order-lg-1 order-1">
+                <a href="https://www.eso.org/public/images/telescope-controls-banner1/" target="_blank" class="d-flex align-items-center justify-content-center w-100" rel="noopener noreferrer">
+                    <img class="" style="width: 100%; " src="https://cdn.eso.org/images/original/telescope-controls-banner1.jpg">
+                    
+                </a>
+
+                
+
+            </div>
+
+        </div>
+</div>
+
+
+
+        
+
+        
+    </div>
+<div id="telescope-controls-layers_" class="container-fluid container-light page-section" data-section="7">
+        
+        <div class="container-paragraph section-title-paragraph">Layers of the control system</div>
+        
+            
+            
+<div class="container-paragraph section-text-paragraph">
+    <p>The control system is divided into two layers. The lower layer contains all the local control systems (LCSs), a set of control systems each managing performance and safety for a telescope subsystem. Examples include the LCS for the main structure, the dome, the primary mirror and the lasers, and so on.&nbsp;</p>
+<p>The upper layer is a single system called the central control system (CCS), which is responsible for system level functions and safety. The many control loops, involving both electromechanical sensing and on-sky sensing, are combined and considered as an integrated control problem by the CCS (specifically the telescope realtime executor [TREx]).&nbsp;</p>
+<p>The CCS provides the interface to the instrument control systems to carry out science observations. The instrument control system requests the CCS to acquire a celestial target, and the CCS decomposes the request into operations on individual subsystems: presetting the main structure to point to the target, rotating the dome, configuring the mirrors for best performance given the target location and presetting the guide probes to acquire the guide stars to further correct the telescope’s optical performance.&nbsp;</p>
+</div>
+
+        
+
+        
+    </div>
+<div id="telescope-controls-subsystems_" class="container-fluid container-light page-section" data-section="8">
+        
+        <div class="container-paragraph section-title-paragraph">The M1, M4 and M5 subsystems</div>
+        
+            
+            
+<div class="container-paragraph section-text-paragraph">
+    <p>The primary mirror (<a href="../../mirror/M1/index.html">M1</a>) local control system is one of the most complex subsystems in the telescope. The M1 control system monitors more than 4500 edge sensors on the 798 mirror segments, which provide information on the relative displacement of adjacent segments. It then sends segment position corrections to the three mirror segment position actuators (PACTs) located under each segment. This control, monitoring and correcting at 500 Hz (500 times per second) actively maintains a continuous surface of the primary mirror to an error of around 50 nm. It also isolates the mirror segments from the cell’s back structure which deforms up to 5 mm under gravity, wind and changing thermal conditions. Further segment control is enabled through the M1 warping harness, a set of stepper motors and strain gauges, attached to each segment support structure, capable of controlling surface deformations in the individual segments.</p>
+</div>
+
+        
+            
+            
+<div class="m-0 " style="padding-bottom: 1vw;">
+        <div class="row w-100 m-0">
+            <div class="col-lg-12 p-0 position-relative d-flex align-items-center order-lg-1 order-1">
+                <a href="https://www.eso.org/public/images/telescope-controls-banner2/" target="_blank" class="d-flex align-items-center justify-content-center w-100" rel="noopener noreferrer">
+                    <img class="" style="width: 100%; " src="https://cdn.eso.org/images/original/telescope-controls-banner2.jpg">
+                    
+                </a>
+
+                
+
+            </div>
+
+        </div>
+</div>
+
+
+
+        
+            
+            
+<div class="container-paragraph section-text-paragraph">
+    <p>The ELT quaternary mirror (<a href="../../mirror/M4/index.html">M4</a>) is a 2.4 m deformable mirror with over 5000 voice coil actuators providing a fast dynamic response. Its local control system maintains the mirror position through a closed-loop control. This mirror receives optical corrections from instrument and telescope adaptive optics modules at 1000 Hz and converts these modal amplitudes to actuator position commands. Movement of the actuators deforms the very thin M4 mirror, so its shape compensates for telescope aberrations and atmospheric turbulence, improving the image quality.&nbsp;</p>
+<p>The next mirror in the light path, <a href="../../mirror/M5/index.html">M5</a>, is a flat, fast-steering (tip-tilt) mirror used to stabilise the image primarily against wind disturbance on the telescope. Its local control system maintains the mirror position responding to tip-tilt demands from the central control system. M4 and M5 form the core of the telescope’s adaptive optics.&nbsp;</p>
+<p>During observation, the TREx, a component of the CCS, combines wavefront corrections and optical metrology from telescope guide probes and instrument-based sensors, with offload commands to achieve optimal stroke management in the telescope, i.e. maximising the travel-range of the actuators needed to adjust the ELT’s mirrors. By this, the fast-deformable mirror M4, which is continually adjusted to correct for the atmospheric disturbance seen by instrument sensors, has its full stroke arrange always available and optimised by offloading corrections to other (slower) mirror units and actuators in the telescope.</p>
+</div>
+
+        
+
+        
+    </div>
+  </main>
+
+
+  <footer class="site-footer">
+    <div class="site-footer__row">
+      <div class="site-footer__brand footer-item">
+        <a href="https:///www.eso.org/"><span class="esoblue">ESO</span></a>&nbsp;|&nbsp;ELT © <div id="current-year">2026</div>
+      </div>
+      <div class="site-footer__links footer-item">
+        <div>
+          <a href="../../credits/index.html"><span class="footer-item"> Credits </span></a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="mailto:information@eso.org"><span class="footer-item"> Contact us </span></a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="https://www.eso.org/public/outreach/newsletters/"><span class="footer-item"> Subscribe to ESO news </span></a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="https://www.cdn77.com/"><span class="footer-item"> Accelerated by CDN77 </span></a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="https://www.eso.org/public/about-eso/privacy/"><span class="footer-item"> Terms &amp; Conditions </span></a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="#"><span class="footer-item privacy-settings-link"> Cookie Settings and Policy </span></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

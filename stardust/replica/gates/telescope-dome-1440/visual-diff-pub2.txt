@@ -1,0 +1,401 @@
+[live-session] waiting to pace live navigations to elt.eso.org (15000 ms apart, 1 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+[live-session] waiting to pace live navigations to main--26c59ee1--aemcoder.aem.page (1000 ms apart, 1 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 572 ms
+
+Visual diff @ 1440px (profile "generic") — screenshots in stardust/replica/gates/telescope-dome-1440/vdiff-pub2/
+
+build red flags (advisory): none
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 675,
+  "textLen": 40,
+  "images": [
+   {
+    "src": "eso_logo.jpg",
+    "natural": "100x130",
+    "rendered": "38x50",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_topbar_mobile_1.png",
+    "natural": "35x35",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_topbar_mobile_3.png",
+    "natural": "35x35",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_topbar_mobile_4.png",
+    "natural": "35x35",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_topbar_mobile_5.png",
+    "natural": "35x35",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_topbar_mobile_1.png",
+    "natural": "35x35",
+    "rendered": "28x28",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_topbar_mobile_3.png",
+    "natural": "35x35",
+    "rendered": "28x28",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_topbar_mobile_4.png",
+    "natural": "35x35",
+    "rendered": "28x28",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_topbar_mobile_5.png",
+    "natural": "35x35",
+    "rendered": "28x28",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "header-dome.jpg",
+    "natural": "1920x900",
+    "rendered": "1440x675",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "eso_logo_transparent.png",
+    "natural": "981x1279",
+    "rendered": "78x102",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "subheader-dome.jpg",
+    "natural": "1920x900",
+    "rendered": "1440x675",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_share_1.png",
+    "natural": "35x35",
+    "rendered": "33x33",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_share_3.png",
+    "natural": "36x35",
+    "rendered": "34x33",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_share_1.png",
+    "natural": "35x35",
+    "rendered": "33x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_share_5.png",
+    "natural": "35x35",
+    "rendered": "33x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_share_6.png",
+    "natural": "36x35",
+    "rendered": "34x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_share_4.png",
+    "natural": "35x35",
+    "rendered": "33x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "dome-astronomical.jpg",
+    "natural": "1920x900",
+    "rendered": "720x338",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "dome-enclosure.jpg",
+    "natural": "1920x900",
+    "rendered": "720x338",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "header-about.jpg",
+    "natural": "1920x900",
+    "rendered": "1440x675",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ELT4k-12-Night4-cc.jpg",
+    "natural": "1920x900",
+    "rendered": "1440x675",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": []
+ },
+ "build": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 675,
+  "textLen": 40,
+  "images": [
+   {
+    "src": "media_175cb2986e8ee49e7c64e8a9df5fa3f1f9b298693.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "100x130",
+    "rendered": "38x50",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1f386e2b9f7ed0b34b2f603a73f839485d120c14f.png?width=2000&format=webply&optimize=medium",
+    "natural": "35x35",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_19faa7be92695e315cea4cad487aa3e15b6594830.png?width=2000&format=webply&optimize=medium",
+    "natural": "35x35",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_15b4dfde77d1909c3b38baaf7167a2e3d48f25f72.png?width=2000&format=webply&optimize=medium",
+    "natural": "35x35",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_101417719196c90d4b42a69d39754d790fdc2b645.png?width=2000&format=webply&optimize=medium",
+    "natural": "35x35",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1f386e2b9f7ed0b34b2f603a73f839485d120c14f.png?width=2000&format=webply&optimize=medium",
+    "natural": "35x35",
+    "rendered": "28x28",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_19faa7be92695e315cea4cad487aa3e15b6594830.png?width=2000&format=webply&optimize=medium",
+    "natural": "35x35",
+    "rendered": "28x28",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_15b4dfde77d1909c3b38baaf7167a2e3d48f25f72.png?width=2000&format=webply&optimize=medium",
+    "natural": "35x35",
+    "rendered": "28x28",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_101417719196c90d4b42a69d39754d790fdc2b645.png?width=2000&format=webply&optimize=medium",
+    "natural": "35x35",
+    "rendered": "28x28",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_17f6f7e1309abbb2963bd5cec0e02e45b60d33f1f.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "1920x900",
+    "rendered": "1440x675",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1a043431fda0378cd219e1a181f4b0998cf7fbc73.png?width=2000&format=webply&optimize=medium",
+    "natural": "981x1279",
+    "rendered": "78x102",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_198af9d4c551facd177b752247f68ca8bcb996891.jpg?width=750&format=jpg&optimize=medium",
+    "natural": "750x352",
+    "rendered": "1440x676",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_share_1.png",
+    "natural": "35x35",
+    "rendered": "33x33",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_share_3.png",
+    "natural": "36x35",
+    "rendered": "34x33",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_share_1.png",
+    "natural": "35x35",
+    "rendered": "33x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_share_5.png",
+    "natural": "35x35",
+    "rendered": "33x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_share_6.png",
+    "natural": "36x35",
+    "rendered": "34x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_share_4.png",
+    "natural": "35x35",
+    "rendered": "33x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1fb608391fbb7e92efaab0ec6ae3f440177e78a49.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "1920x900",
+    "rendered": "720x338",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1d844643e72ff73f60ff9148c8b3c4235cb3907a5.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "1920x900",
+    "rendered": "720x338",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1f7f0bcff2cbebbc96f48c5b5644010c5b3c9b4f6.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "1920x900",
+    "rendered": "1440x675",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_19da1ecb4e7203b1e55bd22b5006de1cfc0eb1d0d.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "1920x900",
+    "rendered": "1440x675",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Telescope",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "53.5008px",
+    "family": "Helvetica Neue LT ESO",
+    "fontLoaded": false
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "big-header-title",
+    "width": 1138,
+    "left": 151
+   }
+  ]
+ }
+}

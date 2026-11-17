@@ -1,0 +1,16 @@
+{
+  "writtenBy": "skills/replica/scripts/stitch-shot.mjs",
+  "url": "https://elt.eso.org/instrument/MICADO/",
+  "width": 360,
+  "vh": 900,
+  "height": 12477,
+  "chunks": 14,
+  "denialCheck": "ok",
+  "fontsFailed": [],
+  "fixedLayers": {
+    "capture": "once",
+    "count": 5,
+    "late": 0
+  },
+  "at": "2026-11-14T02:55:55.249Z"
+}

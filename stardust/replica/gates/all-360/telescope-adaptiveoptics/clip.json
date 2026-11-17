@@ -1,0 +1,57 @@
+{
+ "url": "https://main--26c59ee1--aemcoder.aem.page/telescope/adaptiveoptics",
+ "at": "2026-11-14T02:52:37.608Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 8,
+  "offPage": 16,
+  "textNodes": 133,
+  "controls": 39,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 7,
+   "clipper": "div.data-table-scroll",
+   "path": "tbody > tr > td > p",
+   "text": "laser tomography adaptive optics",
+   "cutMin": 22,
+   "cutMax": 48
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.data-table-scroll",
+   "path": "tr > td > p > strong",
+   "text": "ltao",
+   "cutMin": 23,
+   "cutMax": 23
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 88,
+   "horizontal": 8,
+   "offPage": 77,
+   "textNodes": 285,
+   "controls": 52,
+   "total": 0
+  }
+ }
+}

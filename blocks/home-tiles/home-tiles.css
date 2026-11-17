@@ -1,0 +1,93 @@
+/*
+ * Home Tiles — index.css "Menu tiles" (gated prototype; source `.container-notop .col-lg-4`,
+ * `.frontpage-menu-title`). Source quirk kept: the >= 1200 px title size is declared without a
+ * colon on the source (invalid), so the 992 px tier (2.125rem) holds at every wider width.
+ */
+.home-tiles {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.home-tiles .menu-tile {
+  position: relative;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.home-tiles .menu-tile-link {
+  display: block;
+  color: var(--esoblue);
+}
+
+.home-tiles .menu-tile-media picture {
+  display: block;
+}
+
+.home-tiles .menu-tile-media img {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.home-tiles .menu-tile-wide {
+  display: none;
+}
+
+/* the DA rendition is 750x352; hold the source banner's 1920x900 box (168.75 px at 360) */
+.home-tiles .menu-tile-narrow img {
+  aspect-ratio: 1920 / 900;
+  object-fit: cover;
+}
+
+.home-tiles .menu-tile-label {
+  position: absolute;
+  top: 5%;
+  left: 10.5%;
+  display: block;
+  color: #fff;
+}
+
+.home-tiles .menu-tile-label p {
+  margin: 0;
+}
+
+@media only screen and (width <= 576px) {
+  /* R-01: the fallback face sets the 1rem title 2 px lower than the brand cut — lift it back */
+  .home-tiles .menu-tile-label {
+    top: calc(5% - 2px);
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (width >= 576px) {
+  .home-tiles .menu-tile-label {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (width >= 768px) {
+  .home-tiles .menu-tile-label {
+    font-size: 1.75rem;
+  }
+}
+
+@media only screen and (width >= 992px) {
+  .home-tiles .menu-tile {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+  }
+
+  .home-tiles .menu-tile-label {
+    font-size: 2.125rem;
+  }
+
+  .home-tiles .menu-tile-narrow {
+    display: none;
+  }
+
+  .home-tiles .menu-tile-wide {
+    display: block;
+  }
+}

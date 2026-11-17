@@ -1,0 +1,181 @@
+[live-session] waiting to pace live navigations to elt.eso.org (2000 ms apart, 1 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+unit-geometry @ 360px, tol 4px — https://elt.eso.org/about/facts/ vs http://localhost:8791/about-facts-proposed.html
+unit 1 of footer-columns (required) footer .col-12=.site-footer__row > .footer-item: origin -15,3576 360×34 vs served -15,3576 360×34 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "eso" | 134,0 24×18 | 134,0 24×18 | 0 | 0 | 0 | 0 | ✓ |
+| text "2026" | 199,0 27×18 | 199,0 27×18 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of footer-columns (required) footer .col-12=.site-footer__row > .footer-item: origin -15,3610 360×55 vs served -15,3610 360×55 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "| | | | |" | 15,0 330×55 | 15,0 330×55 | 0 | 0 | 0 | 0 | ✓ |
+| link "credits" | 38,1 41×15 | 38,1 41×15 | 0 | 0 | 0 | 0 | ✓ |
+| link "contact us" | 98,1 61×15 | 98,1 61×15 | 0 | 0 | 0 | 0 | ✓ |
+| link "subscribe to eso news" | 178,1 128×15 | 178,1 128×15 | 0 | 0 | 0 | 0 | ✓ |
+| link "accelerated by cdn77" | 28,19 123×15 | 28,19 123×15 | 0 | 0 | 0 | 0 | ✓ |
+| link "cookie settings and policy" | 130,19 202×33 | 130,19 202×33 | 0 | 0 | 0 | 0 | ✓ |
+| link "terms & conditions" | 171,19 105×15 | 171,19 105×15 | 0 | 0 | 0 | 0 | ✓ |
+unit 1 of facts-fact-names (required) .fact-name=.fact-name: origin 45,251 270×27 vs served 45,251 270×27 → Δx 0 Δy 0 Δw 0 Δh 0; 0 elements: 0 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+unit 2 of facts-fact-names (required) .fact-name=.fact-name: origin 45,360 270×27 vs served 45,360 270×27 → Δx 0 Δy 0 Δw 0 Δh 0; 0 elements: 0 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+unit 3 of facts-fact-names (required) .fact-name=.fact-name: origin 45,436 270×27 vs served 45,436 270×27 → Δx 0 Δy 0 Δw 0 Δh 0; 0 elements: 0 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+unit 4 of facts-fact-names (required) .fact-name=.fact-name: origin 45,512 270×27 vs served 45,512 270×27 → Δx 0 Δy 0 Δw 0 Δh 0; 0 elements: 0 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+unit 5 of facts-fact-names (required) .fact-name=.fact-name: origin 45,588 270×81 vs served 45,588 270×81 → Δx 0 Δy 0 Δw 0 Δh 0; 0 elements: 0 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+unit 6 of facts-fact-names (required) .fact-name=.fact-name: origin 45,817 270×81 vs served 45,817 270×81 → Δx 0 Δy 0 Δw 0 Δh 0; 0 elements: 0 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+unit 7 of facts-fact-names (required) .fact-name=.fact-name: origin 45,947 270×54 vs served 45,947 270×54 → Δx 0 Δy 0 Δw 0 Δh 0; 0 elements: 0 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+unit 8 of facts-fact-names (required) .fact-name=.fact-name: origin 45,1602 270×27 vs served 45,1602 270×27 → Δx 0 Δy 0 Δw 0 Δh 0; 0 elements: 0 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+unit 9 of facts-fact-names (required) .fact-name=.fact-name: origin 45,1711 270×27 vs served 45,1711 270×27 → Δx 0 Δy 0 Δw 0 Δh 0; 0 elements: 0 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+unit 10 of facts-fact-names (required) .fact-name=.fact-name: origin 45,1787 270×27 vs served 45,1787 270×27 → Δx 0 Δy 0 Δw 0 Δh 0; 0 elements: 0 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+unit 11 of facts-fact-names (required) .fact-name=.fact-name: origin 45,1863 270×27 vs served 45,1863 270×27 → Δx 0 Δy 0 Δw 0 Δh 0; 0 elements: 0 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+unit 12 of facts-fact-names (required) .fact-name=.fact-name: origin 45,1939 270×108 vs served 45,1939 270×108 → Δx 0 Δy 0 Δw 0 Δh 0; 0 elements: 0 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+unit 13 of facts-fact-names (required) .fact-name=.fact-name: origin 45,2448 270×27 vs served 45,2448 270×27 → Δx 0 Δy 0 Δw 0 Δh 0; 0 elements: 0 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+unit 14 of facts-fact-names (required) .fact-name=.fact-name: origin 45,2557 270×27 vs served 45,2557 270×27 → Δx 0 Δy 0 Δw 0 Δh 0; 0 elements: 0 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+unit 15 of facts-fact-names (required) .fact-name=.fact-name: origin 45,2633 270×81 vs served 45,2633 270×81 → Δx 0 Δy 0 Δw 0 Δh 0; 0 elements: 0 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+unit 16 of facts-fact-names (required) .fact-name=.fact-name: origin 45,2763 270×81 vs served 45,2763 270×81 → Δx 0 Δy 0 Δw 0 Δh 0; 0 elements: 0 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+unit 17 of facts-fact-names (required) .fact-name=.fact-name: origin 45,2893 270×54 vs served 45,2893 270×54 → Δx 0 Δy 0 Δw 0 Δh 0; 0 elements: 0 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+unit 18 of facts-fact-names (required) .fact-name=.fact-name: origin 45,2996 270×54 vs served 45,2996 270×54 → Δx 0 Δy 0 Δw 0 Δh 0; 0 elements: 0 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+unit 19 of facts-fact-names (required) .fact-name=.fact-name: origin 45,3099 270×27 vs served 45,3099 270×27 → Δx 0 Δy 0 Δw 0 Δh 0; 0 elements: 0 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+unit 20 of facts-fact-names (required) .fact-name=.fact-name: origin 45,3175 270×27 vs served 45,3175 270×27 → Δx 0 Δy 0 Δw 0 Δh 0; 0 elements: 0 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+unit 21 of facts-fact-names (required) .fact-name=.fact-name: origin 45,3251 270×27 vs served 45,3251 270×27 → Δx 0 Δy 0 Δw 0 Δh 0; 0 elements: 0 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+unit 22 of facts-fact-names (required) .fact-name=.fact-name: origin 45,3327 270×54 vs served 45,3327 270×54 → Δx 0 Δy 0 Δw 0 Δh 0; 0 elements: 0 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+unit 23 of facts-fact-names (required) .fact-name=.fact-name: origin 45,3430 270×81 vs served 45,3430 270×81 → Δx 0 Δy 0 Δw 0 Δh 0; 0 elements: 0 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+unit 1 of facts-fact-values (required) .fact-value=.fact-value: origin 45,278 270×82 vs served 45,278 270×82 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "extremely large telescope (elt)" | 0,0 270×66 | 0,0 270×66 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of facts-fact-values (required) .fact-value=.fact-value: origin 45,387 270×49 vs served 45,387 270×49 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "39 metres" | 0,0 270×33 | 0,0 270×33 | 0 | 0 | 0 | 0 | ✓ |
+unit 3 of facts-fact-values (required) .fact-value=.fact-value: origin 45,463 270×49 vs served 45,463 270×49 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "978 square metres" | 0,0 270×33 | 0,0 270×33 | 0 | 0 | 0 | 0 | ✓ |
+unit 4 of facts-fact-values (required) .fact-value=.fact-value: origin 45,539 270×49 vs served 45,539 270×49 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "798" | 0,0 270×33 | 0,0 270×33 | 0 | 0 | 0 | 0 | ✓ |
+unit 5 of facts-fact-values (required) .fact-value=.fact-value: origin 45,669 270×148 vs served 45,669 270×148 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "tens of nanometres (10000 thinner th" | 0,0 270×132 | 0,0 270×132 | 0 | 0 | 0 | 0 | ✓ |
+unit 6 of facts-fact-values (required) .fact-value=.fact-value: origin 45,898 270×49 vs served 45,898 270×49 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "4608" | 0,0 270×33 | 0,0 270×33 | 0 | 0 | 0 | 0 | ✓ |
+unit 7 of facts-fact-values (required) .fact-value=.fact-value: origin 45,1001 270×115 vs served 45,1001 270×115 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "140 tonnes, of which 132 tonnes in t" | 0,0 270×99 | 0,0 270×99 | 0 | 0 | 0 | 0 | ✓ |
+unit 8 of facts-fact-values (required) .fact-value=.fact-value: origin 45,1629 270×82 vs served 45,1629 270×82 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "optical/near-infrared extremely larg" | 0,0 270×66 | 0,0 270×66 | 0 | 0 | 0 | 0 | ✓ |
+unit 9 of facts-fact-values (required) .fact-value=.fact-value: origin 45,1738 270×49 vs served 45,1738 270×49 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "five-mirror design" | 0,0 270×33 | 0,0 270×33 | 0 | 0 | 0 | 0 | ✓ |
+unit 10 of facts-fact-values (required) .fact-value=.fact-value: origin 45,1814 270×49 vs served 45,1814 270×49 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "10 arcminutes" | 0,0 270×33 | 0,0 270×33 | 0 | 0 | 0 | 0 | ✓ |
+unit 11 of facts-fact-values (required) .fact-value=.fact-value: origin 45,1890 270×49 vs served 45,1890 270×49 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "hemispherical dome" | 0,0 270×33 | 0,0 270×33 | 0 | 0 | 0 | 0 | ✓ |
+unit 12 of facts-fact-values (required) .fact-value=.fact-value: origin 45,2047 270×49 vs served 45,2047 270×49 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "~30 minutes" | 0,0 270×33 | 0,0 270×33 | 0 | 0 | 0 | 0 | ✓ |
+unit 13 of facts-fact-values (required) .fact-value=.fact-value: origin 45,2475 270×82 vs served 45,2475 270×82 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "cerro armazones, atacama desert, chi" | 0,0 270×66 | 0,0 270×66 | 0 | 0 | 0 | 0 | ✓ |
+unit 14 of facts-fact-values (required) .fact-value=.fact-value: origin 45,2584 270×49 vs served 45,2584 270×49 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "3046 m" | 0,0 270×33 | 0,0 270×33 | 0 | 0 | 0 | 0 | ✓ |
+unit 15 of facts-fact-values (required) .fact-value=.fact-value: origin 45,2714 270×49 vs served 45,2714 270×49 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "~18 metres" | 0,0 270×33 | 0,0 270×33 | 0 | 0 | 0 | 0 | ✓ |
+unit 16 of facts-fact-values (required) .fact-value=.fact-value: origin 45,2844 270×49 vs served 45,2844 270×49 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "~220 000 m" | 0,0 270×33 | 0,0 270×33 | 0 | 0 | 0 | 0 | ✓ |
+| text "3" | 189,0 9×20 | 189,0 9×20 | 0 | 0 | 0 | 0 | ✓ |
+unit 17 of facts-fact-values (required) .fact-value=.fact-value: origin 45,2947 270×49 vs served 45,2947 270×49 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "23 km" | 0,0 270×33 | 0,0 270×33 | 0 | 0 | 0 | 0 | ✓ |
+unit 18 of facts-fact-values (required) .fact-value=.fact-value: origin 45,3050 270×49 vs served 45,3050 270×49 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "about 12 years" | 0,0 270×33 | 0,0 270×33 | 0 | 0 | 0 | 0 | ✓ |
+unit 19 of facts-fact-values (required) .fact-value=.fact-value: origin 45,3126 270×49 vs served 45,3126 270×49 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "2029" | 0,0 270×33 | 0,0 270×33 | 0 | 0 | 0 | 0 | ✓ |
+unit 20 of facts-fact-values (required) .fact-value=.fact-value: origin 45,3202 270×49 vs served 45,3202 270×49 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "30+ years" | 0,0 270×33 | 0,0 270×33 | 0 | 0 | 0 | 0 | ✓ |
+unit 21 of facts-fact-values (required) .fact-value=.fact-value: origin 45,3278 270×49 vs served 45,3278 270×49 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "€1.45 billion" | 0,0 270×33 | 0,0 270×33 | 0 | 0 | 0 | 0 | ✓ |
+unit 22 of facts-fact-values (required) .fact-value=.fact-value: origin 45,3381 270×49 vs served 45,3381 270×49 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "55" | 0,0 270×33 | 0,0 270×33 | 0 | 0 | 0 | 0 | ✓ |
+unit 23 of facts-fact-values (required) .fact-value=.fact-value: origin 45,3511 270×49 vs served 45,3511 270×49 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "~100 each year" | 0,0 270×33 | 0,0 270×33 | 0 | 0 | 0 | 0 | ✓ |
+Units: 48 compared; elements within 33, off 0, hidden 0, missing 0 → PASS
+json → stardust/replica/gates/about-facts-360/units-iter1.json

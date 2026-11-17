@@ -1,0 +1,38 @@
+[live-session] waiting to pace live navigations to elt.eso.org (2000 ms apart, 1 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+[live-session] waiting to pace live navigations to main--26c59ee1--aemcoder.aem.page (3750 ms apart, 1 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 1696 ms
+unit-geometry @ 1440px, tol 4px — https://elt.eso.org/telescope/dome/ vs https://main--26c59ee1--aemcoder.aem.page/telescope/dome
+unit 1 of footer-columns (required) footer .col-12=.site-footer-row > .footer-item: origin -15,8543 360×22 vs served -15,8454 360×22 → Δx 0 Δy -89 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "eso" | 124,0 29×22 | 123,0 30×22 | -1 | 0 | +1 | 0 | ✓ |
+| text "2026" | 203,0 33×22 | 205,0 32×22 | +2 | 0 | -1 | 0 | ✓ |
+unit 2 of footer-columns (required) footer .col-12=.site-footer-row > .footer-item: origin 345,8543 1080×22 vs served 345,8454 1080×22 → Δx 0 Δy -89 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "| | | | |" | 119,0 842×22 | 119,0 843×22 | 0 | 0 | +1 | 0 | ✓ |
+| link "credits" | 119,2 49×18 | 119,2 49×18 | 0 | 0 | 0 | 0 | ✓ |
+| link "contact us" | 192,2 74×18 | 192,2 72×18 | 0 | 0 | -2 | 0 | ✓ |
+| link "subscribe to eso news" | 289,2 155×18 | 288,2 155×18 | -1 | 0 | 0 | 0 | ✓ |
+| link "accelerated by cdn77" | 468,2 149×18 | 466,2 150×18 | -2 | 0 | +1 | 0 | ✓ |
+| link "terms & conditions" | 641,2 128×18 | 639,2 128×18 | -2 | 0 | 0 | 0 | ✓ |
+| link "cookie settings and policy" | 792,2 169×18 | 791,2 170×18 | -1 | 0 | +1 | 0 | ✓ |
+unit 1 of program-lightlink-rows (required) .lightlinks > .row=.subpage-tiles > .lightlink-row: origin 0,2368 1440×338 vs served 0,2369 1440×338 → Δx 0 Δy +1 Δw 0 Δh 0; 6 elements: 5 within 4px, 1 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:img.w-100#1" | 0,0 720×338 | 0,0 720×338 | 0 | 0 | 0 | 0 | ✓ |
+| text "for precise astronomical observation" | 783,110 593×101 | 783,102 593×101 | 0 | -8 | 0 | 0 | ✗ |
+| link "link:a#1" | 0,158 720×19 | 0,157 720×20 | 0 | -1 | 0 | +1 | ✓ |
+| link "astronomical performance" | 76,260 364×39 | 76,260 365×39 | 0 | 0 | +1 | 0 | ✓ |
+| image "image:svg#1" | 720,280 720×57 | 720,280 720×57 | 0 | 0 | 0 | 0 | ✓ |
+| link "read more" | 780,294 96×29 | 779,294 97×29 | -1 | 0 | +1 | 0 | ✓ |
+unit 2 of program-lightlink-rows (required) .lightlinks > .row=.subpage-tiles > .lightlink-row: origin 0,2706 1440×338 vs served 0,2707 1440×338 → Δx 0 Δy +1 Δw 0 Δh 0; 6 elements: 5 within 4px, 1 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:img.w-100#1" | 720,0 720×338 | 720,0 720×338 | 0 | 0 | 0 | 0 | ✓ |
+| text "from a windscreen to ventilation and" | 63,110 593×101 | 63,102 593×101 | 0 | -8 | 0 | 0 | ✗ |
+| link "link:a#2" | 720,158 720×19 | 720,157 720×20 | 0 | -1 | 0 | +1 | ✓ |
+| link "enclosure structure" | 796,260 271×39 | 796,260 272×39 | 0 | 0 | +1 | 0 | ✓ |
+| image "image:svg#1" | 0,280 720×57 | 0,280 720×57 | 0 | 0 | 0 | 0 | ✓ |
+| link "read more" | 60,294 96×29 | 59,294 97×29 | -1 | 0 | +1 | 0 | ✓ |
+Units: 4 compared; elements within 19, off 2, hidden 0, missing 0 → FAIL
+json → stardust/replica/gates/telescope-dome-1440/units-pub1.json

@@ -1,0 +1,41 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-11-13T14:59:50.417Z",
+    "stardustVersion": "0.0.0"
+  },
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://elt.eso.org/",
+    "da": {
+      "org": "aemcoder",
+      "site": "26c59ee1",
+      "ref": "main"
+    },
+    "liveHost": "main--26c59ee1--aemcoder.aem.live"
+  },
+  "scope": {
+    "pages": 8,
+    "discovered": 44,
+    "capped": true,
+    "pageCap": null
+  },
+  "lastRun": {
+    "at": "2026-11-14T04:18:37.329Z",
+    "pages": {
+      "total": 43,
+      "verified": 43,
+      "deployed": 0,
+      "pending": 0,
+      "contentPending": 0,
+      "stale": 0,
+      "failed": 0
+    },
+    "blocks": {
+      "total": 13,
+      "converted": 5,
+      "pending": 8
+    },
+    "verifyFailures": 0
+  }
+}

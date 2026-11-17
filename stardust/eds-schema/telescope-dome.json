@@ -1,0 +1,460 @@
+{
+ "source": "file:///workspace/26c59ee1/stardust/prototypes/telescope-dome-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "container-dark",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Dome"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "The giant ELT dome will house the telescope and its interior structure, providing protection from the extreme environment of Chile's Atacama Desert."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "The dome will be about 80 metres high and have a diameter of about 93 metres, giving it a footprint roughly equivalent to that of a football pitch. The upper part of the dome will rotate to allow the telescope to point in any direction through its large observing slit."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Quick Links:"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "|"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Astronomical Performance",
+     "href": "#astroperf"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Enclosure Structure",
+     "href": "#enclosurestruct"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "container-light",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "In a Nutshell"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Share on Facebook",
+     "href": "https://www.facebook.com/sharer/sharer.php?u=https://elt.eso.org/telescope/dome/"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "E-Mail",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Copy Link",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Share on LinkedIn",
+     "href": "https://www.linkedin.com/sharing/share-offsite/?url=https://elt.eso.org/telescope/dome/"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "The dome will be about 80 metres high and have a diameter of about 93 metres, giving it a footprint roughly equivalent to that of a football pitch. The upper part of the dome will rotate to allow the telescope to point in any direction through its large observing slit."
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "The giant ELT dome will house the telescope and its interior structure, providing protection from the extreme environment of Chile's Atacama Desert."
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "The dome will be about 80 metres high and have a diameter of about 93 metres, giving it a footprint roughly equivalent to that of a football pitch. The upper part of the dome will rotate to allow the telescope to point in any direction through its large observing slit."
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "The sensitive and delicate components of the most sophisticated telescope ground-based astronomy has ever seen require special protection. This is especially true in the rough desert environment, with potentially damaging sand and wind, and in a country that is prone to earthquakes."
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "The ELT dome shelters the telescope in windy conditions during observations and protects it and its delicate optics from the elements during the day. It consists of a lower fixed part, the concrete pier, a rotating upper part, and the enclosure, which is equipped with two motorised slit doors that open laterally to allow observations of the night sky."
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "The dome enclosure has a thermally insulated cladding made of aluminium, which allows thermal conditioning of the telescope chamber during the day and limits radiative cooling during the night. This rotating structure is also equipped with special cranes to allow handling operations during the day when the slits are closed."
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "The pier of the dome is surrounded by an auxiliary building, with the instrument assembly area and the entrance hall facing south, downstream of the prevailing wind. The various electrical, thermal, and hydraulic plants used to operate the dome and the telescope are distributed in different rooms of the building. The remaining rooms are used for mirror segment storage, computer rooms, and to host a facility for mirror coating."
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "The overall building is protected against major earthquakes. Both the dome pier and the auxiliary building rest on shock absorbers mounted on top of the foundations to dampen earthquake vibrations."
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Please check the for recent news, images and videos of the ELT dome."
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "News & Multimedia section",
+     "href": "/media/"
+    }
+   ],
+   "imgCount": 6,
+   "editableTexts": 9,
+   "repeats": [
+    {
+     "unitSelector": "DIV.container-paragraph",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 6,
+      "textRuns": 5
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.container-subtitle",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "P.",
+     "count": 6,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "container-light",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Astronomical Performance"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "For precise astronomical observations that reach various target objects in the night sky, the dome will need to move fast, while avoiding vibrations."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "The telescope needs to be able to track about the 1-degree zenithal avoidance locus and preset to a new target within 5 minutes. This requires the enclosure to accelerate and move at angular speeds of up to 2 degrees/s (the linear speed at the outer diameter being ap-proximately 5 km/h), which poses considerable challenges to the motorisation system and its braking devices, and demands the implementation of various safety provisions. The enclosure rotates independently from the telescope structure, and sufficient mechanical clearance is guaranteed to allow the complete movement of the telescope within the open or closed dome. The dome design allows observations from zenith down to 20 degrees from the horizon."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "To avoid vibration during the rotation of the enclosure, the rotating mechanism is, to the extent possible, structurally decoupled from the dome concrete base. In addition, the possible propagation of vibrations from the dome foundation to the telescope pier, via the seismic isolators and the rock substrate, has been studied in detail to ensure a smooth and vibration-free movement and to guarantee the required precision of the telescope tracking during observation."
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "DIV.container-paragraph",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "container-light",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Enclosure Structure"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "The ELT dome is a giant, extending about 80 meters from the ground and measuring 93 metres in diameter."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "The rotating enclosure, once fully equipped and finished, will have a mass of around 6100 tons, and it will rotate on 36 stationary trolleys mounted above the pier at a height of 11m from the ground.The structure itself consists of a round girder with a special track at its bottom that rests on the wheels of the trolleys. The primary structure of the enclosure is completed by three structural arches resting on the round girder, one at each side of the slit and one at the back. The enclosure structure, which will be bolted together on site, is closed by a number of secondary beams which will allow the assembly of the insulated aluminum cladding. A complex series of accesses inside the structure and the slit doors allows engineers to reach all mechanisms of the doors, ventilation louvers, and installed equipment."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "The enclosure's slit doors, that open to allow observations of the night sky, move on three rails each, one at the round girder and two at the top. The doors provide an aperture of 41 m when open, and their system motors have sufficient redundancy to ensure the doors can be closed when needed, in all conditions. In addition, the doors will be equipped with latching mechanisms to achieve structural continuity and with special inflatable seals to guarantee environmental tightness when closed."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Engineers have carried out wind tunnel tests to compute the pressure forces acting on the structure in operational conditions (doors open) as well in survival conditions (doors closed). The structure has also been verified against earthquakes and snow loads."
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Windscreen"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Since the ELT dome has a large opening, it requires a windscreen to protect the telescope's primary and secondary mirrors from direct wind exposure, which could negatively affect the pointing performance of the telescope. The windscreen reduces the overall wind speed and, thanks to its permeability, produces a quasi-laminar flow across the telescope optics to avoid degrading seeing effects. The windscreen design is based on four curved plate segments that can be moved up and down depending on the inclination of the telescope. For reliability and safety reasons, redundancy has been implemented in the windscreen mechanism. The windscreen segments are stored at the level of the enclosure ring, when retracted in the lowest position."
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Ventilation and Air Conditioning"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "The ELT dome has been designed to allow sufficient ventilation for the telescope not to be limited by dome seeing. It is equipped with ventilation louvers that, together with the windscreen, allow the modulation of the air flow inside the dome. The louvers are distributed laterally to the doors and also at the back of the telescope. The first ring of louvers is located in the pier, just above the auxiliary building, which allows air to be flushed below the primary mirror."
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Engineers have performed simulations to study the airflow in and around the dome and the movement of the air depending on the direction of the wind with respect to the direction of observation.To avoid pockets of warm air, the pavement in the area between the piers of the dome and of the telescope has been decoupled from the rock temperature through the use of special thermal insulation. When the slit doors are closed, special seals avoid air exchange and prevent dust from entering the enclosure."
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "A powerful air conditioning system allows the regulation of air temperature inside the enclosure and of the telescope structure. To minimise seeing effects and thermal deformation of the telescope structure, this air conditioning system sets the temperature inside the dome to that expected outside at the time of opening the doors shortly after sunset. The system uses a chiller plant, located at the side of the telescope plateau, that rejects any residual heat down-stream of the prevailing wind, sufficiently far away from the telescope."
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Cooling the telescope during the day is critical for operation. The air conditioning system can cool the telescope and dome internal volume by 10°C during 12 hours, even as heat from the Sun warms up the enclosure. To minimise the amount of heat transmitted inside the enclosure, an insulating layer will be inserted between the external aluminum cladding and the inner lining of the enclosure."
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Height of the dome"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "80 m"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Diameter of the dome"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "93 m"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Diameter of the auxiliary building"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "117 m"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Height of the dome pier"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "11 m"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Mass of the rotating enclosure"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "6100 t"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "Number of trolleys for rotation"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "36"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "Dimension of each trolley"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "4x2x3 m"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "Mass of each trolley"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "27 t"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "Length of the track of dome"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "270 m"
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "Door dimensions (w x h)"
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "23x55 m"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "Mass of each door"
+    },
+    {
+     "role": "body",
+     "order": 33,
+     "text": "600 t"
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": "Number of ventilation louvers in dome pier"
+    },
+    {
+     "role": "body",
+     "order": 35,
+     "text": "89"
+    },
+    {
+     "role": "body",
+     "order": 36,
+     "text": "Area of the ventilation louvers"
+    },
+    {
+     "role": "body",
+     "order": 37,
+     "text": "1240 m"
+    },
+    {
+     "role": "body",
+     "order": 38,
+     "text": "2"
+    },
+    {
+     "role": "body",
+     "order": 39,
+     "text": "Number of seismic isolators"
+    },
+    {
+     "role": "body",
+     "order": 40,
+     "text": "118"
+    },
+    {
+     "role": "body",
+     "order": 41,
+     "text": "Heating, ventilation, and air conditioning system cooling power"
+    },
+    {
+     "role": "body",
+     "order": 42,
+     "text": "3 MW"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 11,
+   "repeats": [
+    {
+     "unitSelector": "DIV.container-paragraph",
+     "count": 5,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.container-subtitle",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  }
+ ]
+}

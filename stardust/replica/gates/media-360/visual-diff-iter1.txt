@@ -1,0 +1,808 @@
+
+Visual diff @ 360px (profile "generic") — screenshots in stardust/replica/gates/media-360/vdiff-iter1/
+
+build red flags (advisory): none
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 169,
+  "textLen": 48,
+  "images": [
+   {
+    "src": "eso_logo.jpg",
+    "natural": "100x130",
+    "rendered": "38x50",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_topbar_mobile_1.png",
+    "natural": "35x35",
+    "rendered": "28x28",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_topbar_mobile_3.png",
+    "natural": "35x35",
+    "rendered": "28x28",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_topbar_mobile_4.png",
+    "natural": "35x35",
+    "rendered": "28x28",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_topbar_mobile_5.png",
+    "natural": "35x35",
+    "rendered": "28x28",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_topbar_mobile_1.png",
+    "natural": "35x35",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_topbar_mobile_3.png",
+    "natural": "35x35",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_topbar_mobile_4.png",
+    "natural": "35x35",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_topbar_mobile_5.png",
+    "natural": "35x35",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "header-visuals.jpg",
+    "natural": "1920x900",
+    "rendered": "360x169",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "eso_logo_transparent.png",
+    "natural": "981x1279",
+    "rendered": "30x39",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_share_1.png",
+    "natural": "35x35",
+    "rendered": "33x33",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_share_3.png",
+    "natural": "36x35",
+    "rendered": "34x33",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_share_1.png",
+    "natural": "35x35",
+    "rendered": "33x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_share_5.png",
+    "natural": "35x35",
+    "rendered": "33x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_share_6.png",
+    "natural": "36x35",
+    "rendered": "34x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_share_4.png",
+    "natural": "35x35",
+    "rendered": "33x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "cs0032a.jpg",
+    "natural": "640x360",
+    "rendered": "284x90",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "potw2643b.jpg",
+    "natural": "640x360",
+    "rendered": "284x90",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "potw2643a.jpg",
+    "natural": "640x360",
+    "rendered": "284x90",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "potw2643d.jpg",
+    "natural": "640x360",
+    "rendered": "284x90",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "potw2643c.jpg",
+    "natural": "640x360",
+    "rendered": "284x90",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "cs0032a.jpg",
+    "natural": "640x360",
+    "rendered": "360x203",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "eso_logo_transparent.png",
+    "natural": "981x1279",
+    "rendered": "43x56",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "potw2643a.jpg",
+    "natural": "640x360",
+    "rendered": "360x203",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "eso_logo_transparent.png",
+    "natural": "981x1279",
+    "rendered": "43x56",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "potw2643b.jpg",
+    "natural": "640x360",
+    "rendered": "360x203",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "eso_logo_transparent.png",
+    "natural": "981x1279",
+    "rendered": "43x56",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "potw2643d.jpg",
+    "natural": "640x360",
+    "rendered": "360x203",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "eso_logo_transparent.png",
+    "natural": "981x1279",
+    "rendered": "43x56",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "potw2643c.jpg",
+    "natural": "640x360",
+    "rendered": "360x203",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "eso_logo_transparent.png",
+    "natural": "981x1279",
+    "rendered": "43x56",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "potw2635a.jpg",
+    "natural": "640x360",
+    "rendered": "360x203",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "eso_logo_transparent.png",
+    "natural": "981x1279",
+    "rendered": "43x56",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "potw2643a.jpg",
+    "natural": "1024x768",
+    "rendered": "360x203",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "eso_logo_transparent.png",
+    "natural": "981x1279",
+    "rendered": "43x56",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "potw2643c.jpg",
+    "natural": "1024x768",
+    "rendered": "360x203",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "eso_logo_transparent.png",
+    "natural": "981x1279",
+    "rendered": "43x56",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "potw2643b.jpg",
+    "natural": "1024x768",
+    "rendered": "360x203",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "eso_logo_transparent.png",
+    "natural": "981x1279",
+    "rendered": "43x56",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "2606_Z8_9416-cc.jpg",
+    "natural": "1024x768",
+    "rendered": "360x203",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "eso_logo_transparent.png",
+    "natural": "981x1279",
+    "rendered": "43x56",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ann26009f.jpg",
+    "natural": "1024x768",
+    "rendered": "360x203",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "eso_logo_transparent.png",
+    "natural": "981x1279",
+    "rendered": "43x56",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ann26009g.jpg",
+    "natural": "1024x768",
+    "rendered": "360x203",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "eso_logo_transparent.png",
+    "natural": "981x1279",
+    "rendered": "43x56",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "brochure_0079.jpg",
+    "natural": "1280x1810",
+    "rendered": "142x201",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "map-v4.jpg",
+    "natural": "1280x768",
+    "rendered": "171x102",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": []
+ },
+ "build": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 169,
+  "textLen": 48,
+  "images": [
+   {
+    "src": "eso_logo.jpg",
+    "natural": "100x130",
+    "rendered": "38x50",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_topbar_mobile_1.png",
+    "natural": "35x35",
+    "rendered": "28x28",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_topbar_mobile_3.png",
+    "natural": "35x35",
+    "rendered": "28x28",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_topbar_mobile_4.png",
+    "natural": "35x35",
+    "rendered": "28x28",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_topbar_mobile_5.png",
+    "natural": "35x35",
+    "rendered": "28x28",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_topbar_mobile_1.png",
+    "natural": "35x35",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_topbar_mobile_3.png",
+    "natural": "35x35",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_topbar_mobile_4.png",
+    "natural": "35x35",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_topbar_mobile_5.png",
+    "natural": "35x35",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "header-visuals.jpg",
+    "natural": "1920x900",
+    "rendered": "360x169",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "eso_logo_transparent.png",
+    "natural": "981x1279",
+    "rendered": "30x39",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_share_1.png",
+    "natural": "35x35",
+    "rendered": "33x33",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_share_3.png",
+    "natural": "36x35",
+    "rendered": "34x33",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_share_1.png",
+    "natural": "35x35",
+    "rendered": "33x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_share_5.png",
+    "natural": "35x35",
+    "rendered": "33x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_share_6.png",
+    "natural": "36x35",
+    "rendered": "34x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_share_4.png",
+    "natural": "35x35",
+    "rendered": "33x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "cs0032a.jpg",
+    "natural": "640x360",
+    "rendered": "284x90",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "potw2643b.jpg",
+    "natural": "640x360",
+    "rendered": "284x90",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "potw2643a.jpg",
+    "natural": "640x360",
+    "rendered": "284x90",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "potw2643d.jpg",
+    "natural": "640x360",
+    "rendered": "284x90",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "potw2643c.jpg",
+    "natural": "640x360",
+    "rendered": "284x90",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "cs0032a.jpg",
+    "natural": "640x360",
+    "rendered": "360x203",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "eso_logo_transparent.png",
+    "natural": "981x1279",
+    "rendered": "43x56",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "potw2643a.jpg",
+    "natural": "640x360",
+    "rendered": "360x203",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "eso_logo_transparent.png",
+    "natural": "981x1279",
+    "rendered": "43x56",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "potw2643b.jpg",
+    "natural": "640x360",
+    "rendered": "360x203",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "eso_logo_transparent.png",
+    "natural": "981x1279",
+    "rendered": "43x56",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "potw2643d.jpg",
+    "natural": "640x360",
+    "rendered": "360x203",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "eso_logo_transparent.png",
+    "natural": "981x1279",
+    "rendered": "43x56",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "potw2643c.jpg",
+    "natural": "640x360",
+    "rendered": "360x203",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "eso_logo_transparent.png",
+    "natural": "981x1279",
+    "rendered": "43x56",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "potw2635a.jpg",
+    "natural": "640x360",
+    "rendered": "360x203",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "eso_logo_transparent.png",
+    "natural": "981x1279",
+    "rendered": "43x56",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "potw2643a.jpg",
+    "natural": "1024x768",
+    "rendered": "360x203",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "eso_logo_transparent.png",
+    "natural": "981x1279",
+    "rendered": "43x56",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "potw2643c.jpg",
+    "natural": "1024x768",
+    "rendered": "360x203",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "eso_logo_transparent.png",
+    "natural": "981x1279",
+    "rendered": "43x56",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "potw2643b.jpg",
+    "natural": "1024x768",
+    "rendered": "360x203",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "eso_logo_transparent.png",
+    "natural": "981x1279",
+    "rendered": "43x56",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "2606_Z8_9416-cc.jpg",
+    "natural": "1024x768",
+    "rendered": "360x203",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "eso_logo_transparent.png",
+    "natural": "981x1279",
+    "rendered": "43x56",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ann26009f.jpg",
+    "natural": "1024x768",
+    "rendered": "360x203",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "eso_logo_transparent.png",
+    "natural": "981x1279",
+    "rendered": "43x56",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ann26009g.jpg",
+    "natural": "1024x768",
+    "rendered": "360x203",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "eso_logo_transparent.png",
+    "natural": "981x1279",
+    "rendered": "43x56",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "brochure_0079.jpg",
+    "natural": "1280x1810",
+    "rendered": "142x201",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "map-v4.jpg",
+    "natural": "1280x768",
+    "rendered": "171x102",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": []
+ }
+}

@@ -1,0 +1,385 @@
+/*
+ * Subpage Tiles — instrument-harmoni.css §6 (source L16019–L16057, L19695, L20275):
+ * full-width coloured rows, image + body stacked below 1200 px, 2-up (col-xl-6) from 1200 px;
+ * the trapezoid and the "Read More" link show from 1200 px (d-xl). Type tiers are the
+ * source's own: <= 576 / >= 576, 768, 992, 1200, 1440, 1680, 1920.
+ * Link colours beat the light section's link colour (`main > .section.light a`).
+ */
+.subpage-tiles .lightlink-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;
+  margin: 0;
+  background-color: var(--row-color);
+}
+
+.subpage-tiles .lightlink-media,
+.subpage-tiles .lightlink-body {
+  position: relative;
+  width: 100%;
+}
+
+.subpage-tiles .lightlink-media {
+  padding: 0;
+}
+
+.subpage-tiles .lightlink-media picture {
+  display: contents;
+}
+
+.subpage-tiles .lightlink-media img {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.subpage-tiles .lightlink-body {
+  display: flex;
+  align-items: center;
+  padding: 1rem 15px;
+}
+
+.subpage-tiles .lightlink-row-reverse .lightlink-body {
+  order: 2;
+}
+
+.subpage-tiles .lightlink-row-reverse .lightlink-media {
+  order: 1;
+}
+
+.subpage-tiles .internal-menu-title {
+  position: absolute;
+  bottom: 10%;
+  left: 10.5%;
+  right: 10.5%;
+  color: #fff;
+  pointer-events: none;
+}
+
+.subpage-tiles .internal-menu-title p {
+  margin: 0;
+}
+
+.subpage-tiles .internal-menu-text {
+  line-height: 33.75px;
+  color: #fff;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+.subpage-tiles .internal-menu-shape {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  height: 100%;
+}
+
+.subpage-tiles .internal-menu-shape-box {
+  display: none;
+  width: 100%;
+}
+
+.subpage-tiles svg.internal-menu-trapezoid {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.subpage-tiles svg.internal-menu-trapezoid polygon {
+  fill: #fff;
+  stroke: #fff;
+  stroke-width: 0;
+}
+
+.subpage-tiles .internal-menu-link {
+  position: absolute;
+  inset: 83% 70% 0 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  pointer-events: none;
+}
+
+main .subpage-tiles .lightlink-row a,
+main .subpage-tiles .lightlink-row a:hover {
+  color: #fff;
+}
+
+main .subpage-tiles .lightlink-row .internal-menu-link a,
+main .subpage-tiles .lightlink-row .internal-menu-link a:hover {
+  color: var(--link-color);
+}
+
+@media (width >= 1200px) {
+  .subpage-tiles .lightlink-media,
+  .subpage-tiles .lightlink-body {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .subpage-tiles .lightlink-body {
+    padding-top: 0;
+  }
+
+  .subpage-tiles .lightlink-row-reverse .lightlink-body {
+    order: 1;
+  }
+
+  .subpage-tiles .lightlink-row-reverse .lightlink-media {
+    order: 2;
+  }
+
+  .subpage-tiles .internal-menu-shape-box {
+    display: block;
+  }
+
+  .subpage-tiles .internal-menu-link {
+    display: flex;
+  }
+}
+
+@media only screen and (width <= 576px) {
+  .subpage-tiles .internal-menu-link,
+  .subpage-tiles .internal-menu-text {
+    font-size: 1rem;
+  }
+
+  .subpage-tiles .internal-menu-title {
+    font-size: 1.625rem;
+  }
+}
+
+@media only screen and (width >= 576px) {
+  .subpage-tiles .internal-menu-link {
+    font-size: 16.5px;
+  }
+
+  .subpage-tiles .internal-menu-text {
+    font-size: 1.057rem;
+  }
+
+  .subpage-tiles .internal-menu-title {
+    font-size: 27px;
+  }
+}
+
+@media only screen and (width >= 768px) {
+  .subpage-tiles .internal-menu-link {
+    font-size: 17.5px;
+  }
+
+  .subpage-tiles .internal-menu-text {
+    font-size: 1.111rem;
+  }
+
+  .subpage-tiles .internal-menu-title {
+    font-size: 28.5px;
+  }
+}
+
+@media only screen and (width >= 992px) {
+  .subpage-tiles .internal-menu-link {
+    font-size: 1.125rem;
+  }
+
+  .subpage-tiles .internal-menu-text {
+    font-size: 1.174rem;
+  }
+
+  .subpage-tiles .internal-menu-title {
+    font-size: 29.5px;
+  }
+}
+
+@media only screen and (width >= 1200px) {
+  .subpage-tiles .internal-menu-link {
+    font-size: 18.5px;
+  }
+
+  .subpage-tiles .internal-menu-text {
+    font-size: 1.233rem;
+  }
+
+  .subpage-tiles .internal-menu-title {
+    font-size: 1.9375rem;
+  }
+}
+
+@media only screen and (width >= 1440px) {
+  .subpage-tiles .internal-menu-link {
+    font-size: 19.5px;
+  }
+
+  .subpage-tiles .internal-menu-text {
+    font-size: 1.301rem;
+  }
+
+  .subpage-tiles .internal-menu-title {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (width >= 1680px) {
+  .subpage-tiles .internal-menu-link {
+    font-size: 1.25rem;
+  }
+
+  .subpage-tiles .internal-menu-text {
+    font-size: 1.369rem;
+  }
+
+  .subpage-tiles .internal-menu-title {
+    font-size: 33.5px;
+  }
+}
+
+@media only screen and (width >= 1920px) {
+  .subpage-tiles .internal-menu-link {
+    font-size: 1.3125rem;
+  }
+
+  .subpage-tiles .internal-menu-text {
+    font-size: 1.4375rem;
+  }
+
+  .subpage-tiles .internal-menu-title {
+    font-size: 2.1875rem;
+  }
+}
+
+/* colour-cell word `spaced`: the source's inline padding-bottom 1rem on the tile text (L20275) */
+.subpage-tiles .internal-menu-text-spaced p:last-child {
+  padding-bottom: 1rem;
+}
+
+/* colour-cell word `gap`: the source's trailing empty paragraph (one text line + p margin) */
+.subpage-tiles .internal-menu-text-gap::after {
+  content: "";
+  display: block;
+  height: calc(33.75px + 1rem);
+}
+
+/* ── variant `program` (telescope-dome.css §7, program template): 2-up, trapezoid and
+   "Read More" from 992 px (col-lg-6, d-lg-block); the body keeps its 1rem top padding ── */
+@media (width >= 992px) {
+  .subpage-tiles.program .lightlink-media,
+  .subpage-tiles.program .lightlink-body {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .subpage-tiles.program .lightlink-body {
+    padding-top: 1rem;
+  }
+
+  .subpage-tiles.program .lightlink-row-reverse .lightlink-body {
+    order: 1;
+  }
+
+  .subpage-tiles.program .lightlink-row-reverse .lightlink-media {
+    order: 2;
+  }
+
+  .subpage-tiles.program .internal-menu-shape-box {
+    display: block;
+  }
+
+  .subpage-tiles.program .internal-menu-link {
+    display: flex;
+  }
+}
+
+/* ── variant `about` (listing template, /about — source L16057, .col-xxl-6, .pb-xxl-5, d-xxl):
+   stacked below 1440 px, 2-up from 1440 px; text column without the pt-3/pb-3 padding;
+   "Read More" at top 72 % (.internal-menu-link-original) ── */
+.subpage-tiles.about .lightlink-body {
+  padding: 0 15px;
+}
+
+.subpage-tiles.about .internal-menu-link {
+  top: 72%;
+}
+
+@media (width >= 1200px) {
+  .subpage-tiles.about .lightlink-media,
+  .subpage-tiles.about .lightlink-body {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .subpage-tiles.about .lightlink-row-reverse .lightlink-body {
+    order: 2;
+  }
+
+  .subpage-tiles.about .lightlink-row-reverse .lightlink-media {
+    order: 1;
+  }
+
+  .subpage-tiles.about .internal-menu-shape-box {
+    display: none;
+  }
+
+  .subpage-tiles.about .internal-menu-link {
+    display: none;
+  }
+}
+
+@media (width >= 1440px) {
+  .subpage-tiles.about .lightlink-media,
+  .subpage-tiles.about .lightlink-body {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .subpage-tiles.about .lightlink-row-reverse .lightlink-body {
+    order: 1;
+  }
+
+  .subpage-tiles.about .lightlink-row-reverse .lightlink-media {
+    order: 2;
+  }
+
+  .subpage-tiles.about .internal-menu-text {
+    padding-bottom: 3rem;
+  }
+
+  .subpage-tiles.about .internal-menu-shape-box {
+    display: block;
+  }
+
+  .subpage-tiles.about .internal-menu-link {
+    display: flex;
+  }
+}
+
+/* `fit-s-*` / `fit-l-*` (program template, R-01): the tile text's line count under the
+   metric-fitted fallback face, fitted per block by an instrument (origin vs build line counts) —
+   below 576 px / at 1440–1679 px; ls = letter-spacing (p = +, n = −; 05 = 0.05 px, 1 = 0.1 px),
+   pr = padding-right (px) */
+@media only screen and (width <= 576px) {
+  .subpage-tiles.fit-s-pr1 .internal-menu-text p { padding-right: 1px; }
+  .subpage-tiles.fit-s-pr2 .internal-menu-text p { padding-right: 2px; }
+  .subpage-tiles.fit-s-ls-p05 .internal-menu-text p { letter-spacing: 0.05px; }
+  .subpage-tiles.fit-s-ls-p1 .internal-menu-text p { letter-spacing: 0.1px; }
+  .subpage-tiles.fit-s-ls-n05 .internal-menu-text p { letter-spacing: -0.05px; }
+  .subpage-tiles.fit-s-ls-n1 .internal-menu-text p { letter-spacing: -0.1px; }
+  .subpage-tiles.fit-s-ws-p4 .internal-menu-text p { word-spacing: 0.4px; }
+  .subpage-tiles.fit-s-ws-n4 .internal-menu-text p { word-spacing: -0.4px; }
+}
+
+@media only screen and (width >= 1440px) and (width < 1680px) {
+  .subpage-tiles.fit-l-pr1 .internal-menu-text p { padding-right: 1px; }
+  .subpage-tiles.fit-l-pr2 .internal-menu-text p { padding-right: 2px; }
+  .subpage-tiles.fit-l-ls-p05 .internal-menu-text p { letter-spacing: 0.05px; }
+  .subpage-tiles.fit-l-ls-p1 .internal-menu-text p { letter-spacing: 0.1px; }
+  .subpage-tiles.fit-l-ls-n05 .internal-menu-text p { letter-spacing: -0.05px; }
+  .subpage-tiles.fit-l-ls-n1 .internal-menu-text p { letter-spacing: -0.1px; }
+  .subpage-tiles.fit-l-ws-p4 .internal-menu-text p { word-spacing: 0.4px; }
+  .subpage-tiles.fit-l-ws-n4 .internal-menu-text p { word-spacing: -0.4px; }
+}

@@ -1,0 +1,36 @@
+{
+ "url": "https://main--26c59ee1--aemcoder.aem.page/mirror/m5",
+ "at": "2026-11-14T03:44:07.931Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 0,
+  "offPage": 0,
+  "textNodes": 52,
+  "controls": 28,
+  "total": 0
+ },
+ "groups": [],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 121,
+   "horizontal": 0,
+   "offPage": 0,
+   "textNodes": 200,
+   "controls": 41,
+   "total": 0
+  }
+ }
+}

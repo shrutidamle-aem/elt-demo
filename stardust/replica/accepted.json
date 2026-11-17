@@ -1,0 +1,25 @@
+{
+  "accepted": [
+    {
+      "probe": "content-diff",
+      "kind": "MISSING CTA",
+      "text": "Science with the ELT",
+      "root": ".swiper-container-science",
+      "reason": "index (landing): live Swiper loop renders 2 presentational clone slides (data-swiper-slide-index 7 and 0) carrying duplicate CTAs; replica policy (recreation-procedure § Carousels: loop clones carry no text/href) renders the 8 real slides only — every distinct CTA is present"
+    },
+    {
+      "probe": "content-diff",
+      "kind": "MISSING CTA",
+      "text": "Unexpected Discoveries",
+      "root": ".swiper-container-science",
+      "reason": "index (landing): live Swiper loop renders 2 presentational clone slides (data-swiper-slide-index 7 and 0) carrying duplicate CTAs; replica policy (recreation-procedure § Carousels: loop clones carry no text/href) renders the 8 real slides only — every distinct CTA is present"
+    },
+    {
+      "probe": "content-diff",
+      "kind": "MISSING CTA",
+      "text": "Solar System",
+      "root": ".swiper-container-science",
+      "reason": "index (landing): live Swiper loop renders 2 presentational clone slides (data-swiper-slide-index 7 and 0) carrying duplicate CTAs; replica policy (recreation-procedure § Carousels: loop clones carry no text/href) renders the 8 real slides only — every distinct CTA is present"
+    }
+  ]
+}

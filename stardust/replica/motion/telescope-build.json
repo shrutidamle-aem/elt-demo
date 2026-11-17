@@ -1,0 +1,506 @@
+{
+  "url": "http://localhost:8791/telescope-proposed.html",
+  "width": 1440,
+  "headerTimeline": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "widgetSamples": [],
+  "hoverSamples": [
+    {
+      "sel": "a.share-social-media-icons",
+      "changed": [
+        "self.transform"
+      ],
+      "before": {
+        "self": {
+          "transform": "matrix(0.95, 0, 0, 0.95, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.5s"
+        },
+        "subs": [
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "matrix(1.03852, 0, 0, 1.03852, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.5s"
+        },
+        "subs": [
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    },
+    {
+      "sel": "span.share-social-media",
+      "changed": [
+        "self.transform"
+      ],
+      "before": {
+        "self": {
+          "transform": "matrix(0.95, 0, 0, 0.95, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.5s"
+        },
+        "subs": [
+          {
+            "el": "img.share-social-media",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "matrix(1.03852, 0, 0, 1.03852, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.5s"
+        },
+        "subs": [
+          {
+            "el": "img.share-social-media",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    },
+    {
+      "sel": "a.section-badge",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(90, 140, 200)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "span.material-icons",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(90, 140, 200)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "span.material-icons",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    },
+    {
+      "sel": ".card__label a",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": "svg.trapezoid a",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": "#main-navbar .nav-item",
+      "changed": [
+        "self.background",
+        "a.nav-link.transform",
+        "a.nav-link.color",
+        "a.nav-link.transition"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "a.nav-link",
+            "transform": "none",
+            "color": "rgba(255, 255, 255, 0.7)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(35, 41, 50)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "a.nav-link",
+            "transform": "matrix(1.07, 0, 0, 1.07, 0, -4.8)",
+            "color": "rgba(255, 255, 255, 0.9)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "0.25s"
+          }
+        ]
+      }
+    }
+  ],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [],
+    "transitions": [
+      {
+        "prop": "transform",
+        "el": "main.elt-inner > section.container-light.blacklinks.page-section > div.container-paragraph.section-title-paragraph.section-title-paragraph--split > div.share > a.share-social-media-icons",
+        "y": 416,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "main.elt-inner > section.container-light.blacklinks.page-section > div.container-paragraph.section-title-paragraph.section-title-paragraph--split > div.share > a.share-social-media-icons",
+        "y": 416,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "section.container-light.blacklinks.page-section > div.container-paragraph.section-title-paragraph.section-title-paragraph--split > div.share > span.share-menu > span.share-social-media.share-social-media-icons",
+        "y": 416,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "section.container-light.blacklinks.page-section > div.container-paragraph.section-title-paragraph.section-title-paragraph--split > div.share > span.share-menu > div.share-social-media-dropdown",
+        "y": 416,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "section.container-light.blacklinks.page-section > div.container-paragraph.section-title-paragraph.section-title-paragraph--split > div.share > span.share-menu > span.share-social-media.share-social-media-icons",
+        "y": 1022,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "section.container-light.blacklinks.page-section > div.container-paragraph.section-title-paragraph.section-title-paragraph--split > div.share > span.share-menu > div.share-social-media-dropdown",
+        "y": 1022,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item > a.nav-link",
+        "y": 410,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "color",
+        "el": "nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item > a.nav-link",
+        "y": 410,
+        "dur": "0.25s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-inner > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-inner > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-inner > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-inner > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-inner > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-inner > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-inner > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-inner > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "top-aligned"
+        ],
+        "el": "ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top > div.dropdown-menu > div.dropdown-submenu > div.dropdown-menu.top-aligned",
+        "y": 400
+      },
+      {
+        "added": [
+          "top-aligned"
+        ],
+        "el": "ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top > div.dropdown-menu > div.dropdown-submenu > div.dropdown-menu.top-aligned",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "main.elt-inner > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "main.elt-inner > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "main.elt-inner > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "main.elt-inner > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "bottom-aligned"
+        ],
+        "el": "ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top > div.dropdown-menu > div.dropdown-submenu > div.dropdown-menu.bottom-aligned",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-inner > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 416
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-inner > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 416
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-inner > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 416
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-inner > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 416
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-inner > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 416
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-inner > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 416
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-inner > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 416
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-inner > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 416
+      },
+      {
+        "added": [
+          "top-aligned"
+        ],
+        "el": "ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top > div.dropdown-menu > div.dropdown-submenu > div.dropdown-menu.top-aligned",
+        "y": 416
+      },
+      {
+        "added": [
+          "top-aligned"
+        ],
+        "el": "ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top > div.dropdown-menu > div.dropdown-submenu > div.dropdown-menu.top-aligned",
+        "y": 416
+      }
+    ]
+  }
+}

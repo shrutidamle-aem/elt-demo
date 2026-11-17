@@ -1,0 +1,290 @@
+{
+ "source": "file:///workspace/26c59ee1/stardust/prototypes/telescope-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "container-light",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Dome and Main Structure"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Share on Facebook",
+     "href": "https://www.facebook.com/sharer/sharer.php?u=https://elt.eso.org/telescope/"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "E-Mail",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Copy Link",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Share on LinkedIn",
+     "href": "https://www.linkedin.com/sharing/share-offsite/?url=https://elt.eso.org/telescope/"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Read More",
+     "href": "/telescope/dome/"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Dome",
+     "href": "/telescope/dome/"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Read More",
+     "href": "/telescope/structure/"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Main Structure",
+     "href": "/telescope/structure/"
+    }
+   ],
+   "imgCount": 8,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "DIV.container-paragraph",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 6,
+      "textRuns": 5
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "container-light",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "The giant ELT dome will house the telescope and its interior structure, providing protection from the extreme environment of Chile’s Atacama Desert. The main structure of the telescope will hold its five mirrors and optics, including the enormous 39-metre primary mirror."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "container-light",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Mirrors and Optical Design"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "keyboard_arrow_right",
+     "href": "/mirror/"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Read More",
+     "href": "/mirror/M1/"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "M1 Mirror",
+     "href": "/mirror/M1/"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Read More",
+     "href": "/mirror/M2M3/"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "M2 and M3 Mirrors",
+     "href": "/mirror/M2M3/"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Read More",
+     "href": "/mirror/M4/"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "M4 Mirror",
+     "href": "/mirror/M4/"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Read More",
+     "href": "/mirror/M5/"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "M5 Mirror",
+     "href": "/mirror/M5/"
+    }
+   ],
+   "imgCount": 4,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "DIV.container-paragraph",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "container-light",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "The ELT will have a pioneering five-mirror optical design that will allow it to unveil the Universe in unprecedented detail. The mirrors – M1, M2, M3, M4 and M5 – all have different shapes, sizes and roles but will work together seamlessly to deliver observations with more clarity than ever before."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "container-light",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Telescope Systems"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Read More",
+     "href": "/telescope/adaptiveoptics/"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Adaptive Optics",
+     "href": "/telescope/adaptiveoptics/"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Read More",
+     "href": "/telescope/controls/"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Controls",
+     "href": "/telescope/controls/"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Read More",
+     "href": "/telescope/prefocal/"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Prefocal Station",
+     "href": "/telescope/prefocal/"
+    }
+   ],
+   "imgCount": 3,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "DIV.container-paragraph",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "container-light",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "The ELT will employ sophisticated 'adaptive optics' technologies to compensate for the turbulence of the Earth’s atmosphere and to ensure its images are sharper than those of any other telescope. It will also have other components such as a prefocal station that works as the link between the telescope and its instruments. Finally, it will have a modern control system to allow the user to operate the telescope for science observations and maintenance activities."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "container-light",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Operations"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Read More",
+     "href": "/telescope/operations/"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "DIV.container-paragraph",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  }
+ ]
+}

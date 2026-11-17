@@ -1,0 +1,56 @@
+{
+  "/instrument/harmoni": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-13T19:43:29.143Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/instrument/andes": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-13T21:29:32.607Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/instrument/metis": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-13T18:52:23.456Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/instrument/micado": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-13T18:52:30.903Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/instrument/morfeo": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-13T18:52:38.286Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/instrument/mosaic": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-13T18:17:29.265Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

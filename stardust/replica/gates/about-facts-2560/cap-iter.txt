@@ -1,0 +1,12 @@
+cap-probe  base 1440 → probe 2560 (from DESIGN.json)
+live   https://elt.eso.org/about/facts/
+  modules  2 sections: capped 550 ×1 · full-bleed ×1
+  contentMaxWidth 550px (module) · shellMaxWidth fluid · root #big-header
+build  http://localhost:8791/about-facts-proposed.html
+  modules  2 sections: capped 550 ×1 · full-bleed ×1
+  contentMaxWidth 550px (module) · shellMaxWidth fluid · root #big-header
+rows
+  ✓ content cap: live 550px = build 550px (±20, shared module cap)
+  ✓ module 1/2: 550px = 550px
+  ✓ module 2/2: full-bleed on both
+cap-probe: PASS at 2560 — 0 of 3 rows failed (evidence stardust/replica/gates/about-facts-2560/cap-iter.json)

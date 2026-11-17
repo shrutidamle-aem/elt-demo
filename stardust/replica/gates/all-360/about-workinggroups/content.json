@@ -1,0 +1,11231 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-14T02:45:19.932Z",
+  "width": 360,
+  "variable": [
+   ".privacy-notice",
+   ".privacy-settings"
+  ],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://elt.eso.org/about/workinggroups/",
+  "at": "2026-11-14T02:44:43.977Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 17676,
+  "root": "img.big-header-image.d-block",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "span.navbar-brand.ml-xl-5 > div.d-block > a",
+    "x": 4,
+    "y": 11,
+    "w": 38,
+    "h": 24,
+    "text": "",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.d-block > a > img.navbar-eso-logo",
+    "x": 4,
+    "y": 0,
+    "w": 38,
+    "h": 50,
+    "text": "",
+    "file": "eso_logo"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.navbar-brand.p-0 > div.nav-item_.menu-item_ > a",
+    "x": 55,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on facebook",
+    "href": "/ESOAstronomy"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.nav-item_.menu-item_ > a > img.desktop-top-sm-element",
+    "x": 55,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on facebook",
+    "file": "icon_topbar_mobile_1"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.navbar-brand.p-0 > div.nav-item_.menu-item_ > a",
+    "x": 105,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on instagram",
+    "href": "/esoastronomy/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.nav-item_.menu-item_ > a > img.desktop-top-sm-element",
+    "x": 105,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on instagram",
+    "file": "icon_topbar_mobile_3"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.navbar-brand.p-0 > div.nav-item_.menu-item_ > a",
+    "x": 155,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on linkedin",
+    "href": "/company/european-southern-observatory"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.nav-item_.menu-item_ > a > img.desktop-top-sm-element",
+    "x": 155,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on linkedin",
+    "file": "icon_topbar_mobile_4"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.navbar-brand.p-0 > div.nav-item_.menu-item_ > a",
+    "x": 205,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on youtube",
+    "href": "/channel/UCIhYoC2VIAJqCkoIWNHBQ3Q"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.nav-item_.menu-item_ > a > img.desktop-top-sm-element",
+    "x": 205,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on youtube",
+    "file": "icon_topbar_mobile_5"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav#top-navbar > span.lang-links > a.lang-link.link-en",
+    "x": 246,
+    "y": 17,
+    "w": 14,
+    "h": 15,
+    "text": "en",
+    "href": "/about/workinggroups/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav#top-navbar > span.lang-links > a.lang-link.link-cl",
+    "x": 269,
+    "y": 17,
+    "w": 13,
+    "h": 15,
+    "text": "es",
+    "href": "/about/workinggroups/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav#top-navbar > button.navbar-toggler",
+    "x": 300,
+    "y": 5,
+    "w": 56,
+    "h": 40,
+    "text": "toggle navigation"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav#top-navbar > button.navbar-toggler",
+    "x": 300,
+    "y": 5,
+    "w": 56,
+    "h": 40,
+    "label": "toggle navigation",
+    "value": "toggle navigation",
+    "via": "trigger"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "img.big-header-image.d-block",
+    "x": 0,
+    "y": 50,
+    "w": 360,
+    "h": 169,
+    "text": "",
+    "file": "header-frontpage"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#big-header > div.position-absolute.big-header-logos > img.big-header-eso-logo",
+    "x": 38,
+    "y": 58,
+    "w": 30,
+    "h": 39,
+    "text": "",
+    "file": "eso_logo_transparent"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#big-header > div.position-absolute.big-header-logos > p.esologo-text",
+    "x": 38,
+    "y": 103,
+    "w": 180,
+    "h": 23,
+    "text": "European Southern Observatory"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#big-header > div.position-absolute.big-header-title",
+    "x": 38,
+    "y": 105,
+    "w": 284,
+    "h": 90,
+    "text": "| Working Groups"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#about-workinggroups > div.container-paragraph.section-text-paragraph > p",
+    "x": 38,
+    "y": 254,
+    "w": 284,
+    "h": 303,
+    "text": "In September 2019, the ELT Programme Scientist at ESO initiated the formation of"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#about-workinggroups > div.container-paragraph.section-text-paragraph > p",
+    "x": 38,
+    "y": 573,
+    "w": 284,
+    "h": 384,
+    "text": "Currently there are 13 active WGs, each with its own coordinator(s) and with mor"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-paragraph.section-text-paragraph > p > a",
+    "x": 38,
+    "y": 878,
+    "w": 183,
+    "h": 46,
+    "text": "paolo padovani,",
+    "href": "ppadovan@eso.org"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-paragraph.section-text-paragraph > p > a",
+    "x": 110,
+    "y": 905,
+    "w": 121,
+    "h": 19,
+    "text": "michele cirasuolo",
+    "href": "mciras@eso.org"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-paragraph.section-text-paragraph > p > a",
+    "x": 38,
+    "y": 905,
+    "w": 257,
+    "h": 46,
+    "text": "joël vernet",
+    "href": "jvernet@eso.org"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#about-workinggroups > div.container-paragraph.section-text-paragraph > p",
+    "x": 38,
+    "y": 974,
+    "w": 284,
+    "h": 114,
+    "text": "The diagram below shows how the different ELT WGs are closely connected, where t"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.col-lg-12.p-0 > a.d-flex.align-items-center > img",
+    "x": 66,
+    "y": 1107,
+    "w": 228,
+    "h": 82,
+    "text": "",
+    "file": "about-workinggroups-banner1"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.row.w-100 > div.col-lg-12.p-0 > a.position-absolute.d-block",
+    "x": 73,
+    "y": 1115,
+    "w": 52,
+    "h": 10,
+    "text": "",
+    "href": "/about/workinggroups/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.row.w-100 > div.col-lg-12.p-0 > a.position-absolute.d-block",
+    "x": 72,
+    "y": 1134,
+    "w": 52,
+    "h": 15,
+    "text": "",
+    "href": "/about/workinggroups/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.row.w-100 > div.col-lg-12.p-0 > a.position-absolute.d-block",
+    "x": 72,
+    "y": 1158,
+    "w": 52,
+    "h": 9,
+    "text": "",
+    "href": "/about/workinggroups/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.row.w-100 > div.col-lg-12.p-0 > a.position-absolute.d-block",
+    "x": 72,
+    "y": 1177,
+    "w": 52,
+    "h": 9,
+    "text": "",
+    "href": "/about/workinggroups/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.row.w-100 > div.col-lg-12.p-0 > a.position-absolute.d-block",
+    "x": 136,
+    "y": 1115,
+    "w": 52,
+    "h": 10,
+    "text": "",
+    "href": "/about/workinggroups/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.row.w-100 > div.col-lg-12.p-0 > a.position-absolute.d-block",
+    "x": 136,
+    "y": 1134,
+    "w": 52,
+    "h": 15,
+    "text": "",
+    "href": "/about/workinggroups/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.row.w-100 > div.col-lg-12.p-0 > a.position-absolute.d-block",
+    "x": 136,
+    "y": 1158,
+    "w": 52,
+    "h": 9,
+    "text": "",
+    "href": "/about/workinggroups/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.row.w-100 > div.col-lg-12.p-0 > a.position-absolute.d-block",
+    "x": 136,
+    "y": 1177,
+    "w": 52,
+    "h": 9,
+    "text": "",
+    "href": "/about/workinggroups/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.row.w-100 > div.col-lg-12.p-0 > a.position-absolute.d-block",
+    "x": 219,
+    "y": 1115,
+    "w": 54,
+    "h": 16,
+    "text": "",
+    "href": "/about/workinggroups/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.row.w-100 > div.col-lg-12.p-0 > a.position-absolute.d-block",
+    "x": 203,
+    "y": 1136,
+    "w": 47,
+    "h": 10,
+    "text": "",
+    "href": "/about/workinggroups/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.row.w-100 > div.col-lg-12.p-0 > a.position-absolute.d-block",
+    "x": 255,
+    "y": 1151,
+    "w": 36,
+    "h": 10,
+    "text": "",
+    "href": "/about/workinggroups/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.row.w-100 > div.col-lg-12.p-0 > a.position-absolute.d-block",
+    "x": 214,
+    "y": 1164,
+    "w": 53,
+    "h": 10,
+    "text": "",
+    "href": "/about/workinggroups/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.row.w-100 > div.col-lg-12.p-0 > a.position-absolute.d-block",
+    "x": 200,
+    "y": 1177,
+    "w": 35,
+    "h": 9,
+    "text": "",
+    "href": "/about/workinggroups/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.row.w-100 > div.col-lg-12.p-0 > a.position-absolute.d-block",
+    "x": 239,
+    "y": 1177,
+    "w": 46,
+    "h": 9,
+    "text": "",
+    "href": "/about/workinggroups/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-title > span.section-title-paragraph > p",
+    "x": 38,
+    "y": 1193,
+    "w": 284,
+    "h": 51,
+    "text": "Guide/AO stars"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#about-workinggroups > div.container-paragraph.section-text-paragraph > p",
+    "x": 38,
+    "y": 1264,
+    "w": 284,
+    "h": 546,
+    "text": "The ELT will be able to steer to any new target with a pointing uncertainty of a"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.row.w-100 > div.col-lg-12.p-0 > a.d-flex.align-items-center",
+    "x": 0,
+    "y": 1829,
+    "w": 360,
+    "h": 105,
+    "text": "",
+    "href": "/public/images/potw1419a/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.col-lg-12.p-0 > a.d-flex.align-items-center > img",
+    "x": 0,
+    "y": 1829,
+    "w": 360,
+    "h": 105,
+    "text": "",
+    "file": "about-workinggroups-banner2"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#about-workinggroups > div.container-paragraph.section-text-paragraph > p",
+    "x": 38,
+    "y": 1940,
+    "w": 284,
+    "h": 438,
+    "text": "The purpose of this WG is to construct reliable star catalogues that can serve b"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#about-workinggroups > div.container-paragraph.section-text-paragraph > p",
+    "x": 38,
+    "y": 2395,
+    "w": 284,
+    "h": 33,
+    "text": "Giacomo Beccari (ESO)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-title > span.section-title-paragraph > p",
+    "x": 38,
+    "y": 2447,
+    "w": 284,
+    "h": 78,
+    "text": "Simulated PSF and AO performance"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#about-workinggroups > div.container-paragraph.section-text-paragraph > p",
+    "x": 38,
+    "y": 2545,
+    "w": 284,
+    "h": 357,
+    "text": "How well the ELT can correct for the blurring effect by the Earth’s atmosphere d"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.row.w-100 > div.col-lg-12.p-0 > a.d-flex.align-items-center",
+    "x": 0,
+    "y": 2921,
+    "w": 360,
+    "h": 105,
+    "text": "",
+    "href": "/public/images/ELT4k-9-Night1_cc/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.col-lg-12.p-0 > a.d-flex.align-items-center > img",
+    "x": 0,
+    "y": 2921,
+    "w": 360,
+    "h": 105,
+    "text": "",
+    "file": "about-workinggroups-banner3"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#about-workinggroups > div.container-paragraph.section-text-paragraph > p",
+    "x": 38,
+    "y": 3033,
+    "w": 284,
+    "h": 465,
+    "text": "This WG defines an algorithm to inform the user which stars are optimal to use f"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#about-workinggroups > div.container-paragraph.section-text-paragraph > p",
+    "x": 38,
+    "y": 3514,
+    "w": 284,
+    "h": 141,
+    "text": "Benoit Neichel (Laboratoire d’Astrophysique de Marseille) Guido Agapito, Olivier"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-title > span.section-title-paragraph > p",
+    "x": 38,
+    "y": 3675,
+    "w": 284,
+    "h": 105,
+    "text": "Instrument Simulations and Exposure Time Calculator"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.d-flex.d-lg-none > div > a",
+    "x": 38,
+    "y": 3796,
+    "w": 284,
+    "h": 284,
+    "text": "",
+    "href": "/public/images/about-workinggroups-image1/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div > a > img.w-100.d-block",
+    "x": 38,
+    "y": 3796,
+    "w": 284,
+    "h": 284,
+    "text": "",
+    "file": "about-workinggroups-image1"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-paragraph.float-text > span > p",
+    "x": 38,
+    "y": 4096,
+    "w": 284,
+    "h": 381,
+    "text": "Since exposure time at the ELT will be so valuable to the community, it is essen"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-paragraph.float-text > span > p",
+    "x": 38,
+    "y": 4493,
+    "w": 284,
+    "h": 543,
+    "text": "The data image simulator will be able to run with different levels of “abstracti"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-paragraph.float-text > span > p",
+    "x": 38,
+    "y": 5052,
+    "w": 284,
+    "h": 138,
+    "text": "Kieran Leschinski (Universität Wien) Myriam Rodrigues, Miguel Pereira Santaella,"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-title > span.section-title-paragraph > p",
+    "x": 38,
+    "y": 5207,
+    "w": 284,
+    "h": 78,
+    "text": "Detector characterisation"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#about-workinggroups > div.container-paragraph.section-text-paragraph > p",
+    "x": 38,
+    "y": 5304,
+    "w": 284,
+    "h": 492,
+    "text": "To be able to optimally observe with the ELT, several dozen highly sensitive det"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.row.w-100 > div.col-lg-12.p-0 > a.d-flex.align-items-center",
+    "x": 0,
+    "y": 5815,
+    "w": 360,
+    "h": 105,
+    "text": "",
+    "href": "/public/images/ann18048a/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.col-lg-12.p-0 > a.d-flex.align-items-center > img",
+    "x": 0,
+    "y": 5815,
+    "w": 360,
+    "h": 105,
+    "text": "",
+    "file": "about-workinggroups-banner4"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#about-workinggroups > div.container-paragraph.section-text-paragraph > p",
+    "x": 38,
+    "y": 5927,
+    "w": 284,
+    "h": 519,
+    "text": "The main goal of this WG is to understand to what level of accuracy these effect"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#about-workinggroups > div.container-paragraph.section-text-paragraph > p",
+    "x": 38,
+    "y": 6462,
+    "w": 284,
+    "h": 168,
+    "text": "Elizabeth George (ESO) Mark Neeser (ESO) Benoît Serra (ESO)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-title > span.section-title-paragraph > p",
+    "x": 38,
+    "y": 6650,
+    "w": 284,
+    "h": 51,
+    "text": "Line calibrations"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#about-workinggroups > div.container-paragraph.section-text-paragraph > p",
+    "x": 38,
+    "y": 6720,
+    "w": 284,
+    "h": 438,
+    "text": "Several extensions and alternatives to the Standard Model of particle physics ha"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.row.w-100 > div.col-lg-12.p-0 > a.d-flex.align-items-center",
+    "x": 0,
+    "y": 7177,
+    "w": 360,
+    "h": 105,
+    "text": "",
+    "href": "/public/images/eso0920a/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.col-lg-12.p-0 > a.d-flex.align-items-center > img",
+    "x": 0,
+    "y": 7177,
+    "w": 360,
+    "h": 105,
+    "text": "",
+    "file": "about-workinggroups-banner5"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#about-workinggroups > div.container-paragraph.section-text-paragraph > p",
+    "x": 38,
+    "y": 7289,
+    "w": 284,
+    "h": 303,
+    "text": "However, accurate knowledge on the rest-frame wavelengths of certain atomic spec"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#about-workinggroups > div.container-paragraph.section-text-paragraph > p",
+    "x": 38,
+    "y": 7608,
+    "w": 284,
+    "h": 276,
+    "text": "This WG will review and assess the current status quo of this field, and identif"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#about-workinggroups > div.container-paragraph.section-text-paragraph > p",
+    "x": 38,
+    "y": 7901,
+    "w": 284,
+    "h": 141,
+    "text": "Carlos Martins (CAUP, Porto) Teruca Belmonte, Joe Liske, Dinko Milaković, Michae"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-title > span.section-title-paragraph > p",
+    "x": 38,
+    "y": 8061,
+    "w": 284,
+    "h": 51,
+    "text": "Astro-weather"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.d-flex.d-lg-none > div > a",
+    "x": 38,
+    "y": 8128,
+    "w": 284,
+    "h": 432,
+    "text": "",
+    "href": "/public/images/img_4773-potw/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div > a > img.w-100.d-block",
+    "x": 38,
+    "y": 8128,
+    "w": 284,
+    "h": 432,
+    "text": "",
+    "file": "img_4773-potw"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-paragraph.float-text > span > p",
+    "x": 38,
+    "y": 8576,
+    "w": 284,
+    "h": 408,
+    "text": "An accurate measurement of the current and upcoming weather and atmospheric cond"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-paragraph.float-text > span > p",
+    "x": 38,
+    "y": 9000,
+    "w": 284,
+    "h": 462,
+    "text": "The goal of this WG is to gather the requirements from the telescope and the dif"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-paragraph.float-text > span > p",
+    "x": 38,
+    "y": 9479,
+    "w": 284,
+    "h": 165,
+    "text": "Julien Milli (Institut de Planétologie et d'Astrophysique de Grenoble), Angel Ot"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-title > span.section-title-paragraph > p",
+    "x": 38,
+    "y": 9660,
+    "w": 284,
+    "h": 51,
+    "text": "Telluric correction"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#about-workinggroups > div.container-paragraph.section-text-paragraph > p",
+    "x": 38,
+    "y": 9730,
+    "w": 284,
+    "h": 519,
+    "text": "Several molecules, such as water, oxygen and ozone, are abundant in the Earth at"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.row.w-100 > div.col-lg-12.p-0 > a.d-flex.align-items-center",
+    "x": 0,
+    "y": 10269,
+    "w": 360,
+    "h": 105,
+    "text": "",
+    "href": "/public/images/potw1147a/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.col-lg-12.p-0 > a.d-flex.align-items-center > img",
+    "x": 0,
+    "y": 10269,
+    "w": 360,
+    "h": 105,
+    "text": "",
+    "file": "about-workinggroups-banner6"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#about-workinggroups > div.container-paragraph.section-text-paragraph > p",
+    "x": 38,
+    "y": 10380,
+    "w": 284,
+    "h": 519,
+    "text": "This WG will study how an accurate telluric correction can be accomplished by co"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#about-workinggroups > div.container-paragraph.section-text-paragraph > p",
+    "x": 38,
+    "y": 10915,
+    "w": 284,
+    "h": 33,
+    "text": "Alain Smette (ESO)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-title > span.section-title-paragraph > p",
+    "x": 38,
+    "y": 10968,
+    "w": 284,
+    "h": 51,
+    "text": "PSF reconstruction"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.d-flex.d-lg-none > div > a",
+    "x": 38,
+    "y": 11035,
+    "w": 284,
+    "h": 284,
+    "text": "",
+    "href": "/public/images/eso1002e/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div > a > img.w-100.d-block",
+    "x": 38,
+    "y": 11035,
+    "w": 284,
+    "h": 284,
+    "text": "",
+    "file": "eso1002e"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-paragraph.float-text > span > p",
+    "x": 38,
+    "y": 11335,
+    "w": 284,
+    "h": 435,
+    "text": "Continuous and accurate knowledge of the varying PSF, that is, the smearing by t"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-paragraph.float-text > span > p",
+    "x": 38,
+    "y": 11787,
+    "w": 284,
+    "h": 381,
+    "text": "Since several tools already exist that may help reach the requirements of the PS"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-paragraph.float-text > span > p",
+    "x": 38,
+    "y": 12184,
+    "w": 284,
+    "h": 57,
+    "text": "Arseniy Kuznetsov and Joël Vernet (ESO)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-title > span.section-title-paragraph > p",
+    "x": 38,
+    "y": 12257,
+    "w": 284,
+    "h": 51,
+    "text": "Sky subtraction"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#about-workinggroups > div.container-paragraph.section-text-paragraph > p",
+    "x": 38,
+    "y": 12327,
+    "w": 284,
+    "h": 357,
+    "text": "Ground-based astronomical observations suffer from different contributions of sk"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.row.w-100 > div.col-lg-12.p-0 > a.d-flex.align-items-center",
+    "x": 0,
+    "y": 12704,
+    "w": 360,
+    "h": 105,
+    "text": "",
+    "href": "/public/images/potw1426a/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.col-lg-12.p-0 > a.d-flex.align-items-center > img",
+    "x": 0,
+    "y": 12704,
+    "w": 360,
+    "h": 105,
+    "text": "",
+    "file": "about-workinggroups-banner7"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#about-workinggroups > div.container-paragraph.section-text-paragraph > p",
+    "x": 38,
+    "y": 12815,
+    "w": 284,
+    "h": 438,
+    "text": "At wavelengths from the near-ultraviolet to the near-infrared, the high atmosphe"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#about-workinggroups > div.container-paragraph.section-text-paragraph > p",
+    "x": 38,
+    "y": 13270,
+    "w": 284,
+    "h": 465,
+    "text": "This WG aims at cataloguing these faint new sky lines and to characterise their "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#about-workinggroups > div.container-paragraph.section-text-paragraph > p",
+    "x": 38,
+    "y": 13751,
+    "w": 284,
+    "h": 114,
+    "text": "Rubén Sánchez-Janssen (STFC UK Astronomy Technology Centre), Elena Valenti (ESO)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-title > span.section-title-paragraph > p",
+    "x": 38,
+    "y": 13885,
+    "w": 284,
+    "h": 78,
+    "text": "Spectro-photometric standards"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#about-workinggroups > div.container-paragraph.section-text-paragraph > p",
+    "x": 38,
+    "y": 13982,
+    "w": 284,
+    "h": 492,
+    "text": "The ELT and its instruments will rely on a set of extremely well-characterised s"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.row.w-100 > div.col-lg-12.p-0 > a.d-flex.align-items-center",
+    "x": 0,
+    "y": 14493,
+    "w": 360,
+    "h": 105,
+    "text": "",
+    "href": "/public/images/eso1241e/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.col-lg-12.p-0 > a.d-flex.align-items-center > img",
+    "x": 0,
+    "y": 14493,
+    "w": 360,
+    "h": 105,
+    "text": "",
+    "file": "about-workinggroups-banner8"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#about-workinggroups > div.container-paragraph.section-text-paragraph > p",
+    "x": 38,
+    "y": 14605,
+    "w": 284,
+    "h": 465,
+    "text": "In close contact with the instrument consortia, this WG aims to first make an in"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#about-workinggroups > div.container-paragraph.section-text-paragraph > p",
+    "x": 38,
+    "y": 15086,
+    "w": 284,
+    "h": 114,
+    "text": "Sabine Möhler (ESO) Leo Burtscher, Wolfgang Kausch, Miguel Pereira Santaella"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-title > span.section-title-paragraph > p",
+    "x": 38,
+    "y": 15220,
+    "w": 284,
+    "h": 51,
+    "text": "High-contrast imaging"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.d-flex.d-lg-none > div > a",
+    "x": 38,
+    "y": 15287,
+    "w": 284,
+    "h": 198,
+    "text": "",
+    "href": "/public/images/eso2118a/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div > a > img.w-100.d-block",
+    "x": 38,
+    "y": 15287,
+    "w": 284,
+    "h": 198,
+    "text": "",
+    "file": "eso2118a"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-paragraph.float-text > span > p",
+    "x": 38,
+    "y": 15501,
+    "w": 284,
+    "h": 462,
+    "text": "Each of the planned first light ELT instruments (HARMONI, METIS and MICADO) will"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-paragraph.float-text > span > p",
+    "x": 38,
+    "y": 15979,
+    "w": 284,
+    "h": 84,
+    "text": "Faustine Cantalloube (LAM, Marseille), Markus Kasper (ESO), Christophe Verinaud "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-title > span.section-title-paragraph > p",
+    "x": 38,
+    "y": 16126,
+    "w": 284,
+    "h": 132,
+    "text": "ASPEX: Advanced Signal Processing for EXoplanet Spectroscopy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.d-flex.d-lg-none > div > a",
+    "x": 38,
+    "y": 16274,
+    "w": 284,
+    "h": 163,
+    "text": "",
+    "href": "/public/images/eso1706a/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div > a > img.w-100.d-block",
+    "x": 38,
+    "y": 16274,
+    "w": 284,
+    "h": 163,
+    "text": "",
+    "file": "eso1706a"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-paragraph.float-text > span > p",
+    "x": 38,
+    "y": 16452,
+    "w": 284,
+    "h": 273,
+    "text": "High-resolution spectroscopy with the ELT will open an unprecedented window into"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-paragraph.float-text > span > p",
+    "x": 38,
+    "y": 16742,
+    "w": 284,
+    "h": 354,
+    "text": "This Working Group aims to develop and test next-generation methods for disentan"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-paragraph.float-text > span > p",
+    "x": 38,
+    "y": 17112,
+    "w": 284,
+    "h": 273,
+    "text": "The outcomes will directly support ANDES and other ELT instruments science goals"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-paragraph.float-text > span > p",
+    "x": 38,
+    "y": 17401,
+    "w": 284,
+    "h": 138,
+    "text": "Julia V. Seidel (OCA, Nice), Luke Parker (Oxford), Connor Cheverall (UDP), Andre"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "footer.container-fluid.container-footer > div.row.d-flex > div.col-12.col-lg-3",
+    "x": -15,
+    "y": 17571,
+    "w": 360,
+    "h": 34,
+    "text": "| ELT ©"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.row.d-flex > div.col-12.col-lg-3 > a",
+    "x": 119,
+    "y": 17571,
+    "w": 24,
+    "h": 18,
+    "text": "eso",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.row.d-flex > div.col-12.col-lg-9 > div.text-center",
+    "x": 0,
+    "y": 17606,
+    "w": 330,
+    "h": 55,
+    "text": "| | | | |"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-lg-9 > div.text-center > a.w-100",
+    "x": 23,
+    "y": 17607,
+    "w": 41,
+    "h": 15,
+    "text": "credits",
+    "href": "/credits/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-lg-9 > div.text-center > a.w-100",
+    "x": 83,
+    "y": 17607,
+    "w": 61,
+    "h": 15,
+    "text": "contact us",
+    "href": "information@eso.org"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-lg-9 > div.text-center > a.w-100",
+    "x": 163,
+    "y": 17607,
+    "w": 128,
+    "h": 15,
+    "text": "subscribe to eso news",
+    "href": "/public/outreach/newsletters/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-lg-9 > div.text-center > a.w-100",
+    "x": 13,
+    "y": 17625,
+    "w": 123,
+    "h": 15,
+    "text": "accelerated by cdn77",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-lg-9 > div.text-center > a.w-100",
+    "x": 156,
+    "y": 17625,
+    "w": 105,
+    "h": 15,
+    "text": "terms & conditions",
+    "href": "/public/about-eso/privacy/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-lg-9 > div.text-center > a.w-100",
+    "x": 115,
+    "y": 17625,
+    "w": 202,
+    "h": 33,
+    "text": "cookie settings and policy",
+    "href": "/about/workinggroups/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-notice > h1",
+    "x": 16,
+    "y": 1192,
+    "w": 328,
+    "h": 96,
+    "level": 1,
+    "text": "our use of cookies"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-container.centered-container > div.privacy-text-element > p",
+    "x": 16,
+    "y": 1296,
+    "w": 328,
+    "h": 168,
+    "text": "We use cookies that are essential for accessing our websites and using our servi"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-notice > div.privacy-container.centered-container > div.privacy-text-element",
+    "x": 16,
+    "y": 1496,
+    "w": 328,
+    "h": 72,
+    "text": "You can manage your cookie preferences and find out more by visiting 'Cookie Set"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-notice > div.centered-container > button.privacy-button.accept-all",
+    "x": 129,
+    "y": 1584,
+    "w": 101,
+    "h": 40,
+    "text": "accept all"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-notice > div.centered-container > button.privacy-button.reject-all",
+    "x": 59,
+    "y": 1656,
+    "w": 242,
+    "h": 40,
+    "text": "accept only essential cookies"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-notice > div.centered-container > button.privacy-button.settings",
+    "x": 72,
+    "y": 1728,
+    "w": 216,
+    "h": 40,
+    "text": "cookie settings and policy"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > h1",
+    "x": 32,
+    "y": 1006,
+    "w": 296,
+    "h": 96,
+    "level": 1,
+    "text": "eso cookies policy"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 1134,
+    "w": 296,
+    "h": 216,
+    "text": "The European Organisation for Astronomical Research in the Southern Hemisphere ("
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 1366,
+    "w": 296,
+    "h": 144,
+    "text": "This Cookies Policy is intended to provide clarity by outlining the cookies used"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > h2",
+    "x": 32,
+    "y": 1526,
+    "w": 296,
+    "h": 38,
+    "level": 2,
+    "text": "what are cookies?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 1572,
+    "w": 296,
+    "h": 144,
+    "text": "Cookies are small pieces of data stored on your device by websites you visit. Th"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > h2",
+    "x": 32,
+    "y": 1732,
+    "w": 296,
+    "h": 77,
+    "level": 2,
+    "text": "categories of cookies we use"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 1817,
+    "w": 296,
+    "h": 216,
+    "text": ": These cookies are strictly necessary for the proper functioning of our website"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 32,
+    "y": 2049,
+    "w": 197,
+    "h": 88,
+    "text": "Cookie ID/Name"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 229,
+    "y": 2049,
+    "w": 281,
+    "h": 88,
+    "text": "Description/Purpose"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 32,
+    "y": 2137,
+    "w": 197,
+    "h": 88,
+    "text": "csrftoken"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 229,
+    "y": 2137,
+    "w": 281,
+    "h": 88,
+    "text": "XSRF protection token. We use this cookie to protect against cross-site request "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 32,
+    "y": 2225,
+    "w": 197,
+    "h": 88,
+    "text": "user_privacy"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 229,
+    "y": 2225,
+    "w": 281,
+    "h": 88,
+    "text": "Your privacy choices. We use this cookie to save your privacy preferences."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 2329,
+    "w": 296,
+    "h": 216,
+    "text": ": These cookies enhance your browsing experience by enabling additional features"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row-choice.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 32,
+    "y": 2561,
+    "w": 170,
+    "h": 136,
+    "text": "Cookie ID/Name"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row-choice.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 202,
+    "y": 2561,
+    "w": 243,
+    "h": 136,
+    "text": "Description/Purpose"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row-choice > div.cookies-table-cell",
+    "x": 32,
+    "y": 2697,
+    "w": 170,
+    "h": 88,
+    "text": "preferred_language"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row-choice > div.cookies-table-cell",
+    "x": 202,
+    "y": 2697,
+    "w": 243,
+    "h": 88,
+    "text": "Language settings. We use this cookie to remember your preferred language settin"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 2801,
+    "w": 296,
+    "h": 240,
+    "text": ": These cookies collect information about how visitors interact with our website"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p > span",
+    "x": 64,
+    "y": 3059,
+    "w": 126,
+    "h": 19,
+    "text": "Matomo Cookies"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 3097,
+    "w": 296,
+    "h": 360,
+    "text": "This website uses Matomo (formerly Piwik), an open source software which enables"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 3473,
+    "w": 296,
+    "h": 144,
+    "text": "On behalf of ESO, Matomo will use this information for the purpose of evaluating"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > div.privacy-setting-toggle.privacy-matomo > span.privacy-option.privacy-option-off",
+    "x": 269,
+    "y": 3636,
+    "w": 39,
+    "h": 21,
+    "text": "OFF"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 3633,
+    "w": 296,
+    "h": 24,
+    "text": "Matomo cookies settings:"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 32,
+    "y": 3673,
+    "w": 197,
+    "h": 88,
+    "text": "Cookie ID/Name"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 229,
+    "y": 3673,
+    "w": 281,
+    "h": 88,
+    "text": "Description/Purpose"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 32,
+    "y": 3761,
+    "w": 197,
+    "h": 40,
+    "text": "Settings"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 32,
+    "y": 3801,
+    "w": 197,
+    "h": 40,
+    "text": "_pk_id"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 229,
+    "y": 3801,
+    "w": 281,
+    "h": 40,
+    "text": "Stores a unique visitor ID."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 32,
+    "y": 3841,
+    "w": 197,
+    "h": 64,
+    "text": "_pk_ses"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 229,
+    "y": 3841,
+    "w": 281,
+    "h": 64,
+    "text": "Session cookie temporarily stores data for the visit."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 32,
+    "y": 3905,
+    "w": 197,
+    "h": 88,
+    "text": "_pk_ref"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 229,
+    "y": 3905,
+    "w": 281,
+    "h": 88,
+    "text": "Stores attribution information (the referrer that brought the visitor to the web"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 32,
+    "y": 3993,
+    "w": 197,
+    "h": 136,
+    "text": "_pk_testcookie"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 229,
+    "y": 3993,
+    "w": 281,
+    "h": 136,
+    "text": "Temporary cookie to check if a visitor’s browser supports cookies (set in Intern"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 4145,
+    "w": 296,
+    "h": 96,
+    "text": ": some of our pages display content from external providers, e.g. YouTube."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 4257,
+    "w": 296,
+    "h": 72,
+    "text": "Such third-party services are outside of ESO control and may, at any time, chang"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 4345,
+    "w": 296,
+    "h": 264,
+    "text": ": Some videos on the ESO website are embedded from . We have enabled YouTube’s p"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p > a",
+    "x": 32,
+    "y": 4347,
+    "w": 59,
+    "h": 19,
+    "text": "youtube",
+    "href": "/t/terms"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p > a",
+    "x": 32,
+    "y": 4371,
+    "w": 288,
+    "h": 43,
+    "text": "eso’s official youtube channel",
+    "href": "/channel/UCIhYoC2VIAJqCkoIWNHBQ3Q"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p > a",
+    "x": 32,
+    "y": 4587,
+    "w": 247,
+    "h": 19,
+    "text": "embedding videos information page",
+    "href": "/youtube/answer/171780"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 4625,
+    "w": 296,
+    "h": 48,
+    "text": "Cookies can also be classified based on the following elements."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 4689,
+    "w": 296,
+    "h": 24,
+    "text": "Regarding the domain, there are:"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > ul.ul-privacy > li",
+    "x": 72,
+    "y": 4729,
+    "w": 256,
+    "h": 144,
+    "text": ", set by the website you are currently visiting. They are stored by the same dom"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > ul.ul-privacy > li",
+    "x": 72,
+    "y": 4873,
+    "w": 256,
+    "h": 72,
+    "text": ", set by a domain other than the one you are currently visiting."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 4961,
+    "w": 296,
+    "h": 24,
+    "text": "As for their duration, cookies can be:"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > ul.ul-privacy > li",
+    "x": 72,
+    "y": 5001,
+    "w": 256,
+    "h": 72,
+    "text": ", which are deleted when the user closes the browser;"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > ul.ul-privacy > li",
+    "x": 72,
+    "y": 5073,
+    "w": 256,
+    "h": 72,
+    "text": ", which stay on the user's device for a predetermined period of time."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > h2",
+    "x": 32,
+    "y": 5161,
+    "w": 296,
+    "h": 77,
+    "level": 2,
+    "text": "how to manage cookies"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 5246,
+    "w": 296,
+    "h": 96,
+    "text": ": You can modify your cookie choices for the ESO webpages at any time by clickin"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 5358,
+    "w": 296,
+    "h": 96,
+    "text": ": If you wish to delete cookies or instruct your browser to delete or block cook"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.ul-privacy > li > a",
+    "x": 72,
+    "y": 5472,
+    "w": 39,
+    "h": 19,
+    "text": "brave",
+    "href": "/hc/en-us/signin"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.ul-privacy > li > a",
+    "x": 72,
+    "y": 5496,
+    "w": 55,
+    "h": 19,
+    "text": "chrome",
+    "href": "/chrome/bin/answer.py"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.ul-privacy > li > a",
+    "x": 72,
+    "y": 5520,
+    "w": 36,
+    "h": 19,
+    "text": "edge",
+    "href": "/en-us/windows/manage-cookies-in-microsoft-edge-view-allow-block-delete-and-use-168dab11-0753-043d-7c16-ede5947fc64d"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.ul-privacy > li > a",
+    "x": 72,
+    "y": 5544,
+    "w": 45,
+    "h": 19,
+    "text": "firefox",
+    "href": "/en-US/kb/Blocking%20cookies"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.ul-privacy > li > a",
+    "x": 72,
+    "y": 5568,
+    "w": 39,
+    "h": 19,
+    "text": "safari",
+    "href": "/article.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 5606,
+    "w": 296,
+    "h": 96,
+    "text": "Please be aware that if you delete or decline cookies, certain functionalities o"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 5718,
+    "w": 296,
+    "h": 168,
+    "text": "You can set most browsers to prevent any cookies being placed on your device, bu"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > h2",
+    "x": 32,
+    "y": 5902,
+    "w": 296,
+    "h": 77,
+    "level": 2,
+    "text": "updates to the eso cookies policy"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 5987,
+    "w": 296,
+    "h": 72,
+    "text": "The ESO Cookies Policy may be subject to future updates, which will be made avai"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > h2",
+    "x": 32,
+    "y": 6075,
+    "w": 296,
+    "h": 77,
+    "level": 2,
+    "text": "additional information"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 6160,
+    "w": 296,
+    "h": 48,
+    "text": "For any queries related to cookies, please contact: pdprATesoDOTorg."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 6224,
+    "w": 296,
+    "h": 96,
+    "text": "As ESO public webpages are managed by our Department of Communication, your ques"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > div.centered-container > button.privacy-button.save-settings",
+    "x": 64,
+    "y": 6352,
+    "w": 66,
+    "h": 40,
+    "text": "save"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > div.centered-container > button.privacy-button.cancel-settings",
+    "x": 199,
+    "y": 6352,
+    "w": 80,
+    "h": 40,
+    "text": "cancel"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 88,
+    "horizontal": 0,
+    "offPage": 60,
+    "textNodes": 260,
+    "controls": 57,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 24,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > p",
+     "text": "cookies are small pieces of data stored on your device by we",
+     "cutMin": 3,
+     "cutMax": 3
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 14,
+     "clipper": "div.privacy-settings",
+     "path": "div.cookies-table-container > div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+     "text": "csrftoken",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 12,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > p > span",
+     "text": "essential cookies (always active)",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "CONTROL SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 8,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > p > a",
+     "text": "youtube",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 8,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > p > a",
+     "text": "youtube",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 7,
+     "clipper": "div.privacy-settings",
+     "path": "div.cookies-table-container > div.cookies-table > div.cookies-table-row.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+     "text": "cookie id/name",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 4,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > h2",
+     "text": "categories of cookies we use",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 4,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > ul.ul-privacy > li",
+     "text": ", set by the website you are currently visiting. they are st",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > div.privacy-setting-toggle.privacy-matomo > span.privacy-option.privacy-option-on",
+     "text": "on",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > div.privacy-setting-toggle.privacy-matomo",
+     "text": "|",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > div.privacy-setting-toggle.privacy-matomo > span.privacy-option.privacy-option-off",
+     "text": "off",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "CONTROL SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > div.centered-container > button.privacy-button.save-settings",
+     "text": "save",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > div.centered-container > button.privacy-button.save-settings",
+     "text": "save",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "CONTROL SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > div.centered-container > button.privacy-button.cancel-settings",
+     "text": "cancel",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > div.centered-container > button.privacy-button.cancel-settings",
+     "text": "cancel",
+     "cutMin": null,
+     "cutMax": null
+    }
+   ]
+  }
+ },
+ "eds": {
+  "url": "https://main--26c59ee1--aemcoder.aem.page/about/workinggroups",
+  "at": "2026-11-14T02:45:19.798Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 17630,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "span.navbar-brand.navbar-brand-main > div.brand-logo > a",
+    "x": 4,
+    "y": 0,
+    "w": 38,
+    "h": 50,
+    "text": "eso",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img.navbar-eso-logo",
+    "x": 4,
+    "y": 0,
+    "w": 38,
+    "h": 50,
+    "text": "eso",
+    "file": "media_175cb2986e8ee49e7c64e8a9df5fa3f1f9"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.navbar-brand.brand-social > div.desktop-top-sm-icons > a",
+    "x": 55,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on facebook",
+    "href": "/ESOAstronomy"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 55,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on facebook",
+    "file": "media_1f386e2b9f7ed0b34b2f603a73f839485d"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.navbar-brand.brand-social > div.desktop-top-sm-icons > a",
+    "x": 105,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on instagram",
+    "href": "/esoastronomy/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 105,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on instagram",
+    "file": "media_19faa7be92695e315cea4cad487aa3e15b"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.navbar-brand.brand-social > div.desktop-top-sm-icons > a",
+    "x": 155,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on linkedin",
+    "href": "/company/european-southern-observatory"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 155,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on linkedin",
+    "file": "media_15b4dfde77d1909c3b38baaf7167a2e3d4"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.navbar-brand.brand-social > div.desktop-top-sm-icons > a",
+    "x": 205,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on youtube",
+    "href": "/channel/UCIhYoC2VIAJqCkoIWNHBQ3Q"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 205,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on youtube",
+    "file": "media_101417719196c90d4b42a69d39754d790f"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "span.lang-links > p > a.lang-link",
+    "x": 246,
+    "y": 17,
+    "w": 14,
+    "h": 15,
+    "text": "en",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "span.lang-links > p > a.lang-link",
+    "x": 269,
+    "y": 17,
+    "w": 13,
+    "h": 15,
+    "text": "es",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header.block > nav#top-navbar > button.navbar-toggler",
+    "x": 300,
+    "y": 5,
+    "w": 56,
+    "h": 40,
+    "text": "toggle navigation"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header.block > nav#top-navbar > button.navbar-toggler",
+    "x": 300,
+    "y": 5,
+    "w": 56,
+    "h": 40,
+    "label": "toggle navigation",
+    "value": "toggle navigation",
+    "via": "trigger"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.big-header-media > picture > img.big-header-image",
+    "x": 0,
+    "y": 50,
+    "w": 360,
+    "h": 169,
+    "text": "",
+    "file": "media_12fcc48f8b54f39924ff23e1e9ab6a14ac"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.big-header-logos > picture > img.big-header-eso-logo",
+    "x": 38,
+    "y": 58,
+    "w": 30,
+    "h": 39,
+    "text": "eso",
+    "file": "media_1a043431fda0378cd219e1a181f4b0998c"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.big-header-text > div.big-header-logos > p.esologo-text",
+    "x": 38,
+    "y": 103,
+    "w": 180,
+    "h": 23,
+    "text": "European Southern Observatory"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.big-header-text > div.big-header-title > h1#about--working-groups",
+    "x": 38,
+    "y": 105,
+    "w": 284,
+    "h": 90,
+    "level": 1,
+    "text": "about | working groups"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.big-header-title > h1#about--working-groups > strong",
+    "x": 38,
+    "y": 109,
+    "w": 76,
+    "h": 36,
+    "text": "About"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.narrow-image > div.section-text-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 254,
+    "w": 284,
+    "h": 303,
+    "text": "In September 2019, the ELT Programme Scientist at ESO initiated the formation of"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.narrow-image > div.section-text-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 573,
+    "w": 284,
+    "h": 357,
+    "text": "Currently there are 13 active WGs, each with its own coordinator(s) and with mor"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-text-paragraph.container-paragraph > p > a",
+    "x": 181,
+    "y": 877,
+    "w": 113,
+    "h": 20,
+    "text": "paolo padovani,",
+    "href": "ppadovan@eso.org"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-text-paragraph.container-paragraph > p > a",
+    "x": 38,
+    "y": 904,
+    "w": 123,
+    "h": 20,
+    "text": "michele cirasuolo",
+    "href": "mciras@eso.org"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-text-paragraph.container-paragraph > p > a",
+    "x": 195,
+    "y": 904,
+    "w": 77,
+    "h": 20,
+    "text": "joël vernet",
+    "href": "jvernet@eso.org"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.narrow-image > div.section-text-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 947,
+    "w": 284,
+    "h": 114,
+    "text": "The diagram below shows how the different ELT WGs are closely connected, where t"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "figure.article-image > picture > img",
+    "x": 66,
+    "y": 1080,
+    "w": 228,
+    "h": 83,
+    "text": "",
+    "file": "media_116b80e13b0b34101c3588015ee414fcca"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > div.section-title-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 1166,
+    "w": 284,
+    "h": 51,
+    "text": "Guide/AO stars"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > div.section-text-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 1237,
+    "w": 284,
+    "h": 546,
+    "text": "The ELT will be able to steer to any new target with a pointing uncertainty of a"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > figure.article-image > a",
+    "x": 0,
+    "y": 1802,
+    "w": 360,
+    "h": 105,
+    "text": "",
+    "href": "/public/images/potw1419a/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 0,
+    "y": 1802,
+    "w": 360,
+    "h": 105,
+    "text": "",
+    "file": "media_1ee4416e6065579b4a3fbeefc9e89f3278"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > div.section-text-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 1914,
+    "w": 284,
+    "h": 438,
+    "text": "The purpose of this WG is to construct reliable star catalogues that can serve b"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > div.section-text-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 2368,
+    "w": 284,
+    "h": 33,
+    "text": "Giacomo Beccari (ESO)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > div.section-title-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 2420,
+    "w": 284,
+    "h": 78,
+    "text": "Simulated PSF and AO performance"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > div.section-text-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 2518,
+    "w": 284,
+    "h": 357,
+    "text": "How well the ELT can correct for the blurring effect by the Earth’s atmosphere d"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > figure.article-image > a",
+    "x": 0,
+    "y": 2894,
+    "w": 360,
+    "h": 105,
+    "text": "",
+    "href": "/public/images/ELT4k-9-Night1_cc/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 0,
+    "y": 2894,
+    "w": 360,
+    "h": 105,
+    "text": "",
+    "file": "media_1c2b7efd8a74292f461f849f26b5afcdb2"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > div.section-text-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 3006,
+    "w": 284,
+    "h": 465,
+    "text": "This WG defines an algorithm to inform the user which stars are optimal to use f"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > div.section-text-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 3487,
+    "w": 284,
+    "h": 168,
+    "text": "Benoit Neichel (Laboratoire d’Astrophysique de Marseille) Guido Agapito, Olivier"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.inline-titles > div.section-title-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 3675,
+    "w": 284,
+    "h": 105,
+    "text": "Instrument Simulations and Exposure Time Calculator"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.float-row.container-paragraph > figure.float-image > a",
+    "x": 38,
+    "y": 3796,
+    "w": 284,
+    "h": 284,
+    "text": "",
+    "href": "/public/images/about-workinggroups-image1/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 38,
+    "y": 3796,
+    "w": 284,
+    "h": 284,
+    "text": "",
+    "file": "media_1576f703507cd4277a032af53f3cd2833b"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.float-row.container-paragraph > div.float-text.section-text-paragraph > p",
+    "x": 38,
+    "y": 4096,
+    "w": 284,
+    "h": 381,
+    "text": "Since exposure time at the ELT will be so valuable to the community, it is essen"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.float-row.container-paragraph > div.float-text.section-text-paragraph > p",
+    "x": 38,
+    "y": 4493,
+    "w": 284,
+    "h": 543,
+    "text": "The data image simulator will be able to run with different levels of “abstracti"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.float-row.container-paragraph > div.float-text.section-text-paragraph > p",
+    "x": 38,
+    "y": 5052,
+    "w": 284,
+    "h": 138,
+    "text": "Kieran Leschinski (Universität Wien) Myriam Rodrigues, Miguel Pereira Santaella,"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > div.section-title-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 5207,
+    "w": 284,
+    "h": 78,
+    "text": "Detector characterisation"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > div.section-text-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 5304,
+    "w": 284,
+    "h": 492,
+    "text": "To be able to optimally observe with the ELT, several dozen highly sensitive det"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > figure.article-image > a",
+    "x": 0,
+    "y": 5815,
+    "w": 360,
+    "h": 105,
+    "text": "",
+    "href": "/public/images/ann18048a/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 0,
+    "y": 5815,
+    "w": 360,
+    "h": 105,
+    "text": "",
+    "file": "media_179a142a62b1152b5be9fbef907bfd893d"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > div.section-text-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 5927,
+    "w": 284,
+    "h": 519,
+    "text": "The main goal of this WG is to understand to what level of accuracy these effect"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > div.section-text-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 6462,
+    "w": 284,
+    "h": 168,
+    "text": "Elizabeth George (ESO) Mark Neeser (ESO) Benoît Serra (ESO)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > div.section-title-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 6650,
+    "w": 284,
+    "h": 51,
+    "text": "Line calibrations"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > div.section-text-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 6720,
+    "w": 284,
+    "h": 438,
+    "text": "Several extensions and alternatives to the Standard Model of particle physics ha"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > figure.article-image > a",
+    "x": 0,
+    "y": 7178,
+    "w": 360,
+    "h": 105,
+    "text": "",
+    "href": "/public/images/eso0920a/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 0,
+    "y": 7178,
+    "w": 360,
+    "h": 105,
+    "text": "",
+    "file": "media_1d38927ecd6f7297291f7315996c41f1bd"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > div.section-text-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 7289,
+    "w": 284,
+    "h": 330,
+    "text": "However, accurate knowledge on the rest-frame wavelengths of certain atomic spec"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > div.section-text-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 7635,
+    "w": 284,
+    "h": 276,
+    "text": "This WG will review and assess the current status quo of this field, and identif"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > div.section-text-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 7928,
+    "w": 284,
+    "h": 141,
+    "text": "Carlos Martins (CAUP, Porto) Teruca Belmonte, Joe Liske, Dinko Milaković, Michae"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.inline-titles > div.section-title-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 8088,
+    "w": 284,
+    "h": 51,
+    "text": "Astro-weather"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.float-row.container-paragraph > figure.float-image > a",
+    "x": 38,
+    "y": 8155,
+    "w": 284,
+    "h": 432,
+    "text": "",
+    "href": "/public/images/img_4773-potw/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 38,
+    "y": 8155,
+    "w": 284,
+    "h": 432,
+    "text": "",
+    "file": "media_155286f97379590d9a7adac8423798ea9a"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.float-row.container-paragraph > div.float-text.section-text-paragraph > p",
+    "x": 38,
+    "y": 8603,
+    "w": 284,
+    "h": 408,
+    "text": "An accurate measurement of the current and upcoming weather and atmospheric cond"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.float-row.container-paragraph > div.float-text.section-text-paragraph > p",
+    "x": 38,
+    "y": 9027,
+    "w": 284,
+    "h": 462,
+    "text": "The goal of this WG is to gather the requirements from the telescope and the dif"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.float-row.container-paragraph > div.float-text.section-text-paragraph > p",
+    "x": 38,
+    "y": 9506,
+    "w": 284,
+    "h": 138,
+    "text": "Julien Milli (Institut de Planétologie et d'Astrophysique de Grenoble), Angel Ot"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > div.section-title-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 9660,
+    "w": 284,
+    "h": 51,
+    "text": "Telluric correction"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > div.section-text-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 9730,
+    "w": 284,
+    "h": 519,
+    "text": "Several molecules, such as water, oxygen and ozone, are abundant in the Earth at"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > figure.article-image > a",
+    "x": 0,
+    "y": 10269,
+    "w": 360,
+    "h": 105,
+    "text": "",
+    "href": "/public/images/potw1147a/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 0,
+    "y": 10269,
+    "w": 360,
+    "h": 105,
+    "text": "",
+    "file": "media_1f611513068dc4ee65800e1901bcaf4f7e"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > div.section-text-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 10380,
+    "w": 284,
+    "h": 519,
+    "text": "This WG will study how an accurate telluric correction can be accomplished by co"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > div.section-text-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 10915,
+    "w": 284,
+    "h": 33,
+    "text": "Alain Smette (ESO)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.inline-titles > div.section-title-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 10968,
+    "w": 284,
+    "h": 51,
+    "text": "PSF reconstruction"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.float-row.container-paragraph > figure.float-image > a",
+    "x": 38,
+    "y": 11035,
+    "w": 284,
+    "h": 284,
+    "text": "",
+    "href": "/public/images/eso1002e/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 38,
+    "y": 11035,
+    "w": 284,
+    "h": 284,
+    "text": "",
+    "file": "media_175f303f0d33443115f8b8d0ca9ede3dcf"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.float-row.container-paragraph > div.float-text.section-text-paragraph > p",
+    "x": 38,
+    "y": 11335,
+    "w": 284,
+    "h": 408,
+    "text": "Continuous and accurate knowledge of the varying PSF, that is, the smearing by t"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.float-row.container-paragraph > div.float-text.section-text-paragraph > p",
+    "x": 38,
+    "y": 11760,
+    "w": 284,
+    "h": 408,
+    "text": "Since several tools already exist that may help reach the requirements of the PS"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.float-row.container-paragraph > div.float-text.section-text-paragraph > p",
+    "x": 38,
+    "y": 12184,
+    "w": 284,
+    "h": 57,
+    "text": "Arseniy Kuznetsov and Joël Vernet (ESO)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > div.section-title-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 12257,
+    "w": 284,
+    "h": 51,
+    "text": "Sky subtraction"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > div.section-text-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 12327,
+    "w": 284,
+    "h": 357,
+    "text": "Ground-based astronomical observations suffer from different contributions of sk"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > figure.article-image > a",
+    "x": 0,
+    "y": 12704,
+    "w": 360,
+    "h": 105,
+    "text": "",
+    "href": "/public/images/potw1426a/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 0,
+    "y": 12704,
+    "w": 360,
+    "h": 105,
+    "text": "",
+    "file": "media_1ea65d7686c583418e6c280371fdec76e2"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > div.section-text-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 12815,
+    "w": 284,
+    "h": 438,
+    "text": "At wavelengths from the near-ultraviolet to the near-infrared, the high atmosphe"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > div.section-text-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 13270,
+    "w": 284,
+    "h": 465,
+    "text": "This WG aims at cataloguing these faint new sky lines and to characterise their "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > div.section-text-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 13751,
+    "w": 284,
+    "h": 114,
+    "text": "Rubén Sánchez-Janssen (STFC UK Astronomy Technology Centre), Elena Valenti (ESO)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > div.section-title-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 13885,
+    "w": 284,
+    "h": 78,
+    "text": "Spectro-photometric standards"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > div.section-text-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 13982,
+    "w": 284,
+    "h": 492,
+    "text": "The ELT and its instruments will rely on a set of extremely well-characterised s"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > figure.article-image > a",
+    "x": 0,
+    "y": 14493,
+    "w": 360,
+    "h": 105,
+    "text": "",
+    "href": "/public/images/eso1241e/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 0,
+    "y": 14493,
+    "w": 360,
+    "h": 105,
+    "text": "",
+    "file": "media_1fe1422904d0836988ed5b665fe9a20ac5"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > div.section-text-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 14605,
+    "w": 284,
+    "h": 465,
+    "text": "In close contact with the instrument consortia, this WG aims to first make an in"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > div.section-text-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 15086,
+    "w": 284,
+    "h": 114,
+    "text": "Sabine Möhler (ESO) Leo Burtscher, Wolfgang Kausch, Miguel Pereira Santaella"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.inline-titles > div.section-title-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 15220,
+    "w": 284,
+    "h": 51,
+    "text": "High-contrast imaging"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.float-row.container-paragraph > figure.float-image > a",
+    "x": 38,
+    "y": 15287,
+    "w": 284,
+    "h": 198,
+    "text": "",
+    "href": "/public/images/eso2118a/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 38,
+    "y": 15287,
+    "w": 284,
+    "h": 198,
+    "text": "",
+    "file": "media_16b2502ed0af42056803b50c4b68c48d93"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.float-row.container-paragraph > div.float-text.section-text-paragraph > p",
+    "x": 38,
+    "y": 15501,
+    "w": 284,
+    "h": 462,
+    "text": "Each of the planned first light ELT instruments (HARMONI, METIS and MICADO) will"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.float-row.container-paragraph > div.float-text.section-text-paragraph > p",
+    "x": 38,
+    "y": 15979,
+    "w": 284,
+    "h": 84,
+    "text": "Faustine Cantalloube (LAM, Marseille), Markus Kasper (ESO), Christophe Verinaud "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.inline-titles > div.section-title-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 16079,
+    "w": 284,
+    "h": 132,
+    "text": "ASPEX: Advanced Signal Processing for EXoplanet Spectroscopy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.float-row.container-paragraph > figure.float-image > a",
+    "x": 38,
+    "y": 16227,
+    "w": 284,
+    "h": 163,
+    "text": "",
+    "href": "/public/images/eso1706a/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 38,
+    "y": 16227,
+    "w": 284,
+    "h": 163,
+    "text": "",
+    "file": "media_1617cf1e68ab1349f9d3dca954fa56d19a"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.float-row.container-paragraph > div.float-text.section-text-paragraph > p",
+    "x": 38,
+    "y": 16406,
+    "w": 284,
+    "h": 273,
+    "text": "High-resolution spectroscopy with the ELT will open an unprecedented window into"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.float-row.container-paragraph > div.float-text.section-text-paragraph > p",
+    "x": 38,
+    "y": 16695,
+    "w": 284,
+    "h": 354,
+    "text": "This Working Group aims to develop and test next-generation methods for disentan"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.float-row.container-paragraph > div.float-text.section-text-paragraph > p",
+    "x": 38,
+    "y": 17066,
+    "w": 284,
+    "h": 273,
+    "text": "The outcomes will directly support ANDES and other ELT instruments science goals"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.float-row.container-paragraph > div.float-text.section-text-paragraph > p",
+    "x": 38,
+    "y": 17355,
+    "w": 284,
+    "h": 138,
+    "text": "Julia V. Seidel (OCA, Nice), Luke Parker (Oxford), Connor Cheverall (UDP), Andre"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer > div.site-footer-row > p.site-footer-brand.footer-item",
+    "x": -15,
+    "y": 17525,
+    "w": 360,
+    "h": 34,
+    "text": "| ELT ©"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-row > p.site-footer-brand.footer-item > a",
+    "x": 118,
+    "y": 17525,
+    "w": 25,
+    "h": 18,
+    "text": "eso",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-links.footer-item > div > p",
+    "x": 0,
+    "y": 17559,
+    "w": 330,
+    "h": 55,
+    "text": "| | | | |"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > p > a",
+    "x": 23,
+    "y": 17560,
+    "w": 41,
+    "h": 15,
+    "text": "credits",
+    "href": "/credits/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > p > a",
+    "x": 83,
+    "y": 17560,
+    "w": 60,
+    "h": 15,
+    "text": "contact us",
+    "href": "information@eso.org"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > p > a",
+    "x": 163,
+    "y": 17560,
+    "w": 128,
+    "h": 15,
+    "text": "subscribe to eso news",
+    "href": "/public/outreach/newsletters/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > p > a",
+    "x": 12,
+    "y": 17579,
+    "w": 124,
+    "h": 15,
+    "text": "accelerated by cdn77",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > p > a",
+    "x": 155,
+    "y": 17579,
+    "w": 106,
+    "h": 15,
+    "text": "terms & conditions",
+    "href": "/public/about-eso/privacy/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > p > a",
+    "x": 115,
+    "y": 17579,
+    "w": 203,
+    "h": 33,
+    "text": "cookie settings and policy",
+    "href": "/about/workinggroups"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 112,
+    "controls": 30,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 1
+   },
+   "eds": {
+    "link": 15,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 55,
+    "textHidden": 0,
+    "image": 15,
+    "imageHidden": 0
+   },
+   "findings": [
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "COUNT TEXT",
+    "COUNT IMAGES"
+   ]
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h1 \"about | working groups\" (y 105) has no origin heading",
+   "text": "about | working groups"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"paolo padovani,\" served in band \"(top)\", no origin link or button",
+   "band": 0,
+   "n": 1,
+   "text": "paolo padovani,"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"michele cirasuolo\" served in band \"(top)\", no origin link or button",
+   "band": 0,
+   "n": 1,
+   "text": "michele cirasuolo"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"joël vernet\" served in band \"(top)\", no origin link or button",
+   "band": 0,
+   "n": 1,
+   "text": "joël vernet"
+  },
+  {
+   "sev": "🟡",
+   "kind": "COUNT TEXT",
+   "msg": "band \"(top)\": 0 origin → 55 served visible",
+   "band": 0,
+   "origin": 0,
+   "eds": 55,
+   "hidden": 0
+  },
+  {
+   "sev": "🟡",
+   "kind": "COUNT IMAGES",
+   "msg": "band \"(top)\": 1 origin → 15 served visible",
+   "band": 0,
+   "origin": 1,
+   "eds": 15,
+   "hidden": 0
+  }
+ ],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 1,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 3,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 2,
+  "findings": 6,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 246,
+    "y": 17,
+    "w": 14,
+    "h": 15
+   },
+   {
+    "x": 259,
+    "y": 17,
+    "w": 10,
+    "h": 15
+   },
+   {
+    "x": 269,
+    "y": 17,
+    "w": 13,
+    "h": 15
+   },
+   {
+    "x": 38,
+    "y": 104,
+    "w": 21,
+    "h": 6
+   },
+   {
+    "x": 38,
+    "y": 112,
+    "w": 20,
+    "h": 6
+   },
+   {
+    "x": 38,
+    "y": 119,
+    "w": 26,
+    "h": 6
+   },
+   {
+    "x": 38,
+    "y": 109,
+    "w": 78,
+    "h": 36
+   },
+   {
+    "x": 116,
+    "y": 109,
+    "w": 129,
+    "h": 36
+   },
+   {
+    "x": 38,
+    "y": 154,
+    "w": 96,
+    "h": 36
+   },
+   {
+    "x": 38,
+    "y": 261,
+    "w": 278,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 288,
+    "w": 282,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 315,
+    "w": 282,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 342,
+    "w": 264,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 369,
+    "w": 264,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 396,
+    "w": 256,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 423,
+    "w": 222,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 450,
+    "w": 256,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 477,
+    "w": 269,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 504,
+    "w": 246,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 531,
+    "w": 92,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 581,
+    "w": 275,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 608,
+    "w": 283,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 635,
+    "w": 252,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 662,
+    "w": 255,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 689,
+    "w": 252,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 716,
+    "w": 282,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 743,
+    "w": 249,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 770,
+    "w": 278,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 797,
+    "w": 254,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 824,
+    "w": 267,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 851,
+    "w": 275,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 878,
+    "w": 144,
+    "h": 19
+   },
+   {
+    "x": 182,
+    "y": 878,
+    "w": 39,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 905,
+    "w": 68,
+    "h": 19
+   },
+   {
+    "x": 110,
+    "y": 905,
+    "w": 121,
+    "h": 19
+   },
+   {
+    "x": 231,
+    "y": 905,
+    "w": 35,
+    "h": 19
+   },
+   {
+    "x": 266,
+    "y": 905,
+    "w": 28,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 932,
+    "w": 44,
+    "h": 19
+   },
+   {
+    "x": 82,
+    "y": 932,
+    "w": 4,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 981,
+    "w": 241,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1008,
+    "w": 282,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1035,
+    "w": 267,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1062,
+    "w": 228,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1191,
+    "w": 178,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 1271,
+    "w": 272,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1298,
+    "w": 242,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1325,
+    "w": 215,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1352,
+    "w": 271,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1379,
+    "w": 275,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1406,
+    "w": 271,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1433,
+    "w": 269,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1460,
+    "w": 277,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1487,
+    "w": 233,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1514,
+    "w": 280,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1541,
+    "w": 266,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1568,
+    "w": 269,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1595,
+    "w": 216,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1622,
+    "w": 228,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1649,
+    "w": 277,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1676,
+    "w": 239,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1703,
+    "w": 256,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1730,
+    "w": 240,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1757,
+    "w": 264,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1784,
+    "w": 279,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1948,
+    "w": 266,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1975,
+    "w": 259,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2002,
+    "w": 219,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2029,
+    "w": 269,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2056,
+    "w": 272,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2083,
+    "w": 256,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2110,
+    "w": 241,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2137,
+    "w": 252,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2164,
+    "w": 281,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2191,
+    "w": 231,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2218,
+    "w": 251,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2245,
+    "w": 224,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2272,
+    "w": 270,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2299,
+    "w": 274,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2326,
+    "w": 258,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2353,
+    "w": 281,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2402,
+    "w": 93,
+    "h": 19
+   },
+   {
+    "x": 130,
+    "y": 2402,
+    "w": 167,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2445,
+    "w": 267,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 2472,
+    "w": 148,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 2552,
+    "w": 250,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2579,
+    "w": 279,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2606,
+    "w": 259,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2633,
+    "w": 276,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2660,
+    "w": 278,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2687,
+    "w": 265,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2714,
+    "w": 280,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2741,
+    "w": 283,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2768,
+    "w": 252,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2795,
+    "w": 232,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2822,
+    "w": 245,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2849,
+    "w": 282,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2876,
+    "w": 248,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3040,
+    "w": 267,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3067,
+    "w": 266,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3094,
+    "w": 267,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3121,
+    "w": 273,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3148,
+    "w": 270,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3175,
+    "w": 278,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3202,
+    "w": 273,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3229,
+    "w": 233,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3256,
+    "w": 275,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3283,
+    "w": 254,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3310,
+    "w": 249,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3337,
+    "w": 264,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3364,
+    "w": 260,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3391,
+    "w": 263,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3418,
+    "w": 282,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3445,
+    "w": 240,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3472,
+    "w": 155,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3521,
+    "w": 93,
+    "h": 19
+   },
+   {
+    "x": 130,
+    "y": 3521,
+    "w": 190,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3548,
+    "w": 205,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3575,
+    "w": 131,
+    "h": 19
+   },
+   {
+    "x": 169,
+    "y": 3575,
+    "w": 149,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3602,
+    "w": 263,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3629,
+    "w": 38,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3673,
+    "w": 267,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 3700,
+    "w": 225,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 3727,
+    "w": 118,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 4100,
+    "w": 281,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4127,
+    "w": 276,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4154,
+    "w": 240,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4181,
+    "w": 279,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4208,
+    "w": 257,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4235,
+    "w": 259,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4262,
+    "w": 266,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4289,
+    "w": 246,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4316,
+    "w": 271,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4343,
+    "w": 237,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4370,
+    "w": 283,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4397,
+    "w": 262,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4424,
+    "w": 283,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4451,
+    "w": 89,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4497,
+    "w": 272,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4524,
+    "w": 268,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4551,
+    "w": 248,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4578,
+    "w": 240,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4605,
+    "w": 253,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4632,
+    "w": 229,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4659,
+    "w": 273,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4686,
+    "w": 276,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4713,
+    "w": 275,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4740,
+    "w": 247,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4767,
+    "w": 278,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4794,
+    "w": 227,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4821,
+    "w": 271,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4848,
+    "w": 264,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4875,
+    "w": 227,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4902,
+    "w": 213,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4929,
+    "w": 253,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4956,
+    "w": 204,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4983,
+    "w": 228,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 5010,
+    "w": 68,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 5056,
+    "w": 97,
+    "h": 19
+   },
+   {
+    "x": 135,
+    "y": 5056,
+    "w": 119,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 5083,
+    "w": 118,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 5110,
+    "w": 131,
+    "h": 19
+   },
+   {
+    "x": 169,
+    "y": 5110,
+    "w": 130,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 5137,
+    "w": 275,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 5164,
+    "w": 272,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 5205,
+    "w": 100,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 5232,
+    "w": 185,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 5311,
+    "w": 273,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 5338,
+    "w": 234,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 5365,
+    "w": 227,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 5392,
+    "w": 241,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 5419,
+    "w": 262,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 5446,
+    "w": 264,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 5473,
+    "w": 283,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 5500,
+    "w": 255,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 5527,
+    "w": 244,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 5554,
+    "w": 232,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 5581,
+    "w": 277,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 5608,
+    "w": 266,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 5635,
+    "w": 259,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 5662,
+    "w": 279,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 5689,
+    "w": 250,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 5716,
+    "w": 269,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 5743,
+    "w": 260,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 5770,
+    "w": 153,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 5934,
+    "w": 207,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 5961,
+    "w": 253,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 5988,
+    "w": 233,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 6015,
+    "w": 258,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 6042,
+    "w": 277,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 6069,
+    "w": 275,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 6096,
+    "w": 267,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 6123,
+    "w": 279,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 6150,
+    "w": 235,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 6177,
+    "w": 247,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 6204,
+    "w": 267,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 6231,
+    "w": 270,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 6258,
+    "w": 264,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 6285,
+    "w": 265,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 6312,
+    "w": 282,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 6339,
+    "w": 250,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 6366,
+    "w": 241,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 6393,
+    "w": 259,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 6420,
+    "w": 255,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 6469,
+    "w": 153,
+    "h": 19
+   },
+   {
+    "x": 190,
+    "y": 6469,
+    "w": 118,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 6496,
+    "w": 39,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 6523,
+    "w": 256,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 6550,
+    "w": 116,
+    "h": 19
+   },
+   {
+    "x": 154,
+    "y": 6550,
+    "w": 132,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 6577,
+    "w": 201,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 6604,
+    "w": 89,
+    "h": 19
+   },
+   {
+    "x": 126,
+    "y": 6604,
+    "w": 133,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 6648,
+    "w": 189,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 6727,
+    "w": 284,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 6754,
+    "w": 275,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 6781,
+    "w": 277,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 6808,
+    "w": 231,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 6835,
+    "w": 277,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 6862,
+    "w": 239,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 6889,
+    "w": 259,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 6916,
+    "w": 231,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 6943,
+    "w": 214,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 6970,
+    "w": 281,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 6997,
+    "w": 235,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 7024,
+    "w": 225,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 7051,
+    "w": 250,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 7078,
+    "w": 253,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 7105,
+    "w": 275,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 7132,
+    "w": 31,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 7296,
+    "w": 256,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 7323,
+    "w": 279,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 7350,
+    "w": 267,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 7377,
+    "w": 284,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 7404,
+    "w": 283,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 7431,
+    "w": 211,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 7458,
+    "w": 260,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 7485,
+    "w": 282,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 7512,
+    "w": 273,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 7539,
+    "w": 278,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 7566,
+    "w": 231,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 7615,
+    "w": 241,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 7642,
+    "w": 239,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 7669,
+    "w": 281,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 7696,
+    "w": 241,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 7723,
+    "w": 273,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 7750,
+    "w": 275,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 7777,
+    "w": 240,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 7804,
+    "w": 277,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 7831,
+    "w": 282,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 7858,
+    "w": 84,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 7908,
+    "w": 97,
+    "h": 19
+   },
+   {
+    "x": 135,
+    "y": 7908,
+    "w": 152,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 7935,
+    "w": 41,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 7962,
+    "w": 131,
+    "h": 19
+   },
+   {
+    "x": 169,
+    "y": 7962,
+    "w": 150,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 7989,
+    "w": 274,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 8016,
+    "w": 283,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 8059,
+    "w": 164,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 8580,
+    "w": 278,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 8607,
+    "w": 279,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 8634,
+    "w": 246,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 8661,
+    "w": 269,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 8688,
+    "w": 283,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 8715,
+    "w": 259,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 8742,
+    "w": 283,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 8769,
+    "w": 214,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 8796,
+    "w": 253,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 8823,
+    "w": 254,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 8850,
+    "w": 217,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 8877,
+    "w": 283,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 8904,
+    "w": 233,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 8931,
+    "w": 270,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 8958,
+    "w": 97,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 9004,
+    "w": 243,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 9031,
+    "w": 279,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 9058,
+    "w": 255,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 9085,
+    "w": 217,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 9112,
+    "w": 282,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 9139,
+    "w": 249,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 9166,
+    "w": 281,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 9193,
+    "w": 278,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 9220,
+    "w": 197,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 9247,
+    "w": 260,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 9274,
+    "w": 206,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 9301,
+    "w": 251,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 9328,
+    "w": 263,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 9355,
+    "w": 281,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 9382,
+    "w": 240,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 9409,
+    "w": 280,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 9436,
+    "w": 106,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 9483,
+    "w": 101,
+    "h": 19
+   },
+   {
+    "x": 139,
+    "y": 9483,
+    "w": 149,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 9510,
+    "w": 101,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 9537,
+    "w": 248,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 9564,
+    "w": 94,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 9591,
+    "w": 127,
+    "h": 19
+   },
+   {
+    "x": 165,
+    "y": 9591,
+    "w": 122,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 9618,
+    "w": 218,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 9658,
+    "w": 205,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 9737,
+    "w": 232,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 9764,
+    "w": 269,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 9791,
+    "w": 240,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 9818,
+    "w": 268,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 9845,
+    "w": 270,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 9872,
+    "w": 281,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 9899,
+    "w": 228,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 9926,
+    "w": 271,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 9953,
+    "w": 273,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 9980,
+    "w": 276,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 10007,
+    "w": 266,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 10034,
+    "w": 275,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 10061,
+    "w": 249,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 10088,
+    "w": 276,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 10115,
+    "w": 276,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 10142,
+    "w": 276,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 10169,
+    "w": 282,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 10196,
+    "w": 242,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 10223,
+    "w": 196,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 10387,
+    "w": 245,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 10414,
+    "w": 269,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 10441,
+    "w": 279,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 10468,
+    "w": 274,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 10495,
+    "w": 278,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 10522,
+    "w": 248,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 10549,
+    "w": 258,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 10576,
+    "w": 267,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 10603,
+    "w": 281,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 10630,
+    "w": 252,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 10657,
+    "w": 250,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 10684,
+    "w": 260,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 10711,
+    "w": 205,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 10738,
+    "w": 277,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 10765,
+    "w": 281,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 10792,
+    "w": 257,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 10819,
+    "w": 278,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 10846,
+    "w": 267,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 10873,
+    "w": 173,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 10923,
+    "w": 93,
+    "h": 19
+   },
+   {
+    "x": 130,
+    "y": 10923,
+    "w": 135,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 10966,
+    "w": 223,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 11339,
+    "w": 270,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 11366,
+    "w": 276,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 11393,
+    "w": 249,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 11420,
+    "w": 280,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 11447,
+    "w": 214,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 11474,
+    "w": 247,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 11501,
+    "w": 282,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 11528,
+    "w": 264,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 11555,
+    "w": 245,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 11582,
+    "w": 270,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 11609,
+    "w": 261,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 11636,
+    "w": 233,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 11663,
+    "w": 268,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 11690,
+    "w": 281,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 11717,
+    "w": 272,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 11744,
+    "w": 134,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 11791,
+    "w": 281,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 11818,
+    "w": 269,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 11845,
+    "w": 263,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 11872,
+    "w": 269,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 11899,
+    "w": 276,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 11926,
+    "w": 235,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 11953,
+    "w": 283,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 11980,
+    "w": 254,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 12007,
+    "w": 280,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 12034,
+    "w": 284,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 12061,
+    "w": 240,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 12088,
+    "w": 275,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 12115,
+    "w": 263,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 12142,
+    "w": 136,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 12188,
+    "w": 93,
+    "h": 19
+   },
+   {
+    "x": 130,
+    "y": 12188,
+    "w": 161,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 12215,
+    "w": 120,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 12255,
+    "w": 181,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 12334,
+    "w": 193,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 12361,
+    "w": 225,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 12388,
+    "w": 249,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 12415,
+    "w": 232,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 12442,
+    "w": 230,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 12469,
+    "w": 244,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 12496,
+    "w": 249,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 12523,
+    "w": 263,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 12550,
+    "w": 276,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 12577,
+    "w": 263,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 12604,
+    "w": 278,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 12631,
+    "w": 263,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 12658,
+    "w": 273,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 12822,
+    "w": 271,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 12849,
+    "w": 281,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 12876,
+    "w": 227,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 12903,
+    "w": 226,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 12930,
+    "w": 229,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 12957,
+    "w": 283,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 12984,
+    "w": 279,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 13011,
+    "w": 265,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 13038,
+    "w": 280,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 13065,
+    "w": 266,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 13092,
+    "w": 217,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 13119,
+    "w": 274,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 13146,
+    "w": 278,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 13173,
+    "w": 284,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 13200,
+    "w": 253,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 13227,
+    "w": 279,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 13277,
+    "w": 272,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 13304,
+    "w": 261,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 13331,
+    "w": 267,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 13358,
+    "w": 270,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 13385,
+    "w": 262,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 13412,
+    "w": 242,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 13439,
+    "w": 274,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 13466,
+    "w": 266,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 13493,
+    "w": 282,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 13520,
+    "w": 216,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 13547,
+    "w": 240,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 13574,
+    "w": 224,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 13601,
+    "w": 263,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 13628,
+    "w": 263,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 13655,
+    "w": 255,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 13682,
+    "w": 260,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 13709,
+    "w": 178,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 13758,
+    "w": 105,
+    "h": 19
+   },
+   {
+    "x": 143,
+    "y": 13758,
+    "w": 172,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 13785,
+    "w": 230,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 13812,
+    "w": 189,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 13839,
+    "w": 123,
+    "h": 19
+   },
+   {
+    "x": 161,
+    "y": 13839,
+    "w": 130,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 13883,
+    "w": 242,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 13910,
+    "w": 116,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 13989,
+    "w": 279,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 14016,
+    "w": 237,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 14043,
+    "w": 201,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 14070,
+    "w": 272,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 14097,
+    "w": 277,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 14124,
+    "w": 239,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 14151,
+    "w": 284,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 14178,
+    "w": 281,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 14205,
+    "w": 277,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 14232,
+    "w": 242,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 14259,
+    "w": 276,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 14286,
+    "w": 272,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 14313,
+    "w": 203,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 14340,
+    "w": 213,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 14367,
+    "w": 277,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 14394,
+    "w": 281,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 14421,
+    "w": 278,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 14448,
+    "w": 149,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 14612,
+    "w": 245,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 14639,
+    "w": 274,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 14666,
+    "w": 247,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 14693,
+    "w": 249,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 14720,
+    "w": 242,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 14747,
+    "w": 253,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 14774,
+    "w": 279,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 14801,
+    "w": 210,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 14828,
+    "w": 279,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 14855,
+    "w": 279,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 14882,
+    "w": 267,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 14909,
+    "w": 250,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 14936,
+    "w": 270,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 14963,
+    "w": 283,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 14990,
+    "w": 278,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 15017,
+    "w": 260,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 15044,
+    "w": 251,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 15093,
+    "w": 97,
+    "h": 19
+   },
+   {
+    "x": 135,
+    "y": 15093,
+    "w": 143,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 15120,
+    "w": 131,
+    "h": 19
+   },
+   {
+    "x": 169,
+    "y": 15120,
+    "w": 101,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 15147,
+    "w": 226,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 15174,
+    "w": 63,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 15218,
+    "w": 258,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 15505,
+    "w": 229,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 15532,
+    "w": 245,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 15559,
+    "w": 233,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 15586,
+    "w": 275,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 15613,
+    "w": 279,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 15640,
+    "w": 227,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 15667,
+    "w": 232,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 15694,
+    "w": 264,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 15721,
+    "w": 270,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 15748,
+    "w": 278,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 15775,
+    "w": 269,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 15802,
+    "w": 251,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 15829,
+    "w": 276,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 15856,
+    "w": 264,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 15883,
+    "w": 246,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 15910,
+    "w": 265,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 15937,
+    "w": 101,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 15983,
+    "w": 101,
+    "h": 19
+   },
+   {
+    "x": 139,
+    "y": 15983,
+    "w": 148,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 16010,
+    "w": 270,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 16037,
+    "w": 183,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 16124,
+    "w": 214,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 16151,
+    "w": 246,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 16178,
+    "w": 118,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 16205,
+    "w": 162,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 16456,
+    "w": 261,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 16483,
+    "w": 278,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 16510,
+    "w": 246,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 16537,
+    "w": 278,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 16564,
+    "w": 228,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 16591,
+    "w": 270,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 16618,
+    "w": 263,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 16645,
+    "w": 284,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 16672,
+    "w": 243,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 16699,
+    "w": 211,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 16746,
+    "w": 281,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 16773,
+    "w": 225,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 16800,
+    "w": 245,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 16827,
+    "w": 240,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 16854,
+    "w": 240,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 16881,
+    "w": 250,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 16908,
+    "w": 281,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 16935,
+    "w": 274,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 16962,
+    "w": 274,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 16989,
+    "w": 62,
+    "h": 19
+   },
+   {
+    "x": 100,
+    "y": 16989,
+    "w": 151,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 17016,
+    "w": 273,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 17043,
+    "w": 223,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 17070,
+    "w": 144,
+    "h": 19
+   },
+   {
+    "x": 182,
+    "y": 17070,
+    "w": 4,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 17116,
+    "w": 235,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 17143,
+    "w": 237,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 17170,
+    "w": 249,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 17197,
+    "w": 256,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 17224,
+    "w": 250,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 17251,
+    "w": 276,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 17278,
+    "w": 217,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 17305,
+    "w": 75,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 17359,
+    "w": 93,
+    "h": 19
+   },
+   {
+    "x": 130,
+    "y": 17359,
+    "w": 152,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 17405,
+    "w": 127,
+    "h": 19
+   },
+   {
+    "x": 165,
+    "y": 17405,
+    "w": 144,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 17432,
+    "w": 245,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 17459,
+    "w": 240,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 17486,
+    "w": 264,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 17513,
+    "w": 95,
+    "h": 19
+   },
+   {
+    "x": 119,
+    "y": 17572,
+    "w": 24,
+    "h": 15
+   },
+   {
+    "x": 142,
+    "y": 17572,
+    "w": 42,
+    "h": 15
+   },
+   {
+    "x": 184,
+    "y": 17572,
+    "w": 27,
+    "h": 15
+   },
+   {
+    "x": 23,
+    "y": 17607,
+    "w": 41,
+    "h": 15
+   },
+   {
+    "x": 63,
+    "y": 17607,
+    "w": 20,
+    "h": 15
+   },
+   {
+    "x": 83,
+    "y": 17607,
+    "w": 61,
+    "h": 15
+   },
+   {
+    "x": 144,
+    "y": 17607,
+    "w": 20,
+    "h": 15
+   },
+   {
+    "x": 163,
+    "y": 17607,
+    "w": 128,
+    "h": 15
+   },
+   {
+    "x": 291,
+    "y": 17607,
+    "w": 16,
+    "h": 15
+   },
+   {
+    "x": 13,
+    "y": 17625,
+    "w": 123,
+    "h": 15
+   },
+   {
+    "x": 136,
+    "y": 17625,
+    "w": 20,
+    "h": 15
+   },
+   {
+    "x": 156,
+    "y": 17625,
+    "w": 105,
+    "h": 15
+   },
+   {
+    "x": 261,
+    "y": 17625,
+    "w": 20,
+    "h": 15
+   },
+   {
+    "x": 281,
+    "y": 17625,
+    "w": 37,
+    "h": 15
+   },
+   {
+    "x": 115,
+    "y": 17643,
+    "w": 99,
+    "h": 15
+   },
+   {
+    "x": 76,
+    "y": 1191,
+    "w": 180,
+    "h": 49
+   },
+   {
+    "x": 110,
+    "y": 1239,
+    "w": 140,
+    "h": 49
+   },
+   {
+    "x": 16,
+    "y": 1298,
+    "w": 262,
+    "h": 20
+   },
+   {
+    "x": 16,
+    "y": 1322,
+    "w": 270,
+    "h": 20
+   },
+   {
+    "x": 16,
+    "y": 1346,
+    "w": 296,
+    "h": 20
+   },
+   {
+    "x": 16,
+    "y": 1370,
+    "w": 255,
+    "h": 20
+   },
+   {
+    "x": 16,
+    "y": 1394,
+    "w": 306,
+    "h": 20
+   },
+   {
+    "x": 16,
+    "y": 1418,
+    "w": 302,
+    "h": 20
+   },
+   {
+    "x": 16,
+    "y": 1442,
+    "w": 227,
+    "h": 20
+   },
+   {
+    "x": 16,
+    "y": 1498,
+    "w": 327,
+    "h": 20
+   },
+   {
+    "x": 16,
+    "y": 1522,
+    "w": 325,
+    "h": 20
+   },
+   {
+    "x": 16,
+    "y": 1546,
+    "w": 51,
+    "h": 20
+   },
+   {
+    "x": 145,
+    "y": 1594,
+    "w": 69,
+    "h": 19
+   },
+   {
+    "x": 75,
+    "y": 1666,
+    "w": 210,
+    "h": 19
+   },
+   {
+    "x": 88,
+    "y": 1738,
+    "w": 184,
+    "h": 19
+   },
+   {
+    "x": 65,
+    "y": 1005,
+    "w": 230,
+    "h": 49
+   },
+   {
+    "x": 130,
+    "y": 1053,
+    "w": 100,
+    "h": 49
+   },
+   {
+    "x": 32,
+    "y": 1136,
+    "w": 210,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1160,
+    "w": 268,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1184,
+    "w": 255,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1208,
+    "w": 290,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1232,
+    "w": 291,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1256,
+    "w": 258,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1280,
+    "w": 257,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1304,
+    "w": 290,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1328,
+    "w": 99,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1368,
+    "w": 285,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1392,
+    "w": 292,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1416,
+    "w": 278,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1440,
+    "w": 289,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1464,
+    "w": 290,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1488,
+    "w": 49,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1525,
+    "w": 256,
+    "h": 39
+   },
+   {
+    "x": 32,
+    "y": 1574,
+    "w": 293,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1598,
+    "w": 267,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1622,
+    "w": 222,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1646,
+    "w": 237,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1670,
+    "w": 277,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1694,
+    "w": 79,
+    "h": 19
+   }
+  ],
+  "eds": [
+   {
+    "x": 246,
+    "y": 17,
+    "w": 14,
+    "h": 15
+   },
+   {
+    "x": 259,
+    "y": 17,
+    "w": 10,
+    "h": 15
+   },
+   {
+    "x": 269,
+    "y": 17,
+    "w": 13,
+    "h": 15
+   },
+   {
+    "x": 38,
+    "y": 104,
+    "w": 21,
+    "h": 6
+   },
+   {
+    "x": 38,
+    "y": 112,
+    "w": 20,
+    "h": 6
+   },
+   {
+    "x": 38,
+    "y": 119,
+    "w": 26,
+    "h": 6
+   },
+   {
+    "x": 38,
+    "y": 109,
+    "w": 76,
+    "h": 36
+   },
+   {
+    "x": 114,
+    "y": 109,
+    "w": 130,
+    "h": 36
+   },
+   {
+    "x": 38,
+    "y": 154,
+    "w": 95,
+    "h": 36
+   },
+   {
+    "x": 38,
+    "y": 260,
+    "w": 278,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 287,
+    "w": 282,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 314,
+    "w": 283,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 341,
+    "w": 267,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 368,
+    "w": 284,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 395,
+    "w": 233,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 422,
+    "w": 219,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 449,
+    "w": 255,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 476,
+    "w": 270,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 503,
+    "w": 244,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 530,
+    "w": 81,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 580,
+    "w": 276,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 607,
+    "w": 281,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 634,
+    "w": 248,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 661,
+    "w": 256,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 688,
+    "w": 256,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 715,
+    "w": 282,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 742,
+    "w": 249,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 769,
+    "w": 281,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 796,
+    "w": 252,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 823,
+    "w": 270,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 850,
+    "w": 274,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 877,
+    "w": 143,
+    "h": 20
+   },
+   {
+    "x": 181,
+    "y": 877,
+    "w": 113,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 904,
+    "w": 123,
+    "h": 20
+   },
+   {
+    "x": 161,
+    "y": 904,
+    "w": 34,
+    "h": 20
+   },
+   {
+    "x": 195,
+    "y": 904,
+    "w": 77,
+    "h": 20
+   },
+   {
+    "x": 273,
+    "y": 904,
+    "w": 4,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 953,
+    "w": 238,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 980,
+    "w": 284,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1007,
+    "w": 265,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1034,
+    "w": 233,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1164,
+    "w": 179,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 1243,
+    "w": 274,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1270,
+    "w": 283,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1297,
+    "w": 270,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1324,
+    "w": 246,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1351,
+    "w": 283,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1378,
+    "w": 235,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1405,
+    "w": 282,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1432,
+    "w": 284,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1459,
+    "w": 267,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1486,
+    "w": 265,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1513,
+    "w": 275,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1540,
+    "w": 249,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1567,
+    "w": 240,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1594,
+    "w": 237,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1621,
+    "w": 271,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1648,
+    "w": 244,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1675,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1702,
+    "w": 271,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1729,
+    "w": 255,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1756,
+    "w": 117,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1920,
+    "w": 263,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1947,
+    "w": 261,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1974,
+    "w": 218,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2001,
+    "w": 268,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2028,
+    "w": 271,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2055,
+    "w": 258,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2082,
+    "w": 241,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2109,
+    "w": 251,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2136,
+    "w": 281,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2163,
+    "w": 231,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2190,
+    "w": 252,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2217,
+    "w": 220,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2244,
+    "w": 267,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2271,
+    "w": 274,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2298,
+    "w": 257,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2325,
+    "w": 277,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2375,
+    "w": 94,
+    "h": 19
+   },
+   {
+    "x": 132,
+    "y": 2374,
+    "w": 169,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2418,
+    "w": 269,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 2445,
+    "w": 147,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 2524,
+    "w": 248,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2551,
+    "w": 278,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2578,
+    "w": 255,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2605,
+    "w": 274,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2632,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2659,
+    "w": 264,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2686,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2713,
+    "w": 282,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2740,
+    "w": 252,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2767,
+    "w": 230,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2794,
+    "w": 281,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2821,
+    "w": 244,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2848,
+    "w": 250,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3012,
+    "w": 268,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3039,
+    "w": 265,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3066,
+    "w": 265,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3093,
+    "w": 270,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3120,
+    "w": 267,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3147,
+    "w": 283,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3174,
+    "w": 269,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3201,
+    "w": 234,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3228,
+    "w": 274,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3255,
+    "w": 282,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3282,
+    "w": 217,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3309,
+    "w": 264,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3336,
+    "w": 261,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3363,
+    "w": 263,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3390,
+    "w": 281,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3417,
+    "w": 239,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3444,
+    "w": 151,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3494,
+    "w": 94,
+    "h": 19
+   },
+   {
+    "x": 132,
+    "y": 3493,
+    "w": 104,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3520,
+    "w": 219,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3547,
+    "w": 67,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3575,
+    "w": 129,
+    "h": 19
+   },
+   {
+    "x": 167,
+    "y": 3574,
+    "w": 154,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3601,
+    "w": 263,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3628,
+    "w": 39,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3673,
+    "w": 266,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 3700,
+    "w": 226,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 3727,
+    "w": 118,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 4099,
+    "w": 282,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4126,
+    "w": 276,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4153,
+    "w": 238,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4180,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4207,
+    "w": 258,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4234,
+    "w": 258,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4261,
+    "w": 269,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4288,
+    "w": 245,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4315,
+    "w": 272,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4342,
+    "w": 237,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4369,
+    "w": 283,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4396,
+    "w": 262,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4423,
+    "w": 255,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4450,
+    "w": 116,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4496,
+    "w": 273,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4523,
+    "w": 270,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4550,
+    "w": 249,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4577,
+    "w": 238,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4604,
+    "w": 251,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4631,
+    "w": 227,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4658,
+    "w": 270,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4685,
+    "w": 273,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4712,
+    "w": 273,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4739,
+    "w": 247,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4766,
+    "w": 278,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4793,
+    "w": 226,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4820,
+    "w": 271,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4847,
+    "w": 265,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4874,
+    "w": 229,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4901,
+    "w": 212,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4928,
+    "w": 253,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4955,
+    "w": 204,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4982,
+    "w": 224,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 5009,
+    "w": 65,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 5056,
+    "w": 94,
+    "h": 19
+   },
+   {
+    "x": 132,
+    "y": 5055,
+    "w": 126,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 5082,
+    "w": 123,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 5110,
+    "w": 129,
+    "h": 19
+   },
+   {
+    "x": 167,
+    "y": 5109,
+    "w": 134,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 5136,
+    "w": 283,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 5163,
+    "w": 272,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 5205,
+    "w": 99,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 5232,
+    "w": 185,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 5310,
+    "w": 271,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 5337,
+    "w": 240,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 5364,
+    "w": 226,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 5391,
+    "w": 243,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 5418,
+    "w": 260,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 5445,
+    "w": 264,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 5472,
+    "w": 281,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 5499,
+    "w": 253,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 5526,
+    "w": 244,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 5553,
+    "w": 234,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 5580,
+    "w": 278,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 5607,
+    "w": 263,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 5634,
+    "w": 257,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 5661,
+    "w": 280,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 5688,
+    "w": 248,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 5715,
+    "w": 267,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 5742,
+    "w": 258,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 5769,
+    "w": 152,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 5933,
+    "w": 207,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 5960,
+    "w": 251,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 5987,
+    "w": 232,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 6014,
+    "w": 260,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 6041,
+    "w": 273,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 6068,
+    "w": 273,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 6095,
+    "w": 266,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 6122,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 6149,
+    "w": 234,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 6176,
+    "w": 247,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 6203,
+    "w": 264,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 6230,
+    "w": 271,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 6257,
+    "w": 263,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 6284,
+    "w": 263,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 6311,
+    "w": 249,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 6338,
+    "w": 284,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 6365,
+    "w": 245,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 6392,
+    "w": 258,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 6419,
+    "w": 247,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 6469,
+    "w": 151,
+    "h": 19
+   },
+   {
+    "x": 189,
+    "y": 6468,
+    "w": 124,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 6495,
+    "w": 43,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 6523,
+    "w": 259,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 6550,
+    "w": 113,
+    "h": 19
+   },
+   {
+    "x": 151,
+    "y": 6549,
+    "w": 140,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 6577,
+    "w": 201,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 6604,
+    "w": 91,
+    "h": 19
+   },
+   {
+    "x": 129,
+    "y": 6603,
+    "w": 138,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 6648,
+    "w": 189,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 6726,
+    "w": 261,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 6753,
+    "w": 262,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 6780,
+    "w": 254,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 6807,
+    "w": 230,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 6834,
+    "w": 260,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 6861,
+    "w": 232,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 6888,
+    "w": 282,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 6915,
+    "w": 267,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 6942,
+    "w": 238,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 6969,
+    "w": 281,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 6996,
+    "w": 238,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 7023,
+    "w": 226,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 7050,
+    "w": 249,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 7077,
+    "w": 252,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 7104,
+    "w": 273,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 7131,
+    "w": 32,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 7295,
+    "w": 254,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 7322,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 7349,
+    "w": 269,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 7376,
+    "w": 282,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 7403,
+    "w": 283,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 7430,
+    "w": 210,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 7457,
+    "w": 260,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 7484,
+    "w": 232,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 7511,
+    "w": 269,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 7538,
+    "w": 251,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 7565,
+    "w": 223,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 7592,
+    "w": 90,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 7641,
+    "w": 243,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 7668,
+    "w": 236,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 7695,
+    "w": 280,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 7722,
+    "w": 240,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 7749,
+    "w": 271,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 7776,
+    "w": 275,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 7803,
+    "w": 239,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 7830,
+    "w": 277,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 7857,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 7884,
+    "w": 85,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 7935,
+    "w": 94,
+    "h": 19
+   },
+   {
+    "x": 132,
+    "y": 7934,
+    "w": 159,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 7961,
+    "w": 42,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 7989,
+    "w": 129,
+    "h": 19
+   },
+   {
+    "x": 167,
+    "y": 7988,
+    "w": 154,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 8015,
+    "w": 273,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 8042,
+    "w": 283,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 8086,
+    "w": 163,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 8606,
+    "w": 277,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 8633,
+    "w": 275,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 8660,
+    "w": 284,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 8687,
+    "w": 253,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 8714,
+    "w": 257,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 8741,
+    "w": 259,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 8768,
+    "w": 282,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 8795,
+    "w": 212,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 8822,
+    "w": 253,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 8849,
+    "w": 255,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 8876,
+    "w": 212,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 8903,
+    "w": 253,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 8930,
+    "w": 264,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 8957,
+    "w": 273,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 8984,
+    "w": 96,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 9030,
+    "w": 243,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 9057,
+    "w": 278,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 9084,
+    "w": 254,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 9111,
+    "w": 213,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 9138,
+    "w": 278,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 9165,
+    "w": 247,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 9192,
+    "w": 262,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 9219,
+    "w": 275,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 9246,
+    "w": 227,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 9273,
+    "w": 260,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 9300,
+    "w": 205,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 9327,
+    "w": 253,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 9354,
+    "w": 260,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 9381,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 9408,
+    "w": 242,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 9435,
+    "w": 278,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 9462,
+    "w": 107,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 9510,
+    "w": 103,
+    "h": 19
+   },
+   {
+    "x": 140,
+    "y": 9509,
+    "w": 152,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 9536,
+    "w": 238,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 9563,
+    "w": 218,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 9591,
+    "w": 129,
+    "h": 19
+   },
+   {
+    "x": 167,
+    "y": 9590,
+    "w": 123,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 9617,
+    "w": 219,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 9658,
+    "w": 204,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 9736,
+    "w": 234,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 9763,
+    "w": 268,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 9790,
+    "w": 242,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 9817,
+    "w": 267,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 9844,
+    "w": 268,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 9871,
+    "w": 281,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 9898,
+    "w": 231,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 9925,
+    "w": 270,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 9952,
+    "w": 272,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 9979,
+    "w": 276,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 10006,
+    "w": 267,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 10033,
+    "w": 277,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 10060,
+    "w": 250,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 10087,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 10114,
+    "w": 271,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 10141,
+    "w": 274,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 10168,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 10195,
+    "w": 240,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 10222,
+    "w": 198,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 10386,
+    "w": 245,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 10413,
+    "w": 267,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 10440,
+    "w": 275,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 10467,
+    "w": 273,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 10494,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 10521,
+    "w": 247,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 10548,
+    "w": 261,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 10575,
+    "w": 265,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 10602,
+    "w": 282,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 10629,
+    "w": 252,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 10656,
+    "w": 247,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 10683,
+    "w": 260,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 10710,
+    "w": 204,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 10737,
+    "w": 277,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 10764,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 10791,
+    "w": 255,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 10818,
+    "w": 274,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 10845,
+    "w": 271,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 10872,
+    "w": 175,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 10923,
+    "w": 94,
+    "h": 19
+   },
+   {
+    "x": 132,
+    "y": 10922,
+    "w": 138,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 10966,
+    "w": 223,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 11338,
+    "w": 267,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 11365,
+    "w": 277,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 11392,
+    "w": 284,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 11419,
+    "w": 263,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 11446,
+    "w": 265,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 11473,
+    "w": 273,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 11500,
+    "w": 236,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 11527,
+    "w": 267,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 11554,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 11581,
+    "w": 273,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 11608,
+    "w": 267,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 11635,
+    "w": 277,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 11662,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 11689,
+    "w": 281,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 11716,
+    "w": 257,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 11763,
+    "w": 251,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 11790,
+    "w": 269,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 11817,
+    "w": 240,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 11844,
+    "w": 270,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 11871,
+    "w": 259,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 11898,
+    "w": 244,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 11925,
+    "w": 230,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 11952,
+    "w": 216,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 11979,
+    "w": 203,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 12006,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 12033,
+    "w": 240,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 12060,
+    "w": 227,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 12087,
+    "w": 274,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 12114,
+    "w": 261,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 12141,
+    "w": 136,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 12188,
+    "w": 94,
+    "h": 19
+   },
+   {
+    "x": 132,
+    "y": 12187,
+    "w": 162,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 12214,
+    "w": 125,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 12255,
+    "w": 179,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 12333,
+    "w": 283,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 12360,
+    "w": 273,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 12387,
+    "w": 245,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 12414,
+    "w": 233,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 12441,
+    "w": 255,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 12468,
+    "w": 258,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 12495,
+    "w": 233,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 12522,
+    "w": 244,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 12549,
+    "w": 245,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 12576,
+    "w": 266,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 12603,
+    "w": 265,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 12630,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 12657,
+    "w": 145,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 12821,
+    "w": 273,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 12848,
+    "w": 281,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 12875,
+    "w": 226,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 12902,
+    "w": 227,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 12929,
+    "w": 227,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 12956,
+    "w": 283,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 12983,
+    "w": 278,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 13010,
+    "w": 269,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 13037,
+    "w": 281,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 13064,
+    "w": 263,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 13091,
+    "w": 220,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 13118,
+    "w": 271,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 13145,
+    "w": 276,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 13172,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 13199,
+    "w": 255,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 13226,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 13276,
+    "w": 273,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 13303,
+    "w": 262,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 13330,
+    "w": 269,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 13357,
+    "w": 267,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 13384,
+    "w": 261,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 13411,
+    "w": 244,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 13438,
+    "w": 272,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 13465,
+    "w": 261,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 13492,
+    "w": 282,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 13519,
+    "w": 219,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 13546,
+    "w": 239,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 13573,
+    "w": 224,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 13600,
+    "w": 263,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 13627,
+    "w": 263,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 13654,
+    "w": 254,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 13681,
+    "w": 259,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 13708,
+    "w": 174,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 13758,
+    "w": 103,
+    "h": 19
+   },
+   {
+    "x": 140,
+    "y": 13757,
+    "w": 177,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 13784,
+    "w": 231,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 13811,
+    "w": 197,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 13839,
+    "w": 121,
+    "h": 19
+   },
+   {
+    "x": 158,
+    "y": 13838,
+    "w": 130,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 13883,
+    "w": 236,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 13910,
+    "w": 115,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 13988,
+    "w": 281,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 14015,
+    "w": 238,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 14042,
+    "w": 200,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 14069,
+    "w": 271,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 14096,
+    "w": 277,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 14123,
+    "w": 240,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 14150,
+    "w": 283,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 14177,
+    "w": 280,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 14204,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 14231,
+    "w": 244,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 14258,
+    "w": 277,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 14285,
+    "w": 274,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 14312,
+    "w": 202,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 14339,
+    "w": 210,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 14366,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 14393,
+    "w": 281,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 14420,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 14447,
+    "w": 149,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 14611,
+    "w": 242,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 14638,
+    "w": 273,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 14665,
+    "w": 247,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 14692,
+    "w": 248,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 14719,
+    "w": 242,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 14746,
+    "w": 252,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 14773,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 14800,
+    "w": 211,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 14827,
+    "w": 280,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 14854,
+    "w": 276,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 14881,
+    "w": 266,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 14908,
+    "w": 253,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 14935,
+    "w": 269,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 14962,
+    "w": 283,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 14989,
+    "w": 277,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 15016,
+    "w": 257,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 15043,
+    "w": 252,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 15093,
+    "w": 94,
+    "h": 19
+   },
+   {
+    "x": 132,
+    "y": 15092,
+    "w": 151,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 15120,
+    "w": 129,
+    "h": 19
+   },
+   {
+    "x": 167,
+    "y": 15119,
+    "w": 104,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 15146,
+    "w": 229,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 15173,
+    "w": 65,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 15218,
+    "w": 255,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 15504,
+    "w": 231,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 15531,
+    "w": 248,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 15558,
+    "w": 236,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 15585,
+    "w": 280,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 15612,
+    "w": 278,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 15639,
+    "w": 227,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 15666,
+    "w": 235,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 15693,
+    "w": 266,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 15720,
+    "w": 270,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 15747,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 15774,
+    "w": 268,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 15801,
+    "w": 251,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 15828,
+    "w": 278,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 15855,
+    "w": 262,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 15882,
+    "w": 247,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 15909,
+    "w": 267,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 15936,
+    "w": 103,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 15983,
+    "w": 103,
+    "h": 19
+   },
+   {
+    "x": 140,
+    "y": 15982,
+    "w": 151,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 16009,
+    "w": 277,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 16036,
+    "w": 187,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 16077,
+    "w": 217,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 16104,
+    "w": 247,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 16131,
+    "w": 121,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 16158,
+    "w": 159,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 16409,
+    "w": 257,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 16436,
+    "w": 276,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 16463,
+    "w": 245,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 16490,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 16517,
+    "w": 232,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 16544,
+    "w": 270,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 16571,
+    "w": 267,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 16598,
+    "w": 252,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 16625,
+    "w": 277,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 16652,
+    "w": 208,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 16698,
+    "w": 280,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 16725,
+    "w": 223,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 16752,
+    "w": 247,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 16779,
+    "w": 241,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 16806,
+    "w": 238,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 16833,
+    "w": 248,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 16860,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 16887,
+    "w": 275,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 16914,
+    "w": 273,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 16941,
+    "w": 62,
+    "h": 20
+   },
+   {
+    "x": 100,
+    "y": 16942,
+    "w": 152,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 16969,
+    "w": 272,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 16996,
+    "w": 284,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 17023,
+    "w": 83,
+    "h": 19
+   },
+   {
+    "x": 121,
+    "y": 17022,
+    "w": 4,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 17069,
+    "w": 233,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 17096,
+    "w": 238,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 17123,
+    "w": 247,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 17150,
+    "w": 255,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 17177,
+    "w": 249,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 17204,
+    "w": 275,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 17231,
+    "w": 218,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 17258,
+    "w": 74,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 17313,
+    "w": 94,
+    "h": 19
+   },
+   {
+    "x": 132,
+    "y": 17312,
+    "w": 156,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 17359,
+    "w": 129,
+    "h": 19
+   },
+   {
+    "x": 167,
+    "y": 17358,
+    "w": 148,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 17385,
+    "w": 248,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 17412,
+    "w": 247,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 17439,
+    "w": 271,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 17466,
+    "w": 99,
+    "h": 20
+   },
+   {
+    "x": 118,
+    "y": 17526,
+    "w": 25,
+    "h": 15
+   },
+   {
+    "x": 143,
+    "y": 17526,
+    "w": 42,
+    "h": 15
+   },
+   {
+    "x": 185,
+    "y": 17526,
+    "w": 26,
+    "h": 15
+   },
+   {
+    "x": 23,
+    "y": 17560,
+    "w": 38,
+    "h": 15
+   },
+   {
+    "x": 64,
+    "y": 17560,
+    "w": 20,
+    "h": 15
+   },
+   {
+    "x": 83,
+    "y": 17560,
+    "w": 57,
+    "h": 15
+   },
+   {
+    "x": 143,
+    "y": 17560,
+    "w": 20,
+    "h": 15
+   },
+   {
+    "x": 163,
+    "y": 17560,
+    "w": 125,
+    "h": 15
+   },
+   {
+    "x": 291,
+    "y": 17560,
+    "w": 16,
+    "h": 15
+   },
+   {
+    "x": 12,
+    "y": 17579,
+    "w": 120,
+    "h": 15
+   },
+   {
+    "x": 136,
+    "y": 17579,
+    "w": 19,
+    "h": 15
+   },
+   {
+    "x": 155,
+    "y": 17579,
+    "w": 103,
+    "h": 15
+   },
+   {
+    "x": 261,
+    "y": 17579,
+    "w": 20,
+    "h": 15
+   },
+   {
+    "x": 281,
+    "y": 17579,
+    "w": 37,
+    "h": 15
+   },
+   {
+    "x": 115,
+    "y": 17597,
+    "w": 101,
+    "h": 15
+   }
+  ]
+ }
+}

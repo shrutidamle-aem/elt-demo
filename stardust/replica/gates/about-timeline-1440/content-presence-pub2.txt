@@ -1,0 +1,70 @@
+[live-session] waiting to pace live navigations to elt.eso.org (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+content-presence @ 1440px (chrome) — origin https://elt.eso.org/about/timeline/ (docH 13660, 183 items, HTTP 200) vs served https://main--26c59ee1--aemcoder.aem.page/about/timeline (docH 13610, 115 items, HTTP 200)
+scope: whole page (one side has no <main> / --main root) (header/footer left to the chrome crop gate; --chrome to include)
+| band | heading | links O/E (+hidden) | buttons O/E (+hidden) | text O/E | images O/E | findings |
+|---|---|---|---|---|---|---|
+| 0 | (top) | 38/24 | 5/0 | 116/66 | 8/3 | MISSING HEADING, MISSING LINK, EXTRA LINK, MISSING BUTTON, COUNT TEXT, COUNT IMAGES |
+  🔴 MISSING HEADING: h1 "eso cookies policy" (origin y 1006) has no served heading
+  🔴 MISSING HEADING: h2 "what are cookies?" (origin y 1238) has no served heading
+  🔴 MISSING HEADING: h2 "categories of cookies we use" (origin y 1348) has no served heading
+  🔴 MISSING HEADING: h1 "our use of cookies" (origin y 1544) has no served heading
+  🔴 MISSING HEADING: h2 "how to manage cookies" (origin y 3227) has no served heading
+  🔴 MISSING HEADING: h2 "updates to the eso cookies policy" (origin y 3617) has no served heading
+  🔴 MISSING HEADING: h2 "additional information" (origin y 3704) has no served heading
+  🔴 MISSING LINK: "eso on facebook" → /ESOAstronomy in band "(top)" (origin y 11) not on the served page
+  🔴 MISSING LINK: "eso on instagram" → /esoastronomy/ in band "(top)" (origin y 11) not on the served page
+  🔴 MISSING LINK: "eso on linkedin" → /company/european-southern-observatory in band "(top)" (origin y 11) not on the served page
+  🔴 MISSING LINK: "eso on youtube" → /channel/UCIhYoC2VIAJqCkoIWNHBQ3Q in band "(top)" (origin y 11) not on the served page
+  🔴 MISSING LINK: "search" → /about/timeline/ in band "(top)" (origin y 2) not on the served page
+  🔴 MISSING LINK: "jul 2023 elt half completed in 2023, the elt surpassed an important milestone, w" → /public/news/eso2310/ in band "(top)" (origin y 5103) not on the served page
+  🔴 MISSING LINK: "aug 2019 first 18 elt primary mirror blanks arrive at safran reosc manufactured " → /public/announcements/ann19040/ in band "(top)" (origin y 5498) not on the served page
+  🔴 MISSING LINK: "may 2018 dome and main structure start the elt site on cerro armazones got its f" → /public/announcements/ann18031/ in band "(top)" (origin y 6100) not on the served page
+  🔴 MISSING LINK: "jan 2018 first elt main mirror segments successfully cast the first hexagonal se" → /public/news/eso1801/ in band "(top)" (origin y 6515) not on the served page
+  🔴 MISSING LINK: "may 2016 contract awarded for construction of dome and main telescope structure " → /public/news/eso1617/ in band "(top)" (origin y 7033) not on the served page
+  🔴 MISSING LINK: "dec 2015 agreement signed for maory agreement signed for the elt's maory instrum" → /public/announcements/ann15093/ in band "(top)" (origin y 7654) not on the served page
+  🔴 MISSING LINK: "sep 2015 agreement signed for metis eso has signed an agreement for the design a" → /public/announcements/ann15073/ in band "(top)" (origin y 8069) not on the served page
+  🔴 MISSING LINK: "sep 2015 agreement signed for harmoni agreement signed for the design and constr" → /public/announcements/ann15070/ in band "(top)" (origin y 8484) not on the served page
+  🔴 MISSING LINK: "sep 2015 agreement signed for micado eso has signed an agreement to design and c" → /public/announcements/ann15068/ in band "(top)" (origin y 8899) not on the served page
+  🔴 MISSING LINK: "dec 2014 green light given for elt construction eso’s main governing body, the c" → /public/news/eso1440/ in band "(top)" (origin y 9313) not on the served page
+  🔴 MISSING LINK: "jun 2014 part of cerro armazones peak flattened to make space for elt part of th" → /public/news/eso1419/ in band "(top)" (origin y 9770) not on the served page
+  🔴 MISSING LINK: "mar 2014 construction begins on road to cerro armazones the civil works for the " → /public/announcements/ann14019/ in band "(top)" (origin y 10391) not on the served page
+  🔴 MISSING LINK: "oct 2013 land around cerro armazones donated to eso for the elt site the preside" → /public/news/eso1345/ in band "(top)" (origin y 10951) not on the served page
+  🔴 MISSING LINK: "jun 2012 eso council approves elt programme eso’s governing body, the council, m" → /public/news/eso1225/ in band "(top)" (origin y 11511) not on the served page
+  🔴 MISSING LINK: "oct 2011 eso and chile sign agreement on elt the republic of chile and eso signe" → /public/news/eso1139/ in band "(top)" (origin y 11968) not on the served page
+  🔴 MISSING LINK: "apr 2010 cerro armazones selected as site for elt cerro armazones was chosen as " → /public/news/eso1018/ in band "(top)" (origin y 12509) not on the served page
+  🔴 MISSING LINK: "dec 2006 green light given for detailed elt study eso council decided to proceed" → /public/news/eso0646/ in band "(top)" (origin y 13176) not on the served page
+  🔴 MISSING LINK: "youtube" → /t/terms in band "(top)" (origin y 2869) not on the served page
+  🔴 MISSING LINK: "eso’s official youtube channel" → /channel/UCIhYoC2VIAJqCkoIWNHBQ3Q in band "(top)" (origin y 2869) not on the served page
+  🔴 MISSING LINK: "embedding videos information page" → /youtube/answer/171780 in band "(top)" (origin y 2917) not on the served page
+  🔴 MISSING LINK: "brave" → /hc/en-us/signin in band "(top)" (origin y 3355) not on the served page
+  🔴 MISSING LINK: "chrome" → /chrome/bin/answer.py in band "(top)" (origin y 3379) not on the served page
+  🔴 MISSING LINK: "edge" → /en-us/windows/manage-cookies-in-microsoft-edge-view-allow-block-delete-and-use-168dab11-0753-043d-7c16-ede5947fc64d in band "(top)" (origin y 3403) not on the served page
+  🔴 MISSING LINK: "firefox" → /en-US/kb/Blocking%20cookies in band "(top)" (origin y 3427) not on the served page
+  🔴 MISSING LINK: "safari" → /article.html in band "(top)" (origin y 3451) not on the served page
+  🟠 MISSING BUTTON: "accept all" in band "(top)" (origin y 1728) not on the served page
+  🟠 MISSING BUTTON: "accept only essential cookies" in band "(top)" (origin y 1728) not on the served page
+  🟠 MISSING BUTTON: "cookie settings and policy" in band "(top)" (origin y 1728) not on the served page
+  🟠 MISSING BUTTON: "save" in band "(top)" (origin y 3846) not on the served page
+  🟠 MISSING BUTTON: "cancel" in band "(top)" (origin y 3846) not on the served page
+  🟡 EXTRA HEADING: served h1 "about | timeline" (y 550) has no origin heading
+  🟡 EXTRA LINK: "jul 2023" served in band "(top)", no origin link or button
+  🟡 EXTRA LINK: "aug 2019" served in band "(top)", no origin link or button
+  🟡 EXTRA LINK: "may 2018" served in band "(top)", no origin link or button
+  🟡 EXTRA LINK: "jan 2018" served in band "(top)", no origin link or button
+  🟡 EXTRA LINK: "may 2016" served in band "(top)", no origin link or button
+  🟡 EXTRA LINK: "dec 2015" served in band "(top)", no origin link or button
+  🟡 EXTRA LINK: ×3 "sep 2015" served in band "(top)", no origin link or button
+  🟡 EXTRA LINK: "dec 2014" served in band "(top)", no origin link or button
+  🟡 EXTRA LINK: "jun 2014" served in band "(top)", no origin link or button
+  🟡 EXTRA LINK: "mar 2014" served in band "(top)", no origin link or button
+  🟡 EXTRA LINK: "oct 2013" served in band "(top)", no origin link or button
+  🟡 EXTRA LINK: "jun 2012" served in band "(top)", no origin link or button
+  🟡 EXTRA LINK: "oct 2011" served in band "(top)", no origin link or button
+  🟡 EXTRA LINK: "apr 2010" served in band "(top)", no origin link or button
+  🟡 EXTRA LINK: "dec 2006" served in band "(top)", no origin link or button
+  🟡 COUNT TEXT: band "(top)": 116 origin → 66 served visible
+  🟡 COUNT IMAGES: band "(top)": 8 origin → 3 served visible
+Content: MISSING 37 (headings 7, links 30) / HIDDEN 0 (headings 0, links 0) / control-state 0 / buttons missing 5 hidden 0 / moved 0 extra 17 / count deltas 2
+Findings: 60 (37 structural 🔴)
+Clipped (served side): 0 — origin side 0
+json → stardust/replica/gates/about-timeline-1440/content-presence-pub2.json

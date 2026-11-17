@@ -1,0 +1,45 @@
+[live-session] waiting to pace live navigations to elt.eso.org (1000 ms apart, 1 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+
+Content diff @ 1440px (profile "generic", roots: #big-header, #main-navbar, .container-light, .bar-medium-dark, .swiper-container, header, footer)
+root "#big-header"
+  source: 2 text nodes — 0 headings, 0 eyebrows, 0 CTAs, 2 body; 1 img
+  build: 2 text nodes — 0 headings, 0 eyebrows, 0 CTAs, 2 body; 1 img
+  editable texts (outermost h*/p/ul/ol): source 1 / build 1
+  attributes (placeholder/aria-label/title): source 0 / build 0; icons: source 0 / build 0
+root "#main-navbar"
+  source: 46 text nodes — 0 headings, 0 eyebrows, 46 CTAs, 0 body; 0 img
+  build: 46 text nodes — 0 headings, 0 eyebrows, 46 CTAs, 0 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 1 / build 1
+  attributes (placeholder/aria-label/title): source 1 / build 1; icons: source 1 / build 1
+root ".container-light"
+  source: 30 text nodes — 0 headings, 0 eyebrows, 6 CTAs, 24 body; 11 img
+  build: 30 text nodes — 0 headings, 0 eyebrows, 6 CTAs, 24 body; 11 img
+  editable texts (outermost h*/p/ul/ol): source 1 / build 1
+  attributes (placeholder/aria-label/title): source 6 / build 6; icons: source 6 / build 6
+root ".bar-medium-dark"
+  source: 7 text nodes — 0 headings, 0 eyebrows, 3 CTAs, 4 body; 0 img
+  build: 7 text nodes — 0 headings, 0 eyebrows, 3 CTAs, 4 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 0 / build 0
+  attributes (placeholder/aria-label/title): source 1 / build 1; icons: source 0 / build 0
+root ".swiper-container"
+  source: 6 text nodes — 0 headings, 0 eyebrows, 6 CTAs, 0 body; 12 img
+  build: 6 text nodes — 0 headings, 0 eyebrows, 6 CTAs, 0 body; 12 img
+  editable texts (outermost h*/p/ul/ol): source 0 / build 0
+  attributes (placeholder/aria-label/title): source 2 / build 2; icons: source 18 / build 18
+root "header": absent on both sides (no <header> / [role="banner"] outside the main root(s)) — not compared
+root "footer"
+  source: 10 text nodes — 0 headings, 0 eyebrows, 7 CTAs, 3 body; 0 img
+  build: 10 text nodes — 0 headings, 0 eyebrows, 7 CTAs, 3 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 0 / build 0
+  attributes (placeholder/aria-label/title): source 0 / build 0; icons: source 0 / build 0
+
+⚠ one side has almost no content — a blank/failed render; fix that before trusting the diff.
+
+Findings: 6 (0 structural 🔴)
+Tiers: looks-same 🔴 0 · nothing-lost 🟡 0 · accepted 🟢 0 (owner 0, auto 0) · advisory 6
+  🟡 ICON MOVED [.swiper-container]: source icon-font glyph U+F04B (Font Awesome 5 Free, 25×29) at "/media/" is at "/media-proposed.html" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [.swiper-container]: source icon-font glyph U+F04B (Font Awesome 5 Free, 25×29) at "/media/" is at "/media-proposed.html" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [.swiper-container]: source icon-font glyph U+F04B (Font Awesome 5 Free, 25×29) at "/media/" is at "/media-proposed.html" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [.swiper-container]: source icon-font glyph U+F04B (Font Awesome 5 Free, 25×29) at "/media/" is at "/media-proposed.html" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [.swiper-container]: source icon-font glyph U+F04B (Font Awesome 5 Free, 25×29) at "/media/" is at "/media-proposed.html" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [.swiper-container]: source icon-font glyph U+F04B (Font Awesome 5 Free, 25×29) at "/media/" is at "/media-proposed.html" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.

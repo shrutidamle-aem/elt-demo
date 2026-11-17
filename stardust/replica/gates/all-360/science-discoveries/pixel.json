@@ -1,0 +1,56 @@
+{
+  "a": "stardust/replica/gates/all-360/science-discoveries/origin.png",
+  "b": "stardust/replica/gates/all-360/science-discoveries/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 2645,
+    "mode": "overlap"
+  },
+  "heightDelta": 20,
+  "differingPixels": 84093,
+  "pct": 8.83,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/science-discoveries/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 15.92,
+  "textBoxes": 132,
+  "textPixels": 568423,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 4
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 9.1
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 9.6
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 8.8
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 9.6
+    },
+    {
+      "y0": 2500,
+      "y1": 2645,
+      "pct": 19.4
+    }
+  ],
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--26c59ee1--aemcoder.aem.page/science/discoveries"
+  }
+}

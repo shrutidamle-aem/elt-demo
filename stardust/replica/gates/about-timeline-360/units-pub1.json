@@ -1,0 +1,3997 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-13T16:40:17.563Z",
+  "tol": 4,
+  "n": 27,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://elt.eso.org/about/timeline/",
+  "at": "2026-11-13T16:39:46.976Z",
+  "docH": 13851
+ },
+ "eds": {
+  "url": "https://main--26c59ee1--aemcoder.aem.page/about/timeline",
+  "at": "2026-11-13T16:40:17.422Z",
+  "docH": 13818
+ },
+ "results": [
+  {
+   "sel": "footer .col-12=.site-footer__row > .footer-item",
+   "family": "footer-columns",
+   "required": true,
+   "originMatches": 2,
+   "edsMatches": 0,
+   "units": [],
+   "error": "no visible unit on the served side (2 / 0 DOM matches)"
+  },
+  {
+   "sel": ".timeline-content=.timeline-content",
+   "family": "timeline-cards",
+   "required": true,
+   "originMatches": 27,
+   "edsMatches": 27,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.timeline-container > div.timeline > div.timeline-content"
+     },
+     "eds": {
+      "path": "div.timeline-stage > div.timeline-column > div.timeline-content.is-current"
+     },
+     "rows": [
+      {
+       "key": "text:2030 (planned)",
+       "role": "text",
+       "text": "2030 (planned)",
+       "edsText": "2030 (planned)",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 24,
+        "w": 181,
+        "h": 34
+       },
+       "eds": {
+        "x": 20,
+        "y": 24,
+        "w": 182,
+        "h": 34,
+        "sel": "em",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "28/42/400",
+        "eds": "28/42/400"
+       }
+      },
+      {
+       "key": "text:scientific first light",
+       "role": "text",
+       "text": "scientific first light",
+       "edsText": "scientific first light",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 62,
+        "w": 226,
+        "h": 116
+       },
+       "eds": {
+        "x": 20,
+        "y": 62,
+        "w": 226,
+        "h": 116,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "34/42/600",
+        "eds": "34/42/600"
+       }
+      },
+      {
+       "key": "text:the first observations with scientific i",
+       "role": "text",
+       "text": "the first observations with scientific instruments are expec",
+       "edsText": "the first observations with scientific instruments are expec",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 178,
+        "w": 226,
+        "h": 198
+       },
+       "eds": {
+        "x": 20,
+        "y": 178,
+        "w": 226,
+        "h": 198,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "22/33/400",
+        "eds": "22/33/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 47,
+       "y": 239,
+       "w": 266,
+       "h": 412
+      },
+      "eds": {
+       "x": 47,
+       "y": 239,
+       "w": 266,
+       "h": 412
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.timeline-container > div.timeline > div.timeline-content"
+     },
+     "eds": {
+      "path": "div.timeline-stage > div.timeline-column > div.timeline-content"
+     },
+     "rows": [
+      {
+       "key": "text:2029 (planned)",
+       "role": "text",
+       "text": "2029 (planned)",
+       "edsText": "2029 (planned)",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 24,
+        "w": 181,
+        "h": 34
+       },
+       "eds": {
+        "x": 20,
+        "y": 24,
+        "w": 182,
+        "h": 34,
+        "sel": "em",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "28/42/400",
+        "eds": "28/42/400"
+       }
+      },
+      {
+       "key": "text:telescope first light",
+       "role": "text",
+       "text": "telescope first light",
+       "edsText": "telescope first light",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 62,
+        "w": 226,
+        "h": 116
+       },
+       "eds": {
+        "x": 20,
+        "y": 62,
+        "w": 226,
+        "h": 116,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "34/42/600",
+        "eds": "34/42/600"
+       }
+      },
+      {
+       "key": "text:the elt is set to make its first test ob",
+       "role": "text",
+       "text": "the elt is set to make its first test observations in 2029",
+       "edsText": "the elt is set to make its first test observations in 2029",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 178,
+        "w": 226,
+        "h": 99
+       },
+       "eds": {
+        "x": 20,
+        "y": 178,
+        "w": 226,
+        "h": 99,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "22/33/400",
+        "eds": "22/33/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 47,
+       "y": 671,
+       "w": 266,
+       "h": 313
+      },
+      "eds": {
+       "x": 47,
+       "y": 671,
+       "w": 266,
+       "h": 313
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.timeline-container > div.timeline > div.timeline-content"
+     },
+     "eds": {
+      "path": "div.timeline-stage > div.timeline-column > div.timeline-content"
+     },
+     "rows": [
+      {
+       "key": "text:2028 (planned)",
+       "role": "text",
+       "text": "2028 (planned)",
+       "edsText": "2028 (planned)",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 24,
+        "w": 181,
+        "h": 34
+       },
+       "eds": {
+        "x": 20,
+        "y": 24,
+        "w": 182,
+        "h": 34,
+        "sel": "em",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "28/42/400",
+        "eds": "28/42/400"
+       }
+      },
+      {
+       "key": "text:main mirror segments installation",
+       "role": "text",
+       "text": "main mirror segments installation",
+       "edsText": "main mirror segments installation",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 62,
+        "w": 226,
+        "h": 158
+       },
+       "eds": {
+        "x": 20,
+        "y": 62,
+        "w": 226,
+        "h": 158,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "34/42/600",
+        "eds": "34/42/600"
+       }
+      },
+      {
+       "key": "text:the installation of the 798 segments tha",
+       "role": "text",
+       "text": "the installation of the 798 segments that make up m1, the el",
+       "edsText": "the installation of the 798 segments that make up m1, the el",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 220,
+        "w": 226,
+        "h": 198
+       },
+       "eds": {
+        "x": 20,
+        "y": 220,
+        "w": 226,
+        "h": 198,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "22/33/400",
+        "eds": "22/33/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 47,
+       "y": 1004,
+       "w": 266,
+       "h": 454
+      },
+      "eds": {
+       "x": 47,
+       "y": 1004,
+       "w": 266,
+       "h": 454
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.timeline-container > div.timeline > div.timeline-content"
+     },
+     "eds": {
+      "path": "div.timeline-stage > div.timeline-column > div.timeline-content"
+     },
+     "rows": [
+      {
+       "key": "text:2028 (planned)",
+       "role": "text",
+       "text": "2028 (planned)",
+       "edsText": "2028 (planned)",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 24,
+        "w": 181,
+        "h": 34
+       },
+       "eds": {
+        "x": 20,
+        "y": 24,
+        "w": 182,
+        "h": 34,
+        "sel": "em",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "28/42/400",
+        "eds": "28/42/400"
+       }
+      },
+      {
+       "key": "text:m5 mirror complete",
+       "role": "text",
+       "text": "m5 mirror complete",
+       "edsText": "m5 mirror complete",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 62,
+        "w": 226,
+        "h": 116
+       },
+       "eds": {
+        "x": 20,
+        "y": 62,
+        "w": 226,
+        "h": 116,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "34/42/600",
+        "eds": "34/42/600"
+       }
+      },
+      {
+       "key": "text:m5 is the fifth mirror in the elt light ",
+       "role": "text",
+       "text": "m5 is the fifth mirror in the elt light path. with a size of",
+       "edsText": "m5 is the fifth mirror in the elt light path. with a size of",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 178,
+        "w": 226,
+        "h": 231
+       },
+       "eds": {
+        "x": 20,
+        "y": 178,
+        "w": 226,
+        "h": 231,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "22/33/400",
+        "eds": "22/33/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 47,
+       "y": 1478,
+       "w": 266,
+       "h": 445
+      },
+      "eds": {
+       "x": 47,
+       "y": 1478,
+       "w": 266,
+       "h": 445
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div.timeline-container > div.timeline > div.timeline-content"
+     },
+     "eds": {
+      "path": "div.timeline-stage > div.timeline-column > div.timeline-content"
+     },
+     "rows": [
+      {
+       "key": "text:2028 (planned)",
+       "role": "text",
+       "text": "2028 (planned)",
+       "edsText": "2028 (planned)",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 24,
+        "w": 181,
+        "h": 34
+       },
+       "eds": {
+        "x": 20,
+        "y": 24,
+        "w": 182,
+        "h": 34,
+        "sel": "em",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "28/42/400",
+        "eds": "28/42/400"
+       }
+      },
+      {
+       "key": "text:m4 adaptive unit complete",
+       "role": "text",
+       "text": "m4 adaptive unit complete",
+       "edsText": "m4 adaptive unit complete",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 62,
+        "w": 226,
+        "h": 116
+       },
+       "eds": {
+        "x": 20,
+        "y": 62,
+        "w": 226,
+        "h": 116,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "34/42/600",
+        "eds": "34/42/600"
+       }
+      },
+      {
+       "key": "text:m4 is the fourth mirror in the elt light",
+       "role": "text",
+       "text": "m4 is the fourth mirror in the elt light path, and the large",
+       "edsText": "m4 is the fourth mirror in the elt light path, and the large",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 178,
+        "w": 226,
+        "h": 198
+       },
+       "eds": {
+        "x": 20,
+        "y": 178,
+        "w": 226,
+        "h": 198,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "22/33/400",
+        "eds": "22/33/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 47,
+       "y": 1943,
+       "w": 266,
+       "h": 412
+      },
+      "eds": {
+       "x": 47,
+       "y": 1943,
+       "w": 266,
+       "h": 412
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 5,
+     "origin": {
+      "path": "div.timeline-container > div.timeline > div.timeline-content"
+     },
+     "eds": {
+      "path": "div.timeline-stage > div.timeline-column > div.timeline-content"
+     },
+     "rows": [
+      {
+       "key": "text:2027 (planned)",
+       "role": "text",
+       "text": "2027 (planned)",
+       "edsText": "2027 (planned)",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 24,
+        "w": 181,
+        "h": 34
+       },
+       "eds": {
+        "x": 20,
+        "y": 24,
+        "w": 182,
+        "h": 34,
+        "sel": "em",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "28/42/400",
+        "eds": "28/42/400"
+       }
+      },
+      {
+       "key": "text:tertiary mirror complete",
+       "role": "text",
+       "text": "tertiary mirror complete",
+       "edsText": "tertiary mirror complete",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 62,
+        "w": 226,
+        "h": 116
+       },
+       "eds": {
+        "x": 20,
+        "y": 62,
+        "w": 226,
+        "h": 116,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "34/42/600",
+        "eds": "34/42/600"
+       }
+      },
+      {
+       "key": "text:m3, the third mirror in the elt’s light ",
+       "role": "text",
+       "text": "m3, the third mirror in the elt’s light path has a diameter ",
+       "edsText": "m3, the third mirror in the elt’s light path has a diameter ",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 178,
+        "w": 226,
+        "h": 132
+       },
+       "eds": {
+        "x": 20,
+        "y": 178,
+        "w": 226,
+        "h": 132,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "22/33/400",
+        "eds": "22/33/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 47,
+       "y": 2375,
+       "w": 266,
+       "h": 346
+      },
+      "eds": {
+       "x": 47,
+       "y": 2375,
+       "w": 266,
+       "h": 346
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 6,
+     "origin": {
+      "path": "div.timeline-container > div.timeline > div.timeline-content"
+     },
+     "eds": {
+      "path": "div.timeline-stage > div.timeline-column > div.timeline-content"
+     },
+     "rows": [
+      {
+       "key": "text:2027 (planned)",
+       "role": "text",
+       "text": "2027 (planned)",
+       "edsText": "2027 (planned)",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 24,
+        "w": 181,
+        "h": 34
+       },
+       "eds": {
+        "x": 20,
+        "y": 24,
+        "w": 182,
+        "h": 34,
+        "sel": "em",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "28/42/400",
+        "eds": "28/42/400"
+       }
+      },
+      {
+       "key": "text:dome complete",
+       "role": "text",
+       "text": "dome complete",
+       "edsText": "dome complete",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 62,
+        "w": 226,
+        "h": 116
+       },
+       "eds": {
+        "x": 20,
+        "y": 62,
+        "w": 226,
+        "h": 116,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "34/42/600",
+        "eds": "34/42/600"
+       }
+      },
+      {
+       "key": "text:the elt dome is the largest telescope do",
+       "role": "text",
+       "text": "the elt dome is the largest telescope dome in the world. it ",
+       "edsText": "the elt dome is the largest telescope dome in the world. it ",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 178,
+        "w": 226,
+        "h": 165
+       },
+       "eds": {
+        "x": 20,
+        "y": 178,
+        "w": 226,
+        "h": 165,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "22/33/400",
+        "eds": "22/33/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 47,
+       "y": 2741,
+       "w": 266,
+       "h": 379
+      },
+      "eds": {
+       "x": 47,
+       "y": 2741,
+       "w": 266,
+       "h": 379
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 7,
+     "origin": {
+      "path": "div.timeline-container > div.timeline > div.timeline-content"
+     },
+     "eds": {
+      "path": "div.timeline-stage > div.timeline-column > div.timeline-content"
+     },
+     "rows": [
+      {
+       "key": "text:2027 (planned)",
+       "role": "text",
+       "text": "2027 (planned)",
+       "edsText": "2027 (planned)",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 24,
+        "w": 181,
+        "h": 34
+       },
+       "eds": {
+        "x": 20,
+        "y": 24,
+        "w": 182,
+        "h": 34,
+        "sel": "em",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "28/42/400",
+        "eds": "28/42/400"
+       }
+      },
+      {
+       "key": "text:telescope structure complete",
+       "role": "text",
+       "text": "telescope structure complete",
+       "edsText": "telescope structure complete",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 62,
+        "w": 226,
+        "h": 158
+       },
+       "eds": {
+        "x": 20,
+        "y": 62,
+        "w": 226,
+        "h": 158,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "34/42/600",
+        "eds": "34/42/600"
+       }
+      },
+      {
+       "key": "text:the main structure of the elt telescope ",
+       "role": "text",
+       "text": "the main structure of the elt telescope will hold its five m",
+       "edsText": "the main structure of the elt telescope will hold its five m",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 220,
+        "w": 226,
+        "h": 198
+       },
+       "eds": {
+        "x": 20,
+        "y": 220,
+        "w": 226,
+        "h": 198,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "22/33/400",
+        "eds": "22/33/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 47,
+       "y": 3140,
+       "w": 266,
+       "h": 454
+      },
+      "eds": {
+       "x": 47,
+       "y": 3140,
+       "w": 266,
+       "h": 454
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 8,
+     "origin": {
+      "path": "div.timeline-container > div.timeline > div.timeline-content"
+     },
+     "eds": {
+      "path": "div.timeline-stage > div.timeline-column > div.timeline-content"
+     },
+     "rows": [
+      {
+       "key": "text:2026",
+       "role": "text",
+       "text": "2026",
+       "edsText": "2026",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 24,
+        "w": 62,
+        "h": 34
+       },
+       "eds": {
+        "x": 20,
+        "y": 24,
+        "w": 60,
+        "h": 34,
+        "sel": "em",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": -2,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "28/42/400",
+        "eds": "28/42/400"
+       }
+      },
+      {
+       "key": "text:secondary mirror complete",
+       "role": "text",
+       "text": "secondary mirror complete",
+       "edsText": "secondary mirror complete",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 62,
+        "w": 226,
+        "h": 158
+       },
+       "eds": {
+        "x": 20,
+        "y": 62,
+        "w": 226,
+        "h": 158,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "34/42/600",
+        "eds": "34/42/600"
+       }
+      },
+      {
+       "key": "text:with a diameter of 4.25 metres, elt's se",
+       "role": "text",
+       "text": "with a diameter of 4.25 metres, elt's secondary mirror (m2) ",
+       "edsText": "with a diameter of 4.25 metres, elt's secondary mirror (m2) ",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 220,
+        "w": 226,
+        "h": 165
+       },
+       "eds": {
+        "x": 20,
+        "y": 220,
+        "w": 226,
+        "h": 165,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "22/33/400",
+        "eds": "22/33/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 47,
+       "y": 3614,
+       "w": 266,
+       "h": 421
+      },
+      "eds": {
+       "x": 47,
+       "y": 3614,
+       "w": 266,
+       "h": 421
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 9,
+     "origin": {
+      "path": "div.timeline-container > div.timeline > div.timeline-content"
+     },
+     "eds": {
+      "path": "div.timeline-stage > div.timeline-column > div.timeline-content"
+     },
+     "rows": [
+      {
+       "key": "text:jan 2024",
+       "role": "text",
+       "text": "jan 2024",
+       "edsText": "jan 2024",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 24,
+        "w": 114,
+        "h": 34
+       },
+       "eds": {
+        "x": 20,
+        "y": 24,
+        "w": 111,
+        "h": 34,
+        "sel": "em",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": -3,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "28/42/400",
+        "eds": "28/42/400"
+       }
+      },
+      {
+       "key": "text:first segments of elt’s main mirror arri",
+       "role": "text",
+       "text": "first segments of elt’s main mirror arrive in chile",
+       "edsText": "first segments of elt’s main mirror arrive in chile",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 62,
+        "w": 226,
+        "h": 200
+       },
+       "eds": {
+        "x": 20,
+        "y": 62,
+        "w": 226,
+        "h": 200,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "34/42/600",
+        "eds": "34/42/600"
+       }
+      },
+      {
+       "key": "text:the first 18 of the 798 segments for the",
+       "role": "text",
+       "text": "the first 18 of the 798 segments for the elt primary mirror ",
+       "edsText": "the first 18 of the 798 segments for the elt primary mirror ",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 262,
+        "w": 226,
+        "h": 165
+       },
+       "eds": {
+        "x": 20,
+        "y": 262,
+        "w": 226,
+        "h": 165,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "22/33/400",
+        "eds": "22/33/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 47,
+       "y": 4055,
+       "w": 266,
+       "h": 463
+      },
+      "eds": {
+       "x": 47,
+       "y": 4055,
+       "w": 266,
+       "h": 463
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 10,
+     "origin": {
+      "path": "div.timeline-container > div.timeline > div.timeline-content"
+     },
+     "eds": {
+      "path": "div.timeline-stage > div.timeline-column > div.timeline-content.has-link"
+     },
+     "rows": [
+      {
+       "key": "link:jul 2023 elt half completed in 2023, the",
+       "role": "link",
+       "text": "jul 2023 elt half completed in 2023, the elt surpassed an im",
+       "edsText": "jul 2023",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 36,
+        "w": 226,
+        "h": 307
+       },
+       "eds": {
+        "x": 20,
+        "y": 24,
+        "w": 102,
+        "h": 34,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -12,
+       "dw": -124,
+       "dh": -273,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "28/42/400"
+       }
+      },
+      {
+       "key": "text:elt half completed",
+       "role": "text",
+       "text": "elt half completed",
+       "edsText": "elt half completed",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 62,
+        "w": 226,
+        "h": 116
+       },
+       "eds": {
+        "x": 20,
+        "y": 62,
+        "w": 226,
+        "h": 116,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "34/42/600",
+        "eds": "34/42/600"
+       }
+      },
+      {
+       "key": "text:in 2023, the elt surpassed an important ",
+       "role": "text",
+       "text": "in 2023, the elt surpassed an important milestone, with more",
+       "edsText": "in 2023, the elt surpassed an important milestone, with more",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 178,
+        "w": 226,
+        "h": 165
+       },
+       "eds": {
+        "x": 20,
+        "y": 178,
+        "w": 226,
+        "h": 165,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "22/33/400",
+        "eds": "22/33/400"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "text",
+       "tag": "span",
+       "sel": "span.timeline-content-year",
+       "text": "jul 2023",
+       "boxed": false,
+       "x": 20,
+       "y": 24,
+       "w": 104,
+       "h": 34,
+       "absY": 4562,
+       "hidden": false,
+       "fs": 28,
+       "lh": 42,
+       "fw": "400",
+       "color": "rgb(225, 150, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "text:jul 2023"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 47,
+       "y": 4538,
+       "w": 266,
+       "h": 379
+      },
+      "eds": {
+       "x": 47,
+       "y": 4538,
+       "w": 266,
+       "h": 379
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 2,
+      "off": 1,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 11,
+     "origin": {
+      "path": "div.timeline-container > div.timeline > div.timeline-content"
+     },
+     "eds": {
+      "path": "div.timeline-stage > div.timeline-column > div.timeline-content.has-link"
+     },
+     "rows": [
+      {
+       "key": "link:aug 2019 first 18 elt primary mirror bla",
+       "role": "link",
+       "text": "aug 2019 first 18 elt primary mirror blanks arrive at safran",
+       "edsText": "aug 2019",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 36,
+        "w": 226,
+        "h": 631
+       },
+       "eds": {
+        "x": 20,
+        "y": 24,
+        "w": 116,
+        "h": 34,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -12,
+       "dw": -110,
+       "dh": -597,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "28/42/400"
+       }
+      },
+      {
+       "key": "text:first 18 elt primary mirror blanks arriv",
+       "role": "text",
+       "text": "first 18 elt primary mirror blanks arrive at safran reosc",
+       "edsText": "first 18 elt primary mirror blanks arrive at safran reosc",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 62,
+        "w": 226,
+        "h": 242
+       },
+       "eds": {
+        "x": 20,
+        "y": 62,
+        "w": 226,
+        "h": 242,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "34/42/600",
+        "eds": "34/42/600"
+       }
+      },
+      {
+       "key": "text:manufactured by schott, the first m1 seg",
+       "role": "text",
+       "text": "manufactured by schott, the first m1 segment blank was compl",
+       "edsText": "manufactured by schott, the first m1 segment blank was compl",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 304,
+        "w": 226,
+        "h": 363
+       },
+       "eds": {
+        "x": 20,
+        "y": 304,
+        "w": 226,
+        "h": 363,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "22/33/400",
+        "eds": "22/33/400"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "text",
+       "tag": "span",
+       "sel": "span.timeline-content-year",
+       "text": "aug 2019",
+       "boxed": false,
+       "x": 20,
+       "y": 24,
+       "w": 118,
+       "h": 34,
+       "absY": 4961,
+       "hidden": false,
+       "fs": 28,
+       "lh": 42,
+       "fw": "400",
+       "color": "rgb(225, 150, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "text:aug 2019"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 47,
+       "y": 4937,
+       "w": 266,
+       "h": 703
+      },
+      "eds": {
+       "x": 47,
+       "y": 4937,
+       "w": 266,
+       "h": 703
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 2,
+      "off": 1,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 12,
+     "origin": {
+      "path": "div.timeline-container > div.timeline > div.timeline-content"
+     },
+     "eds": {
+      "path": "div.timeline-stage > div.timeline-column > div.timeline-content.has-link"
+     },
+     "rows": [
+      {
+       "key": "link:may 2018 dome and main structure start t",
+       "role": "link",
+       "text": "may 2018 dome and main structure start the elt site on cerro",
+       "edsText": "may 2018",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 36,
+        "w": 226,
+        "h": 283
+       },
+       "eds": {
+        "x": 20,
+        "y": 24,
+        "w": 119,
+        "h": 34,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -12,
+       "dw": -107,
+       "dh": -249,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "28/42/400"
+       }
+      },
+      {
+       "key": "text:dome and main structure start",
+       "role": "text",
+       "text": "dome and main structure start",
+       "edsText": "dome and main structure start",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 62,
+        "w": 226,
+        "h": 158
+       },
+       "eds": {
+        "x": 20,
+        "y": 62,
+        "w": 226,
+        "h": 158,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "34/42/600",
+        "eds": "34/42/600"
+       }
+      },
+      {
+       "key": "text:the elt site on cerro armazones got its ",
+       "role": "text",
+       "text": "the elt site on cerro armazones got its first foundations.",
+       "edsText": "the elt site on cerro armazones got its first foundations.",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 220,
+        "w": 226,
+        "h": 99
+       },
+       "eds": {
+        "x": 20,
+        "y": 220,
+        "w": 226,
+        "h": 99,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "22/33/400",
+        "eds": "22/33/400"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "text",
+       "tag": "span",
+       "sel": "span.timeline-content-year",
+       "text": "may 2018",
+       "boxed": false,
+       "x": 20,
+       "y": 24,
+       "w": 121,
+       "h": 34,
+       "absY": 5684,
+       "hidden": false,
+       "fs": 28,
+       "lh": 42,
+       "fw": "400",
+       "color": "rgb(225, 150, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "text:may 2018"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 47,
+       "y": 5660,
+       "w": 266,
+       "h": 355
+      },
+      "eds": {
+       "x": 47,
+       "y": 5660,
+       "w": 266,
+       "h": 355
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 2,
+      "off": 1,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 13,
+     "origin": {
+      "path": "div.timeline-container > div.timeline > div.timeline-content"
+     },
+     "eds": {
+      "path": "div.timeline-stage > div.timeline-column > div.timeline-content.has-link"
+     },
+     "rows": [
+      {
+       "key": "link:jan 2018 first elt main mirror segments ",
+       "role": "link",
+       "text": "jan 2018 first elt main mirror segments successfully cast th",
+       "edsText": "jan 2018",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 36,
+        "w": 226,
+        "h": 466
+       },
+       "eds": {
+        "x": 20,
+        "y": 24,
+        "w": 111,
+        "h": 34,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -12,
+       "dw": -115,
+       "dh": -432,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "28/42/400"
+       }
+      },
+      {
+       "key": "text:first elt main mirror segments successfu",
+       "role": "text",
+       "text": "first elt main mirror segments successfully cast",
+       "edsText": "first elt main mirror segments successfully cast",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 62,
+        "w": 226,
+        "h": 242
+       },
+       "eds": {
+        "x": 20,
+        "y": 62,
+        "w": 226,
+        "h": 242,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "34/42/600",
+        "eds": "34/42/600"
+       }
+      },
+      {
+       "key": "text:the first hexagonal segments for the mai",
+       "role": "text",
+       "text": "the first hexagonal segments for the main mirror of elt were",
+       "edsText": "the first hexagonal segments for the main mirror of elt were",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 304,
+        "w": 226,
+        "h": 198
+       },
+       "eds": {
+        "x": 20,
+        "y": 304,
+        "w": 226,
+        "h": 198,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "22/33/400",
+        "eds": "22/33/400"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "text",
+       "tag": "span",
+       "sel": "span.timeline-content-year",
+       "text": "jan 2018",
+       "boxed": false,
+       "x": 20,
+       "y": 24,
+       "w": 114,
+       "h": 34,
+       "absY": 6059,
+       "hidden": false,
+       "fs": 28,
+       "lh": 42,
+       "fw": "400",
+       "color": "rgb(225, 150, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "text:jan 2018"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 47,
+       "y": 6035,
+       "w": 266,
+       "h": 538
+      },
+      "eds": {
+       "x": 47,
+       "y": 6035,
+       "w": 266,
+       "h": 538
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 2,
+      "off": 1,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 14,
+     "origin": {
+      "path": "div.timeline-container > div.timeline > div.timeline-content"
+     },
+     "eds": {
+      "path": "div.timeline-stage > div.timeline-column > div.timeline-content.has-link"
+     },
+     "rows": [
+      {
+       "key": "link:may 2016 contract awarded for constructi",
+       "role": "link",
+       "text": "may 2016 contract awarded for construction of dome and main ",
+       "edsText": "may 2016",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 36,
+        "w": 226,
+        "h": 583
+       },
+       "eds": {
+        "x": 20,
+        "y": 24,
+        "w": 119,
+        "h": 34,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -12,
+       "dw": -107,
+       "dh": -549,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "28/42/400"
+       }
+      },
+      {
+       "key": "text:contract awarded for construction of dom",
+       "role": "text",
+       "text": "contract awarded for construction of dome and main telescope",
+       "edsText": "contract awarded for construction of dome and main telescope",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 62,
+        "w": 226,
+        "h": 326
+       },
+       "eds": {
+        "x": 20,
+        "y": 62,
+        "w": 226,
+        "h": 326,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "34/42/600",
+        "eds": "34/42/600"
+       }
+      },
+      {
+       "key": "text:at a ceremony in garching bei münchen, g",
+       "role": "text",
+       "text": "at a ceremony in garching bei münchen, germany, eso signed t",
+       "edsText": "at a ceremony in garching bei münchen, germany, eso signed t",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 388,
+        "w": 226,
+        "h": 231
+       },
+       "eds": {
+        "x": 20,
+        "y": 388,
+        "w": 226,
+        "h": 231,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "22/33/400",
+        "eds": "22/33/400"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "text",
+       "tag": "span",
+       "sel": "span.timeline-content-year",
+       "text": "may 2016",
+       "boxed": false,
+       "x": 20,
+       "y": 24,
+       "w": 121,
+       "h": 34,
+       "absY": 6617,
+       "hidden": false,
+       "fs": 28,
+       "lh": 42,
+       "fw": "400",
+       "color": "rgb(225, 150, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "text:may 2016"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 47,
+       "y": 6593,
+       "w": 266,
+       "h": 655
+      },
+      "eds": {
+       "x": 47,
+       "y": 6593,
+       "w": 266,
+       "h": 655
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 2,
+      "off": 1,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 15,
+     "origin": {
+      "path": "div.timeline-container > div.timeline > div.timeline-content"
+     },
+     "eds": {
+      "path": "div.timeline-stage > div.timeline-column > div.timeline-content.has-link"
+     },
+     "rows": [
+      {
+       "key": "link:dec 2015 agreement signed for maory agre",
+       "role": "link",
+       "text": "dec 2015 agreement signed for maory agreement signed for the",
+       "edsText": "dec 2015",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 36,
+        "w": 226,
+        "h": 316
+       },
+       "eds": {
+        "x": 20,
+        "y": 24,
+        "w": 116,
+        "h": 34,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -12,
+       "dw": -110,
+       "dh": -282,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "28/42/400"
+       }
+      },
+      {
+       "key": "text:agreement signed for maory",
+       "role": "text",
+       "text": "agreement signed for maory",
+       "edsText": "agreement signed for maory",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 62,
+        "w": 226,
+        "h": 158
+       },
+       "eds": {
+        "x": 20,
+        "y": 62,
+        "w": 226,
+        "h": 158,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "34/42/600",
+        "eds": "34/42/600"
+       }
+      },
+      {
+       "key": "text:agreement signed for the elt's maory ins",
+       "role": "text",
+       "text": "agreement signed for the elt's maory instrument, since renam",
+       "edsText": "agreement signed for the elt's maory instrument, since renam",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 220,
+        "w": 226,
+        "h": 132
+       },
+       "eds": {
+        "x": 20,
+        "y": 220,
+        "w": 226,
+        "h": 132,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "22/33/400",
+        "eds": "22/33/400"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "text",
+       "tag": "span",
+       "sel": "span.timeline-content-year",
+       "text": "dec 2015",
+       "boxed": false,
+       "x": 20,
+       "y": 24,
+       "w": 118,
+       "h": 34,
+       "absY": 7292,
+       "hidden": false,
+       "fs": 28,
+       "lh": 42,
+       "fw": "400",
+       "color": "rgb(225, 150, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "text:dec 2015"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 47,
+       "y": 7268,
+       "w": 266,
+       "h": 388
+      },
+      "eds": {
+       "x": 47,
+       "y": 7268,
+       "w": 266,
+       "h": 388
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 2,
+      "off": 1,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 16,
+     "origin": {
+      "path": "div.timeline-container > div.timeline > div.timeline-content"
+     },
+     "eds": {
+      "path": "div.timeline-stage > div.timeline-column > div.timeline-content.has-link"
+     },
+     "rows": [
+      {
+       "key": "link:sep 2015 agreement signed for metis eso ",
+       "role": "link",
+       "text": "sep 2015 agreement signed for metis eso has signed an agreem",
+       "edsText": "sep 2015",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 36,
+        "w": 226,
+        "h": 316
+       },
+       "eds": {
+        "x": 20,
+        "y": 24,
+        "w": 116,
+        "h": 34,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -12,
+       "dw": -110,
+       "dh": -282,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "28/42/400"
+       }
+      },
+      {
+       "key": "text:agreement signed for metis",
+       "role": "text",
+       "text": "agreement signed for metis",
+       "edsText": "agreement signed for metis",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 62,
+        "w": 226,
+        "h": 158
+       },
+       "eds": {
+        "x": 20,
+        "y": 62,
+        "w": 226,
+        "h": 158,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "34/42/600",
+        "eds": "34/42/600"
+       }
+      },
+      {
+       "key": "text:eso has signed an agreement for the desi",
+       "role": "text",
+       "text": "eso has signed an agreement for the design and construction ",
+       "edsText": "eso has signed an agreement for the design and construction ",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 220,
+        "w": 226,
+        "h": 132
+       },
+       "eds": {
+        "x": 20,
+        "y": 220,
+        "w": 226,
+        "h": 132,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "22/33/400",
+        "eds": "22/33/400"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "text",
+       "tag": "span",
+       "sel": "span.timeline-content-year",
+       "text": "sep 2015",
+       "boxed": false,
+       "x": 20,
+       "y": 24,
+       "w": 118,
+       "h": 34,
+       "absY": 7700,
+       "hidden": false,
+       "fs": 28,
+       "lh": 42,
+       "fw": "400",
+       "color": "rgb(225, 150, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "text:sep 2015"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 47,
+       "y": 7676,
+       "w": 266,
+       "h": 388
+      },
+      "eds": {
+       "x": 47,
+       "y": 7676,
+       "w": 266,
+       "h": 388
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 2,
+      "off": 1,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 17,
+     "origin": {
+      "path": "div.timeline-container > div.timeline > div.timeline-content"
+     },
+     "eds": {
+      "path": "div.timeline-stage > div.timeline-column > div.timeline-content.has-link"
+     },
+     "rows": [
+      {
+       "key": "link:sep 2015 agreement signed for harmoni ag",
+       "role": "link",
+       "text": "sep 2015 agreement signed for harmoni agreement signed for t",
+       "edsText": "sep 2015",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 36,
+        "w": 226,
+        "h": 316
+       },
+       "eds": {
+        "x": 20,
+        "y": 24,
+        "w": 116,
+        "h": 34,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -12,
+       "dw": -110,
+       "dh": -282,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "28/42/400"
+       }
+      },
+      {
+       "key": "text:agreement signed for harmoni",
+       "role": "text",
+       "text": "agreement signed for harmoni",
+       "edsText": "agreement signed for harmoni",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 62,
+        "w": 226,
+        "h": 158
+       },
+       "eds": {
+        "x": 20,
+        "y": 62,
+        "w": 226,
+        "h": 158,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "34/42/600",
+        "eds": "34/42/600"
+       }
+      },
+      {
+       "key": "text:agreement signed for the design and cons",
+       "role": "text",
+       "text": "agreement signed for the design and construction of harmoni",
+       "edsText": "agreement signed for the design and construction of harmoni",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 220,
+        "w": 226,
+        "h": 132
+       },
+       "eds": {
+        "x": 20,
+        "y": 220,
+        "w": 226,
+        "h": 132,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "22/33/400",
+        "eds": "22/33/400"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "text",
+       "tag": "span",
+       "sel": "span.timeline-content-year",
+       "text": "sep 2015",
+       "boxed": false,
+       "x": 20,
+       "y": 24,
+       "w": 118,
+       "h": 34,
+       "absY": 8108,
+       "hidden": false,
+       "fs": 28,
+       "lh": 42,
+       "fw": "400",
+       "color": "rgb(225, 150, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "text:sep 2015"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 47,
+       "y": 8084,
+       "w": 266,
+       "h": 388
+      },
+      "eds": {
+       "x": 47,
+       "y": 8084,
+       "w": 266,
+       "h": 388
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 2,
+      "off": 1,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 18,
+     "origin": {
+      "path": "div.timeline-container > div.timeline > div.timeline-content"
+     },
+     "eds": {
+      "path": "div.timeline-stage > div.timeline-column > div.timeline-content.has-link"
+     },
+     "rows": [
+      {
+       "key": "link:sep 2015 agreement signed for micado eso",
+       "role": "link",
+       "text": "sep 2015 agreement signed for micado eso has signed an agree",
+       "edsText": "sep 2015",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 36,
+        "w": 226,
+        "h": 283
+       },
+       "eds": {
+        "x": 20,
+        "y": 24,
+        "w": 116,
+        "h": 34,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -12,
+       "dw": -110,
+       "dh": -249,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "28/42/400"
+       }
+      },
+      {
+       "key": "text:agreement signed for micado",
+       "role": "text",
+       "text": "agreement signed for micado",
+       "edsText": "agreement signed for micado",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 62,
+        "w": 226,
+        "h": 158
+       },
+       "eds": {
+        "x": 20,
+        "y": 62,
+        "w": 226,
+        "h": 158,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "34/42/600",
+        "eds": "34/42/600"
+       }
+      },
+      {
+       "key": "text:eso has signed an agreement to design an",
+       "role": "text",
+       "text": "eso has signed an agreement to design and construct micado",
+       "edsText": "eso has signed an agreement to design and construct micado",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 220,
+        "w": 226,
+        "h": 99
+       },
+       "eds": {
+        "x": 20,
+        "y": 220,
+        "w": 226,
+        "h": 99,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "22/33/400",
+        "eds": "22/33/400"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "text",
+       "tag": "span",
+       "sel": "span.timeline-content-year",
+       "text": "sep 2015",
+       "boxed": false,
+       "x": 20,
+       "y": 24,
+       "w": 118,
+       "h": 34,
+       "absY": 8516,
+       "hidden": false,
+       "fs": 28,
+       "lh": 42,
+       "fw": "400",
+       "color": "rgb(225, 150, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "text:sep 2015"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 47,
+       "y": 8492,
+       "w": 266,
+       "h": 355
+      },
+      "eds": {
+       "x": 47,
+       "y": 8492,
+       "w": 266,
+       "h": 355
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 2,
+      "off": 1,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 19,
+     "origin": {
+      "path": "div.timeline-container > div.timeline > div.timeline-content"
+     },
+     "eds": {
+      "path": "div.timeline-stage > div.timeline-column > div.timeline-content.has-link"
+     },
+     "rows": [
+      {
+       "key": "link:dec 2014 green light given for elt const",
+       "role": "link",
+       "text": "dec 2014 green light given for elt construction eso’s main g",
+       "edsText": "dec 2014",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 36,
+        "w": 226,
+        "h": 349
+       },
+       "eds": {
+        "x": 20,
+        "y": 24,
+        "w": 116,
+        "h": 34,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -12,
+       "dw": -110,
+       "dh": -315,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "28/42/400"
+       }
+      },
+      {
+       "key": "text:green light given for elt construction",
+       "role": "text",
+       "text": "green light given for elt construction",
+       "edsText": "green light given for elt construction",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 62,
+        "w": 226,
+        "h": 158
+       },
+       "eds": {
+        "x": 20,
+        "y": 62,
+        "w": 226,
+        "h": 158,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "34/42/600",
+        "eds": "34/42/600"
+       }
+      },
+      {
+       "key": "text:eso’s main governing body, the council, ",
+       "role": "text",
+       "text": "eso’s main governing body, the council, gave the green light",
+       "edsText": "eso’s main governing body, the council, gave the green light",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 220,
+        "w": 226,
+        "h": 165
+       },
+       "eds": {
+        "x": 20,
+        "y": 220,
+        "w": 226,
+        "h": 165,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "22/33/400",
+        "eds": "22/33/400"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "text",
+       "tag": "span",
+       "sel": "span.timeline-content-year",
+       "text": "dec 2014",
+       "boxed": false,
+       "x": 20,
+       "y": 24,
+       "w": 118,
+       "h": 34,
+       "absY": 8891,
+       "hidden": false,
+       "fs": 28,
+       "lh": 42,
+       "fw": "400",
+       "color": "rgb(225, 150, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "text:dec 2014"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 47,
+       "y": 8867,
+       "w": 266,
+       "h": 421
+      },
+      "eds": {
+       "x": 47,
+       "y": 8867,
+       "w": 266,
+       "h": 421
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 2,
+      "off": 1,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 20,
+     "origin": {
+      "path": "div.timeline-container > div.timeline > div.timeline-content"
+     },
+     "eds": {
+      "path": "div.timeline-stage > div.timeline-column > div.timeline-content.has-link"
+     },
+     "rows": [
+      {
+       "key": "link:jun 2014 part of cerro armazones peak fl",
+       "role": "link",
+       "text": "jun 2014 part of cerro armazones peak flattened to make spac",
+       "edsText": "jun 2014",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 36,
+        "w": 226,
+        "h": 532
+       },
+       "eds": {
+        "x": 20,
+        "y": 24,
+        "w": 111,
+        "h": 34,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -12,
+       "dw": -115,
+       "dh": -498,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "28/42/400"
+       }
+      },
+      {
+       "key": "text:part of cerro armazones peak flattened t",
+       "role": "text",
+       "text": "part of cerro armazones peak flattened to make space for elt",
+       "edsText": "part of cerro armazones peak flattened to make space for elt",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 62,
+        "w": 226,
+        "h": 242
+       },
+       "eds": {
+        "x": 20,
+        "y": 62,
+        "w": 226,
+        "h": 242,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "34/42/600",
+        "eds": "34/42/600"
+       }
+      },
+      {
+       "key": "text:part of the 3000-metre peak of cerro arm",
+       "role": "text",
+       "text": "part of the 3000-metre peak of cerro armazones was blasted a",
+       "edsText": "part of the 3000-metre peak of cerro armazones was blasted a",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 304,
+        "w": 226,
+        "h": 264
+       },
+       "eds": {
+        "x": 20,
+        "y": 304,
+        "w": 226,
+        "h": 231,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": -33,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "22/33/400",
+        "eds": "22/33/400"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "text",
+       "tag": "span",
+       "sel": "span.timeline-content-year",
+       "text": "jun 2014",
+       "boxed": false,
+       "x": 20,
+       "y": 24,
+       "w": 114,
+       "h": 34,
+       "absY": 9332,
+       "hidden": false,
+       "fs": 28,
+       "lh": 42,
+       "fw": "400",
+       "color": "rgb(225, 150, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "text:jun 2014"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 47,
+       "y": 9308,
+       "w": 266,
+       "h": 604
+      },
+      "eds": {
+       "x": 47,
+       "y": 9308,
+       "w": 266,
+       "h": 571
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": -33
+     },
+     "summary": {
+      "elements": 4,
+      "within": 1,
+      "off": 2,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 21,
+     "origin": {
+      "path": "div.timeline-container > div.timeline > div.timeline-content"
+     },
+     "eds": {
+      "path": "div.timeline-stage > div.timeline-column > div.timeline-content.has-link"
+     },
+     "rows": [
+      {
+       "key": "link:mar 2014 construction begins on road to ",
+       "role": "link",
+       "text": "mar 2014 construction begins on road to cerro armazones the ",
+       "edsText": "mar 2014",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 36,
+        "w": 226,
+        "h": 523
+       },
+       "eds": {
+        "x": 20,
+        "y": 24,
+        "w": 114,
+        "h": 34,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -12,
+       "dw": -112,
+       "dh": -489,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "28/42/400"
+       }
+      },
+      {
+       "key": "text:construction begins on road to cerro arm",
+       "role": "text",
+       "text": "construction begins on road to cerro armazones",
+       "edsText": "construction begins on road to cerro armazones",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 62,
+        "w": 226,
+        "h": 200
+       },
+       "eds": {
+        "x": 20,
+        "y": 62,
+        "w": 226,
+        "h": 200,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "34/42/600",
+        "eds": "34/42/600"
+       }
+      },
+      {
+       "key": "text:the civil works for the elt began. the c",
+       "role": "text",
+       "text": "the civil works for the elt began. the chilean company, icaf",
+       "edsText": "the civil works for the elt began. the chilean company, icaf",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 262,
+        "w": 226,
+        "h": 297
+       },
+       "eds": {
+        "x": 20,
+        "y": 262,
+        "w": 226,
+        "h": 297,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "22/33/400",
+        "eds": "22/33/400"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "text",
+       "tag": "span",
+       "sel": "span.timeline-content-year",
+       "text": "mar 2014",
+       "boxed": false,
+       "x": 20,
+       "y": 24,
+       "w": 117,
+       "h": 34,
+       "absY": 9956,
+       "hidden": false,
+       "fs": 28,
+       "lh": 42,
+       "fw": "400",
+       "color": "rgb(225, 150, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "text:mar 2014"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 47,
+       "y": 9932,
+       "w": 266,
+       "h": 595
+      },
+      "eds": {
+       "x": 47,
+       "y": 9899,
+       "w": 266,
+       "h": 595
+      },
+      "dx": 0,
+      "dy": -33,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 2,
+      "off": 1,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 22,
+     "origin": {
+      "path": "div.timeline-container > div.timeline > div.timeline-content"
+     },
+     "eds": {
+      "path": "div.timeline-stage > div.timeline-column > div.timeline-content.has-link"
+     },
+     "rows": [
+      {
+       "key": "link:oct 2013 land around cerro armazones don",
+       "role": "link",
+       "text": "oct 2013 land around cerro armazones donated to eso for the ",
+       "edsText": "oct 2013",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 36,
+        "w": 226,
+        "h": 574
+       },
+       "eds": {
+        "x": 20,
+        "y": 24,
+        "w": 110,
+        "h": 34,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -12,
+       "dw": -116,
+       "dh": -540,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "28/42/400"
+       }
+      },
+      {
+       "key": "text:land around cerro armazones donated to e",
+       "role": "text",
+       "text": "land around cerro armazones donated to eso for the elt site",
+       "edsText": "land around cerro armazones donated to eso for the elt site",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 62,
+        "w": 226,
+        "h": 284
+       },
+       "eds": {
+        "x": 20,
+        "y": 62,
+        "w": 226,
+        "h": 284,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "34/42/600",
+        "eds": "34/42/600"
+       }
+      },
+      {
+       "key": "text:the president of chile sebastián piñera ",
+       "role": "text",
+       "text": "the president of chile sebastián piñera handed over the lega",
+       "edsText": "the president of chile sebastián piñera handed over the lega",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 346,
+        "w": 226,
+        "h": 264
+       },
+       "eds": {
+        "x": 20,
+        "y": 346,
+        "w": 226,
+        "h": 264,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "22/33/400",
+        "eds": "22/33/400"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "text",
+       "tag": "span",
+       "sel": "span.timeline-content-year",
+       "text": "oct 2013",
+       "boxed": false,
+       "x": 20,
+       "y": 24,
+       "w": 114,
+       "h": 34,
+       "absY": 10571,
+       "hidden": false,
+       "fs": 28,
+       "lh": 42,
+       "fw": "400",
+       "color": "rgb(225, 150, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "text:oct 2013"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 47,
+       "y": 10547,
+       "w": 266,
+       "h": 646
+      },
+      "eds": {
+       "x": 47,
+       "y": 10514,
+       "w": 266,
+       "h": 646
+      },
+      "dx": 0,
+      "dy": -33,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 2,
+      "off": 1,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 23,
+     "origin": {
+      "path": "div.timeline-container > div.timeline > div.timeline-content"
+     },
+     "eds": {
+      "path": "div.timeline-stage > div.timeline-column > div.timeline-content.has-link"
+     },
+     "rows": [
+      {
+       "key": "link:jun 2012 eso council approves elt progra",
+       "role": "link",
+       "text": "jun 2012 eso council approves elt programme eso’s governing ",
+       "edsText": "jun 2012",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 36,
+        "w": 226,
+        "h": 382
+       },
+       "eds": {
+        "x": 20,
+        "y": 24,
+        "w": 111,
+        "h": 34,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -12,
+       "dw": -115,
+       "dh": -348,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "28/42/400"
+       }
+      },
+      {
+       "key": "text:eso council approves elt programme",
+       "role": "text",
+       "text": "eso council approves elt programme",
+       "edsText": "eso council approves elt programme",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 62,
+        "w": 226,
+        "h": 158
+       },
+       "eds": {
+        "x": 20,
+        "y": 62,
+        "w": 226,
+        "h": 158,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "34/42/600",
+        "eds": "34/42/600"
+       }
+      },
+      {
+       "key": "text:eso’s governing body, the council, met a",
+       "role": "text",
+       "text": "eso’s governing body, the council, met at the eso headquarte",
+       "edsText": "eso’s governing body, the council, met at the eso headquarte",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 220,
+        "w": 226,
+        "h": 198
+       },
+       "eds": {
+        "x": 20,
+        "y": 220,
+        "w": 226,
+        "h": 198,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "22/33/400",
+        "eds": "22/33/400"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "text",
+       "tag": "span",
+       "sel": "span.timeline-content-year",
+       "text": "jun 2012",
+       "boxed": false,
+       "x": 20,
+       "y": 24,
+       "w": 114,
+       "h": 34,
+       "absY": 11237,
+       "hidden": false,
+       "fs": 28,
+       "lh": 42,
+       "fw": "400",
+       "color": "rgb(225, 150, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "text:jun 2012"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 47,
+       "y": 11213,
+       "w": 266,
+       "h": 454
+      },
+      "eds": {
+       "x": 47,
+       "y": 11180,
+       "w": 266,
+       "h": 454
+      },
+      "dx": 0,
+      "dy": -33,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 2,
+      "off": 1,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 24,
+     "origin": {
+      "path": "div.timeline-container > div.timeline > div.timeline-content"
+     },
+     "eds": {
+      "path": "div.timeline-stage > div.timeline-column > div.timeline-content.has-link"
+     },
+     "rows": [
+      {
+       "key": "link:oct 2011 eso and chile sign agreement on",
+       "role": "link",
+       "text": "oct 2011 eso and chile sign agreement on elt the republic of",
+       "edsText": "oct 2011",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 36,
+        "w": 226,
+        "h": 556
+       },
+       "eds": {
+        "x": 20,
+        "y": 24,
+        "w": 110,
+        "h": 34,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -12,
+       "dw": -116,
+       "dh": -522,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "28/42/400"
+       }
+      },
+      {
+       "key": "text:eso and chile sign agreement on elt",
+       "role": "text",
+       "text": "eso and chile sign agreement on elt",
+       "edsText": "eso and chile sign agreement on elt",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 62,
+        "w": 226,
+        "h": 200
+       },
+       "eds": {
+        "x": 20,
+        "y": 62,
+        "w": 226,
+        "h": 200,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "34/42/600",
+        "eds": "34/42/600"
+       }
+      },
+      {
+       "key": "text:the republic of chile and eso signed an ",
+       "role": "text",
+       "text": "the republic of chile and eso signed an agreement regarding ",
+       "edsText": "the republic of chile and eso signed an agreement regarding ",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 262,
+        "w": 226,
+        "h": 330
+       },
+       "eds": {
+        "x": 20,
+        "y": 262,
+        "w": 226,
+        "h": 330,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "22/33/400",
+        "eds": "22/33/400"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "text",
+       "tag": "span",
+       "sel": "span.timeline-content-year",
+       "text": "oct 2011",
+       "boxed": false,
+       "x": 20,
+       "y": 24,
+       "w": 114,
+       "h": 34,
+       "absY": 11711,
+       "hidden": false,
+       "fs": 28,
+       "lh": 42,
+       "fw": "400",
+       "color": "rgb(225, 150, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "text:oct 2011"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 47,
+       "y": 11687,
+       "w": 266,
+       "h": 628
+      },
+      "eds": {
+       "x": 47,
+       "y": 11654,
+       "w": 266,
+       "h": 628
+      },
+      "dx": 0,
+      "dy": -33,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 2,
+      "off": 1,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 25,
+     "origin": {
+      "path": "div.timeline-container > div.timeline > div.timeline-content"
+     },
+     "eds": {
+      "path": "div.timeline-stage > div.timeline-column > div.timeline-content.has-link"
+     },
+     "rows": [
+      {
+       "key": "link:apr 2010 cerro armazones selected as sit",
+       "role": "link",
+       "text": "apr 2010 cerro armazones selected as site for elt cerro arma",
+       "edsText": "apr 2010",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 36,
+        "w": 226,
+        "h": 721
+       },
+       "eds": {
+        "x": 20,
+        "y": 24,
+        "w": 110,
+        "h": 34,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -12,
+       "dw": -116,
+       "dh": -687,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "28/42/400"
+       }
+      },
+      {
+       "key": "text:cerro armazones selected as site for elt",
+       "role": "text",
+       "text": "cerro armazones selected as site for elt",
+       "edsText": "cerro armazones selected as site for elt",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 62,
+        "w": 226,
+        "h": 200
+       },
+       "eds": {
+        "x": 20,
+        "y": 62,
+        "w": 226,
+        "h": 200,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "34/42/600",
+        "eds": "34/42/600"
+       }
+      },
+      {
+       "key": "text:cerro armazones was chosen as the site f",
+       "role": "text",
+       "text": "cerro armazones was chosen as the site for the elt by eso's ",
+       "edsText": "cerro armazones was chosen as the site for the elt by eso's ",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 262,
+        "w": 226,
+        "h": 495
+       },
+       "eds": {
+        "x": 20,
+        "y": 262,
+        "w": 226,
+        "h": 528,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 33,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "22/33/400",
+        "eds": "22/33/400"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "text",
+       "tag": "span",
+       "sel": "span.timeline-content-year",
+       "text": "apr 2010",
+       "boxed": false,
+       "x": 20,
+       "y": 24,
+       "w": 113,
+       "h": 34,
+       "absY": 12359,
+       "hidden": false,
+       "fs": 28,
+       "lh": 42,
+       "fw": "400",
+       "color": "rgb(225, 150, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "text:apr 2010"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 47,
+       "y": 12335,
+       "w": 266,
+       "h": 793
+      },
+      "eds": {
+       "x": 47,
+       "y": 12302,
+       "w": 266,
+       "h": 826
+      },
+      "dx": 0,
+      "dy": -33,
+      "dw": 0,
+      "dh": 33
+     },
+     "summary": {
+      "elements": 4,
+      "within": 1,
+      "off": 2,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": true
+     }
+    },
+    {
+     "index": 26,
+     "origin": {
+      "path": "div.timeline-container > div.timeline > div.timeline-content"
+     },
+     "eds": {
+      "path": "div.timeline-stage > div.timeline-column > div.timeline-content.has-link"
+     },
+     "rows": [
+      {
+       "key": "link:dec 2006 green light given for detailed ",
+       "role": "link",
+       "text": "dec 2006 green light given for detailed elt study eso counci",
+       "edsText": "dec 2006",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 36,
+        "w": 226,
+        "h": 490
+       },
+       "eds": {
+        "x": 20,
+        "y": 24,
+        "w": 116,
+        "h": 34,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -12,
+       "dw": -110,
+       "dh": -456,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "28/42/400"
+       }
+      },
+      {
+       "key": "text:green light given for detailed elt study",
+       "role": "text",
+       "text": "green light given for detailed elt study",
+       "edsText": "green light given for detailed elt study",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 62,
+        "w": 226,
+        "h": 200
+       },
+       "eds": {
+        "x": 20,
+        "y": 62,
+        "w": 226,
+        "h": 200,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "34/42/600",
+        "eds": "34/42/600"
+       }
+      },
+      {
+       "key": "text:eso council decided to proceed with deta",
+       "role": "text",
+       "text": "eso council decided to proceed with detailed studies for elt",
+       "edsText": "eso council decided to proceed with detailed studies for elt",
+       "byPosition": false,
+       "origin": {
+        "x": 20,
+        "y": 262,
+        "w": 226,
+        "h": 264
+       },
+       "eds": {
+        "x": 20,
+        "y": 262,
+        "w": 226,
+        "h": 231,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": -33,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "22/33/400",
+        "eds": "22/33/400"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "text",
+       "tag": "span",
+       "sel": "span.timeline-content-year",
+       "text": "dec 2006",
+       "boxed": false,
+       "x": 20,
+       "y": 24,
+       "w": 118,
+       "h": 34,
+       "absY": 13172,
+       "hidden": false,
+       "fs": 28,
+       "lh": 42,
+       "fw": "400",
+       "color": "rgb(225, 150, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "text:dec 2006"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 47,
+       "y": 13148,
+       "w": 266,
+       "h": 562
+      },
+      "eds": {
+       "x": 47,
+       "y": 13148,
+       "w": 266,
+       "h": 529
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": -33
+     },
+     "summary": {
+      "elements": 4,
+      "within": 1,
+      "off": 2,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": true
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 27,
+  "within": 61,
+  "off": 20,
+  "hidden": 0,
+  "missing": 17,
+  "errors": 1,
+  "requiredOff": 37
+ }
+}

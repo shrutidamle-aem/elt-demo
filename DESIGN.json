@@ -1,0 +1,1070 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-11-13T12:11:30.607Z",
+    "mode": "descriptive",
+    "readArtifacts": [
+      "stardust/current/_computed-styles.json",
+      "stardust/current/assets/css/elt_assets.66fa71510905.css",
+      "stardust/current/pages/*.html"
+    ]
+  },
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-13T12:11:30.607Z",
+  "title": "Design System: ESO — The Extremely Large Telescope (elt.eso.org), current state",
+  "tokens": {
+    "colors": {
+      "eso-blue": "#0077be",
+      "header-blue": "#2da4f5",
+      "eso-orange": "#e88526",
+      "black": "#000000",
+      "white": "#ffffff",
+      "surface-light": "#e8e8e8",
+      "surface-darkblue": "#0b1627",
+      "surface-footer": "#202020",
+      "text-body-dark": "#212529",
+      "eso-blue-deep": "#005e97",
+      "border-light": "#dee2e6",
+      "grey-666": "#666666"
+    },
+    "typography": {
+      "page-title": {
+        "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+        "fontSize": "3.34375rem (≥1440) · 3rem (≥1200) · 2.71875rem (≥992) · 2.15625rem (≥576) · 1.875rem (<576)",
+        "fontWeight": 400,
+        "textShadow": "2px 0 black"
+      },
+      "section-title": {
+        "fontFamily": "\"Helvetica Neue LT ESO\"",
+        "fontSize": "2rem (≥1440) · 1.9375rem (≥1200) · 1.84375rem (≥992) · 1.75rem (≥768) · 1.6875rem (≥576) · 1.625rem (<576)",
+        "fontWeight": 600
+      },
+      "section-text": {
+        "fontFamily": "\"Helvetica Neue LT ESO\"",
+        "fontSize": "1.21875rem/2.0625rem (≥1440) · 1.15625rem/2rem (≥1200) · 1.125rem/1.90625rem (≥992) · 1.03125rem/1.75rem (≥576) · 1rem/1.6875rem (<576)",
+        "fontWeight": 400
+      },
+      "header-title": {
+        "fontFamily": "\"Helvetica Neue LT ESO\"",
+        "fontSize": "2.25rem (≥1440) · 2.125rem (≥1200) · 2.03125rem (≥992) · 1.875rem (≥576) · 1.75rem (<576)",
+        "fontWeight": 600,
+        "color": "#2da4f5"
+      },
+      "header-subtitle": {
+        "fontFamily": "\"Helvetica Neue LT ESO\"",
+        "fontSize": "1.5625rem/2.375rem (≥576) · 1.5rem/2.25rem (<576)"
+      },
+      "header-description": {
+        "fontFamily": "\"Helvetica Neue LT ESO\"",
+        "fontSize": "0.9375rem/1.6875rem (≥576) · 0.875rem/1.625rem (<576)"
+      },
+      "thin": {
+        "fontFamily": "\"Helvetica Neue LT ESO Light\" (Helvetica Neue LT W04 35 Thin)"
+      }
+    },
+    "rounded": {
+      "sm": "5px"
+    },
+    "spacing": {
+      "container-gutter": "10.5%",
+      "section-top": "2rem",
+      "top-bar": "50px"
+    }
+  },
+  "extensions": {
+    "fonts": {
+      "files": "stardust/current/assets/fonts/fonts.json",
+      "licensing": "proprietary fonts.com kit (Helvetica Neue LT W04 35/45/46/55/65) — self-hosted with licensing alert, one register entry",
+      "iconFonts": [
+        "Font Awesome 5 Free/Brands 5.15.1 (OFL/CC-BY)",
+        "Material Icons (Google Fonts, Apache-2.0)"
+      ]
+    },
+    "sourceBreakpoints": [
+      320,
+      480,
+      576,
+      768,
+      992,
+      1200,
+      1440,
+      1680,
+      1920
+    ],
+    "componentStyle": {
+      "topBar": "#top-navbar fixed-top, 50px, black; ESO logo (eso_logo.jpg, 50px high ≥576), member-state flag sprites, language dropdown, search, social icons",
+      "hero": "img.big-header-image position:fixed top:50px width:100vw z-index:-1 (page scrolls over it); .big-header-text height 46.875vw transparent with .big-header-title bottom 14% left/right 10.5%",
+      "secondaryNav": "nav.navbar (d-lg-flex) under the hero: uppercase section links with dark dropdowns",
+      "sections": ".container-fluid bands: container-light #e8e8e8/#000, container-dark #000/#fff, container-darkblue #0b1627/#fff, bar-medium-dark #202020; padding-top 2rem; inner .container-paragraph padding 0 10.5%",
+      "footer": "footer.container-footer #202020, 1rem padding, one line: \"ESO | ELT © <year>\" + Credits | Contact us | Subscribe to ESO news | Accelerated by CDN77 | Terms & Conditions | Cookie Settings and Policy"
+    },
+    "motifs": {
+      "radius": "5px (census mode)",
+      "imagery": "full-bleed photography and renders from cdn.eso.org",
+      "trapezoids": "internal-menu-trapezoid / landing-polygon clipped tiles linking sub-pages"
+    },
+    "voice": {
+      "heroHeadline": "THE EXTREMELY LARGE TELESCOPE",
+      "heroLede": "The World's Biggest Eye on the Sky",
+      "heroImage": null,
+      "heroMedium": {
+        "kind": "swiper-carousel",
+        "where": "home science slider (fade, looping)"
+      }
+    },
+    "breakpoints": {
+      "containerMaxWidth": "1400px",
+      "probeWidth": 2560,
+      "shellMaxWidth": null,
+      "caps": [
+        {
+          "kind": "module",
+          "px": 1400,
+          "via": "max-width",
+          "selector": "body > div.privacy-notice > div.privacy-container.centered-container",
+          "pages": [
+            "https://elt.eso.org/",
+            "https://elt.eso.org/telescope/",
+            "https://elt.eso.org/telescope/dome/",
+            "https://elt.eso.org/instrument/HARMONI/",
+            "https://elt.eso.org/about/road/",
+            "https://elt.eso.org/about/facts/",
+            "https://elt.eso.org/about/timeline/",
+            "https://elt.eso.org/media/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1215,
+          "via": "other",
+          "selector": "#consortium_ > div.container-paragraph.section-text-paragraph > p > strong",
+          "pages": [
+            "https://elt.eso.org/instrument/HARMONI/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 960,
+          "via": "fixed",
+          "selector": "body > div.container-fluid.container-dark > div.d-flex.justify-content-center > a",
+          "pages": [
+            "https://elt.eso.org/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 807,
+          "via": "fixed",
+          "selector": "div.position-absolute > div.d-flex.flex-column > div.d-flex.flex-column > div.text-left",
+          "pages": [
+            "https://elt.eso.org/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 695,
+          "via": "fixed",
+          "selector": "div.position-absolute > div.d-flex.flex-column > div.d-flex.flex-column > div.text-left",
+          "pages": [
+            "https://elt.eso.org/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 667,
+          "via": "other",
+          "selector": "div.row.no-gutters > div.col.img-col > div.d-flex.flex-column > div.visuals-hover-title",
+          "pages": [
+            "https://elt.eso.org/media/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 640,
+          "via": "fixed",
+          "selector": "body > div.privacy-notice > div.privacy-container.centered-container > div.privacy-text-element",
+          "pages": [
+            "https://elt.eso.org/",
+            "https://elt.eso.org/telescope/",
+            "https://elt.eso.org/telescope/dome/",
+            "https://elt.eso.org/instrument/HARMONI/",
+            "https://elt.eso.org/about/road/",
+            "https://elt.eso.org/about/facts/",
+            "https://elt.eso.org/about/timeline/",
+            "https://elt.eso.org/media/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 610,
+          "via": "fixed",
+          "selector": "div.position-absolute > div.d-flex.flex-column > div.d-flex.flex-column > div.text-left",
+          "pages": [
+            "https://elt.eso.org/",
+            "https://elt.eso.org/instrument/HARMONI/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 581,
+          "via": "other",
+          "selector": "div.row.no-gutters > div.col.img-col > div.d-flex.flex-column > div.visuals-hover-title",
+          "pages": [
+            "https://elt.eso.org/media/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 550,
+          "via": "other",
+          "selector": "#big-header > div.position-absolute.d-lg-block_",
+          "pages": [
+            "https://elt.eso.org/",
+            "https://elt.eso.org/telescope/",
+            "https://elt.eso.org/telescope/dome/",
+            "https://elt.eso.org/instrument/HARMONI/",
+            "https://elt.eso.org/about/road/",
+            "https://elt.eso.org/about/facts/",
+            "https://elt.eso.org/about/timeline/",
+            "https://elt.eso.org/media/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 446,
+          "via": "other",
+          "selector": "div.row.no-gutters > div.col.img-col > div.d-flex.flex-column > div.visuals-hover-title",
+          "pages": [
+            "https://elt.eso.org/media/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 402,
+          "via": "other",
+          "selector": "body > div.container-fluid.container-light > div.container-paragraph.section-title-paragraph > div",
+          "pages": [
+            "https://elt.eso.org/telescope/",
+            "https://elt.eso.org/instrument/HARMONI/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 380,
+          "via": "fixed",
+          "selector": "div.position-absolute > div.d-flex.flex-column > div.d-flex.flex-column > div.text-left",
+          "pages": [
+            "https://elt.eso.org/",
+            "https://elt.eso.org/telescope/dome/",
+            "https://elt.eso.org/about/road/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 341,
+          "via": "fixed",
+          "selector": "div.position-absolute > div.d-flex.flex-column > div.d-flex.flex-column > div.text-left",
+          "pages": [
+            "https://elt.eso.org/",
+            "https://elt.eso.org/instrument/HARMONI/",
+            "https://elt.eso.org/about/road/",
+            "https://elt.eso.org/media/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 305,
+          "via": "fixed",
+          "selector": "div.position-absolute > div.d-flex.flex-column > div.d-flex.flex-column > div.text-left",
+          "pages": [
+            "https://elt.eso.org/",
+            "https://elt.eso.org/telescope/dome/",
+            "https://elt.eso.org/about/road/",
+            "https://elt.eso.org/media/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 274,
+          "via": "other",
+          "selector": "div.row.d-flex > div.col-xl-6.p-0 > span.position-absolute.internal-menu-title > a",
+          "pages": [
+            "https://elt.eso.org/instrument/HARMONI/",
+            "https://elt.eso.org/about/road/",
+            "https://elt.eso.org/about/timeline/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 245,
+          "via": "fixed",
+          "selector": "div.position-absolute > div.d-flex.flex-column > div.d-flex.flex-column > div.text-left",
+          "pages": [
+            "https://elt.eso.org/",
+            "https://elt.eso.org/telescope/",
+            "https://elt.eso.org/telescope/dome/",
+            "https://elt.eso.org/instrument/HARMONI/",
+            "https://elt.eso.org/about/road/",
+            "https://elt.eso.org/about/facts/",
+            "https://elt.eso.org/about/timeline/",
+            "https://elt.eso.org/media/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 111,
+          "via": "other",
+          "selector": "div.container-fluid.container-light > div.container-paragraph.section-text-paragraph > p > a",
+          "pages": [
+            "https://elt.eso.org/media/"
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "url": "https://elt.eso.org/",
+          "section": 0,
+          "selector": "#top-navbar",
+          "px": null
+        },
+        {
+          "url": "https://elt.eso.org/",
+          "section": 1,
+          "selector": "body > img.big-header-image.d-block",
+          "px": null
+        },
+        {
+          "url": "https://elt.eso.org/",
+          "section": 2,
+          "selector": "#big-header",
+          "px": 550
+        },
+        {
+          "url": "https://elt.eso.org/",
+          "section": 3,
+          "selector": "#main-navbar",
+          "px": null
+        },
+        {
+          "url": "https://elt.eso.org/",
+          "section": 4,
+          "selector": "body > div.container-fluid.container-dark",
+          "px": null
+        },
+        {
+          "url": "https://elt.eso.org/",
+          "section": 5,
+          "selector": "body > div.container-fluid.container-light",
+          "px": 807
+        },
+        {
+          "url": "https://elt.eso.org/",
+          "section": 6,
+          "selector": "body > div.container-fluid.container-light",
+          "px": null
+        },
+        {
+          "url": "https://elt.eso.org/",
+          "section": 7,
+          "selector": "body > div.container-fluid.container-dark",
+          "px": 960
+        },
+        {
+          "url": "https://elt.eso.org/",
+          "section": 8,
+          "selector": "body > footer.container-fluid.container-footer",
+          "px": null
+        },
+        {
+          "url": "https://elt.eso.org/",
+          "section": 9,
+          "selector": "body > div.privacy-notice",
+          "px": 1400
+        },
+        {
+          "url": "https://elt.eso.org/",
+          "section": 10,
+          "selector": "body > div.privacy-settings",
+          "px": 1400
+        },
+        {
+          "url": "https://elt.eso.org/telescope/",
+          "section": 0,
+          "selector": "#top-navbar",
+          "px": null
+        },
+        {
+          "url": "https://elt.eso.org/telescope/",
+          "section": 1,
+          "selector": "body > img.big-header-image.d-block",
+          "px": null
+        },
+        {
+          "url": "https://elt.eso.org/telescope/",
+          "section": 2,
+          "selector": "#big-header",
+          "px": 550
+        },
+        {
+          "url": "https://elt.eso.org/telescope/",
+          "section": 3,
+          "selector": "#main-navbar",
+          "px": null
+        },
+        {
+          "url": "https://elt.eso.org/telescope/",
+          "section": 4,
+          "selector": "body > div.container-fluid.container-light",
+          "px": 402
+        },
+        {
+          "url": "https://elt.eso.org/telescope/",
+          "section": 5,
+          "selector": "body > div.container-fluid.container-light",
+          "px": null
+        },
+        {
+          "url": "https://elt.eso.org/telescope/",
+          "section": 6,
+          "selector": "body > div.container-fluid.container-light",
+          "px": null
+        },
+        {
+          "url": "https://elt.eso.org/telescope/",
+          "section": 7,
+          "selector": "body > div.container-fluid.container-light",
+          "px": null
+        },
+        {
+          "url": "https://elt.eso.org/telescope/",
+          "section": 8,
+          "selector": "body > div.container-fluid.container-light",
+          "px": null
+        },
+        {
+          "url": "https://elt.eso.org/telescope/",
+          "section": 9,
+          "selector": "body > div.container-fluid.container-light",
+          "px": null
+        },
+        {
+          "url": "https://elt.eso.org/telescope/",
+          "section": 10,
+          "selector": "body > div.container-fluid.container-light",
+          "px": null
+        },
+        {
+          "url": "https://elt.eso.org/telescope/",
+          "section": 11,
+          "selector": "body > footer.container-fluid.container-footer",
+          "px": null
+        },
+        {
+          "url": "https://elt.eso.org/telescope/",
+          "section": 12,
+          "selector": "body > div.privacy-notice",
+          "px": 1400
+        },
+        {
+          "url": "https://elt.eso.org/telescope/",
+          "section": 13,
+          "selector": "body > div.privacy-settings",
+          "px": 1400
+        },
+        {
+          "url": "https://elt.eso.org/telescope/dome/",
+          "section": 0,
+          "selector": "#top-navbar",
+          "px": null
+        },
+        {
+          "url": "https://elt.eso.org/telescope/dome/",
+          "section": 1,
+          "selector": "body > img.big-header-image.d-block",
+          "px": null
+        },
+        {
+          "url": "https://elt.eso.org/telescope/dome/",
+          "section": 2,
+          "selector": "#big-header",
+          "px": 550
+        },
+        {
+          "url": "https://elt.eso.org/telescope/dome/",
+          "section": 3,
+          "selector": "#main-navbar",
+          "px": null
+        },
+        {
+          "url": "https://elt.eso.org/telescope/dome/",
+          "section": 4,
+          "selector": "body > div.container-fluid.container-dark",
+          "px": null
+        },
+        {
+          "url": "https://elt.eso.org/telescope/dome/",
+          "section": 5,
+          "selector": "body > div.container-fluid.container-light",
+          "px": null
+        },
+        {
+          "url": "https://elt.eso.org/telescope/dome/",
+          "section": 6,
+          "selector": "body > div.container-fluid.container-light",
+          "px": 398
+        },
+        {
+          "url": "https://elt.eso.org/telescope/dome/",
+          "section": 7,
+          "selector": "#astroperf_",
+          "px": null
+        },
+        {
+          "url": "https://elt.eso.org/telescope/dome/",
+          "section": 8,
+          "selector": "#enclosurestruct_",
+          "px": null
+        },
+        {
+          "url": "https://elt.eso.org/telescope/dome/",
+          "section": 9,
+          "selector": "body > footer.container-fluid.container-footer",
+          "px": null
+        },
+        {
+          "url": "https://elt.eso.org/telescope/dome/",
+          "section": 10,
+          "selector": "body > div.privacy-notice",
+          "px": 1400
+        },
+        {
+          "url": "https://elt.eso.org/telescope/dome/",
+          "section": 11,
+          "selector": "body > div.privacy-settings",
+          "px": 1400
+        },
+        {
+          "url": "https://elt.eso.org/instrument/HARMONI/",
+          "section": 0,
+          "selector": "#top-navbar",
+          "px": null
+        },
+        {
+          "url": "https://elt.eso.org/instrument/HARMONI/",
+          "section": 1,
+          "selector": "body > img.big-header-image.d-block",
+          "px": null
+        },
+        {
+          "url": "https://elt.eso.org/instrument/HARMONI/",
+          "section": 2,
+          "selector": "#big-header",
+          "px": 550
+        },
+        {
+          "url": "https://elt.eso.org/instrument/HARMONI/",
+          "section": 3,
+          "selector": "#main-navbar",
+          "px": null
+        },
+        {
+          "url": "https://elt.eso.org/instrument/HARMONI/",
+          "section": 4,
+          "selector": "body > div.container-fluid.container-dark",
+          "px": null
+        },
+        {
+          "url": "https://elt.eso.org/instrument/HARMONI/",
+          "section": 5,
+          "selector": "body > div.container-fluid.container-light",
+          "px": null
+        },
+        {
+          "url": "https://elt.eso.org/instrument/HARMONI/",
+          "section": 6,
+          "selector": "body > div.container-fluid.container-light",
+          "px": 558
+        },
+        {
+          "url": "https://elt.eso.org/instrument/HARMONI/",
+          "section": 7,
+          "selector": "#science_",
+          "px": null
+        },
+        {
+          "url": "https://elt.eso.org/instrument/HARMONI/",
+          "section": 8,
+          "selector": "#design_",
+          "px": null
+        },
+        {
+          "url": "https://elt.eso.org/instrument/HARMONI/",
+          "section": 9,
+          "selector": "body > div.container-fluid.container-light",
+          "px": 605
+        },
+        {
+          "url": "https://elt.eso.org/instrument/HARMONI/",
+          "section": 10,
+          "selector": "#docsntools_",
+          "px": null
+        },
+        {
+          "url": "https://elt.eso.org/instrument/HARMONI/",
+          "section": 11,
+          "selector": "#consortium_",
+          "px": 1215
+        },
+        {
+          "url": "https://elt.eso.org/instrument/HARMONI/",
+          "section": 12,
+          "selector": "body > footer.container-fluid.container-footer",
+          "px": null
+        },
+        {
+          "url": "https://elt.eso.org/instrument/HARMONI/",
+          "section": 13,
+          "selector": "body > div.privacy-notice",
+          "px": 1400
+        },
+        {
+          "url": "https://elt.eso.org/instrument/HARMONI/",
+          "section": 14,
+          "selector": "body > div.privacy-settings",
+          "px": 1400
+        },
+        {
+          "url": "https://elt.eso.org/about/road/",
+          "section": 0,
+          "selector": "#top-navbar",
+          "px": null
+        },
+        {
+          "url": "https://elt.eso.org/about/road/",
+          "section": 1,
+          "selector": "body > img.big-header-image.d-block",
+          "px": null
+        },
+        {
+          "url": "https://elt.eso.org/about/road/",
+          "section": 2,
+          "selector": "#big-header",
+          "px": 550
+        },
+        {
+          "url": "https://elt.eso.org/about/road/",
+          "section": 3,
+          "selector": "#main-navbar",
+          "px": null
+        },
+        {
+          "url": "https://elt.eso.org/about/road/",
+          "section": 4,
+          "selector": "#nutshell",
+          "px": null
+        },
+        {
+          "url": "https://elt.eso.org/about/road/",
+          "section": 5,
+          "selector": "#about-road-designing",
+          "px": 294
+        },
+        {
+          "url": "https://elt.eso.org/about/road/",
+          "section": 6,
+          "selector": "#about-road-selecting",
+          "px": null
+        },
+        {
+          "url": "https://elt.eso.org/about/road/",
+          "section": 7,
+          "selector": "#about-road-green",
+          "px": 275
+        },
+        {
+          "url": "https://elt.eso.org/about/road/",
+          "section": 8,
+          "selector": "#about-road-historical",
+          "px": 381
+        },
+        {
+          "url": "https://elt.eso.org/about/road/",
+          "section": 9,
+          "selector": "body > footer.container-fluid.container-footer",
+          "px": null
+        },
+        {
+          "url": "https://elt.eso.org/about/road/",
+          "section": 10,
+          "selector": "body > div.privacy-notice",
+          "px": 1400
+        },
+        {
+          "url": "https://elt.eso.org/about/road/",
+          "section": 11,
+          "selector": "body > div.privacy-settings",
+          "px": 1400
+        },
+        {
+          "url": "https://elt.eso.org/about/facts/",
+          "section": 0,
+          "selector": "#top-navbar",
+          "px": null
+        },
+        {
+          "url": "https://elt.eso.org/about/facts/",
+          "section": 1,
+          "selector": "body > img.big-header-image.d-block",
+          "px": null
+        },
+        {
+          "url": "https://elt.eso.org/about/facts/",
+          "section": 2,
+          "selector": "#big-header",
+          "px": 550
+        },
+        {
+          "url": "https://elt.eso.org/about/facts/",
+          "section": 3,
+          "selector": "#main-navbar",
+          "px": null
+        },
+        {
+          "url": "https://elt.eso.org/about/facts/",
+          "section": 4,
+          "selector": "body > div.container-fluid.container-darkblue",
+          "px": null
+        },
+        {
+          "url": "https://elt.eso.org/about/facts/",
+          "section": 5,
+          "selector": "body > div.container-fluid.container-darkblue",
+          "px": null
+        },
+        {
+          "url": "https://elt.eso.org/about/facts/",
+          "section": 6,
+          "selector": "body > div.container-fluid.container-darkblue",
+          "px": null
+        },
+        {
+          "url": "https://elt.eso.org/about/facts/",
+          "section": 7,
+          "selector": "body > div.container-fluid.container-darkblue",
+          "px": null
+        },
+        {
+          "url": "https://elt.eso.org/about/facts/",
+          "section": 8,
+          "selector": "body > div.container-fluid.container-darkblue",
+          "px": null
+        },
+        {
+          "url": "https://elt.eso.org/about/facts/",
+          "section": 9,
+          "selector": "body > footer.container-fluid.container-footer",
+          "px": null
+        },
+        {
+          "url": "https://elt.eso.org/about/facts/",
+          "section": 10,
+          "selector": "body > div.privacy-notice",
+          "px": 1400
+        },
+        {
+          "url": "https://elt.eso.org/about/facts/",
+          "section": 11,
+          "selector": "body > div.privacy-settings",
+          "px": 1400
+        },
+        {
+          "url": "https://elt.eso.org/about/timeline/",
+          "section": 0,
+          "selector": "#top-navbar",
+          "px": null
+        },
+        {
+          "url": "https://elt.eso.org/about/timeline/",
+          "section": 1,
+          "selector": "body > img.big-header-image.d-block",
+          "px": null
+        },
+        {
+          "url": "https://elt.eso.org/about/timeline/",
+          "section": 2,
+          "selector": "#big-header",
+          "px": 550
+        },
+        {
+          "url": "https://elt.eso.org/about/timeline/",
+          "section": 3,
+          "selector": "#main-navbar",
+          "px": null
+        },
+        {
+          "url": "https://elt.eso.org/about/timeline/",
+          "section": 4,
+          "selector": "body > div.container-fluid.container-dark",
+          "px": 284
+        },
+        {
+          "url": "https://elt.eso.org/about/timeline/",
+          "section": 5,
+          "selector": "body > div.timeline-quick-access",
+          "px": null
+        },
+        {
+          "url": "https://elt.eso.org/about/timeline/",
+          "section": 6,
+          "selector": "body > footer.container-fluid.container-footer",
+          "px": null
+        },
+        {
+          "url": "https://elt.eso.org/about/timeline/",
+          "section": 7,
+          "selector": "body > div.privacy-notice",
+          "px": 1400
+        },
+        {
+          "url": "https://elt.eso.org/about/timeline/",
+          "section": 8,
+          "selector": "body > div.privacy-settings",
+          "px": 1400
+        },
+        {
+          "url": "https://elt.eso.org/media/",
+          "section": 0,
+          "selector": "#top-navbar",
+          "px": null
+        },
+        {
+          "url": "https://elt.eso.org/media/",
+          "section": 1,
+          "selector": "body > img.big-header-image.d-block",
+          "px": null
+        },
+        {
+          "url": "https://elt.eso.org/media/",
+          "section": 2,
+          "selector": "#big-header",
+          "px": 550
+        },
+        {
+          "url": "https://elt.eso.org/media/",
+          "section": 3,
+          "selector": "#main-navbar",
+          "px": null
+        },
+        {
+          "url": "https://elt.eso.org/media/",
+          "section": 4,
+          "selector": "body > div.container-fluid.container-light",
+          "px": 258
+        },
+        {
+          "url": "https://elt.eso.org/media/",
+          "section": 5,
+          "selector": "body > div.container-fluid.bar-medium-dark",
+          "px": 248
+        },
+        {
+          "url": "https://elt.eso.org/media/",
+          "section": 6,
+          "selector": "#videoCarouselMedia",
+          "px": null
+        },
+        {
+          "url": "https://elt.eso.org/media/",
+          "section": 7,
+          "selector": "body > div.container-fluid.bar-medium-dark",
+          "px": 248
+        },
+        {
+          "url": "https://elt.eso.org/media/",
+          "section": 8,
+          "selector": "#carouselMedia",
+          "px": 667
+        },
+        {
+          "url": "https://elt.eso.org/media/",
+          "section": 9,
+          "selector": "body > div.container-fluid.container-light",
+          "px": 111
+        },
+        {
+          "url": "https://elt.eso.org/media/",
+          "section": 10,
+          "selector": "body > footer.container-fluid.container-footer",
+          "px": null
+        },
+        {
+          "url": "https://elt.eso.org/media/",
+          "section": 11,
+          "selector": "body > div.privacy-notice",
+          "px": 1400
+        },
+        {
+          "url": "https://elt.eso.org/media/",
+          "section": 12,
+          "selector": "body > div.privacy-settings",
+          "px": 1400
+        }
+      ],
+      "capRegister": [
+        "contentMaxWidth differs between archetypes: fluid (https://elt.eso.org/), 1400 (https://elt.eso.org/telescope/), 1400 (https://elt.eso.org/telescope/dome/), fluid (https://elt.eso.org/instrument/HARMONI/), fluid (https://elt.eso.org/about/road/), 1400 (https://elt.eso.org/about/facts/), 1400 (https://elt.eso.org/about/timeline/), fluid (https://elt.eso.org/media/) — decide per template in the inconsistency register",
+        "module cap 1215px on a single section (#consortium_ > div.container-paragraph.section-text-paragraph > p > strong, https://elt.eso.org/instrument/HARMONI/) — intent or mistake? register it",
+        "module cap 960px on a single section (body > div.container-fluid.container-dark > div.d-flex.justify-content-center > a, https://elt.eso.org/) — intent or mistake? register it",
+        "module cap 807px on a single section (div.position-absolute > div.d-flex.flex-column > div.d-flex.flex-column > div.text-left, https://elt.eso.org/) — intent or mistake? register it",
+        "module cap 667px on a single section (div.row.no-gutters > div.col.img-col > div.d-flex.flex-column > div.visuals-hover-title, https://elt.eso.org/media/) — intent or mistake? register it",
+        "module cap 111px on a single section (div.container-fluid.container-light > div.container-paragraph.section-text-paragraph > p > a, https://elt.eso.org/media/) — intent or mistake? register it"
+      ],
+      "capProvenance": {
+        "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+        "writtenAt": "2026-11-13T12:11:36.992Z",
+        "baseWidth": 1440,
+        "urls": [
+          "https://elt.eso.org/",
+          "https://elt.eso.org/telescope/",
+          "https://elt.eso.org/telescope/dome/",
+          "https://elt.eso.org/instrument/HARMONI/",
+          "https://elt.eso.org/about/road/",
+          "https://elt.eso.org/about/facts/",
+          "https://elt.eso.org/about/timeline/",
+          "https://elt.eso.org/media/"
+        ]
+      }
+    },
+    "modules": [
+      {
+        "id": "page-intro",
+        "slots": [
+          {
+            "name": "title",
+            "type": "text"
+          },
+          {
+            "name": "subtitle",
+            "type": "text"
+          },
+          {
+            "name": "description",
+            "type": "text"
+          },
+          {
+            "name": "quick-links",
+            "type": "link[]"
+          }
+        ],
+        "instances": "all program + instrument pages (24) — .science-header-textblock / .instrument-header-textblock",
+        "status": "candidate"
+      },
+      {
+        "id": "subpage-tiles",
+        "slots": [
+          {
+            "name": "tile",
+            "type": "image+title+text+link"
+          }
+        ],
+        "instances": "19 pages — .internal-menu-trapezoid",
+        "status": "candidate"
+      },
+      {
+        "id": "text-section",
+        "slots": [
+          {
+            "name": "title",
+            "type": "text"
+          },
+          {
+            "name": "body",
+            "type": "richtext"
+          },
+          {
+            "name": "figure",
+            "type": "image+caption",
+            "required": false
+          }
+        ],
+        "instances": "every content page — .page-section",
+        "status": "candidate"
+      },
+      {
+        "id": "share-bar",
+        "slots": [],
+        "instances": "nutshell / first light section on content pages — .share-social-media",
+        "status": "candidate"
+      },
+      {
+        "id": "overview-bands",
+        "slots": [
+          {
+            "name": "band",
+            "type": "eyebrow+title+text+image+link"
+          }
+        ],
+        "instances": "instrument, mirror, science, telescope — .landing-polygon",
+        "status": "candidate"
+      },
+      {
+        "id": "carousel",
+        "slots": [
+          {
+            "name": "slide",
+            "type": "image+title+link"
+          }
+        ],
+        "instances": "index, index-b7ff, chile, about-facts, media — .swiper-container",
+        "status": "candidate"
+      },
+      {
+        "id": "webcam-panel",
+        "slots": [
+          {
+            "name": "image",
+            "type": "image"
+          },
+          {
+            "name": "timestamp",
+            "type": "text"
+          }
+        ],
+        "instances": "index, index-b7ff, chile, about-webcams — .webcam-wrapper",
+        "status": "candidate"
+      },
+      {
+        "id": "tech-table",
+        "slots": [
+          {
+            "name": "row",
+            "type": "label+value"
+          }
+        ],
+        "instances": "instrument-* (6) — .instrument-technical-table-cell",
+        "status": "candidate"
+      },
+      {
+        "id": "data-table",
+        "slots": [
+          {
+            "name": "table",
+            "type": "table"
+          }
+        ],
+        "instances": "about-industrial, science-solarsystem, telescope-adaptiveoptics, telescope-dome",
+        "status": "candidate"
+      },
+      {
+        "id": "home-tiles",
+        "slots": [
+          {
+            "name": "tile",
+            "type": "image+title+link"
+          }
+        ],
+        "instances": "index, index-b7ff, chile — .frontpage-menu-title",
+        "status": "candidate"
+      }
+    ]
+  }
+}

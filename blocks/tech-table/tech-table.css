@@ -1,0 +1,142 @@
+/*
+ * Tech Table — instrument-harmoni.css §9 (source `row no-gutters mt-2 mb-2`, col-md-4 /
+ * col-md-8 — L640, L1564, L15712; section padding 2rem 0 1rem). Text takes the source's
+ * `.page-section p` ramp; tiers <= 576 / >= 576, 768, 992, 1200, 1440, 1680, 1920.
+ */
+.tech-table {
+  padding-bottom: 1rem;
+}
+
+.tech-table .tech-table-list {
+  margin: 0;
+}
+
+.tech-table .tech-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;
+  margin: 0.5rem 0;
+  background-color: #fff;
+  box-shadow: 0 2px 4px 0 #ccc;
+}
+
+.tech-table .tech-row-key,
+.tech-table .tech-row-value {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+}
+
+.tech-table .tech-row-tab {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.tech-table .tech-row-tab polygon {
+  fill: var(--tab-color);
+  stroke-width: 0;
+}
+
+.tech-table .tech-row-key .tech-table-cell {
+  position: absolute;
+  left: 10%;
+  display: flex;
+  align-items: center;
+}
+
+.tech-table .tech-row-value .tech-table-cell {
+  width: 100%;
+  text-align: center;
+}
+
+.tech-table .tech-table-cell p {
+  margin: 0;
+}
+
+@media (width >= 768px) {
+  .tech-table .tech-row-key {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+  }
+
+  .tech-table .tech-row-value {
+    flex: 0 0 66.6667%;
+    max-width: 66.6667%;
+  }
+}
+
+@media only screen and (width <= 576px) {
+  .tech-table .tech-table-cell p {
+    font-size: 1rem;
+    line-height: 27px;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+  }
+}
+
+@media only screen and (width >= 576px) {
+  .tech-table .tech-table-cell p {
+    font-size: 16.5px;
+    line-height: 1.75rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+  }
+}
+
+@media only screen and (width >= 768px) {
+  .tech-table .tech-table-cell p {
+    font-size: 1.0625rem;
+    line-height: 1.8125rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+  }
+}
+
+@media only screen and (width >= 992px) {
+  .tech-table .tech-table-cell p {
+    font-size: 1.125rem;
+    line-height: 30.5px;
+    padding-top: 0.35rem;
+    padding-bottom: 0.35rem;
+  }
+}
+
+@media only screen and (width >= 1200px) {
+  .tech-table .tech-table-cell p {
+    font-size: 18.5px;
+    line-height: 2rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+  }
+}
+
+@media only screen and (width >= 1440px) {
+  .tech-table .tech-table-cell p {
+    font-size: 19.5px;
+    line-height: 2.0625rem;
+    padding-top: 0.48rem;
+    padding-bottom: 0.48rem;
+  }
+}
+
+@media only screen and (width >= 1680px) {
+  .tech-table .tech-table-cell p {
+    font-size: 1.25rem;
+    line-height: 34.5px;
+    padding-top: 0.54rem;
+    padding-bottom: 0.54rem;
+  }
+}
+
+@media only screen and (width >= 1920px) {
+  .tech-table .tech-table-cell p {
+    font-size: 1.3125rem;
+    line-height: 2.25rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+  }
+}

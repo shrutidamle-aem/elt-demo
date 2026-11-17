@@ -1,0 +1,43 @@
+measure: overlay dismissed via extra selector .privacy-notice .privacy-button.accept-all
+measure  A = https://elt.eso.org/about/facts/
+         B = http://localhost:8791/about-facts-proposed.html
+  widths 1440 · 9 selector(s) · 8 props · first match
+
+@ 1440px
+  root
+    A  scrollWidth  1440  viewport 1440  scrollHeight   6104
+    B  scrollWidth  1440  viewport 1440  scrollHeight   6112
+    Δ  scrollWidth 0  scrollHeight +8
+  .container-darkblue
+    A  x     0  y    794  w  1440  h  1298  vis  "Name Extremely Large Telescope (ELT) Ma…"
+    B  x     0  y    794  w  1440  h  1298  vis  "Name Extremely Large Telescope (ELT) Ma…"
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+  .fact-name
+    A  x   180  y    826  w  1080  h    52  vis  "Name"
+    B  x   180  y    826  w  1080  h    52  vis  "Name"
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+  .fact-value
+    A  x   180  y    878  w  1080  h    93  vis  "Extremely Large Telescope (ELT)"
+    B  x   180  y    878  w  1080  h    93  vis  "Extremely Large Telescope (ELT)"
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+  .facts-title
+    A  x     0  y   2124  w  1440  h   139  vis  "How much light will the ELT gather?"
+    B  x     0  y   2124  w  1440  h   139  vis  "How much light will the ELT gather?"
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+  .swiper-button-next
+    A  x  1403  y   2553  w    27  h    44  vis  ""
+    B  x  1403  y   2553  w    27  h    44  vis  ""
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+  .big-header-title
+    A  x   151  y    550  w  1138  h    80  vis  "About | Facts about the ELT"
+    B  x   151  y    550  w  1138  h    80  vis  "About | Facts about the ELT"
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+  .big-header-title span
+    A  x   151  y    557  w   139  h    65  vis  "About"
+    B  x   151  y    557  w   139  h    65  vis  "About"
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+  #main-navbar
+    A  x     0  y    725  w  1440  h    69  vis  "ELT HOME ABOUT TELESCOPE INSTRUMENTS SC…"
+    B  x     0  y    725  w  1440  h    69  vis  "ELT HOME ABOUT TELESCOPE INSTRUMENTS SC…"
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+  .container-footer   MISSING on B (1 on A)

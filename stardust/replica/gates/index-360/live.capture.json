@@ -1,0 +1,16 @@
+{
+  "writtenBy": "skills/replica/scripts/stitch-shot.mjs",
+  "url": "https://elt.eso.org/",
+  "width": 360,
+  "vh": 900,
+  "height": 1350,
+  "chunks": 2,
+  "denialCheck": "ok",
+  "fontsFailed": [],
+  "fixedLayers": {
+    "capture": "once",
+    "count": 5,
+    "late": 0
+  },
+  "at": "2026-11-13T12:39:54.473Z"
+}

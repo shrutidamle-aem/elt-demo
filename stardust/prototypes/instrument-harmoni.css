@@ -1,0 +1,307 @@
+/*
+ * instrument-harmoni.css — `instrument` template (archetype slug instrument-harmoni,
+ * https://elt.eso.org/instrument/HARMONI/; siblings MICADO, MORFEO, METIS, ANDES, MOSAIC).
+ * Link order: canon.css → inner.css → this file.
+ * Sections: instrument sub-header (image + text block + quick links) · "In a nutshell" with share
+ * icons · internal-link rows (.lightlinks, 2-up at xl) · page sections (wide images, captions, floated
+ * figures) · technical-specs rows (coloured arrow tab + value) · tools / consortium text.
+ * Every value from elt_assets.66fa71510905.css (captured: stardust/current/assets/css/), Lnnnnn;
+ * media tiers are the source's own (max 576 / min 576, 768, 992, 1200, 1440, 1680, 1920 `only screen`,
+ * Bootstrap md 768 / lg 992 / xl 1200 display + grid utilities).
+ */
+
+/* 1 ─ Display utilities (Bootstrap d-*: lg 992, xl 1200) ─────────────────── */
+.show-lg, .show-xl, .show-lg-only { display: none; }
+@media (min-width: 992px) {
+  .show-lg, .show-lg-only { display: block; }
+  .hide-lg { display: none; }
+}
+@media (min-width: 1200px) {
+  .show-xl { display: block; }
+  .show-lg-only { display: none; }
+}
+
+/* 2 ─ Section containers — .container-light L19621, .container-dark L19727, .container-tight L19760 ─ */
+.container-light { margin: 0; padding: 2rem 0 0; background-color: rgb(232, 232, 232); color: #000; }
+.container-dark { margin: 0; padding: 2rem 0 0; background-color: #000; color: #fff; }
+.container-tight { padding: 0 !important; }
+a.anchor { display: block; position: relative; top: -150px; visibility: hidden; } /* L20502 */
+figure { margin: 0; }
+
+/* 3 ─ Instrument sub-header — L15908–15970, L19587, L20196 ──────────────── */
+.instrument-header { position: relative; }
+.instrument-header__image { display: block; width: 100%; height: 100%; }
+.instrument-header-textblock { position: absolute; top: 0; left: 10.5%; width: 89.5%; height: 100%; }
+.instrument-header-textblock__inner { display: flex; flex-direction: column; justify-content: space-around; height: 100%; }
+.header-title { font-weight: 600; color: var(--headerblue); }
+.header-subtitle, .header-description { width: 35%; }
+.instrument-header-subtitle, .instrument-header-description { width: 40%; }
+.header-description { font-family: "Helvetica Neue LT ESO"; }
+.header-description p { margin: 0 0 1rem; }
+.header-quick-links { width: 89.5%; font-weight: 600; font-family: "Helvetica Neue LT ESO"; }
+.instrument-link-color, a.instrument-link-color { color: var(--headerblue); }
+a.instrument-link:hover { color: var(--orange); }
+@media only screen and (max-width: 576px) {
+  .header-title { font-size: 1.75rem; }
+  .header-subtitle { font-size: 1.5rem; line-height: 2.25rem; }
+  .header-description { font-size: 0.875rem; line-height: 1.625rem; }
+  .header-quick-links { font-size: 0.875rem; }
+}
+@media only screen and (min-width: 576px) {
+  .header-title { font-size: 1.875rem; }
+  .header-subtitle { font-size: 1.5625rem; line-height: 2.375rem; }
+  .header-description { font-size: 0.9375rem; line-height: 1.6875rem; }
+  .header-quick-links { font-size: 0.9375rem; }
+}
+@media only screen and (min-width: 768px) {
+  .header-title { font-size: 1.9375rem; }
+  .header-subtitle { font-size: 1.6875rem; line-height: 2.4375rem; }
+  .header-description { font-size: 1rem; line-height: 1.75rem; }
+  .header-quick-links { font-size: 1rem; }
+}
+@media only screen and (min-width: 992px) {
+  .header-title { font-size: 2.03125rem; }
+  .header-subtitle { font-size: 1.75rem; line-height: 2.5625rem; }
+  .header-description { font-size: 1.0625rem; line-height: 1.8125rem; }
+  .header-quick-links { font-size: 1.0625rem; }
+}
+@media only screen and (min-width: 1200px) {
+  .header-title { font-size: 2.125rem; }
+  .header-subtitle { font-size: 1.8125rem; line-height: 2.625rem; }
+  .header-description { font-size: 1.125rem; line-height: 1.875rem; }
+  .header-quick-links { font-size: 1.125rem; }
+}
+@media only screen and (min-width: 1440px) {
+  .header-title { font-size: 2.25rem; }
+  .header-subtitle { font-size: 1.9375rem; line-height: 2.75rem; }
+  .header-description { font-size: 1.1875rem; line-height: 2rem; }
+  .header-quick-links { font-size: 1.1875rem; }
+}
+@media only screen and (min-width: 1680px) {
+  .header-title { font-size: 2.375rem; } /* the source's 1920 step is malformed (`font-size 2.5rem`) — 2.375rem holds */
+  .header-subtitle { font-size: 2rem; line-height: 2.875rem; }
+  .header-description { font-size: 1.25rem; line-height: 2.0625rem; }
+  .header-quick-links { font-size: 1.25rem; }
+}
+@media only screen and (min-width: 1920px) {
+  .header-subtitle { font-size: 2.125rem; line-height: 3rem; }
+  .header-description { font-size: 1.3125rem; line-height: 2.125rem; }
+  .header-quick-links { font-size: 1.3125rem; }
+}
+
+
+/* 5 ─ Section type ramp — L16125, L16163–16207, L20244–20250 + per-tier rules ─ */
+.container-paragraph { padding: 0 10.5% 0.005rem; }
+.container-subtitle, .container-heading { padding: 0 10.5%; }
+.section-subtitle-paragraph, .section-subtitle-paragraph-aftertitle,
+.section-heading-paragraph { padding-top: 0; padding-bottom: 0; font-weight: 700; }
+.section-subtitle-paragraph p, .section-subtitle-paragraph-aftertitle p,
+.section-heading-paragraph p { padding-top: 0; padding-bottom: 0; }
+.section-title-paragraph { font-weight: 600; }
+.section-title-paragraph--share { display: flex; align-items: center; justify-content: space-between; }
+.container-title { padding: 0 10.5%; }                                   /* L20256 */
+@media only screen and (max-width: 576px) {
+  .section-title-paragraph { font-size: 1.625rem; padding-top: 0; padding-bottom: 1.5rem; }
+  .section-subtitle-paragraph, .section-subtitle-paragraph-aftertitle { font-size: 1.25rem; line-height: 2rem; }
+  .section-heading-paragraph { font-size: 1rem; line-height: 1.6875rem; }
+  .section-text-paragraph { font-size: 1rem; line-height: 1.6875rem; padding-top: 0.2rem; padding-bottom: 0.2rem; }
+  .page-section p { font-size: 1rem; line-height: 1.6875rem; padding-top: 0.2rem; padding-bottom: 0.2rem; }
+  .section-subtitle-paragraph p, .section-subtitle-paragraph-aftertitle p { font-size: 1.25rem !important; line-height: 2rem !important; }
+  .section-heading-paragraph p, .section-text-paragraph p { font-size: 1rem !important; line-height: 1.6875rem !important; }
+  .section-text-paragraph p { padding-top: 0.2rem !important; padding-bottom: 0.2rem !important; }
+}
+@media only screen and (min-width: 576px) {
+  .section-title-paragraph { font-size: 1.6875rem; padding-top: 0.2rem; padding-bottom: 1.7rem; }
+  .section-subtitle-paragraph, .section-subtitle-paragraph-aftertitle { font-size: 1.31rem; line-height: 2.1rem; }
+  .section-heading-paragraph { font-size: 1.03125rem; line-height: 1.75rem; }
+  .section-text-paragraph { font-size: 1.03125rem; line-height: 1.75rem; padding-top: 0.25rem; padding-bottom: 0.25rem; }
+  .page-section p { font-size: 1.03125rem; line-height: 1.75rem; padding-top: 0.25rem; padding-bottom: 0.25rem; }
+  .section-subtitle-paragraph p, .section-subtitle-paragraph-aftertitle p { font-size: 1.31rem !important; line-height: 2.1rem !important; }
+  .section-heading-paragraph p, .section-text-paragraph p { font-size: 1.03125rem !important; line-height: 1.75rem !important; }
+  .section-text-paragraph p { padding-top: 0.25rem !important; padding-bottom: 0.25rem !important; }
+}
+@media only screen and (min-width: 768px) {
+  .section-title-paragraph { font-size: 1.75rem; padding-top: 0.4rem; padding-bottom: 1.9rem; }
+  .section-subtitle-paragraph, .section-subtitle-paragraph-aftertitle { font-size: 1.36rem; line-height: 2.17rem; }
+  .section-heading-paragraph { font-size: 1.0625rem; line-height: 1.8125rem; }
+  .section-text-paragraph { font-size: 1.0625rem; line-height: 1.8125rem; padding-top: 0.3rem; padding-bottom: 0.3rem; }
+  .page-section p { font-size: 1.0625rem; line-height: 1.8125rem; padding-top: 0.3rem; padding-bottom: 0.3rem; }
+  .section-subtitle-paragraph p, .section-subtitle-paragraph-aftertitle p { font-size: 1.36rem !important; line-height: 2.17rem !important; }
+  .section-heading-paragraph p, .section-text-paragraph p { font-size: 1.0625rem !important; line-height: 1.8125rem !important; }
+  .section-text-paragraph p { padding-top: 0.3rem !important; padding-bottom: 0.3rem !important; }
+}
+@media only screen and (min-width: 992px) {
+  .section-title-paragraph { font-size: 1.84375rem; padding-top: 0.6rem; padding-bottom: 2.1rem; }
+  .section-subtitle-paragraph, .section-subtitle-paragraph-aftertitle { font-size: 1.43rem; line-height: 2.3rem; }
+  .section-heading-paragraph { font-size: 1.125rem; line-height: 1.90625rem; }
+  .section-text-paragraph { font-size: 1.125rem; line-height: 1.90625rem; padding-top: 0.35rem; padding-bottom: 0.35rem; }
+  .page-section p { font-size: 1.125rem; line-height: 1.90625rem; padding-top: 0.35rem; padding-bottom: 0.35rem; }
+  .section-subtitle-paragraph p, .section-subtitle-paragraph-aftertitle p { font-size: 1.43rem !important; line-height: 2.3rem !important; }
+  .section-heading-paragraph p, .section-text-paragraph p { font-size: 1.125rem !important; line-height: 1.90625rem !important; }
+  .section-text-paragraph p { padding-top: 0.35rem !important; padding-bottom: 0.35rem !important; }
+}
+@media only screen and (min-width: 1200px) {
+  .section-title-paragraph { font-size: 1.9375rem; padding-top: 0.8rem; padding-bottom: 2.3rem; }
+  .section-subtitle-paragraph, .section-subtitle-paragraph-aftertitle { font-size: 1.49rem; line-height: 2.4rem; }
+  .section-heading-paragraph { font-size: 1.15625rem; line-height: 2rem; }
+  .section-text-paragraph { font-size: 1.15625rem; line-height: 2rem; padding-top: 0.4rem; padding-bottom: 0.4rem; }
+  .page-section p { font-size: 1.15625rem; line-height: 2rem; padding-top: 0.4rem; padding-bottom: 0.4rem; }
+  .section-subtitle-paragraph p, .section-subtitle-paragraph-aftertitle p { font-size: 1.49rem !important; line-height: 2.4rem !important; }
+  .section-heading-paragraph p, .section-text-paragraph p { font-size: 1.15625rem !important; line-height: 2rem !important; }
+  .section-text-paragraph p { padding-top: 0.4rem !important; padding-bottom: 0.4rem !important; }
+}
+@media only screen and (min-width: 1440px) {
+  .section-title-paragraph { font-size: 2rem; padding-top: 1rem; padding-bottom: 2.5rem; }
+  .section-subtitle-paragraph, .section-subtitle-paragraph-aftertitle { font-size: 1.56rem; line-height: 2.5rem; }
+  .section-heading-paragraph { font-size: 1.21875rem; line-height: 2.0625rem; }
+  .section-text-paragraph { font-size: 1.21875rem; line-height: 2.0625rem; padding-top: 0.48rem; padding-bottom: 0.48rem; }
+  .page-section p { font-size: 1.21875rem; line-height: 2.0625rem; padding-top: 0.48rem; padding-bottom: 0.48rem; }
+  .section-subtitle-paragraph p, .section-subtitle-paragraph-aftertitle p { font-size: 1.56rem !important; line-height: 2.5rem !important; }
+  .section-heading-paragraph p, .section-text-paragraph p { font-size: 1.21875rem !important; line-height: 2.0625rem !important; }
+  .section-text-paragraph p { padding-top: 0.48rem !important; padding-bottom: 0.48rem !important; }
+}
+@media only screen and (min-width: 1680px) {
+  .section-title-paragraph { font-size: 2.09375rem; padding-top: 1.25rem; padding-bottom: 2.8rem; }
+  .section-subtitle-paragraph, .section-subtitle-paragraph-aftertitle { font-size: 1.63rem; line-height: 2.6rem; }
+  .section-heading-paragraph { font-size: 1.25rem; line-height: 2.15625rem; }
+  .section-text-paragraph { font-size: 1.25rem; line-height: 2.15625rem; padding-top: 0.54rem; padding-bottom: 0.54rem; }
+  .page-section p { font-size: 1.25rem; line-height: 2.15625rem; padding-top: 0.54rem; padding-bottom: 0.54rem; }
+  .section-subtitle-paragraph p, .section-subtitle-paragraph-aftertitle p { font-size: 1.63rem !important; line-height: 2.6rem !important; }
+  .section-heading-paragraph p, .section-text-paragraph p { font-size: 1.25rem !important; line-height: 2.15625rem !important; }
+  .section-text-paragraph p { padding-top: 0.54rem !important; padding-bottom: 0.54rem !important; }
+}
+@media only screen and (min-width: 1920px) {
+  .section-title-paragraph { font-size: 2.1875rem; padding-top: 1.5rem; padding-bottom: 3rem; }
+  .section-subtitle-paragraph, .section-subtitle-paragraph-aftertitle { font-size: 1.7rem; line-height: 2.7rem; }
+  .section-heading-paragraph { font-size: 1.3125rem; line-height: 2.25rem; }
+  .section-text-paragraph { font-size: 1.3125rem; line-height: 2.25rem; padding-top: 0.6rem; padding-bottom: 0.6rem; }
+  .page-section p { font-size: 1.3125rem; line-height: 2.25rem; padding-top: 0.6rem; padding-bottom: 0.6rem; }
+  .section-subtitle-paragraph p, .section-subtitle-paragraph-aftertitle p { font-size: 1.7rem !important; line-height: 2.7rem !important; }
+  .section-heading-paragraph p, .section-text-paragraph p { font-size: 1.3125rem !important; line-height: 2.25rem !important; }
+  .section-text-paragraph p { padding-top: 0.6rem !important; padding-bottom: 0.6rem !important; }
+}
+
+/* 6 ─ Internal-link rows (.lightlinks) — L16019–16057, L19695, L20275 (2-up at xl, col-xl-6) ─ */
+.lightlinks a, .lightlinks a:hover { color: #fff; }                     /* L19695, L19701 */
+.lightlink-row { display: flex; flex-wrap: wrap; align-items: stretch; width: 100%; margin: 0; background-color: var(--row-color); }
+.lightlink-media, .lightlink-body { position: relative; width: 100%; }
+.lightlink-media { padding: 0; }
+.lightlink-media img { display: inline-block; width: 100%; height: auto; }
+.lightlink-body { display: flex; align-items: center; padding: 1rem 15px; }
+.lightlink-row--reverse .lightlink-body { order: 2; }
+.lightlink-row--reverse .lightlink-media { order: 1; }
+.internal-menu-title { position: absolute; bottom: 10%; left: 10.5%; right: 10.5%; color: #fff; pointer-events: none; }
+.internal-menu-text { line-height: 2.109375rem; color: #fff; padding-left: 7%; padding-right: 7%; }
+.internal-menu-shape { position: absolute; bottom: 0; left: 0; display: flex; align-items: flex-end; width: 100%; height: 100%; }
+.internal-menu-shape > div { width: 100%; }
+svg.internal-menu-trapezoid { width: 100%; height: 100%; }
+svg.internal-menu-trapezoid polygon { fill: #fff; stroke: #fff; stroke-width: 0; }
+.internal-menu-link {
+  position: absolute; top: 83%; bottom: 0; left: 0; right: 70%;
+  display: none; align-items: center; justify-content: center;
+  font-weight: 600; pointer-events: none;
+}
+.lightlinks .internal-menu-link a, .lightlinks .internal-menu-link a:hover { color: var(--link-color); } /* inline style on the source */
+@media (min-width: 1200px) {
+  .lightlink-media, .lightlink-body { flex: 0 0 50%; max-width: 50%; }
+  .lightlink-body { padding-top: 0; }
+  .lightlink-row--reverse .lightlink-body { order: 1; }
+  .lightlink-row--reverse .lightlink-media { order: 2; }
+  .internal-menu-link { display: flex; }
+}
+@media only screen and (max-width: 576px) {
+  .internal-menu-link, .internal-menu-text { font-size: 1rem; }
+  .internal-menu-title { font-size: 1.625rem; }
+}
+@media only screen and (min-width: 576px) {
+  .internal-menu-link { font-size: 1.03125rem; }
+  .internal-menu-text { font-size: 1.057rem; }
+  .internal-menu-title { font-size: 1.6875rem; }
+}
+@media only screen and (min-width: 768px) {
+  .internal-menu-link { font-size: 1.09375rem; }
+  .internal-menu-text { font-size: 1.111rem; }
+  .internal-menu-title { font-size: 1.78125rem; }
+}
+@media only screen and (min-width: 992px) {
+  .internal-menu-link { font-size: 1.125rem; }
+  .internal-menu-text { font-size: 1.174rem; }
+  .internal-menu-title { font-size: 1.84375rem; }
+}
+@media only screen and (min-width: 1200px) {
+  .internal-menu-link { font-size: 1.15625rem; }
+  .internal-menu-text { font-size: 1.233rem; }
+  .internal-menu-title { font-size: 1.9375rem; }
+}
+@media only screen and (min-width: 1440px) {
+  .internal-menu-link { font-size: 1.21875rem; }
+  .internal-menu-text { font-size: 1.301rem; }
+  .internal-menu-title { font-size: 2rem; }
+}
+@media only screen and (min-width: 1680px) {
+  .internal-menu-link { font-size: 1.25rem; }
+  .internal-menu-text { font-size: 1.369rem; }
+  .internal-menu-title { font-size: 2.09375rem; }
+}
+@media only screen and (min-width: 1920px) {
+  .internal-menu-link { font-size: 1.3125rem; }
+  .internal-menu-text { font-size: 1.4375rem; }
+  .internal-menu-title { font-size: 2.1875rem; }
+}
+
+/* 7 ─ Wide image + caption (col-lg-12 p-0 / pt-3 caption) — L16142, caption tiers ─ */
+.wide-image { margin: 0; padding-bottom: 1vw; }
+.wide-image a { display: flex; align-items: center; justify-content: center; width: 100%; }
+.wide-image img { width: 100%; height: auto; }
+.wide-image .caption-text { display: flow-root; padding: 1rem 15px 0; }  /* flex item on the source: p margin stays inside */
+.caption-text { font-family: "Helvetica Neue LT ESO"; font-weight: 400; }
+
+/* 8 ─ Floated figures (Instrument Design) — d-lg-flex float-right ml-5 mb-3 / float-left mr-5 mb-3 ─ */
+.float-figure { display: none; margin-bottom: 1rem; }
+.float-figure--right { float: right; margin-left: 3rem; }
+.float-figure--left { float: left; margin-right: 3rem; }
+.float-figure img, .float-figure-mobile img { display: block; width: 100%; height: auto; }
+.float-figure .caption-text, .float-figure-mobile .caption-text { padding-top: 1rem; padding-bottom: 1rem; }
+.float-figure-mobile { display: block; width: 100%; margin-bottom: 1rem; }
+.float-text p { padding-top: 0 !important; }
+@media (min-width: 992px) {
+  .float-figure { display: block; }
+  .float-figure-mobile { display: none; }
+}
+@media only screen and (max-width: 576px) { .image-title-paragraph { padding-top: 1.5rem !important; } .caption-text, .caption-text p { font-size: 0.8125rem !important; } }
+@media only screen and (min-width: 576px) { .image-title-paragraph { padding-top: 1.75rem !important; } .caption-text, .caption-text p { font-size: 0.853rem !important; } }
+@media only screen and (min-width: 768px) { .image-title-paragraph { padding-top: 2rem !important; } .caption-text, .caption-text p { font-size: 0.892rem !important; } }
+@media only screen and (min-width: 992px) { .image-title-paragraph { padding-top: 2.3rem !important; } .caption-text, .caption-text p { font-size: 0.937rem !important; } .float-text p { margin-top: -0.4rem; } }
+@media only screen and (min-width: 1200px) { .image-title-paragraph { padding-top: 2.5rem !important; } }
+@media only screen and (min-width: 1440px) { .image-title-paragraph { padding-top: 2.9rem !important; } .caption-text, .caption-text p { font-size: 1.028rem !important; } .float-text p { margin-top: -0.5rem; } }
+@media only screen and (min-width: 1680px) { .image-title-paragraph { padding-top: 3.2rem !important; } }
+@media only screen and (min-width: 1920px) { .image-title-paragraph { padding-top: 3.5rem !important; } }
+
+/* 9 ─ Technical-spec rows (row no-gutters mt-2 mb-2, col-md-4 / col-md-8) — L640, L1564, L15712 ─ */
+.tech-specs { padding-top: 2rem; padding-bottom: 1rem; }
+.tech-specs__list { margin: 0; }
+.tech-row {
+  display: flex; flex-wrap: wrap; align-items: stretch;
+  width: 100%; margin: 0.5rem 0;
+  background-color: white;
+  box-shadow: 0 2px 4px 0 #ccc;
+}
+.tech-row__key, .tech-row__value { position: relative; display: flex; align-items: center; width: 100%; margin: 0; }
+.tech-row__tab { display: block; width: 100%; height: 100%; }
+.tech-row__tab polygon { fill: var(--tab-color); stroke-width: 0; }
+.tech-row__key .instrument-technical-table-cell { position: absolute; left: 10%; display: flex; align-items: center; }
+.tech-row__value .instrument-technical-table-cell { width: 100%; text-align: center; }
+.instrument-technical-table-cell p { margin: 0; }
+@media (min-width: 768px) {
+  .tech-row__key { flex: 0 0 33.3333333333%; max-width: 33.3333333333%; }
+  .tech-row__value { flex: 0 0 66.6666666667%; max-width: 66.6666666667%; }
+}
+
+/* 10 ─ Inline-styled paragraphs on the source (style="…" attributes) ─────── */
+.internal-menu-text__pad { padding-bottom: 1rem; }        /* row 2: padding-bottom 1rem */
+.wide-image .caption-text p { text-align: center; }        /* caption: text-align center */
+
+/* 11 ─ AOS fade-right reveal (L15609; behaviour in instrument-harmoni.js) ─── */
+[data-aos^=fade] { opacity: 0; transition-property: opacity, transform; transition-duration: .4s; transition-timing-function: ease; }
+[data-aos=fade-right] { transform: translate3d(-100px, 0, 0); }
+[data-aos^=fade].aos-animate { opacity: 1; transform: translateZ(0); }

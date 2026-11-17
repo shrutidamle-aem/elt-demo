@@ -1,0 +1,3193 @@
+{
+  "url": "https://elt.eso.org/about/timeline/",
+  "width": 1440,
+  "headerTimeline": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "widgetSamples": [
+    {
+      "sel": "#timeline-quick-access-link-5",
+      "frames": [
+        {
+          "t": 40119.29999999888,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 40323.59999999963,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 40527,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 40730.09999999963,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [
+    {
+      "sel": ".timeline-quick-access",
+      "changed": [
+        "self.background"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(90, 140, 200, 0.9)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.5s"
+        },
+        "subs": [
+          {
+            "el": "a.timeline-quick-access-link",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.timeline-quick-access-link",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.timeline-quick-access-link",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.timeline-quick-access-link",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.timeline-quick-access-link",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(17, 26, 38, 0.55)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.5s"
+        },
+        "subs": [
+          {
+            "el": "a.timeline-quick-access-link",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.timeline-quick-access-link",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.timeline-quick-access-link",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.timeline-quick-access-link",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.timeline-quick-access-link",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    },
+    {
+      "sel": ".timeline-content",
+      "changed": [
+        "self.background"
+      ],
+      "before": {
+        "self": {
+          "transform": "matrix(1, 0, 0, 1, -55, 0)",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(90, 139, 198, 0.886)",
+          "boxShadow": "rgb(50, 50, 50) 6px 6px 15px 0px",
+          "opacity": "1",
+          "transition": "0.5s"
+        },
+        "subs": [
+          {
+            "el": "a.timeline-anchor",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "matrix(1, 0, 0, 1, -55, 0)",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(90, 140, 200, 0.9)",
+          "boxShadow": "rgb(50, 50, 50) 6px 6px 15px 0px",
+          "opacity": "1",
+          "transition": "0.5s"
+        },
+        "subs": [
+          {
+            "el": "a.timeline-anchor",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    },
+    {
+      "sel": "#main-navbar .nav-link",
+      "changed": [
+        "self.transform",
+        "self.color",
+        "self.transition"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgba(255, 255, 255, 0.7)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "matrix(1.07, 0, 0, 1.07, 0, -4.8)",
+          "color": "rgba(255, 255, 255, 0.9)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.25s"
+        },
+        "subs": []
+      }
+    }
+  ],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [],
+    "transitions": [
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 800,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 800,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 800,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 800,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 1200,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 1200,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 1200,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 1200,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 1600,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 1600,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 1600,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 1600,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 2000,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 2000,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 2000,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 2000,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 2400,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 2400,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 2400,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 2400,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 2800,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 2800,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 2800,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 2800,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 3200,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 3200,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 3200,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 3200,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 4000,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 4000,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 4000,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 4000,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 4400,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 4400,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 4400,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 4400,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 4800,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 4800,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 4800,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 4800,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 5200,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 5200,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 5200,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 5200,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 5600,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 5600,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 5600,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 5600,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 6400,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 6400,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 6400,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 6400,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 6800,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 6800,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 6800,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 6800,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 7200,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 7200,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 7200,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 7200,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 7600,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 7600,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 7600,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 7600,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 8000,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 8000,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 8000,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 8000,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 8400,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 8400,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 8400,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 8400,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 9200,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 9200,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 9200,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 9200,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 9600,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 9600,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 9600,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 9600,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 10000,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 10000,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 10000,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 10000,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 10800,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 10800,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 10800,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 10800,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 11200,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 11200,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 11200,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 11200,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 11600,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 11600,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 11600,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 11600,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 12400,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 12400,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 12400,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 12400,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 11660,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 11660,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 11660,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 11660,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 10160,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 10160,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 10160,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 10160,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 2400,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 2400,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 2400,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 2400,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 1200,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 1200,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 1200,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 1200,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 800,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 800,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 800,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 800,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 500,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 500,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 500,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 500,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 922,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 922,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 922,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 922,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 1286,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 1286,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 1286,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 1286,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 1544,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 1544,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 1544,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 1544,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 1986,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 1986,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 1986,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 1986,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 2380,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 2380,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 2380,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 2380,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "width",
+        "el": "html > body > div.timeline-quick-access",
+        "y": 2443,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "html > body > div.timeline-quick-access",
+        "y": 2443,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2443,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2443,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "height",
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2443,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container > div.timeline-quick-access-element-title",
+        "y": 2443,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container > div.timeline-quick-access-element-title",
+        "y": 2443,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "height",
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container > div.timeline-quick-access-element-title",
+        "y": 2443,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container > div.timeline-quick-access-element-title",
+        "y": 2443,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container > div.timeline-quick-access-element-title",
+        "y": 2443,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "height",
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container > div.timeline-quick-access-element-title",
+        "y": 2443,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "width",
+        "el": "html > body > div.timeline-quick-access",
+        "y": 2443,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "html > body > div.timeline-quick-access",
+        "y": 2443,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 542,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 542,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline-img > div.position-relative.w-100.h-100 > img.w-100.h-100.position-absolute",
+        "y": 542,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "body > div.container-fluid.container-dark.container-tight > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 542,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-home.nav-item.menu-item > a.nav-link",
+        "y": 309,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "color",
+        "el": "nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-home.nav-item.menu-item > a.nav-link",
+        "y": 309,
+        "dur": "0.25s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-about.nav-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-telescope.nav-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-instruments.nav-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-science.nav-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-about.nav-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-telescope.nav-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-instruments.nav-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-science.nav-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-about.nav-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-telescope.nav-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-instruments.nav-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-science.nav-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-about.nav-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-telescope.nav-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-instruments.nav-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-science.nav-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "top-aligned"
+        ],
+        "el": "ul.navbar-nav.ml-auto.mt-2_ > li.nav-telescope.nav-item.dropdown-menu-top > div.dropdown-menu.bg-dark.dropdown-main-menu > div.dropdown-submenu > div.dropdown-menu.bg-dark.dropdown-main-menu",
+        "y": 400
+      },
+      {
+        "added": [
+          "top-aligned"
+        ],
+        "el": "ul.navbar-nav.mx-auto.mt-0 > li.nav-telescope.nav-item.dropdown-menu-top > div.dropdown-menu.bg-dark.dropdown-main-menu > div.dropdown-submenu > div.dropdown-menu.bg-dark.dropdown-main-menu",
+        "y": 400
+      },
+      {
+        "added": [
+          "top-aligned"
+        ],
+        "el": "ul.navbar-nav.ml-auto.mt-2_ > li.nav-telescope.nav-item.dropdown-menu-top > div.dropdown-menu.bg-dark.dropdown-main-menu > div.dropdown-submenu > div.dropdown-menu.bg-dark.dropdown-main-menu",
+        "y": 400
+      },
+      {
+        "added": [
+          "top-aligned"
+        ],
+        "el": "ul.navbar-nav.mx-auto.mt-0 > li.nav-telescope.nav-item.dropdown-menu-top > div.dropdown-menu.bg-dark.dropdown-main-menu > div.dropdown-submenu > div.dropdown-menu.bg-dark.dropdown-main-menu",
+        "y": 400
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 400
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 400
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 800
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 800
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 1200
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 1200
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 1600
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 1600
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2000
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2000
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2400
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2400
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2800
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2800
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 3200
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 3200
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 3600
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 3600
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 4000
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 4000
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 4400
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 4400
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 4800
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 4800
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 5200
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 5200
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 5600
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 5600
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 6000
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 6000
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 6400
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 6400
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 6800
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 6800
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 7200
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 7200
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 7600
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 7600
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 8000
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 8000
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 8400
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 8400
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 8800
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 8800
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 9200
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 9200
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 9600
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 9600
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 10000
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 10000
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 10400
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 10400
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 10800
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 10800
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 11200
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 11200
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 11600
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 11600
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 12000
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 12000
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 12400
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 12400
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 11660
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 11660
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 10160
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 10160
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2400
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2400
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 1200
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 1200
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 800
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 800
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 500
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 500
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 300
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 300
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 200
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 200
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 150
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 150
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-about.nav-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-telescope.nav-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-instruments.nav-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-science.nav-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-about.nav-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-telescope.nav-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-instruments.nav-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-science.nav-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-about.nav-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-telescope.nav-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-instruments.nav-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-science.nav-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-about.nav-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-telescope.nav-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-instruments.nav-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-science.nav-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "bottom-aligned"
+        ],
+        "el": "ul.navbar-nav.ml-auto.mt-2_ > li.nav-telescope.nav-item.dropdown-menu-top > div.dropdown-menu.bg-dark.dropdown-main-menu > div.dropdown-submenu > div.dropdown-menu.bg-dark.dropdown-main-menu",
+        "y": 120
+      },
+      {
+        "added": [
+          "bottom-aligned"
+        ],
+        "el": "ul.navbar-nav.mx-auto.mt-0 > li.nav-telescope.nav-item.dropdown-menu-top > div.dropdown-menu.bg-dark.dropdown-main-menu > div.dropdown-submenu > div.dropdown-menu.bg-dark.dropdown-main-menu",
+        "y": 120
+      },
+      {
+        "added": [
+          "bottom-aligned"
+        ],
+        "el": "ul.navbar-nav.ml-auto.mt-2_ > li.nav-telescope.nav-item.dropdown-menu-top > div.dropdown-menu.bg-dark.dropdown-main-menu > div.dropdown-submenu > div.dropdown-menu.bg-dark.dropdown-main-menu",
+        "y": 120
+      },
+      {
+        "added": [
+          "bottom-aligned"
+        ],
+        "el": "ul.navbar-nav.mx-auto.mt-0 > li.nav-telescope.nav-item.dropdown-menu-top > div.dropdown-menu.bg-dark.dropdown-main-menu > div.dropdown-submenu > div.dropdown-menu.bg-dark.dropdown-main-menu",
+        "y": 120
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 120
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 120
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 90
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 90
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 60
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 60
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 30
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 30
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 0
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 0
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 0
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 0
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 9
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 9
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 23
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 23
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 43
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 43
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 73
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 73
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 116
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 116
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-about.nav-item.dropdown-menu-top",
+        "y": 174
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-telescope.nav-item.dropdown-menu-top",
+        "y": 174
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-instruments.nav-item.dropdown-menu-top",
+        "y": 174
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-science.nav-item.dropdown-menu-top",
+        "y": 174
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-about.nav-item.dropdown-menu-top",
+        "y": 174
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-telescope.nav-item.dropdown-menu-top",
+        "y": 174
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-instruments.nav-item.dropdown-menu-top",
+        "y": 174
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-science.nav-item.dropdown-menu-top",
+        "y": 174
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-about.nav-item.dropdown-menu-top",
+        "y": 174
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-telescope.nav-item.dropdown-menu-top",
+        "y": 174
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-instruments.nav-item.dropdown-menu-top",
+        "y": 174
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-science.nav-item.dropdown-menu-top",
+        "y": 174
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-about.nav-item.dropdown-menu-top",
+        "y": 174
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-telescope.nav-item.dropdown-menu-top",
+        "y": 174
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-instruments.nav-item.dropdown-menu-top",
+        "y": 174
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-science.nav-item.dropdown-menu-top",
+        "y": 174
+      },
+      {
+        "added": [
+          "top-aligned"
+        ],
+        "el": "ul.navbar-nav.ml-auto.mt-2_ > li.nav-telescope.nav-item.dropdown-menu-top > div.dropdown-menu.bg-dark.dropdown-main-menu > div.dropdown-submenu > div.dropdown-menu.bg-dark.dropdown-main-menu",
+        "y": 174
+      },
+      {
+        "added": [
+          "top-aligned"
+        ],
+        "el": "ul.navbar-nav.mx-auto.mt-0 > li.nav-telescope.nav-item.dropdown-menu-top > div.dropdown-menu.bg-dark.dropdown-main-menu > div.dropdown-submenu > div.dropdown-menu.bg-dark.dropdown-main-menu",
+        "y": 174
+      },
+      {
+        "added": [
+          "top-aligned"
+        ],
+        "el": "ul.navbar-nav.ml-auto.mt-2_ > li.nav-telescope.nav-item.dropdown-menu-top > div.dropdown-menu.bg-dark.dropdown-main-menu > div.dropdown-submenu > div.dropdown-menu.bg-dark.dropdown-main-menu",
+        "y": 174
+      },
+      {
+        "added": [
+          "top-aligned"
+        ],
+        "el": "ul.navbar-nav.mx-auto.mt-0 > li.nav-telescope.nav-item.dropdown-menu-top > div.dropdown-menu.bg-dark.dropdown-main-menu > div.dropdown-submenu > div.dropdown-menu.bg-dark.dropdown-main-menu",
+        "y": 174
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 174
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 174
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 255
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 255
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 367
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 367
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 518
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 518
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 711
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 711
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 922
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 922
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 1119
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 1119
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 1286
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 1286
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 1426
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 1426
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 1544
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 1544
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 1644
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 1644
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 1731
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 1731
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 1807
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 1807
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 1874
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 1874
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 1933
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 1933
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 1986
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 1986
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2034
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2034
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2077
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2077
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2116
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2116
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2151
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2151
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2183
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2183
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2212
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2212
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2239
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2239
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2263
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2263
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2285
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2285
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2305
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2305
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2323
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2323
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2339
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2339
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2354
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2354
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2368
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2368
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2380
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2380
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2391
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2391
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2400
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2400
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2409
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2409
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2416
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2416
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2422
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2422
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2428
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2428
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2432
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2432
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2436
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2436
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2439
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2439
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2441
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2441
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2442
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2442
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2443
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2443
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2443
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2443
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2443
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2443
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2443
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2443
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2443
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2443
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2443
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2443
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2443
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2443
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2443
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2443
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2443
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2443
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2443
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2443
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2443
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2443
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2443
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2443
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 542
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 542
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "body > div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 309
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 309
+      }
+    ]
+  }
+}

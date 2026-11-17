@@ -1,0 +1,396 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/measure.mjs",
+    "writtenAt": "2026-11-13T13:37:25.835Z",
+    "urls": [
+      "https://elt.eso.org/about/facts/"
+    ],
+    "widths": [
+      360
+    ],
+    "selectors": [
+      ".container-darkblue",
+      ".facts-title",
+      ".swiper-container-carousel",
+      ".swiper-container-carousel .swiper-slide-active",
+      ".swiper-container-carousel2 .swiper-slide-active",
+      ".swiper-button-next-carousel",
+      ".swiper-button-prev-carousel",
+      ".big-header-title-facts",
+      "#big-header",
+      ".big-header-image",
+      ".container-footer"
+    ],
+    "props": [
+      "width",
+      "height",
+      "padding",
+      "fontSize",
+      "lineHeight",
+      "transform"
+    ],
+    "allMatches": true,
+    "failed": [],
+    "warnings": []
+  },
+  "widths": [
+    360
+  ],
+  "selectors": [
+    ".container-darkblue",
+    ".facts-title",
+    ".swiper-container-carousel",
+    ".swiper-container-carousel .swiper-slide-active",
+    ".swiper-container-carousel2 .swiper-slide-active",
+    ".swiper-button-next-carousel",
+    ".swiper-button-prev-carousel",
+    ".big-header-title-facts",
+    "#big-header",
+    ".big-header-image",
+    ".container-footer"
+  ],
+  "root": {
+    "https://elt.eso.org/about/facts/": {
+      "360": {
+        "viewport": 360,
+        "clientWidth": 360,
+        "scrollWidth": 360,
+        "scrollHeight": 3681,
+        "overflowX": 0
+      }
+    }
+  },
+  "pages": {
+    "https://elt.eso.org/about/facts/": {
+      "360": {
+        ".container-darkblue": [
+          {
+            "index": 0,
+            "of": 5,
+            "rect": {
+              "x": 0,
+              "y": 219,
+              "w": 360,
+              "h": 897
+            },
+            "visible": true,
+            "text": "Name Extremely Large Telescope (ELT) Ma…",
+            "props": {
+              "width": "360px",
+              "height": "897px",
+              "padding": "32px 0px 0px",
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "transform": "none"
+            }
+          },
+          {
+            "index": 1,
+            "of": 5,
+            "rect": {
+              "x": 0,
+              "y": 1116,
+              "w": 360,
+              "h": 454
+            },
+            "visible": true,
+            "text": "How much light will the ELT gather? `",
+            "props": {
+              "width": "360px",
+              "height": "454.375px",
+              "padding": "32px 0px 0px",
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "transform": "none"
+            }
+          },
+          {
+            "index": 2,
+            "of": 5,
+            "rect": {
+              "x": 0,
+              "y": 1570,
+              "w": 360,
+              "h": 526
+            },
+            "visible": true,
+            "text": "Type Optical/near-infrared extremely la…",
+            "props": {
+              "width": "360px",
+              "height": "526px",
+              "padding": "32px 0px 0px",
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "transform": "none"
+            }
+          },
+          {
+            "index": 3,
+            "of": 5,
+            "rect": {
+              "x": 0,
+              "y": 2096,
+              "w": 360,
+              "h": 320
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "width": "360px",
+              "height": "320px",
+              "padding": "32px 0px 0px",
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "transform": "none"
+            }
+          },
+          {
+            "index": 4,
+            "of": 5,
+            "rect": {
+              "x": 0,
+              "y": 2416,
+              "w": 360,
+              "h": 1144
+            },
+            "visible": true,
+            "text": "Site Cerro Armazones, Atacama Desert, C…",
+            "props": {
+              "width": "360px",
+              "height": "1144px",
+              "padding": "32px 0px 0px",
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "transform": "none"
+            }
+          }
+        ],
+        ".facts-title": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 1148,
+              "w": 360,
+              "h": 110
+            },
+            "visible": true,
+            "text": "How much light will the ELT gather?",
+            "props": {
+              "width": "360px",
+              "height": "110.375px",
+              "padding": "7.2px 37.7969px",
+              "fontSize": "32px",
+              "lineHeight": "48px",
+              "transform": "none"
+            }
+          }
+        ],
+        ".swiper-container-carousel": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 1282,
+              "w": 360,
+              "h": 288
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "width": "360px",
+              "height": "288px",
+              "padding": "0px",
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "transform": "none"
+            }
+          }
+        ],
+        ".swiper-container-carousel .swiper-slide-active": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 1282,
+              "w": 360,
+              "h": 288
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "width": "360px",
+              "height": "288px",
+              "padding": "0px",
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "transform": "none"
+            }
+          }
+        ],
+        ".swiper-container-carousel2 .swiper-slide-active": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 2128,
+              "w": 360,
+              "h": 288
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "width": "360px",
+              "height": "288px",
+              "padding": "0px",
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "transform": "none"
+            }
+          }
+        ],
+        ".swiper-button-next-carousel": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 323,
+              "y": 1404,
+              "w": 27,
+              "h": 44
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "width": "27px",
+              "height": "44px",
+              "padding": "0px",
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "transform": "none"
+            }
+          }
+        ],
+        ".swiper-button-prev-carousel": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 10,
+              "y": 1404,
+              "w": 27,
+              "h": 44
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "width": "27px",
+              "height": "44px",
+              "padding": "0px",
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "transform": "none"
+            }
+          }
+        ],
+        ".big-header-title-facts": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 38,
+              "y": 123,
+              "w": 284,
+              "h": 72
+            },
+            "visible": true,
+            "text": "About | Facts about the ELT",
+            "props": {
+              "width": "284.406px",
+              "height": "72px",
+              "padding": "0px",
+              "fontSize": "24px",
+              "lineHeight": "36px",
+              "transform": "none"
+            }
+          }
+        ],
+        "#big-header": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 50,
+              "w": 360,
+              "h": 169
+            },
+            "visible": true,
+            "text": "European Southern Observatory About | F…",
+            "props": {
+              "width": "360px",
+              "height": "168.75px",
+              "padding": "0px",
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "transform": "none"
+            }
+          }
+        ],
+        ".big-header-image": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 50,
+              "w": 360,
+              "h": 169
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "width": "360px",
+              "height": "168.75px",
+              "padding": "0px",
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            },
+            "img": {
+              "naturalWidth": 1920,
+              "naturalHeight": 900,
+              "currentSrc": "https://cdn.eso.org/images/banner1920/header-about-facts.jpg"
+            }
+          }
+        ],
+        ".container-footer": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 3560,
+              "w": 360,
+              "h": 121
+            },
+            "visible": true,
+            "text": "ESO | ELT © 2026 Credits | Contact us |…",
+            "props": {
+              "width": "360px",
+              "height": "120.938px",
+              "padding": "16px 0px",
+              "fontSize": "16px",
+              "lineHeight": "24px",
+              "transform": "none"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

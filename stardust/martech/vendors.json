@@ -1,0 +1,25 @@
+{
+ "pages": 8,
+ "vendors": [
+  {
+   "host": "elt.eso.org",
+   "pages": 8,
+   "firstParty": true,
+   "role": null,
+   "class": null,
+   "inCsp": false
+  },
+  {
+   "host": "www.youtube-nocookie.com",
+   "pages": 1,
+   "firstParty": false,
+   "role": "video: YouTube",
+   "class": "V",
+   "inCsp": false
+  }
+ ],
+ "inline": {
+  "_satellite": 1
+ },
+ "cspHosts": []
+}

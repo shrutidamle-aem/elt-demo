@@ -1,0 +1,70 @@
+{
+  "a": "stardust/replica/gates/prototypes-1440/index/origin.png",
+  "b": "stardust/replica/gates/prototypes-1440/index/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 3168,
+    "mode": "overlap"
+  },
+  "heightDelta": 0,
+  "differingPixels": 0,
+  "pct": 0,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/prototypes-1440/index/diff.png",
+  "masks": [
+    {
+      "yA": 1570,
+      "h": 720,
+      "yB": 1570
+    }
+  ],
+  "maskedRows": 720,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 0
+    },
+    {
+      "y0": 3000,
+      "y1": 3168,
+      "pct": 0
+    }
+  ],
+  "maskReason": "science carousel (.swiper-container-science) auto-advances every 5 s (observed live, implemented per motion inventory); slide at capture time is timer phase, not layout — archetype gate measured it frozen on slide 1 at 0.14% (captureState restoreAtDelivery)",
+  "capturesDropped": {
+    "masks": [
+      "1570:720"
+    ],
+    "edsUrl": "http://localhost:8791/index-proposed.html"
+  }
+}

@@ -1,0 +1,803 @@
+{
+ "tool": "chrome-explore",
+ "url": "https://elt.eso.org/about/road/",
+ "at": "2026-11-13T15:07:02.330Z",
+ "shots": "stardust/.work/chrome/header-contract",
+ "widths": {
+  "360": {
+   "root": "#top-navbar",
+   "controls": [
+    {
+     "name": "",
+     "key": "",
+     "role": "link",
+     "kind": "link",
+     "sel": "#top-navbar>span:nth-of-type(1)>div:nth-of-type(1)>a",
+     "href": "https://www.eso.org/",
+     "expanded": null,
+     "rect": [
+      4,
+      11,
+      38,
+      24
+     ],
+     "actions": {}
+    },
+    {
+     "name": "",
+     "key": "",
+     "role": "link",
+     "kind": "link",
+     "sel": "#top-navbar>div:nth-of-type(1)>div>a:nth-of-type(1)",
+     "href": "https://facebook.com/ESOAstronomy",
+     "expanded": null,
+     "rect": [
+      55,
+      11,
+      28,
+      28
+     ],
+     "actions": {}
+    },
+    {
+     "name": "",
+     "key": "",
+     "role": "link",
+     "kind": "link",
+     "sel": "#top-navbar>div:nth-of-type(1)>div>a:nth-of-type(2)",
+     "href": "https://www.instagram.com/esoastronomy/",
+     "expanded": null,
+     "rect": [
+      105,
+      11,
+      28,
+      28
+     ],
+     "actions": {}
+    },
+    {
+     "name": "",
+     "key": "",
+     "role": "link",
+     "kind": "link",
+     "sel": "#top-navbar>div:nth-of-type(1)>div>a:nth-of-type(3)",
+     "href": "https://www.linkedin.com/company/european-southern-observatory",
+     "expanded": null,
+     "rect": [
+      155,
+      11,
+      28,
+      28
+     ],
+     "actions": {}
+    },
+    {
+     "name": "",
+     "key": "",
+     "role": "link",
+     "kind": "link",
+     "sel": "#top-navbar>div:nth-of-type(1)>div>a:nth-of-type(4)",
+     "href": "https://www.youtube.com/channel/UCIhYoC2VIAJqCkoIWNHBQ3Q",
+     "expanded": null,
+     "rect": [
+      205,
+      11,
+      28,
+      28
+     ],
+     "actions": {}
+    },
+    {
+     "name": "en",
+     "key": "en",
+     "role": "link",
+     "kind": "locale",
+     "sel": "#top-navbar>span:nth-of-type(2)>a:nth-of-type(1)",
+     "href": "https://elt.eso.org/about/road/?lang",
+     "expanded": null,
+     "rect": [
+      246,
+      17,
+      14,
+      15
+     ],
+     "actions": {}
+    },
+    {
+     "name": "es",
+     "key": "es",
+     "role": "link",
+     "kind": "locale",
+     "sel": "#top-navbar>span:nth-of-type(2)>a:nth-of-type(2)",
+     "href": "https://elt.eso.org/about/road/?lang",
+     "expanded": null,
+     "rect": [
+      269,
+      17,
+      13,
+      15
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Toggle navigation",
+     "key": "toggle navigation",
+     "role": "toggle",
+     "kind": "drawer",
+     "sel": "#top-navbar>button",
+     "expanded": "false",
+     "rect": [
+      300,
+      5,
+      56,
+      40
+     ],
+     "actions": {
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "ELT HOME",
+          "href": "https://elt.eso.org/"
+         },
+         {
+          "text": "ABOUT",
+          "href": "https://elt.eso.org/about/"
+         },
+         {
+          "text": "TELESCOPE",
+          "href": "https://elt.eso.org/telescope/"
+         },
+         {
+          "text": "INSTRUMENTS",
+          "href": "https://elt.eso.org/instrument/"
+         },
+         {
+          "text": "SCIENCE",
+          "href": "https://elt.eso.org/science/"
+         },
+         {
+          "text": "NEWS & MULTIMEDIA",
+          "href": "https://elt.eso.org/media/"
+         },
+         {
+          "text": "SUCCESS STORIES",
+          "href": "https://elt.eso.org/success/buildingon/"
+         },
+         {
+          "text": "",
+          "href": "https://elt.eso.org/about/road/#"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         4,
+         50,
+         352,
+         327
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "height",
+         "ms": 350,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.navbar-collapse"
+        }
+       ],
+       "shot": "360-001-Toggle-navigation-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "ELT HOME",
+          "href": "https://elt.eso.org/"
+         },
+         {
+          "text": "ABOUT",
+          "href": "https://elt.eso.org/about/"
+         },
+         {
+          "text": "TELESCOPE",
+          "href": "https://elt.eso.org/telescope/"
+         },
+         {
+          "text": "INSTRUMENTS",
+          "href": "https://elt.eso.org/instrument/"
+         },
+         {
+          "text": "SCIENCE",
+          "href": "https://elt.eso.org/science/"
+         },
+         {
+          "text": "NEWS & MULTIMEDIA",
+          "href": "https://elt.eso.org/media/"
+         },
+         {
+          "text": "SUCCESS STORIES",
+          "href": "https://elt.eso.org/success/buildingon/"
+         },
+         {
+          "text": "",
+          "href": "https://elt.eso.org/about/road/#"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         4,
+         50,
+         352,
+         327
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "height",
+         "ms": 350,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.navbar-collapse"
+        }
+       ],
+       "shot": "360-002-Toggle-navigation-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": false,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "ABOUT",
+       "key": "about",
+       "role": "link",
+       "kind": "link",
+       "sel": "#navbarNav>ul>li:nth-of-type(2)>a",
+       "href": "https://elt.eso.org/about/",
+       "expanded": null,
+       "rect": [
+        19,
+        90,
+        52,
+        40
+       ],
+       "actions": {}
+      },
+      {
+       "name": "TELESCOPE",
+       "key": "telescope",
+       "role": "link",
+       "kind": "link",
+       "sel": "#navbarNav>ul>li:nth-of-type(3)>a",
+       "href": "https://elt.eso.org/telescope/",
+       "expanded": null,
+       "rect": [
+        19,
+        130,
+        89,
+        40
+       ],
+       "actions": {}
+      },
+      {
+       "name": "INSTRUMENTS",
+       "key": "instruments",
+       "role": "link",
+       "kind": "link",
+       "sel": "#navbarNav>ul>li:nth-of-type(4)>a",
+       "href": "https://elt.eso.org/instrument/",
+       "expanded": null,
+       "rect": [
+        19,
+        170,
+        108,
+        40
+       ],
+       "actions": {}
+      },
+      {
+       "name": "SCIENCE",
+       "key": "science",
+       "role": "link",
+       "kind": "link",
+       "sel": "#navbarNav>ul>li:nth-of-type(5)>a",
+       "href": "https://elt.eso.org/science/",
+       "expanded": null,
+       "rect": [
+        19,
+        210,
+        66,
+        40
+       ],
+       "actions": {}
+      },
+      {
+       "name": "search",
+       "key": "search",
+       "role": "toggle",
+       "kind": "search",
+       "sel": "#nav-search>a",
+       "expanded": null,
+       "rect": [
+        19,
+        330,
+        24,
+        47
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 0,
+          "inputs": [
+           "search"
+          ],
+          "buttons": [
+           "Search"
+          ],
+          "options": 0,
+          "rect": [
+           51,
+           330,
+           258,
+           118
+          ]
+         },
+         "expanded": null,
+         "focus": "body",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 250,
+           "delay": 0,
+           "easing": "ease",
+           "target": "a.nav-link"
+          },
+          {
+           "kind": "transition",
+           "prop": "color",
+           "ms": null,
+           "delay": null,
+           "easing": null,
+           "target": "a.nav-link"
+          }
+         ],
+         "shot": "360-003-search-click.png"
+        },
+        "key": null
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": true,
+        "toggle": false
+       },
+       "children": [
+        {
+         "name": "Search",
+         "key": "search",
+         "role": "input",
+         "kind": "search",
+         "sel": "#nav-search>div>div>form>input",
+         "expanded": null,
+         "rect": [
+          77,
+          343,
+          207,
+          38
+         ],
+         "actions": {},
+         "search": {
+          "probe": "choose",
+          "typeahead": {
+           "links": 0,
+           "options": 0
+          },
+          "submit": "https://elt.eso.org/about/road/#"
+         }
+        },
+        {
+         "name": "Search",
+         "key": "search",
+         "role": "toggle",
+         "kind": "search",
+         "sel": "#nav-search>div>div>form>button",
+         "expanded": null,
+         "rect": [
+          77,
+          389,
+          74,
+          38
+         ],
+         "actions": {
+          "click": {
+           "opened": false,
+           "navigates": "https://elt.eso.org/public/eltsearch/?q="
+          },
+          "key": {
+           "opened": false,
+           "navigates": "https://elt.eso.org/public/eltsearch/?q="
+          }
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 50,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": 0,
+     "height": 50,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": 0,
+     "height": 50,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 50,
+     "position": "fixed",
+     "inView": true
+    }
+   ],
+   "states": 3,
+   "truncated": null,
+   "loads": 2,
+   "requests": 40,
+   "maxRequests": 600,
+   "inputsSkipped": 0
+  },
+  "1440": {
+   "root": "#top-navbar",
+   "controls": [
+    {
+     "name": "",
+     "key": "",
+     "role": "link",
+     "kind": "link",
+     "sel": "#top-navbar>span:nth-of-type(1)>div:nth-of-type(1)>a",
+     "href": "https://www.eso.org/",
+     "expanded": null,
+     "rect": [
+      64,
+      11,
+      70,
+      24
+     ],
+     "actions": {}
+    },
+    {
+     "name": "",
+     "key": "",
+     "role": "link",
+     "kind": "link",
+     "sel": "#navbarNav>ul>li:nth-of-type(8)>a:nth-of-type(1)",
+     "href": "https://facebook.com/ESOAstronomy",
+     "expanded": null,
+     "rect": [
+      1121,
+      11,
+      28,
+      28
+     ],
+     "actions": {}
+    },
+    {
+     "name": "",
+     "key": "",
+     "role": "link",
+     "kind": "link",
+     "sel": "#navbarNav>ul>li:nth-of-type(8)>a:nth-of-type(2)",
+     "href": "https://www.instagram.com/esoastronomy/",
+     "expanded": null,
+     "rect": [
+      1184,
+      11,
+      28,
+      28
+     ],
+     "actions": {}
+    },
+    {
+     "name": "",
+     "key": "",
+     "role": "link",
+     "kind": "link",
+     "sel": "#navbarNav>ul>li:nth-of-type(8)>a:nth-of-type(3)",
+     "href": "https://www.linkedin.com/company/european-southern-observatory",
+     "expanded": null,
+     "rect": [
+      1246,
+      11,
+      28,
+      28
+     ],
+     "actions": {}
+    },
+    {
+     "name": "",
+     "key": "",
+     "role": "link",
+     "kind": "link",
+     "sel": "#navbarNav>ul>li:nth-of-type(8)>a:nth-of-type(4)",
+     "href": "https://www.youtube.com/channel/UCIhYoC2VIAJqCkoIWNHBQ3Q",
+     "expanded": null,
+     "rect": [
+      1309,
+      11,
+      28,
+      28
+     ],
+     "actions": {}
+    },
+    {
+     "name": "search",
+     "key": "search",
+     "role": "toggle",
+     "kind": "search",
+     "sel": "#nav-search>a",
+     "expanded": null,
+     "rect": [
+      1370,
+      2,
+      40,
+      47
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [
+         "search"
+        ],
+        "buttons": [
+         "Search"
+        ],
+        "options": 0,
+        "rect": [
+         1079,
+         49,
+         345,
+         64
+        ]
+       },
+       "expanded": null,
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease",
+         "target": "a.nav-link"
+        },
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease",
+         "target": "a.nav-link"
+        },
+        {
+         "kind": "animation",
+         "prop": "menuDown",
+         "ms": 250,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.dropdown-menu"
+        }
+       ],
+       "shot": "1440-001-search-hover.png"
+      },
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [
+         "search"
+        ],
+        "buttons": [
+         "Search"
+        ],
+        "options": 0,
+        "rect": [
+         1079,
+         49,
+         345,
+         64
+        ]
+       },
+       "expanded": null,
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease",
+         "target": "a.nav-link"
+        },
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease",
+         "target": "a.nav-link"
+        },
+        {
+         "kind": "animation",
+         "prop": "menuDown",
+         "ms": 250,
+         "delay": 0,
+         "easing": "linear",
+         "target": "div.dropdown-menu"
+        }
+       ],
+       "shot": "1440-002-search-click.png"
+      },
+      "key": null
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": false
+     },
+     "children": [
+      {
+       "name": "Search",
+       "key": "search",
+       "role": "input",
+       "kind": "search",
+       "sel": "#nav-search>div>div>form>input",
+       "expanded": null,
+       "rect": [
+        1105,
+        62,
+        207,
+        38
+       ],
+       "actions": {},
+       "search": {
+        "probe": "choose",
+        "typeahead": {
+         "links": 0,
+         "options": 0
+        },
+        "submit": "https://elt.eso.org/about/road/#"
+       }
+      },
+      {
+       "name": "Search",
+       "key": "search",
+       "role": "toggle",
+       "kind": "search",
+       "sel": "#nav-search>div>div>form>button",
+       "expanded": null,
+       "rect": [
+        1325,
+        62,
+        74,
+        38
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": false,
+         "navigates": "https://elt.eso.org/public/eltsearch/?q="
+        },
+        "key": {
+         "opened": false,
+         "navigates": "https://elt.eso.org/public/eltsearch/?q="
+        }
+       }
+      }
+     ]
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 50,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": 0,
+     "height": 50,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": 0,
+     "height": 50,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 50,
+     "position": "fixed",
+     "inView": true
+    }
+   ],
+   "states": 2,
+   "truncated": null,
+   "loads": 2,
+   "requests": 42,
+   "maxRequests": 600,
+   "inputsSkipped": 0
+  }
+ },
+ "probe": "choose"
+}

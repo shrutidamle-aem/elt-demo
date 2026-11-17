@@ -1,0 +1,58 @@
+{
+  "runtime": "vanilla-eds",
+  "blockWrapperClass": "block",
+  "buttonClasses": ".button / .button.primary / .button.secondary / .button.accent, in p.button-wrapper (no paint: the source has no button system)",
+  "buttonization": "formatted-only",
+  "fragmentScriptPolicy": "inert-innerHTML",
+  "emptySectionCollapse": true,
+  "foundation": {
+    "writtenBy": "C0 foundation subagent (rollout C-deliver)",
+    "source": "stardust/prototypes/canon.css + canon.js + inner.css (gated)",
+    "boxSizing": "border-box, global (*, *::before, *::after)",
+    "tokens": {
+      "--font-brand": "\"Helvetica Neue LT ESO\", \"Helvetica Neue LT ESO Fallback\", \"Helvetica Neue\", helvetica, arial, sans-serif (weights 400 Light / 400 italic / 600 Roman / 700 Medium)",
+      "--font-brand-light": "\"Helvetica Neue LT ESO Light\" (35 Thin), \"Helvetica Neue LT ESO Light Fallback\"",
+      "--font-brand-caps": "\"Helvetica Neue LT ESO\", \"Helvetica Neue LT ESO Caps Fallback\" (header menu labels)",
+      "--esoblue": "rgb(0 119 190)",
+      "--esoblue-hover": "#0056b3",
+      "--orange": "rgb(232 133 38)",
+      "--headerblue": "rgb(45 164 245)",
+      "--light-bg": "rgb(232 232 232)",
+      "--dark-bg": "#000",
+      "--darkblue-bg": "rgb(11 22 39)",
+      "--footer-bg": "#202020",
+      "--menu-bg": "#343a40",
+      "--nav-gradient": "linear-gradient(rgb(40 39 49), rgb(16 17 19))",
+      "--content-inset": "10.5% (the source's left/right inset for titles and paragraphs)"
+    },
+    "iconFonts": {
+      "Font Awesome 5 Free (900)": ".fa-arrow-down, .fas.fa-download, .fas.fa-external-link-alt, .fas.fa-folder-open, .fas.fa-play (subset: only these glyphs)",
+      "Material Icons": ".material-icons with ligatures search, fullscreen, keyboard_arrow_right (subset: only these)"
+    },
+    "base": "body #000 / #fff, 1rem, line-height 1.5; p + ul margin 0 0 1rem; li padding 1rem 0 (site rule L15690 — reset it in block lists); a and a:hover #fff, no underline; headings keep UA defaults (no global heading scale — blocks set their own)",
+    "breakpoints": "the source's own tiers: width <= 576 / >= 576, 768, 992, 1200, 1440, 1680, 1920; desktop chrome at >= 992",
+    "sections": {
+      "scaffold": "main > .section margin 0; main > .section > div max-width none, margin 0, padding 0 — every band is full-bleed, blocks own their inner layout",
+      "styles": "section-metadata `style` (ONE value): light (pad 2rem 0 0, bg --light-bg, #000, links --esoblue), light-tight (pad 0), dark (pad 2rem 0 0, #000), dark-tight (pad 0), darkblue (pad 2rem 0 0, --darkblue-bg)"
+    },
+    "header": {
+      "--nav-height": "50px (= --topbar-h; the fixed #top-navbar at every width; <header> reserves it)",
+      "--main-nav-height": "69px reserve for #main-navbar before the header inserts it (>= 992)",
+      "topBar": "nav#top-navbar.header-nav.top-navbar, position fixed, z-index 1030",
+      "mainBar": "nav#main-navbar.header-nav.main-navbar, inserted into <main> right after the big-header section (first in <main> when a page has none); >= 992 only; .mysticky (sticky top 50px) / .myfixed (fixed bottom) morph + dropup/dropdown flip on scroll; z-index 1020",
+      "navDocument": "/nav (English), /chile/nav (Spanish menu labels + search strings) — set `nav: /chile/nav` in the /chile/ page metadata",
+      "active": "computed from location.pathname (top item by section prefix, menu entry by exact path; ELT HOME when nothing matches)"
+    },
+    "hero": {
+      "block": "big-header (foundation-owned, blocks/big-header/) — every page's FIRST section",
+      "rows": "row 1: hero picture (fixed, parallax 0.5, under the top bar); row 2: <h1> title — a <strong> run is the orange section label (\"**About** | The road to the ELT\")",
+      "variants": "home (front-page title: <h1> + <p> subtitle), facts (1.5rem title below 576px)",
+      "frame": ".big-header-text height 46.875vw; logo block (ESO logo + 'European Southern Observatory') comes from /nav section 6",
+      "note": "sections after the hero must paint their own ground (the hero image is position: fixed behind the page)"
+    },
+    "footer": "footer .site-footer (#202020), one row: brand line + link line, from /footer",
+    "langMetadata": "page metadata `lang` sets <html lang> (es-cl on /chile/); default en",
+    "favicon": "/favicon.ico (captured)",
+    "fontsLicensing": "fonts/LICENSING.md — Monotype kit, licence to confirm before production (R-01)"
+  }
+}

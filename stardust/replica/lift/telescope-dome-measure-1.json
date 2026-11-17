@@ -1,0 +1,4868 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/measure.mjs",
+    "writtenAt": "2026-11-13T13:01:25.456Z",
+    "urls": [
+      "https://elt.eso.org/telescope/dome/",
+      "http://localhost:8791/telescope-dome-proposed.html"
+    ],
+    "widths": [
+      1440,
+      360
+    ],
+    "selectors": [
+      "#big-header",
+      ".big-header-title",
+      "#main-navbar",
+      ".science-header-textblock",
+      ".header-title",
+      ".header-subtitle",
+      ".header-description",
+      ".header-quick-links",
+      ".nutshell",
+      ".nutshell .section-title-paragraph",
+      ".lightlinks",
+      ".lightlinks > div",
+      ".internal-menu-text",
+      ".internal-menu-title",
+      ".internal-menu-link",
+      "svg.internal-menu-trapezoid",
+      "#astroperf_",
+      ".section-heading-paragraph",
+      "#enclosurestruct_",
+      ".section-subtitle-paragraph",
+      "iframe",
+      "table",
+      "td",
+      "footer"
+    ],
+    "props": [
+      "display",
+      "position",
+      "boxSizing",
+      "width",
+      "height",
+      "maxWidth",
+      "margin",
+      "padding",
+      "gap",
+      "backgroundColor",
+      "backgroundImage",
+      "color",
+      "fontFamily",
+      "fontSize",
+      "fontWeight",
+      "lineHeight",
+      "letterSpacing",
+      "textTransform",
+      "textAlign",
+      "borderRadius",
+      "border",
+      "boxShadow",
+      "opacity",
+      "objectFit"
+    ],
+    "allMatches": false,
+    "failed": [],
+    "warnings": []
+  },
+  "widths": [
+    1440,
+    360
+  ],
+  "selectors": [
+    "#big-header",
+    ".big-header-title",
+    "#main-navbar",
+    ".science-header-textblock",
+    ".header-title",
+    ".header-subtitle",
+    ".header-description",
+    ".header-quick-links",
+    ".nutshell",
+    ".nutshell .section-title-paragraph",
+    ".lightlinks",
+    ".lightlinks > div",
+    ".internal-menu-text",
+    ".internal-menu-title",
+    ".internal-menu-link",
+    "svg.internal-menu-trapezoid",
+    "#astroperf_",
+    ".section-heading-paragraph",
+    "#enclosurestruct_",
+    ".section-subtitle-paragraph",
+    "iframe",
+    "table",
+    "td",
+    "footer"
+  ],
+  "root": {
+    "https://elt.eso.org/telescope/dome/": {
+      "360": {
+        "viewport": 360,
+        "clientWidth": 360,
+        "scrollWidth": 360,
+        "scrollHeight": 9868,
+        "overflowX": 0
+      },
+      "1440": {
+        "viewport": 1440,
+        "clientWidth": 1440,
+        "scrollWidth": 1440,
+        "scrollHeight": 8581,
+        "overflowX": 0
+      }
+    },
+    "http://localhost:8791/telescope-dome-proposed.html": {
+      "360": {
+        "viewport": 360,
+        "clientWidth": 360,
+        "scrollWidth": 360,
+        "scrollHeight": 9868,
+        "overflowX": 0
+      },
+      "1440": {
+        "viewport": 1440,
+        "clientWidth": 1440,
+        "scrollWidth": 1440,
+        "scrollHeight": 8588,
+        "overflowX": 0
+      }
+    }
+  },
+  "pages": {
+    "https://elt.eso.org/telescope/dome/": {
+      "360": {
+        "#big-header": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 50,
+              "w": 360,
+              "h": 169
+            },
+            "visible": true,
+            "text": "European Southern Observatory Telescope",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "168.75px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".big-header-title": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 38,
+              "y": 150,
+              "w": 284,
+              "h": 45
+            },
+            "visible": true,
+            "text": "Telescope",
+            "props": {
+              "display": "block",
+              "position": "absolute",
+              "boxSizing": "border-box",
+              "width": "284.406px",
+              "height": "45px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "30px",
+              "fontWeight": "400",
+              "lineHeight": "45px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#main-navbar": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "ELT HOME ABOUT About the ELT Timeline L…",
+            "props": {
+              "display": "none",
+              "position": "sticky",
+              "boxSizing": "border-box",
+              "width": "100%",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px 4px",
+              "gap": "normal",
+              "backgroundColor": "rgb(0, 0, 0)",
+              "backgroundImage": "linear-gradient(rgb(40, 39, 49), rgb(16, 17, 19))",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".science-header-textblock": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 38,
+              "y": 219,
+              "w": 322,
+              "h": 169
+            },
+            "visible": true,
+            "text": "Dome Quick Links: Astronomical Performa…",
+            "props": {
+              "display": "block",
+              "position": "absolute",
+              "boxSizing": "border-box",
+              "width": "322.188px",
+              "height": "168.75px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".header-title": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 38,
+              "y": 235,
+              "w": 322,
+              "h": 42
+            },
+            "visible": true,
+            "text": "Dome",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "322.188px",
+              "height": "42px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(45, 164, 245)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "28px",
+              "fontWeight": "600",
+              "lineHeight": "42px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(45, 164, 245)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".header-subtitle": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "The giant ELT dome will house the teles…",
+            "props": {
+              "display": "none",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "35%",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "24px",
+              "fontWeight": "400",
+              "lineHeight": "36px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".header-description": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "The dome will be about 80 metres high a…",
+            "props": {
+              "display": "none",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "35%",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\"",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "26px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".header-quick-links": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 38,
+              "y": 309,
+              "w": 288,
+              "h": 63
+            },
+            "visible": true,
+            "text": "Quick Links: Astronomical Performance |…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "288.344px",
+              "height": "63px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\"",
+              "fontSize": "14px",
+              "fontWeight": "600",
+              "lineHeight": "21px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".nutshell": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 388,
+              "w": 360,
+              "h": 1933
+            },
+            "visible": true,
+            "text": "In a Nutshell Share on Facebook E-Mail …",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "1932.53px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "32px 0px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(232, 232, 232)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".nutshell .section-title-paragraph": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 420,
+              "w": 360,
+              "h": 64
+            },
+            "visible": true,
+            "text": "In a Nutshell Share on Facebook E-Mail …",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "63.7812px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px 37.7969px 24px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "26px",
+              "fontWeight": "600",
+              "lineHeight": "39px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".lightlinks": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 2320,
+              "w": 360,
+              "h": 736
+            },
+            "visible": true,
+            "text": "Astronomical Performance For precise as…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "735.5px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "32px 0px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(232, 232, 232)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".lightlinks > div": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 0,
+              "y": 2352,
+              "w": 360,
+              "h": 352
+            },
+            "visible": true,
+            "text": "Astronomical Performance For precise as…",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "351.75px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(56, 205, 228)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".internal-menu-text": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 15,
+              "y": 2537,
+              "w": 330,
+              "h": 151
+            },
+            "visible": true,
+            "text": "For precise astronomical observations t…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "330px",
+              "height": "151px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px 23.0938px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "33.75px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".internal-menu-title": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 38,
+              "y": 2426,
+              "w": 284,
+              "h": 78
+            },
+            "visible": true,
+            "text": "Astronomical Performance",
+            "props": {
+              "display": "block",
+              "position": "absolute",
+              "boxSizing": "border-box",
+              "width": "284.406px",
+              "height": "78px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "26px",
+              "fontWeight": "400",
+              "lineHeight": "39px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".internal-menu-link": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Read More",
+            "props": {
+              "display": "none",
+              "position": "absolute",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "600",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "svg.internal-menu-trapezoid": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "",
+            "props": {
+              "display": "inline",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "100%",
+              "height": "100%",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#astroperf_": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 3056,
+              "w": 360,
+              "h": 1358
+            },
+            "visible": true,
+            "text": "Astronomical Performance For precise as…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "1358.22px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "32px 0px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(232, 232, 232)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".section-heading-paragraph": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 38,
+              "y": 3190,
+              "w": 284,
+              "h": 114
+            },
+            "visible": true,
+            "text": "For precise astronomical observations t…",
+            "props": {
+              "display": "inline",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "700",
+              "lineHeight": "27px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#enclosurestruct_": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 4414,
+              "w": 360,
+              "h": 5333
+            },
+            "visible": true,
+            "text": "Enclosure Structure The ELT dome is a g…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "5333.31px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "32px 0px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(232, 232, 232)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".section-subtitle-paragraph": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 38,
+              "y": 5992,
+              "w": 284,
+              "h": 38
+            },
+            "visible": true,
+            "text": "Windscreen",
+            "props": {
+              "display": "inline",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "20px",
+              "fontWeight": "700",
+              "lineHeight": "32px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "iframe": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 38,
+              "y": 6642,
+              "w": 284,
+              "h": 160
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "absolute",
+              "boxSizing": "border-box",
+              "width": "284.406px",
+              "height": "159.969px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "table": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 38,
+              "y": 8429,
+              "w": 284,
+              "h": 1266
+            },
+            "visible": true,
+            "text": "Height of the dome 80 m Diameter of the…",
+            "props": {
+              "display": "table",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "284.406px",
+              "height": "1266px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px 0px 16px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "27px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "td": [
+          {
+            "index": 0,
+            "of": 30,
+            "rect": {
+              "x": 38,
+              "y": 8429,
+              "w": 157,
+              "h": 52
+            },
+            "visible": true,
+            "text": "Height of the dome",
+            "props": {
+              "display": "table-cell",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "156.562px",
+              "height": "52px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "12px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "27px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "footer": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 9747,
+              "w": 360,
+              "h": 121
+            },
+            "visible": true,
+            "text": "ESO | ELT © 2026 Credits | Contact us |…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "120.938px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "16px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(32, 32, 32)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ]
+      },
+      "1440": {
+        "#big-header": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 50,
+              "w": 1440,
+              "h": 675
+            },
+            "visible": true,
+            "text": "European Southern Observatory Telescope",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "675px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".big-header-title": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 151,
+              "y": 550,
+              "w": 1138,
+              "h": 80
+            },
+            "visible": true,
+            "text": "Telescope",
+            "props": {
+              "display": "block",
+              "position": "absolute",
+              "boxSizing": "border-box",
+              "width": "1137.62px",
+              "height": "80.25px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "53.5px",
+              "fontWeight": "400",
+              "lineHeight": "80.25px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#main-navbar": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 725,
+              "w": 1440,
+              "h": 69
+            },
+            "visible": true,
+            "text": "ELT HOME ABOUT TELESCOPE INSTRUMENTS SC…",
+            "props": {
+              "display": "flex",
+              "position": "sticky",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "68.7812px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px 16px",
+              "gap": "normal",
+              "backgroundColor": "rgb(0, 0, 0)",
+              "backgroundImage": "linear-gradient(rgb(40, 39, 49), rgb(16, 17, 19))",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".science-header-textblock": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 151,
+              "y": 794,
+              "w": 1289,
+              "h": 675
+            },
+            "visible": true,
+            "text": "Dome The giant ELT dome will house the …",
+            "props": {
+              "display": "block",
+              "position": "absolute",
+              "boxSizing": "border-box",
+              "width": "1288.8px",
+              "height": "675px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".header-title": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 151,
+              "y": 813,
+              "w": 1289,
+              "h": 54
+            },
+            "visible": true,
+            "text": "Dome",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "1288.8px",
+              "height": "54px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(45, 164, 245)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "36px",
+              "fontWeight": "600",
+              "lineHeight": "54px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(45, 164, 245)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".header-subtitle": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 151,
+              "y": 905,
+              "w": 451,
+              "h": 236
+            },
+            "visible": true,
+            "text": "The giant ELT dome will house the teles…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "451.078px",
+              "height": "236px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "31px",
+              "fontWeight": "400",
+              "lineHeight": "44px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".header-description": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 151,
+              "y": 1179,
+              "w": 451,
+              "h": 176
+            },
+            "visible": true,
+            "text": "The dome will be about 80 metres high a…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "451.078px",
+              "height": "176px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\"",
+              "fontSize": "19px",
+              "fontWeight": "400",
+              "lineHeight": "32px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".header-quick-links": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 151,
+              "y": 1393,
+              "w": 1153,
+              "h": 57
+            },
+            "visible": true,
+            "text": "Quick Links: Astronomical Performance |…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "1153.47px",
+              "height": "57px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\"",
+              "fontSize": "19px",
+              "fontWeight": "600",
+              "lineHeight": "28.5px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".nutshell": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 1469,
+              "w": 1440,
+              "h": 867
+            },
+            "visible": true,
+            "text": "In a Nutshell Share on Facebook E-Mail …",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "867.406px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "32px 0px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(232, 232, 232)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".nutshell .section-title-paragraph": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 1501,
+              "w": 1440,
+              "h": 104
+            },
+            "visible": true,
+            "text": "In a Nutshell Share on Facebook E-Mail …",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "104px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "16px 151.188px 40px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "32px",
+              "fontWeight": "600",
+              "lineHeight": "48px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".lightlinks": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 2336,
+              "w": 1440,
+              "h": 707
+            },
+            "visible": true,
+            "text": "Astronomical Performance For precise as…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "707px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "32px 0px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(232, 232, 232)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".lightlinks > div": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 0,
+              "y": 2368,
+              "w": 1440,
+              "h": 338
+            },
+            "visible": true,
+            "text": "Astronomical Performance For precise as…",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "337.5px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(56, 205, 228)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".internal-menu-text": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 735,
+              "y": 2478,
+              "w": 690,
+              "h": 117
+            },
+            "visible": true,
+            "text": "For precise astronomical observations t…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "690px",
+              "height": "117.25px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px 48.2969px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "20.816px",
+              "fontWeight": "400",
+              "lineHeight": "33.75px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".internal-menu-title": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 76,
+              "y": 2624,
+              "w": 569,
+              "h": 48
+            },
+            "visible": true,
+            "text": "Astronomical Performance",
+            "props": {
+              "display": "block",
+              "position": "absolute",
+              "boxSizing": "border-box",
+              "width": "568.812px",
+              "height": "48px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "32px",
+              "fontWeight": "400",
+              "lineHeight": "48px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".internal-menu-link": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 720,
+              "y": 2648,
+              "w": 216,
+              "h": 57
+            },
+            "visible": true,
+            "text": "Read More",
+            "props": {
+              "display": "flex",
+              "position": "absolute",
+              "boxSizing": "border-box",
+              "width": "216px",
+              "height": "57.375px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "19.5px",
+              "fontWeight": "600",
+              "lineHeight": "29.25px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "svg.internal-menu-trapezoid": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 720,
+              "y": 2649,
+              "w": 720,
+              "h": 57
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "inline",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "720px",
+              "height": "57.1406px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#astroperf_": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 3043,
+              "w": 1440,
+              "h": 1346
+            },
+            "visible": true,
+            "text": "Astronomical Performance For precise as…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "1346.11px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "32px 0px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(232, 232, 232)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".section-heading-paragraph": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 151,
+              "y": 3179,
+              "w": 1138,
+              "h": 81
+            },
+            "visible": true,
+            "text": "For precise astronomical observations t…",
+            "props": {
+              "display": "inline",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "19.5px",
+              "fontWeight": "700",
+              "lineHeight": "33px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#enclosurestruct_": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 4389,
+              "w": 1440,
+              "h": 4138
+            },
+            "visible": true,
+            "text": "Enclosure Structure The ELT dome is a g…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "4137.8px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "32px 0px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(232, 232, 232)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".section-subtitle-paragraph": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 151,
+              "y": 5817,
+              "w": 1138,
+              "h": 55
+            },
+            "visible": true,
+            "text": "Windscreen",
+            "props": {
+              "display": "inline",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "24.96px",
+              "fontWeight": "700",
+              "lineHeight": "40px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "iframe": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 151,
+              "y": 6133,
+              "w": 1138,
+              "h": 640
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "absolute",
+              "boxSizing": "border-box",
+              "width": "1137.62px",
+              "height": "639.906px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "table": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 151,
+              "y": 7585,
+              "w": 1138,
+              "h": 870
+            },
+            "visible": true,
+            "text": "Height of the dome 80 m Diameter of the…",
+            "props": {
+              "display": "table",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "1137.62px",
+              "height": "870px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px 0px 16px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "19.5px",
+              "fontWeight": "400",
+              "lineHeight": "33px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "td": [
+          {
+            "index": 0,
+            "of": 30,
+            "rect": {
+              "x": 151,
+              "y": 7586,
+              "w": 626,
+              "h": 58
+            },
+            "visible": true,
+            "text": "Height of the dome",
+            "props": {
+              "display": "table-cell",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "626.266px",
+              "height": "58px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "12px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "19.5px",
+              "fontWeight": "400",
+              "lineHeight": "33px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "footer": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 8527,
+              "w": 1440,
+              "h": 54
+            },
+            "visible": true,
+            "text": "ESO | ELT © 2026 Credits | Contact us |…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "54.0781px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "16px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(32, 32, 32)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ]
+      }
+    },
+    "http://localhost:8791/telescope-dome-proposed.html": {
+      "360": {
+        "#big-header": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 50,
+              "w": 360,
+              "h": 169
+            },
+            "visible": true,
+            "text": "European Southern Observatory Telescope",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "168.75px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".big-header-title": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 38,
+              "y": 150,
+              "w": 284,
+              "h": 45
+            },
+            "visible": true,
+            "text": "Telescope",
+            "props": {
+              "display": "block",
+              "position": "absolute",
+              "boxSizing": "border-box",
+              "width": "284.406px",
+              "height": "45px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "30px",
+              "fontWeight": "400",
+              "lineHeight": "45px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#main-navbar": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "ELT HOME ABOUT About the ELT Timeline L…",
+            "props": {
+              "display": "none",
+              "position": "sticky",
+              "boxSizing": "border-box",
+              "width": "100%",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px 4px",
+              "gap": "normal",
+              "backgroundColor": "rgb(0, 0, 0)",
+              "backgroundImage": "linear-gradient(rgb(40, 39, 49), rgb(16, 17, 19))",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".science-header-textblock": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 38,
+              "y": 219,
+              "w": 322,
+              "h": 169
+            },
+            "visible": true,
+            "text": "Dome Quick Links: Astronomical Performa…",
+            "props": {
+              "display": "block",
+              "position": "absolute",
+              "boxSizing": "border-box",
+              "width": "322.188px",
+              "height": "168.75px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".header-title": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 38,
+              "y": 235,
+              "w": 322,
+              "h": 42
+            },
+            "visible": true,
+            "text": "Dome",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "322.188px",
+              "height": "42px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(45, 164, 245)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "28px",
+              "fontWeight": "600",
+              "lineHeight": "42px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(45, 164, 245)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".header-subtitle": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "The giant ELT dome will house the teles…",
+            "props": {
+              "display": "none",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "35%",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "24px",
+              "fontWeight": "400",
+              "lineHeight": "36px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".header-description": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "The dome will be about 80 metres high a…",
+            "props": {
+              "display": "none",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "35%",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "26px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".header-quick-links": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 38,
+              "y": 309,
+              "w": 288,
+              "h": 63
+            },
+            "visible": true,
+            "text": "Quick Links: Astronomical Performance |…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "288.344px",
+              "height": "63px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "14px",
+              "fontWeight": "600",
+              "lineHeight": "21px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".nutshell": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 388,
+              "w": 360,
+              "h": 1933
+            },
+            "visible": true,
+            "text": "In a Nutshell Share on Facebook E-Mail …",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "1932.53px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "32px 0px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(232, 232, 232)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".nutshell .section-title-paragraph": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 420,
+              "w": 360,
+              "h": 64
+            },
+            "visible": true,
+            "text": "In a Nutshell Share on Facebook E-Mail …",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "63.7812px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px 37.7969px 24px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "26px",
+              "fontWeight": "600",
+              "lineHeight": "39px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".lightlinks": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 2320,
+              "w": 360,
+              "h": 736
+            },
+            "visible": true,
+            "text": "Astronomical Performance For precise as…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "735.5px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "32px 0px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(232, 232, 232)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".lightlinks > div": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 0,
+              "y": 2352,
+              "w": 360,
+              "h": 352
+            },
+            "visible": true,
+            "text": "Astronomical Performance For precise as…",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "351.75px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(56, 205, 228)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".internal-menu-text": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 15,
+              "y": 2537,
+              "w": 330,
+              "h": 151
+            },
+            "visible": true,
+            "text": "For precise astronomical observations t…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "330px",
+              "height": "151px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px 23.0938px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "33.75px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".internal-menu-title": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 38,
+              "y": 2426,
+              "w": 284,
+              "h": 78
+            },
+            "visible": true,
+            "text": "Astronomical Performance",
+            "props": {
+              "display": "block",
+              "position": "absolute",
+              "boxSizing": "border-box",
+              "width": "284.406px",
+              "height": "78px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "26px",
+              "fontWeight": "400",
+              "lineHeight": "39px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".internal-menu-link": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Read More",
+            "props": {
+              "display": "none",
+              "position": "absolute",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "600",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "svg.internal-menu-trapezoid": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "100%",
+              "height": "100%",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#astroperf_": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 3056,
+              "w": 360,
+              "h": 1358
+            },
+            "visible": true,
+            "text": "Astronomical Performance For precise as…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "1358.22px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "32px 0px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(232, 232, 232)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".section-heading-paragraph": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 38,
+              "y": 3190,
+              "w": 284,
+              "h": 114
+            },
+            "visible": true,
+            "text": "For precise astronomical observations t…",
+            "props": {
+              "display": "inline",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "700",
+              "lineHeight": "27px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#enclosurestruct_": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 4414,
+              "w": 360,
+              "h": 5333
+            },
+            "visible": true,
+            "text": "Enclosure Structure The ELT dome is a g…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "5333.31px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "32px 0px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(232, 232, 232)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".section-subtitle-paragraph": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 38,
+              "y": 5992,
+              "w": 284,
+              "h": 38
+            },
+            "visible": true,
+            "text": "Windscreen",
+            "props": {
+              "display": "inline",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "20px",
+              "fontWeight": "700",
+              "lineHeight": "32px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "iframe": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 38,
+              "y": 6642,
+              "w": 284,
+              "h": 160
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "absolute",
+              "boxSizing": "border-box",
+              "width": "284.406px",
+              "height": "159.969px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "table": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 38,
+              "y": 8429,
+              "w": 284,
+              "h": 1266
+            },
+            "visible": true,
+            "text": "Height of the dome 80 m Diameter of the…",
+            "props": {
+              "display": "table",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "284.406px",
+              "height": "1266px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "27px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "td": [
+          {
+            "index": 0,
+            "of": 30,
+            "rect": {
+              "x": 38,
+              "y": 8429,
+              "w": 157,
+              "h": 52
+            },
+            "visible": true,
+            "text": "Height of the dome",
+            "props": {
+              "display": "table-cell",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "156.562px",
+              "height": "52px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "12px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "27px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "footer": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 9747,
+              "w": 360,
+              "h": 121
+            },
+            "visible": true,
+            "text": "ESO | ELT © 2026 Credits | Contact us |…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "120.938px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "16px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(32, 32, 32)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ]
+      },
+      "1440": {
+        "#big-header": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 50,
+              "w": 1440,
+              "h": 675
+            },
+            "visible": true,
+            "text": "European Southern Observatory Telescope",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "675px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".big-header-title": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 151,
+              "y": 550,
+              "w": 1138,
+              "h": 80
+            },
+            "visible": true,
+            "text": "Telescope",
+            "props": {
+              "display": "block",
+              "position": "absolute",
+              "boxSizing": "border-box",
+              "width": "1137.62px",
+              "height": "80.25px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "53.5px",
+              "fontWeight": "400",
+              "lineHeight": "80.25px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#main-navbar": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 725,
+              "w": 1440,
+              "h": 69
+            },
+            "visible": true,
+            "text": "ELT HOME ABOUT TELESCOPE INSTRUMENTS SC…",
+            "props": {
+              "display": "flex",
+              "position": "sticky",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "68.7812px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px 16px",
+              "gap": "normal",
+              "backgroundColor": "rgb(0, 0, 0)",
+              "backgroundImage": "linear-gradient(rgb(40, 39, 49), rgb(16, 17, 19))",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".science-header-textblock": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 151,
+              "y": 794,
+              "w": 1289,
+              "h": 675
+            },
+            "visible": true,
+            "text": "Dome The giant ELT dome will house the …",
+            "props": {
+              "display": "block",
+              "position": "absolute",
+              "boxSizing": "border-box",
+              "width": "1288.8px",
+              "height": "675px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".header-title": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 151,
+              "y": 813,
+              "w": 1289,
+              "h": 54
+            },
+            "visible": true,
+            "text": "Dome",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "1288.8px",
+              "height": "54px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(45, 164, 245)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "36px",
+              "fontWeight": "600",
+              "lineHeight": "54px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(45, 164, 245)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".header-subtitle": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 151,
+              "y": 905,
+              "w": 451,
+              "h": 236
+            },
+            "visible": true,
+            "text": "The giant ELT dome will house the teles…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "451.078px",
+              "height": "236px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "31px",
+              "fontWeight": "400",
+              "lineHeight": "44px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".header-description": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 151,
+              "y": 1179,
+              "w": 451,
+              "h": 176
+            },
+            "visible": true,
+            "text": "The dome will be about 80 metres high a…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "451.078px",
+              "height": "176px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "19px",
+              "fontWeight": "400",
+              "lineHeight": "32px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".header-quick-links": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 151,
+              "y": 1393,
+              "w": 1153,
+              "h": 57
+            },
+            "visible": true,
+            "text": "Quick Links: Astronomical Performance |…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "1153.47px",
+              "height": "57px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "19px",
+              "fontWeight": "600",
+              "lineHeight": "28.5px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".nutshell": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 1469,
+              "w": 1440,
+              "h": 867
+            },
+            "visible": true,
+            "text": "In a Nutshell Share on Facebook E-Mail …",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "867.406px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "32px 0px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(232, 232, 232)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".nutshell .section-title-paragraph": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 1501,
+              "w": 1440,
+              "h": 104
+            },
+            "visible": true,
+            "text": "In a Nutshell Share on Facebook E-Mail …",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "104px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "16px 151.188px 40px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "32px",
+              "fontWeight": "600",
+              "lineHeight": "48px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".lightlinks": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 2336,
+              "w": 1440,
+              "h": 707
+            },
+            "visible": true,
+            "text": "Astronomical Performance For precise as…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "707px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "32px 0px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(232, 232, 232)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".lightlinks > div": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 0,
+              "y": 2368,
+              "w": 1440,
+              "h": 338
+            },
+            "visible": true,
+            "text": "Astronomical Performance For precise as…",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "337.5px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(56, 205, 228)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".internal-menu-text": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 735,
+              "y": 2478,
+              "w": 690,
+              "h": 117
+            },
+            "visible": true,
+            "text": "For precise astronomical observations t…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "690px",
+              "height": "117.25px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px 48.2969px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "20.816px",
+              "fontWeight": "400",
+              "lineHeight": "33.75px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".internal-menu-title": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 76,
+              "y": 2624,
+              "w": 569,
+              "h": 48
+            },
+            "visible": true,
+            "text": "Astronomical Performance",
+            "props": {
+              "display": "block",
+              "position": "absolute",
+              "boxSizing": "border-box",
+              "width": "568.812px",
+              "height": "48px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "32px",
+              "fontWeight": "400",
+              "lineHeight": "48px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".internal-menu-link": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 720,
+              "y": 2648,
+              "w": 216,
+              "h": 57
+            },
+            "visible": true,
+            "text": "Read More",
+            "props": {
+              "display": "flex",
+              "position": "absolute",
+              "boxSizing": "border-box",
+              "width": "216px",
+              "height": "57.375px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "19.5px",
+              "fontWeight": "600",
+              "lineHeight": "29.25px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "svg.internal-menu-trapezoid": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 720,
+              "y": 2649,
+              "w": 720,
+              "h": 57
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "720px",
+              "height": "57.1406px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#astroperf_": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 3043,
+              "w": 1440,
+              "h": 1346
+            },
+            "visible": true,
+            "text": "Astronomical Performance For precise as…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "1346.11px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "32px 0px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(232, 232, 232)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".section-heading-paragraph": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 151,
+              "y": 3179,
+              "w": 1138,
+              "h": 81
+            },
+            "visible": true,
+            "text": "For precise astronomical observations t…",
+            "props": {
+              "display": "inline",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "19.5px",
+              "fontWeight": "700",
+              "lineHeight": "33px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#enclosurestruct_": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 4389,
+              "w": 1440,
+              "h": 4144
+            },
+            "visible": true,
+            "text": "Enclosure Structure The ELT dome is a g…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "4144.3px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "32px 0px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(232, 232, 232)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".section-subtitle-paragraph": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 151,
+              "y": 5817,
+              "w": 1138,
+              "h": 55
+            },
+            "visible": true,
+            "text": "Windscreen",
+            "props": {
+              "display": "inline",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "24.96px",
+              "fontWeight": "700",
+              "lineHeight": "40px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "iframe": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 151,
+              "y": 6133,
+              "w": 1138,
+              "h": 640
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "absolute",
+              "boxSizing": "border-box",
+              "width": "1137.62px",
+              "height": "639.906px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "table": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 151,
+              "y": 7585,
+              "w": 1138,
+              "h": 877
+            },
+            "visible": true,
+            "text": "Height of the dome 80 m Diameter of the…",
+            "props": {
+              "display": "table",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "1137.62px",
+              "height": "876.5px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "19.5px",
+              "fontWeight": "400",
+              "lineHeight": "33px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(33, 37, 41)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "td": [
+          {
+            "index": 0,
+            "of": 30,
+            "rect": {
+              "x": 151,
+              "y": 7586,
+              "w": 626,
+              "h": 58
+            },
+            "visible": true,
+            "text": "Height of the dome",
+            "props": {
+              "display": "table-cell",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "626.266px",
+              "height": "58px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "12px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "19.5px",
+              "fontWeight": "400",
+              "lineHeight": "33px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "footer": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 8534,
+              "w": 1440,
+              "h": 54
+            },
+            "visible": true,
+            "text": "ESO | ELT © 2026 Credits | Contact us |…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "54.0781px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "16px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(32, 32, 32)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "deltas": {
+    "360": {
+      "#big-header": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".big-header-title": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      "#main-navbar": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".science-header-textblock": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".header-title": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".header-subtitle": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".header-description": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {
+              "fontFamily": [
+                "\"Helvetica Neue LT ESO\"",
+                "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif"
+              ]
+            }
+          }
+        ]
+      },
+      ".header-quick-links": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {
+              "fontFamily": [
+                "\"Helvetica Neue LT ESO\"",
+                "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif"
+              ]
+            }
+          }
+        ]
+      },
+      ".nutshell": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".nutshell .section-title-paragraph": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".lightlinks": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".lightlinks > div": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".internal-menu-text": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".internal-menu-title": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".internal-menu-link": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      "svg.internal-menu-trapezoid": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {
+              "display": [
+                "inline",
+                "block"
+              ]
+            }
+          }
+        ]
+      },
+      "#astroperf_": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".section-heading-paragraph": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      "#enclosurestruct_": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".section-subtitle-paragraph": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      "iframe": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      "table": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {
+              "padding": [
+                "0px 0px 16px",
+                "0px"
+              ]
+            }
+          }
+        ]
+      },
+      "td": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      "footer": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      }
+    },
+    "1440": {
+      "#big-header": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".big-header-title": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      "#main-navbar": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".science-header-textblock": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".header-title": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".header-subtitle": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".header-description": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {
+              "fontFamily": [
+                "\"Helvetica Neue LT ESO\"",
+                "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif"
+              ]
+            }
+          }
+        ]
+      },
+      ".header-quick-links": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {
+              "fontFamily": [
+                "\"Helvetica Neue LT ESO\"",
+                "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif"
+              ]
+            }
+          }
+        ]
+      },
+      ".nutshell": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".nutshell .section-title-paragraph": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".lightlinks": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".lightlinks > div": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".internal-menu-text": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".internal-menu-title": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".internal-menu-link": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      "svg.internal-menu-trapezoid": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {
+              "display": [
+                "inline",
+                "block"
+              ]
+            }
+          }
+        ]
+      },
+      "#astroperf_": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      ".section-heading-paragraph": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      "#enclosurestruct_": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 6
+            },
+            "props": {
+              "height": [
+                "4137.8px",
+                "4144.3px"
+              ]
+            }
+          }
+        ]
+      },
+      ".section-subtitle-paragraph": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      "iframe": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      "table": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 7
+            },
+            "props": {
+              "height": [
+                "870px",
+                "876.5px"
+              ],
+              "padding": [
+                "0px 0px 16px",
+                "0px"
+              ]
+            }
+          }
+        ]
+      },
+      "td": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 0,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      },
+      "footer": {
+        "status": "ok",
+        "countA": 1,
+        "countB": 1,
+        "pairs": [
+          {
+            "index": 0,
+            "rect": {
+              "dx": 0,
+              "dy": 7,
+              "dw": 0,
+              "dh": 0
+            },
+            "props": {}
+          }
+        ]
+      }
+    }
+  },
+  "rootDeltas": {
+    "360": {
+      "scrollWidth": 0,
+      "scrollHeight": 0
+    },
+    "1440": {
+      "scrollWidth": 0,
+      "scrollHeight": 7
+    }
+  }
+}

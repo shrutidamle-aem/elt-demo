@@ -1,0 +1,4596 @@
+{
+  "url": "http://localhost:8791/about-timeline-proposed.html",
+  "width": 1440,
+  "headerTimeline": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "widgetSamples": [
+    {
+      "sel": "#timeline-quick-access-link-5",
+      "frames": [
+        {
+          "t": 13996.400000000373,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 14201.199999999255,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 14406.099999999627,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 14610.5,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [
+    {
+      "sel": ".timeline-quick-access",
+      "changed": [
+        "self.background"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(90, 140, 200, 0.9)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.5s"
+        },
+        "subs": [
+          {
+            "el": "a.timeline-quick-access-link",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.timeline-quick-access-link",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.timeline-quick-access-link",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.timeline-quick-access-link",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.timeline-quick-access-link",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(17, 26, 38, 0.55)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.5s"
+        },
+        "subs": [
+          {
+            "el": "a.timeline-quick-access-link",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.timeline-quick-access-link",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.timeline-quick-access-link",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.timeline-quick-access-link",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.timeline-quick-access-link",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    },
+    {
+      "sel": ".timeline-content",
+      "changed": [
+        "self.background"
+      ],
+      "before": {
+        "self": {
+          "transform": "matrix(1, 0, 0, 1, -55, 0)",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(90, 139, 198, 0.88)",
+          "boxShadow": "rgb(50, 50, 50) 6px 6px 15px 0px",
+          "opacity": "1",
+          "transition": "0.5s"
+        },
+        "subs": [
+          {
+            "el": "a.timeline-anchor",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "matrix(1, 0, 0, 1, -55, 0)",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(90, 140, 200, 0.9)",
+          "boxShadow": "rgb(50, 50, 50) 6px 6px 15px 0px",
+          "opacity": "1",
+          "transition": "0.5s"
+        },
+        "subs": [
+          {
+            "el": "a.timeline-anchor",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    },
+    {
+      "sel": "#main-navbar .nav-link",
+      "changed": [
+        "self.transform",
+        "self.color",
+        "self.transition"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgba(255, 255, 255, 0.7)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "matrix(1.07, 0, 0, 1.07, 0, -4.8)",
+          "color": "rgba(255, 255, 255, 0.9)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.25s"
+        },
+        "subs": []
+      }
+    }
+  ],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [],
+    "transitions": [
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 800,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 800,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 800,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img",
+        "y": 800,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img",
+        "y": 1200,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 1200,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 1200,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 1200,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 1600,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 1600,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 1600,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img",
+        "y": 1600,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 2000,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 2000,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img",
+        "y": 2000,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 2000,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 2400,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img",
+        "y": 2400,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 2400,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 2400,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 2800,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 2800,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img",
+        "y": 2800,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 2800,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 3200,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 3200,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 3200,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img",
+        "y": 3200,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img",
+        "y": 4000,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 4000,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 4000,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 4000,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 4400,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 4400,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 4400,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img",
+        "y": 4400,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img",
+        "y": 4800,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 4800,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 4800,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 4800,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 5200,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 5200,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 5200,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img",
+        "y": 5200,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 5600,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img",
+        "y": 5600,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 5600,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 5600,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 6400,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 6400,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img",
+        "y": 6400,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 6400,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 6800,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img",
+        "y": 6800,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 6800,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 6800,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img",
+        "y": 7200,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 7200,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 7200,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 7200,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 7600,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img",
+        "y": 7600,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 7600,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 7600,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 8000,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img",
+        "y": 8000,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 8000,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 8000,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img",
+        "y": 8400,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 8400,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 8400,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 8400,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img",
+        "y": 9200,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 9200,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 9200,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 9200,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img",
+        "y": 9600,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 9600,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 9600,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 9600,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 10000,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 10000,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img",
+        "y": 10000,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 10000,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 10800,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 10800,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img",
+        "y": 10800,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 10800,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 11200,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img",
+        "y": 11200,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 11200,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 11200,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 11600,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 11600,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img",
+        "y": 11600,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 11600,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img",
+        "y": 12400,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 12400,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 12400,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 12400,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 11660,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img",
+        "y": 11660,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 11660,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 11660,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img",
+        "y": 10160,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 10160,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 10160,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 10160,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 2400,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 2400,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img",
+        "y": 2400,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 2400,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 1200,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 1200,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 1200,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img",
+        "y": 1200,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 800,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 800,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 800,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img",
+        "y": 800,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img",
+        "y": 500,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 500,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 500,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 500,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 849,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 849,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 849,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img",
+        "y": 849,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img",
+        "y": 1295,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 1295,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 1295,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 1295,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 1643,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 1643,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 1643,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img",
+        "y": 1643,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 1996,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 1996,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img",
+        "y": 1996,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 1996,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 2407,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img",
+        "y": 2407,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 2407,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 2407,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 2770,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 2770,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img",
+        "y": 2770,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 2770,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "width",
+        "el": "html > body.page-timeline > main.elt-timeline > nav.timeline-quick-access",
+        "y": 2893,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "html > body.page-timeline > main.elt-timeline > nav.timeline-quick-access",
+        "y": 2893,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container > div.timeline-quick-access-element-title",
+        "y": 2893,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container > div.timeline-quick-access-element-title",
+        "y": 2893,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "height",
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container > div.timeline-quick-access-element-title",
+        "y": 2893,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container > div.timeline-quick-access-element-title",
+        "y": 2893,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container > div.timeline-quick-access-element-title",
+        "y": 2893,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "height",
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container > div.timeline-quick-access-element-title",
+        "y": 2893,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container > div.timeline-quick-access-element-title",
+        "y": 2893,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container > div.timeline-quick-access-element-title",
+        "y": 2893,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "height",
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container > div.timeline-quick-access-element-title",
+        "y": 2893,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "width",
+        "el": "html > body.page-timeline > main.elt-timeline > nav.timeline-quick-access",
+        "y": 2893,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "html > body.page-timeline > main.elt-timeline > nav.timeline-quick-access",
+        "y": 2893,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content",
+        "y": 542,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 542,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 542,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img",
+        "y": 542,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item > a.nav-link",
+        "y": 309,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "color",
+        "el": "nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item > a.nav-link",
+        "y": 309,
+        "dur": "0.25s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-timeline > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-timeline > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-timeline > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-timeline > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-timeline > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-timeline > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-timeline > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-timeline > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "top-aligned"
+        ],
+        "el": "ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top > div.dropdown-menu > div.dropdown-submenu > div.dropdown-menu.top-aligned",
+        "y": 400
+      },
+      {
+        "added": [
+          "top-aligned"
+        ],
+        "el": "ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top > div.dropdown-menu > div.dropdown-submenu > div.dropdown-menu.top-aligned",
+        "y": 400
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 400
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 400
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 400
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 400
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 800
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 800
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 800
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 800
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 1200
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 1200
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 1200
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 1200
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 1600
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 1600
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 1600
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 1600
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 2000
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 2000
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2000
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2000
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 2400
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 2400
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2400
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2400
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 2800
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 2800
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2800
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2800
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 3200
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 3200
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 3200
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 3200
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 3600
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 3600
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 3600
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 3600
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 4000
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 4000
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 4000
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 4000
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 4400
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 4400
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 4400
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 4400
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 4800
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 4800
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 4800
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 4800
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 5200
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 5200
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 5200
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 5200
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 5600
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 5600
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 5600
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 5600
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 6000
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 6000
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 6000
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 6000
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 6400
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 6400
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 6400
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 6400
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 6800
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 6800
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 6800
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 6800
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 7200
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 7200
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 7200
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 7200
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 7600
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 7600
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 7600
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 7600
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 8000
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 8000
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 8000
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 8000
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 8400
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 8400
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 8400
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 8400
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 8800
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 8800
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 8800
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 8800
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 9200
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 9200
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 9200
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 9200
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 9600
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 9600
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 9600
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 9600
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 10000
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 10000
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 10000
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 10000
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 10400
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 10400
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 10400
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 10400
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 10800
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 10800
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 10800
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 10800
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 11200
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 11200
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 11200
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 11200
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 11600
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 11600
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 11600
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 11600
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 12000
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 12000
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 12000
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 12000
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 12400
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 12400
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 12400
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 12400
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 11660
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 11660
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 11660
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 11660
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 10160
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 10160
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 10160
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 10160
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 2400
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 2400
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2400
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2400
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 1200
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 1200
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 1200
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 1200
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 800
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 800
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 800
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 800
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 500
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 500
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 500
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 500
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 300
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 300
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 300
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 300
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 200
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 200
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 200
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 200
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 150
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 150
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 150
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 150
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "main.elt-timeline > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "main.elt-timeline > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "main.elt-timeline > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "main.elt-timeline > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "bottom-aligned"
+        ],
+        "el": "ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top > div.dropdown-menu > div.dropdown-submenu > div.dropdown-menu.bottom-aligned",
+        "y": 120
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 120
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 120
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 120
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 120
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 90
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 90
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 90
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 90
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 60
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 60
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 60
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 60
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 30
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 30
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 30
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 30
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 0
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 0
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 0
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 0
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 0
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 0
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 0
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 0
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 2
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 2
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 9
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 9
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 9
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 9
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 22
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 22
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 22
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 22
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 42
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 42
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 42
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 42
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 71
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 71
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 71
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 71
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 111
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 111
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 111
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 111
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-timeline > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 164
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-timeline > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 164
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-timeline > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 164
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-timeline > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 164
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-timeline > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 164
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-timeline > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 164
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-timeline > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 164
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-timeline > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 164
+      },
+      {
+        "added": [
+          "top-aligned"
+        ],
+        "el": "ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top > div.dropdown-menu > div.dropdown-submenu > div.dropdown-menu.top-aligned",
+        "y": 164
+      },
+      {
+        "added": [
+          "top-aligned"
+        ],
+        "el": "ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top > div.dropdown-menu > div.dropdown-submenu > div.dropdown-menu.top-aligned",
+        "y": 164
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 164
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 164
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 164
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 164
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 237
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 237
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 237
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 237
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 334
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 334
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 334
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 334
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 464
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 464
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 464
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 464
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 636
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 636
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 636
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 636
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 849
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 849
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 849
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 849
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 1079
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 1079
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 1079
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 1079
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 1295
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 1295
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 1295
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 1295
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 1483
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 1483
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 1483
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 1483
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 1643
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 1643
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 1643
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 1643
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 1778
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 1778
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 1778
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 1778
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 1895
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 1895
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 1895
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 1895
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 1996
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 1996
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 1996
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 1996
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 2085
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 2085
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2085
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2085
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 2164
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 2164
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2164
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2164
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 2235
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 2235
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2235
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2235
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 2298
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 2298
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2298
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2298
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 2355
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 2355
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2355
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2355
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 2407
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 2407
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2407
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2407
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 2454
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 2454
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2454
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2454
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 2497
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 2497
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2497
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2497
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 2536
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 2536
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2536
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2536
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 2572
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 2572
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2572
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2572
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 2605
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 2605
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2605
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2605
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 2635
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 2635
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2635
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2635
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 2663
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 2663
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2663
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2663
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 2688
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 2688
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2688
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2688
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 2711
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 2711
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2711
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2711
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 2733
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 2733
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2733
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2733
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 2752
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 2752
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2752
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2752
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 2770
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 2770
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2770
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2770
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 2787
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 2787
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2787
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2787
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 2801
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 2801
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2801
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2801
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 2815
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 2815
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2815
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2815
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 2827
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 2827
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2827
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2827
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 2838
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 2838
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2838
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2838
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 2848
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 2848
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2848
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2848
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 2856
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 2856
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2856
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2856
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 2864
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 2864
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2864
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2864
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 2871
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 2871
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2871
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2871
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 2876
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 2876
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2876
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2876
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 2881
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 2881
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2881
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2881
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 2885
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 2885
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2885
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2885
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 2888
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 2888
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2888
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2888
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 2890
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 2890
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2890
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2890
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 2892
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 2892
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2892
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2892
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 2893
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 2893
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2893
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2893
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 2893
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 2893
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2893
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2893
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 2893
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 2893
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2893
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2893
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 2893
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 2893
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2893
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2893
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 2893
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 2893
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2893
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2893
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 2893
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 2893
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2893
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2893
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 2893
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 2893
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2893
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2893
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 2893
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 2893
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2893
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2893
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 2893
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 2893
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2893
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2893
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 2893
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 2893
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2893
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2893
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 2893
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 2893
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2893
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2893
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 2893
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 2893
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 2893
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 2893
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 542
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 542
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 542
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 542
+      },
+      {
+        "added": [
+          "is-shown"
+        ],
+        "el": "div.container-dark.timeline-section > div.timeline-container > div.timeline-img > div.timeline-img-frame > img.is-shown",
+        "y": 309
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "main.elt-timeline > div.container-dark.timeline-section > div.timeline-container > div.timeline > div.timeline-content.is-current",
+        "y": 309
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "main.elt-timeline > nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active",
+        "y": 309
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "nav.timeline-quick-access > div.timeline-quick-access-container > a.timeline-quick-access-link > div.timeline-quick-access-element-container.active > div.timeline-quick-access-element-title.active",
+        "y": 309
+      }
+    ]
+  }
+}

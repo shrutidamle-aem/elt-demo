@@ -1,0 +1,156 @@
+{
+  "landing-menu-tiles": {
+    "origin": ".container-notop .col-lg-4",
+    "build": ".menu-tile",
+    "n": 3,
+    "required": true,
+    "pages": [
+      "index"
+    ]
+  },
+  "footer-columns": {
+    "origin": "footer .col-12",
+    "build": ".site-footer-row > .footer-item",
+    "n": 2,
+    "required": true,
+    "pages": [
+      "index",
+      "telescope",
+      "telescope-dome",
+      "instrument-harmoni",
+      "about-road",
+      "about-facts",
+      "about-timeline",
+      "media"
+    ],
+    "templates": [
+      "landing",
+      "listing",
+      "program",
+      "instrument",
+      "article",
+      "facts",
+      "timeline",
+      "media"
+    ]
+  },
+  "listing-mirror-cards": {
+    "origin": ".col-lg-3:has(> img)",
+    "build": ".link-grid--4 > .card__image",
+    "n": 4,
+    "required": true,
+    "pages": [
+      "telescope"
+    ]
+  },
+  "listing-system-cards": {
+    "origin": ".col-lg-4:has(> img)",
+    "build": ".link-grid--3 > .card__image",
+    "n": 3,
+    "required": true,
+    "pages": [
+      "telescope"
+    ]
+  },
+  "listing-wide-tile-bars": {
+    "origin": ".telescope-landing-col-domestruct",
+    "build": ".wide-tile__bar",
+    "n": 3,
+    "required": true,
+    "pages": [
+      "telescope"
+    ]
+  },
+  "program-lightlink-rows": {
+    "origin": ".lightlinks > .row",
+    "build": ".subpage-tiles > .lightlink-row",
+    "n": 2,
+    "required": true,
+    "pages": [
+      "telescope-dome"
+    ]
+  },
+  "instrument-lightlink-rows": {
+    "origin": ".lightlinks > .row",
+    "build": ".subpage-tiles > .lightlink-row",
+    "n": 4,
+    "required": false,
+    "pages": [
+      "instrument-harmoni"
+    ],
+    "note": "advisory: R-01 fallback-face text width only"
+  },
+  "instrument-tech-rows": {
+    "origin": ".page-section > .row.no-gutters",
+    "build": ".tech-table-list > .tech-row",
+    "n": 5,
+    "required": false,
+    "pages": [
+      "instrument-harmoni"
+    ],
+    "note": "advisory: R-01 fallback-face text width only"
+  },
+  "article-image-rows": {
+    "origin": ".page-section > .m-0",
+    "build": ".page-section > .article-image",
+    "n": 4,
+    "required": true,
+    "pages": [
+      "about-road"
+    ]
+  },
+  "facts-fact-names": {
+    "origin": ".fact-name",
+    "build": ".fact-name",
+    "n": 23,
+    "required": true,
+    "pages": [
+      "about-facts"
+    ]
+  },
+  "facts-fact-values": {
+    "origin": ".fact-value",
+    "build": ".fact-value",
+    "n": 23,
+    "required": true,
+    "pages": [
+      "about-facts"
+    ]
+  },
+  "timeline-cards": {
+    "origin": ".timeline-content",
+    "build": ".timeline-content",
+    "n": 27,
+    "required": true,
+    "pages": [
+      "about-timeline"
+    ]
+  },
+  "media-story-cards": {
+    "origin": ".stories-container > .story-container",
+    "build": ".stories-container > .story-container",
+    "n": 6,
+    "required": true,
+    "pages": [
+      "media"
+    ]
+  },
+  "media-video-slides": {
+    "origin": ".carouselVideoItem",
+    "build": ".carouselVideoItem",
+    "n": 3,
+    "required": true,
+    "pages": [
+      "media"
+    ]
+  },
+  "media-image-slides": {
+    "origin": ".carouselMediaItem",
+    "build": ".carouselMediaItem",
+    "n": 3,
+    "required": true,
+    "pages": [
+      "media"
+    ]
+  }
+}

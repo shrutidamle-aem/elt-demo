@@ -1,0 +1,47 @@
+[live-session] waiting to pace live navigations to elt.eso.org (4000 ms apart, 1 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 3879 ms
+
+Content diff @ 360px (profile "generic", roots: #big-header, #main-navbar, .video-container, .swiper-container-science, .container-notop, .webcam-wrapper, header, footer)
+root "#big-header"
+  source: 3 text nodes — 0 headings, 0 eyebrows, 0 CTAs, 3 body; 1 img
+  build: 3 text nodes — 1 headings, 0 eyebrows, 0 CTAs, 2 body; 1 img
+  editable texts (outermost h*/p/ul/ol): source 1 / build 2
+  attributes (placeholder/aria-label/title): source 0 / build 0; icons: source 1 / build 1
+  accepted (invisible, nothing lost): 1 ROLE UPGRADE body → heading — "THE EXTREMELY LARGE TELESCOPE"
+root "#main-navbar"
+  source: 46 text nodes — 0 headings, 0 eyebrows, 46 CTAs, 0 body; 0 img
+  build: 46 text nodes — 0 headings, 0 eyebrows, 46 CTAs, 0 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 1 / build 1
+  attributes (placeholder/aria-label/title): source 1 / build 1; icons: source 1 / build 1
+root ".video-container"
+  source: 0 text nodes — 0 headings, 0 eyebrows, 0 CTAs, 0 body; 0 img
+  build: 0 text nodes — 0 headings, 0 eyebrows, 0 CTAs, 0 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 0 / build 0
+  attributes (placeholder/aria-label/title): source 0 / build 0; icons: source 0 / build 0
+root ".swiper-container-science"
+  source: 20 text nodes — 0 headings, 0 eyebrows, 20 CTAs, 0 body; 10 img
+  build: 16 text nodes — 0 headings, 0 eyebrows, 16 CTAs, 0 body; 8 img
+  editable texts (outermost h*/p/ul/ol): source 0 / build 1
+  attributes (placeholder/aria-label/title): source 10 / build 10; icons: source 0 / build 0
+root ".container-notop"
+  source: 3 text nodes — 0 headings, 0 eyebrows, 3 CTAs, 0 body; 6 img
+  build: 3 text nodes — 0 headings, 0 eyebrows, 3 CTAs, 0 body; 6 img
+  editable texts (outermost h*/p/ul/ol): source 0 / build 1
+  attributes (placeholder/aria-label/title): source 0 / build 0; icons: source 0 / build 0
+root ".webcam-wrapper"
+  source: 2 text nodes — 0 headings, 0 eyebrows, 1 CTAs, 1 body; 1 img
+  build: 2 text nodes — 0 headings, 0 eyebrows, 1 CTAs, 1 body; 1 img
+  editable texts (outermost h*/p/ul/ol): source 0 / build 0
+  attributes (placeholder/aria-label/title): source 0 / build 0; icons: source 0 / build 0
+root "header": absent on both sides (no <header> / [role="banner"] outside the main root(s)) — not compared
+root "footer"
+  source: 10 text nodes — 0 headings, 0 eyebrows, 7 CTAs, 3 body; 0 img
+  build: 10 text nodes — 0 headings, 0 eyebrows, 7 CTAs, 3 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 0 / build 0
+  attributes (placeholder/aria-label/title): source 0 / build 0; icons: source 0 / build 0
+
+Findings: none — content + roles match
+Tiers: looks-same 🔴 0 · nothing-lost 🟡 0 · accepted 🟢 5 (owner 4, auto 1) · advisory 0
+  🟢 MISSING CTA [.swiper-container-science] accepted (stardust/replica/accepted.json): index (landing): live Swiper loop renders 2 presentational clone slides (data-swiper-slide-index 7 and 0) carrying duplicate CTAs; replica policy (recreation-procedure § Carousels: loop clones carry no text/href) renders the 8 real slides only — every distinct CTA is present
+  🟢 MISSING CTA [.swiper-container-science] accepted (stardust/replica/accepted.json): index (landing): live Swiper loop renders 2 presentational clone slides (data-swiper-slide-index 7 and 0) carrying duplicate CTAs; replica policy (recreation-procedure § Carousels: loop clones carry no text/href) renders the 8 real slides only — every distinct CTA is present
+  🟢 MISSING CTA [.swiper-container-science] accepted (stardust/replica/accepted.json): index (landing): live Swiper loop renders 2 presentational clone slides (data-swiper-slide-index 7 and 0) carrying duplicate CTAs; replica policy (recreation-procedure § Carousels: loop clones carry no text/href) renders the 8 real slides only — every distinct CTA is present
+  🟢 MISSING CTA [.swiper-container-science] accepted (stardust/replica/accepted.json): index (landing): live Swiper loop renders 2 presentational clone slides (data-swiper-slide-index 7 and 0) carrying duplicate CTAs; replica policy (recreation-procedure § Carousels: loop clones carry no text/href) renders the 8 real slides only — every distinct CTA is present

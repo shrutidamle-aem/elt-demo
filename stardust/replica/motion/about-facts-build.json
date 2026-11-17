@@ -1,0 +1,546 @@
+{
+  "url": "http://localhost:8791/about-facts-proposed.html",
+  "width": 1440,
+  "headerTimeline": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "widgetSamples": [
+    {
+      "sel": ".swiper-button-next-carousel",
+      "frames": [
+        {
+          "t": 10746.700000001118,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 10955.5,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 11163.60000000149,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 11367.900000000373,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".swiper-button-prev-carousel2",
+      "frames": [
+        {
+          "t": 12380.60000000149,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 12584.800000000745,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 12789.5,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 12993.700000001118,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [
+    {
+      "sel": ".swiper-button-next",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": ".swiper-slide img",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": "#main-navbar .nav-item",
+      "changed": [
+        "self.background",
+        "a.nav-link.transform",
+        "a.nav-link.color",
+        "a.nav-link.transition"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "a.nav-link",
+            "transform": "none",
+            "color": "rgba(255, 255, 255, 0.7)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(35, 41, 50)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "a.nav-link",
+            "transform": "matrix(1.07, 0, 0, 1.07, 0, -4.8)",
+            "color": "rgba(255, 255, 255, 0.9)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "0.25s"
+          }
+        ]
+      }
+    },
+    {
+      "sel": ".fact-value",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    }
+  ],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [],
+    "transitions": [
+      {
+        "prop": "transform",
+        "el": "main.elt-inner.elt-facts > section.container-darkblue.facts-gallery > div.facts-carousel-swiper.facts-carousel-1 > div.facts-carousel-track > div.swiper-slide.facts-slide.swiper-slide-active",
+        "y": 2125,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "main.elt-inner.elt-facts > section.container-darkblue.facts-gallery > div.facts-carousel-swiper.facts-carousel-1 > div.facts-carousel-track > div.swiper-slide.facts-slide.swiper-slide-prev",
+        "y": 2125,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "main.elt-inner.elt-facts > section.container-darkblue.facts-gallery > div.facts-carousel-swiper.facts-carousel-2 > div.facts-carousel-track > div.swiper-slide.facts-slide.facts-slide--navy",
+        "y": 3538,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "main.elt-inner.elt-facts > section.container-darkblue.facts-gallery > div.facts-carousel-swiper.facts-carousel-2 > div.facts-carousel-track > div.swiper-slide.facts-slide.facts-slide--night",
+        "y": 3538,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "main.elt-inner.elt-facts > section.container-darkblue.facts-gallery > div.facts-carousel-swiper.facts-carousel-2 > div.facts-carousel-track > div.swiper-slide.facts-slide.swiper-slide-active",
+        "y": 3538,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "main.elt-inner.elt-facts > section.container-darkblue.facts-gallery > div.facts-carousel-swiper.facts-carousel-2 > div.facts-carousel-track > div.swiper-slide.facts-slide.swiper-slide-prev",
+        "y": 3538,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item > a.nav-link",
+        "y": 1759,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "color",
+        "el": "nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item > a.nav-link",
+        "y": 1759,
+        "dur": "0.25s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-inner.elt-facts > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-inner.elt-facts > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-inner.elt-facts > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-inner.elt-facts > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-inner.elt-facts > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-inner.elt-facts > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-inner.elt-facts > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-inner.elt-facts > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "top-aligned"
+        ],
+        "el": "ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top > div.dropdown-menu > div.dropdown-submenu > div.dropdown-menu.top-aligned",
+        "y": 400
+      },
+      {
+        "added": [
+          "top-aligned"
+        ],
+        "el": "ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top > div.dropdown-menu > div.dropdown-submenu > div.dropdown-menu.top-aligned",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "main.elt-inner.elt-facts > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "main.elt-inner.elt-facts > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "main.elt-inner.elt-facts > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "main.elt-inner.elt-facts > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "bottom-aligned"
+        ],
+        "el": "ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top > div.dropdown-menu > div.dropdown-submenu > div.dropdown-menu.bottom-aligned",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-inner.elt-facts > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 2125
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-inner.elt-facts > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 2125
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-inner.elt-facts > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 2125
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-inner.elt-facts > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 2125
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-inner.elt-facts > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 2125
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-inner.elt-facts > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 2125
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-inner.elt-facts > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 2125
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-inner.elt-facts > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 2125
+      },
+      {
+        "added": [
+          "top-aligned"
+        ],
+        "el": "ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top > div.dropdown-menu > div.dropdown-submenu > div.dropdown-menu.top-aligned",
+        "y": 2125
+      },
+      {
+        "added": [
+          "top-aligned"
+        ],
+        "el": "ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top > div.dropdown-menu > div.dropdown-submenu > div.dropdown-menu.top-aligned",
+        "y": 2125
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "main.elt-inner.elt-facts > section.container-darkblue.facts-gallery > div.facts-carousel-swiper.facts-carousel-1 > div.facts-carousel-track > div.swiper-slide.facts-slide.swiper-slide-prev",
+        "y": 2125
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "main.elt-inner.elt-facts > section.container-darkblue.facts-gallery > div.facts-carousel-swiper.facts-carousel-1 > div.facts-carousel-track > div.swiper-slide.facts-slide.swiper-slide-prev",
+        "y": 2125
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "main.elt-inner.elt-facts > section.container-darkblue.facts-gallery > div.facts-carousel-swiper.facts-carousel-1 > div.facts-carousel-track > div.swiper-slide.facts-slide.swiper-slide-active",
+        "y": 2125
+      },
+      {
+        "added": [
+          "is-jump",
+          "swiper-slide-next"
+        ],
+        "el": "main.elt-inner.elt-facts > section.container-darkblue.facts-gallery > div.facts-carousel-swiper.facts-carousel-1 > div.facts-carousel-track > div.swiper-slide.facts-slide.is-jump",
+        "y": 2125
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "main.elt-inner.elt-facts > section.container-darkblue.facts-gallery > div.facts-carousel-swiper.facts-carousel-1 > div.facts-carousel-track > div.swiper-slide.facts-slide.is-jump",
+        "y": 2125
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "main.elt-inner.elt-facts > section.container-darkblue.facts-gallery > div.facts-carousel-swiper.facts-carousel-1 > div.facts-carousel-track > div.swiper-slide.facts-slide.is-jump",
+        "y": 2125
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "main.elt-inner.elt-facts > section.container-darkblue.facts-gallery > div.facts-carousel-swiper.facts-carousel-2 > div.facts-carousel-track > div.swiper-slide.facts-slide.facts-slide--navy",
+        "y": 3538
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "main.elt-inner.elt-facts > section.container-darkblue.facts-gallery > div.facts-carousel-swiper.facts-carousel-2 > div.facts-carousel-track > div.swiper-slide.facts-slide.facts-slide--navy",
+        "y": 3538
+      },
+      {
+        "added": [
+          "is-jump"
+        ],
+        "el": "main.elt-inner.elt-facts > section.container-darkblue.facts-gallery > div.facts-carousel-swiper.facts-carousel-2 > div.facts-carousel-track > div.swiper-slide.facts-slide.is-jump",
+        "y": 3538
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "main.elt-inner.elt-facts > section.container-darkblue.facts-gallery > div.facts-carousel-swiper.facts-carousel-2 > div.facts-carousel-track > div.swiper-slide.facts-slide.swiper-slide-prev",
+        "y": 3538
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "main.elt-inner.elt-facts > section.container-darkblue.facts-gallery > div.facts-carousel-swiper.facts-carousel-2 > div.facts-carousel-track > div.swiper-slide.facts-slide.swiper-slide-active",
+        "y": 3538
+      }
+    ]
+  }
+}

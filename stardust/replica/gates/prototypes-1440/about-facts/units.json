@@ -1,0 +1,2978 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-13T14:40:13.584Z",
+  "tol": 4,
+  "n": 23,
+  "width": 1440,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://elt.eso.org/about/facts/",
+  "at": "2026-11-13T14:39:57.406Z",
+  "docH": 6104
+ },
+ "eds": {
+  "url": "http://localhost:8791/about-facts-proposed.html",
+  "at": "2026-11-13T14:40:13.441Z",
+  "docH": 6104
+ },
+ "results": [
+  {
+   "sel": "footer .col-12=.site-footer__row > .footer-item",
+   "family": null,
+   "required": true,
+   "originMatches": 2,
+   "edsMatches": 2,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "footer.container-fluid.container-footer > div.row.d-flex > div.col-12.col-lg-3"
+     },
+     "eds": {
+      "path": "footer.site-footer > div.site-footer__row > div.site-footer__brand.footer-item"
+     },
+     "rows": [
+      {
+       "key": "link:eso",
+       "role": "link",
+       "text": "eso",
+       "edsText": "eso",
+       "byPosition": false,
+       "origin": {
+        "x": 124,
+        "y": 0,
+        "w": 29,
+        "h": 22
+       },
+       "eds": {
+        "x": 124,
+        "y": 0,
+        "w": 29,
+        "h": 22,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "15/22/400",
+        "eds": "15/22/400"
+       }
+      },
+      {
+       "key": "text:2026",
+       "role": "text",
+       "text": "2026",
+       "edsText": "2026",
+       "byPosition": false,
+       "origin": {
+        "x": 203,
+        "y": 0,
+        "w": 33,
+        "h": 22
+       },
+       "eds": {
+        "x": 203,
+        "y": 0,
+        "w": 33,
+        "h": 22,
+        "sel": "div#current-year",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "15/22/400",
+        "eds": "15/22/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": -15,
+       "y": 6066,
+       "w": 360,
+       "h": 22
+      },
+      "eds": {
+       "x": -15,
+       "y": 6066,
+       "w": 360,
+       "h": 22
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "footer.container-fluid.container-footer > div.row.d-flex > div.col-12.col-lg-9"
+     },
+     "eds": {
+      "path": "footer.site-footer > div.site-footer__row > div.site-footer__links.footer-item"
+     },
+     "rows": [
+      {
+       "key": "text:| | | | |",
+       "role": "text",
+       "text": "| | | | |",
+       "edsText": "| | | | |",
+       "byPosition": false,
+       "origin": {
+        "x": 119,
+        "y": 0,
+        "w": 842,
+        "h": 22
+       },
+       "eds": {
+        "x": 119,
+        "y": 0,
+        "w": 842,
+        "h": 22,
+        "sel": "div",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "15/22/400",
+        "eds": "15/22/400"
+       }
+      },
+      {
+       "key": "link:credits",
+       "role": "link",
+       "text": "credits",
+       "edsText": "credits",
+       "byPosition": false,
+       "origin": {
+        "x": 119,
+        "y": 2,
+        "w": 49,
+        "h": 18
+       },
+       "eds": {
+        "x": 119,
+        "y": 2,
+        "w": 49,
+        "h": 18,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "15/22/400",
+        "eds": "15/22/400"
+       }
+      },
+      {
+       "key": "link:contact us",
+       "role": "link",
+       "text": "contact us",
+       "edsText": "contact us",
+       "byPosition": false,
+       "origin": {
+        "x": 192,
+        "y": 2,
+        "w": 74,
+        "h": 18
+       },
+       "eds": {
+        "x": 192,
+        "y": 2,
+        "w": 74,
+        "h": 18,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "15/22/400",
+        "eds": "15/22/400"
+       }
+      },
+      {
+       "key": "link:subscribe to eso news",
+       "role": "link",
+       "text": "subscribe to eso news",
+       "edsText": "subscribe to eso news",
+       "byPosition": false,
+       "origin": {
+        "x": 289,
+        "y": 2,
+        "w": 155,
+        "h": 18
+       },
+       "eds": {
+        "x": 289,
+        "y": 2,
+        "w": 155,
+        "h": 18,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "15/22/400",
+        "eds": "15/22/400"
+       }
+      },
+      {
+       "key": "link:accelerated by cdn77",
+       "role": "link",
+       "text": "accelerated by cdn77",
+       "edsText": "accelerated by cdn77",
+       "byPosition": false,
+       "origin": {
+        "x": 468,
+        "y": 2,
+        "w": 149,
+        "h": 18
+       },
+       "eds": {
+        "x": 468,
+        "y": 2,
+        "w": 149,
+        "h": 18,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "15/22/400",
+        "eds": "15/22/400"
+       }
+      },
+      {
+       "key": "link:terms & conditions",
+       "role": "link",
+       "text": "terms & conditions",
+       "edsText": "terms & conditions",
+       "byPosition": false,
+       "origin": {
+        "x": 641,
+        "y": 2,
+        "w": 128,
+        "h": 18
+       },
+       "eds": {
+        "x": 641,
+        "y": 2,
+        "w": 128,
+        "h": 18,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "15/22/400",
+        "eds": "15/22/400"
+       }
+      },
+      {
+       "key": "link:cookie settings and policy",
+       "role": "link",
+       "text": "cookie settings and policy",
+       "edsText": "cookie settings and policy",
+       "byPosition": false,
+       "origin": {
+        "x": 792,
+        "y": 2,
+        "w": 169,
+        "h": 18
+       },
+       "eds": {
+        "x": 792,
+        "y": 2,
+        "w": 169,
+        "h": 18,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "15/22/400",
+        "eds": "15/22/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 345,
+       "y": 6066,
+       "w": 1080,
+       "h": 22
+      },
+      "eds": {
+       "x": 345,
+       "y": 6066,
+       "w": 1080,
+       "h": 22
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 7,
+      "within": 7,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".fact-name=.fact-name",
+   "family": null,
+   "required": true,
+   "originMatches": 23,
+   "edsMatches": 23,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.container-fluid.container-darkblue > div.w-100.d-flex > div.fact-name.mx-auto"
+     },
+     "eds": {
+      "path": "section.container-darkblue.facts > dl.facts-list > dt.fact-name"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 180,
+       "y": 826,
+       "w": 1080,
+       "h": 52
+      },
+      "eds": {
+       "x": 180,
+       "y": 826,
+       "w": 1080,
+       "h": 52
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.container-fluid.container-darkblue > div.w-100.d-flex > div.fact-name.mx-auto"
+     },
+     "eds": {
+      "path": "section.container-darkblue.facts > dl.facts-list > dt.fact-name"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 180,
+       "y": 970,
+       "w": 1080,
+       "h": 52
+      },
+      "eds": {
+       "x": 180,
+       "y": 970,
+       "w": 1080,
+       "h": 52
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.container-fluid.container-darkblue > div.w-100.d-flex > div.fact-name.mx-auto"
+     },
+     "eds": {
+      "path": "section.container-darkblue.facts > dl.facts-list > dt.fact-name"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 180,
+       "y": 1114,
+       "w": 1080,
+       "h": 52
+      },
+      "eds": {
+       "x": 180,
+       "y": 1114,
+       "w": 1080,
+       "h": 52
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.container-fluid.container-darkblue > div.w-100.d-flex > div.fact-name.mx-auto"
+     },
+     "eds": {
+      "path": "section.container-darkblue.facts > dl.facts-list > dt.fact-name"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 180,
+       "y": 1259,
+       "w": 1080,
+       "h": 52
+      },
+      "eds": {
+       "x": 180,
+       "y": 1259,
+       "w": 1080,
+       "h": 52
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div.container-fluid.container-darkblue > div.w-100.d-flex > div.fact-name.mx-auto"
+     },
+     "eds": {
+      "path": "section.container-darkblue.facts > dl.facts-list > dt.fact-name"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 180,
+       "y": 1403,
+       "w": 1080,
+       "h": 104
+      },
+      "eds": {
+       "x": 180,
+       "y": 1403,
+       "w": 1080,
+       "h": 104
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 5,
+     "origin": {
+      "path": "div.container-fluid.container-darkblue > div.w-100.d-flex > div.fact-name.mx-auto"
+     },
+     "eds": {
+      "path": "section.container-darkblue.facts > dl.facts-list > dt.fact-name"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 180,
+       "y": 1675,
+       "w": 1080,
+       "h": 104
+      },
+      "eds": {
+       "x": 180,
+       "y": 1675,
+       "w": 1080,
+       "h": 104
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 6,
+     "origin": {
+      "path": "div.container-fluid.container-darkblue > div.w-100.d-flex > div.fact-name.mx-auto"
+     },
+     "eds": {
+      "path": "section.container-darkblue.facts > dl.facts-list > dt.fact-name"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 180,
+       "y": 1871,
+       "w": 1080,
+       "h": 52
+      },
+      "eds": {
+       "x": 180,
+       "y": 1871,
+       "w": 1080,
+       "h": 52
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 7,
+     "origin": {
+      "path": "div.container-fluid.container-darkblue > div.w-100.d-flex > div.fact-name.mx-auto"
+     },
+     "eds": {
+      "path": "section.container-darkblue.facts > dl.facts-list > dt.fact-name"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 180,
+       "y": 2895,
+       "w": 1080,
+       "h": 52
+      },
+      "eds": {
+       "x": 180,
+       "y": 2895,
+       "w": 1080,
+       "h": 52
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 8,
+     "origin": {
+      "path": "div.container-fluid.container-darkblue > div.w-100.d-flex > div.fact-name.mx-auto"
+     },
+     "eds": {
+      "path": "section.container-darkblue.facts > dl.facts-list > dt.fact-name"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 180,
+       "y": 3039,
+       "w": 1080,
+       "h": 52
+      },
+      "eds": {
+       "x": 180,
+       "y": 3039,
+       "w": 1080,
+       "h": 52
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 9,
+     "origin": {
+      "path": "div.container-fluid.container-darkblue > div.w-100.d-flex > div.fact-name.mx-auto"
+     },
+     "eds": {
+      "path": "section.container-darkblue.facts > dl.facts-list > dt.fact-name"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 180,
+       "y": 3183,
+       "w": 1080,
+       "h": 52
+      },
+      "eds": {
+       "x": 180,
+       "y": 3183,
+       "w": 1080,
+       "h": 52
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 10,
+     "origin": {
+      "path": "div.container-fluid.container-darkblue > div.w-100.d-flex > div.fact-name.mx-auto"
+     },
+     "eds": {
+      "path": "section.container-darkblue.facts > dl.facts-list > dt.fact-name"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 180,
+       "y": 3327,
+       "w": 1080,
+       "h": 52
+      },
+      "eds": {
+       "x": 180,
+       "y": 3327,
+       "w": 1080,
+       "h": 52
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 11,
+     "origin": {
+      "path": "div.container-fluid.container-darkblue > div.w-100.d-flex > div.fact-name.mx-auto"
+     },
+     "eds": {
+      "path": "section.container-darkblue.facts > dl.facts-list > dt.fact-name"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 180,
+       "y": 3472,
+       "w": 1080,
+       "h": 104
+      },
+      "eds": {
+       "x": 180,
+       "y": 3472,
+       "w": 1080,
+       "h": 104
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 12,
+     "origin": {
+      "path": "div.container-fluid.container-darkblue > div.w-100.d-flex > div.fact-name.mx-auto"
+     },
+     "eds": {
+      "path": "section.container-darkblue.facts > dl.facts-list > dt.fact-name"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 180,
+       "y": 4308,
+       "w": 1080,
+       "h": 52
+      },
+      "eds": {
+       "x": 180,
+       "y": 4308,
+       "w": 1080,
+       "h": 52
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 13,
+     "origin": {
+      "path": "div.container-fluid.container-darkblue > div.w-100.d-flex > div.fact-name.mx-auto"
+     },
+     "eds": {
+      "path": "section.container-darkblue.facts > dl.facts-list > dt.fact-name"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 180,
+       "y": 4452,
+       "w": 1080,
+       "h": 52
+      },
+      "eds": {
+       "x": 180,
+       "y": 4452,
+       "w": 1080,
+       "h": 52
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 14,
+     "origin": {
+      "path": "div.container-fluid.container-darkblue > div.w-100.d-flex > div.fact-name.mx-auto"
+     },
+     "eds": {
+      "path": "section.container-darkblue.facts > dl.facts-list > dt.fact-name"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 180,
+       "y": 4596,
+       "w": 1080,
+       "h": 104
+      },
+      "eds": {
+       "x": 180,
+       "y": 4596,
+       "w": 1080,
+       "h": 104
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 15,
+     "origin": {
+      "path": "div.container-fluid.container-darkblue > div.w-100.d-flex > div.fact-name.mx-auto"
+     },
+     "eds": {
+      "path": "section.container-darkblue.facts > dl.facts-list > dt.fact-name"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 180,
+       "y": 4792,
+       "w": 1080,
+       "h": 104
+      },
+      "eds": {
+       "x": 180,
+       "y": 4792,
+       "w": 1080,
+       "h": 104
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 16,
+     "origin": {
+      "path": "div.container-fluid.container-darkblue > div.w-100.d-flex > div.fact-name.mx-auto"
+     },
+     "eds": {
+      "path": "section.container-darkblue.facts > dl.facts-list > dt.fact-name"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 180,
+       "y": 4988,
+       "w": 1080,
+       "h": 52
+      },
+      "eds": {
+       "x": 180,
+       "y": 4988,
+       "w": 1080,
+       "h": 52
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 17,
+     "origin": {
+      "path": "div.container-fluid.container-darkblue > div.w-100.d-flex > div.fact-name.mx-auto"
+     },
+     "eds": {
+      "path": "section.container-darkblue.facts > dl.facts-list > dt.fact-name"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 180,
+       "y": 5132,
+       "w": 1080,
+       "h": 52
+      },
+      "eds": {
+       "x": 180,
+       "y": 5132,
+       "w": 1080,
+       "h": 52
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 18,
+     "origin": {
+      "path": "div.container-fluid.container-darkblue > div.w-100.d-flex > div.fact-name.mx-auto"
+     },
+     "eds": {
+      "path": "section.container-darkblue.facts > dl.facts-list > dt.fact-name"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 180,
+       "y": 5277,
+       "w": 1080,
+       "h": 52
+      },
+      "eds": {
+       "x": 180,
+       "y": 5277,
+       "w": 1080,
+       "h": 52
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 19,
+     "origin": {
+      "path": "div.container-fluid.container-darkblue > div.w-100.d-flex > div.fact-name.mx-auto"
+     },
+     "eds": {
+      "path": "section.container-darkblue.facts > dl.facts-list > dt.fact-name"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 180,
+       "y": 5421,
+       "w": 1080,
+       "h": 52
+      },
+      "eds": {
+       "x": 180,
+       "y": 5421,
+       "w": 1080,
+       "h": 52
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 20,
+     "origin": {
+      "path": "div.container-fluid.container-darkblue > div.w-100.d-flex > div.fact-name.mx-auto"
+     },
+     "eds": {
+      "path": "section.container-darkblue.facts > dl.facts-list > dt.fact-name"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 180,
+       "y": 5565,
+       "w": 1080,
+       "h": 52
+      },
+      "eds": {
+       "x": 180,
+       "y": 5565,
+       "w": 1080,
+       "h": 52
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 21,
+     "origin": {
+      "path": "div.container-fluid.container-darkblue > div.w-100.d-flex > div.fact-name.mx-auto"
+     },
+     "eds": {
+      "path": "section.container-darkblue.facts > dl.facts-list > dt.fact-name"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 180,
+       "y": 5709,
+       "w": 1080,
+       "h": 52
+      },
+      "eds": {
+       "x": 180,
+       "y": 5709,
+       "w": 1080,
+       "h": 52
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 22,
+     "origin": {
+      "path": "div.container-fluid.container-darkblue > div.w-100.d-flex > div.fact-name.mx-auto"
+     },
+     "eds": {
+      "path": "section.container-darkblue.facts > dl.facts-list > dt.fact-name"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 180,
+       "y": 5854,
+       "w": 1080,
+       "h": 104
+      },
+      "eds": {
+       "x": 180,
+       "y": 5854,
+       "w": 1080,
+       "h": 104
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".fact-value=.fact-value",
+   "family": null,
+   "required": true,
+   "originMatches": 23,
+   "edsMatches": 23,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.container-fluid.container-darkblue > div.w-100.d-flex > div.mx-auto.fact-value"
+     },
+     "eds": {
+      "path": "section.container-darkblue.facts > dl.facts-list > dd.fact-value"
+     },
+     "rows": [
+      {
+       "key": "text:extremely large telescope (elt)",
+       "role": "text",
+       "text": "extremely large telescope (elt)",
+       "edsText": "extremely large telescope (elt)",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 77
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 77,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "51/77/400",
+        "eds": "51/77/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 180,
+       "y": 878,
+       "w": 1080,
+       "h": 93
+      },
+      "eds": {
+       "x": 180,
+       "y": 878,
+       "w": 1080,
+       "h": 93
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.container-fluid.container-darkblue > div.w-100.d-flex > div.mx-auto.fact-value"
+     },
+     "eds": {
+      "path": "section.container-darkblue.facts > dl.facts-list > dd.fact-value"
+     },
+     "rows": [
+      {
+       "key": "text:39 metres",
+       "role": "text",
+       "text": "39 metres",
+       "edsText": "39 metres",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 77
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 77,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "51/77/400",
+        "eds": "51/77/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 180,
+       "y": 1022,
+       "w": 1080,
+       "h": 93
+      },
+      "eds": {
+       "x": 180,
+       "y": 1022,
+       "w": 1080,
+       "h": 93
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.container-fluid.container-darkblue > div.w-100.d-flex > div.mx-auto.fact-value"
+     },
+     "eds": {
+      "path": "section.container-darkblue.facts > dl.facts-list > dd.fact-value"
+     },
+     "rows": [
+      {
+       "key": "text:978 square metres",
+       "role": "text",
+       "text": "978 square metres",
+       "edsText": "978 square metres",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 77
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 77,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "51/77/400",
+        "eds": "51/77/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 180,
+       "y": 1166,
+       "w": 1080,
+       "h": 93
+      },
+      "eds": {
+       "x": 180,
+       "y": 1166,
+       "w": 1080,
+       "h": 93
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.container-fluid.container-darkblue > div.w-100.d-flex > div.mx-auto.fact-value"
+     },
+     "eds": {
+      "path": "section.container-darkblue.facts > dl.facts-list > dd.fact-value"
+     },
+     "rows": [
+      {
+       "key": "text:798",
+       "role": "text",
+       "text": "798",
+       "edsText": "798",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 77
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 77,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "51/77/400",
+        "eds": "51/77/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 180,
+       "y": 1310,
+       "w": 1080,
+       "h": 93
+      },
+      "eds": {
+       "x": 180,
+       "y": 1310,
+       "w": 1080,
+       "h": 93
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div.container-fluid.container-darkblue > div.w-100.d-flex > div.mx-auto.fact-value"
+     },
+     "eds": {
+      "path": "section.container-darkblue.facts > dl.facts-list > dd.fact-value"
+     },
+     "rows": [
+      {
+       "key": "text:tens of nanometres (10000 thinner than a",
+       "role": "text",
+       "text": "tens of nanometres (10000 thinner than a human hair) across ",
+       "edsText": "tens of nanometres (10000 thinner than a human hair) across ",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 153
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 153,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "51/77/400",
+        "eds": "51/77/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 180,
+       "y": 1506,
+       "w": 1080,
+       "h": 169
+      },
+      "eds": {
+       "x": 180,
+       "y": 1506,
+       "w": 1080,
+       "h": 169
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 5,
+     "origin": {
+      "path": "div.container-fluid.container-darkblue > div.w-100.d-flex > div.mx-auto.fact-value"
+     },
+     "eds": {
+      "path": "section.container-darkblue.facts > dl.facts-list > dd.fact-value"
+     },
+     "rows": [
+      {
+       "key": "text:4608",
+       "role": "text",
+       "text": "4608",
+       "edsText": "4608",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 77
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 77,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "51/77/400",
+        "eds": "51/77/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 180,
+       "y": 1779,
+       "w": 1080,
+       "h": 93
+      },
+      "eds": {
+       "x": 180,
+       "y": 1779,
+       "w": 1080,
+       "h": 93
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 6,
+     "origin": {
+      "path": "div.container-fluid.container-darkblue > div.w-100.d-flex > div.mx-auto.fact-value"
+     },
+     "eds": {
+      "path": "section.container-darkblue.facts > dl.facts-list > dd.fact-value"
+     },
+     "rows": [
+      {
+       "key": "text:140 tonnes, of which 132 tonnes in the p",
+       "role": "text",
+       "text": "140 tonnes, of which 132 tonnes in the primary mirror alone",
+       "edsText": "140 tonnes, of which 132 tonnes in the primary mirror alone",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 153
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 153,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "51/77/400",
+        "eds": "51/77/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 180,
+       "y": 1923,
+       "w": 1080,
+       "h": 169
+      },
+      "eds": {
+       "x": 180,
+       "y": 1923,
+       "w": 1080,
+       "h": 169
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 7,
+     "origin": {
+      "path": "div.container-fluid.container-darkblue > div.w-100.d-flex > div.mx-auto.fact-value"
+     },
+     "eds": {
+      "path": "section.container-darkblue.facts > dl.facts-list > dd.fact-value"
+     },
+     "rows": [
+      {
+       "key": "text:optical/near-infrared extremely large te",
+       "role": "text",
+       "text": "optical/near-infrared extremely large telescope",
+       "edsText": "optical/near-infrared extremely large telescope",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 77
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 77,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "51/77/400",
+        "eds": "51/77/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 180,
+       "y": 2946,
+       "w": 1080,
+       "h": 93
+      },
+      "eds": {
+       "x": 180,
+       "y": 2946,
+       "w": 1080,
+       "h": 93
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 8,
+     "origin": {
+      "path": "div.container-fluid.container-darkblue > div.w-100.d-flex > div.mx-auto.fact-value"
+     },
+     "eds": {
+      "path": "section.container-darkblue.facts > dl.facts-list > dd.fact-value"
+     },
+     "rows": [
+      {
+       "key": "text:five-mirror design",
+       "role": "text",
+       "text": "five-mirror design",
+       "edsText": "five-mirror design",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 77
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 77,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "51/77/400",
+        "eds": "51/77/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 180,
+       "y": 3091,
+       "w": 1080,
+       "h": 93
+      },
+      "eds": {
+       "x": 180,
+       "y": 3091,
+       "w": 1080,
+       "h": 93
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 9,
+     "origin": {
+      "path": "div.container-fluid.container-darkblue > div.w-100.d-flex > div.mx-auto.fact-value"
+     },
+     "eds": {
+      "path": "section.container-darkblue.facts > dl.facts-list > dd.fact-value"
+     },
+     "rows": [
+      {
+       "key": "text:10 arcminutes",
+       "role": "text",
+       "text": "10 arcminutes",
+       "edsText": "10 arcminutes",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 77
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 77,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "51/77/400",
+        "eds": "51/77/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 180,
+       "y": 3235,
+       "w": 1080,
+       "h": 93
+      },
+      "eds": {
+       "x": 180,
+       "y": 3235,
+       "w": 1080,
+       "h": 93
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 10,
+     "origin": {
+      "path": "div.container-fluid.container-darkblue > div.w-100.d-flex > div.mx-auto.fact-value"
+     },
+     "eds": {
+      "path": "section.container-darkblue.facts > dl.facts-list > dd.fact-value"
+     },
+     "rows": [
+      {
+       "key": "text:hemispherical dome",
+       "role": "text",
+       "text": "hemispherical dome",
+       "edsText": "hemispherical dome",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 77
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 77,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "51/77/400",
+        "eds": "51/77/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 180,
+       "y": 3379,
+       "w": 1080,
+       "h": 93
+      },
+      "eds": {
+       "x": 180,
+       "y": 3379,
+       "w": 1080,
+       "h": 93
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 11,
+     "origin": {
+      "path": "div.container-fluid.container-darkblue > div.w-100.d-flex > div.mx-auto.fact-value"
+     },
+     "eds": {
+      "path": "section.container-darkblue.facts > dl.facts-list > dd.fact-value"
+     },
+     "rows": [
+      {
+       "key": "text:~30 minutes",
+       "role": "text",
+       "text": "~30 minutes",
+       "edsText": "~30 minutes",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 77
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 77,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "51/77/400",
+        "eds": "51/77/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 180,
+       "y": 3575,
+       "w": 1080,
+       "h": 93
+      },
+      "eds": {
+       "x": 180,
+       "y": 3575,
+       "w": 1080,
+       "h": 93
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 12,
+     "origin": {
+      "path": "div.container-fluid.container-darkblue > div.w-100.d-flex > div.mx-auto.fact-value"
+     },
+     "eds": {
+      "path": "section.container-darkblue.facts > dl.facts-list > dd.fact-value"
+     },
+     "rows": [
+      {
+       "key": "text:cerro armazones, atacama desert, chile",
+       "role": "text",
+       "text": "cerro armazones, atacama desert, chile",
+       "edsText": "cerro armazones, atacama desert, chile",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 77
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 77,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "51/77/400",
+        "eds": "51/77/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 180,
+       "y": 4359,
+       "w": 1080,
+       "h": 93
+      },
+      "eds": {
+       "x": 180,
+       "y": 4359,
+       "w": 1080,
+       "h": 93
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 13,
+     "origin": {
+      "path": "div.container-fluid.container-darkblue > div.w-100.d-flex > div.mx-auto.fact-value"
+     },
+     "eds": {
+      "path": "section.container-darkblue.facts > dl.facts-list > dd.fact-value"
+     },
+     "rows": [
+      {
+       "key": "text:3046 m",
+       "role": "text",
+       "text": "3046 m",
+       "edsText": "3046 m",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 77
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 77,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "51/77/400",
+        "eds": "51/77/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 180,
+       "y": 4504,
+       "w": 1080,
+       "h": 93
+      },
+      "eds": {
+       "x": 180,
+       "y": 4504,
+       "w": 1080,
+       "h": 93
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 14,
+     "origin": {
+      "path": "div.container-fluid.container-darkblue > div.w-100.d-flex > div.mx-auto.fact-value"
+     },
+     "eds": {
+      "path": "section.container-darkblue.facts > dl.facts-list > dd.fact-value"
+     },
+     "rows": [
+      {
+       "key": "text:~18 metres",
+       "role": "text",
+       "text": "~18 metres",
+       "edsText": "~18 metres",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 77
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 77,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "51/77/400",
+        "eds": "51/77/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 180,
+       "y": 4700,
+       "w": 1080,
+       "h": 93
+      },
+      "eds": {
+       "x": 180,
+       "y": 4700,
+       "w": 1080,
+       "h": 93
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 15,
+     "origin": {
+      "path": "div.container-fluid.container-darkblue > div.w-100.d-flex > div.mx-auto.fact-value"
+     },
+     "eds": {
+      "path": "section.container-darkblue.facts > dl.facts-list > dd.fact-value"
+     },
+     "rows": [
+      {
+       "key": "text:~220 000 m",
+       "role": "text",
+       "text": "~220 000 m",
+       "edsText": "~220 000 m",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 77
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 77,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "51/77/400",
+        "eds": "51/77/400"
+       }
+      },
+      {
+       "key": "text:3",
+       "role": "text",
+       "text": "3",
+       "edsText": "3",
+       "byPosition": false,
+       "origin": {
+        "x": 665,
+        "y": 0,
+        "w": 21,
+        "h": 46
+       },
+       "eds": {
+        "x": 665,
+        "y": 0,
+        "w": 21,
+        "h": 46,
+        "sel": "sup",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "38/0/400",
+        "eds": "38/0/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 180,
+       "y": 4896,
+       "w": 1080,
+       "h": 93
+      },
+      "eds": {
+       "x": 180,
+       "y": 4896,
+       "w": 1080,
+       "h": 93
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 16,
+     "origin": {
+      "path": "div.container-fluid.container-darkblue > div.w-100.d-flex > div.mx-auto.fact-value"
+     },
+     "eds": {
+      "path": "section.container-darkblue.facts > dl.facts-list > dd.fact-value"
+     },
+     "rows": [
+      {
+       "key": "text:23 km",
+       "role": "text",
+       "text": "23 km",
+       "edsText": "23 km",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 77
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 77,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "51/77/400",
+        "eds": "51/77/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 180,
+       "y": 5040,
+       "w": 1080,
+       "h": 93
+      },
+      "eds": {
+       "x": 180,
+       "y": 5040,
+       "w": 1080,
+       "h": 93
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 17,
+     "origin": {
+      "path": "div.container-fluid.container-darkblue > div.w-100.d-flex > div.mx-auto.fact-value"
+     },
+     "eds": {
+      "path": "section.container-darkblue.facts > dl.facts-list > dd.fact-value"
+     },
+     "rows": [
+      {
+       "key": "text:about 12 years",
+       "role": "text",
+       "text": "about 12 years",
+       "edsText": "about 12 years",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 77
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 77,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "51/77/400",
+        "eds": "51/77/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 180,
+       "y": 5184,
+       "w": 1080,
+       "h": 93
+      },
+      "eds": {
+       "x": 180,
+       "y": 5184,
+       "w": 1080,
+       "h": 93
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 18,
+     "origin": {
+      "path": "div.container-fluid.container-darkblue > div.w-100.d-flex > div.mx-auto.fact-value"
+     },
+     "eds": {
+      "path": "section.container-darkblue.facts > dl.facts-list > dd.fact-value"
+     },
+     "rows": [
+      {
+       "key": "text:2029",
+       "role": "text",
+       "text": "2029",
+       "edsText": "2029",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 77
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 77,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "51/77/400",
+        "eds": "51/77/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 180,
+       "y": 5328,
+       "w": 1080,
+       "h": 93
+      },
+      "eds": {
+       "x": 180,
+       "y": 5328,
+       "w": 1080,
+       "h": 93
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 19,
+     "origin": {
+      "path": "div.container-fluid.container-darkblue > div.w-100.d-flex > div.mx-auto.fact-value"
+     },
+     "eds": {
+      "path": "section.container-darkblue.facts > dl.facts-list > dd.fact-value"
+     },
+     "rows": [
+      {
+       "key": "text:30+ years",
+       "role": "text",
+       "text": "30+ years",
+       "edsText": "30+ years",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 77
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 77,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "51/77/400",
+        "eds": "51/77/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 180,
+       "y": 5473,
+       "w": 1080,
+       "h": 93
+      },
+      "eds": {
+       "x": 180,
+       "y": 5473,
+       "w": 1080,
+       "h": 93
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 20,
+     "origin": {
+      "path": "div.container-fluid.container-darkblue > div.w-100.d-flex > div.mx-auto.fact-value"
+     },
+     "eds": {
+      "path": "section.container-darkblue.facts > dl.facts-list > dd.fact-value"
+     },
+     "rows": [
+      {
+       "key": "text:€1.45 billion",
+       "role": "text",
+       "text": "€1.45 billion",
+       "edsText": "€1.45 billion",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 77
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 77,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "51/77/400",
+        "eds": "51/77/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 180,
+       "y": 5617,
+       "w": 1080,
+       "h": 93
+      },
+      "eds": {
+       "x": 180,
+       "y": 5617,
+       "w": 1080,
+       "h": 93
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 21,
+     "origin": {
+      "path": "div.container-fluid.container-darkblue > div.w-100.d-flex > div.mx-auto.fact-value"
+     },
+     "eds": {
+      "path": "section.container-darkblue.facts > dl.facts-list > dd.fact-value"
+     },
+     "rows": [
+      {
+       "key": "text:55",
+       "role": "text",
+       "text": "55",
+       "edsText": "55",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 77
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 77,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "51/77/400",
+        "eds": "51/77/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 180,
+       "y": 5761,
+       "w": 1080,
+       "h": 93
+      },
+      "eds": {
+       "x": 180,
+       "y": 5761,
+       "w": 1080,
+       "h": 93
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 22,
+     "origin": {
+      "path": "div.container-fluid.container-darkblue > div.w-100.d-flex > div.mx-auto.fact-value"
+     },
+     "eds": {
+      "path": "section.container-darkblue.facts > dl.facts-list > dd.fact-value"
+     },
+     "rows": [
+      {
+       "key": "text:~100 each year",
+       "role": "text",
+       "text": "~100 each year",
+       "edsText": "~100 each year",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 77
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 77,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "51/77/400",
+        "eds": "51/77/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 180,
+       "y": 5957,
+       "w": 1080,
+       "h": 93
+      },
+      "eds": {
+       "x": 180,
+       "y": 5957,
+       "w": 1080,
+       "h": 93
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 48,
+  "within": 33,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

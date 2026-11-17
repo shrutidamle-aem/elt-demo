@@ -1,0 +1,77 @@
+
+Content diff @ 1440px (profile "generic", roots: #big-header, #main-navbar, .container-light, .bar-medium-dark, .swiper-container, header, footer)
+root "#big-header"
+  source: 2 text nodes — 0 headings, 0 eyebrows, 0 CTAs, 2 body; 1 img
+  build: 2 text nodes — 0 headings, 0 eyebrows, 0 CTAs, 2 body; 1 img
+  editable texts (outermost h*/p/ul/ol): source 1 / build 1
+  attributes (placeholder/aria-label/title): source 0 / build 0; icons: source 0 / build 0
+root "#main-navbar"
+  source: 46 text nodes — 0 headings, 0 eyebrows, 46 CTAs, 0 body; 0 img
+  build: 46 text nodes — 0 headings, 0 eyebrows, 46 CTAs, 0 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 1 / build 1
+  attributes (placeholder/aria-label/title): source 1 / build 1; icons: source 1 / build 1
+root ".container-light"
+  source: 30 text nodes — 0 headings, 0 eyebrows, 6 CTAs, 24 body; 11 img
+  build: 30 text nodes — 0 headings, 0 eyebrows, 6 CTAs, 24 body; 11 img
+  editable texts (outermost h*/p/ul/ol): source 1 / build 1
+  attributes (placeholder/aria-label/title): source 6 / build 6; icons: source 6 / build 6
+root ".bar-medium-dark"
+  source: 7 text nodes — 0 headings, 0 eyebrows, 3 CTAs, 4 body; 0 img
+  build: 7 text nodes — 0 headings, 0 eyebrows, 3 CTAs, 4 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 0 / build 0
+  attributes (placeholder/aria-label/title): source 1 / build 4; icons: source 0 / build 0
+root ".swiper-container"
+  source: 6 text nodes — 0 headings, 0 eyebrows, 6 CTAs, 0 body; 12 img
+  build: 6 text nodes — 0 headings, 0 eyebrows, 6 CTAs, 0 body; 12 img
+  editable texts (outermost h*/p/ul/ol): source 0 / build 0
+  attributes (placeholder/aria-label/title): source 2 / build 20; icons: source 18 / build 18
+root "header": absent on both sides (no <header> / [role="banner"] outside the main root(s)) — not compared
+root "footer"
+  source: 10 text nodes — 0 headings, 0 eyebrows, 7 CTAs, 3 body; 0 img
+  build: 10 text nodes — 0 headings, 0 eyebrows, 7 CTAs, 3 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 0 / build 0
+  attributes (placeholder/aria-label/title): source 0 / build 0; icons: source 0 / build 0
+
+⚠ one side has almost no content — a blank/failed render; fix that before trusting the diff.
+
+Findings: 39 (0 structural 🔴)
+Tiers: looks-same 🔴 0 · nothing-lost 🟡 0 · accepted 🟢 0 (owner 0, auto 0) · advisory 39
+  🟡 EXTRA ARIA-LABEL [.bar-medium-dark]: build <a> aria-label="Fullscreen" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [.bar-medium-dark]: build <input> aria-label="Search videos" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [.bar-medium-dark]: build <button> aria-label="Search" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [.swiper-container]: build <a> aria-label="Download" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [.swiper-container]: build <a> aria-label="Play" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [.swiper-container]: build <a> aria-label="Open on eso.org" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [.swiper-container]: build <a> aria-label="Download" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [.swiper-container]: build <a> aria-label="Play" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [.swiper-container]: build <a> aria-label="Open on eso.org" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [.swiper-container]: build <a> aria-label="Download" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [.swiper-container]: build <a> aria-label="Play" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [.swiper-container]: build <a> aria-label="Open on eso.org" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [.swiper-container]: build <a> aria-label="Download" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [.swiper-container]: build <a> aria-label="Play" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [.swiper-container]: build <a> aria-label="Open on eso.org" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [.swiper-container]: build <a> aria-label="Download" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [.swiper-container]: build <a> aria-label="Play" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [.swiper-container]: build <a> aria-label="Open on eso.org" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [.swiper-container]: build <a> aria-label="Download" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [.swiper-container]: build <a> aria-label="Play" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [.swiper-container]: build <a> aria-label="Open on eso.org" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 ICON MOVED [.swiper-container]: source icon-font glyph U+F019 (Font Awesome 5 Free, 29×29) at "/public/archives/videos/original/cs0032a" is at "download" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [.swiper-container]: source icon-font glyph U+F04B (Font Awesome 5 Free, 25×29) at "/media/" is at "play" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [.swiper-container]: source icon-font glyph U+F35D (Font Awesome 5 Free, 29×29) at "/public/videos/cs0032a/" is at "open on eso.org" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [.swiper-container]: source icon-font glyph U+F019 (Font Awesome 5 Free, 29×29) at "/public/archives/videos/original/potw264" is at "download" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [.swiper-container]: source icon-font glyph U+F04B (Font Awesome 5 Free, 25×29) at "/media/" is at "play" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [.swiper-container]: source icon-font glyph U+F35D (Font Awesome 5 Free, 29×29) at "/public/videos/potw2643a/" is at "open on eso.org" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [.swiper-container]: source icon-font glyph U+F019 (Font Awesome 5 Free, 29×29) at "/public/archives/videos/original/potw264" is at "download" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [.swiper-container]: source icon-font glyph U+F04B (Font Awesome 5 Free, 25×29) at "/media/" is at "play" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [.swiper-container]: source icon-font glyph U+F35D (Font Awesome 5 Free, 29×29) at "/public/videos/potw2643b/" is at "open on eso.org" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [.swiper-container]: source icon-font glyph U+F019 (Font Awesome 5 Free, 29×29) at "/public/archives/videos/original/potw264" is at "download" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [.swiper-container]: source icon-font glyph U+F04B (Font Awesome 5 Free, 25×29) at "/media/" is at "play" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [.swiper-container]: source icon-font glyph U+F35D (Font Awesome 5 Free, 29×29) at "/public/videos/potw2643d/" is at "open on eso.org" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [.swiper-container]: source icon-font glyph U+F019 (Font Awesome 5 Free, 29×29) at "/public/archives/videos/original/potw264" is at "download" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [.swiper-container]: source icon-font glyph U+F04B (Font Awesome 5 Free, 25×29) at "/media/" is at "play" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [.swiper-container]: source icon-font glyph U+F35D (Font Awesome 5 Free, 29×29) at "/public/videos/potw2643c/" is at "open on eso.org" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [.swiper-container]: source icon-font glyph U+F019 (Font Awesome 5 Free, 29×29) at "/public/archives/videos/original/potw263" is at "download" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [.swiper-container]: source icon-font glyph U+F04B (Font Awesome 5 Free, 25×29) at "/media/" is at "play" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON MOVED [.swiper-container]: source icon-font glyph U+F35D (Font Awesome 5 Free, 29×29) at "/public/videos/potw2635a/" is at "open on eso.org" in the build — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.

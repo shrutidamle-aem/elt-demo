@@ -1,0 +1,67 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics plan",
+  "writtenAt": "2026-11-13T12:20:13.788Z",
+  "input": "stardust/current/_dynamics.json",
+  "martech": "stardust/martech"
+ },
+ "productionHosts": [
+  "elt.eso.org"
+ ],
+ "consent": {
+  "cmp": null,
+  "model": "per-tag",
+  "categories": [],
+  "ruleSets": 0,
+  "consentMode": null,
+  "notes": "Source consent is the first-party ESO privacy notice (elt_assets.c4ebe47d5f34.js: .privacy-notice / .privacy-settings, cookie user_privacy {language, matomo, shop}, 182 days). No third-party CMP. Matomo loads ungated with requireCookieConsent and gets setCookieConsentGiven only when user_privacy.matomo is true."
+ },
+ "routes": [
+  {
+   "id": "matomo",
+   "vendor": "Matomo",
+   "src": "https://www.eso.org/mtmo/matomo.js",
+   "boot": null,
+   "category": null,
+   "cmpGroups": [],
+   "enabled": false
+  }
+ ],
+ "otherTags": [],
+ "tagManagers": [],
+ "dataLayers": [],
+ "tagNotes": {
+  "Matomo": {
+   "rules": [
+    {
+     "name": "page view + link tracking",
+     "paths": [
+      "*"
+     ],
+     "selectors": [],
+     "events": [
+      "window load"
+     ],
+     "consentGroups": [
+      "user_privacy.matomo"
+     ],
+     "from": "https://elt.eso.org/public/archives/djp/js/elt_assets.c4ebe47d5f34.js (window load listener: _paq requireCookieConsent, setCookieConsentGiven, trackPageView, enableLinkTracking, setTrackerUrl https://www.eso.org/mtmo/matomo.php, setSiteId 2)"
+    }
+   ],
+   "dataElements": [],
+   "notes": [
+    "Before enabling the route, window._paq must be initialised as on the source: requireCookieConsent; setCookieConsentGiven when user_privacy.matomo; trackPageView; enableLinkTracking; setTrackerUrl https://www.eso.org/mtmo/matomo.php; setSiteId 2."
+   ],
+   "from": "elt_assets.c4ebe47d5f34.js"
+  }
+ },
+ "rewrite": {
+  "library": null,
+  "rules": [],
+  "dataElements": [],
+  "dataLayer": [],
+  "dataLayerPaths": []
+ },
+ "aemMartech": null,
+ "target": null
+}

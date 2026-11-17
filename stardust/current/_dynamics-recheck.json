@@ -1,0 +1,1291 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics detect",
+  "writtenAt": "2026-11-13T15:00:14.668Z",
+  "settleMs": 5000,
+  "width": 1440,
+  "urls": [
+   "https://elt.eso.org/",
+   "https://elt.eso.org/telescope/",
+   "https://elt.eso.org/media/",
+   "https://elt.eso.org/about/timeline/",
+   "https://elt.eso.org/about/facts/",
+   "https://elt.eso.org/about/road/",
+   "https://elt.eso.org/telescope/dome/",
+   "https://elt.eso.org/instrument/HARMONI/"
+  ],
+  "reachSource": "stardust/current/pages"
+ },
+ "pages": {
+  "/": {
+   "url": "https://elt.eso.org/",
+   "status": 200,
+   "host": "elt.eso.org",
+   "title": "ELT | ESO",
+   "forms": [
+    {
+     "name": "form-inline",
+     "action": "https://elt.eso.org/public/eltsearch/",
+     "method": "get",
+     "role": "search",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "search:q"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [],
+   "dialogs": [],
+   "dialogCount": 0,
+   "media": [],
+   "iframes": [],
+   "mounts": [],
+   "auth": [
+    "https://support.brave.com/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.brave.com%2Fhc%2Fen-us%2Farticles%2F360050634931-How-Do-I-Manage-Cookies-In-Brave",
+    "https://support.brave.com/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.brave.com%2Fhc%2Fen-us%2Farticles%2F360050634931-How-Do-I-Manage-Cookies-In-Brave",
+    "https://support.brave.com/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.brave.com%2Fhc%2Fen-us%2Farticles%2F360050634931-How-Do-I-Manage-Cookies-In-Brave"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en",
+    "hreflang": [
+     "x-default",
+     "en-au",
+     "en-gb",
+     "en-ie",
+     "cs",
+     "da",
+     "nl",
+     "nl-be",
+     "fi",
+     "fr",
+     "fr-be",
+     "fr-ch",
+     "de",
+     "de-at",
+     "de-be",
+     "de-ch",
+     "it",
+     "it-ch",
+     "pl",
+     "pt",
+     "es",
+     "es-cl",
+     "sv"
+    ],
+    "switcher": [
+     "https://support.brave.com/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.brave.com%2Fhc%2Fen-us%2Farticles%2F360050634931-How-Do-I-Manage-Cookies-In-Brave",
+     "https://support.brave.com/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.brave.com%2Fhc%2Fen-us%2Farticles%2F360050634931-How-Do-I-Manage-Cookies-In-Brave",
+     "https://support.brave.com/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.brave.com%2Fhc%2Fen-us%2Farticles%2F360050634931-How-Do-I-Manage-Cookies-In-Brave",
+     "https://support.microsoft.com/en-us/windows/manage-cookies-in-microsoft-edge-view-allow-block-delete-and-use-168dab11-0753-043d-7c16-ede5947fc64d",
+     "https://support.mozilla.org/en-US/kb/Blocking%20cookies"
+    ]
+   },
+   "cms": {},
+   "framework": null,
+   "globals": [],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 2,
+   "inlineFetch": false,
+   "mainText": 7530,
+   "domAddedAfterLoad": 0,
+   "hosts": {
+    "elt.eso.org": 19,
+    "fast.fonts.net": 1,
+    "cdn.eso.org": 16,
+    "fonts.gstatic.com": 1,
+    "www.eso.org": 1
+   },
+   "thirdPartyHosts": [
+    "fast.fonts.net",
+    "fonts.gstatic.com"
+   ],
+   "scripts": [
+    "https://elt.eso.org/public/archives/djp/js/elt_assets_frontpage.5e2efda3c4a4.js",
+    "https://elt.eso.org/public/archives/djp/js/elt_assets_webcams.27610136064a.js",
+    "https://elt.eso.org/public/archives/djp/js/elt_assets.c4ebe47d5f34.js"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "elt.eso.org",
+     "path": "/public/archive_webcams/armazonespano/public/panojavascript/datetime.txt",
+     "query": [
+      "1794582016879"
+     ],
+     "status": 200,
+     "contentType": "text/plain",
+     "example": "https://elt.eso.org/public/archive_webcams/armazonespano/public/panojavascript/datetime.txt"
+    }
+   ],
+   "thirdPartyXhr": [],
+   "postBodies": [],
+   "textAtLoad": 7500,
+   "mainEmptyAtLoad": false
+  },
+  "/telescope/": {
+   "url": "https://elt.eso.org/telescope/",
+   "status": 200,
+   "host": "elt.eso.org",
+   "title": "Telescope | ELT | ESO",
+   "forms": [
+    {
+     "name": "form-inline",
+     "action": "https://elt.eso.org/public/eltsearch/",
+     "method": "get",
+     "role": "search",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "search:q"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [],
+   "dialogs": [],
+   "dialogCount": 0,
+   "media": [],
+   "iframes": [],
+   "mounts": [],
+   "auth": [
+    "https://support.brave.com/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.brave.com%2Fhc%2Fen-us%2Farticles%2F360050634931-How-Do-I-Manage-Cookies-In-Brave",
+    "https://support.brave.com/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.brave.com%2Fhc%2Fen-us%2Farticles%2F360050634931-How-Do-I-Manage-Cookies-In-Brave",
+    "https://support.brave.com/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.brave.com%2Fhc%2Fen-us%2Farticles%2F360050634931-How-Do-I-Manage-Cookies-In-Brave"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en",
+    "hreflang": [
+     "x-default",
+     "en-au",
+     "en-gb",
+     "en-ie",
+     "cs",
+     "da",
+     "nl",
+     "nl-be",
+     "fi",
+     "fr",
+     "fr-be",
+     "fr-ch",
+     "de",
+     "de-at",
+     "de-be",
+     "de-ch",
+     "it",
+     "it-ch",
+     "pl",
+     "pt",
+     "es",
+     "es-cl",
+     "sv"
+    ],
+    "switcher": [
+     "https://support.brave.com/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.brave.com%2Fhc%2Fen-us%2Farticles%2F360050634931-How-Do-I-Manage-Cookies-In-Brave",
+     "https://support.brave.com/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.brave.com%2Fhc%2Fen-us%2Farticles%2F360050634931-How-Do-I-Manage-Cookies-In-Brave",
+     "https://support.brave.com/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.brave.com%2Fhc%2Fen-us%2Farticles%2F360050634931-How-Do-I-Manage-Cookies-In-Brave",
+     "https://support.microsoft.com/en-us/windows/manage-cookies-in-microsoft-edge-view-allow-block-delete-and-use-168dab11-0753-043d-7c16-ede5947fc64d",
+     "https://support.mozilla.org/en-US/kb/Blocking%20cookies"
+    ]
+   },
+   "cms": {},
+   "framework": null,
+   "globals": [],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 2,
+   "inlineFetch": false,
+   "mainText": 8433,
+   "domAddedAfterLoad": 0,
+   "hosts": {
+    "elt.eso.org": 22,
+    "fast.fonts.net": 1,
+    "cdn.eso.org": 11,
+    "fonts.gstatic.com": 1
+   },
+   "thirdPartyHosts": [
+    "fast.fonts.net",
+    "fonts.gstatic.com"
+   ],
+   "scripts": [
+    "https://elt.eso.org/public/archives/djp/js/elt_assets_visuals.1fe5828545ed.js",
+    "https://elt.eso.org/public/archives/djp/js/elt_assets.c4ebe47d5f34.js"
+   ],
+   "firstPartyApi": [],
+   "thirdPartyXhr": [],
+   "postBodies": [],
+   "textAtLoad": 8433,
+   "mainEmptyAtLoad": false
+  },
+  "/media/": {
+   "url": "https://elt.eso.org/media/",
+   "status": 200,
+   "host": "elt.eso.org",
+   "title": "News and Multimedia | ELT | ESO",
+   "forms": [
+    {
+     "name": "form-inline",
+     "action": "https://elt.eso.org/public/eltsearch/",
+     "method": "get",
+     "role": "search",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "search:q"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    },
+    {
+     "name": "videoSearchform",
+     "action": null,
+     "method": "get",
+     "role": "search",
+     "inChrome": false,
+     "fields": 1,
+     "signature": [
+      "text:search"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    },
+    {
+     "name": "searchform",
+     "action": null,
+     "method": "get",
+     "role": "search",
+     "inChrome": false,
+     "fields": 1,
+     "signature": [
+      "text:search"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [],
+   "dialogs": [
+    {
+     "role": "dialog",
+     "heading": "YouTube Video",
+     "textLen": 15,
+     "hasForm": false,
+     "hasIframe": true,
+     "hasVideo": false
+    },
+    {
+     "role": "document",
+     "heading": "YouTube Video",
+     "textLen": 15,
+     "hasForm": false,
+     "hasIframe": true,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "YouTube Video",
+     "textLen": 15,
+     "hasForm": false,
+     "hasIframe": true,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "YouTube Video",
+     "textLen": 15,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "h5",
+     "heading": "",
+     "textLen": 13,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "dialog",
+     "heading": "YouTube Video",
+     "textLen": 15,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": true
+    },
+    {
+     "role": "document",
+     "heading": "YouTube Video",
+     "textLen": 15,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": true
+    },
+    {
+     "role": "div",
+     "heading": "YouTube Video",
+     "textLen": 15,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": true
+    },
+    {
+     "role": "div",
+     "heading": "YouTube Video",
+     "textLen": 15,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "h5",
+     "heading": "",
+     "textLen": 13,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "dialog",
+     "heading": "Image",
+     "textLen": 7,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "document",
+     "heading": "Image",
+     "textLen": 7,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 18,
+   "media": [],
+   "iframes": [
+    {
+     "src": null,
+     "title": null,
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [
+    "https://support.brave.com/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.brave.com%2Fhc%2Fen-us%2Farticles%2F360050634931-How-Do-I-Manage-Cookies-In-Brave",
+    "https://support.brave.com/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.brave.com%2Fhc%2Fen-us%2Farticles%2F360050634931-How-Do-I-Manage-Cookies-In-Brave",
+    "https://support.brave.com/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.brave.com%2Fhc%2Fen-us%2Farticles%2F360050634931-How-Do-I-Manage-Cookies-In-Brave"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en",
+    "hreflang": [
+     "x-default",
+     "en-au",
+     "en-gb",
+     "en-ie",
+     "cs",
+     "da",
+     "nl",
+     "nl-be",
+     "fi",
+     "fr",
+     "fr-be",
+     "fr-ch",
+     "de",
+     "de-at",
+     "de-be",
+     "de-ch",
+     "it",
+     "it-ch",
+     "pl",
+     "pt",
+     "es",
+     "es-cl",
+     "sv"
+    ],
+    "switcher": [
+     "https://support.brave.com/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.brave.com%2Fhc%2Fen-us%2Farticles%2F360050634931-How-Do-I-Manage-Cookies-In-Brave",
+     "https://support.brave.com/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.brave.com%2Fhc%2Fen-us%2Farticles%2F360050634931-How-Do-I-Manage-Cookies-In-Brave",
+     "https://support.brave.com/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.brave.com%2Fhc%2Fen-us%2Farticles%2F360050634931-How-Do-I-Manage-Cookies-In-Brave",
+     "https://support.microsoft.com/en-us/windows/manage-cookies-in-microsoft-edge-view-allow-block-delete-and-use-168dab11-0753-043d-7c16-ede5947fc64d",
+     "https://support.mozilla.org/en-US/kb/Blocking%20cookies"
+    ]
+   },
+   "cms": {},
+   "framework": null,
+   "globals": [],
+   "clientRendered": [
+    {
+     "cls": "videoTrigger",
+     "attrs": [
+      "data-url=https://www.eso.org/public/videos/cs0032a/"
+     ],
+     "text": "Chatting science with the world's largest telescope (ft. Dr "
+    },
+    {
+     "cls": "videoTrigger",
+     "attrs": [
+      "data-url=https://www.eso.org/public/videos/potw2643b/"
+     ],
+     "text": "Tilting the ELT upwards"
+    },
+    {
+     "cls": "videoTrigger",
+     "attrs": [
+      "data-url=https://www.eso.org/public/videos/potw2643d/"
+     ],
+     "text": "Inclining the ELT for the first time"
+    },
+    {
+     "cls": "videoTrigger",
+     "attrs": [
+      "data-url=https://www.eso.org/public/videos/potw2643c/"
+     ],
+     "text": "Inclining the ELT for the first time"
+    },
+    {
+     "cls": "videoTrigger",
+     "attrs": [
+      "data-url=https://www.eso.org/public/videos/potw2635a/"
+     ],
+     "text": "A rare snowy day for the world's biggest eye on the ..."
+    }
+   ],
+   "listingCandidates": [],
+   "inlineScripts": 3,
+   "inlineFetch": false,
+   "mainText": 10429,
+   "domAddedAfterLoad": 0,
+   "hosts": {
+    "elt.eso.org": 25,
+    "fast.fonts.net": 1,
+    "cdn.eso.org": 14,
+    "fonts.gstatic.com": 1,
+    "www.eso.org": 1
+   },
+   "thirdPartyHosts": [
+    "fast.fonts.net",
+    "fonts.gstatic.com"
+   ],
+   "scripts": [
+    "https://elt.eso.org/public/archives/djp/js/elt_assets_visuals.1fe5828545ed.js",
+    "https://elt.eso.org/public/archives/djp/js/elt_assets.c4ebe47d5f34.js"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "elt.eso.org",
+     "path": "/media/innerimg_paginated/all/date/",
+     "query": [
+      "page"
+     ],
+     "status": 200,
+     "contentType": "text/html",
+     "example": "https://elt.eso.org/media/innerimg_paginated/all/date/"
+    },
+    {
+     "method": "GET",
+     "host": "elt.eso.org",
+     "path": "/media/innervid_paginated/all/date/",
+     "query": [
+      "page"
+     ],
+     "status": 200,
+     "contentType": "text/html",
+     "example": "https://elt.eso.org/media/innervid_paginated/all/date/"
+    }
+   ],
+   "thirdPartyXhr": [],
+   "postBodies": [],
+   "textAtLoad": 9980,
+   "mainEmptyAtLoad": false
+  },
+  "/about/timeline/": {
+   "url": "https://elt.eso.org/about/timeline/",
+   "status": 200,
+   "host": "elt.eso.org",
+   "title": "Timeline | ELT | ESO",
+   "forms": [
+    {
+     "name": "form-inline",
+     "action": "https://elt.eso.org/public/eltsearch/",
+     "method": "get",
+     "role": "search",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "search:q"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [],
+   "dialogs": [],
+   "dialogCount": 0,
+   "media": [],
+   "iframes": [],
+   "mounts": [],
+   "auth": [
+    "https://support.brave.com/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.brave.com%2Fhc%2Fen-us%2Farticles%2F360050634931-How-Do-I-Manage-Cookies-In-Brave",
+    "https://support.brave.com/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.brave.com%2Fhc%2Fen-us%2Farticles%2F360050634931-How-Do-I-Manage-Cookies-In-Brave",
+    "https://support.brave.com/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.brave.com%2Fhc%2Fen-us%2Farticles%2F360050634931-How-Do-I-Manage-Cookies-In-Brave"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en",
+    "hreflang": [
+     "x-default",
+     "en-au",
+     "en-gb",
+     "en-ie",
+     "cs",
+     "da",
+     "nl",
+     "nl-be",
+     "fi",
+     "fr",
+     "fr-be",
+     "fr-ch",
+     "de",
+     "de-at",
+     "de-be",
+     "de-ch",
+     "it",
+     "it-ch",
+     "pl",
+     "pt",
+     "es",
+     "es-cl",
+     "sv"
+    ],
+    "switcher": [
+     "https://support.brave.com/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.brave.com%2Fhc%2Fen-us%2Farticles%2F360050634931-How-Do-I-Manage-Cookies-In-Brave",
+     "https://support.brave.com/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.brave.com%2Fhc%2Fen-us%2Farticles%2F360050634931-How-Do-I-Manage-Cookies-In-Brave",
+     "https://support.brave.com/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.brave.com%2Fhc%2Fen-us%2Farticles%2F360050634931-How-Do-I-Manage-Cookies-In-Brave",
+     "https://support.microsoft.com/en-us/windows/manage-cookies-in-microsoft-edge-view-allow-block-delete-and-use-168dab11-0753-043d-7c16-ede5947fc64d",
+     "https://support.mozilla.org/en-US/kb/Blocking%20cookies"
+    ]
+   },
+   "cms": {},
+   "framework": null,
+   "globals": [],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 2,
+   "inlineFetch": false,
+   "mainText": 12824,
+   "domAddedAfterLoad": 0,
+   "hosts": {
+    "elt.eso.org": 18,
+    "fast.fonts.net": 1,
+    "cdn.eso.org": 26,
+    "fonts.gstatic.com": 1,
+    "www.eso.org": 1
+   },
+   "thirdPartyHosts": [
+    "fast.fonts.net",
+    "fonts.gstatic.com"
+   ],
+   "scripts": [
+    "https://elt.eso.org/public/archives/djp/js/elt_assets_timeline.a0c5b75c6b49.js",
+    "https://elt.eso.org/public/archives/djp/js/elt_assets.c4ebe47d5f34.js"
+   ],
+   "firstPartyApi": [],
+   "thirdPartyXhr": [],
+   "postBodies": [],
+   "textAtLoad": 12824,
+   "mainEmptyAtLoad": false
+  },
+  "/about/facts/": {
+   "url": "https://elt.eso.org/about/facts/",
+   "status": 200,
+   "host": "elt.eso.org",
+   "title": "Facts about the ELT | ELT | ESO",
+   "forms": [
+    {
+     "name": "form-inline",
+     "action": "https://elt.eso.org/public/eltsearch/",
+     "method": "get",
+     "role": "search",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "search:q"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [],
+   "dialogs": [],
+   "dialogCount": 0,
+   "media": [],
+   "iframes": [],
+   "mounts": [],
+   "auth": [
+    "https://support.brave.com/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.brave.com%2Fhc%2Fen-us%2Farticles%2F360050634931-How-Do-I-Manage-Cookies-In-Brave",
+    "https://support.brave.com/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.brave.com%2Fhc%2Fen-us%2Farticles%2F360050634931-How-Do-I-Manage-Cookies-In-Brave",
+    "https://support.brave.com/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.brave.com%2Fhc%2Fen-us%2Farticles%2F360050634931-How-Do-I-Manage-Cookies-In-Brave"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 2
+   },
+   "locale": {
+    "lang": "en",
+    "hreflang": [
+     "x-default",
+     "en-au",
+     "en-gb",
+     "en-ie",
+     "cs",
+     "da",
+     "nl",
+     "nl-be",
+     "fi",
+     "fr",
+     "fr-be",
+     "fr-ch",
+     "de",
+     "de-at",
+     "de-be",
+     "de-ch",
+     "it",
+     "it-ch",
+     "pl",
+     "pt",
+     "es",
+     "es-cl",
+     "sv"
+    ],
+    "switcher": [
+     "https://support.brave.com/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.brave.com%2Fhc%2Fen-us%2Farticles%2F360050634931-How-Do-I-Manage-Cookies-In-Brave",
+     "https://support.brave.com/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.brave.com%2Fhc%2Fen-us%2Farticles%2F360050634931-How-Do-I-Manage-Cookies-In-Brave",
+     "https://support.brave.com/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.brave.com%2Fhc%2Fen-us%2Farticles%2F360050634931-How-Do-I-Manage-Cookies-In-Brave",
+     "https://support.microsoft.com/en-us/windows/manage-cookies-in-microsoft-edge-view-allow-block-delete-and-use-168dab11-0753-043d-7c16-ede5947fc64d",
+     "https://support.mozilla.org/en-US/kb/Blocking%20cookies"
+    ]
+   },
+   "cms": {},
+   "framework": null,
+   "globals": [],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 2,
+   "inlineFetch": false,
+   "mainText": 8505,
+   "domAddedAfterLoad": 0,
+   "hosts": {
+    "elt.eso.org": 16,
+    "fast.fonts.net": 1,
+    "cdn.eso.org": 9,
+    "fonts.gstatic.com": 1
+   },
+   "thirdPartyHosts": [
+    "fast.fonts.net",
+    "fonts.gstatic.com"
+   ],
+   "scripts": [
+    "https://elt.eso.org/public/archives/djp/js/elt_assets_facts.61dce49202ea.js",
+    "https://elt.eso.org/public/archives/djp/js/elt_assets.c4ebe47d5f34.js"
+   ],
+   "firstPartyApi": [],
+   "thirdPartyXhr": [],
+   "postBodies": [],
+   "textAtLoad": 8505,
+   "mainEmptyAtLoad": false
+  },
+  "/about/road/": {
+   "url": "https://elt.eso.org/about/road/",
+   "status": 200,
+   "host": "elt.eso.org",
+   "title": "The road to the ELT | ELT | ESO",
+   "forms": [
+    {
+     "name": "form-inline",
+     "action": "https://elt.eso.org/public/eltsearch/",
+     "method": "get",
+     "role": "search",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "search:q"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [],
+   "dialogs": [],
+   "dialogCount": 0,
+   "media": [],
+   "iframes": [],
+   "mounts": [],
+   "auth": [
+    "https://www.eso.org/public/images/about-road-designing-image1/",
+    "https://support.brave.com/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.brave.com%2Fhc%2Fen-us%2Farticles%2F360050634931-How-Do-I-Manage-Cookies-In-Brave",
+    "https://support.brave.com/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.brave.com%2Fhc%2Fen-us%2Farticles%2F360050634931-How-Do-I-Manage-Cookies-In-Brave",
+    "https://support.brave.com/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.brave.com%2Fhc%2Fen-us%2Farticles%2F360050634931-How-Do-I-Manage-Cookies-In-Brave"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en",
+    "hreflang": [
+     "x-default",
+     "en-au",
+     "en-gb",
+     "en-ie",
+     "cs",
+     "da",
+     "nl",
+     "nl-be",
+     "fi",
+     "fr",
+     "fr-be",
+     "fr-ch",
+     "de",
+     "de-at",
+     "de-be",
+     "de-ch",
+     "it",
+     "it-ch",
+     "pl",
+     "pt",
+     "es",
+     "es-cl",
+     "sv"
+    ],
+    "switcher": [
+     "https://support.brave.com/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.brave.com%2Fhc%2Fen-us%2Farticles%2F360050634931-How-Do-I-Manage-Cookies-In-Brave",
+     "https://support.brave.com/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.brave.com%2Fhc%2Fen-us%2Farticles%2F360050634931-How-Do-I-Manage-Cookies-In-Brave",
+     "https://support.brave.com/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.brave.com%2Fhc%2Fen-us%2Farticles%2F360050634931-How-Do-I-Manage-Cookies-In-Brave",
+     "https://support.microsoft.com/en-us/windows/manage-cookies-in-microsoft-edge-view-allow-block-delete-and-use-168dab11-0753-043d-7c16-ede5947fc64d",
+     "https://support.mozilla.org/en-US/kb/Blocking%20cookies"
+    ]
+   },
+   "cms": {},
+   "framework": null,
+   "globals": [],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 2,
+   "inlineFetch": false,
+   "mainText": 12375,
+   "domAddedAfterLoad": 0,
+   "hosts": {
+    "elt.eso.org": 21,
+    "fast.fonts.net": 1,
+    "cdn.eso.org": 5,
+    "fonts.gstatic.com": 1
+   },
+   "thirdPartyHosts": [
+    "fast.fonts.net",
+    "fonts.gstatic.com"
+   ],
+   "scripts": [
+    "https://elt.eso.org/public/archives/djp/js/elt_assets_visuals.1fe5828545ed.js",
+    "https://elt.eso.org/public/archives/djp/js/elt_assets.c4ebe47d5f34.js"
+   ],
+   "firstPartyApi": [],
+   "thirdPartyXhr": [],
+   "postBodies": [],
+   "textAtLoad": 12375,
+   "mainEmptyAtLoad": false
+  },
+  "/telescope/dome/": {
+   "url": "https://elt.eso.org/telescope/dome/",
+   "status": 200,
+   "host": "elt.eso.org",
+   "title": "Dome | ELT | ESO",
+   "forms": [
+    {
+     "name": "form-inline",
+     "action": "https://elt.eso.org/public/eltsearch/",
+     "method": "get",
+     "role": "search",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "search:q"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [],
+   "dialogs": [],
+   "dialogCount": 0,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "https://www.youtube-nocookie.com/embed/t-Ub_02dfUg",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": "https://www.youtube-nocookie.com/embed/t-Ub_02dfUg",
+     "title": null,
+     "w": 1137,
+     "h": 639
+    }
+   ],
+   "mounts": [],
+   "auth": [
+    "https://support.brave.com/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.brave.com%2Fhc%2Fen-us%2Farticles%2F360050634931-How-Do-I-Manage-Cookies-In-Brave",
+    "https://support.brave.com/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.brave.com%2Fhc%2Fen-us%2Farticles%2F360050634931-How-Do-I-Manage-Cookies-In-Brave",
+    "https://support.brave.com/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.brave.com%2Fhc%2Fen-us%2Farticles%2F360050634931-How-Do-I-Manage-Cookies-In-Brave"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en",
+    "hreflang": [
+     "x-default",
+     "en-au",
+     "en-gb",
+     "en-ie",
+     "cs",
+     "da",
+     "nl",
+     "nl-be",
+     "fi",
+     "fr",
+     "fr-be",
+     "fr-ch",
+     "de",
+     "de-at",
+     "de-be",
+     "de-ch",
+     "it",
+     "it-ch",
+     "pl",
+     "pt",
+     "es",
+     "es-cl",
+     "sv"
+    ],
+    "switcher": [
+     "https://support.brave.com/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.brave.com%2Fhc%2Fen-us%2Farticles%2F360050634931-How-Do-I-Manage-Cookies-In-Brave",
+     "https://support.brave.com/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.brave.com%2Fhc%2Fen-us%2Farticles%2F360050634931-How-Do-I-Manage-Cookies-In-Brave",
+     "https://support.brave.com/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.brave.com%2Fhc%2Fen-us%2Farticles%2F360050634931-How-Do-I-Manage-Cookies-In-Brave",
+     "https://support.microsoft.com/en-us/windows/manage-cookies-in-microsoft-edge-view-allow-block-delete-and-use-168dab11-0753-043d-7c16-ede5947fc64d",
+     "https://support.mozilla.org/en-US/kb/Blocking%20cookies"
+    ]
+   },
+   "cms": {},
+   "framework": null,
+   "globals": [],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 2,
+   "inlineFetch": false,
+   "mainText": 15915,
+   "domAddedAfterLoad": 0,
+   "hosts": {
+    "elt.eso.org": 21,
+    "fast.fonts.net": 1,
+    "cdn.eso.org": 6,
+    "fonts.gstatic.com": 2,
+    "www.youtube-nocookie.com": 8,
+    "www.google.com": 1,
+    "i.ytimg.com": 1,
+    "jnn-pa.googleapis.com": 1,
+    "yt3.ggpht.com": 1,
+    "www.gstatic.com": 1
+   },
+   "thirdPartyHosts": [
+    "fast.fonts.net",
+    "fonts.gstatic.com",
+    "www.youtube-nocookie.com",
+    "www.google.com",
+    "i.ytimg.com",
+    "jnn-pa.googleapis.com",
+    "yt3.ggpht.com",
+    "www.gstatic.com"
+   ],
+   "scripts": [
+    "https://elt.eso.org/public/archives/djp/js/elt_assets_ao.1f46f1397642.js",
+    "https://elt.eso.org/public/archives/djp/js/elt_assets.c4ebe47d5f34.js",
+    "https://www.youtube-nocookie.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.jizxrPjkQZ8.2021.O/am=AAAAAAgAjAE/d=1/excm=base,root/br=1/rs=AGKMywGFzK1CXHjHWP1Qfn5m73rBsVCmYg/m=root,base",
+    "https://www.youtube-nocookie.com/s/player/ad8d59ae/player_embed_es6_tcc.vflset/en_US/base.js",
+    "https://www.youtube-nocookie.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.jizxrPjkQZ8.2021.O/ck=ytembeds.base.myFXPsdtwMQ.L.W.O/am=AAAAAAgAjAE/d=1/exm=base,root/excm=base,root/ed=1/br=1/rs=AGKMywFp202N",
+    "https://www.google.com/js/th/8BiM1qD2ZFsiL_UjZIBKJW6LZRBeuWilEjVqjHsj7oc.js"
+   ],
+   "firstPartyApi": [],
+   "thirdPartyXhr": [
+    "POST jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+    "POST www.youtube-nocookie.com/youtubei/v1/log_event",
+    "GET www.gstatic.com/youtube/img/icons/mweb/youtube_fill/logo/v2/67px.svg"
+   ],
+   "postBodies": [
+    {
+     "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+     "body": "[\"O43z0dpjhgX20SCx4KAo\",\"$OKc5p8NRAAbJQXIc6UHeE42XZgvw5qGnAEABjq4o3yrtSi99J3pWnskSTCuIw6lF-LJ_xFUZToeQw8pRLdaFQxO-yfmp7T1bGPKg8iu2iEjRLKh3osOX8DNRngAAAE_OAAAABfQBB-IAWn6TLDRpWfU-_oUwfjU9xwV5Xb3QqDxkoJp5hkU9Rwof5MZIV2dR7bUtfi69YkVtA4SmpDliGlShfX16IO6BwqCq9ldolFr0TLgknilLNmPBPajjL_WGWxRNFgUGc3_ImCzFZoR1R9pWo5s2jR0fBl-_aajMHAd9rt7YjmNPb-VZNfRz4QbhdiKJ0If7PWJVkyh6Wjtjo2ZVDv96U4aR7kpFn7rpQSAwEr9WMuokdB"
+    },
+    {
+     "url": "https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json",
+     "body": "{\"context\":{\"client\":{\"hl\":\"en\",\"gl\":\"US\",\"clientName\":56,\"clientVersion\":\"2.20261112.01.00\",\"configInfo\":{\"appInstallData\":\"CIrN3NcGEMn2gBMQyvuAExCYktMcEMGP0BwQ7fvSHBDeitMcEL22rgUQnOXSHBDj0qgXENyt0hwQjeTRHBCsltMcEOqM0xwQuOTOHBDa984cEIeszhwQ3Iq4IhDTitMcEJ_PgBMQzN-uBRDwntMcEN68zhwQr_DSHBDw3tEcEIHNzhwQmY2xBRD2q7AFEM-p0xwQ_NrSHBCwg9McEK7e0RwQ9ZXTHBCkqdEcEMv70hwQrtbPHBDp8tIcEJ-W0xwQ8bTQHBDSpNIcEL6KsAU"
+    }
+   ],
+   "textAtLoad": 15915,
+   "mainEmptyAtLoad": false
+  },
+  "/instrument/HARMONI/": {
+   "url": "https://elt.eso.org/instrument/HARMONI/",
+   "status": 200,
+   "host": "elt.eso.org",
+   "title": "HARMONI | ELT | ESO",
+   "forms": [
+    {
+     "name": "form-inline",
+     "action": "https://elt.eso.org/public/eltsearch/",
+     "method": "get",
+     "role": "search",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "search:q"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [],
+   "dialogs": [],
+   "dialogCount": 0,
+   "media": [],
+   "iframes": [],
+   "mounts": [],
+   "auth": [
+    "https://support.brave.com/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.brave.com%2Fhc%2Fen-us%2Farticles%2F360050634931-How-Do-I-Manage-Cookies-In-Brave",
+    "https://support.brave.com/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.brave.com%2Fhc%2Fen-us%2Farticles%2F360050634931-How-Do-I-Manage-Cookies-In-Brave",
+    "https://support.brave.com/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.brave.com%2Fhc%2Fen-us%2Farticles%2F360050634931-How-Do-I-Manage-Cookies-In-Brave"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en",
+    "hreflang": [
+     "x-default",
+     "en-au",
+     "en-gb",
+     "en-ie",
+     "cs",
+     "da",
+     "nl",
+     "nl-be",
+     "fi",
+     "fr",
+     "fr-be",
+     "fr-ch",
+     "de",
+     "de-at",
+     "de-be",
+     "de-ch",
+     "it",
+     "it-ch",
+     "pl",
+     "pt",
+     "es",
+     "es-cl",
+     "sv"
+    ],
+    "switcher": [
+     "https://support.brave.com/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.brave.com%2Fhc%2Fen-us%2Farticles%2F360050634931-How-Do-I-Manage-Cookies-In-Brave",
+     "https://support.brave.com/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.brave.com%2Fhc%2Fen-us%2Farticles%2F360050634931-How-Do-I-Manage-Cookies-In-Brave",
+     "https://support.brave.com/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.brave.com%2Fhc%2Fen-us%2Farticles%2F360050634931-How-Do-I-Manage-Cookies-In-Brave",
+     "https://support.microsoft.com/en-us/windows/manage-cookies-in-microsoft-edge-view-allow-block-delete-and-use-168dab11-0753-043d-7c16-ede5947fc64d",
+     "https://support.mozilla.org/en-US/kb/Blocking%20cookies"
+    ]
+   },
+   "cms": {},
+   "framework": null,
+   "globals": [],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 2,
+   "inlineFetch": false,
+   "mainText": 18408,
+   "domAddedAfterLoad": 0,
+   "hosts": {
+    "elt.eso.org": 21,
+    "fast.fonts.net": 1,
+    "cdn.eso.org": 10,
+    "fonts.gstatic.com": 1
+   },
+   "thirdPartyHosts": [
+    "fast.fonts.net",
+    "fonts.gstatic.com"
+   ],
+   "scripts": [
+    "https://elt.eso.org/public/archives/djp/js/elt_assets_visuals.1fe5828545ed.js",
+    "https://elt.eso.org/public/archives/djp/js/elt_assets.c4ebe47d5f34.js"
+   ],
+   "firstPartyApi": [],
+   "thirdPartyXhr": [],
+   "postBodies": [],
+   "textAtLoad": 18408,
+   "mainEmptyAtLoad": false
+  }
+ },
+ "findings": [
+  {
+   "id": "a-unknown-third-party-host-jnn-pa-googleapis-com",
+   "class": "A",
+   "feature": "unknown third-party host jnn-pa.googleapis.com",
+   "hint": "inspect",
+   "evidence": [
+    "jnn-pa.googleapis.com"
+   ],
+   "pages": [
+    "/telescope/dome/"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-www-gstatic-com",
+   "class": "A",
+   "feature": "unknown third-party host www.gstatic.com",
+   "hint": "inspect",
+   "evidence": [
+    "www.gstatic.com"
+   ],
+   "pages": [
+    "/telescope/dome/"
+   ]
+  },
+  {
+   "id": "cr-client-rendered-slot-videotrigger",
+   "class": "CR",
+   "feature": "client-rendered slot videoTrigger",
+   "hint": "client-rendered",
+   "evidence": [
+    "data-url=https://www.eso.org/public/videos/cs0032a/",
+    "data-url=https://www.eso.org/public/videos/potw2643b/",
+    "data-url=https://www.eso.org/public/videos/potw2643d/",
+    "data-url=https://www.eso.org/public/videos/potw2643c/",
+    "data-url=https://www.eso.org/public/videos/potw2635a/"
+   ],
+   "pages": [
+    "/media/"
+   ]
+  },
+  {
+   "id": "i18n-locale-variants-x-default-en-au-en-gb-en-ie-cs-da-nl-nl",
+   "class": "I18N",
+   "feature": "locale variants x-default,en-au,en-gb,en-ie,cs,da,nl,nl-be,fi,fr,fr-be,fr-ch,de,de-at,de-be,de-ch,it,it-ch,pl,pt,es,es-cl,sv",
+   "hint": "locale",
+   "evidence": [
+    "https://support.brave.com/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.brave.com%2Fhc%2Fen-us%2Farticles%2F360050634931-How-Do-I-Manage-Cookies-In-Brave"
+   ],
+   "pages": [
+    "/",
+    "/telescope/",
+    "/media/",
+    "/about/timeline/",
+    "/about/facts/",
+    "/about/road/",
+    "/telescope/dome/",
+    "/instrument/HARMONI/"
+   ]
+  },
+  {
+   "id": "s-site-search-form-public-eltsearch",
+   "class": "S",
+   "feature": "site search form → /public/eltsearch/",
+   "hint": "search",
+   "evidence": [
+    "search:q"
+   ],
+   "pages": [
+    "/",
+    "/telescope/",
+    "/media/",
+    "/about/timeline/",
+    "/about/facts/",
+    "/about/road/",
+    "/telescope/dome/",
+    "/instrument/HARMONI/"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 44
+   }
+  },
+  {
+   "id": "s-site-search-form-js-submitted",
+   "class": "S",
+   "feature": "site search form → (JS-submitted)",
+   "hint": "search",
+   "evidence": [
+    "text:search"
+   ],
+   "pages": [
+    "/media/"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 44
+   }
+  },
+  {
+   "id": "t-unknown-third-party-host-www-google-com",
+   "class": "T",
+   "feature": "unknown third-party host www.google.com",
+   "hint": "inspect",
+   "evidence": [
+    "www.google.com"
+   ],
+   "pages": [
+    "/telescope/dome/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-yt3-ggpht-com",
+   "class": "T",
+   "feature": "unknown third-party host yt3.ggpht.com",
+   "hint": "inspect",
+   "evidence": [
+    "yt3.ggpht.com"
+   ],
+   "pages": [
+    "/telescope/dome/"
+   ]
+  },
+  {
+   "id": "v-iframe-without-src-runtime-injected-embed",
+   "class": "V",
+   "feature": "iframe without src (runtime-injected embed)",
+   "hint": "embed-runtime",
+   "evidence": [
+    "0×0"
+   ],
+   "pages": [
+    "/media/"
+   ]
+  },
+  {
+   "id": "v-video-youtube",
+   "class": "V",
+   "feature": "video: YouTube",
+   "role": "video: YouTube",
+   "hint": "media",
+   "evidence": [
+    "www.youtube-nocookie.com",
+    "i.ytimg.com",
+    "https://www.youtube-nocookie.com/embed/t-Ub_02dfUg"
+   ],
+   "pages": [
+    "/telescope/dome/"
+   ]
+  },
+  {
+   "id": "x-sign-in-account-links",
+   "class": "X",
+   "feature": "sign-in / account links",
+   "hint": "decided-out",
+   "evidence": [
+    "https://support.brave.com/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.brave.com%2Fhc%2Fen-us%2Farticles%2F360050634931-How-Do-I-Manage-Cookies-In-Brave",
+    "https://www.eso.org/public/images/about-road-designing-image1/"
+   ],
+   "pages": [
+    "/",
+    "/telescope/",
+    "/media/",
+    "/about/timeline/",
+    "/about/facts/",
+    "/about/road/",
+    "/telescope/dome/",
+    "/instrument/HARMONI/"
+   ]
+  }
+ ],
+ "reach": {
+  "pagesWithEvidence": 44,
+  "of": 44,
+  "endpoints": {
+   "GET elt.eso.org/public/archives/static/krpano_config/armazones_south_public.xml": 1,
+   "GET elt.eso.org/public/archives/static/krpano_config/armazones_west_public.xml": 1,
+   "GET elt.eso.org/public/archives/static/krpano_config/armazones_dome1_public.xml": 1,
+   "GET elt.eso.org/public/archives/static/krpano_config/armazones_dome2_public.xml": 1,
+   "GET elt.eso.org/public/archive_webcams/armazonespano/public/panojavascript/datetime.txt": 4,
+   "GET elt.eso.org/public/archive_webcams/armazonespanosouth/public/datetime.txt": 1,
+   "GET elt.eso.org/public/archive_webcams/armazonesdome1/public/datetime.txt": 1,
+   "GET elt.eso.org/public/archive_webcams/armazonesdome2/public/datetime.txt": 1,
+   "GET elt.eso.org/public/archive_webcams/armazonespanosouth/public/boutons/buttons-png-include_public.xml": 1,
+   "GET elt.eso.org/public/archive_webcams/armazonespanosouth/public/plugins/rotate/rotate.xml": 1,
+   "GET elt.eso.org/public/archive_webcams/armazonespano/public/boutons/buttons-png-include_public.xml": 1,
+   "GET elt.eso.org/public/archive_webcams/armazonespano/public/plugins/rotate/rotate.xml": 1,
+   "GET elt.eso.org/public/archive_webcams/armazonesdome/public/boutons/buttons-png-include_public.xml": 1,
+   "GET elt.eso.org/public/archive_webcams/armazonesdome/public/plugins/rotate/rotate.xml": 1,
+   "POST jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT": 7,
+   "POST www.youtube-nocookie.com/youtubei/v1/log_event": 7,
+   "GET elt.eso.org/media/innervid_paginated/all/date/": 1,
+   "GET elt.eso.org/media/innerimg_paginated/all/date/": 1,
+   "GET www.gstatic.com/youtube/img/icons/mweb/youtube_fill/logo/v2/67px.svg": 3
+  },
+  "searchFormPages": 1,
+  "formPages": 0,
+  "triggerPages": {}
+ }
+}

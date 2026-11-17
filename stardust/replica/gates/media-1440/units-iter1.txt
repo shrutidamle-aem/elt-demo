@@ -1,0 +1,88 @@
+[live-session] waiting to pace live navigations to elt.eso.org (1000 ms apart, 1 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 845 ms
+unit-geometry @ 1440px, tol 4px — https://elt.eso.org/media/ vs http://localhost:8791/media-proposed.html
+unit 1 of footer-columns (required) footer .col-12=.site-footer__row > .footer-item: origin -15,5555 360×22 vs served -15,5555 360×22 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "eso" | 124,0 29×22 | 124,0 29×22 | 0 | 0 | 0 | 0 | ✓ |
+| text "2026" | 203,0 33×22 | 203,0 33×22 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of footer-columns (required) footer .col-12=.site-footer__row > .footer-item: origin 345,5555 1080×22 vs served 345,5555 1080×22 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "| | | | |" | 119,0 842×22 | 119,0 842×22 | 0 | 0 | 0 | 0 | ✓ |
+| link "credits" | 119,2 49×18 | 119,2 49×18 | 0 | 0 | 0 | 0 | ✓ |
+| link "contact us" | 192,2 74×18 | 192,2 74×18 | 0 | 0 | 0 | 0 | ✓ |
+| link "subscribe to eso news" | 289,2 155×18 | 289,2 155×18 | 0 | 0 | 0 | 0 | ✓ |
+| link "accelerated by cdn77" | 468,2 149×18 | 468,2 149×18 | 0 | 0 | 0 | 0 | ✓ |
+| link "terms & conditions" | 641,2 128×18 | 641,2 128×18 | 0 | 0 | 0 | 0 | ✓ |
+| link "cookie settings and policy" | 792,2 169×18 | 792,2 169×18 | 0 | 0 | 0 | 0 | ✓ |
+unit 1 of media-story-cards (required) .stories-container > .story-container=.stories-container > .story-container: origin 151,1258 358×289 vs served 151,1258 358×289 → Δx 0 Δy 0 Δw 0 Δh 0; 4 elements: 4 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "video 5 nov 2026 — cs0032a chatting " | 0,0 358×289 | 0,0 358×289 | 0 | 0 | 0 | 0 | ✓ |
+| image "chatting science with the world's la" | 0,0 358×201 | 0,0 358×201 | 0 | 0 | 0 | 0 | ✓ |
+| text "video" | 279,0 79×30 | 279,0 79×30 | 0 | 0 | 0 | 0 | ✓ |
+| text "5 nov 2026 — cs0032a" | 8,209 342×24 | 8,209 342×24 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of media-story-cards (required) .stories-container > .story-container=.stories-container > .story-container: origin 541,1258 358×289 vs served 541,1258 358×289 → Δx 0 Δy 0 Δw 0 Δh 0; 4 elements: 4 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "video 26 oct 2026 — potw2643b tiltin" | 0,0 358×265 | 0,0 358×265 | 0 | 0 | 0 | 0 | ✓ |
+| image "tilting the elt upwards" | 0,0 358×201 | 0,0 358×201 | 0 | 0 | 0 | 0 | ✓ |
+| text "video" | 279,0 79×30 | 279,0 79×30 | 0 | 0 | 0 | 0 | ✓ |
+| text "26 oct 2026 — potw2643b" | 8,209 342×24 | 8,209 342×24 | 0 | 0 | 0 | 0 | ✓ |
+unit 3 of media-story-cards (required) .stories-container > .story-container=.stories-container > .story-container: origin 931,1258 358×289 vs served 931,1258 358×289 → Δx 0 Δy 0 Δw 0 Δh 0; 4 elements: 4 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "video 26 oct 2026 — potw2643a moving" | 0,0 358×265 | 0,0 358×265 | 0 | 0 | 0 | 0 | ✓ |
+| image "moving forward" | 0,0 358×201 | 0,0 358×201 | 0 | 0 | 0 | 0 | ✓ |
+| text "video" | 279,0 79×30 | 279,0 79×30 | 0 | 0 | 0 | 0 | ✓ |
+| text "26 oct 2026 — potw2643a" | 8,209 342×24 | 8,209 342×24 | 0 | 0 | 0 | 0 | ✓ |
+unit 4 of media-story-cards (required) .stories-container > .story-container=.stories-container > .story-container: origin 151,1580 358×265 vs served 151,1580 358×265 → Δx 0 Δy 0 Δw 0 Δh 0; 4 elements: 4 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "video 26 oct 2026 — potw2643d inclin" | 0,0 358×265 | 0,0 358×265 | 0 | 0 | 0 | 0 | ✓ |
+| image "inclining the elt for the first time" | 0,0 358×201 | 0,0 358×201 | 0 | 0 | 0 | 0 | ✓ |
+| text "video" | 279,0 79×30 | 279,0 79×30 | 0 | 0 | 0 | 0 | ✓ |
+| text "26 oct 2026 — potw2643d" | 8,209 342×24 | 8,209 342×24 | 0 | 0 | 0 | 0 | ✓ |
+unit 5 of media-story-cards (required) .stories-container > .story-container=.stories-container > .story-container: origin 541,1580 358×265 vs served 541,1580 358×265 → Δx 0 Δy 0 Δw 0 Δh 0; 4 elements: 4 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "video 26 oct 2026 — potw2643c inclin" | 0,0 358×265 | 0,0 358×265 | 0 | 0 | 0 | 0 | ✓ |
+| image "inclining the elt for the first time" | 0,0 358×201 | 0,0 358×201 | 0 | 0 | 0 | 0 | ✓ |
+| text "video" | 279,0 79×30 | 279,0 79×30 | 0 | 0 | 0 | 0 | ✓ |
+| text "26 oct 2026 — potw2643c" | 8,209 342×24 | 8,209 342×24 | 0 | 0 | 0 | 0 | ✓ |
+unit 6 of media-story-cards (required) .stories-container > .story-container=.stories-container > .story-container: origin 931,1580 358×265 vs served 931,1580 358×265 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "more..." | 115,68 128×60 | 115,68 128×60 | 0 | 0 | 0 | 0 | ✓ |
+unit 1 of media-video-slides (required) .carouselVideoItem=.carouselVideoItem: origin 0,2011 480×270 vs served 0,2011 480×270 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "link:a.videoTrigger#1" | 0,0 480×270 | 0,0 480×270 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:img.d-block.h-100#1" | 0,0 480×270 | 0,0 480×270 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of media-video-slides (required) .carouselVideoItem=.carouselVideoItem: origin 480,2011 480×270 vs served 480,2011 480×270 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "link:a.videoTrigger#1" | 0,0 480×270 | 0,0 480×270 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:img.d-block.h-100#1" | 0,0 480×270 | 0,0 480×270 | 0 | 0 | 0 | 0 | ✓ |
+unit 3 of media-video-slides (required) .carouselVideoItem=.carouselVideoItem: origin 960,2011 480×270 vs served 960,2011 480×270 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "link:a.videoTrigger#1" | 0,0 480×270 | 0,0 480×270 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:img.d-block.h-100#1" | 0,0 480×270 | 0,0 480×270 | 0 | 0 | 0 | 0 | ✓ |
+unit 1 of media-image-slides (required) .carouselMediaItem=.carouselMediaItem: origin 0,2407 480×270 vs served 0,2407 480×270 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "link:a#1" | 0,0 480×270 | 0,0 480×270 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:img.d-block.h-100#1" | 0,0 480×270 | 0,0 480×270 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of media-image-slides (required) .carouselMediaItem=.carouselMediaItem: origin 480,2407 480×270 vs served 480,2407 480×270 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "link:a#1" | 0,0 480×270 | 0,0 480×270 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:img.d-block.h-100#1" | 0,0 480×270 | 0,0 480×270 | 0 | 0 | 0 | 0 | ✓ |
+unit 3 of media-image-slides (required) .carouselMediaItem=.carouselMediaItem: origin 960,2407 480×270 vs served 960,2407 480×270 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "link:a#1" | 0,0 480×270 | 0,0 480×270 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:img.d-block.h-100#1" | 0,0 480×270 | 0,0 480×270 | 0 | 0 | 0 | 0 | ✓ |
+Units: 14 compared; elements within 42, off 0, hidden 0, missing 0 → PASS
+json → stardust/replica/gates/media-1440/units-iter1.json

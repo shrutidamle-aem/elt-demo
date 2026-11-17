@@ -1,0 +1,1610 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout",
+    "writtenAt": "2026-11-13T17:21:59Z",
+    "stardustVersion": "0.37.2"
+  },
+  "site": {
+    "originUrl": "https://elt.eso.org/",
+    "deployUrl": null,
+    "extractedAt": "2026-11-13T11:18:14.727Z",
+    "pageCap": null,
+    "totalDiscovered": 44,
+    "crawled": 44,
+    "captureGaps": []
+  },
+  "direction": {
+    "resolvedAt": "2026-11-13T12:16:20.976Z",
+    "phrase": "replica (same-design migration, hands-off)",
+    "directionFile": "stardust/direction.md",
+    "iaFidelity": "verbatim"
+  },
+  "handsOff": true,
+  "flow": "replica",
+  "flowChosenAt": "2026-11-13T11:18:14.727Z",
+  "flowSource": "user-phrase",
+  "pages": [
+    {
+      "slug": "index",
+      "url": "https://elt.eso.org/",
+      "title": "ELT | ESO",
+      "type": "landing",
+      "status": "approved",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:13:44.335Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:16:15Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-11-13T12:36:39Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-13T12:54:39Z",
+          "approvedBy": "hands-off"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/index.json",
+      "prototypePath": "stardust/prototypes/index-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "index-b7ff",
+      "url": "https://elt.eso.org/?lang",
+      "title": "ELT | ESO",
+      "type": "landing",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:13:45.959Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:16:15Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/index-b7ff.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "chile",
+      "url": "https://elt.eso.org/chile/?lang",
+      "title": "ELT | ESO Chile",
+      "type": "landing",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:13:46.975Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:16:15Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/chile.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "about",
+      "url": "https://elt.eso.org/about/",
+      "title": "About | ELT | ESO",
+      "type": "listing",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:13:55.174Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:16:15Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/about.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "telescope",
+      "url": "https://elt.eso.org/telescope/",
+      "title": "Telescope | ELT | ESO",
+      "type": "listing",
+      "status": "approved",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:13:57.445Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:16:15Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-11-13T13:00:31Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-13T13:13:39Z",
+          "approvedBy": "hands-off"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/telescope.json",
+      "prototypePath": "stardust/prototypes/telescope-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "mirror",
+      "url": "https://elt.eso.org/mirror/",
+      "title": "Mirrors | ELT | ESO Chile",
+      "type": "listing",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:13:58.269Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:16:15Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/mirror.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "instrument",
+      "url": "https://elt.eso.org/instrument/",
+      "title": "Instruments | ELT | ESO",
+      "type": "listing",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:14:05.793Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:16:15Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/instrument.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "science",
+      "url": "https://elt.eso.org/science/",
+      "title": "Science | ELT | ESO",
+      "type": "listing",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:14:08.446Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:16:15Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/science.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "media",
+      "url": "https://elt.eso.org/media/",
+      "title": "News and Multimedia | ELT | ESO Chile",
+      "type": "media",
+      "status": "approved",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:14:11.340Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:16:15Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-11-13T14:08:46Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-13T14:22:13Z",
+          "approvedBy": "hands-off"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/media.json",
+      "prototypePath": "stardust/prototypes/media-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "credits",
+      "url": "https://elt.eso.org/credits/",
+      "title": "Credits | ELT | ESO",
+      "type": "article",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:14:16.261Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:16:15Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/credits.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "about-timeline",
+      "url": "https://elt.eso.org/about/timeline/",
+      "title": "Timeline | ELT | ESO",
+      "type": "timeline",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:14:19.244Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:16:15Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-11-13T13:46:00Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-13T13:58:45Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-13T17:21:59Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/about-timeline.json",
+      "prototypePath": "stardust/prototypes/about-timeline-proposed.html",
+      "migratedPath": "content/about/timeline.html"
+    },
+    {
+      "slug": "about-location",
+      "url": "https://elt.eso.org/about/location/",
+      "title": "Location | ELT | ESO Chile",
+      "type": "article",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:14:22.089Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:16:15Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/about-location.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "about-webcams",
+      "url": "https://elt.eso.org/about/webcams/",
+      "title": "Webcams | ELT | ESO",
+      "type": "article",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:14:29.831Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:16:15Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/about-webcams.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "about-facts",
+      "url": "https://elt.eso.org/about/facts/",
+      "title": "Facts about the ELT | ELT | ESO",
+      "type": "facts",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:14:30.702Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:16:15Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-11-13T13:42:35Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-13T13:53:12Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-13T16:50:31Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/about-facts.json",
+      "prototypePath": "stardust/prototypes/about-facts-proposed.html",
+      "migratedPath": "content/about/facts.html"
+    },
+    {
+      "slug": "about-road",
+      "url": "https://elt.eso.org/about/road/",
+      "title": "The road to the ELT | ELT | ESO Chile",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:14:33.310Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:16:15Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-11-13T13:28:54Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-13T13:42:01Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-13T16:57:04Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/about-road.json",
+      "prototypePath": "stardust/prototypes/about-road-proposed.html",
+      "migratedPath": "content/about/road.html"
+    },
+    {
+      "slug": "about-team",
+      "url": "https://elt.eso.org/about/team/",
+      "title": "Meet the Team | ELT | ESO",
+      "type": "article",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:14:40.906Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:16:15Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/about-team.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "about-workinggroups",
+      "url": "https://elt.eso.org/about/workinggroups/",
+      "title": "Working Groups | ELT | ESO",
+      "type": "article",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:14:44.730Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:16:15Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/about-workinggroups.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "about-industrial",
+      "url": "https://elt.eso.org/about/industrial/",
+      "title": "Industrial and Institutional Partners | ELT | ESO Chile",
+      "type": "article",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:14:45.528Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:16:15Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/about-industrial.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "about-faq",
+      "url": "https://elt.eso.org/about/faq/",
+      "title": "FAQ | ELT | ESO",
+      "type": "article",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:14:51.802Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:16:15Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/about-faq.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "telescope-dome",
+      "url": "https://elt.eso.org/telescope/dome/",
+      "title": "Dome | ELT | ESO",
+      "type": "program",
+      "status": "approved",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:17:07.023Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:16:15Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-11-13T13:02:17Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-13T13:24:19Z",
+          "approvedBy": "hands-off"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/telescope-dome.json",
+      "prototypePath": "stardust/prototypes/telescope-dome-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "telescope-structure",
+      "url": "https://elt.eso.org/telescope/structure/",
+      "title": "Main Structure | ELT | ESO Chile",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:15:02.472Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:16:15Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/telescope-structure.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "mirror-m1",
+      "url": "https://elt.eso.org/mirror/M1/",
+      "title": "M1 Mirror | ELT | ESO",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:15:04.762Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:16:15Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/mirror-m1.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "mirror-m2m3",
+      "url": "https://elt.eso.org/mirror/M2M3/",
+      "title": "M2 and M3 Mirrors | ELT | ESO Chile",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:15:14.458Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:16:15Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/mirror-m2m3.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "mirror-m4",
+      "url": "https://elt.eso.org/mirror/M4/",
+      "title": "M4 Mirror | ELT | ESO",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:15:16.361Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:16:15Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/mirror-m4.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "mirror-m5",
+      "url": "https://elt.eso.org/mirror/M5/",
+      "title": "M5 Mirror | ELT | ESO Chile",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:15:25.611Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:16:15Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/mirror-m5.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "telescope-adaptiveoptics",
+      "url": "https://elt.eso.org/telescope/adaptiveoptics/",
+      "title": "Adaptive Optics | ELT | ESO",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:15:29.052Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:16:15Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/telescope-adaptiveoptics.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "telescope-prefocal",
+      "url": "https://elt.eso.org/telescope/prefocal/",
+      "title": "Prefocal Station | ELT | ESO Chile",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:15:36.863Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:16:15Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/telescope-prefocal.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "telescope-controls",
+      "url": "https://elt.eso.org/telescope/controls/",
+      "title": "Controls | ELT | ESO",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:15:39.643Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:16:15Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/telescope-controls.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "telescope-operations",
+      "url": "https://elt.eso.org/telescope/operations/",
+      "title": "Operations | ELT | ESO",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:15:42.806Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:16:15Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/telescope-operations.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "instrument-harmoni",
+      "url": "https://elt.eso.org/instrument/HARMONI/",
+      "title": "HARMONI | ELT | ESO Chile",
+      "type": "instrument",
+      "status": "approved",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:15:49.390Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:16:15Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-11-13T13:34:29Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-13T13:34:29Z",
+          "approvedBy": "hands-off"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/instrument-harmoni.json",
+      "prototypePath": "stardust/prototypes/instrument-harmoni-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "instrument-micado",
+      "url": "https://elt.eso.org/instrument/MICADO/",
+      "title": "MICADO | ELT | ESO",
+      "type": "instrument",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:15:52.635Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:16:15Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/instrument-micado.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "instrument-morfeo",
+      "url": "https://elt.eso.org/instrument/MORFEO/",
+      "title": "MORFEO | ELT | ESO",
+      "type": "instrument",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:15:55.654Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:16:15Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/instrument-morfeo.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "instrument-metis",
+      "url": "https://elt.eso.org/instrument/METIS/",
+      "title": "METIS | ELT | ESO Chile",
+      "type": "instrument",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:16:02.230Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:16:15Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/instrument-metis.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "instrument-andes",
+      "url": "https://elt.eso.org/instrument/ANDES/",
+      "title": "ANDES | ELT | ESO",
+      "type": "instrument",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:16:05.304Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:16:15Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/instrument-andes.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "instrument-mosaic",
+      "url": "https://elt.eso.org/instrument/MOSAIC/",
+      "title": "MOSAIC | ELT | ESO",
+      "type": "instrument",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:16:08.325Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:16:15Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/instrument-mosaic.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "science-solarsystem",
+      "url": "https://elt.eso.org/science/solarsystem/",
+      "title": "Solar System | ELT | ESO Chile",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:16:14.224Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:16:15Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/science-solarsystem.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "science-exoplanets",
+      "url": "https://elt.eso.org/science/exoplanets/",
+      "title": "Exoplanets | ELT | ESO",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:16:17.661Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:16:15Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/science-exoplanets.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "science-stars",
+      "url": "https://elt.eso.org/science/stars/",
+      "title": "Stars | ELT | ESO",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:16:21.257Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:16:15Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/science-stars.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "science-blackholes",
+      "url": "https://elt.eso.org/science/blackholes/",
+      "title": "Black Holes | ELT | ESO Chile",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:16:27.844Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:16:15Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/science-blackholes.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "science-galaxies",
+      "url": "https://elt.eso.org/science/galaxies/",
+      "title": "Galaxies | ELT | ESO",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:16:30.733Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:16:15Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/science-galaxies.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "science-cosmodm",
+      "url": "https://elt.eso.org/science/cosmodm/",
+      "title": "Cosmology and Dark Matter | ELT | ESO",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:16:33.964Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:16:15Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/science-cosmodm.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "science-fundamentalphysics",
+      "url": "https://elt.eso.org/science/fundamentalphysics/",
+      "title": "Fundamental Physics | ELT | ESO Chile",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:16:40.175Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:16:15Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/science-fundamentalphysics.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "science-discoveries",
+      "url": "https://elt.eso.org/science/discoveries/",
+      "title": "Unexpected Discoveries | ELT | ESO",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:16:41.856Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:16:15Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/science-discoveries.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "success-buildingon",
+      "url": "https://elt.eso.org/success/buildingon/",
+      "title": "Building on ESO's success | ELT | ESO",
+      "type": "article",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T11:16:45.793Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T12:16:15Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/success-buildingon.json",
+      "prototypePath": null,
+      "migratedPath": null
+    }
+  ],
+  "migrate": {
+    "at": "2026-11-13T20:20:29Z",
+    "outputDir": "stardust/migrated/",
+    "selfContained": true,
+    "pageMap": [
+      {
+        "sourceUrl": "/",
+        "outputPath": "index.html",
+        "slug": "index",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/",
+        "outputPath": "index.html",
+        "slug": "index-b7ff",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/chile/",
+        "outputPath": "chile/index.html",
+        "slug": "chile",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/about/",
+        "outputPath": "about/index.html",
+        "slug": "about",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/telescope/",
+        "outputPath": "telescope/index.html",
+        "slug": "telescope",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/mirror/",
+        "outputPath": "mirror/index.html",
+        "slug": "mirror",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/instrument/",
+        "outputPath": "instrument/index.html",
+        "slug": "instrument",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/science/",
+        "outputPath": "science/index.html",
+        "slug": "science",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/media/",
+        "outputPath": "media/index.html",
+        "slug": "media",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/credits/",
+        "outputPath": "credits/index.html",
+        "slug": "credits",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/about/timeline/",
+        "outputPath": "about/timeline/index.html",
+        "slug": "about-timeline",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/about/location/",
+        "outputPath": "about/location/index.html",
+        "slug": "about-location",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/about/webcams/",
+        "outputPath": "about/webcams/index.html",
+        "slug": "about-webcams",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/about/facts/",
+        "outputPath": "about/facts/index.html",
+        "slug": "about-facts",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/about/road/",
+        "outputPath": "about/road/index.html",
+        "slug": "about-road",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/about/team/",
+        "outputPath": "about/team/index.html",
+        "slug": "about-team",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/about/workinggroups/",
+        "outputPath": "about/workinggroups/index.html",
+        "slug": "about-workinggroups",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/about/industrial/",
+        "outputPath": "about/industrial/index.html",
+        "slug": "about-industrial",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/about/faq/",
+        "outputPath": "about/faq/index.html",
+        "slug": "about-faq",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/telescope/dome/",
+        "outputPath": "telescope/dome/index.html",
+        "slug": "telescope-dome",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/telescope/structure/",
+        "outputPath": "telescope/structure/index.html",
+        "slug": "telescope-structure",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/mirror/M1/",
+        "outputPath": "mirror/M1/index.html",
+        "slug": "mirror-m1",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/mirror/M2M3/",
+        "outputPath": "mirror/M2M3/index.html",
+        "slug": "mirror-m2m3",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/mirror/M4/",
+        "outputPath": "mirror/M4/index.html",
+        "slug": "mirror-m4",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/mirror/M5/",
+        "outputPath": "mirror/M5/index.html",
+        "slug": "mirror-m5",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/telescope/adaptiveoptics/",
+        "outputPath": "telescope/adaptiveoptics/index.html",
+        "slug": "telescope-adaptiveoptics",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/telescope/prefocal/",
+        "outputPath": "telescope/prefocal/index.html",
+        "slug": "telescope-prefocal",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/telescope/controls/",
+        "outputPath": "telescope/controls/index.html",
+        "slug": "telescope-controls",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/telescope/operations/",
+        "outputPath": "telescope/operations/index.html",
+        "slug": "telescope-operations",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/instrument/HARMONI/",
+        "outputPath": "instrument/HARMONI/index.html",
+        "slug": "instrument-harmoni",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/instrument/MICADO/",
+        "outputPath": "instrument/MICADO/index.html",
+        "slug": "instrument-micado",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/instrument/MORFEO/",
+        "outputPath": "instrument/MORFEO/index.html",
+        "slug": "instrument-morfeo",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/instrument/METIS/",
+        "outputPath": "instrument/METIS/index.html",
+        "slug": "instrument-metis",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/instrument/ANDES/",
+        "outputPath": "instrument/ANDES/index.html",
+        "slug": "instrument-andes",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/instrument/MOSAIC/",
+        "outputPath": "instrument/MOSAIC/index.html",
+        "slug": "instrument-mosaic",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/science/solarsystem/",
+        "outputPath": "science/solarsystem/index.html",
+        "slug": "science-solarsystem",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/science/exoplanets/",
+        "outputPath": "science/exoplanets/index.html",
+        "slug": "science-exoplanets",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/science/stars/",
+        "outputPath": "science/stars/index.html",
+        "slug": "science-stars",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/science/blackholes/",
+        "outputPath": "science/blackholes/index.html",
+        "slug": "science-blackholes",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/science/galaxies/",
+        "outputPath": "science/galaxies/index.html",
+        "slug": "science-galaxies",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/science/cosmodm/",
+        "outputPath": "science/cosmodm/index.html",
+        "slug": "science-cosmodm",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/science/fundamentalphysics/",
+        "outputPath": "science/fundamentalphysics/index.html",
+        "slug": "science-fundamentalphysics",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/science/discoveries/",
+        "outputPath": "science/discoveries/index.html",
+        "slug": "science-discoveries",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/success/buildingon/",
+        "outputPath": "success/buildingon/index.html",
+        "slug": "success-buildingon",
+        "outputPathDefault": null
+      }
+    ],
+    "totalAssetsBundled": 37,
+    "bundledAssets": [
+      "about-facts.css",
+      "about-facts.js",
+      "about-road.css",
+      "about-timeline.css",
+      "about-timeline.js",
+      "canon.css",
+      "canon.js",
+      "fonts/05c8135e-5d0b-4822-b8d2-3e344f383a70.9437aea92626.woff2",
+      "fonts/1b94cf39-0593-4601-aa0b-39a06fc7a8dc.2e5dd68dc88d.woff2",
+      "fonts/8218d39f-10f6-4e4d-b084-f35398b31cf2.6c1e2654cd81.woff2",
+      "fonts/MaterialIcons-Regular.ttf",
+      "fonts/d16374c2-cd72-48c0-9623-5aadd349654e.6debdb366391.woff2",
+      "fonts/dbdbbd16-cc0e-45cc-aca2-110bab632ce7.1093db3619ee.woff2",
+      "fonts/fa-solid-900.woff2",
+      "index.css",
+      "index.js",
+      "inner.css",
+      "instrument-harmoni.css",
+      "instrument-harmoni.js",
+      "media.css",
+      "media.js",
+      "media/eso_logo.jpg",
+      "media/eso_logo_transparent.png",
+      "media/favicon.ico",
+      "media/icon_share_1.png",
+      "media/icon_share_3.png",
+      "media/icon_share_4.png",
+      "media/icon_share_5.png",
+      "media/icon_share_6.png",
+      "media/icon_topbar_mobile_1.png",
+      "media/icon_topbar_mobile_3.png",
+      "media/icon_topbar_mobile_4.png",
+      "media/icon_topbar_mobile_5.png",
+      "media/left-arrowhead.svg",
+      "media/sprites.png",
+      "telescope-dome.css",
+      "telescope.css"
+    ],
+    "pages": [
+      {
+        "slug": "telescope",
+        "file": "stardust/migrated/telescope/index.html",
+        "assetsBundled": 23
+      },
+      {
+        "slug": "media",
+        "file": "stardust/migrated/media/index.html",
+        "assetsBundled": 17
+      },
+      {
+        "slug": "about-timeline",
+        "file": "stardust/migrated/about/timeline/index.html",
+        "assetsBundled": 13
+      },
+      {
+        "slug": "about-facts",
+        "file": "stardust/migrated/about/facts/index.html",
+        "assetsBundled": 12
+      },
+      {
+        "slug": "about-road",
+        "file": "stardust/migrated/about/road/index.html",
+        "assetsBundled": 16
+      },
+      {
+        "slug": "telescope-dome",
+        "file": "stardust/migrated/telescope/dome/index.html",
+        "assetsBundled": 15
+      },
+      {
+        "slug": "instrument-harmoni",
+        "file": "stardust/migrated/instrument/HARMONI/index.html",
+        "assetsBundled": 17
+      },
+      {
+        "slug": "index",
+        "file": "stardust/migrated/index.html",
+        "assetsBundled": 19
+      },
+      {
+        "slug": "credits",
+        "file": "stardust/migrated/credits/index.html",
+        "assetsBundled": 19
+      },
+      {
+        "slug": "about-location",
+        "file": "stardust/migrated/about/location/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "about-team",
+        "file": "stardust/migrated/about/team/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "about-workinggroups",
+        "file": "stardust/migrated/about/workinggroups/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "about-industrial",
+        "file": "stardust/migrated/about/industrial/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "about-faq",
+        "file": "stardust/migrated/about/faq/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "success-buildingon",
+        "file": "stardust/migrated/success/buildingon/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "about-webcams",
+        "file": "stardust/migrated/about/webcams/index.html",
+        "assetsBundled": 19
+      },
+      {
+        "slug": "instrument-micado",
+        "file": "stardust/migrated/instrument/MICADO/index.html",
+        "assetsBundled": 20
+      },
+      {
+        "slug": "instrument-morfeo",
+        "file": "stardust/migrated/instrument/MORFEO/index.html",
+        "assetsBundled": 12
+      },
+      {
+        "slug": "instrument-metis",
+        "file": "stardust/migrated/instrument/METIS/index.html",
+        "assetsBundled": 12
+      },
+      {
+        "slug": "instrument-andes",
+        "file": "stardust/migrated/instrument/ANDES/index.html",
+        "assetsBundled": 12
+      },
+      {
+        "slug": "instrument-mosaic",
+        "file": "stardust/migrated/instrument/MOSAIC/index.html",
+        "assetsBundled": 12
+      },
+      {
+        "slug": "telescope-structure",
+        "file": "stardust/migrated/telescope/structure/index.html",
+        "assetsBundled": 18
+      },
+      {
+        "slug": "mirror-m1",
+        "file": "stardust/migrated/mirror/M1/index.html",
+        "assetsBundled": 10
+      },
+      {
+        "slug": "mirror-m2m3",
+        "file": "stardust/migrated/mirror/M2M3/index.html",
+        "assetsBundled": 10
+      },
+      {
+        "slug": "mirror-m4",
+        "file": "stardust/migrated/mirror/M4/index.html",
+        "assetsBundled": 10
+      },
+      {
+        "slug": "mirror-m5",
+        "file": "stardust/migrated/mirror/M5/index.html",
+        "assetsBundled": 10
+      },
+      {
+        "slug": "telescope-adaptiveoptics",
+        "file": "stardust/migrated/telescope/adaptiveoptics/index.html",
+        "assetsBundled": 10
+      },
+      {
+        "slug": "telescope-prefocal",
+        "file": "stardust/migrated/telescope/prefocal/index.html",
+        "assetsBundled": 10
+      },
+      {
+        "slug": "telescope-controls",
+        "file": "stardust/migrated/telescope/controls/index.html",
+        "assetsBundled": 10
+      },
+      {
+        "slug": "telescope-operations",
+        "file": "stardust/migrated/telescope/operations/index.html",
+        "assetsBundled": 10
+      },
+      {
+        "slug": "science-solarsystem",
+        "file": "stardust/migrated/science/solarsystem/index.html",
+        "assetsBundled": 10
+      },
+      {
+        "slug": "science-exoplanets",
+        "file": "stardust/migrated/science/exoplanets/index.html",
+        "assetsBundled": 10
+      },
+      {
+        "slug": "science-stars",
+        "file": "stardust/migrated/science/stars/index.html",
+        "assetsBundled": 10
+      },
+      {
+        "slug": "science-blackholes",
+        "file": "stardust/migrated/science/blackholes/index.html",
+        "assetsBundled": 10
+      },
+      {
+        "slug": "science-galaxies",
+        "file": "stardust/migrated/science/galaxies/index.html",
+        "assetsBundled": 10
+      },
+      {
+        "slug": "science-cosmodm",
+        "file": "stardust/migrated/science/cosmodm/index.html",
+        "assetsBundled": 10
+      },
+      {
+        "slug": "science-fundamentalphysics",
+        "file": "stardust/migrated/science/fundamentalphysics/index.html",
+        "assetsBundled": 10
+      },
+      {
+        "slug": "science-discoveries",
+        "file": "stardust/migrated/science/discoveries/index.html",
+        "assetsBundled": 10
+      }
+    ],
+    "missingAssets": [],
+    "cleanedAssets": [],
+    "lastRun": {
+      "at": "2026-11-13T20:20:29Z",
+      "rendered": [
+        "telescope-structure",
+        "mirror-m1",
+        "mirror-m2m3",
+        "mirror-m4",
+        "mirror-m5",
+        "telescope-adaptiveoptics",
+        "telescope-prefocal",
+        "telescope-controls",
+        "telescope-operations",
+        "science-solarsystem",
+        "science-exoplanets",
+        "science-stars",
+        "science-blackholes",
+        "science-galaxies",
+        "science-cosmodm",
+        "science-fundamentalphysics",
+        "science-discoveries"
+      ],
+      "unchanged": [],
+      "refused": [],
+      "passthrough": []
+    }
+  }
+}

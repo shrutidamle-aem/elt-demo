@@ -1,0 +1,41 @@
+[live-session] waiting to pace live navigations to elt.eso.org (15000 ms apart, 1 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 14770 ms
+content-presence @ 360px (chrome) — origin https://elt.eso.org/telescope/dome/ (docH 9868, 172 items, HTTP 200) vs served https://main--26c59ee1--aemcoder.aem.page/telescope/dome (docH 9842, 101 items, HTTP 200)
+scope: whole page (one side has no <main> / --main root) (header/footer left to the chrome crop gate; --chrome to include)
+| band | heading | links O/E (+hidden) | buttons O/E (+hidden) | text O/E | images O/E | findings |
+|---|---|---|---|---|---|---|
+| 0 | (top) | 25/10 | 6/0 | 110/58 | 14/9 | MISSING HEADING, MISSING LINK, MISSING BUTTON, COUNT TEXT, COUNT IMAGES, CONTROL MISSING |
+  🔴 MISSING HEADING: h1 "eso cookies policy" (origin y 1006) has no served heading
+  🔴 MISSING HEADING: h1 "our use of cookies" (origin y 1192) has no served heading
+  🔴 MISSING HEADING: h2 "what are cookies?" (origin y 1526) has no served heading
+  🔴 MISSING HEADING: h2 "categories of cookies we use" (origin y 1732) has no served heading
+  🔴 MISSING HEADING: h2 "how to manage cookies" (origin y 5161) has no served heading
+  🔴 MISSING HEADING: h2 "updates to the eso cookies policy" (origin y 5902) has no served heading
+  🔴 MISSING HEADING: h2 "additional information" (origin y 6075) has no served heading
+  🔴 MISSING LINK: "eso on facebook" → /ESOAstronomy in band "(top)" (origin y 11) not on the served page
+  🔴 MISSING LINK: "eso on instagram" → /esoastronomy/ in band "(top)" (origin y 11) not on the served page
+  🔴 MISSING LINK: "eso on linkedin" → /company/european-southern-observatory in band "(top)" (origin y 11) not on the served page
+  🔴 MISSING LINK: "eso on youtube" → /channel/UCIhYoC2VIAJqCkoIWNHBQ3Q in band "(top)" (origin y 11) not on the served page
+  🔴 MISSING LINK: "en" → /telescope/dome/ in band "(top)" (origin y 17) not on the served page
+  🔴 MISSING LINK: "es" → /telescope/dome/ in band "(top)" (origin y 17) not on the served page
+  🔴 MISSING LINK: "youtube" → /t/terms in band "(top)" (origin y 4347) not on the served page
+  🔴 MISSING LINK: "eso’s official youtube channel" → /channel/UCIhYoC2VIAJqCkoIWNHBQ3Q in band "(top)" (origin y 4371) not on the served page
+  🔴 MISSING LINK: "embedding videos information page" → /youtube/answer/171780 in band "(top)" (origin y 4587) not on the served page
+  🔴 MISSING LINK: "brave" → /hc/en-us/signin in band "(top)" (origin y 5472) not on the served page
+  🔴 MISSING LINK: "chrome" → /chrome/bin/answer.py in band "(top)" (origin y 5496) not on the served page
+  🔴 MISSING LINK: "edge" → /en-us/windows/manage-cookies-in-microsoft-edge-view-allow-block-delete-and-use-168dab11-0753-043d-7c16-ede5947fc64d in band "(top)" (origin y 5520) not on the served page
+  🔴 MISSING LINK: "firefox" → /en-US/kb/Blocking%20cookies in band "(top)" (origin y 5544) not on the served page
+  🔴 MISSING LINK: "safari" → /article.html in band "(top)" (origin y 5568) not on the served page
+  🟠 MISSING BUTTON: "toggle navigation" in band "(top)" (origin y 5) not on the served page
+  🟠 MISSING BUTTON: "accept all" in band "(top)" (origin y 1584) not on the served page
+  🟠 MISSING BUTTON: "accept only essential cookies" in band "(top)" (origin y 1656) not on the served page
+  🟠 MISSING BUTTON: "cookie settings and policy" in band "(top)" (origin y 1728) not on the served page
+  🟠 MISSING BUTTON: "save" in band "(top)" (origin y 6352) not on the served page
+  🟠 MISSING BUTTON: "cancel" in band "(top)" (origin y 6352) not on the served page
+  🟡 EXTRA HEADING: served h1 "telescope" (y 150) has no origin heading
+  🟡 COUNT TEXT: band "(top)": 110 origin → 58 served visible
+  🟡 COUNT IMAGES: band "(top)": 14 origin → 9 served visible
+  🟡 CONTROL MISSING: toggle navigation = "toggle navigation" (band "(top)") has no served counterpart
+Content: MISSING 21 (headings 7, links 14) / HIDDEN 0 (headings 0, links 0) / control-state 0 / buttons missing 6 hidden 0 / moved 0 extra 0 / count deltas 2
+Findings: 31 (21 structural 🔴)
+Clipped (served side): 0 — origin side 0
+json → stardust/replica/gates/telescope-dome-360/content-presence-pub2.json

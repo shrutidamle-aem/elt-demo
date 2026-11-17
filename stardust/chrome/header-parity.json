@@ -1,0 +1,189 @@
+{
+ "tool": "chrome-compare",
+ "at": "2026-11-13T16:55:40.970Z",
+ "source": "https://elt.eso.org/about/road/",
+ "build": "https://main--26c59ee1--aemcoder.aem.page/about/road",
+ "profile": "replica",
+ "bar": 0.02,
+ "widths": [
+  360,
+  1440
+ ],
+ "counts": {
+  "error": 9,
+  "warn": 11,
+  "decided": 0
+ },
+ "findings": [
+  {
+   "key": "link-missing@360 link",
+   "width": 360,
+   "path": "link",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link / not in the build header"
+  },
+  {
+   "key": "link-missing@360 link",
+   "width": 360,
+   "path": "link",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link /esoastronomy not in the build header"
+  },
+  {
+   "key": "link-missing@360 link",
+   "width": 360,
+   "path": "link",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link /esoastronomy not in the build header"
+  },
+  {
+   "key": "link-missing@360 link",
+   "width": 360,
+   "path": "link",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link /company/european-southern-observatory not in the build header"
+  },
+  {
+   "key": "link-missing@360 link",
+   "width": 360,
+   "path": "link",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link /channel/ucihyoc2viajqckoiwnhbq3q not in the build header"
+  },
+  {
+   "key": "scroll-state@360 (header) [top]",
+   "width": 360,
+   "path": "(header)",
+   "action": "top",
+   "id": "scroll-state",
+   "severity": "error",
+   "detail": "scrolled top: the source header is pinned and in view, the build's static and in view"
+  },
+  {
+   "key": "scroll-state@360 (header) [down]",
+   "width": 360,
+   "path": "(header)",
+   "action": "down",
+   "id": "scroll-state",
+   "severity": "error",
+   "detail": "scrolled down: the source header is pinned and in view, the build's static and out of view"
+  },
+  {
+   "key": "scroll-state@360 (header) [up]",
+   "width": 360,
+   "path": "(header)",
+   "action": "up",
+   "id": "scroll-state",
+   "severity": "error",
+   "detail": "scrolled up: the source header is pinned and in view, the build's static and out of view"
+  },
+  {
+   "key": "scroll-state@360 (header) [back]",
+   "width": 360,
+   "path": "(header)",
+   "action": "back",
+   "id": "scroll-state",
+   "severity": "error",
+   "detail": "scrolled back: the source header is pinned and in view, the build's static and in view"
+  },
+  {
+   "key": "link-missing@1440 link",
+   "width": 1440,
+   "path": "link",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link / not in the build header"
+  },
+  {
+   "key": "link-missing@1440 link",
+   "width": 1440,
+   "path": "link",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link /esoastronomy not in the build header"
+  },
+  {
+   "key": "link-missing@1440 link",
+   "width": 1440,
+   "path": "link",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link /esoastronomy not in the build header"
+  },
+  {
+   "key": "link-missing@1440 link",
+   "width": 1440,
+   "path": "link",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link /company/european-southern-observatory not in the build header"
+  },
+  {
+   "key": "link-missing@1440 link",
+   "width": 1440,
+   "path": "link",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link /channel/ucihyoc2viajqckoiwnhbq3q not in the build header"
+  },
+  {
+   "key": "motion@1440 search [hover]",
+   "width": 1440,
+   "path": "search",
+   "action": "hover",
+   "id": "motion",
+   "severity": "warn",
+   "detail": "the source animates menuDown; the build does not"
+  },
+  {
+   "key": "scroll-state@1440 (header) [top]",
+   "width": 1440,
+   "path": "(header)",
+   "action": "top",
+   "id": "scroll-state",
+   "severity": "error",
+   "detail": "scrolled top: the source header is pinned and in view, the build's static and in view"
+  },
+  {
+   "key": "scroll-state@1440 (header) [down]",
+   "width": 1440,
+   "path": "(header)",
+   "action": "down",
+   "id": "scroll-state",
+   "severity": "error",
+   "detail": "scrolled down: the source header is pinned and in view, the build's static and out of view"
+  },
+  {
+   "key": "scroll-state@1440 (header) [up]",
+   "width": 1440,
+   "path": "(header)",
+   "action": "up",
+   "id": "scroll-state",
+   "severity": "error",
+   "detail": "scrolled up: the source header is pinned and in view, the build's static and out of view"
+  },
+  {
+   "key": "scroll-state@1440 (header) [back]",
+   "width": 1440,
+   "path": "(header)",
+   "action": "back",
+   "id": "scroll-state",
+   "severity": "error",
+   "detail": "scrolled back: the source header is pinned and in view, the build's static and in view"
+  },
+  {
+   "key": "panel-visual@360 Toggle navigation [click]",
+   "width": 360,
+   "path": "Toggle navigation",
+   "action": "click",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 4.1% (bar 2%; source 352×327, build 352×326; texture 59% thick)"
+  }
+ ]
+}

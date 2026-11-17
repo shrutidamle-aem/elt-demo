@@ -1,0 +1,2342 @@
+{
+  "url": "https://elt.eso.org/media/",
+  "width": 1440,
+  "headerTimeline": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "widgetSamples": [
+    {
+      "sel": ".swiper-button-next-video",
+      "frames": [
+        {
+          "t": 30116.900000000373,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 30321.699999999255,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 30525.599999999627,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 30728.400000000373,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".swiper-button-next-media",
+      "frames": [
+        {
+          "t": 31746.300000000745,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 31949.300000000745,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 32152.599999999627,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 32355.699999999255,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".story-more-container",
+      "frames": [
+        {
+          "t": 33372,
+          "trackTransform": "matrix(1, 0, 0, 1, -480, 0)",
+          "trackTransition": "transform",
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 33575.800000000745,
+          "trackTransform": "matrix(1, 0, 0, 1, -480, 0)",
+          "trackTransition": "transform",
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 33779.59999999963,
+          "trackTransform": "matrix(1, 0, 0, 1, -480, 0)",
+          "trackTransition": "transform",
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 33983.5,
+          "trackTransform": "matrix(1, 0, 0, 1, -480, 0)",
+          "trackTransition": "transform",
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".story-category[data-category='potw']",
+      "frames": [
+        {
+          "t": 35001.59999999963,
+          "trackTransform": "matrix(1, 0, 0, 1, -480, 0)",
+          "trackTransition": "transform",
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 35205.59999999963,
+          "trackTransform": "matrix(1, 0, 0, 1, -480, 0)",
+          "trackTransition": "transform",
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 35409.199999999255,
+          "trackTransform": "matrix(1, 0, 0, 1, -480, 0)",
+          "trackTransition": "transform",
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 35612.800000000745,
+          "trackTransform": "matrix(1, 0, 0, 1, -480, 0)",
+          "trackTransition": "transform",
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [
+    {
+      "sel": ".story-container",
+      "changed": [
+        "self.transform",
+        "a..color",
+        "img.story-img.transform",
+        "img.story-img.color"
+      ],
+      "before": {
+        "self": {
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.25s ease-in"
+        },
+        "subs": [
+          {
+            "el": "a.",
+            "transform": "none",
+            "color": "rgb(0, 119, 190)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "img.story-img",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "color": "rgb(0, 119, 190)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "0.25s ease-in"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "matrix(1, 0, 0, 1, 0, -7)",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.25s ease-in"
+        },
+        "subs": [
+          {
+            "el": "a.",
+            "transform": "none",
+            "color": "rgb(0, 86, 179)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "img.story-img",
+            "transform": "matrix(1.075, 0, 0, 1.075, 0, 0)",
+            "color": "rgb(0, 86, 179)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "0.25s ease-in"
+          }
+        ]
+      }
+    },
+    {
+      "sel": ".story-description",
+      "changed": [
+        "self.color",
+        "self.background"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 119, 190)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 119, 192, 0.8)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": ".story-category",
+      "changed": [
+        "self.color"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.25s ease-in"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.25s ease-in"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": ".img-col",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(0, 119, 190)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "a.videoTrigger",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "img.d-block.h-100",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "0.5s"
+          },
+          {
+            "el": "a.videoTrigger",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.videoTrigger",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(0, 119, 190)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "a.videoTrigger",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "img.d-block.h-100",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "0.5s"
+          },
+          {
+            "el": "a.videoTrigger",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.videoTrigger",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    },
+    {
+      "sel": ".share-social-media-icons",
+      "changed": [
+        "self.transform",
+        "self.color",
+        "img..color"
+      ],
+      "before": {
+        "self": {
+          "transform": "matrix(0.95, 0, 0, 0.95, 0, 0)",
+          "color": "rgb(0, 119, 190)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.5s"
+        },
+        "subs": [
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgb(0, 119, 190)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "matrix(1.03852, 0, 0, 1.03852, 0, 0)",
+          "color": "rgb(0, 90, 180)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.5s"
+        },
+        "subs": [
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgb(0, 90, 180)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    },
+    {
+      "sel": ".media-ranking a",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 140, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 140, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": ".visuals-dashboard .btn",
+      "changed": [
+        "self.background"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgb(248, 249, 250)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out"
+        },
+        "subs": [
+          {
+            "el": "i.material-icons",
+            "transform": "none",
+            "color": "rgb(33, 37, 41)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgb(226, 230, 234)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out"
+        },
+        "subs": [
+          {
+            "el": "i.material-icons",
+            "transform": "none",
+            "color": "rgb(33, 37, 41)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    }
+  ],
+  "media": {
+    "videos": [
+      {
+        "src": "https://elt.eso.org/media/",
+        "autoplay": false,
+        "loop": false,
+        "muted": false,
+        "paused": true,
+        "currentTime": 0,
+        "readyState": 0,
+        "inViewport": false,
+        "currentTimeAfter": 0,
+        "playing": false
+      }
+    ],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [],
+    "transitions": [
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > a.videoTrigger > img.d-block.h-100.w-100",
+        "y": 1200,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.swiper-slide.carouselVideoItem.swiper-slide-active > div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > div.h-100_.w-100.d-flex",
+        "y": 1200,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "top",
+        "el": "div.swiper-slide.carouselVideoItem.swiper-slide-active > div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > div.h-100_.w-100.d-flex",
+        "y": 1200,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.swiper-slide.carouselMediaItem.swiper-slide-active > div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > div.h-100.w-100.d-flex",
+        "y": 1600,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "top",
+        "el": "div.swiper-slide.carouselMediaItem.swiper-slide-active > div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > div.h-100.w-100.d-flex",
+        "y": 1600,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > a > img.d-block.h-100.w-100",
+        "y": 1600,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > a.videoTrigger > img.d-block.h-100.w-100",
+        "y": 1600,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.swiper-slide.carouselVideoItem.swiper-slide-active > div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > div.h-100_.w-100.d-flex",
+        "y": 1600,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "top",
+        "el": "div.swiper-slide.carouselVideoItem.swiper-slide-active > div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > div.h-100_.w-100.d-flex",
+        "y": 1600,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.swiper-slide.carouselMediaItem.swiper-slide-active > div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > div.h-100.w-100.d-flex",
+        "y": 2000,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "top",
+        "el": "div.swiper-slide.carouselMediaItem.swiper-slide-active > div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > div.h-100.w-100.d-flex",
+        "y": 2000,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > a > img.d-block.h-100.w-100",
+        "y": 2000,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > a.videoTrigger > img.d-block.h-100.w-100",
+        "y": 1200,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.swiper-slide.carouselVideoItem.swiper-slide-active > div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > div.h-100_.w-100.d-flex",
+        "y": 1200,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "top",
+        "el": "div.swiper-slide.carouselVideoItem.swiper-slide-active > div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > div.h-100_.w-100.d-flex",
+        "y": 1200,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > a.videoTrigger > img.d-block.h-100.w-100",
+        "y": 800,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.swiper-slide.carouselVideoItem.swiper-slide-active > div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > div.h-100_.w-100.d-flex",
+        "y": 800,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "top",
+        "el": "div.swiper-slide.carouselVideoItem.swiper-slide-active > div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > div.h-100_.w-100.d-flex",
+        "y": 800,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.swiper-slide.carouselMediaItem.swiper-slide-active > div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > div.h-100.w-100.d-flex",
+        "y": 1696,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "top",
+        "el": "div.swiper-slide.carouselMediaItem.swiper-slide-active > div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > div.h-100.w-100.d-flex",
+        "y": 1696,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > a > img.d-block.h-100.w-100",
+        "y": 1696,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "html > body > div.swiper-container.swiper-container-video.swiper-container-initialized > div.swiper-wrapper",
+        "y": 1696,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.swiper-slide.carouselMediaItem.swiper-slide-active > div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > div.h-100.w-100.d-flex",
+        "y": 2092,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "top",
+        "el": "div.swiper-slide.carouselMediaItem.swiper-slide-active > div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > div.h-100.w-100.d-flex",
+        "y": 2092,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > a > img.d-block.h-100.w-100",
+        "y": 2092,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "html > body > div.swiper-container.swiper-container-media.swiper-container-initialized > div.swiper-wrapper",
+        "y": 2092,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.swiper-slide.carouselVideoItem.swiper-slide-active > div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > div.h-100_.w-100.d-flex",
+        "y": 1227,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "top",
+        "el": "div.swiper-slide.carouselVideoItem.swiper-slide-active > div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > div.h-100_.w-100.d-flex",
+        "y": 1227,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > a.videoTrigger > img.d-block.h-100.w-100",
+        "y": 1227,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.swiper-slide.carouselVideoItem.swiper-slide-active > div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > div.h-100_.w-100.d-flex",
+        "y": 1227,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "top",
+        "el": "div.swiper-slide.carouselVideoItem.swiper-slide-active > div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > div.h-100_.w-100.d-flex",
+        "y": 1227,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > a.videoTrigger > img.d-block.h-100.w-100",
+        "y": 1227,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "color",
+        "el": "div.container-fluid.container-light > div.container-paragraph > div.title-categories > div.story-categories > span.story-category",
+        "y": 682,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "color",
+        "el": "div.container-fluid.container-light > div.container-paragraph > div.title-categories > div.story-categories > span.story-category.story-selected-category",
+        "y": 682,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.stories-container > div.story-container > a > div.story-img-container > img.story-img",
+        "y": 953,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "color",
+        "el": "div.stories-container > div.story-container > a > div.story-img-container > img.story-img",
+        "y": 953,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "transform",
+        "el": "body > div.container-fluid.container-light > div.container-paragraph > div.stories-container > div.story-container",
+        "y": 953,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.stories-container > div.story-container > a > div.story-img-container > img.story-img",
+        "y": 1035,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "color",
+        "el": "div.stories-container > div.story-container > a > div.story-img-container > img.story-img",
+        "y": 1035,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "transform",
+        "el": "body > div.container-fluid.container-light > div.container-paragraph > div.stories-container > div.story-container",
+        "y": 1035,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.stories-container > div.story-container > a > div.story-img-container > img.story-img",
+        "y": 1035,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "color",
+        "el": "div.stories-container > div.story-container > a > div.story-img-container > img.story-img",
+        "y": 1035,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "transform",
+        "el": "body > div.container-fluid.container-light > div.container-paragraph > div.stories-container > div.story-container",
+        "y": 1035,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.stories-container > div.story-container > a > div.story-img-container > img.story-img",
+        "y": 682,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "color",
+        "el": "div.stories-container > div.story-container > a > div.story-img-container > img.story-img",
+        "y": 682,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "transform",
+        "el": "body > div.container-fluid.container-light > div.container-paragraph > div.stories-container > div.story-container",
+        "y": 682,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "color",
+        "el": "div.container-fluid.container-light > div.container-paragraph > div.title-categories > div.story-categories > span.story-category",
+        "y": 682,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "color",
+        "el": "div.container-fluid.container-light > div.container-paragraph > div.title-categories > div.story-categories > span.story-category",
+        "y": 1696,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > a > img.d-block.h-100.w-100",
+        "y": 1696,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.swiper-slide.carouselMediaItem.swiper-slide-active > div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > div.h-100.w-100.d-flex",
+        "y": 1696,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "top",
+        "el": "div.swiper-slide.carouselMediaItem.swiper-slide-active > div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > div.h-100.w-100.d-flex",
+        "y": 1696,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > a > img.d-block.h-100.w-100",
+        "y": 1696,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.swiper-slide.carouselMediaItem.swiper-slide-active > div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > div.h-100.w-100.d-flex",
+        "y": 1696,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "top",
+        "el": "div.swiper-slide.carouselMediaItem.swiper-slide-active > div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > div.h-100.w-100.d-flex",
+        "y": 1696,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > a > img.d-block.h-100.w-100",
+        "y": 1696,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.swiper-slide.carouselMediaItem.swiper-slide-active > div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > div.h-100.w-100.d-flex",
+        "y": 1696,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "top",
+        "el": "div.swiper-slide.carouselMediaItem.swiper-slide-active > div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > div.h-100.w-100.d-flex",
+        "y": 1696,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > a > img.d-block.h-100.w-100",
+        "y": 416,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.swiper-slide.carouselMediaItem.swiper-slide-active > div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > div.h-100.w-100.d-flex",
+        "y": 416,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "top",
+        "el": "div.swiper-slide.carouselMediaItem.swiper-slide-active > div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > div.h-100.w-100.d-flex",
+        "y": 416,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "body > div.container-fluid.container-light > div.container-paragraph.section-title-paragraph.d-flex > div.d-flex > a.share-social-media-link.share-social-media-icons",
+        "y": 416,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "color",
+        "el": "body > div.container-fluid.container-light > div.container-paragraph.section-title-paragraph.d-flex > div.d-flex > a.share-social-media-link.share-social-media-icons",
+        "y": 416,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "body > div.container-fluid.container-light > div.container-paragraph.section-title-paragraph.d-flex > div.d-flex > a.share-social-media-link.share-social-media-icons",
+        "y": 1514,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "color",
+        "el": "body > div.container-fluid.container-light > div.container-paragraph.section-title-paragraph.d-flex > div.d-flex > a.share-social-media-link.share-social-media-icons",
+        "y": 1514,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "border-top-color",
+        "el": "div.py-1col-12.col-xs-6.d-flex > form.form-inline > div.input-group > div.input-group-append > button.btn.btn-light",
+        "y": 1514,
+        "dur": "0.15s, 0.15s, 0.15s, 0.15s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.py-1col-12.col-xs-6.d-flex > form.form-inline > div.input-group > div.input-group-append > button.btn.btn-light",
+        "y": 1514,
+        "dur": "0.15s, 0.15s, 0.15s, 0.15s"
+      },
+      {
+        "prop": "border-bottom-color",
+        "el": "div.py-1col-12.col-xs-6.d-flex > form.form-inline > div.input-group > div.input-group-append > button.btn.btn-light",
+        "y": 1514,
+        "dur": "0.15s, 0.15s, 0.15s, 0.15s"
+      },
+      {
+        "prop": "border-left-color",
+        "el": "div.py-1col-12.col-xs-6.d-flex > form.form-inline > div.input-group > div.input-group-append > button.btn.btn-light",
+        "y": 1514,
+        "dur": "0.15s, 0.15s, 0.15s, 0.15s"
+      },
+      {
+        "prop": "border-right-color",
+        "el": "div.py-1col-12.col-xs-6.d-flex > form.form-inline > div.input-group > div.input-group-append > button.btn.btn-light",
+        "y": 1514,
+        "dur": "0.15s, 0.15s, 0.15s, 0.15s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-about.nav-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-telescope.nav-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-instruments.nav-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-science.nav-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-about.nav-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-telescope.nav-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-instruments.nav-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-science.nav-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-about.nav-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-telescope.nav-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-instruments.nav-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-science.nav-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-about.nav-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-telescope.nav-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-instruments.nav-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-science.nav-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "top-aligned"
+        ],
+        "el": "ul.navbar-nav.ml-auto.mt-2_ > li.nav-telescope.nav-item.dropdown-menu-top > div.dropdown-menu.bg-dark.dropdown-main-menu > div.dropdown-submenu > div.dropdown-menu.bg-dark.dropdown-main-menu",
+        "y": 400
+      },
+      {
+        "added": [
+          "top-aligned"
+        ],
+        "el": "ul.navbar-nav.mx-auto.mt-0 > li.nav-telescope.nav-item.dropdown-menu-top > div.dropdown-menu.bg-dark.dropdown-main-menu > div.dropdown-submenu > div.dropdown-menu.bg-dark.dropdown-main-menu",
+        "y": 400
+      },
+      {
+        "added": [
+          "top-aligned"
+        ],
+        "el": "ul.navbar-nav.ml-auto.mt-2_ > li.nav-telescope.nav-item.dropdown-menu-top > div.dropdown-menu.bg-dark.dropdown-main-menu > div.dropdown-submenu > div.dropdown-menu.bg-dark.dropdown-main-menu",
+        "y": 400
+      },
+      {
+        "added": [
+          "top-aligned"
+        ],
+        "el": "ul.navbar-nav.mx-auto.mt-0 > li.nav-telescope.nav-item.dropdown-menu-top > div.dropdown-menu.bg-dark.dropdown-main-menu > div.dropdown-submenu > div.dropdown-menu.bg-dark.dropdown-main-menu",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-about.nav-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-telescope.nav-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-instruments.nav-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-science.nav-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-about.nav-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-telescope.nav-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-instruments.nav-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-science.nav-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-about.nav-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-telescope.nav-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-instruments.nav-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-science.nav-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-about.nav-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-telescope.nav-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-instruments.nav-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-science.nav-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "bottom-aligned"
+        ],
+        "el": "ul.navbar-nav.ml-auto.mt-2_ > li.nav-telescope.nav-item.dropdown-menu-top > div.dropdown-menu.bg-dark.dropdown-main-menu > div.dropdown-submenu > div.dropdown-menu.bg-dark.dropdown-main-menu",
+        "y": 120
+      },
+      {
+        "added": [
+          "bottom-aligned"
+        ],
+        "el": "ul.navbar-nav.mx-auto.mt-0 > li.nav-telescope.nav-item.dropdown-menu-top > div.dropdown-menu.bg-dark.dropdown-main-menu > div.dropdown-submenu > div.dropdown-menu.bg-dark.dropdown-main-menu",
+        "y": 120
+      },
+      {
+        "added": [
+          "bottom-aligned"
+        ],
+        "el": "ul.navbar-nav.ml-auto.mt-2_ > li.nav-telescope.nav-item.dropdown-menu-top > div.dropdown-menu.bg-dark.dropdown-main-menu > div.dropdown-submenu > div.dropdown-menu.bg-dark.dropdown-main-menu",
+        "y": 120
+      },
+      {
+        "added": [
+          "bottom-aligned"
+        ],
+        "el": "ul.navbar-nav.mx-auto.mt-0 > li.nav-telescope.nav-item.dropdown-menu-top > div.dropdown-menu.bg-dark.dropdown-main-menu > div.dropdown-submenu > div.dropdown-menu.bg-dark.dropdown-main-menu",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-about.nav-item.dropdown-menu-top",
+        "y": 1696
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-telescope.nav-item.dropdown-menu-top",
+        "y": 1696
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-instruments.nav-item.dropdown-menu-top",
+        "y": 1696
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-science.nav-item.dropdown-menu-top",
+        "y": 1696
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-about.nav-item.dropdown-menu-top",
+        "y": 1696
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-telescope.nav-item.dropdown-menu-top",
+        "y": 1696
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-instruments.nav-item.dropdown-menu-top",
+        "y": 1696
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-science.nav-item.dropdown-menu-top",
+        "y": 1696
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-about.nav-item.dropdown-menu-top",
+        "y": 1696
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-telescope.nav-item.dropdown-menu-top",
+        "y": 1696
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-instruments.nav-item.dropdown-menu-top",
+        "y": 1696
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-science.nav-item.dropdown-menu-top",
+        "y": 1696
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-about.nav-item.dropdown-menu-top",
+        "y": 1696
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-telescope.nav-item.dropdown-menu-top",
+        "y": 1696
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-instruments.nav-item.dropdown-menu-top",
+        "y": 1696
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-science.nav-item.dropdown-menu-top",
+        "y": 1696
+      },
+      {
+        "added": [
+          "top-aligned"
+        ],
+        "el": "ul.navbar-nav.ml-auto.mt-2_ > li.nav-telescope.nav-item.dropdown-menu-top > div.dropdown-menu.bg-dark.dropdown-main-menu > div.dropdown-submenu > div.dropdown-menu.bg-dark.dropdown-main-menu",
+        "y": 1696
+      },
+      {
+        "added": [
+          "top-aligned"
+        ],
+        "el": "ul.navbar-nav.mx-auto.mt-0 > li.nav-telescope.nav-item.dropdown-menu-top > div.dropdown-menu.bg-dark.dropdown-main-menu > div.dropdown-submenu > div.dropdown-menu.bg-dark.dropdown-main-menu",
+        "y": 1696
+      },
+      {
+        "added": [
+          "top-aligned"
+        ],
+        "el": "ul.navbar-nav.ml-auto.mt-2_ > li.nav-telescope.nav-item.dropdown-menu-top > div.dropdown-menu.bg-dark.dropdown-main-menu > div.dropdown-submenu > div.dropdown-menu.bg-dark.dropdown-main-menu",
+        "y": 1696
+      },
+      {
+        "added": [
+          "top-aligned"
+        ],
+        "el": "ul.navbar-nav.mx-auto.mt-0 > li.nav-telescope.nav-item.dropdown-menu-top > div.dropdown-menu.bg-dark.dropdown-main-menu > div.dropdown-submenu > div.dropdown-menu.bg-dark.dropdown-main-menu",
+        "y": 1696
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-video.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselVideoItem.swiper-slide-prev",
+        "y": 1696
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-video.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselVideoItem.swiper-slide-active",
+        "y": 1696
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-video.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselVideoItem.swiper-slide-next",
+        "y": 1696
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-video.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselVideoItem.swiper-slide-prev",
+        "y": 1696
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-video.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselVideoItem.swiper-slide-active",
+        "y": 1696
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-video.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselVideoItem.swiper-slide-next",
+        "y": 1696
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-video.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselVideoItem.swiper-slide-prev",
+        "y": 1696
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-video.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselVideoItem.swiper-slide-active",
+        "y": 1696
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-video.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselVideoItem.swiper-slide-next",
+        "y": 1696
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-video.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselVideoItem.swiper-slide-prev",
+        "y": 1696
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-video.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselVideoItem.swiper-slide-active",
+        "y": 1696
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-video.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselVideoItem.swiper-slide-next",
+        "y": 1696
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-video.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselVideoItem.swiper-slide-prev",
+        "y": 1696
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-video.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselVideoItem.swiper-slide-active",
+        "y": 1696
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-video.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselVideoItem.swiper-slide-next",
+        "y": 1696
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-video.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselVideoItem.swiper-slide-prev",
+        "y": 1696
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-video.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselVideoItem.swiper-slide-active",
+        "y": 1696
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-video.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselVideoItem.swiper-slide-next",
+        "y": 1696
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-video.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselVideoItem.swiper-slide-active",
+        "y": 1696
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-video.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselVideoItem.swiper-slide-next",
+        "y": 1696
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-video.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselVideoItem.swiper-slide-prev",
+        "y": 1696
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-video.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselVideoItem.swiper-slide-active",
+        "y": 1696
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-video.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselVideoItem.swiper-slide-active",
+        "y": 1696
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-video.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselVideoItem.swiper-slide-next",
+        "y": 1696
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-video.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselVideoItem.swiper-slide-prev",
+        "y": 1696
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-video.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselVideoItem.swiper-slide-active",
+        "y": 1696
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-video.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselVideoItem.swiper-slide-next",
+        "y": 1696
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-video.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselVideoItem.swiper-slide-prev",
+        "y": 1696
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-video.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselVideoItem.swiper-slide-active",
+        "y": 1696
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-video.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselVideoItem.swiper-slide-next",
+        "y": 1696
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-video.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselVideoItem.swiper-slide-prev",
+        "y": 1696
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-video.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselVideoItem.swiper-slide-active",
+        "y": 1696
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-video.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselVideoItem.swiper-slide-next",
+        "y": 1696
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-video.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselVideoItem.swiper-slide-active",
+        "y": 1696
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-video.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselVideoItem.swiper-slide-next",
+        "y": 1696
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-video.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselVideoItem.swiper-slide-prev",
+        "y": 1696
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-video.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselVideoItem.swiper-slide-active",
+        "y": 1696
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-video.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselVideoItem.swiper-slide-active",
+        "y": 1696
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-video.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselVideoItem.swiper-slide-next",
+        "y": 1696
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-video.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselVideoItem.swiper-slide-prev",
+        "y": 1696
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-video.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselVideoItem.swiper-slide-active",
+        "y": 1696
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-video.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselVideoItem.swiper-slide-next",
+        "y": 1696
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-video.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselVideoItem.swiper-slide-prev",
+        "y": 1696
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-video.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselVideoItem.swiper-slide-active",
+        "y": 1696
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-video.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselVideoItem.swiper-slide-next",
+        "y": 1696
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-video.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselVideoItem.swiper-slide-prev",
+        "y": 1696
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-video.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselVideoItem.swiper-slide-active",
+        "y": 1696
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-video.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselVideoItem.swiper-slide-next",
+        "y": 1696
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-video.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselVideoItem.swiper-slide-active",
+        "y": 1696
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-video.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselVideoItem.swiper-slide-next",
+        "y": 1696
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-video.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselVideoItem.swiper-slide-prev",
+        "y": 1696
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-video.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselVideoItem.swiper-slide-active",
+        "y": 1696
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-video.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselVideoItem.swiper-slide-active",
+        "y": 1696
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-video.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselVideoItem.swiper-slide-next",
+        "y": 1696
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-video.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselVideoItem.swiper-slide-prev",
+        "y": 1696
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-video.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselVideoItem.swiper-slide-active",
+        "y": 1696
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-video.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselVideoItem.swiper-slide-next",
+        "y": 1696
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-video.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselVideoItem.swiper-slide-prev",
+        "y": 1696
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-video.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselVideoItem.swiper-slide-active",
+        "y": 1696
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-video.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselVideoItem.swiper-slide-next",
+        "y": 1696
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-video.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselVideoItem.swiper-slide-prev",
+        "y": 1696
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-video.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselVideoItem.swiper-slide-active",
+        "y": 1696
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-video.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselVideoItem.swiper-slide-next",
+        "y": 1696
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-video.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselVideoItem.swiper-slide-active",
+        "y": 1696
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-video.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselVideoItem.swiper-slide-next",
+        "y": 1696
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-video.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselVideoItem.swiper-slide-prev",
+        "y": 1696
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-media.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselMediaItem.swiper-slide-prev",
+        "y": 2092
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-media.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselMediaItem.swiper-slide-active",
+        "y": 2092
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-media.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselMediaItem.swiper-slide-next",
+        "y": 2092
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-media.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselMediaItem.swiper-slide-prev",
+        "y": 2092
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-media.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselMediaItem.swiper-slide-active",
+        "y": 2092
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-media.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselMediaItem.swiper-slide-next",
+        "y": 2092
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-media.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselMediaItem.swiper-slide-prev",
+        "y": 2092
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-media.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselMediaItem.swiper-slide-active",
+        "y": 2092
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-media.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselMediaItem.swiper-slide-next",
+        "y": 2092
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-media.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselMediaItem.swiper-slide-prev",
+        "y": 2092
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-media.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselMediaItem.swiper-slide-active",
+        "y": 2092
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-media.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselMediaItem.swiper-slide-next",
+        "y": 2092
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-media.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselMediaItem.swiper-slide-prev",
+        "y": 2092
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-media.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselMediaItem.swiper-slide-active",
+        "y": 2092
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-media.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselMediaItem.swiper-slide-next",
+        "y": 2092
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-media.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselMediaItem.swiper-slide-prev",
+        "y": 2092
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-media.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselMediaItem.swiper-slide-active",
+        "y": 2092
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-media.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselMediaItem.swiper-slide-next",
+        "y": 2092
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-media.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselMediaItem.swiper-slide-active",
+        "y": 2092
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-media.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselMediaItem.swiper-slide-next",
+        "y": 2092
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-media.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselMediaItem.swiper-slide-prev",
+        "y": 2092
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-media.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselMediaItem.swiper-slide-active",
+        "y": 2092
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-media.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselMediaItem.swiper-slide-active",
+        "y": 2092
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-media.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselMediaItem.swiper-slide-next",
+        "y": 2092
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-media.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselMediaItem.swiper-slide-prev",
+        "y": 2092
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-media.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselMediaItem.swiper-slide-active",
+        "y": 2092
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-media.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselMediaItem.swiper-slide-next",
+        "y": 2092
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-media.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselMediaItem.swiper-slide-prev",
+        "y": 2092
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-media.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselMediaItem.swiper-slide-active",
+        "y": 2092
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-media.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselMediaItem.swiper-slide-next",
+        "y": 2092
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-media.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselMediaItem.swiper-slide-prev",
+        "y": 2092
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-media.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselMediaItem.swiper-slide-active",
+        "y": 2092
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-media.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselMediaItem.swiper-slide-next",
+        "y": 2092
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-media.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselMediaItem.swiper-slide-active",
+        "y": 2092
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-media.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselMediaItem.swiper-slide-next",
+        "y": 2092
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-media.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselMediaItem.swiper-slide-prev",
+        "y": 2092
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-media.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselMediaItem.swiper-slide-active",
+        "y": 2092
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-media.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselMediaItem.swiper-slide-active",
+        "y": 2092
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-media.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselMediaItem.swiper-slide-next",
+        "y": 2092
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-media.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselMediaItem.swiper-slide-prev",
+        "y": 2092
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-media.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselMediaItem.swiper-slide-active",
+        "y": 2092
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-media.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselMediaItem.swiper-slide-next",
+        "y": 2092
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-media.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselMediaItem.swiper-slide-prev",
+        "y": 2092
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-media.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselMediaItem.swiper-slide-active",
+        "y": 2092
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-media.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselMediaItem.swiper-slide-next",
+        "y": 2092
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-media.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselMediaItem.swiper-slide-prev",
+        "y": 2092
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-media.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselMediaItem.swiper-slide-active",
+        "y": 2092
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-media.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselMediaItem.swiper-slide-next",
+        "y": 2092
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-media.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselMediaItem.swiper-slide-active",
+        "y": 2092
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-media.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselMediaItem.swiper-slide-next",
+        "y": 2092
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-media.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselMediaItem.swiper-slide-prev",
+        "y": 2092
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-media.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselMediaItem.swiper-slide-active",
+        "y": 2092
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-media.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselMediaItem.swiper-slide-active",
+        "y": 2092
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-media.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselMediaItem.swiper-slide-next",
+        "y": 2092
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-media.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselMediaItem.swiper-slide-prev",
+        "y": 2092
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-media.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselMediaItem.swiper-slide-active",
+        "y": 2092
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-media.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselMediaItem.swiper-slide-next",
+        "y": 2092
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-media.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselMediaItem.swiper-slide-prev",
+        "y": 2092
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-media.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselMediaItem.swiper-slide-active",
+        "y": 2092
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-media.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselMediaItem.swiper-slide-next",
+        "y": 2092
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-media.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselMediaItem.swiper-slide-prev",
+        "y": 2092
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-media.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselMediaItem.swiper-slide-active",
+        "y": 2092
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-media.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselMediaItem.swiper-slide-next",
+        "y": 2092
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-media.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselMediaItem.swiper-slide-active",
+        "y": 2092
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-media.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselMediaItem.swiper-slide-next",
+        "y": 2092
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "html > body > div.swiper-container.swiper-container-media.swiper-container-initialized > div.swiper-wrapper > div.swiper-slide.carouselMediaItem.swiper-slide-prev",
+        "y": 2092
+      },
+      {
+        "added": [
+          "story-selected-category"
+        ],
+        "el": "div.container-fluid.container-light > div.container-paragraph > div.title-categories > div.story-categories > span.story-category.story-selected-category",
+        "y": 682
+      },
+      {
+        "added": [
+          "story-selected-category"
+        ],
+        "el": "div.container-fluid.container-light > div.container-paragraph > div.title-categories > div.story-categories > span.story-category.story-selected-category",
+        "y": 682
+      }
+    ]
+  }
+}

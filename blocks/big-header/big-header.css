@@ -1,0 +1,219 @@
+/*
+ * Big Header — canon.css §5 (hero frame), inner.css (.big-header-title), index.css
+ * (.frontpage-header-title), about-facts.css (.big-header-title-facts). Source tiers.
+ */
+main .section.big-header-container {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+}
+
+main .big-header-wrapper {
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+
+.big-header {
+  position: relative;
+  color: #fff;
+}
+
+.big-header .big-header-image {
+  display: block;
+  position: fixed;
+  top: var(--topbar-h);
+  left: 0;
+  width: 100vw;
+  max-width: none;
+  height: auto;
+  z-index: -1;
+}
+
+.big-header .big-header-text {
+  position: relative;
+  height: 46.875vw;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+  color: #fff;
+}
+
+.big-header .big-header-logos {
+  position: absolute;
+}
+
+.big-header .big-header-logos picture {
+  display: inline;
+}
+
+.big-header .big-header-eso-logo {
+  height: auto;
+  max-width: none;
+  margin-bottom: 5px;
+}
+
+.big-header .esologo-text {
+  font-weight: 600;
+  padding-top: 0.5vw;
+}
+
+/* inner-page title */
+.big-header .big-header-title {
+  position: absolute;
+  margin: 0;
+  font-size: 1.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-shadow: 2px 0 black;
+  bottom: 14%;
+  left: var(--content-inset);
+  right: var(--content-inset);
+}
+
+.big-header .big-header-title :is(h1, h2) {
+  margin: 0;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+}
+
+.big-header .big-header-title strong {
+  font-weight: inherit;
+  color: var(--orange);
+}
+
+/* home title */
+.big-header .frontpage-header-title {
+  position: absolute;
+  left: var(--content-inset);
+  right: var(--content-inset);
+  margin: 0;
+  font-weight: 600;
+  text-shadow: 10px 10px 20px black;
+}
+
+.big-header .frontpage-header-title h1 {
+  margin: 0;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+}
+
+.big-header .frontpage-header-subtitle {
+  display: block;
+  margin: 0;
+  font-weight: 500;
+  text-shadow: 10px 10px 20px black;
+}
+
+@media only screen and (width <= 576px) {
+  .big-header .big-header-eso-logo { width: 30px; }
+
+  .big-header .big-header-logos {
+    top: 5%;
+    left: 10.5%;
+    width: 180px;
+  }
+
+  .big-header .esologo-text { font-size: 0.3rem; }
+
+  .big-header .frontpage-header-title {
+    font-size: 1rem;
+    bottom: 5%;
+  }
+
+  .big-header .frontpage-header-subtitle { font-size: 1rem; }
+}
+
+@media only screen and (width < 576px) {
+  .big-header.facts .big-header-title { font-size: 1.5rem; }
+}
+
+@media only screen and (width >= 576px) {
+  .big-header .big-header-eso-logo { width: 40px; }
+
+  .big-header .big-header-logos {
+    top: 10%;
+    left: 10.5%;
+    width: 225px;
+  }
+
+  .big-header .esologo-text { font-size: 0.6rem; }
+  .big-header .big-header-title { font-size: 2.1563rem; }
+
+  .big-header .frontpage-header-title {
+    font-size: 1.25rem;
+    bottom: 10%;
+  }
+
+  .big-header .frontpage-header-subtitle { font-size: 1.25rem; }
+}
+
+@media only screen and (width >= 768px) {
+  .big-header .big-header-eso-logo { width: 48px; }
+  .big-header .big-header-logos { width: 275px; }
+  .big-header .esologo-text { font-size: 0.7rem; }
+  .big-header .big-header-title { font-size: 2.4063rem; }
+
+  .big-header .frontpage-header-title,
+  .big-header .frontpage-header-subtitle { font-size: 1.75rem; }
+}
+
+@media only screen and (width >= 992px) {
+  .big-header .big-header-eso-logo { width: 58px; }
+  .big-header .big-header-logos { width: 325px; }
+  .big-header .esologo-text { font-size: 0.8rem; }
+  .big-header .big-header-title { font-size: 2.7188rem; }
+
+  .big-header .frontpage-header-title,
+  .big-header .frontpage-header-subtitle { font-size: 2.25rem; }
+}
+
+@media only screen and (width >= 1200px) {
+  .big-header .big-header-eso-logo { width: 67px; }
+  .big-header .big-header-logos { width: 375px; }
+  .big-header .esologo-text { font-size: 0.9rem; }
+  .big-header .big-header-title { font-size: 3rem; }
+
+  .big-header .frontpage-header-title,
+  .big-header .frontpage-header-subtitle { font-size: 2.625rem; }
+}
+
+@media only screen and (width >= 1440px) {
+  .big-header .big-header-eso-logo { width: 78px; }
+  .big-header .big-header-logos { width: 435px; }
+  .big-header .esologo-text { font-size: 1rem; }
+  .big-header .big-header-title { font-size: 3.3438rem; }
+  .big-header .frontpage-header-title { bottom: 15%; }
+
+  .big-header .frontpage-header-title,
+  .big-header .frontpage-header-subtitle { font-size: 3rem; }
+}
+
+@media only screen and (width >= 1680px) {
+  .big-header .big-header-eso-logo { width: 90px; }
+  .big-header .big-header-logos { width: 490px; }
+  .big-header .esologo-text { font-size: 1.1rem; }
+  .big-header .big-header-title { font-size: 3.6875rem; }
+
+  .big-header .frontpage-header-title,
+  .big-header .frontpage-header-subtitle { font-size: 3.5rem; }
+}
+
+@media only screen and (width >= 1920px) {
+  .big-header .big-header-eso-logo { width: 100px; }
+  .big-header .big-header-logos { width: 550px; }
+  .big-header .esologo-text { font-size: 1.2rem; }
+  .big-header .big-header-title { font-size: 4rem; }
+
+  .big-header .frontpage-header-title,
+  .big-header .frontpage-header-subtitle { font-size: 4rem; }
+}
+
+/* reserve the main bar until the header block inserts it after this section (no shift) */
+@media only screen and (width >= 992px) {
+  body:not(.has-main-navbar) main .section.big-header-container {
+    padding-bottom: var(--main-nav-height);
+  }
+}

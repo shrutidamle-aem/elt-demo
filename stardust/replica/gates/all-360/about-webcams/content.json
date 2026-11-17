@@ -1,0 +1,5960 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-14T02:42:03.025Z",
+  "width": 360,
+  "variable": [
+   ".privacy-notice",
+   ".privacy-settings"
+  ],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://elt.eso.org/about/webcams/",
+  "at": "2026-11-14T02:41:39.686Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 5980,
+  "root": "img.big-header-image.d-block",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "span.navbar-brand.ml-xl-5 > div.d-block > a",
+    "x": 4,
+    "y": 11,
+    "w": 38,
+    "h": 24,
+    "text": "",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.d-block > a > img.navbar-eso-logo",
+    "x": 4,
+    "y": 0,
+    "w": 38,
+    "h": 50,
+    "text": "",
+    "file": "eso_logo"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.navbar-brand.p-0 > div.nav-item_.menu-item_ > a",
+    "x": 55,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on facebook",
+    "href": "/ESOAstronomy"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.nav-item_.menu-item_ > a > img.desktop-top-sm-element",
+    "x": 55,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on facebook",
+    "file": "icon_topbar_mobile_1"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.navbar-brand.p-0 > div.nav-item_.menu-item_ > a",
+    "x": 105,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on instagram",
+    "href": "/esoastronomy/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.nav-item_.menu-item_ > a > img.desktop-top-sm-element",
+    "x": 105,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on instagram",
+    "file": "icon_topbar_mobile_3"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.navbar-brand.p-0 > div.nav-item_.menu-item_ > a",
+    "x": 155,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on linkedin",
+    "href": "/company/european-southern-observatory"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.nav-item_.menu-item_ > a > img.desktop-top-sm-element",
+    "x": 155,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on linkedin",
+    "file": "icon_topbar_mobile_4"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.navbar-brand.p-0 > div.nav-item_.menu-item_ > a",
+    "x": 205,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on youtube",
+    "href": "/channel/UCIhYoC2VIAJqCkoIWNHBQ3Q"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.nav-item_.menu-item_ > a > img.desktop-top-sm-element",
+    "x": 205,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on youtube",
+    "file": "icon_topbar_mobile_5"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav#top-navbar > span.lang-links > a.lang-link.link-en",
+    "x": 246,
+    "y": 17,
+    "w": 14,
+    "h": 15,
+    "text": "en",
+    "href": "/about/webcams/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav#top-navbar > span.lang-links > a.lang-link.link-cl",
+    "x": 269,
+    "y": 17,
+    "w": 13,
+    "h": 15,
+    "text": "es",
+    "href": "/about/webcams/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav#top-navbar > button.navbar-toggler",
+    "x": 300,
+    "y": 5,
+    "w": 56,
+    "h": 40,
+    "text": "toggle navigation"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav#top-navbar > button.navbar-toggler",
+    "x": 300,
+    "y": 5,
+    "w": 56,
+    "h": 40,
+    "label": "toggle navigation",
+    "value": "toggle navigation",
+    "via": "trigger"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "img.big-header-image.d-block",
+    "x": 0,
+    "y": 50,
+    "w": 360,
+    "h": 169,
+    "text": "",
+    "file": "eso2004c"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#big-header > div.position-absolute.big-header-logos > img.big-header-eso-logo",
+    "x": 38,
+    "y": 58,
+    "w": 30,
+    "h": 39,
+    "text": "",
+    "file": "eso_logo_transparent"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#big-header > div.position-absolute.big-header-logos > p.esologo-text",
+    "x": 38,
+    "y": 103,
+    "w": 180,
+    "h": 23,
+    "text": "European Southern Observatory"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#big-header > div.position-absolute.big-header-title",
+    "x": 38,
+    "y": 150,
+    "w": 284,
+    "h": 45,
+    "text": "| Webcams"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#webcams > div.container-paragraph.section-text-paragraph > p",
+    "x": 38,
+    "y": 254,
+    "w": 284,
+    "h": 195,
+    "text": "This page shows views from the various webcams installed at Cerro Armazones, Chi"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#webcams > div.container-paragraph.section-title-paragraph",
+    "x": 0,
+    "y": 469,
+    "w": 360,
+    "h": 63,
+    "text": "Armazones South"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#webcams > div.container-paragraph.section-text-paragraph > p",
+    "x": 38,
+    "y": 535,
+    "w": 284,
+    "h": 87,
+    "text": "The images are produced with a NEOS360 camera by ."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-paragraph.section-text-paragraph > p > a",
+    "x": 38,
+    "y": 569,
+    "w": 192,
+    "h": 46,
+    "text": "apical technologies",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#webcams > div.container-subtitle > span.section-subtitle-paragraph",
+    "x": 38,
+    "y": 645,
+    "w": 146,
+    "h": 24,
+    "text": "Interactive View"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#armazonespanosouth4public > div.webcam-stamps.webcam-timestamp > span.armazonespanosouth-publictimestamp",
+    "x": 58,
+    "y": 709,
+    "w": 225,
+    "h": 39,
+    "text": "Armazones South | 4 Nov 2026 00:00 CET / 20:00 CLST"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-paragraph.section-text-paragraph > div.padding-y-3vw > div",
+    "x": 38,
+    "y": 1095,
+    "w": 284,
+    "h": 189,
+    "text": "This interactive, 360-degree webcam also offers high-resolution views of the top"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#webcams > div.container-subtitle > span.section-subtitle-paragraph",
+    "x": 38,
+    "y": 1302,
+    "w": 215,
+    "h": 24,
+    "text": "Static Panorama Image"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.d-flex.justify-content-center > div.position-relative > a",
+    "x": 38,
+    "y": 1387,
+    "w": 284,
+    "h": 19,
+    "text": "",
+    "href": "/public/archive_webcams/armazonespanosouth/public/poi/preset_100.jpg"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.position-relative > a > img",
+    "x": 38,
+    "y": 1344,
+    "w": 284,
+    "h": 107,
+    "text": "",
+    "file": "pano_PV_960x"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.position-relative > div.webcam-stamps.webcam-timestamp > span.armazonespanosouth-publictimestamp",
+    "x": 58,
+    "y": 1366,
+    "w": 225,
+    "h": 39,
+    "text": "Armazones South | 4 Nov 2026 00:00 CET / 20:00 CLST"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#webcams > div.container-paragraph.section-title-paragraph",
+    "x": 0,
+    "y": 1465,
+    "w": 360,
+    "h": 63,
+    "text": "Armazones West"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#webcams > div.container-paragraph.section-text-paragraph > p",
+    "x": 38,
+    "y": 1532,
+    "w": 284,
+    "h": 114,
+    "text": "The images are produced with a NEOS360 camera by . This camera is currently not "
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-paragraph.section-text-paragraph > p > a",
+    "x": 38,
+    "y": 1566,
+    "w": 192,
+    "h": 46,
+    "text": "apical technologies",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#webcams > div.container-subtitle > span.section-subtitle-paragraph",
+    "x": 38,
+    "y": 1669,
+    "w": 146,
+    "h": 24,
+    "text": "Interactive View"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#armazonespano4public > div.webcam-stamps.webcam-timestamp > span.armazonespano-publictimestamp",
+    "x": 58,
+    "y": 1733,
+    "w": 233,
+    "h": 39,
+    "text": "Armazones West | 12 Aug 2026 12:00 CEST / 06:00 CLT"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-paragraph.section-text-paragraph > div.padding-y-3vw > div",
+    "x": 38,
+    "y": 2119,
+    "w": 284,
+    "h": 297,
+    "text": "This interactive, 360-degree webcam offers high-resolution views of the top plat"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#webcams > div.container-subtitle > span.section-subtitle-paragraph",
+    "x": 38,
+    "y": 2434,
+    "w": 215,
+    "h": 24,
+    "text": "Static Panorama Image"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.d-flex.justify-content-center > div.position-relative > a",
+    "x": 38,
+    "y": 2518,
+    "w": 284,
+    "h": 19,
+    "text": "",
+    "href": "/public/archive_webcams/armazonespano/public/POI/preset_100.jpg"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.position-relative > a > img",
+    "x": 38,
+    "y": 2476,
+    "w": 284,
+    "h": 105,
+    "text": "",
+    "file": "pano_PV_960x"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.position-relative > div.webcam-stamps.webcam-timestamp > span.armazonespano-publictimestamp",
+    "x": 58,
+    "y": 2498,
+    "w": 233,
+    "h": 39,
+    "text": "Armazones West | 12 Aug 2026 12:00 CEST / 06:00 CLT"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#webcams > div.container-subtitle > span.section-subtitle-paragraph",
+    "x": 38,
+    "y": 2599,
+    "w": 216,
+    "h": 24,
+    "text": "Static Points of Interest"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.col-12.col-xl-6 > div.webcam-wrapper.position-relative > a",
+    "x": 38,
+    "y": 2710,
+    "w": 284,
+    "h": 19,
+    "text": "",
+    "href": "/public/archive_webcams/armazonespano/public/POI/preset_2.jpg"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.webcam-wrapper.position-relative > a > img",
+    "x": 38,
+    "y": 2641,
+    "w": 284,
+    "h": 160,
+    "text": "",
+    "file": "preset_2"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.webcam-wrapper.position-relative > div.webcam-stamps.webcam-timestamp > span.armazonespoi-publictimestamp",
+    "x": 58,
+    "y": 2663,
+    "w": 216,
+    "h": 12,
+    "text": "Webcam | 12 Aug 2026 12:00 CEST / 06:00 CLT"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.row.w-100 > div.col-12.col-xl-6 > div",
+    "x": 38,
+    "y": 2801,
+    "w": 284,
+    "h": 108,
+    "text": "Cerro Paranal, home of the VLT. Note that the as seen from Armazones at certain "
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.col-12.col-xl-6 > div > a",
+    "x": 98,
+    "y": 2832,
+    "w": 201,
+    "h": 19,
+    "text": "sun sets right behind paranal",
+    "href": "/public/images/eso-vlt-sunset/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.col-12.col-xl-6 > div.webcam-wrapper.position-relative > a",
+    "x": 38,
+    "y": 3000,
+    "w": 284,
+    "h": 19,
+    "text": "",
+    "href": "/public/archive_webcams/armazonespano/public/POI/preset_3.jpg"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.webcam-wrapper.position-relative > a > img",
+    "x": 38,
+    "y": 2931,
+    "w": 284,
+    "h": 160,
+    "text": "",
+    "file": "preset_3"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.webcam-wrapper.position-relative > div.webcam-stamps.webcam-timestamp > span.armazonespoi-publictimestamp",
+    "x": 58,
+    "y": 2953,
+    "w": 216,
+    "h": 12,
+    "text": "Webcam | 12 Aug 2026 12:00 CEST / 06:00 CLT"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.row.w-100 > div.col-12.col-xl-6 > div",
+    "x": 38,
+    "y": 3091,
+    "w": 284,
+    "h": 81,
+    "text": "The 6739-metre volcano Llullaillaco located 170km away from Cerro Armazones."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.col-12.col-xl-6 > div.webcam-wrapper.position-relative > a",
+    "x": 38,
+    "y": 3263,
+    "w": 284,
+    "h": 19,
+    "text": "",
+    "href": "/public/archive_webcams/armazonespano/public/POI/preset_5.jpg"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.webcam-wrapper.position-relative > a > img",
+    "x": 38,
+    "y": 3194,
+    "w": 284,
+    "h": 160,
+    "text": "",
+    "file": "preset_5"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.webcam-wrapper.position-relative > div.webcam-stamps.webcam-timestamp > span.armazonespoi-publictimestamp",
+    "x": 58,
+    "y": 3216,
+    "w": 216,
+    "h": 12,
+    "text": "Webcam | 12 Aug 2026 12:00 CEST / 06:00 CLT"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.row.w-100 > div.col-12.col-xl-6 > div",
+    "x": 38,
+    "y": 3354,
+    "w": 284,
+    "h": 54,
+    "text": "The ELT Basecamp, 320m down-hill, where the construction staff is lodging."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.col-12.col-xl-6 > div.webcam-wrapper.position-relative > a",
+    "x": 38,
+    "y": 3561,
+    "w": 284,
+    "h": 19,
+    "text": "",
+    "href": "/public/archive_webcams/armazonespano/public/POI/preset_99.jpg"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.webcam-wrapper.position-relative > a > img",
+    "x": 38,
+    "y": 3429,
+    "w": 284,
+    "h": 286,
+    "text": "",
+    "file": "preset_99"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.webcam-wrapper.position-relative > div.webcam-stamps.webcam-timestamp > span.armazonespoi-publictimestamp",
+    "x": 58,
+    "y": 3451,
+    "w": 216,
+    "h": 12,
+    "text": "Webcam | 12 Aug 2026 12:00 CEST / 06:00 CLT"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.row.w-100 > div.col-12.col-xl-6 > div",
+    "x": 82,
+    "y": 3715,
+    "w": 195,
+    "h": 27,
+    "text": "Stargazing from Armazones."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#webcams > div.container-paragraph.section-title-paragraph",
+    "x": 0,
+    "y": 3756,
+    "w": 360,
+    "h": 63,
+    "text": "Armazones Dome Top"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#webcams > div.container-paragraph.section-text-paragraph > p",
+    "x": 38,
+    "y": 3822,
+    "w": 284,
+    "h": 87,
+    "text": "The images are produced with a NEOS360 camera by ."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-paragraph.section-text-paragraph > p > a",
+    "x": 38,
+    "y": 3856,
+    "w": 192,
+    "h": 46,
+    "text": "apical technologies",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#webcams > div.container-subtitle > span.section-subtitle-paragraph",
+    "x": 38,
+    "y": 3933,
+    "w": 146,
+    "h": 24,
+    "text": "Interactive View"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#armazonesdome14public > div.webcam-stamps.webcam-timestamp > span.armazonesdome1-publictimestamp",
+    "x": 58,
+    "y": 3997,
+    "w": 212,
+    "h": 12,
+    "text": "Webcam | 5 Nov 2026 16:00 CET / 12:00 CLST"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-paragraph.section-text-paragraph > div.padding-y-3vw > div",
+    "x": 38,
+    "y": 4383,
+    "w": 284,
+    "h": 189,
+    "text": "This interactive, 360-degree webcam offers high-resolution internal views from t"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#webcams > div.container-subtitle > span.section-subtitle-paragraph",
+    "x": 38,
+    "y": 4590,
+    "w": 215,
+    "h": 24,
+    "text": "Static Panorama Image"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.d-flex.justify-content-center > div.position-relative > a",
+    "x": 38,
+    "y": 4692,
+    "w": 284,
+    "h": 19,
+    "text": "",
+    "href": "/public/archive_webcams/armazonesdome1/public/poi/preset_100.jpg"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.position-relative > a > img",
+    "x": 38,
+    "y": 4632,
+    "w": 284,
+    "h": 142,
+    "text": "",
+    "file": "pano_PV_960x"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.position-relative > div.webcam-stamps.webcam-timestamp > span.armazonesdome1-publictimestamp",
+    "x": 58,
+    "y": 4654,
+    "w": 212,
+    "h": 12,
+    "text": "Webcam | 5 Nov 2026 16:00 CET / 12:00 CLST"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#webcams > div.container-paragraph.section-title-paragraph",
+    "x": 0,
+    "y": 4788,
+    "w": 360,
+    "h": 102,
+    "text": "Armazones Dome Bottom"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#webcams > div.container-paragraph.section-text-paragraph > p",
+    "x": 38,
+    "y": 4893,
+    "w": 284,
+    "h": 87,
+    "text": "The images are produced with a NEOS360 camera by ."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-paragraph.section-text-paragraph > p > a",
+    "x": 38,
+    "y": 4927,
+    "w": 192,
+    "h": 46,
+    "text": "apical technologies",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#webcams > div.container-subtitle > span.section-subtitle-paragraph",
+    "x": 38,
+    "y": 5004,
+    "w": 146,
+    "h": 24,
+    "text": "Interactive View"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#armazonesdome24public > div.webcam-stamps.webcam-timestamp > span.armazonesdome2-publictimestamp",
+    "x": 58,
+    "y": 5068,
+    "w": 212,
+    "h": 12,
+    "text": "Webcam | 5 Nov 2026 16:00 CET / 12:00 CLST"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-paragraph.section-text-paragraph > div.padding-y-3vw > div",
+    "x": 38,
+    "y": 5454,
+    "w": 284,
+    "h": 189,
+    "text": "This interactive, 360-degree webcam offers high-resolution internal views from t"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#webcams > div.container-subtitle > span.section-subtitle-paragraph",
+    "x": 38,
+    "y": 5661,
+    "w": 215,
+    "h": 24,
+    "text": "Static Panorama Image"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.d-flex.justify-content-center > div.position-relative > a",
+    "x": 38,
+    "y": 5763,
+    "w": 284,
+    "h": 19,
+    "text": "",
+    "href": "/public/archive_webcams/armazonesdome2/public/poi/preset_100.jpg"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.position-relative > a > img",
+    "x": 38,
+    "y": 5703,
+    "w": 284,
+    "h": 142,
+    "text": "",
+    "file": "pano_PV_960x"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.position-relative > div.webcam-stamps.webcam-timestamp > span.armazonesdome2-publictimestamp",
+    "x": 58,
+    "y": 5725,
+    "w": 212,
+    "h": 12,
+    "text": "Webcam | 5 Nov 2026 16:00 CET / 12:00 CLST"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "footer.container-fluid.container-footer > div.row.d-flex > div.col-12.col-lg-3",
+    "x": -15,
+    "y": 5875,
+    "w": 360,
+    "h": 34,
+    "text": "| ELT ©"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.row.d-flex > div.col-12.col-lg-3 > a",
+    "x": 119,
+    "y": 5875,
+    "w": 24,
+    "h": 18,
+    "text": "eso",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.row.d-flex > div.col-12.col-lg-9 > div.text-center",
+    "x": 0,
+    "y": 5909,
+    "w": 330,
+    "h": 55,
+    "text": "| | | | |"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-lg-9 > div.text-center > a.w-100",
+    "x": 23,
+    "y": 5910,
+    "w": 41,
+    "h": 15,
+    "text": "credits",
+    "href": "/credits/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-lg-9 > div.text-center > a.w-100",
+    "x": 83,
+    "y": 5910,
+    "w": 61,
+    "h": 15,
+    "text": "contact us",
+    "href": "information@eso.org"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-lg-9 > div.text-center > a.w-100",
+    "x": 163,
+    "y": 5910,
+    "w": 128,
+    "h": 15,
+    "text": "subscribe to eso news",
+    "href": "/public/outreach/newsletters/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-lg-9 > div.text-center > a.w-100",
+    "x": 13,
+    "y": 5928,
+    "w": 123,
+    "h": 15,
+    "text": "accelerated by cdn77",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-lg-9 > div.text-center > a.w-100",
+    "x": 156,
+    "y": 5928,
+    "w": 105,
+    "h": 15,
+    "text": "terms & conditions",
+    "href": "/public/about-eso/privacy/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-lg-9 > div.text-center > a.w-100",
+    "x": 115,
+    "y": 5928,
+    "w": 202,
+    "h": 33,
+    "text": "cookie settings and policy",
+    "href": "/about/webcams/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-notice > h1",
+    "x": 16,
+    "y": 1192,
+    "w": 328,
+    "h": 96,
+    "level": 1,
+    "text": "our use of cookies"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-container.centered-container > div.privacy-text-element > p",
+    "x": 16,
+    "y": 1296,
+    "w": 328,
+    "h": 168,
+    "text": "We use cookies that are essential for accessing our websites and using our servi"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-notice > div.privacy-container.centered-container > div.privacy-text-element",
+    "x": 16,
+    "y": 1496,
+    "w": 328,
+    "h": 72,
+    "text": "You can manage your cookie preferences and find out more by visiting 'Cookie Set"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-notice > div.centered-container > button.privacy-button.accept-all",
+    "x": 129,
+    "y": 1584,
+    "w": 101,
+    "h": 40,
+    "text": "accept all"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-notice > div.centered-container > button.privacy-button.reject-all",
+    "x": 59,
+    "y": 1656,
+    "w": 242,
+    "h": 40,
+    "text": "accept only essential cookies"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-notice > div.centered-container > button.privacy-button.settings",
+    "x": 72,
+    "y": 1728,
+    "w": 216,
+    "h": 40,
+    "text": "cookie settings and policy"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > h1",
+    "x": 32,
+    "y": 1006,
+    "w": 296,
+    "h": 96,
+    "level": 1,
+    "text": "eso cookies policy"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 1134,
+    "w": 296,
+    "h": 216,
+    "text": "The European Organisation for Astronomical Research in the Southern Hemisphere ("
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 1366,
+    "w": 296,
+    "h": 144,
+    "text": "This Cookies Policy is intended to provide clarity by outlining the cookies used"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > h2",
+    "x": 32,
+    "y": 1526,
+    "w": 296,
+    "h": 38,
+    "level": 2,
+    "text": "what are cookies?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 1572,
+    "w": 296,
+    "h": 144,
+    "text": "Cookies are small pieces of data stored on your device by websites you visit. Th"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > h2",
+    "x": 32,
+    "y": 1732,
+    "w": 296,
+    "h": 77,
+    "level": 2,
+    "text": "categories of cookies we use"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 1817,
+    "w": 296,
+    "h": 216,
+    "text": ": These cookies are strictly necessary for the proper functioning of our website"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 32,
+    "y": 2049,
+    "w": 197,
+    "h": 88,
+    "text": "Cookie ID/Name"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 229,
+    "y": 2049,
+    "w": 281,
+    "h": 88,
+    "text": "Description/Purpose"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 32,
+    "y": 2137,
+    "w": 197,
+    "h": 88,
+    "text": "csrftoken"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 229,
+    "y": 2137,
+    "w": 281,
+    "h": 88,
+    "text": "XSRF protection token. We use this cookie to protect against cross-site request "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 32,
+    "y": 2225,
+    "w": 197,
+    "h": 88,
+    "text": "user_privacy"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 229,
+    "y": 2225,
+    "w": 281,
+    "h": 88,
+    "text": "Your privacy choices. We use this cookie to save your privacy preferences."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 2329,
+    "w": 296,
+    "h": 216,
+    "text": ": These cookies enhance your browsing experience by enabling additional features"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row-choice.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 32,
+    "y": 2561,
+    "w": 170,
+    "h": 136,
+    "text": "Cookie ID/Name"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row-choice.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 202,
+    "y": 2561,
+    "w": 243,
+    "h": 136,
+    "text": "Description/Purpose"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row-choice > div.cookies-table-cell",
+    "x": 32,
+    "y": 2697,
+    "w": 170,
+    "h": 88,
+    "text": "preferred_language"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row-choice > div.cookies-table-cell",
+    "x": 202,
+    "y": 2697,
+    "w": 243,
+    "h": 88,
+    "text": "Language settings. We use this cookie to remember your preferred language settin"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 2801,
+    "w": 296,
+    "h": 240,
+    "text": ": These cookies collect information about how visitors interact with our website"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p > span",
+    "x": 64,
+    "y": 3059,
+    "w": 126,
+    "h": 19,
+    "text": "Matomo Cookies"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 3097,
+    "w": 296,
+    "h": 360,
+    "text": "This website uses Matomo (formerly Piwik), an open source software which enables"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 3473,
+    "w": 296,
+    "h": 144,
+    "text": "On behalf of ESO, Matomo will use this information for the purpose of evaluating"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > div.privacy-setting-toggle.privacy-matomo > span.privacy-option.privacy-option-off",
+    "x": 269,
+    "y": 3636,
+    "w": 39,
+    "h": 21,
+    "text": "OFF"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 3633,
+    "w": 296,
+    "h": 24,
+    "text": "Matomo cookies settings:"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 32,
+    "y": 3673,
+    "w": 197,
+    "h": 88,
+    "text": "Cookie ID/Name"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 229,
+    "y": 3673,
+    "w": 281,
+    "h": 88,
+    "text": "Description/Purpose"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 32,
+    "y": 3761,
+    "w": 197,
+    "h": 40,
+    "text": "Settings"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 32,
+    "y": 3801,
+    "w": 197,
+    "h": 40,
+    "text": "_pk_id"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 229,
+    "y": 3801,
+    "w": 281,
+    "h": 40,
+    "text": "Stores a unique visitor ID."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 32,
+    "y": 3841,
+    "w": 197,
+    "h": 64,
+    "text": "_pk_ses"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 229,
+    "y": 3841,
+    "w": 281,
+    "h": 64,
+    "text": "Session cookie temporarily stores data for the visit."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 32,
+    "y": 3905,
+    "w": 197,
+    "h": 88,
+    "text": "_pk_ref"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 229,
+    "y": 3905,
+    "w": 281,
+    "h": 88,
+    "text": "Stores attribution information (the referrer that brought the visitor to the web"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 32,
+    "y": 3993,
+    "w": 197,
+    "h": 136,
+    "text": "_pk_testcookie"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 229,
+    "y": 3993,
+    "w": 281,
+    "h": 136,
+    "text": "Temporary cookie to check if a visitor’s browser supports cookies (set in Intern"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 4145,
+    "w": 296,
+    "h": 96,
+    "text": ": some of our pages display content from external providers, e.g. YouTube."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 4257,
+    "w": 296,
+    "h": 72,
+    "text": "Such third-party services are outside of ESO control and may, at any time, chang"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 4345,
+    "w": 296,
+    "h": 264,
+    "text": ": Some videos on the ESO website are embedded from . We have enabled YouTube’s p"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p > a",
+    "x": 32,
+    "y": 4347,
+    "w": 59,
+    "h": 19,
+    "text": "youtube",
+    "href": "/t/terms"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p > a",
+    "x": 32,
+    "y": 4371,
+    "w": 288,
+    "h": 43,
+    "text": "eso’s official youtube channel",
+    "href": "/channel/UCIhYoC2VIAJqCkoIWNHBQ3Q"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p > a",
+    "x": 32,
+    "y": 4587,
+    "w": 247,
+    "h": 19,
+    "text": "embedding videos information page",
+    "href": "/youtube/answer/171780"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 4625,
+    "w": 296,
+    "h": 48,
+    "text": "Cookies can also be classified based on the following elements."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 4689,
+    "w": 296,
+    "h": 24,
+    "text": "Regarding the domain, there are:"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > ul.ul-privacy > li",
+    "x": 72,
+    "y": 4729,
+    "w": 256,
+    "h": 144,
+    "text": ", set by the website you are currently visiting. They are stored by the same dom"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > ul.ul-privacy > li",
+    "x": 72,
+    "y": 4873,
+    "w": 256,
+    "h": 72,
+    "text": ", set by a domain other than the one you are currently visiting."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 4961,
+    "w": 296,
+    "h": 24,
+    "text": "As for their duration, cookies can be:"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > ul.ul-privacy > li",
+    "x": 72,
+    "y": 5001,
+    "w": 256,
+    "h": 72,
+    "text": ", which are deleted when the user closes the browser;"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > ul.ul-privacy > li",
+    "x": 72,
+    "y": 5073,
+    "w": 256,
+    "h": 72,
+    "text": ", which stay on the user's device for a predetermined period of time."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > h2",
+    "x": 32,
+    "y": 5161,
+    "w": 296,
+    "h": 77,
+    "level": 2,
+    "text": "how to manage cookies"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 5246,
+    "w": 296,
+    "h": 96,
+    "text": ": You can modify your cookie choices for the ESO webpages at any time by clickin"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 5358,
+    "w": 296,
+    "h": 96,
+    "text": ": If you wish to delete cookies or instruct your browser to delete or block cook"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.ul-privacy > li > a",
+    "x": 72,
+    "y": 5472,
+    "w": 39,
+    "h": 19,
+    "text": "brave",
+    "href": "/hc/en-us/signin"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.ul-privacy > li > a",
+    "x": 72,
+    "y": 5496,
+    "w": 55,
+    "h": 19,
+    "text": "chrome",
+    "href": "/chrome/bin/answer.py"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.ul-privacy > li > a",
+    "x": 72,
+    "y": 5520,
+    "w": 36,
+    "h": 19,
+    "text": "edge",
+    "href": "/en-us/windows/manage-cookies-in-microsoft-edge-view-allow-block-delete-and-use-168dab11-0753-043d-7c16-ede5947fc64d"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.ul-privacy > li > a",
+    "x": 72,
+    "y": 5544,
+    "w": 45,
+    "h": 19,
+    "text": "firefox",
+    "href": "/en-US/kb/Blocking%20cookies"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.ul-privacy > li > a",
+    "x": 72,
+    "y": 5568,
+    "w": 39,
+    "h": 19,
+    "text": "safari",
+    "href": "/article.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 5606,
+    "w": 296,
+    "h": 96,
+    "text": "Please be aware that if you delete or decline cookies, certain functionalities o"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 5718,
+    "w": 296,
+    "h": 168,
+    "text": "You can set most browsers to prevent any cookies being placed on your device, bu"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.privacy-settings > h2",
+    "x": 32,
+    "y": 5902,
+    "w": 296,
+    "h": 77,
+    "level": 2,
+    "text": "updates to the eso cookies policy"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 5987,
+    "w": 296,
+    "h": 72,
+    "text": "The ESO Cookies Policy may be subject to future updates, which will be made avai"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.privacy-settings > h2",
+    "x": 32,
+    "y": 6075,
+    "w": 296,
+    "h": 77,
+    "level": 2,
+    "text": "additional information"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 6160,
+    "w": 296,
+    "h": 48,
+    "text": "For any queries related to cookies, please contact: pdprATesoDOTorg."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 6224,
+    "w": 296,
+    "h": 96,
+    "text": "As ESO public webpages are managed by our Department of Communication, your ques"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.privacy-settings > div.centered-container > button.privacy-button.save-settings",
+    "x": 64,
+    "y": 6352,
+    "w": 66,
+    "h": 40,
+    "text": "save"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.privacy-settings > div.centered-container > button.privacy-button.cancel-settings",
+    "x": 199,
+    "y": 6352,
+    "w": 80,
+    "h": 40,
+    "text": "cancel"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 88,
+    "horizontal": 0,
+    "offPage": 60,
+    "textNodes": 218,
+    "controls": 41,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 24,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > p",
+     "text": "cookies are small pieces of data stored on your device by we",
+     "cutMin": 3,
+     "cutMax": 3
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 14,
+     "clipper": "div.privacy-settings",
+     "path": "div.cookies-table-container > div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+     "text": "csrftoken",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 12,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > p > span",
+     "text": "essential cookies (always active)",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "CONTROL SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 8,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > p > a",
+     "text": "youtube",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 8,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > p > a",
+     "text": "youtube",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 7,
+     "clipper": "div.privacy-settings",
+     "path": "div.cookies-table-container > div.cookies-table > div.cookies-table-row.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+     "text": "cookie id/name",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 4,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > h2",
+     "text": "categories of cookies we use",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 4,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > ul.ul-privacy > li",
+     "text": ", set by the website you are currently visiting. they are st",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > div.privacy-setting-toggle.privacy-matomo > span.privacy-option.privacy-option-on",
+     "text": "on",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > div.privacy-setting-toggle.privacy-matomo",
+     "text": "|",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > div.privacy-setting-toggle.privacy-matomo > span.privacy-option.privacy-option-off",
+     "text": "off",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "CONTROL SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > div.centered-container > button.privacy-button.save-settings",
+     "text": "save",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > div.centered-container > button.privacy-button.save-settings",
+     "text": "save",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "CONTROL SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > div.centered-container > button.privacy-button.cancel-settings",
+     "text": "cancel",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > div.centered-container > button.privacy-button.cancel-settings",
+     "text": "cancel",
+     "cutMin": null,
+     "cutMax": null
+    }
+   ]
+  }
+ },
+ "eds": {
+  "url": "https://main--26c59ee1--aemcoder.aem.page/about/webcams",
+  "at": "2026-11-14T02:42:02.866Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 5980,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "span.navbar-brand.navbar-brand-main > div.brand-logo > a",
+    "x": 4,
+    "y": 0,
+    "w": 38,
+    "h": 50,
+    "text": "eso",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img.navbar-eso-logo",
+    "x": 4,
+    "y": 0,
+    "w": 38,
+    "h": 50,
+    "text": "eso",
+    "file": "media_175cb2986e8ee49e7c64e8a9df5fa3f1f9"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.navbar-brand.brand-social > div.desktop-top-sm-icons > a",
+    "x": 55,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on facebook",
+    "href": "/ESOAstronomy"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 55,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on facebook",
+    "file": "media_1f386e2b9f7ed0b34b2f603a73f839485d"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.navbar-brand.brand-social > div.desktop-top-sm-icons > a",
+    "x": 105,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on instagram",
+    "href": "/esoastronomy/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 105,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on instagram",
+    "file": "media_19faa7be92695e315cea4cad487aa3e15b"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.navbar-brand.brand-social > div.desktop-top-sm-icons > a",
+    "x": 155,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on linkedin",
+    "href": "/company/european-southern-observatory"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 155,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on linkedin",
+    "file": "media_15b4dfde77d1909c3b38baaf7167a2e3d4"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.navbar-brand.brand-social > div.desktop-top-sm-icons > a",
+    "x": 205,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on youtube",
+    "href": "/channel/UCIhYoC2VIAJqCkoIWNHBQ3Q"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 205,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on youtube",
+    "file": "media_101417719196c90d4b42a69d39754d790f"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "span.lang-links > p > a.lang-link",
+    "x": 246,
+    "y": 17,
+    "w": 14,
+    "h": 15,
+    "text": "en",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "span.lang-links > p > a.lang-link",
+    "x": 269,
+    "y": 17,
+    "w": 13,
+    "h": 15,
+    "text": "es",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header.block > nav#top-navbar > button.navbar-toggler",
+    "x": 300,
+    "y": 5,
+    "w": 56,
+    "h": 40,
+    "text": "toggle navigation"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header.block > nav#top-navbar > button.navbar-toggler",
+    "x": 300,
+    "y": 5,
+    "w": 56,
+    "h": 40,
+    "label": "toggle navigation",
+    "value": "toggle navigation",
+    "via": "trigger"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.big-header-media > picture > img.big-header-image",
+    "x": 0,
+    "y": 50,
+    "w": 360,
+    "h": 169,
+    "text": "",
+    "file": "media_1c1e5e19583c29277a4f6659ed17227024"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.big-header-logos > picture > img.big-header-eso-logo",
+    "x": 38,
+    "y": 58,
+    "w": 30,
+    "h": 39,
+    "text": "eso",
+    "file": "media_1a043431fda0378cd219e1a181f4b0998c"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.big-header-text > div.big-header-logos > p.esologo-text",
+    "x": 38,
+    "y": 103,
+    "w": 180,
+    "h": 23,
+    "text": "European Southern Observatory"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.big-header-text > div.big-header-title > h1#about--webcams",
+    "x": 38,
+    "y": 150,
+    "w": 284,
+    "h": 45,
+    "level": 1,
+    "text": "about | webcams"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.big-header-title > h1#about--webcams > strong",
+    "x": 38,
+    "y": 154,
+    "w": 76,
+    "h": 36,
+    "text": "About"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.webcams > div.section-text-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 254,
+    "w": 284,
+    "h": 195,
+    "text": "This page shows views from the various webcams installed at Cerro Armazones, Chi"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.webcams > div.section-title-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 469,
+    "w": 284,
+    "h": 39,
+    "text": "Armazones South"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.webcams > div.section-text-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 535,
+    "w": 284,
+    "h": 87,
+    "text": "The images are produced with a NEOS360 camera by ."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-text-paragraph.container-paragraph > p > a",
+    "x": 38,
+    "y": 568,
+    "w": 192,
+    "h": 47,
+    "text": "apical technologies",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-subtitle-paragraph.container-subtitle > p > strong",
+    "x": 38,
+    "y": 645,
+    "w": 146,
+    "h": 24,
+    "text": "Interactive View"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "figure.article-image > div.webcam-frame > a",
+    "x": 38,
+    "y": 687,
+    "w": 284,
+    "h": 400,
+    "text": "",
+    "href": "/public/archive_webcams/armazonespanosouth/public/poi/preset_100.jpg"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 38,
+    "y": 687,
+    "w": 284,
+    "h": 400,
+    "text": "",
+    "file": "media_1f8c1ede93e6d6249e190c5344fc19ecba"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pano-viewer.ready > div.pano-controls > button.pano-button.pano-left",
+    "x": 80,
+    "y": 1037,
+    "w": 40,
+    "h": 40,
+    "text": "look left"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pano-viewer.ready > div.pano-controls > button.pano-button.pano-right",
+    "x": 120,
+    "y": 1037,
+    "w": 40,
+    "h": 40,
+    "text": "look right"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pano-viewer.ready > div.pano-controls > button.pano-button.pano-up",
+    "x": 160,
+    "y": 1037,
+    "w": 40,
+    "h": 40,
+    "text": "look up"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pano-viewer.ready > div.pano-controls > button.pano-button.pano-down",
+    "x": 200,
+    "y": 1037,
+    "w": 40,
+    "h": 40,
+    "text": "look down"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pano-viewer.ready > div.pano-controls > button.pano-button.pano-quality",
+    "x": 240,
+    "y": 1037,
+    "w": 40,
+    "h": 40,
+    "text": "toggle quality"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pano-viewer.ready > div.pano-controls > button.pano-button.pano-mode",
+    "x": 280,
+    "y": 1037,
+    "w": 40,
+    "h": 40,
+    "text": "change control mode"
+   },
+   {
+    "kind": "button",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pano-viewer.ready > div.pano-controls > button.pano-button.pano-fullscreen",
+    "x": 320,
+    "y": 1037,
+    "w": 40,
+    "h": 40,
+    "text": "fullscreen"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "figure.article-image > div.webcam-frame > p.webcam-stamp.webcam-timestamp",
+    "x": 48,
+    "y": 697,
+    "w": 264,
+    "h": 64,
+    "text": "Armazones South | 4 Nov 2026 00:00 CET / 20:00 CLST"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.webcams > div.section-text-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 1095,
+    "w": 284,
+    "h": 189,
+    "text": "This interactive, 360-degree webcam also offers high-resolution views of the top"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-subtitle-paragraph.container-subtitle > p > strong",
+    "x": 38,
+    "y": 1302,
+    "w": 213,
+    "h": 24,
+    "text": "Static Panorama Image"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "figure.article-image > div.webcam-frame > a",
+    "x": 38,
+    "y": 1344,
+    "w": 284,
+    "h": 107,
+    "text": "",
+    "href": "/public/archive_webcams/armazonespanosouth/public/poi/preset_100.jpg"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 38,
+    "y": 1344,
+    "w": 284,
+    "h": 107,
+    "text": "",
+    "file": "media_1f8c1ede93e6d6249e190c5344fc19ecba"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "figure.article-image > div.webcam-frame > p.webcam-stamp.webcam-timestamp",
+    "x": 48,
+    "y": 1354,
+    "w": 264,
+    "h": 64,
+    "text": "Armazones South | 4 Nov 2026 00:00 CET / 20:00 CLST"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.webcams > div.section-title-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 1466,
+    "w": 284,
+    "h": 39,
+    "text": "Armazones West"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.webcams > div.section-text-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 1532,
+    "w": 284,
+    "h": 114,
+    "text": "The images are produced with a NEOS360 camera by . This camera is currently not "
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-text-paragraph.container-paragraph > p > a",
+    "x": 38,
+    "y": 1565,
+    "w": 192,
+    "h": 47,
+    "text": "apical technologies",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-subtitle-paragraph.container-subtitle > p > strong",
+    "x": 38,
+    "y": 1669,
+    "w": 146,
+    "h": 24,
+    "text": "Interactive View"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "figure.article-image > div.webcam-frame > a",
+    "x": 38,
+    "y": 1711,
+    "w": 284,
+    "h": 400,
+    "text": "",
+    "href": "/public/archive_webcams/armazonespano/public/POI/preset_100.jpg"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 38,
+    "y": 1711,
+    "w": 284,
+    "h": 400,
+    "text": "",
+    "file": "media_17a5f7128a4000a386ba76418ca15bcac7"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pano-viewer.ready > div.pano-controls > button.pano-button.pano-left",
+    "x": 80,
+    "y": 2061,
+    "w": 40,
+    "h": 40,
+    "text": "look left"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pano-viewer.ready > div.pano-controls > button.pano-button.pano-right",
+    "x": 120,
+    "y": 2061,
+    "w": 40,
+    "h": 40,
+    "text": "look right"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pano-viewer.ready > div.pano-controls > button.pano-button.pano-up",
+    "x": 160,
+    "y": 2061,
+    "w": 40,
+    "h": 40,
+    "text": "look up"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pano-viewer.ready > div.pano-controls > button.pano-button.pano-down",
+    "x": 200,
+    "y": 2061,
+    "w": 40,
+    "h": 40,
+    "text": "look down"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pano-viewer.ready > div.pano-controls > button.pano-button.pano-quality",
+    "x": 240,
+    "y": 2061,
+    "w": 40,
+    "h": 40,
+    "text": "toggle quality"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pano-viewer.ready > div.pano-controls > button.pano-button.pano-mode",
+    "x": 280,
+    "y": 2061,
+    "w": 40,
+    "h": 40,
+    "text": "change control mode"
+   },
+   {
+    "kind": "button",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pano-viewer.ready > div.pano-controls > button.pano-button.pano-fullscreen",
+    "x": 320,
+    "y": 2061,
+    "w": 40,
+    "h": 40,
+    "text": "fullscreen"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "figure.article-image > div.webcam-frame > p.webcam-stamp.webcam-timestamp",
+    "x": 48,
+    "y": 1721,
+    "w": 264,
+    "h": 64,
+    "text": "Armazones West | 12 Aug 2026 12:00 CEST / 06:00 CLT"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.webcams > div.section-text-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 2119,
+    "w": 284,
+    "h": 297,
+    "text": "This interactive, 360-degree webcam offers high-resolution views of the top plat"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-subtitle-paragraph.container-subtitle > p > strong",
+    "x": 38,
+    "y": 2434,
+    "w": 213,
+    "h": 24,
+    "text": "Static Panorama Image"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "figure.article-image > div.webcam-frame > a",
+    "x": 38,
+    "y": 2476,
+    "w": 284,
+    "h": 105,
+    "text": "",
+    "href": "/public/archive_webcams/armazonespano/public/POI/preset_100.jpg"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 38,
+    "y": 2476,
+    "w": 284,
+    "h": 105,
+    "text": "",
+    "file": "media_17a5f7128a4000a386ba76418ca15bcac7"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "figure.article-image > div.webcam-frame > p.webcam-stamp.webcam-timestamp",
+    "x": 48,
+    "y": 2486,
+    "w": 264,
+    "h": 64,
+    "text": "Armazones West | 12 Aug 2026 12:00 CEST / 06:00 CLT"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-subtitle-paragraph.container-subtitle > p > strong",
+    "x": 38,
+    "y": 2599,
+    "w": 217,
+    "h": 24,
+    "text": "Static Points of Interest"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-image-cell > div.webcam-frame > a",
+    "x": 38,
+    "y": 2641,
+    "w": 284,
+    "h": 160,
+    "text": "",
+    "href": "/public/archive_webcams/armazonespano/public/POI/preset_2.jpg"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 38,
+    "y": 2641,
+    "w": 284,
+    "h": 160,
+    "text": "",
+    "file": "media_1573ee455b9bc49b5575f1226f5116a6cb"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-image-cell > div.webcam-frame > p.webcam-stamp.webcam-timestamp",
+    "x": 48,
+    "y": 2651,
+    "w": 234,
+    "h": 37,
+    "text": "Webcam | 12 Aug 2026 12:00 CEST / 06:00 CLT"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-image-cell > div.article-image-caption > p",
+    "x": 38,
+    "y": 2801,
+    "w": 284,
+    "h": 108,
+    "text": "Cerro Paranal, home of the VLT. Note that the as seen from Armazones at certain "
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-image-caption > p > a",
+    "x": 96,
+    "y": 2831,
+    "w": 203,
+    "h": 20,
+    "text": "sun sets right behind paranal",
+    "href": "/public/images/eso-vlt-sunset/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-image-cell > div.webcam-frame > a",
+    "x": 38,
+    "y": 2931,
+    "w": 284,
+    "h": 160,
+    "text": "",
+    "href": "/public/archive_webcams/armazonespano/public/POI/preset_3.jpg"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 38,
+    "y": 2931,
+    "w": 284,
+    "h": 160,
+    "text": "",
+    "file": "media_1b0a3b7cb521884aa06a220144febe300a"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-image-cell > div.webcam-frame > p.webcam-stamp.webcam-timestamp",
+    "x": 48,
+    "y": 2941,
+    "w": 234,
+    "h": 37,
+    "text": "Webcam | 12 Aug 2026 12:00 CEST / 06:00 CLT"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-image-cell > div.article-image-caption > p",
+    "x": 38,
+    "y": 3091,
+    "w": 284,
+    "h": 81,
+    "text": "The 6739-metre volcano Llullaillaco located 170km away from Cerro Armazones."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-image-cell > div.webcam-frame > a",
+    "x": 38,
+    "y": 3194,
+    "w": 284,
+    "h": 160,
+    "text": "",
+    "href": "/public/archive_webcams/armazonespano/public/POI/preset_5.jpg"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 38,
+    "y": 3194,
+    "w": 284,
+    "h": 160,
+    "text": "",
+    "file": "media_1a61740eb478ea8aecaec9da1eb2abd6ba"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-image-cell > div.webcam-frame > p.webcam-stamp.webcam-timestamp",
+    "x": 48,
+    "y": 3204,
+    "w": 234,
+    "h": 37,
+    "text": "Webcam | 12 Aug 2026 12:00 CEST / 06:00 CLT"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-image-cell > div.article-image-caption > p",
+    "x": 38,
+    "y": 3354,
+    "w": 284,
+    "h": 54,
+    "text": "The ELT Basecamp, 320m down-hill, where the construction staff is lodging."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-image-cell > div.webcam-frame > a",
+    "x": 38,
+    "y": 3429,
+    "w": 284,
+    "h": 286,
+    "text": "",
+    "href": "/public/archive_webcams/armazonespano/public/POI/preset_99.jpg"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 38,
+    "y": 3429,
+    "w": 284,
+    "h": 286,
+    "text": "",
+    "file": "media_1d5021f426c5f4bbc62474cff1fa50c68b"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-image-cell > div.webcam-frame > p.webcam-stamp.webcam-timestamp",
+    "x": 48,
+    "y": 3439,
+    "w": 234,
+    "h": 37,
+    "text": "Webcam | 12 Aug 2026 12:00 CEST / 06:00 CLT"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-image-cell > div.article-image-caption > p",
+    "x": 82,
+    "y": 3715,
+    "w": 195,
+    "h": 27,
+    "text": "Stargazing from Armazones."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.webcams > div.section-title-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 3756,
+    "w": 284,
+    "h": 39,
+    "text": "Armazones Dome Top"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.webcams > div.section-text-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 3822,
+    "w": 284,
+    "h": 87,
+    "text": "The images are produced with a NEOS360 camera by ."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-text-paragraph.container-paragraph > p > a",
+    "x": 38,
+    "y": 3855,
+    "w": 192,
+    "h": 47,
+    "text": "apical technologies",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-subtitle-paragraph.container-subtitle > p > strong",
+    "x": 38,
+    "y": 3933,
+    "w": 146,
+    "h": 24,
+    "text": "Interactive View"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "figure.article-image > div.webcam-frame > a",
+    "x": 38,
+    "y": 3975,
+    "w": 284,
+    "h": 400,
+    "text": "",
+    "href": "/public/archive_webcams/armazonesdome1/public/poi/preset_100.jpg"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 38,
+    "y": 3975,
+    "w": 284,
+    "h": 400,
+    "text": "",
+    "file": "media_1faf4cd50cb7512409f59694d3cb3f7e5d"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pano-viewer.ready > div.pano-controls > button.pano-button.pano-left",
+    "x": 80,
+    "y": 4325,
+    "w": 40,
+    "h": 40,
+    "text": "look left"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pano-viewer.ready > div.pano-controls > button.pano-button.pano-right",
+    "x": 120,
+    "y": 4325,
+    "w": 40,
+    "h": 40,
+    "text": "look right"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pano-viewer.ready > div.pano-controls > button.pano-button.pano-up",
+    "x": 160,
+    "y": 4325,
+    "w": 40,
+    "h": 40,
+    "text": "look up"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pano-viewer.ready > div.pano-controls > button.pano-button.pano-down",
+    "x": 200,
+    "y": 4325,
+    "w": 40,
+    "h": 40,
+    "text": "look down"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pano-viewer.ready > div.pano-controls > button.pano-button.pano-quality",
+    "x": 240,
+    "y": 4325,
+    "w": 40,
+    "h": 40,
+    "text": "toggle quality"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pano-viewer.ready > div.pano-controls > button.pano-button.pano-mode",
+    "x": 280,
+    "y": 4325,
+    "w": 40,
+    "h": 40,
+    "text": "change control mode"
+   },
+   {
+    "kind": "button",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pano-viewer.ready > div.pano-controls > button.pano-button.pano-fullscreen",
+    "x": 320,
+    "y": 4325,
+    "w": 40,
+    "h": 40,
+    "text": "fullscreen"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "figure.article-image > div.webcam-frame > p.webcam-stamp.webcam-timestamp",
+    "x": 48,
+    "y": 3985,
+    "w": 229,
+    "h": 37,
+    "text": "Webcam | 5 Nov 2026 16:00 CET / 12:00 CLST"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.webcams > div.section-text-paragraph.container-paragraph > p",
+    "x": 40,
+    "y": 4383,
+    "w": 280,
+    "h": 189,
+    "text": "This interactive, 360-degree webcam offers high-resolution internal views from t"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-subtitle-paragraph.container-subtitle > p > strong",
+    "x": 38,
+    "y": 4590,
+    "w": 213,
+    "h": 24,
+    "text": "Static Panorama Image"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "figure.article-image > div.webcam-frame > a",
+    "x": 38,
+    "y": 4632,
+    "w": 284,
+    "h": 142,
+    "text": "",
+    "href": "/public/archive_webcams/armazonesdome1/public/poi/preset_100.jpg"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 38,
+    "y": 4632,
+    "w": 284,
+    "h": 142,
+    "text": "",
+    "file": "media_1faf4cd50cb7512409f59694d3cb3f7e5d"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "figure.article-image > div.webcam-frame > p.webcam-stamp.webcam-timestamp",
+    "x": 48,
+    "y": 4642,
+    "w": 229,
+    "h": 37,
+    "text": "Webcam | 5 Nov 2026 16:00 CET / 12:00 CLST"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.webcams > div.section-title-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 4788,
+    "w": 284,
+    "h": 78,
+    "text": "Armazones Dome Bottom"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.webcams > div.section-text-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 4893,
+    "w": 284,
+    "h": 87,
+    "text": "The images are produced with a NEOS360 camera by ."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-text-paragraph.container-paragraph > p > a",
+    "x": 38,
+    "y": 4926,
+    "w": 192,
+    "h": 47,
+    "text": "apical technologies",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-subtitle-paragraph.container-subtitle > p > strong",
+    "x": 38,
+    "y": 5004,
+    "w": 146,
+    "h": 24,
+    "text": "Interactive View"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "figure.article-image > div.webcam-frame > a",
+    "x": 38,
+    "y": 5046,
+    "w": 284,
+    "h": 400,
+    "text": "",
+    "href": "/public/archive_webcams/armazonesdome2/public/poi/preset_100.jpg"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 38,
+    "y": 5046,
+    "w": 284,
+    "h": 400,
+    "text": "",
+    "file": "media_16e46b47411ec5753d7364d255adb6748f"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pano-viewer.ready > div.pano-controls > button.pano-button.pano-left",
+    "x": 80,
+    "y": 5396,
+    "w": 40,
+    "h": 40,
+    "text": "look left"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pano-viewer.ready > div.pano-controls > button.pano-button.pano-right",
+    "x": 120,
+    "y": 5396,
+    "w": 40,
+    "h": 40,
+    "text": "look right"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pano-viewer.ready > div.pano-controls > button.pano-button.pano-up",
+    "x": 160,
+    "y": 5396,
+    "w": 40,
+    "h": 40,
+    "text": "look up"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pano-viewer.ready > div.pano-controls > button.pano-button.pano-down",
+    "x": 200,
+    "y": 5396,
+    "w": 40,
+    "h": 40,
+    "text": "look down"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pano-viewer.ready > div.pano-controls > button.pano-button.pano-quality",
+    "x": 240,
+    "y": 5396,
+    "w": 40,
+    "h": 40,
+    "text": "toggle quality"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pano-viewer.ready > div.pano-controls > button.pano-button.pano-mode",
+    "x": 280,
+    "y": 5396,
+    "w": 40,
+    "h": 40,
+    "text": "change control mode"
+   },
+   {
+    "kind": "button",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pano-viewer.ready > div.pano-controls > button.pano-button.pano-fullscreen",
+    "x": 320,
+    "y": 5396,
+    "w": 40,
+    "h": 40,
+    "text": "fullscreen"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "figure.article-image > div.webcam-frame > p.webcam-stamp.webcam-timestamp",
+    "x": 48,
+    "y": 5056,
+    "w": 229,
+    "h": 37,
+    "text": "Webcam | 5 Nov 2026 16:00 CET / 12:00 CLST"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.webcams > div.section-text-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 5454,
+    "w": 284,
+    "h": 189,
+    "text": "This interactive, 360-degree webcam offers high-resolution internal views from t"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-subtitle-paragraph.container-subtitle > p > strong",
+    "x": 38,
+    "y": 5661,
+    "w": 213,
+    "h": 24,
+    "text": "Static Panorama Image"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "figure.article-image > div.webcam-frame > a",
+    "x": 38,
+    "y": 5703,
+    "w": 284,
+    "h": 142,
+    "text": "",
+    "href": "/public/archive_webcams/armazonesdome2/public/poi/preset_100.jpg"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 38,
+    "y": 5703,
+    "w": 284,
+    "h": 142,
+    "text": "",
+    "file": "media_16e46b47411ec5753d7364d255adb6748f"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "figure.article-image > div.webcam-frame > p.webcam-stamp.webcam-timestamp",
+    "x": 48,
+    "y": 5713,
+    "w": 229,
+    "h": 37,
+    "text": "Webcam | 5 Nov 2026 16:00 CET / 12:00 CLST"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer > div.site-footer-row > p.site-footer-brand.footer-item",
+    "x": -15,
+    "y": 5875,
+    "w": 360,
+    "h": 34,
+    "text": "| ELT ©"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-row > p.site-footer-brand.footer-item > a",
+    "x": 118,
+    "y": 5875,
+    "w": 25,
+    "h": 18,
+    "text": "eso",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-links.footer-item > div > p",
+    "x": 0,
+    "y": 5909,
+    "w": 330,
+    "h": 55,
+    "text": "| | | | |"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > p > a",
+    "x": 23,
+    "y": 5910,
+    "w": 41,
+    "h": 15,
+    "text": "credits",
+    "href": "/credits/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > p > a",
+    "x": 83,
+    "y": 5910,
+    "w": 60,
+    "h": 15,
+    "text": "contact us",
+    "href": "information@eso.org"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > p > a",
+    "x": 163,
+    "y": 5910,
+    "w": 128,
+    "h": 15,
+    "text": "subscribe to eso news",
+    "href": "/public/outreach/newsletters/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > p > a",
+    "x": 12,
+    "y": 5928,
+    "w": 124,
+    "h": 15,
+    "text": "accelerated by cdn77",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > p > a",
+    "x": 155,
+    "y": 5928,
+    "w": 106,
+    "h": 15,
+    "text": "terms & conditions",
+    "href": "/public/about-eso/privacy/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > p > a",
+    "x": 115,
+    "y": 5928,
+    "w": 203,
+    "h": 33,
+    "text": "cookie settings and policy",
+    "href": "/about/webcams"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 4,
+    "offPage": 0,
+    "textNodes": 70,
+    "controls": 60,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "n": 4,
+     "clipper": "div.pano-viewer.ready",
+     "path": "div.webcam-frame > div.pano-viewer.ready > div.pano-controls > button.pano-button.pano-fullscreen",
+     "text": "fullscreen",
+     "cutMin": 38,
+     "cutMax": 38
+    }
+   ],
+   "findings": [
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "cut": 38,
+     "path": "div.webcam-frame > div.pano-viewer.ready > div.pano-controls > button.pano-button.pano-fullscreen",
+     "text": "fullscreen",
+     "clipper": "div.pano-viewer.ready",
+     "rect": {
+      "l": 320,
+      "t": 1037,
+      "r": 360,
+      "b": 1077,
+      "w": 40,
+      "h": 40
+     },
+     "clip": {
+      "l": 38,
+      "t": 687,
+      "r": 322,
+      "b": 1087,
+      "w": 284,
+      "h": 400
+     }
+    },
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "cut": 38,
+     "path": "div.webcam-frame > div.pano-viewer.ready > div.pano-controls > button.pano-button.pano-fullscreen",
+     "text": "fullscreen",
+     "clipper": "div.pano-viewer.ready",
+     "rect": {
+      "l": 320,
+      "t": 2061,
+      "r": 360,
+      "b": 2101,
+      "w": 40,
+      "h": 40
+     },
+     "clip": {
+      "l": 38,
+      "t": 1711,
+      "r": 322,
+      "b": 2111,
+      "w": 284,
+      "h": 400
+     }
+    },
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "cut": 38,
+     "path": "div.webcam-frame > div.pano-viewer.ready > div.pano-controls > button.pano-button.pano-fullscreen",
+     "text": "fullscreen",
+     "clipper": "div.pano-viewer.ready",
+     "rect": {
+      "l": 320,
+      "t": 4325,
+      "r": 360,
+      "b": 4365,
+      "w": 40,
+      "h": 40
+     },
+     "clip": {
+      "l": 38,
+      "t": 3975,
+      "r": 322,
+      "b": 4375,
+      "w": 284,
+      "h": 400
+     }
+    },
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "cut": 38,
+     "path": "div.webcam-frame > div.pano-viewer.ready > div.pano-controls > button.pano-button.pano-fullscreen",
+     "text": "fullscreen",
+     "clipper": "div.pano-viewer.ready",
+     "rect": {
+      "l": 320,
+      "t": 5396,
+      "r": 360,
+      "b": 5436,
+      "w": 40,
+      "h": 40
+     },
+     "clip": {
+      "l": 38,
+      "t": 5046,
+      "r": 322,
+      "b": 5446,
+      "w": 284,
+      "h": 400
+     }
+    }
+   ]
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 1
+   },
+   "eds": {
+    "link": 17,
+    "linkHidden": 0,
+    "button": 24,
+    "buttonHidden": 4,
+    "text": 40,
+    "textHidden": 0,
+    "image": 14,
+    "imageHidden": 0
+   },
+   "findings": [
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "COUNT TEXT",
+    "COUNT IMAGES"
+   ]
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h1 \"about | webcams\" (y 150) has no origin heading",
+   "text": "about | webcams"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "×4 \"apical technologies\" served in band \"(top)\", no origin link or button",
+   "band": 0,
+   "n": 4,
+   "text": "apical technologies"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "×4 \"look left\" served in band \"(top)\", no origin link or button",
+   "band": 0,
+   "n": 4,
+   "text": "look left"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "×4 \"look right\" served in band \"(top)\", no origin link or button",
+   "band": 0,
+   "n": 4,
+   "text": "look right"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "×4 \"look up\" served in band \"(top)\", no origin link or button",
+   "band": 0,
+   "n": 4,
+   "text": "look up"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "×4 \"look down\" served in band \"(top)\", no origin link or button",
+   "band": 0,
+   "n": 4,
+   "text": "look down"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "×4 \"toggle quality\" served in band \"(top)\", no origin link or button",
+   "band": 0,
+   "n": 4,
+   "text": "toggle quality"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "×4 \"change control mode\" served in band \"(top)\", no origin link or button",
+   "band": 0,
+   "n": 4,
+   "text": "change control mode"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"sun sets right behind paranal\" served in band \"(top)\", no origin link or button",
+   "band": 0,
+   "n": 1,
+   "text": "sun sets right behind paranal"
+  },
+  {
+   "sev": "🟡",
+   "kind": "COUNT TEXT",
+   "msg": "band \"(top)\": 0 origin → 40 served visible",
+   "band": 0,
+   "origin": 0,
+   "eds": 40,
+   "hidden": 0
+  },
+  {
+   "sev": "🟡",
+   "kind": "COUNT IMAGES",
+   "msg": "band \"(top)\": 1 origin → 14 served visible",
+   "band": 0,
+   "origin": 1,
+   "eds": 14,
+   "hidden": 0
+  }
+ ],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 1,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 29,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 2,
+  "findings": 11,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 246,
+    "y": 17,
+    "w": 14,
+    "h": 15
+   },
+   {
+    "x": 259,
+    "y": 17,
+    "w": 10,
+    "h": 15
+   },
+   {
+    "x": 269,
+    "y": 17,
+    "w": 13,
+    "h": 15
+   },
+   {
+    "x": 38,
+    "y": 104,
+    "w": 21,
+    "h": 6
+   },
+   {
+    "x": 38,
+    "y": 112,
+    "w": 20,
+    "h": 6
+   },
+   {
+    "x": 38,
+    "y": 119,
+    "w": 26,
+    "h": 6
+   },
+   {
+    "x": 38,
+    "y": 154,
+    "w": 78,
+    "h": 36
+   },
+   {
+    "x": 116,
+    "y": 154,
+    "w": 153,
+    "h": 36
+   },
+   {
+    "x": 38,
+    "y": 261,
+    "w": 274,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 288,
+    "w": 274,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 315,
+    "w": 278,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 342,
+    "w": 269,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 369,
+    "w": 280,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 396,
+    "w": 284,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 423,
+    "w": 231,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 473,
+    "w": 207,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 542,
+    "w": 222,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 569,
+    "w": 151,
+    "h": 19
+   },
+   {
+    "x": 188,
+    "y": 569,
+    "w": 42,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 596,
+    "w": 90,
+    "h": 19
+   },
+   {
+    "x": 128,
+    "y": 596,
+    "w": 4,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 645,
+    "w": 146,
+    "h": 24
+   },
+   {
+    "x": 58,
+    "y": 709,
+    "w": 225,
+    "h": 12
+   },
+   {
+    "x": 58,
+    "y": 736,
+    "w": 25,
+    "h": 12
+   },
+   {
+    "x": 53,
+    "y": 1099,
+    "w": 255,
+    "h": 19
+   },
+   {
+    "x": 49,
+    "y": 1126,
+    "w": 262,
+    "h": 19
+   },
+   {
+    "x": 42,
+    "y": 1153,
+    "w": 277,
+    "h": 19
+   },
+   {
+    "x": 44,
+    "y": 1180,
+    "w": 272,
+    "h": 19
+   },
+   {
+    "x": 42,
+    "y": 1207,
+    "w": 277,
+    "h": 19
+   },
+   {
+    "x": 46,
+    "y": 1234,
+    "w": 268,
+    "h": 19
+   },
+   {
+    "x": 101,
+    "y": 1261,
+    "w": 159,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1302,
+    "w": 215,
+    "h": 24
+   },
+   {
+    "x": 58,
+    "y": 1366,
+    "w": 225,
+    "h": 12
+   },
+   {
+    "x": 58,
+    "y": 1393,
+    "w": 25,
+    "h": 12
+   },
+   {
+    "x": 38,
+    "y": 1469,
+    "w": 196,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 1539,
+    "w": 222,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1566,
+    "w": 151,
+    "h": 19
+   },
+   {
+    "x": 188,
+    "y": 1566,
+    "w": 42,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1593,
+    "w": 90,
+    "h": 19
+   },
+   {
+    "x": 128,
+    "y": 1593,
+    "w": 171,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1620,
+    "w": 107,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1669,
+    "w": 146,
+    "h": 24
+   },
+   {
+    "x": 58,
+    "y": 1733,
+    "w": 233,
+    "h": 12
+   },
+   {
+    "x": 58,
+    "y": 1760,
+    "w": 18,
+    "h": 12
+   },
+   {
+    "x": 53,
+    "y": 2123,
+    "w": 255,
+    "h": 19
+   },
+   {
+    "x": 51,
+    "y": 2150,
+    "w": 257,
+    "h": 19
+   },
+   {
+    "x": 55,
+    "y": 2177,
+    "w": 250,
+    "h": 19
+   },
+   {
+    "x": 52,
+    "y": 2204,
+    "w": 256,
+    "h": 19
+   },
+   {
+    "x": 39,
+    "y": 2231,
+    "w": 281,
+    "h": 19
+   },
+   {
+    "x": 39,
+    "y": 2258,
+    "w": 282,
+    "h": 19
+   },
+   {
+    "x": 39,
+    "y": 2285,
+    "w": 282,
+    "h": 19
+   },
+   {
+    "x": 40,
+    "y": 2312,
+    "w": 280,
+    "h": 19
+   },
+   {
+    "x": 41,
+    "y": 2339,
+    "w": 277,
+    "h": 19
+   },
+   {
+    "x": 44,
+    "y": 2366,
+    "w": 272,
+    "h": 19
+   },
+   {
+    "x": 128,
+    "y": 2393,
+    "w": 105,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2434,
+    "w": 215,
+    "h": 24
+   },
+   {
+    "x": 58,
+    "y": 2498,
+    "w": 233,
+    "h": 12
+   },
+   {
+    "x": 58,
+    "y": 2525,
+    "w": 18,
+    "h": 12
+   },
+   {
+    "x": 38,
+    "y": 2599,
+    "w": 216,
+    "h": 24
+   },
+   {
+    "x": 58,
+    "y": 2663,
+    "w": 216,
+    "h": 12
+   },
+   {
+    "x": 52,
+    "y": 2805,
+    "w": 256,
+    "h": 19
+   },
+   {
+    "x": 41,
+    "y": 2832,
+    "w": 57,
+    "h": 19
+   },
+   {
+    "x": 98,
+    "y": 2832,
+    "w": 201,
+    "h": 19
+   },
+   {
+    "x": 299,
+    "y": 2832,
+    "w": 20,
+    "h": 19
+   },
+   {
+    "x": 41,
+    "y": 2859,
+    "w": 278,
+    "h": 19
+   },
+   {
+    "x": 151,
+    "y": 2886,
+    "w": 59,
+    "h": 19
+   },
+   {
+    "x": 58,
+    "y": 2953,
+    "w": 216,
+    "h": 12
+   },
+   {
+    "x": 59,
+    "y": 3095,
+    "w": 242,
+    "h": 19
+   },
+   {
+    "x": 69,
+    "y": 3122,
+    "w": 222,
+    "h": 19
+   },
+   {
+    "x": 139,
+    "y": 3149,
+    "w": 82,
+    "h": 19
+   },
+   {
+    "x": 58,
+    "y": 3216,
+    "w": 216,
+    "h": 12
+   },
+   {
+    "x": 53,
+    "y": 3358,
+    "w": 254,
+    "h": 19
+   },
+   {
+    "x": 47,
+    "y": 3385,
+    "w": 265,
+    "h": 19
+   },
+   {
+    "x": 58,
+    "y": 3451,
+    "w": 216,
+    "h": 12
+   },
+   {
+    "x": 82,
+    "y": 3719,
+    "w": 195,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3760,
+    "w": 257,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 3829,
+    "w": 222,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3856,
+    "w": 151,
+    "h": 19
+   },
+   {
+    "x": 188,
+    "y": 3856,
+    "w": 42,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3883,
+    "w": 90,
+    "h": 19
+   },
+   {
+    "x": 128,
+    "y": 3883,
+    "w": 4,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3933,
+    "w": 146,
+    "h": 24
+   },
+   {
+    "x": 58,
+    "y": 3997,
+    "w": 212,
+    "h": 12
+   },
+   {
+    "x": 53,
+    "y": 4387,
+    "w": 255,
+    "h": 19
+   },
+   {
+    "x": 42,
+    "y": 4414,
+    "w": 276,
+    "h": 19
+   },
+   {
+    "x": 41,
+    "y": 4441,
+    "w": 279,
+    "h": 19
+   },
+   {
+    "x": 40,
+    "y": 4468,
+    "w": 281,
+    "h": 19
+   },
+   {
+    "x": 52,
+    "y": 4495,
+    "w": 256,
+    "h": 19
+   },
+   {
+    "x": 67,
+    "y": 4522,
+    "w": 225,
+    "h": 19
+   },
+   {
+    "x": 146,
+    "y": 4549,
+    "w": 69,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4590,
+    "w": 215,
+    "h": 24
+   },
+   {
+    "x": 58,
+    "y": 4654,
+    "w": 212,
+    "h": 12
+   },
+   {
+    "x": 38,
+    "y": 4792,
+    "w": 207,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 4831,
+    "w": 86,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 4900,
+    "w": 222,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4927,
+    "w": 151,
+    "h": 19
+   },
+   {
+    "x": 188,
+    "y": 4927,
+    "w": 42,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4954,
+    "w": 90,
+    "h": 19
+   },
+   {
+    "x": 128,
+    "y": 4954,
+    "w": 4,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 5004,
+    "w": 146,
+    "h": 24
+   },
+   {
+    "x": 58,
+    "y": 5068,
+    "w": 212,
+    "h": 12
+   },
+   {
+    "x": 53,
+    "y": 5458,
+    "w": 255,
+    "h": 19
+   },
+   {
+    "x": 42,
+    "y": 5485,
+    "w": 276,
+    "h": 19
+   },
+   {
+    "x": 41,
+    "y": 5512,
+    "w": 278,
+    "h": 19
+   },
+   {
+    "x": 68,
+    "y": 5539,
+    "w": 224,
+    "h": 19
+   },
+   {
+    "x": 61,
+    "y": 5566,
+    "w": 239,
+    "h": 19
+   },
+   {
+    "x": 43,
+    "y": 5593,
+    "w": 275,
+    "h": 19
+   },
+   {
+    "x": 120,
+    "y": 5620,
+    "w": 120,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 5661,
+    "w": 215,
+    "h": 24
+   },
+   {
+    "x": 58,
+    "y": 5725,
+    "w": 212,
+    "h": 12
+   },
+   {
+    "x": 119,
+    "y": 5876,
+    "w": 24,
+    "h": 15
+   },
+   {
+    "x": 142,
+    "y": 5876,
+    "w": 42,
+    "h": 15
+   },
+   {
+    "x": 184,
+    "y": 5876,
+    "w": 27,
+    "h": 15
+   },
+   {
+    "x": 23,
+    "y": 5910,
+    "w": 41,
+    "h": 15
+   },
+   {
+    "x": 63,
+    "y": 5910,
+    "w": 20,
+    "h": 15
+   },
+   {
+    "x": 83,
+    "y": 5910,
+    "w": 61,
+    "h": 15
+   },
+   {
+    "x": 144,
+    "y": 5910,
+    "w": 20,
+    "h": 15
+   },
+   {
+    "x": 163,
+    "y": 5910,
+    "w": 128,
+    "h": 15
+   },
+   {
+    "x": 291,
+    "y": 5910,
+    "w": 16,
+    "h": 15
+   },
+   {
+    "x": 13,
+    "y": 5928,
+    "w": 123,
+    "h": 15
+   },
+   {
+    "x": 136,
+    "y": 5928,
+    "w": 20,
+    "h": 15
+   },
+   {
+    "x": 156,
+    "y": 5928,
+    "w": 105,
+    "h": 15
+   },
+   {
+    "x": 261,
+    "y": 5928,
+    "w": 20,
+    "h": 15
+   },
+   {
+    "x": 281,
+    "y": 5928,
+    "w": 37,
+    "h": 15
+   },
+   {
+    "x": 115,
+    "y": 5947,
+    "w": 99,
+    "h": 15
+   },
+   {
+    "x": 76,
+    "y": 1191,
+    "w": 180,
+    "h": 49
+   },
+   {
+    "x": 110,
+    "y": 1239,
+    "w": 140,
+    "h": 49
+   },
+   {
+    "x": 16,
+    "y": 1298,
+    "w": 262,
+    "h": 20
+   },
+   {
+    "x": 16,
+    "y": 1322,
+    "w": 270,
+    "h": 20
+   },
+   {
+    "x": 16,
+    "y": 1346,
+    "w": 296,
+    "h": 20
+   },
+   {
+    "x": 16,
+    "y": 1370,
+    "w": 255,
+    "h": 20
+   },
+   {
+    "x": 16,
+    "y": 1394,
+    "w": 306,
+    "h": 20
+   },
+   {
+    "x": 16,
+    "y": 1418,
+    "w": 302,
+    "h": 20
+   },
+   {
+    "x": 16,
+    "y": 1442,
+    "w": 227,
+    "h": 20
+   },
+   {
+    "x": 16,
+    "y": 1498,
+    "w": 327,
+    "h": 20
+   },
+   {
+    "x": 16,
+    "y": 1522,
+    "w": 325,
+    "h": 20
+   },
+   {
+    "x": 16,
+    "y": 1546,
+    "w": 51,
+    "h": 20
+   },
+   {
+    "x": 145,
+    "y": 1594,
+    "w": 69,
+    "h": 19
+   },
+   {
+    "x": 75,
+    "y": 1666,
+    "w": 210,
+    "h": 19
+   },
+   {
+    "x": 88,
+    "y": 1738,
+    "w": 184,
+    "h": 19
+   },
+   {
+    "x": 65,
+    "y": 1005,
+    "w": 230,
+    "h": 49
+   },
+   {
+    "x": 130,
+    "y": 1053,
+    "w": 100,
+    "h": 49
+   },
+   {
+    "x": 32,
+    "y": 1136,
+    "w": 210,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1160,
+    "w": 268,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1184,
+    "w": 255,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1208,
+    "w": 290,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1232,
+    "w": 291,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1256,
+    "w": 258,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1280,
+    "w": 257,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1304,
+    "w": 290,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1328,
+    "w": 99,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1368,
+    "w": 285,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1392,
+    "w": 292,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1416,
+    "w": 278,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1440,
+    "w": 289,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1464,
+    "w": 290,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1488,
+    "w": 49,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1525,
+    "w": 256,
+    "h": 39
+   },
+   {
+    "x": 32,
+    "y": 1574,
+    "w": 293,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1598,
+    "w": 267,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1622,
+    "w": 222,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1646,
+    "w": 237,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1670,
+    "w": 277,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1694,
+    "w": 79,
+    "h": 19
+   }
+  ],
+  "eds": [
+   {
+    "x": 246,
+    "y": 17,
+    "w": 14,
+    "h": 15
+   },
+   {
+    "x": 259,
+    "y": 17,
+    "w": 10,
+    "h": 15
+   },
+   {
+    "x": 269,
+    "y": 17,
+    "w": 13,
+    "h": 15
+   },
+   {
+    "x": 38,
+    "y": 104,
+    "w": 21,
+    "h": 6
+   },
+   {
+    "x": 38,
+    "y": 112,
+    "w": 20,
+    "h": 6
+   },
+   {
+    "x": 38,
+    "y": 119,
+    "w": 26,
+    "h": 6
+   },
+   {
+    "x": 38,
+    "y": 154,
+    "w": 76,
+    "h": 36
+   },
+   {
+    "x": 114,
+    "y": 154,
+    "w": 152,
+    "h": 36
+   },
+   {
+    "x": 38,
+    "y": 260,
+    "w": 274,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 287,
+    "w": 273,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 314,
+    "w": 281,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 341,
+    "w": 268,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 368,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 395,
+    "w": 282,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 422,
+    "w": 230,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 473,
+    "w": 208,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 541,
+    "w": 221,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 568,
+    "w": 150,
+    "h": 20
+   },
+   {
+    "x": 187,
+    "y": 568,
+    "w": 42,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 595,
+    "w": 90,
+    "h": 20
+   },
+   {
+    "x": 128,
+    "y": 595,
+    "w": 4,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 645,
+    "w": 146,
+    "h": 24
+   },
+   {
+    "x": 58,
+    "y": 709,
+    "w": 223,
+    "h": 13
+   },
+   {
+    "x": 58,
+    "y": 736,
+    "w": 25,
+    "h": 13
+   },
+   {
+    "x": 53,
+    "y": 1098,
+    "w": 254,
+    "h": 20
+   },
+   {
+    "x": 49,
+    "y": 1125,
+    "w": 263,
+    "h": 20
+   },
+   {
+    "x": 43,
+    "y": 1152,
+    "w": 274,
+    "h": 20
+   },
+   {
+    "x": 43,
+    "y": 1179,
+    "w": 273,
+    "h": 20
+   },
+   {
+    "x": 43,
+    "y": 1206,
+    "w": 275,
+    "h": 20
+   },
+   {
+    "x": 46,
+    "y": 1233,
+    "w": 267,
+    "h": 20
+   },
+   {
+    "x": 101,
+    "y": 1260,
+    "w": 158,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1302,
+    "w": 213,
+    "h": 24
+   },
+   {
+    "x": 58,
+    "y": 1366,
+    "w": 223,
+    "h": 13
+   },
+   {
+    "x": 58,
+    "y": 1393,
+    "w": 25,
+    "h": 13
+   },
+   {
+    "x": 38,
+    "y": 1470,
+    "w": 199,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 1538,
+    "w": 221,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1565,
+    "w": 150,
+    "h": 20
+   },
+   {
+    "x": 187,
+    "y": 1565,
+    "w": 42,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1592,
+    "w": 90,
+    "h": 20
+   },
+   {
+    "x": 128,
+    "y": 1592,
+    "w": 173,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1619,
+    "w": 107,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1669,
+    "w": 146,
+    "h": 24
+   },
+   {
+    "x": 58,
+    "y": 1733,
+    "w": 231,
+    "h": 13
+   },
+   {
+    "x": 58,
+    "y": 1760,
+    "w": 18,
+    "h": 13
+   },
+   {
+    "x": 53,
+    "y": 2122,
+    "w": 254,
+    "h": 20
+   },
+   {
+    "x": 52,
+    "y": 2149,
+    "w": 256,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 2176,
+    "w": 248,
+    "h": 20
+   },
+   {
+    "x": 52,
+    "y": 2203,
+    "w": 256,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 2230,
+    "w": 281,
+    "h": 20
+   },
+   {
+    "x": 41,
+    "y": 2257,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 2284,
+    "w": 280,
+    "h": 20
+   },
+   {
+    "x": 47,
+    "y": 2311,
+    "w": 266,
+    "h": 20
+   },
+   {
+    "x": 43,
+    "y": 2338,
+    "w": 274,
+    "h": 20
+   },
+   {
+    "x": 49,
+    "y": 2365,
+    "w": 261,
+    "h": 20
+   },
+   {
+    "x": 109,
+    "y": 2392,
+    "w": 142,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2434,
+    "w": 213,
+    "h": 24
+   },
+   {
+    "x": 58,
+    "y": 2498,
+    "w": 231,
+    "h": 13
+   },
+   {
+    "x": 58,
+    "y": 2525,
+    "w": 18,
+    "h": 13
+   },
+   {
+    "x": 38,
+    "y": 2599,
+    "w": 217,
+    "h": 24
+   },
+   {
+    "x": 58,
+    "y": 2663,
+    "w": 214,
+    "h": 13
+   },
+   {
+    "x": 51,
+    "y": 2804,
+    "w": 258,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 2831,
+    "w": 56,
+    "h": 20
+   },
+   {
+    "x": 96,
+    "y": 2831,
+    "w": 203,
+    "h": 20
+   },
+   {
+    "x": 299,
+    "y": 2831,
+    "w": 21,
+    "h": 20
+   },
+   {
+    "x": 42,
+    "y": 2858,
+    "w": 277,
+    "h": 20
+   },
+   {
+    "x": 150,
+    "y": 2885,
+    "w": 59,
+    "h": 20
+   },
+   {
+    "x": 58,
+    "y": 2953,
+    "w": 214,
+    "h": 13
+   },
+   {
+    "x": 58,
+    "y": 3094,
+    "w": 243,
+    "h": 20
+   },
+   {
+    "x": 70,
+    "y": 3121,
+    "w": 219,
+    "h": 20
+   },
+   {
+    "x": 139,
+    "y": 3148,
+    "w": 83,
+    "h": 20
+   },
+   {
+    "x": 58,
+    "y": 3216,
+    "w": 214,
+    "h": 13
+   },
+   {
+    "x": 54,
+    "y": 3357,
+    "w": 252,
+    "h": 20
+   },
+   {
+    "x": 49,
+    "y": 3384,
+    "w": 263,
+    "h": 20
+   },
+   {
+    "x": 58,
+    "y": 3451,
+    "w": 214,
+    "h": 13
+   },
+   {
+    "x": 82,
+    "y": 3718,
+    "w": 195,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3760,
+    "w": 258,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 3828,
+    "w": 221,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3855,
+    "w": 150,
+    "h": 20
+   },
+   {
+    "x": 187,
+    "y": 3855,
+    "w": 42,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3882,
+    "w": 90,
+    "h": 20
+   },
+   {
+    "x": 128,
+    "y": 3882,
+    "w": 4,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3933,
+    "w": 146,
+    "h": 24
+   },
+   {
+    "x": 58,
+    "y": 3997,
+    "w": 209,
+    "h": 13
+   },
+   {
+    "x": 53,
+    "y": 4386,
+    "w": 254,
+    "h": 20
+   },
+   {
+    "x": 41,
+    "y": 4413,
+    "w": 277,
+    "h": 20
+   },
+   {
+    "x": 41,
+    "y": 4440,
+    "w": 278,
+    "h": 20
+   },
+   {
+    "x": 41,
+    "y": 4467,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 54,
+    "y": 4494,
+    "w": 253,
+    "h": 20
+   },
+   {
+    "x": 68,
+    "y": 4521,
+    "w": 224,
+    "h": 20
+   },
+   {
+    "x": 146,
+    "y": 4548,
+    "w": 68,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4590,
+    "w": 213,
+    "h": 24
+   },
+   {
+    "x": 58,
+    "y": 4654,
+    "w": 209,
+    "h": 13
+   },
+   {
+    "x": 38,
+    "y": 4792,
+    "w": 209,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 4831,
+    "w": 83,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 4899,
+    "w": 221,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4926,
+    "w": 150,
+    "h": 20
+   },
+   {
+    "x": 187,
+    "y": 4926,
+    "w": 42,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4953,
+    "w": 90,
+    "h": 20
+   },
+   {
+    "x": 128,
+    "y": 4953,
+    "w": 4,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 5004,
+    "w": 146,
+    "h": 24
+   },
+   {
+    "x": 58,
+    "y": 5068,
+    "w": 209,
+    "h": 13
+   },
+   {
+    "x": 53,
+    "y": 5457,
+    "w": 254,
+    "h": 20
+   },
+   {
+    "x": 41,
+    "y": 5484,
+    "w": 277,
+    "h": 20
+   },
+   {
+    "x": 42,
+    "y": 5511,
+    "w": 276,
+    "h": 20
+   },
+   {
+    "x": 69,
+    "y": 5538,
+    "w": 223,
+    "h": 20
+   },
+   {
+    "x": 62,
+    "y": 5565,
+    "w": 236,
+    "h": 20
+   },
+   {
+    "x": 43,
+    "y": 5592,
+    "w": 273,
+    "h": 20
+   },
+   {
+    "x": 121,
+    "y": 5619,
+    "w": 119,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 5661,
+    "w": 213,
+    "h": 24
+   },
+   {
+    "x": 58,
+    "y": 5725,
+    "w": 209,
+    "h": 13
+   },
+   {
+    "x": 118,
+    "y": 5876,
+    "w": 25,
+    "h": 15
+   },
+   {
+    "x": 143,
+    "y": 5876,
+    "w": 42,
+    "h": 15
+   },
+   {
+    "x": 185,
+    "y": 5876,
+    "w": 26,
+    "h": 15
+   },
+   {
+    "x": 23,
+    "y": 5910,
+    "w": 38,
+    "h": 15
+   },
+   {
+    "x": 64,
+    "y": 5910,
+    "w": 20,
+    "h": 15
+   },
+   {
+    "x": 83,
+    "y": 5910,
+    "w": 57,
+    "h": 15
+   },
+   {
+    "x": 143,
+    "y": 5910,
+    "w": 20,
+    "h": 15
+   },
+   {
+    "x": 163,
+    "y": 5910,
+    "w": 125,
+    "h": 15
+   },
+   {
+    "x": 291,
+    "y": 5910,
+    "w": 16,
+    "h": 15
+   },
+   {
+    "x": 12,
+    "y": 5928,
+    "w": 120,
+    "h": 15
+   },
+   {
+    "x": 136,
+    "y": 5928,
+    "w": 19,
+    "h": 15
+   },
+   {
+    "x": 155,
+    "y": 5928,
+    "w": 103,
+    "h": 15
+   },
+   {
+    "x": 261,
+    "y": 5928,
+    "w": 20,
+    "h": 15
+   },
+   {
+    "x": 281,
+    "y": 5928,
+    "w": 37,
+    "h": 15
+   },
+   {
+    "x": 115,
+    "y": 5947,
+    "w": 101,
+    "h": 15
+   }
+  ]
+ }
+}

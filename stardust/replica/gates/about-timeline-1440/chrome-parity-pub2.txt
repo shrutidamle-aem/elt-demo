@@ -1,0 +1,19 @@
+chrome-parity @ 1440px, tolerance 1px
+  live:  https://elt.eso.org/about/timeline/ (live side from cache stardust/replica/gates/about-timeline-1440/chrome-live.json, probed 2026-11-13T13:48:52.963Z — delete the file to re-probe)
+  build: https://main--26c59ee1--aemcoder.aem.page/about/timeline
+
+■ header: 1 delta(s) — 2 paired of 2/2 texts, 5/5 icons
+  (live has no <header>: auto-detected nav#top-navbar.navbar.top_ — pass --region header=<liveSel>|<buildSel> to override)
+  REGION STYLE position fixed → static (fixed/sticky chrome must stay fixed/sticky — seam symmetry)
+
+■ footer: 7 delta(s) — 10 paired of 10/10 texts, 0/0 icons
+  OFFSET       the region and its 3 paired text(s) sit Δy -50px from live as one block — content identical; the page above is a different height (fix that, or a live feed rendered another length)
+  PAIR         "2026"  Δx +2px (188→190); Δy -50px (13622→13572)
+  PAIR         "| | | | |"  tag <div> → <p>; Δx +2px (464→466); Δy -50px (13622→13572); Δw -5px (842→837)
+  PAIR         "Credits"  Δx +2px (464→466); Δy -50px (13624→13574)
+  PAIR         "Contact us"  Δx +2px (537→539); Δy -50px (13624→13574); Δw -2px (74→72)
+  PAIR         "Accelerated by CDN77"  Δx -2px (813→811); Δy -50px (13624→13574)
+  PAIR         "Terms & Conditions"  Δx -3px (986→983); Δy -50px (13624→13574)
+  PAIR         "Cookie Settings and Policy"  Δx -3px (1137→1134); Δy -50px (13624→13574)
+
+✗ 8 delta(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

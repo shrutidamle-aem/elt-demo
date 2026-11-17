@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- stardust:migrate
+  writtenBy:        stardust:migrate
+  writtenAt:        2026-11-13T20:20:29Z
+  page:             Stars | ELT | ESO
+  slug:             science-stars
+  pagePath:         migrated/science/stars/index.html
+  renderBranch:     A'
+  template:         telescope-dome
+  archetypePath:    stardust/prototypes/telescope-dome-proposed.html
+  archetypeSha:     c42b9f92bef0
+  sourceCurrent:    stardust/current/pages/science-stars.json
+  againstDirection: stardust/direction.md (Active)
+  designMd:         DESIGN.md (sha: bcd81ac1bff9)
+  designJson:       DESIGN.json (sha: 1687cec3d675)
+  canonShas:        header:null footer:df97728fd0f7 css:7a5011377ec8
+  decisionTrace:    _meta.json
+  brokenInternalLinks: 17
+  stardustVersion:  local
+-->
+<style>
+:root {
+  --font-brand: "Helvetica Neue LT ESO", "Helvetica Neue", Helvetica, Arial, sans-serif; /* L15662 */
+  --esoblue: rgb(0, 119, 190);            /* L15617 */
+  --orange: rgb(232, 133, 38);
+  --headerblue: rgb(45, 164, 245);
+  --ink-black: #000;
+  --nav-gradient: linear-gradient(rgb(40, 39, 49), rgb(16, 17, 19)); /* .navbar L16313 */
+  --nav-link: rgba(255, 255, 255, 0.7);   /* L20043 */
+  --nav-link-hover: rgba(255, 255, 255, 0.9);
+  --nav-hover-bg: #232932;                /* L19971 */
+  --nav-accent: #ef3c3c;                  /* active / hover rule */
+  --menu-bg: #343a40;                     /* .bg-dark */
+  --menu-border: rgba(0, 0, 0, 0.15);
+  --light-bg: rgb(232, 232, 232);         /* .container-light, .medium-light */
+  --footer-bg: #202020;                   /* .container-footer */
+  --topbar-h: 50px;                       /* body padding-top, .mysticky top */
+}
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Dome | ELT | ESO","description":"The Extremely Large Telescope: The World&#x27;s Biggest Eye On The Sky","url":"https://elt.eso.org/science/stars/"}</script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dome | ELT | ESO</title>
+  <meta name="description" content="The Extremely Large Telescope: The World&#x27;s Biggest Eye On The Sky">
+  <link rel="icon" href="../../assets/media/favicon.ico">
+  <link rel="stylesheet" href="../../assets/canon.css">
+  <link rel="stylesheet" href="../../assets/telescope-dome.css">
+  <script src="../../assets/canon.js" defer></script>
+
+</head>
+<body class="page-program">
+  <nav id="top-navbar" class="navbar" aria-label="ESO and site navigation">
+    <span class="navbar-brand navbar-brand--main">
+      <div class="brand-logo"><a href="https://www.eso.org/" target="_blank" rel="noopener noreferrer"><img class="navbar-eso-logo" src="../../assets/media/eso_logo.jpg" alt="" width="100" height="130"></a></div>
+      <div class="brand-flags">
+        <ul id="navbar-flags">
+          <li><span class="flag flag-at"></span></li>
+          <li><span class="flag flag-be"></span></li>
+          <li><span class="flag flag-cl"></span></li>
+          <li><span class="flag flag-cz"></span></li>
+          <li><span class="flag flag-da"></span></li>
+          <li><span class="flag flag-fi"></span></li>
+          <li><span class="flag flag-fr"></span></li>
+          <li><span class="flag flag-de"></span></li>
+          <li><span class="flag flag-ie"></span></li>
+          <li><span class="flag flag-it"></span></li>
+          <li><span class="flag flag-nl"></span></li>
+          <li><span class="flag flag-pl"></span></li>
+          <li><span class="flag flag-pt"></span></li>
+          <li><span class="flag flag-es"></span></li>
+          <li><span class="flag flag-sv"></span></li>
+          <li><span class="flag flag-ch"></span></li>
+          <li><span class="flag flag-gb"></span></li>
+          <li class="language-menu">
+            <div class="choose-language-message"> Choose your language &nbsp;<i class="fa-arrow-down" aria-hidden="true"></i></div>
+            <div class="language-options">
+              <a href="../../index.html?lang"><span class="flag flag-gb">&nbsp;</span> English </a>
+              <a href="https://elt.eso.org/chile/?lang" data-broken-link="true"><span class="flag flag-cl">&nbsp;</span> Español </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </span>
+    <div class="navbar-brand brand-social">
+      <div class="desktop-top-sm-icons">
+        <a href="https://facebook.com/ESOAstronomy" title="ESO on Facebook" target="_blank" rel="noopener noreferrer"><img src="../../assets/media/icon_topbar_mobile_1.png" alt="ESO on Facebook" width="35" height="35"></a>
+        <a href="https://www.instagram.com/esoastronomy/" title="ESO on Instagram" target="_blank" rel="noopener noreferrer"><img src="../../assets/media/icon_topbar_mobile_3.png" alt="ESO on Instagram" width="35" height="35"></a>
+        <a href="https://www.linkedin.com/company/european-southern-observatory" title="ESO on LinkedIn" target="_blank" rel="noopener noreferrer"><img src="../../assets/media/icon_topbar_mobile_4.png" alt="ESO on LinkedIn" width="35" height="35"></a>
+        <a href="https://www.youtube.com/channel/UCIhYoC2VIAJqCkoIWNHBQ3Q" title="ESO on YouTube" target="_blank" rel="noopener noreferrer"><img src="../../assets/media/icon_topbar_mobile_5.png" alt="ESO on YouTube" width="35" height="35"></a>
+      </div>
+    </div>
+    <span class="lang-links"><a href="../../index.html?lang" class="lang-link">en</a> | <a href="../../index.html?lang" class="lang-link">es</a></span>
+    <button class="navbar-toggler" type="button" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+    <div class="navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item menu-item mobile-only">
+          <a class="nav-link" href="../../index.html">ELT HOME</a>
+        </li>
+        <li class="nav-item menu-item mobile-only dropdown-menu-top dropup">
+          <a class="nav-link" href="https://elt.eso.org/about/" data-broken-link="true">ABOUT</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="https://elt.eso.org/about/" data-broken-link="true">About the ELT</a>
+            <a class="dropdown-item" href="../../about/timeline/index.html">Timeline</a>
+            <a class="dropdown-item" href="../../about/location/index.html">Location</a>
+            <a class="dropdown-item" href="../../about/webcams/index.html">Webcams</a>
+            <a class="dropdown-item" href="../../about/facts/index.html">Facts</a>
+            <a class="dropdown-item" href="../../about/road/index.html">Road to the ELT</a>
+            <a class="dropdown-item" href="../../about/team/index.html">Meet the Team</a>
+            <a class="dropdown-item" href="../../about/workinggroups/index.html">Working Groups</a>
+            <a class="dropdown-item" href="../../about/industrial/index.html">Industrial and Institutional Partners</a>
+            <a class="dropdown-item" href="../../about/faq/index.html">FAQ</a>
+          </div>
+        </li>
+        <li class="nav-item menu-item mobile-only dropdown-menu-top dropup active">
+          <a class="nav-link" href="../../telescope/index.html">TELESCOPE</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="../../telescope/index.html">Telescope Overview</a>
+            <a class="dropdown-item active" href="../../telescope/dome/index.html" aria-current="page">Dome</a>
+            <a class="dropdown-item" href="../../telescope/structure/index.html">Main Structure</a>
+            <div class="dropdown-submenu">
+              <a class="dropdown-item" href="https://elt.eso.org/mirror/" data-broken-link="true">Mirrors</a>
+              <div class="dropdown-menu bottom-aligned">
+                <a class="dropdown-item" href="https://elt.eso.org/mirror/" data-broken-link="true">Mirrors Overview</a>
+                <a class="dropdown-item" href="../../mirror/M1/index.html">M1</a>
+                <a class="dropdown-item" href="../../mirror/M2M3/index.html">M2M3</a>
+                <a class="dropdown-item" href="../../mirror/M4/index.html">M4</a>
+                <a class="dropdown-item" href="../../mirror/M5/index.html">M5</a>
+              </div>
+            </div>
+            <a class="dropdown-item" href="../../telescope/adaptiveoptics/index.html">Adaptive Optics</a>
+            <a class="dropdown-item" href="../../telescope/prefocal/index.html">Prefocal Station</a>
+            <a class="dropdown-item" href="../../telescope/controls/index.html">Controls</a>
+            <a class="dropdown-item" href="../../telescope/operations/index.html">Operations</a>
+          </div>
+        </li>
+        <li class="nav-item menu-item mobile-only dropdown-menu-top dropup">
+          <a class="nav-link" href="https://elt.eso.org/instrument/" data-broken-link="true">INSTRUMENTS</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="https://elt.eso.org/instrument/" data-broken-link="true">Instruments Overview</a>
+            <a class="dropdown-item" href="../../instrument/HARMONI/index.html">HARMONI</a>
+            <a class="dropdown-item" href="../../instrument/MICADO/index.html">MICADO</a>
+            <a class="dropdown-item" href="../../instrument/MORFEO/index.html">MORFEO</a>
+            <a class="dropdown-item" href="../../instrument/METIS/index.html">METIS</a>
+            <a class="dropdown-item" href="../../instrument/ANDES/index.html">ANDES</a>
+            <a class="dropdown-item" href="../../instrument/MOSAIC/index.html">MOSAIC</a>
+          </div>
+        </li>
+        <li class="nav-item menu-item mobile-only dropdown-menu-top dropup">
+          <a class="nav-link" href="https://elt.eso.org/science/" data-broken-link="true">SCIENCE</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="https://elt.eso.org/science/" data-broken-link="true">Science Overview</a>
+            <a class="dropdown-item" href="../../science/solarsystem/index.html">Solar System</a>
+            <a class="dropdown-item" href="../../science/exoplanets/index.html">Exoplanets</a>
+            <a class="dropdown-item" href="../../science/stars/index.html">Stars</a>
+            <a class="dropdown-item" href="../../science/blackholes/index.html">Black Holes</a>
+            <a class="dropdown-item" href="../../science/galaxies/index.html">Galaxies</a>
+            <a class="dropdown-item" href="../../science/cosmodm/index.html">Cosmology and Dark Matter</a>
+            <a class="dropdown-item" href="../../science/fundamentalphysics/index.html">Fundamental Physics</a>
+            <a class="dropdown-item" href="../../science/discoveries/index.html">Unexpected Discoveries</a>
+          </div>
+        </li>
+        <li class="nav-item menu-item mobile-only">
+          <a class="nav-link" href="../../media/index.html">NEWS &amp; MULTIMEDIA</a>
+        </li>
+        <li class="nav-item menu-item mobile-only">
+          <a class="nav-link" href="../../success/buildingon/index.html">SUCCESS STORIES</a>
+        </li>
+        <li class="social-desktop desktop-top-sm-icons">
+          <a href="https://facebook.com/ESOAstronomy" title="ESO on Facebook" target="_blank" rel="noopener noreferrer"><img src="../../assets/media/icon_topbar_mobile_1.png" alt="ESO on Facebook" width="35" height="35"></a>
+          <a href="https://www.instagram.com/esoastronomy/" title="ESO on Instagram" target="_blank" rel="noopener noreferrer"><img src="../../assets/media/icon_topbar_mobile_3.png" alt="ESO on Instagram" width="35" height="35"></a>
+          <a href="https://www.linkedin.com/company/european-southern-observatory" title="ESO on LinkedIn" target="_blank" rel="noopener noreferrer"><img src="../../assets/media/icon_topbar_mobile_4.png" alt="ESO on LinkedIn" width="35" height="35"></a>
+          <a href="https://www.youtube.com/channel/UCIhYoC2VIAJqCkoIWNHBQ3Q" title="ESO on YouTube" target="_blank" rel="noopener noreferrer"><img src="../../assets/media/icon_topbar_mobile_5.png" alt="ESO on YouTube" width="35" height="35"></a>
+        </li>
+        <li id="nav-search" class="nav-item menu-item dropdown dropdown-menu-top-top">
+          <a class="nav-link" href="#"><i class="material-icons">search</i></a>
+          <div class="dropdown-menu">
+            <div class="dropdown-item">
+              <form class="search-form" action="/public/eltsearch/" method="get"><input type="search" placeholder="Search..." name="q" aria-label="Search"><button type="submit">Search</button></form>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <img class="big-header-image" src="https://cdn.eso.org/images/banner1920/header-dome.jpg" alt="" width="1920" height="900">
+  <main class="elt-program" data-template="telescope-dome">
+    <div id="big-header" class="big-header-text" data-section="1">
+      <div class="big-header-logos">
+        <img class="big-header-eso-logo" src="../../assets/media/eso_logo_transparent.png" alt="" width="981" height="1279">
+        <p class="esologo-text">European<br>Southern<br>Observatory</p>
+      </div>
+      <div class="big-header-title"> Telescope </div>
+    </div>
+
+    <nav id="main-navbar" class="navbar mysticky" aria-label="Main" data-section="2">
+      <button class="navbar-toggler" type="button" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      <div class="navbar-collapse">
+        <ul class="navbar-nav">
+          <li class="nav-item menu-item">
+            <a class="nav-link" href="../../index.html">ELT HOME</a>
+          </li>
+          <li class="nav-item menu-item dropdown-menu-top dropup">
+            <a class="nav-link" href="https://elt.eso.org/about/" data-broken-link="true">ABOUT</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="https://elt.eso.org/about/" data-broken-link="true">About the ELT</a>
+              <a class="dropdown-item" href="../../about/timeline/index.html">Timeline</a>
+              <a class="dropdown-item" href="../../about/location/index.html">Location</a>
+              <a class="dropdown-item" href="../../about/webcams/index.html">Webcams</a>
+              <a class="dropdown-item" href="../../about/facts/index.html">Facts</a>
+              <a class="dropdown-item" href="../../about/road/index.html">Road to the ELT</a>
+              <a class="dropdown-item" href="../../about/team/index.html">Meet the Team</a>
+              <a class="dropdown-item" href="../../about/workinggroups/index.html">Working Groups</a>
+              <a class="dropdown-item" href="../../about/industrial/index.html">Industrial and Institutional Partners</a>
+              <a class="dropdown-item" href="../../about/faq/index.html">FAQ</a>
+            </div>
+          </li>
+          <li class="nav-item menu-item dropdown-menu-top dropup active">
+            <a class="nav-link" href="../../telescope/index.html">TELESCOPE</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="../../telescope/index.html">Telescope Overview</a>
+              <a class="dropdown-item active" href="../../telescope/dome/index.html" aria-current="page">Dome</a>
+              <a class="dropdown-item" href="../../telescope/structure/index.html">Main Structure</a>
+              <div class="dropdown-submenu">
+                <a class="dropdown-item" href="https://elt.eso.org/mirror/" data-broken-link="true">Mirrors</a>
+                <div class="dropdown-menu bottom-aligned">
+                  <a class="dropdown-item" href="https://elt.eso.org/mirror/" data-broken-link="true">Mirrors Overview</a>
+                  <a class="dropdown-item" href="../../mirror/M1/index.html">M1</a>
+                  <a class="dropdown-item" href="../../mirror/M2M3/index.html">M2M3</a>
+                  <a class="dropdown-item" href="../../mirror/M4/index.html">M4</a>
+                  <a class="dropdown-item" href="../../mirror/M5/index.html">M5</a>
+                </div>
+              </div>
+              <a class="dropdown-item" href="../../telescope/adaptiveoptics/index.html">Adaptive Optics</a>
+              <a class="dropdown-item" href="../../telescope/prefocal/index.html">Prefocal Station</a>
+              <a class="dropdown-item" href="../../telescope/controls/index.html">Controls</a>
+              <a class="dropdown-item" href="../../telescope/operations/index.html">Operations</a>
+            </div>
+          </li>
+          <li class="nav-item menu-item dropdown-menu-top dropup">
+            <a class="nav-link" href="https://elt.eso.org/instrument/" data-broken-link="true">INSTRUMENTS</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="https://elt.eso.org/instrument/" data-broken-link="true">Instruments Overview</a>
+              <a class="dropdown-item" href="../../instrument/HARMONI/index.html">HARMONI</a>
+              <a class="dropdown-item" href="../../instrument/MICADO/index.html">MICADO</a>
+              <a class="dropdown-item" href="../../instrument/MORFEO/index.html">MORFEO</a>
+              <a class="dropdown-item" href="../../instrument/METIS/index.html">METIS</a>
+              <a class="dropdown-item" href="../../instrument/ANDES/index.html">ANDES</a>
+              <a class="dropdown-item" href="../../instrument/MOSAIC/index.html">MOSAIC</a>
+            </div>
+          </li>
+          <li class="nav-item menu-item dropdown-menu-top dropup">
+            <a class="nav-link" href="https://elt.eso.org/science/" data-broken-link="true">SCIENCE</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="https://elt.eso.org/science/" data-broken-link="true">Science Overview</a>
+              <a class="dropdown-item" href="../../science/solarsystem/index.html">Solar System</a>
+              <a class="dropdown-item" href="../../science/exoplanets/index.html">Exoplanets</a>
+              <a class="dropdown-item" href="../../science/stars/index.html">Stars</a>
+              <a class="dropdown-item" href="../../science/blackholes/index.html">Black Holes</a>
+              <a class="dropdown-item" href="../../science/galaxies/index.html">Galaxies</a>
+              <a class="dropdown-item" href="../../science/cosmodm/index.html">Cosmology and Dark Matter</a>
+              <a class="dropdown-item" href="../../science/fundamentalphysics/index.html">Fundamental Physics</a>
+              <a class="dropdown-item" href="../../science/discoveries/index.html">Unexpected Discoveries</a>
+            </div>
+          </li>
+          <li class="nav-item menu-item">
+            <a class="nav-link" href="../../media/index.html">NEWS &amp; MULTIMEDIA</a>
+          </li>
+          <li class="nav-item menu-item">
+            <a class="nav-link" href="../../success/buildingon/index.html">SUCCESS STORIES</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid container-dark container-tight position-relative" data-section="3">
+        <img class="d-block h-100 w-100" src="https://cdn.eso.org/images/banner1920/subheader-science-stars.jpg">
+
+        <div class="position-absolute science-header-textblock">
+            <div class="d-flex flex-column justify-content-around h-100">
+                <div class="header-title">Stars</div>
+                <div class="d-none d-xl-block header-subtitle"><p>Stars emit nearly all the visible light we see in the Universe. But the details of their formation, evolution and sometimes extraordinarily energetic deaths are among the most interesting puzzles in astrophysics.</p></div>
+                <div class="d-none d-xxl-block header-description">
+                    <p>Furthermore, understanding the star formation history of the Universe is critical to understanding the link between dark matter and visible matter, and the evolution of the Universe itself. The ELT will be key to answering many of these open fundamental questions.</p>
+                </div>
+                
+                <div class="d-block header-quick-links">
+                    
+                    <div>Quick Links:</div>
+                    <div class="instrument-link-color">
+                        
+                        <a class="instrument-link-color instrument-link" href="#birth-life-death">Life of stars</a>
+                        
+                         | <a class="instrument-link-color instrument-link" href="#star-formation-history">Star formation history</a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+    </div>
+<div class="container-fluid container-light nutshell" data-section="4">
+        
+        
+                <div class="container-paragraph section-title-paragraph d-flex align-items-center justify-content-between">
+            <div class="">In a nutshell</div>
+            <div class="d-flex">
+                <a class="share-social-media-link share-social-media-icons" href="https://www.facebook.com/sharer/sharer.php?u=https://elt.eso.org/science/stars/" title="Share on Facebook" target="_blank" rel="noopener noreferrer">
+                    <img src="/public/archives/djp/elt-assets/img/social-media/icon_share_1.png" alt="Share on Facebook">
+                </a>
+                <span class="position-relative d-flex" style="" title="Share on Social Media">
+                    <span class="share-social-media share-social-media-icons">
+                    <img class="share-social-media" src="/public/archives/djp/elt-assets/img/social-media/icon_share_3.png" alt"share="" on="" social="" media"="">
+                    </span>
+                    <div class="position-absolute share-social-media-dropdown">
+                        <div class="share-social-media-dropdown-icons">
+                        <a class="share-social-media-link" href="https://www.facebook.com/sharer/sharer.php?u=https://elt.eso.org/science/stars/" title="Share on Facebook" target="_blank" rel="noopener noreferrer">
+                            <img src="/public/archives/djp/elt-assets/img/social-media/icon_share_1.png" alt="Share on Facebook">
+                            <span class="share-social-media-dropdown-text">Share on Facebook</span>
+                        </a>
+                        <a class="share-social-media-link share-email" href="#" title="E-Mail">
+                            <img src="/public/archives/djp/elt-assets/img/social-media/icon_share_5.png" alt="E-Mail">
+                            <span class="share-social-media-dropdown-text">E-Mail</span>
+                        </a>
+                        <a href="#" class="share-social-media-link clipboard" title="Copy Link">
+                            <img src="/public/archives/djp/elt-assets/img/social-media/icon_share_6.png" alt="Copy link">
+                            <span class="share-social-media-dropdown-text">Copy Link</span>
+                        </a>
+                        <a class="share-social-media-link" href="https://www.linkedin.com/sharing/share-offsite/?url=https://elt.eso.org/science/stars/" title="Share on LinkedIn" target="_blank" rel="noopener noreferrer">
+                            <img src="/public/archives/djp/elt-assets/img/social-media/icon_share_4.png" alt="Share on LinkedIn">
+                            <span class="share-social-media-dropdown-text">Share on LinkedIn</span>
+                        </a>
+                        </div>
+                    </div>
+                </span>
+            </div>
+        </div>
+
+        <div class="container-subtitle d-none d-xl-block d-xxl-none section-subtitle-paragraph-aftertitle"><p>Furthermore, understanding the star formation history of the Universe is critical to understanding the link between dark matter and visible matter, and the evolution of the Universe itself. The ELT will be key to answering many of these open fundamental questions.</p></div>
+        <div class="container-subtitle d-block d-xl-none section-subtitle-paragraph-aftertitle"><p>Stars emit nearly all the visible light we see in the Universe. But the details of their formation, evolution and sometimes extraordinarily energetic deaths are among the most interesting puzzles in astrophysics.</p></div>
+        <div class="container-paragraph d-block d-xl-none section-text-paragraph"><p>Furthermore, understanding the star formation history of the Universe is critical to understanding the link between dark matter and visible matter, and the evolution of the Universe itself. The ELT will be key to answering many of these open fundamental questions.</p></div>
+        
+            
+            
+<div class="container-paragraph section-text-paragraph">
+    <p>With the ELT, astronomers will be able to study star-forming regions in unsurpassed detail at distances ten times larger than is possible today. By enabling a closer look at how stars are born and evolve in their early years, the ELT will help us make substantial progress in the study of the early phases of star formation.&nbsp;</p>
+<p>The life that follows, including the final fate, depends a lot on a star’s mass. Astronomers will use the ELT to measure the ratios of different chemical elements within stars, which will enable them to precisely measure their ages and chemical evolution. Comparing this against the stars’ mass will help us better understand the lifecycle of different types of stars. With its extraordinary collecting power, the ELT will also be able to observe faint brown dwarfs; these mysterious objects trace the transition between stars and giant planets. The ELT will bring us closer to a full understanding of the evolution of planets and stars ranging from Jupiter mass to tens, and probably hundreds, of solar masses.&nbsp;&nbsp;</p>
+<p>Enormous stars end their lives violently in supernova explosions that spew out chemical elements that influence the formation of later stars and planets. Supernovae are some of the most luminous events in the Universe, meaning they can be seen at great distances and used as signposts of the Universe’s evolution. The very biggest stars create gamma-ray bursts when they explode; as the most energetic objects in the Universe these are also some of the most distant objects ever observed. The collecting power of the ELT will allow us to use them as distant lighthouses, shining through billions of years of evolution and taking us into the largely unknown early epoch of the Universe’s Dark Ages.&nbsp;</p>
+<p>Indeed, to truly understand the history of the Universe itself, we need to go beyond the Milky Way. Using the ELT, for the first time, astronomers will be able to look beyond our Galactic neighbourhood to investigate individual stars in more distant galaxies and trace their history back to the very early Universe. As well as unravelling the complex formation and evolution of different types of galaxies, this will also allow us to compare our neighbourhood with other parts of the Universe.</p>
+</div>
+
+        
+    </div>
+<div class="container-fluid container-light lightlinks" data-section="5">
+        
+        
+        <div class="row d-flex w-100 m-0 align-items-stretch" style="background-color: rgb(67, 65, 71);">
+            <div class="col-lg-6 p-0 position-relative">
+                <a href="#birth-life-death">
+                    <img class="w-100" src="https://cdn.eso.org/images/banner1920/science-stars-birth.jpg">
+                </a>
+                <span class="position-absolute internal-menu-title"><a href="#birth-life-death">The birth, life, and death of stars</a></span>
+            </div>
+            <div class="col-lg-6 pb-3 pt-3 d-flex align-items-center position-relative">
+                
+                <div class="internal-menu-text">
+                    <p style="text-align: left;">From where and how stars form, to how they evolve and eventually perish, the ELT will allow astronomers to explore the full life cycle of stars.</p>
+                </div>
+                <div class="h-100 w-100 position-absolute d-flex align-items-end internal-menu-shape">
+                    <div class="w-100 d-none d-lg-block">
+                        <svg class="instrument-trapezoid internal-menu-trapezoid" viewBox="0 0 945 75" preserveAspectRatio="none" style="/* height: 75px; */">
+                            <a href="../../science/stars/index.html#birth-life-death">
+                            <polygon points="0,0 260,0 340,67 945,67 945,75 0,75"></polygon>
+                            </a>
+                        </svg>
+                    </div>
+                </div>
+                <div class="position-absolute d-none d-lg-flex align-items-center justify-content-center internal-menu-link internal-menu-trapezoid-link">
+                    <a href="#birth-life-death" style="color: rgb(67, 65, 71);">
+                        Read More
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        <div class="row d-flex w-100 m-0 align-items-stretch" style="background-color: rgb(127, 95, 91);">
+            <div class="col-lg-6 pb-3 pt-3 d-flex align-items-center position-relative order-2 order-lg-1">
+                
+                <div class="internal-menu-text">
+                    <p style="text-align: left;">The ELT will investigate individual stars in galaxies near and far to help astronomers understand where and when most stars formed. In particular, it will be used to study the most primitive stars, almost as old as the Universe itself.</p>
+                </div>
+                <div class="h-100 w-100 position-absolute d-flex align-items-end internal-menu-shape">
+                    <div class="w-100 d-none d-lg-block">
+                        <svg class="instrument-trapezoid internal-menu-trapezoid" viewBox="0 0 945 75" preserveAspectRatio="none" style="/* height: 75px; */">
+                            <a href="../../science/stars/index.html#star-formation-history">
+                            <polygon points="0,0 260,0 340,67 945,67 945,75 0,75"></polygon>
+                            </a>
+                        </svg>
+                    </div>
+                </div>
+                <div class="position-absolute d-none d-lg-flex align-items-center justify-content-center internal-menu-link internal-menu-trapezoid-link">
+                    <a href="#star-formation-history" style="color: rgb(127, 95, 91);">
+                        Read More
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-6 p-0 position-relative order-1 order-lg-2">
+                <a href="#star-formation-history">
+                    <img class="w-100" src="https://cdn.eso.org/images/banner1920/science-stars-formation.jpg">
+                </a>
+                <span class="position-absolute internal-menu-title"><a href="#star-formation-history">Star formation history of the Universe</a></span>
+            </div>
+        </div>
+        
+        
+    </div>
+<div id="birth-life-death_" class="container-fluid container-light page-section" data-section="6">
+                
+        <div class="container-paragraph section-title-paragraph">The birth, life, and death of stars</div>
+        
+            
+            
+<div class="m-0 " style="padding-bottom: 1vw;">
+        <div class="row w-100 m-0">
+            <div class="col-lg-12 p-0 position-relative d-flex align-items-center order-lg-1 order-1">
+                <a href="https://www.eso.org/public/images/eso1208a/" target="_blank" class="d-flex align-items-center justify-content-center w-100" rel="noopener noreferrer">
+                    <img class="" style="width: 100%; " src="https://cdn.eso.org/images/original/science-stars-birth1.jpg">
+                    
+                </a>
+
+                
+
+            </div>
+
+        </div>
+</div>
+
+
+
+        
+            
+            <div class="container-subtitle">
+    <span class="section-subtitle-paragraph"><p>The Formation of Stars and Planetary Systems</p></span>
+</div>
+
+        
+            
+            
+<div class="m-0 container-paragraph ">
+    <div style="width: 25%;" class="d-none d-lg-flex flex-column align-items-center justify-content-between float-right ml-5 mb-3">
+        <div>
+             <a href="https://www.eso.org/public/images/potw1827a/" target="_blank" rel="noopener noreferrer"><img class="w-100 d-block " style="" src="https://cdn.eso.org/images/screen/science-stars-birth4.jpg"></a>
+            
+            <div class="px-3_ pt-3 pb-3  caption-text">MWC 758, a young star that is approaching adulthood. Credit: ESO/R. Dong et al.; ALMA (ESO/NAOJ/NRAO)</div>
+        
+        </div>
+    </div>
+    <div class="d-flex d-lg-none flex-column align-items-center justify-content-between w-100 mb-3">
+        <div>
+             <a href="https://www.eso.org/public/images/potw1827a/" target="_blank"><img class="w-100 d-block " style="" src="https://cdn.eso.org/images/screen/science-stars-birth4.jpg"></a>
+        
+        <div class="pt-3 pb-3 caption-text">MWC 758, a young star that is approaching adulthood. Credit: ESO/R. Dong et al.; ALMA (ESO/NAOJ/NRAO)</div>
+        
+        </div>
+    </div>
+</div>
+<div class="container-paragraph float-text">
+    <span>
+        <p>The formation of a star follows a complicated path. Studies of the earliest phases of this process – when proto-stellar discs start to emerge from molecular clouds – are currently typically carried out by telescopes that collect infrared and radio light, as these can penetrate the dust that obscures these discs. Whilst the ELT will peer at the Universe in mostly visible and near-infrared light, its gain in sensitivity and angular resolution over current telescopes will make it a major player in protoplanetary-disc research.</p>
+<p>At mid-infrared wavelengths, the ELT will be able to observe the closest star-forming regions (around 150 parsecs away) with a resolution of just a few astronomical units. This will enable astronomers to probe the innermost regions of protoplanetary discs and even study the formation of rocky planets. A few thousand parsecs away, the closest high-mass star-forming regions can be found. At this distance, the ELT will be able to explore the inner regions (tens of astronomical units) of the surrounding accretion discs, allowing us to study the formation of these stars in great detail.</p>
+    </span>
+</div>
+
+<div style="clear: both;"></div>
+
+
+
+        
+            
+            <div class="container-subtitle">
+    <span class="section-subtitle-paragraph"><p>The Life of a Star</p></span>
+</div>
+
+        
+            
+            
+<div class="m-0 " style="padding-bottom: 1vw;">
+        <div class="row w-100 m-0">
+            <div class="col-lg-12 p-0 position-relative d-flex align-items-center order-lg-1 order-1">
+                <a href="https://www.eso.org/public/images/eso1337d/" target="_blank" class="d-flex align-items-center justify-content-center w-100" rel="noopener noreferrer">
+                    <img class="" style="width: 100%; " src="https://cdn.eso.org/images/banner1920/science-stars-birth2.jpg">
+                    
+                </a>
+
+                
+
+            </div>
+
+        </div>
+</div>
+
+
+
+        
+            
+            
+<div class="container-paragraph section-text-paragraph">
+    <p>Understanding stellar evolution is critical to our understanding of the evolution of the Universe. Matter is continuously recycled as stars and galaxies evolve and chemical processes within stars shape the interstellar medium. The existence of life on Earth, and on other planets, depends on the chemistry of the Universe.&nbsp;</p>
+<p>High-resolution optical and infrared spectroscopy with the ELT will allow us to make unprecedented progress in this field. Astronomers will use the telescope to calculate the ages of the oldest stars in our Galaxy (bulge, disk, halo). Combined with data from space telescopes such as the European Space Agency’s Gaia mission, this will allow us to determine not only the precise age of stars in our Galaxy, but also to date their assembly phases and understand their chemical evolution.&nbsp;</p>
+<p>At the low-mass end of star formation, we enter the realm of brown dwarfs, which are too small to have started the central nuclear fusion process that powers stars. These objects are particularly interesting as they are expected to have masses and atmospheric properties between stars and giant planets. Only the ELT has the collecting power to investigate faint brown dwarfs in nearby open star clusters in detail. In addition, the telescope has the spatial resolution to study brown dwarfs and planetary mass objects in nearby ultra-cool binary star systems. Studying such binary stars will allow us to precisely determine the masses of these enigmatic objects at different evolutionary stages.&nbsp;</p>
+</div>
+
+        
+            
+            <div class="container-subtitle">
+    <span class="section-subtitle-paragraph"><p>Violent deaths and their consequences</p></span>
+</div>
+
+        
+            
+            
+<div class="m-0 " style="padding-bottom: 1vw;">
+        <div class="row w-100 m-0">
+            <div class="col-lg-12 p-0 position-relative d-flex align-items-center order-lg-1 order-1">
+                <a href="https://www.eso.org/public/images/eso1421a/" target="_blank" class="d-flex align-items-center justify-content-center w-100" rel="noopener noreferrer">
+                    <img class="" style="width: 100%; " src="https://cdn.eso.org/images/original/science-stars-birth3.jpg">
+                    
+                </a>
+
+                
+
+            </div>
+
+        </div>
+</div>
+
+
+
+        
+            
+            
+<div class="container-paragraph section-text-paragraph">
+    <p>Some stars die in supernova explosions. The first stars to meet this violent death seeded the early Universe with heavy chemical elements by ejecting, among others, carbon, oxygen and iron into the interstellar medium. These elements critically influenced the formation of later stars and galaxies, and were ultimately necessary for the evolution of life. The ELT will be used to study supernova explosions in exquisite detail and use them as cosmic probes. Indeed, type Ia supernovae provide the most direct evidence to date for the accelerating expansion of the Universe and hence for the existence of the dark energy that drives this acceleration. With the current combination of 8-metre-class ground-based telescopes and the Hubble Space Telescope, we can observe supernovae back to around half the age of the Universe. Infrared spectroscopy with the ELT combined with imaging from the upcoming James Webb Space Telescope will allow us to extend the search for supernovae to redshifts beyond 4, when the Universe was just 10% of its current age. Supernova studies with the ELT will thus critically contribute to characterising the nature of dark energy and investigating the cosmic expansion at early epochs.&nbsp;</p>
+<p>Gamma-ray bursts have been one of the most enigmatic phenomena in astronomy since their discovery in the 1960s, until they were recently successfully linked with the formation of stellar-mass black holes and distant supernovae pointing directly along our line of sight. Gamma-ray bursts are the most energetic explosions observed in the Universe and are currently in the running for being the furthest objects ever observed. The collecting power of the ELT will allow them to be used as extremely distant beacons. Astronomers will be able to detect these objects at redshifts of 7 to 15, taking scientists into the very first stellar generation (population III stars) and into the largely unknown epoch of the reionisation of the Universe.</p>
+</div>
+
+        
+    </div>
+<div id="star-formation-history_" class="container-fluid container-light page-section" data-section="7">
+                
+        <div class="container-paragraph section-title-paragraph">Star formation history of the Universe</div>
+        
+            
+            
+<div class="m-0 " style="padding-bottom: 1vw;">
+        <div class="row w-100 m-0">
+            <div class="col-lg-12 p-0 position-relative d-flex align-items-center order-lg-1 order-1">
+                <a href="https://www.eso.org/public/images/potw2027a/" target="_blank" class="d-flex align-items-center justify-content-center w-100" rel="noopener noreferrer">
+                    <img class="" style="width: 100%; " src="https://cdn.eso.org/images/original/science-stars-formation-banner1.jpg">
+                    
+                </a>
+
+                
+
+            </div>
+
+        </div>
+</div>
+
+
+
+        
+            
+            <div class="container-heading">
+    <span class="section-heading-paragraph"><p>A key issue in modern astrophysics is understanding the star formation history of the Universe, i.e. where and when most stars formed. This is critical to grasp the link between cosmological dark matter and the visible baryonic matter that we can directly observe.</p></span>
+</div>
+
+        
+            
+            
+<div class="container-paragraph section-text-paragraph">
+    <p>The development of large structures in the Universe can be successfully explained in terms of hierarchical growth in the framework of a Lambda Cold Dark Matter model. However, it is still not completely clear how to successfully couple dark matter and visible matter, and how to explain the wide range of galaxy properties we see in the present-day Universe. Direct observations of large samples of galaxies have already been used to map star formation rate and how it changes with the age of the Universe, but since galaxy light is dominated by the youngest stars, the information on the underlying older stars is limited. A similar problem affects the analysis of the spectral energy distribution of galaxies, from which only luminosity-averaged ages and metallicities can be derived. It is only by resolving individual stars, and by precisely plotting their brightness and surface temperature in a Colour Magnitude Diagram, that we can accurately measure the star formation rate as a function of time to trace the fossil record of the star formation history of individual nearby galaxies.&nbsp;&nbsp;</p>
+<p>The ELT will be used to investigate individual stars in other galaxies, including their kinematics and chemical abundances. By combining this information with the stars’ relative ages, it will be possible to reconstruct a galaxy’s chemical enrichment history and the time variation of the kinematic properties of the stellar component, as well as that of the individual galaxy components. Resolving individual stars will provide crucial tools for “galactic archaeologists” to unravel the complex formation and evolution of galaxies from a very detailed perspective, which goes well beyond determining the mean chemical and kinematic properties. For example, the distribution function of chemical abundances encodes information about the chemical enrichment history of a galaxy from the earliest times to the present day, and the distribution of stars' line-of-sight velocities informs us about angular momentum, gravitational potential and possible accretion events. Such information can be gathered for individual galactic components (disc, halo, bulge), which are thought to follow different evolutionary paths.&nbsp;</p>
+<p>Studying evolved low-mass stars such as red giant branch (RGB) stars is crucial: such stars can be almost as old as the Universe itself and thus act as “living fossils”. All stars produced in the earliest star formation episodes down to those created one to one and a half billion years ago are expected to evolve as bright RGB stars. With current instrumentation on 8-10-metre telescopes, spectroscopy of resolved RGB stars is only possible within our own Local Group. While this group of galaxies contains a sizeable and varied sample of dwarf galaxies, it does not host any large elliptical galaxies and only a couple of small and large disc galaxies. Extending such studies to about 4 Mpc is a fundamental step towards understanding the formation history of different galaxy types, and to compare the evolution of Local Group disc galaxies to those in other environments.&nbsp;</p>
+<p>Low-mass ancient stars are faint and are often crowded together, so studying them requires a demanding combination of high spatial resolution, flux sensitivity and a high dynamic range. The Hubble Space Telescope led to a breakthrough in the study of resolved stellar populations in nearby galaxies but struggled to resolve those in galaxies beyond ~1 Mpc. The ELT will provide the necessary leap to push our ability to resolve individual stars well beyond the Local Group and deep into the hearts of more distant giant galaxies. &nbsp;</p>
+<p>The ELT will use its suite of instruments to address this issue using different, complementary approaches:&nbsp;&nbsp;</p>
+<ul>
+<li><a href="../../instrument/HARMONI/index.html">HARMONI</a> will be able to secure spectra in dense regions at 0.5 effective radius, reaching signal to noise ratios above 10 at 10 mas sampling in 10 hours.&nbsp;</li>
+<li><a href="../../instrument/MICADO/index.html">MICADO</a> will provide accurate near-infrared photometry in crowded regions down to faint magnitudes. This means the instrument will be able to measure the properties of low-mass star formation, and thus the form of the Initial Mass Function in a wide range of environments beyond the Milky Way to determine if it is universal.&nbsp;&nbsp;</li>
+<li><a href="../../instrument/MOSAIC/index.html">MOSAIC</a> will study the larger samples needed to explore entire galaxy populations, as compared to <a href="../../instrument/HARMONI/index.html">HARMONI</a>, which will target stars in individual dense regions.&nbsp;</li>
+<li><a href="../../instrument/ANDES/index.html">ANDES</a> will enable detailed high-resolution spectroscopy of individual stars and, in particular, of very faint red dwarfs and distant red giants in nearby galaxies. Among other things, <a href="../../instrument/ANDES/index.html">ANDES</a> will also explore the most primitive stars and measure their chemical make-up.&nbsp;&nbsp;</li>
+</ul>
+</div>
+
+        
+    </div>
+  </main>
+
+
+  <footer class="site-footer">
+    <div class="site-footer__row">
+      <div class="site-footer__brand footer-item">
+        <a href="https:///www.eso.org/"><span class="esoblue">ESO</span></a>&nbsp;|&nbsp;ELT © <div id="current-year">2026</div>
+      </div>
+      <div class="site-footer__links footer-item">
+        <div>
+          <a href="../../credits/index.html"><span class="footer-item"> Credits </span></a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="mailto:information@eso.org"><span class="footer-item"> Contact us </span></a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="https://www.eso.org/public/outreach/newsletters/"><span class="footer-item"> Subscribe to ESO news </span></a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="https://www.cdn77.com/"><span class="footer-item"> Accelerated by CDN77 </span></a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="https://www.eso.org/public/about-eso/privacy/"><span class="footer-item"> Terms &amp; Conditions </span></a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="#"><span class="footer-item privacy-settings-link"> Cookie Settings and Policy </span></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

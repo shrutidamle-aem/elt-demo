@@ -1,0 +1,83 @@
+{
+  "/about/road": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-13T16:07:32.831Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/about/faq": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-13T17:26:32.034Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/about/industrial": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-13T21:18:53.721Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/about/location": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-13T21:08:37.318Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/about/team": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-13T17:26:54.688Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/about/webcams": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-13T20:44:01.121Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/about/workinggroups": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-13T21:39:53.247Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/credits": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-13T17:27:14.227Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/success/buildingon": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-13T21:01:17.824Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

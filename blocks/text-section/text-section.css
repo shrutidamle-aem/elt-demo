@@ -1,0 +1,1390 @@
+/*
+ * Text Section — about-road.css §3 (section type ramp, source L16125, L16163–16207,
+ * L20244–20256 + per-tier rules), §4 (linked wide image, .m-0 L10018 + inline padding-bottom
+ * 1vw), §5 (FAQ, L15775 + per-tier .faq-question); Bootstrap headings (L384–L410), .table
+ * (L2772), .table-responsive, .float-text (L16148), col-lg-3 / col-lg-6 image rows.
+ * Source tiers: <= 576 / >= 576, 768, 992, 1200, 1440, 1680, 1920; the ramp is set as custom
+ * properties per tier. Sub-0.0001rem source values are written in px (1rem = 16px).
+ * The section ground (light / dark …) is the section-metadata style, not this block.
+ */
+
+/* the source ramp is ordered by module, not by specificity */
+/* stylelint-disable no-descending-specificity */
+
+@media only screen and (width <= 576px) {
+  .text-section {
+    --ts-title-size: 1.625rem;
+    --ts-title-pt: 0;
+    --ts-title-pb: 1.5rem;
+    --ts-sub-size: 1.25rem;
+    --ts-sub-lh: 2rem;
+    --ts-text-size: 1rem;
+    --ts-text-lh: 1.6875rem;
+    --ts-text-pad: 0.2rem;
+    --ts-faq-size: 1.125rem;
+    --ts-faq-lh: 2rem;
+  }
+
+  /* success-stories hero title (source .big-header-title-success) — big-header is foundation */
+  .big-header.success .big-header-title {
+    font-size: 0.95rem;
+  }
+}
+
+@media only screen and (width >= 576px) {
+  .text-section {
+    --ts-title-size: 1.6875rem;
+    --ts-title-pt: 0.2rem;
+    --ts-title-pb: 1.7rem;
+    --ts-sub-size: 1.31rem;
+    --ts-sub-lh: 2.1rem;
+    --ts-text-size: 16.5px;
+    --ts-text-lh: 1.75rem;
+    --ts-text-pad: 0.25rem;
+    --ts-faq-size: 1.1875rem;
+    --ts-faq-lh: 33.5px;
+  }
+
+  /* success-stories hero title (source .big-header-title-success) — big-header is foundation */
+  .big-header.success .big-header-title {
+    font-size: 1.345rem;
+  }
+}
+
+@media only screen and (width >= 768px) {
+  .text-section {
+    --ts-title-size: 1.75rem;
+    --ts-title-pt: 0.4rem;
+    --ts-title-pb: 1.9rem;
+    --ts-sub-size: 1.36rem;
+    --ts-sub-lh: 2.17rem;
+    --ts-text-size: 1.0625rem;
+    --ts-text-lh: 1.8125rem;
+    --ts-text-pad: 0.3rem;
+    --ts-faq-size: 1.25rem;
+    --ts-faq-lh: 2.1875rem;
+  }
+
+  /* success-stories hero title (source .big-header-title-success) — big-header is foundation */
+  .big-header.success .big-header-title {
+    font-size: 1.7243rem;
+  }
+}
+
+@media only screen and (width >= 992px) {
+  .text-section {
+    --ts-title-size: 29.5px;
+    --ts-title-pt: 0.6rem;
+    --ts-title-pb: 2.1rem;
+    --ts-sub-size: 1.43rem;
+    --ts-sub-lh: 2.3rem;
+    --ts-text-size: 1.125rem;
+    --ts-text-lh: 30.5px;
+    --ts-text-pad: 0.35rem;
+    --ts-faq-size: 1.3125rem;
+    --ts-faq-lh: 36.75px;
+  }
+
+  /* success-stories hero title (source .big-header-title-success) — big-header is foundation */
+  .big-header.success .big-header-title {
+    font-size: 2.1668rem;
+  }
+}
+
+@media only screen and (width >= 1200px) {
+  .text-section {
+    --ts-title-size: 1.9375rem;
+    --ts-title-pt: 0.8rem;
+    --ts-title-pb: 2.3rem;
+    --ts-sub-size: 1.49rem;
+    --ts-sub-lh: 2.4rem;
+    --ts-text-size: 18.5px;
+    --ts-text-lh: 2rem;
+    --ts-text-pad: 0.4rem;
+    --ts-faq-size: 22.25px;
+    --ts-faq-lh: 38.5px;
+  }
+
+  /* success-stories hero title (source .big-header-title-success) — big-header is foundation */
+  .big-header.success .big-header-title {
+    font-size: 2.5777rem;
+  }
+}
+
+@media only screen and (width >= 1440px) {
+  .text-section {
+    --ts-title-size: 2rem;
+    --ts-title-pt: 1rem;
+    --ts-title-pb: 2.5rem;
+    --ts-sub-size: 1.56rem;
+    --ts-sub-lh: 2.5rem;
+    --ts-text-size: 19.5px;
+    --ts-text-lh: 2.0625rem;
+    --ts-text-pad: 0.48rem;
+    --ts-faq-size: 23.5px;
+    --ts-faq-lh: 40.25px;
+  }
+
+  /* success-stories hero title (source .big-header-title-success) — big-header is foundation */
+  .big-header.success .big-header-title {
+    font-size: 3.0518rem;
+  }
+}
+
+@media only screen and (width >= 1680px) {
+  .text-section {
+    --ts-title-size: 33.5px;
+    --ts-title-pt: 1.25rem;
+    --ts-title-pb: 2.8rem;
+    --ts-sub-size: 1.63rem;
+    --ts-sub-lh: 2.6rem;
+    --ts-text-size: 1.25rem;
+    --ts-text-lh: 34.5px;
+    --ts-text-pad: 0.54rem;
+    --ts-faq-size: 24.75px;
+    --ts-faq-lh: 2.625rem;
+  }
+
+  /* success-stories hero title (source .big-header-title-success) — big-header is foundation */
+  .big-header.success .big-header-title {
+    font-size: 3.5259rem;
+  }
+}
+
+@media only screen and (width >= 1920px) {
+  .text-section {
+    --ts-title-size: 2.1875rem;
+    --ts-title-pt: 1.5rem;
+    --ts-title-pb: 3rem;
+    --ts-sub-size: 1.7rem;
+    --ts-sub-lh: 2.7rem;
+    --ts-text-size: 1.3125rem;
+    --ts-text-lh: 2.25rem;
+    --ts-text-pad: 0.6rem;
+    --ts-faq-size: 1.625rem;
+    --ts-faq-lh: 2.75rem;
+  }
+
+  /* success-stories hero title (source .big-header-title-success) — big-header is foundation */
+  .big-header.success .big-header-title {
+    font-size: 4rem;
+  }
+}
+
+.text-section .container-paragraph {
+  padding: 0 var(--content-inset) 0.005rem;
+}
+
+.text-section .container-subtitle {
+  padding: 0 var(--content-inset);
+}
+
+/* section title */
+.text-section .section-title-paragraph {
+  font-size: var(--ts-title-size);
+  font-weight: 600;
+  padding-top: var(--ts-title-pt);
+  padding-bottom: var(--ts-title-pb);
+}
+
+.text-section .section-title-paragraph.has-share {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* authored title paragraph / heading takes the row's type (the source title is a plain div) */
+.text-section .section-title-paragraph p,
+.text-section .section-title-paragraph :is(h1, h2) {
+  margin: 0;
+  font: inherit;
+}
+
+/* `inline-titles`: the source's .container-title > span.section-title-paragraph > p */
+.text-section.inline-titles .section-title-paragraph {
+  padding: 0 var(--content-inset);
+}
+
+.text-section.inline-titles .section-title-paragraph p {
+  padding-top: var(--ts-title-pt);
+  padding-bottom: var(--ts-title-pb);
+  margin-bottom: 1rem;
+  line-height: var(--ts-text-lh);
+}
+
+/* sub-title */
+.text-section .section-subtitle-paragraph,
+.text-section .section-subtitle-paragraph p {
+  font-size: var(--ts-sub-size);
+  line-height: var(--ts-sub-lh);
+  font-weight: 700;
+}
+
+.text-section .section-subtitle-paragraph p {
+  padding: 0;
+}
+
+/* variant `subtitle-gap`: the source's sub-title wraps a <p> (the section paragraph padding) */
+.text-section.subtitle-gap .section-subtitle-paragraph p {
+  padding: var(--ts-text-pad) 0;
+}
+
+/* text */
+.text-section .section-text-paragraph,
+.text-section .section-text-paragraph p,
+.text-section .float-text p {
+  font-size: var(--ts-text-size);
+  line-height: var(--ts-text-lh);
+  padding-top: var(--ts-text-pad);
+  padding-bottom: var(--ts-text-pad);
+}
+
+.text-section .section-text-paragraph :is(h1, h2, h3, h4, h5, h6) {
+  margin: 0 0 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.text-section .section-text-paragraph h1 {
+  font-size: 2.5rem;
+}
+
+.text-section .section-text-paragraph h2 {
+  font-size: 2rem;
+}
+
+.text-section .section-text-paragraph h3 {
+  font-size: 1.75rem;
+}
+
+.text-section .section-text-paragraph h4 {
+  font-size: 1.5rem;
+}
+
+.text-section .section-text-paragraph h5 {
+  font-size: 1.25rem;
+}
+
+.text-section .section-text-paragraph h6 {
+  font-size: 1rem;
+}
+
+/* tables */
+.text-section .table-responsive {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.text-section .section-text-paragraph table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.text-section .section-text-paragraph td {
+  padding: 1px;
+}
+
+.text-section .section-text-paragraph td:first-child {
+  width: 28%;
+}
+
+.text-section .section-text-paragraph td p {
+  margin: 0;
+  padding: 0;
+}
+
+.text-section.bordered .section-text-paragraph table {
+  margin-bottom: 1rem;
+  color: #212529;
+}
+
+.text-section.bordered .section-text-paragraph td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+
+.text-section.bordered .section-text-paragraph td p {
+  margin-bottom: 1rem;
+  padding-top: var(--ts-text-pad);
+  padding-bottom: var(--ts-text-pad);
+}
+
+.text-section.centered .section-text-paragraph td {
+  text-align: center;
+  width: 15%;
+}
+
+.text-section.centered .section-text-paragraph td:nth-child(2) {
+  width: auto;
+}
+
+/* linked wide image: inset by the content padding; `bleed` spans the full width */
+.text-section .article-image {
+  margin: 0;
+  padding: 0 var(--content-inset) 1vw;
+}
+
+.text-section.bleed .article-image {
+  padding: 0 0 1vw;
+}
+
+.text-section .article-image a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.text-section .article-image picture {
+  display: contents;
+}
+
+.text-section .article-image img {
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+/* image row (col-lg-3 / col-lg-6): stacked below 992, one column per cell above */
+.text-section .article-image-row {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.text-section .article-image-row .article-image-cell a {
+  justify-content: flex-start;
+}
+
+.text-section .article-image-row img {
+  width: calc(100% - 6px);
+}
+
+.text-section .article-image-caption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: calc(100% - 6px);
+  padding: 1rem;
+  text-align: center;
+}
+
+@media only screen and (width >= 992px) {
+  .text-section .article-image-row {
+    grid-template-columns: repeat(var(--columns, 1), 1fr);
+  }
+}
+
+/* floated image beside text (.float-left 33% mr-5 mb-3 at >= 992; stacked below) */
+.text-section .float-row {
+  display: flow-root;
+}
+
+.text-section .float-image {
+  margin: 0 0 1rem;
+}
+
+.text-section .float-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.text-section .float-text p {
+  padding-top: 0;
+}
+
+/* the source's .float-text shell has no padding; its paragraphs rise by the tier's
+   margin-top (-0.4rem at 992, -0.5rem at 1200, -0.6rem at 1680) */
+.text-section .float-row .float-text {
+  padding-top: 0;
+  padding-bottom: 0.005rem;
+}
+
+@media only screen and (width >= 992px) {
+  .text-section .float-image {
+    float: left;
+    width: 33%;
+    margin: 0 3rem 1rem 0;
+  }
+
+  .text-section .float-row .float-text p {
+    margin-top: -0.4rem;
+  }
+}
+
+@media only screen and (width >= 1200px) {
+  .text-section .float-row .float-text p {
+    margin-top: -0.5rem;
+  }
+}
+
+@media only screen and (width >= 1680px) {
+  .text-section .float-row .float-text p {
+    margin-top: -0.6rem;
+  }
+}
+
+/* FAQ (about-road.css §5) */
+.text-section .faq-paragraph p,
+.text-section .faq-top p {
+  display: inline;
+}
+
+.text-section .faq-index,
+.text-section .faq-question {
+  padding-bottom: 1rem;
+}
+
+.text-section .faq-top {
+  padding: 1rem 0;
+}
+
+.text-section .faq-question {
+  font-size: var(--ts-faq-size);
+  line-height: var(--ts-faq-lh);
+  scroll-margin-top: 150px;
+}
+
+.text-section .section-text-paragraph .faq-question p {
+  font-size: var(--ts-faq-size);
+}
+
+/* ── variant `intro`: page-intro subtitle / description echoed below 992 px (source
+   d-block d-lg-none / d-none d-lg-block d-xl-none `section-subtitle-paragraph-aftertitle`) ── */
+.text-section .intro-echo-wide {
+  display: none;
+}
+
+.text-section .intro-echo-subtitle p {
+  margin: 0;
+  padding: 0;
+}
+
+@media (width >= 992px) {
+  .text-section .intro-echo-subtitle,
+  .text-section .intro-echo-text {
+    display: none;
+  }
+
+  .text-section .intro-echo-wide {
+    display: block;
+  }
+}
+
+@media (width >= 1200px) {
+  .text-section .intro-echo-wide {
+    display: none;
+  }
+}
+
+/* `intro program` (program template, telescope-dome.css §1): the page-intro tiers move up one
+   step — subtitle + text echoed below 1200 px (hide-xl), the description as a sub-title from
+   1200 to 1440 px (show-xl-only), nothing from 1440 px */
+@media (width >= 992px) {
+  .text-section.intro.program .intro-echo-subtitle,
+  .text-section.intro.program .intro-echo-text {
+    display: block;
+  }
+
+  .text-section.intro.program .intro-echo-wide {
+    display: none;
+  }
+}
+
+@media (width >= 1200px) {
+  .text-section.intro.program .intro-echo-subtitle,
+  .text-section.intro.program .intro-echo-text {
+    display: none;
+  }
+
+  .text-section.intro.program .intro-echo-wide {
+    display: block;
+  }
+}
+
+/* the program nutshell is a .page-section: the echoed sub-title paragraph keeps the section
+   paragraph padding and the 1rem paragraph margin */
+.text-section.intro.program .intro-echo-subtitle p {
+  margin: 0 0 1rem;
+  padding: var(--ts-text-pad) 0;
+}
+
+/* `plain-nutshell` (program, science pages): the nutshell container is not a .page-section in
+   the source, so the echoed sub-title paragraph has no paragraph padding (margin kept) */
+.text-section.intro.program.plain-nutshell .intro-echo-subtitle p {
+  padding: 0;
+}
+
+/* `empty-echo` (program, operations): the source's below-1200 description echo container is
+   there but empty — its paragraph padding alone under the echoed sub-title */
+@media (width < 1200px) {
+  .text-section.intro.program.empty-echo .intro-echo-subtitle::after {
+    content: "";
+    display: block;
+    height: calc(2 * var(--ts-text-pad));
+  }
+}
+
+@media (width >= 1440px) {
+  .text-section.intro.program .intro-echo-wide {
+    display: none;
+  }
+}
+
+/* image-row caption: the source's span.p-3 > p — section text type, 1rem bottom margin */
+.text-section .article-image-caption p {
+  margin: 0 0 1rem;
+  padding: var(--ts-text-pad) 0;
+  font-size: var(--ts-text-size);
+  line-height: var(--ts-text-lh);
+}
+
+/* tables: logo images at the source's width="100"; a cell whose lone paragraph the delivery
+   unwrapped keeps the paragraph's box (padding + 1rem margin) */
+.text-section.bordered .section-text-paragraph td img {
+  width: 100px;
+  max-width: none;
+  height: auto;
+}
+
+.text-section.bordered .section-text-paragraph
+td:not(:has(> p, > h1, > h2, > h3, > h4, > h5, > h6)) {
+  padding-top: calc(0.75rem + var(--ts-text-pad));
+  padding-bottom: calc(1.75rem + var(--ts-text-pad));
+}
+
+/* variant `narrow-image`: the wide image at the source's inline width: 80%, centred */
+.text-section.narrow-image .article-image img {
+  display: block;
+  width: 80%;
+  margin-inline: auto;
+}
+
+/* ── variant `webcams` (source elt_assets L16137 .padding-y-3vw, L16288 .webcam-stamps,
+   L20402–L20432 .webcam-wrapper / -timestamp / -nolive) */
+.text-section.webcams .article-image {
+  display: flex;
+  justify-content: center;
+
+  /* .padding-y-3vw inside the .section-text-paragraph container (its --ts-text-pad) */
+  padding: calc(3vw + var(--ts-text-pad)) var(--content-inset);
+}
+
+/* the source sub-title is a bare 40 px row: no paragraph margin under it */
+.text-section.webcams .section-subtitle-paragraph p {
+  margin-bottom: 0;
+}
+
+.text-section.webcams .webcam-frame {
+  position: relative;
+  max-width: 100%;
+}
+
+.text-section.webcams .webcam-frame a {
+  display: block;
+  width: auto;
+}
+
+.text-section.webcams .webcam-frame img {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+/* interactive view: the 360° viewer slot (400 px) holds the panorama poster, caption below;
+   the source's inline-block viewer sits on a text line (its descent: 10 px, 8 px ≤ 576 px) */
+.text-section.webcams .article-image:has(+ .section-text-paragraph) {
+  padding-bottom: 10px;
+}
+
+.text-section.webcams .article-image:has(+ .section-text-paragraph) .webcam-frame {
+  width: 100%;
+}
+
+.text-section.webcams .article-image:has(+ .section-text-paragraph) img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.text-section.webcams .article-image + .section-text-paragraph {
+  padding-top: 0;
+  padding-bottom: calc(3vw + var(--ts-text-pad));
+  text-align: center;
+}
+
+/* the 360° viewer (pano-viewer.js) over the poster: krpano's black ground + button bar */
+.text-section.webcams .pano-viewer {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  background: #000;
+  visibility: hidden;
+}
+
+.text-section.webcams .pano-viewer.ready {
+  visibility: visible;
+}
+
+.text-section.webcams .pano-viewer canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  cursor: move;
+  touch-action: none;
+}
+
+.text-section.webcams .pano-controls {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  width: 0;
+  height: 40px;
+}
+
+.text-section.webcams .pano-button {
+  position: absolute;
+  bottom: 0;
+  left: calc(var(--x) - 20px);
+  width: 40px;
+  height: 40px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: url('webcam-buttons.png') var(--col) 0 no-repeat;
+  cursor: pointer;
+}
+
+.text-section.webcams .pano-button:hover {
+  background-position-y: -40px;
+}
+
+.text-section.webcams .pano-button:active {
+  background-position-y: -80px;
+}
+
+.text-section.webcams .article-image + .section-text-paragraph p {
+  margin: 0;
+  padding: 0;
+}
+
+/* points of interest: col-xl-6 cells, image at its 460 px rendition, caption max 460 px */
+.text-section.webcams .article-image-row {
+  display: grid;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* one source .section-text-paragraph holds all the rows: its padding above / below the run */
+.text-section.webcams .section-subtitle-paragraph + .article-image-row {
+  padding-top: var(--ts-text-pad);
+}
+
+.text-section.webcams .article-image-row:not(:has(+ .article-image-row)) {
+  padding-bottom: var(--ts-text-pad);
+}
+
+.text-section.webcams .article-image-row .article-image-cell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3vw 0;
+}
+
+.text-section.webcams .article-image-row img {
+  width: auto;
+}
+
+.text-section.webcams .article-image-row .article-image-caption {
+  display: block;
+  width: auto;
+  max-width: 460px;
+  padding: 0;
+}
+
+.text-section.webcams .article-image-row .article-image-caption p {
+  margin: 0;
+  padding: 0;
+}
+
+.text-section.webcams .article-image-caption a {
+  display: inline;
+}
+
+.text-section.webcams .webcam-stamp {
+  position: absolute;
+  top: 0;
+  margin: 20px;
+  padding: 5px 10px;
+  background-color: rgb(0 0 0 / 20%);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: var(--ts-text-lh);
+}
+
+.text-section.webcams .webcam-timestamp {
+  left: 0;
+}
+
+.text-section.webcams .webcam-nolive {
+  right: 0;
+}
+
+@media only screen and (width <= 576px) {
+  .text-section.webcams .article-image:has(+ .section-text-paragraph) {
+    padding-bottom: 8px;
+  }
+
+  /* `webcams narrow-text`: the source's 7-line wrap of a description under the fallback face
+     (R-01): one line ("… pier and") is 283 px wide in the fallback, 280 px breaks it */
+  .text-section.webcams.narrow-text .article-image + .section-text-paragraph p {
+    max-width: 280px;
+    margin-inline: auto;
+  }
+
+  .text-section.webcams .webcam-stamp {
+    margin: 10px;
+    font-size: 10px;
+  }
+
+  .text-section.webcams .webcam-nolive {
+    display: none;
+  }
+}
+
+/* ── variant `row-styles` (instrument-harmoni.css §5, §7, §8): plain-paragraph rows take the
+   source's `.page-section p` ramp; `heading` rows the bold text-size row; floated figures
+   (d-lg-flex float-right ml-5 mb-3 / float-left mr-5 mb-3) with an in-flow copy below 992 px;
+   wide figure captions ── */
+.text-section.row-styles .container-heading {
+  padding: 0 var(--content-inset);
+}
+
+.text-section.row-styles .section-heading-paragraph,
+.text-section.row-styles .section-heading-paragraph p {
+  font-size: var(--ts-text-size);
+  line-height: var(--ts-text-lh);
+  font-weight: 700;
+}
+
+.text-section.row-styles :is(.section-subtitle-paragraph, .section-heading-paragraph)
+  :is(h1, h2, h3, h4, h5, h6) {
+  margin: 0;
+  font: inherit;
+}
+
+.text-section.row-styles :is(.contacts, .float-text, .article-image-captioned) p {
+  font-size: var(--ts-text-size);
+  line-height: var(--ts-text-lh);
+  padding-top: var(--ts-text-pad);
+  padding-bottom: var(--ts-text-pad);
+}
+
+.text-section.row-styles :is(.section-subtitle-paragraph, .section-heading-paragraph) p {
+  padding-top: var(--ts-text-pad);
+  padding-bottom: var(--ts-text-pad);
+}
+
+.text-section.row-styles .caption-text {
+  font-weight: 400;
+}
+
+.text-section.row-styles .float-figure {
+  display: none;
+  margin: 0 0 1rem;
+}
+
+.text-section.row-styles .float-figure-right {
+  float: right;
+  margin-left: 3rem;
+}
+
+.text-section.row-styles .float-figure-left {
+  float: left;
+  margin-right: 3rem;
+}
+
+.text-section.row-styles .float-figure-quarter {
+  width: 25%;
+}
+
+.text-section.row-styles .float-figure-third {
+  width: 33%;
+}
+
+.text-section.row-styles .float-figure-narrow {
+  width: 35%;
+}
+
+.text-section.row-styles .float-figure-large {
+  width: 42%;
+}
+
+.text-section.row-styles .float-figure-medium {
+  width: 40%;
+}
+
+.text-section.row-styles .float-figure-half {
+  width: 50%;
+}
+
+.text-section.row-styles .float-figure-wide {
+  width: 60%;
+}
+
+.text-section.row-styles .float-figure-mobile {
+  display: block;
+  width: 100%;
+  margin: 0 0 1rem;
+}
+
+.text-section.row-styles .float-figure-box picture {
+  display: contents;
+}
+
+.text-section.row-styles .float-figure-box img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.text-section.row-styles .float-figure-box .caption-text {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.text-section.row-styles .float-figure-box p {
+  margin: 0;
+}
+
+.text-section.row-styles .article-image-captioned img {
+  display: block;
+}
+
+.text-section.row-styles .article-image-captioned .caption-text {
+  display: flow-root;
+  padding: 1rem 15px 0;
+}
+
+.text-section.row-styles .article-image-captioned p {
+  text-align: center;
+}
+
+@media (width >= 992px) {
+  .text-section.row-styles .float-figure {
+    display: block;
+  }
+
+  /* `flush`: the source's .container-paragraph-right shell drops its left inset from 992 px */
+  .text-section.row-styles .float-figure-box:has(.float-figure-flush) {
+    padding-left: 0;
+  }
+
+  .text-section.row-styles .float-figure-mobile {
+    display: none;
+  }
+}
+
+/* AOS fade-right (source L15609) */
+.text-section [data-aos^="fade"] {
+  opacity: 0;
+  transition-property: opacity, transform;
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
+}
+
+.text-section [data-aos="fade-right"] {
+  transform: translate3d(-100px, 0, 0);
+}
+
+.text-section [data-aos^="fade"].aos-animate {
+  opacity: 1;
+  transform: translateZ(0);
+}
+
+@media only screen and (width <= 576px) {
+  .text-section.row-styles .image-title-paragraph {
+    padding-top: 1.5rem;
+  }
+
+  .text-section.row-styles .caption-text,
+  .text-section.row-styles .caption-text p {
+    font-size: 0.8125rem;
+  }
+}
+
+@media only screen and (width >= 576px) {
+  .text-section.row-styles .image-title-paragraph {
+    padding-top: 1.75rem;
+  }
+
+  .text-section.row-styles .caption-text,
+  .text-section.row-styles .caption-text p {
+    font-size: 0.853rem;
+  }
+}
+
+@media only screen and (width >= 768px) {
+  .text-section.row-styles .image-title-paragraph {
+    padding-top: 2rem;
+  }
+
+  .text-section.row-styles .caption-text,
+  .text-section.row-styles .caption-text p {
+    font-size: 0.892rem;
+  }
+}
+
+@media only screen and (width >= 992px) {
+  .text-section.row-styles .image-title-paragraph {
+    padding-top: 2.3rem;
+  }
+
+  .text-section.row-styles .caption-text,
+  .text-section.row-styles .caption-text p {
+    font-size: 0.937rem;
+  }
+
+  .text-section.row-styles .float-text p {
+    margin-top: -0.4rem;
+  }
+}
+
+@media only screen and (width >= 1200px) {
+  .text-section.row-styles .image-title-paragraph {
+    padding-top: 2.5rem;
+  }
+}
+
+@media only screen and (width >= 1440px) {
+  .text-section.row-styles .image-title-paragraph {
+    padding-top: 2.9rem;
+  }
+
+  .text-section.row-styles .caption-text,
+  .text-section.row-styles .caption-text p {
+    font-size: 1.028rem;
+  }
+
+  .text-section.row-styles .float-text p {
+    margin-top: -0.5rem;
+  }
+}
+
+@media only screen and (width >= 1680px) {
+  .text-section.row-styles .image-title-paragraph {
+    padding-top: 3.2rem;
+  }
+}
+
+@media only screen and (width >= 1920px) {
+  .text-section.row-styles .image-title-paragraph {
+    padding-top: 3.5rem;
+  }
+}
+
+/* row-styles float text sits flush under the subtitle (after the ramp's padding) */
+.text-section.row-styles .float-text p {
+  padding-top: 0;
+}
+
+/* a `subtitle float` row keeps the sub-title type (the source's .float-text sets no type) */
+.text-section.row-styles .section-subtitle-paragraph.float-text p {
+  font-size: var(--ts-sub-size);
+  line-height: var(--ts-sub-lh);
+}
+
+/* row-styles words `inset` / size / `shadow` (source m-0 container-paragraph + img inline width
+   + .image-shadow L15771), `clear` (source clear: both shells), `centered` (text-align center) */
+.text-section.row-styles .article-image-inset {
+  padding: 0 var(--content-inset) 1vw;
+}
+
+.text-section.row-styles .article-image-narrow img {
+  width: 35%;
+}
+
+.text-section.row-styles .article-image-medium img {
+  width: 40%;
+}
+
+.text-section.row-styles .article-image-half img {
+  width: 50%;
+}
+
+.text-section.row-styles .article-image-wide img {
+  width: 60%;
+}
+
+.text-section.row-styles .article-image-xwide img {
+  width: 80%;
+}
+
+.text-section.row-styles .article-image-border img {
+  border: 1px solid rgb(188 189 190);
+}
+
+.text-section.row-styles .article-image-shadow img {
+  box-shadow: 5px 5px 10px 3px #333;
+}
+
+.text-section.row-styles .float-clear {
+  clear: both;
+}
+
+.text-section.row-styles .text-centered p {
+  text-align: center;
+}
+
+/* `video-caption`: the youtube widget before it keeps a 3rem bottom space the source's
+   in-paragraph player does not have (the caption's own text padding stands in for the
+   source's padding above the player) */
+.text-section.video-caption {
+  margin-top: -3rem;
+}
+
+/* the source caption is a <small> (80 %) inside the paragraph; DA drops the <small> */
+.text-section.video-caption .section-text-paragraph p {
+  font-size: calc(var(--ts-text-size) * 0.8);
+}
+
+/* variant `media-info` (added by archetype-media; default rendering untouched): the News &
+   Multimedia information section — the .page-section h2 ramp (media.css §3b, L16207 + per-tier
+   rules) and the press-kit image's 4rem bottom space (inline on the source; use with
+   `row-styles` and the image row's `half` word); `media-intro` (CSS only) — the intro text
+   under "Featured Stories" (R-01 tracking nudge < 576 px) */
+.text-section.media-info .section-text-paragraph h2 {
+  font-size: 1rem;
+  line-height: 1.6875rem;
+}
+
+.text-section.media-info .article-image-half {
+  padding-bottom: 4rem;
+}
+
+/* the map (source .media-map: centred at 60 %) and the source's empty `<p>&nbsp;</p>` before
+   "Media contacts" (dropped by the content pipeline) — kept as the figure's bottom space */
+.text-section.media-info .article-image-wide {
+  margin-bottom: 4rem;
+}
+
+.text-section.media-info .article-image-wide img {
+  display: block;
+  margin-inline: auto;
+}
+
+/* < 576 px: the source's spacer paragraph is shorter there; and a -0.1px tracking nudge on the
+   media page's text (`media-info` + the `media-intro` intro) so the fallback face (R-01) breaks
+   the lines where the source does (intro + "There are two ways…" otherwise wrap one line more) */
+@media only screen and (width < 576px) {
+  .text-section.media-info .article-image-wide {
+    margin-bottom: 3rem;
+  }
+
+  .text-section.media-intro p,
+  .text-section.media-info p {
+    letter-spacing: -0.1px;
+  }
+}
+
+@media only screen and (width >= 576px) {
+  .text-section.media-info .section-text-paragraph h2 {
+    font-size: 1.0313rem;
+    line-height: 1.75rem;
+  }
+}
+
+@media only screen and (width >= 768px) {
+  .text-section.media-info .section-text-paragraph h2 {
+    font-size: 1.0625rem;
+    line-height: 1.8125rem;
+  }
+}
+
+@media only screen and (width >= 992px) {
+  .text-section.media-info .section-text-paragraph h2 {
+    font-size: 1.125rem;
+    line-height: 1.9063rem;
+  }
+}
+
+@media only screen and (width >= 1200px) {
+  .text-section.media-info .section-text-paragraph h2 {
+    font-size: 1.1563rem;
+    line-height: 2rem;
+  }
+}
+
+@media only screen and (width >= 1440px) {
+  .text-section.media-info .section-text-paragraph h2 {
+    font-size: 1.2188rem;
+    line-height: 2.0625rem;
+  }
+}
+
+@media only screen and (width >= 1680px) {
+  .text-section.media-info .section-text-paragraph h2 {
+    font-size: 1.25rem;
+    line-height: 2.1563rem;
+  }
+}
+
+@media only screen and (width >= 1920px) {
+  .text-section.media-info .section-text-paragraph h2 {
+    font-size: 1.3125rem;
+    line-height: 2.25rem;
+  }
+}
+
+/* `grey-pair` (listing, /instrument): the source's two linked images on the grey
+   rgb(158 162 163) ground (col-lg-6 .padding-y-3vw, L16114; 81 % wide, aligned to the
+   middle from 992 px, centred below); use with `bleed` (the row spans the full width) */
+.text-section.grey-pair .article-image {
+  padding: 0;
+}
+
+.text-section.grey-pair .article-image-cell {
+  display: flex;
+  align-items: center;
+  padding: 3vw 15px;
+  background-color: rgb(158 162 163);
+}
+
+.text-section.grey-pair .article-image-row .article-image-cell a {
+  justify-content: center;
+}
+
+.text-section.grey-pair .article-image-row img {
+  width: 81%;
+}
+
+@media only screen and (width >= 992px) {
+  .text-section.grey-pair .article-image-row .article-image-cell a {
+    justify-content: flex-end;
+  }
+
+  .text-section.grey-pair .article-image-row .article-image-cell + .article-image-cell a {
+    justify-content: flex-start;
+  }
+}
+
+/* `y-2` (CSS only; listing): the source section's .container-y-2 bottom space (L19764, 2rem
+   below the last text of the section) — on the section's last text-section */
+.text-section.y-2 {
+  padding-bottom: 2rem;
+}
+
+/* `measure-nudge` (success-buildingon): the source's 9-line wrap of a block's first paragraph
+   under the fallback face (R-01) — its lines are within 1 px of the 1138 px measure, so the
+   fallback sets 8; a 2 px shorter measure and 0.4 px word spacing restore the 9 lines (the last
+   four break as the source's) */
+@media only screen and (width >= 1440px) and (width < 1680px) {
+  .text-section.measure-nudge .section-text-paragraph > p:first-child {
+    padding-right: 2px;
+    word-spacing: 0.4px;
+  }
+
+  /* `measure-nudge nudge-fine` (about-workinggroups): a 1.2 px shorter measure only — the
+     source's 6-line wrap ("… a substantial / task.") */
+  .text-section.measure-nudge.nudge-fine .section-text-paragraph > p:first-child {
+    padding-right: 1.2px;
+    word-spacing: normal;
+  }
+}
+
+/* variant `h2-text` (program template, science pages): an <h2> in the section text takes the
+   source's .page-section h2 ramp — the section text size and line height, bold */
+.text-section.h2-text .section-text-paragraph h2 {
+  margin: 0 0 0.5rem;
+  padding: 0;
+  font-size: var(--ts-text-size);
+  line-height: var(--ts-text-lh);
+  font-weight: 700;
+}
+
+/* `h2-text` in a `plain-nutshell` (fundamentalphysics): outside a .page-section the h2 keeps
+   Bootstrap's h2 (2rem / 1.2, weight 500) */
+.text-section.plain-nutshell.h2-text .section-text-paragraph h2 {
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+/* `h2-spaced` (program): the source's empty <h3>&nbsp;</h3> above the h2 (Bootstrap h3 line,
+   1.75rem / 1.2, .5rem margin) and empty <p>&nbsp;</p> below it (one text line, its padding and
+   the 1rem paragraph margin), which the delivery drops */
+.text-section.h2-spaced .section-text-paragraph h2 {
+  margin-top: calc(1.75rem * 1.2 + 0.5rem);
+  margin-bottom: calc(0.5rem + var(--ts-text-lh) + 2 * var(--ts-text-pad) + 1rem);
+}
+
+/* row-styles word `gap`: the source's trailing empty paragraph (one text line, its padding and
+   the 1rem paragraph margin) */
+.text-section.row-styles .text-gap::after {
+  content: "";
+  display: block;
+  height: calc(var(--ts-text-lh) + 2 * var(--ts-text-pad) + 1rem);
+}
+
+/* `sup-metrics` (about-location): the source's Bootstrap sub/sup (reboot: 75 %, line-height 0,
+   raised .5em) — the foundation sup keeps the line height and grows its line by 6 px */
+.text-section.sup-metrics :is(sub, sup) {
+  position: relative;
+  font-size: 75%;
+  line-height: 0;
+  vertical-align: baseline;
+}
+
+.text-section.sup-metrics sup {
+  top: -0.5em;
+}
+
+.text-section.sup-metrics sub {
+  bottom: -0.25em;
+}
+
+/* `narrow-measure` (about-location): below 576 px the text paragraphs at a 282 px measure — the
+   source's wrap under the fallback face (R-01; "… report concluded" is 283.5 px in the fallback,
+   the widest source line 280.9) */
+@media only screen and (width <= 576px) {
+  .text-section.narrow-measure .section-text-paragraph:not(.intro-echo) > p {
+    max-width: 282px;
+  }
+
+  /* `narrow-measure measure-280` (instrument-andes intro): the same at 280 px (not the
+     page-intro echo, which keeps the full measure) */
+  .text-section.narrow-measure.measure-280 .section-text-paragraph:not(.intro-echo) > p {
+    max-width: 280px;
+  }
+
+  /* `tight-tracking` (instrument-andes consortium): -0.1 px tracking below 576 px — the
+     fallback face (R-01) sets the 77-line consortium paragraph and a one-line contact one line
+     longer than the source */
+  .text-section.tight-tracking p {
+    letter-spacing: -0.1px;
+  }
+}
+
+/* `logo-widths` (about-industrial): the source's three logos not at width="100" (rows 9, 21, 31
+   of the contractors table: width 210 / 120 / 90) — the 210 px one sets the logo column, and
+   with it the scroll table's wraps below 576 px; and the source's cell widths (table
+   width="100%", every cell but Service style="width: 15%") */
+.text-section.bordered.logo-widths table {
+  width: 100%;
+}
+
+.text-section.bordered.logo-widths td:not(:nth-child(2)) {
+  width: 15%;
+}
+
+.text-section.bordered.logo-widths tr:nth-child(9) td img {
+  width: 210px;
+}
+
+.text-section.bordered.logo-widths tr:nth-child(21) td img {
+  width: 120px;
+}
+
+.text-section.bordered.logo-widths tr:nth-child(31) td img {
+  width: 90px;
+}
+
+/* `snug-captions` (program): the block's captioned two-image rows sit in the source's bare .m-0
+   wrapper — images at the full column (style="width: 100%"), no 1vw under the row, and the
+   caption column is .col-lg-6.pt-3 (15 px gutters, top padding only; the paragraph's own 1rem
+   margin closes it) */
+.text-section.snug-captions .article-image-row:has(.article-image-caption):not(:has(> .article-image-cell:nth-child(3))) {
+  padding-bottom: 0;
+}
+
+.text-section.snug-captions .article-image-row:not(:has(> .article-image-cell:nth-child(3))) img {
+  width: 100%;
+}
+
+.text-section.snug-captions .article-image-row:not(:has(> .article-image-cell:nth-child(3))) .article-image-caption {
+  width: 100%;
+  padding: 1rem 15px 0;
+}
+
+/* `row-images-full` (program): the block's image rows carry the source's style="width: 100%"
+   images in .p-0 columns — the full column, no 6 px gutter */
+.text-section.row-images-full .article-image-row img {
+  width: 100%;
+}
+
+/* `grey-triptych` (program, mirror-m2m3): the three-image row whose captions are the source's
+   span.p-3 boxes on alternating grounds (rgb(188 189 190) / white / grey), each the full
+   column wide (.col-lg-4.p-0), images at style="width: 100%" */
+.text-section.grey-triptych .article-image-row:has(> .article-image-cell:nth-child(3)) img {
+  width: 100%;
+}
+
+.text-section.grey-triptych .article-image-row:has(> .article-image-cell:nth-child(3)) .article-image-caption {
+  width: 100%;
+  background: #fff;
+}
+
+.text-section.grey-triptych .article-image-row:has(> .article-image-cell:nth-child(3)) .article-image-cell:nth-child(odd) .article-image-caption {
+  background: rgb(188 189 190);
+}
+
+/* `spec-head` (program, mirror-m2m3): the M2 | M3 heading table — the source's inline cell
+   widths (36.3224 / 58.6232 / 5.05436 %) and each cell's <p> box (text padding, 1rem margin)
+   the delivery unwraps */
+.text-section.spec-head .section-text-paragraph td {
+  padding: calc(1px + var(--ts-text-pad)) 1px calc(1px + var(--ts-text-pad) + 1rem);
+  text-align: center;
+  line-height: var(--ts-text-lh);
+}
+
+.text-section.spec-head .section-text-paragraph td:nth-child(1) { width: 36.3224%; }
+.text-section.spec-head .section-text-paragraph td:nth-child(2) { width: 58.6232%; }
+.text-section.spec-head .section-text-paragraph td:nth-child(3) { width: 5.0544%; }
+
+/* `fit-*` (program template, R-01): per-block measure / tracking trims that give each paragraph
+   the source's line count under the metric-fitted fallback face, fitted per block by an
+   instrument (line counts of every paired paragraph, origin vs build) — `fit-s-*` below 576 px,
+   `fit-l-*` at 1440–1679 px (the desktop gate tier); pr = padding-right (px), ls = letter-
+   spacing (p = +, n = −; 05 = 0.05 px, 1 = 0.1 px), ws = word-spacing 0.4 px. Page-intro echoes,
+   captions, floated figures and tables keep the default setting. */
+@media only screen and (width <= 576px) {
+  .text-section.fit-s-pr1 :is(p, li, h2):not(.intro-echo *, figcaption *, .article-image-caption *, .float-figure *, .float-figure-mobile *, table *) { padding-right: 1px; }
+  .text-section.fit-s-pr2 :is(p, li, h2):not(.intro-echo *, figcaption *, .article-image-caption *, .float-figure *, .float-figure-mobile *, table *) { padding-right: 2px; }
+  .text-section.fit-s-ls-p05 :is(p, li, h2):not(.intro-echo *, figcaption *, .article-image-caption *, .float-figure *, .float-figure-mobile *, table *) { letter-spacing: 0.05px; }
+  .text-section.fit-s-ls-p1 :is(p, li, h2):not(.intro-echo *, figcaption *, .article-image-caption *, .float-figure *, .float-figure-mobile *, table *) { letter-spacing: 0.1px; }
+  .text-section.fit-s-ls-n05 :is(p, li, h2):not(.intro-echo *, figcaption *, .article-image-caption *, .float-figure *, .float-figure-mobile *, table *) { letter-spacing: -0.05px; }
+  .text-section.fit-s-ls-n1 :is(p, li, h2):not(.intro-echo *, figcaption *, .article-image-caption *, .float-figure *, .float-figure-mobile *, table *) { letter-spacing: -0.1px; }
+  .text-section.fit-s-ws-p4 :is(p, li, h2):not(.intro-echo *, figcaption *, .article-image-caption *, .float-figure *, .float-figure-mobile *, table *) { word-spacing: 0.4px; }
+  .text-section.fit-s-ws-n4 :is(p, li, h2):not(.intro-echo *, figcaption *, .article-image-caption *, .float-figure *, .float-figure-mobile *, table *) { word-spacing: -0.4px; }
+  .text-section.page-section :is(p, li, h2).fit-s-pr1 { padding-right: 1px; }
+  .text-section.page-section :is(p, li, h2).fit-s-pr2 { padding-right: 2px; }
+  .text-section.page-section :is(p, li, h2).fit-s-ls-p05 { letter-spacing: 0.05px; }
+  .text-section.page-section :is(p, li, h2).fit-s-ls-p1 { letter-spacing: 0.1px; }
+  .text-section.page-section :is(p, li, h2).fit-s-ls-n05 { letter-spacing: -0.05px; }
+  .text-section.page-section :is(p, li, h2).fit-s-ls-n1 { letter-spacing: -0.1px; }
+  .text-section.page-section :is(p, li, h2).fit-s-ws-p4 { word-spacing: 0.4px; }
+  .text-section.page-section :is(p, li, h2).fit-s-ws-n4 { word-spacing: -0.4px; }
+}
+
+@media only screen and (width >= 1440px) and (width < 1680px) {
+  .text-section.fit-l-pr1 :is(p, li, h2):not(.intro-echo *, figcaption *, .article-image-caption *, .float-figure *, .float-figure-mobile *, table *) { padding-right: 1px; }
+  .text-section.fit-l-pr2 :is(p, li, h2):not(.intro-echo *, figcaption *, .article-image-caption *, .float-figure *, .float-figure-mobile *, table *) { padding-right: 2px; }
+  .text-section.fit-l-ls-p05 :is(p, li, h2):not(.intro-echo *, figcaption *, .article-image-caption *, .float-figure *, .float-figure-mobile *, table *) { letter-spacing: 0.05px; }
+  .text-section.fit-l-ls-p1 :is(p, li, h2):not(.intro-echo *, figcaption *, .article-image-caption *, .float-figure *, .float-figure-mobile *, table *) { letter-spacing: 0.1px; }
+  .text-section.fit-l-ls-n05 :is(p, li, h2):not(.intro-echo *, figcaption *, .article-image-caption *, .float-figure *, .float-figure-mobile *, table *) { letter-spacing: -0.05px; }
+  .text-section.fit-l-ls-n1 :is(p, li, h2):not(.intro-echo *, figcaption *, .article-image-caption *, .float-figure *, .float-figure-mobile *, table *) { letter-spacing: -0.1px; }
+  .text-section.fit-l-ws-p4 :is(p, li, h2):not(.intro-echo *, figcaption *, .article-image-caption *, .float-figure *, .float-figure-mobile *, table *) { word-spacing: 0.4px; }
+  .text-section.fit-l-ws-n4 :is(p, li, h2):not(.intro-echo *, figcaption *, .article-image-caption *, .float-figure *, .float-figure-mobile *, table *) { word-spacing: -0.4px; }
+  .text-section.page-section :is(p, li, h2).fit-l-pr1 { padding-right: 1px; }
+  .text-section.page-section :is(p, li, h2).fit-l-pr2 { padding-right: 2px; }
+  .text-section.page-section :is(p, li, h2).fit-l-ls-p05 { letter-spacing: 0.05px; }
+  .text-section.page-section :is(p, li, h2).fit-l-ls-p1 { letter-spacing: 0.1px; }
+  .text-section.page-section :is(p, li, h2).fit-l-ls-n05 { letter-spacing: -0.05px; }
+  .text-section.page-section :is(p, li, h2).fit-l-ls-n1 { letter-spacing: -0.1px; }
+  .text-section.page-section :is(p, li, h2).fit-l-ws-p4 { word-spacing: 0.4px; }
+  .text-section.page-section :is(p, li, h2).fit-l-ws-n4 { word-spacing: -0.4px; }
+}

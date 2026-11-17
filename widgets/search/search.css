@@ -1,0 +1,65 @@
+.search {
+  padding: 2rem 0 4rem;
+}
+
+.search .search-page-form {
+  display: flex;
+  gap: 0.5rem;
+  max-width: 40rem;
+}
+
+.search .search-page-input {
+  flex: 1;
+  padding: 0.5rem 0.75rem;
+  font: inherit;
+  border: 1px solid #ccc;
+}
+
+.search .search-page-button {
+  padding: 0.5rem 1rem;
+  font: inherit;
+  color: #fff;
+  background: var(--esoblue);
+  border: 0;
+  cursor: pointer;
+}
+
+.search .search-page-results {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.search .search-page-result {
+  margin: 0 0 1.5rem;
+}
+
+.search .search-page-title {
+  margin: 0 0 0.25rem;
+  font-size: 1.25rem;
+}
+
+.search .search-page-path {
+  margin: 0;
+  font-size: 0.875rem;
+  color: #666;
+}
+
+.search .search-page-excerpt {
+  margin: 0.25rem 0 0;
+}
+
+.search .search-page-pager a {
+  margin-right: 0.75rem;
+}
+
+.search .search-page-pager a[aria-current] {
+  font-weight: bold;
+}
+
+.search-container .default-content-wrapper,
+.search-wrapper {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}

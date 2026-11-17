@@ -1,0 +1,62 @@
+[live-session] waiting to pace live navigations to elt.eso.org (4000 ms apart, 1 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+unit-geometry @ 1440px, tol 4px — https://elt.eso.org/ vs http://localhost:8791/index-proposed.html
+unit 1 of landing-menu-tiles (required) .container-notop .col-lg-4=.menu-tile: origin 0,2279 480×480 vs served 0,2279 480×480 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "telescope" | 0,0 480×480 | 0,0 480×480 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:img.d-none.d-lg-block#1" | 0,0 480×480 | 0,0 480×480 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of landing-menu-tiles (required) .container-notop .col-lg-4=.menu-tile: origin 480,2279 480×480 vs served 480,2279 480×480 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "instruments" | 0,0 480×480 | 0,0 480×480 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:img.d-none.d-lg-block#1" | 0,0 480×480 | 0,0 480×480 | 0 | 0 | 0 | 0 | ✓ |
+unit 3 of landing-menu-tiles (required) .container-notop .col-lg-4=.menu-tile: origin 960,2279 480×480 vs served 960,2279 480×480 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "facts" | 0,0 480×480 | 0,0 480×480 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:img.d-none.d-lg-block#1" | 0,0 480×480 | 0,0 480×480 | 0 | 0 | 0 | 0 | ✓ |
+unit 1 of main-navbar-items (required) #main-navbar .nav-item=#main-navbar .nav-item: origin 216,725 122×69 vs served 216,725 122×69 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "elt home" | 15,14 92×40 | 15,14 92×40 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of main-navbar-items (required) #main-navbar .nav-item=#main-navbar .nav-item: origin 337,725 98×69 vs served 337,725 98×69 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "about" | 15,14 68×40 | 15,14 68×40 | 0 | 0 | 0 | 0 | ✓ |
+unit 3 of main-navbar-items (required) #main-navbar .nav-item=#main-navbar .nav-item: origin 435,725 135×69 vs served 435,725 135×69 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "telescope" | 15,14 105×40 | 15,14 105×40 | 0 | 0 | 0 | 0 | ✓ |
+unit 4 of main-navbar-items (required) #main-navbar .nav-item=#main-navbar .nav-item: origin 570,725 154×69 vs served 570,725 154×69 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "instruments" | 15,14 124×40 | 15,14 124×40 | 0 | 0 | 0 | 0 | ✓ |
+unit 5 of main-navbar-items (required) #main-navbar .nav-item=#main-navbar .nav-item: origin 724,725 112×69 vs served 724,725 112×69 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "science" | 15,14 82×40 | 15,14 82×40 | 0 | 0 | 0 | 0 | ✓ |
+unit 6 of main-navbar-items (required) #main-navbar .nav-item=#main-navbar .nav-item: origin 836,725 201×69 vs served 836,725 201×69 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "news & multimedia" | 15,14 171×40 | 15,14 171×40 | 0 | 0 | 0 | 0 | ✓ |
+unit 7 of main-navbar-items (required) #main-navbar .nav-item=#main-navbar .nav-item: origin 1037,725 187×69 vs served 1037,725 187×69 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "success stories" | 15,14 157×40 | 15,14 157×40 | 0 | 0 | 0 | 0 | ✓ |
+unit 1 of footer-columns (required) footer .col-12=.site-footer__row > .footer-item: origin -15,3130 360×22 vs served -15,3130 360×22 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "eso" | 124,0 29×22 | 124,0 29×22 | 0 | 0 | 0 | 0 | ✓ |
+| text "2026" | 203,0 33×22 | 203,0 33×22 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of footer-columns (required) footer .col-12=.site-footer__row > .footer-item: origin 345,3130 1080×22 vs served 345,3130 1080×22 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "| | | | |" | 119,0 842×22 | 119,0 842×22 | 0 | 0 | 0 | 0 | ✓ |
+| link "credits" | 119,2 49×18 | 119,2 49×18 | 0 | 0 | 0 | 0 | ✓ |
+| link "contact us" | 192,2 74×18 | 192,2 74×18 | 0 | 0 | 0 | 0 | ✓ |
+| link "subscribe to eso news" | 289,2 155×18 | 289,2 155×18 | 0 | 0 | 0 | 0 | ✓ |
+| link "accelerated by cdn77" | 468,2 149×18 | 468,2 149×18 | 0 | 0 | 0 | 0 | ✓ |
+| link "terms & conditions" | 641,2 128×18 | 641,2 128×18 | 0 | 0 | 0 | 0 | ✓ |
+| link "cookie settings and policy" | 792,2 169×18 | 792,2 169×18 | 0 | 0 | 0 | 0 | ✓ |
+Units: 12 compared; elements within 22, off 0, hidden 0, missing 0 → PASS
+json → stardust/replica/gates/index-1440/units-iter3.json

@@ -1,0 +1,61 @@
+{
+  "a": "stardust/replica/gates/all-1440/telescope/origin.png",
+  "b": "stardust/replica/gates/all-1440/telescope/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 3433,
+    "mode": "overlap"
+  },
+  "heightDelta": -1,
+  "differingPixels": 132802,
+  "pct": 2.69,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/telescope/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 6.03,
+  "textBoxes": 115,
+  "textPixels": 729848,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.2
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 1.5
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 1.2
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 3.5
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 4.1
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 2.5
+    },
+    {
+      "y0": 3000,
+      "y1": 3433,
+      "pct": 6.2
+    }
+  ],
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--26c59ee1--aemcoder.aem.page/telescope"
+  }
+}

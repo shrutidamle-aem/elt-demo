@@ -1,0 +1,203 @@
+/*
+ * CSS for ELT Frontpage
+ * Dr. Gurvan M. F. Bazin
+ */
+
+.video-controls {
+    bottom: 0;
+    width: 50%;
+    left:50%;
+    transform: translate(-50%, 80%);
+    border-radius: 10px 10px 0px 0px;
+    background: rgba(255, 255, 255, 0.1);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: all 250ms ease;
+}
+
+.video-controls:hover {
+    background: rgba(40, 40, 40, 0.6);
+    transform: translate(-50%, 0%);
+    width: 80%;
+}
+
+.video-controls-controls {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.video-container:hover {
+    opacity: 1;
+}
+
+.video-controls:hover .video-controls-controls {
+    opacity: 1;
+}
+
+.video-top-controls {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em 0.5em 0.25em 0.5em;
+}
+
+.video-bottom-controls {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.25em 0.5em 0.5em 0.5em;
+}
+
+.video-button:focus {
+    outline: 0;
+}
+
+.video-starttime, .video-endtime {
+    display: flex;
+    flex-basis: 10%;
+    flex-shrink: 1;
+    justify-content: center;
+}
+
+.video-seekbar {
+    display: flex;
+    flex-basis: 80%;
+    height: 6px;
+    border-radius: 5px;
+    background: rgba(80, 80, 80, 0.6);
+}
+
+.video-progressbar {
+   height: 100%;
+   position: relative;
+   left: 0;
+   width: 0%;
+   display: inline-flex;
+   border-radius: 5px;
+   background: rgba(255, 255, 255, 0.6);
+}
+
+.video-progressbar::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 4px;
+    height: 4px;
+    right: -4px;
+    border-radius: 500px;
+    transition: all 250ms ease;
+}
+
+.video-seekbar:hover {
+    cursor: pointer;
+}
+
+.video-seekbar:hover .video-progressbar::after {
+    width: 10px;
+    height: 10px;
+    background: rgba(255, 255, 255, 1);
+}
+
+.video-volume {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 15%;
+}
+
+.video-volume-seekbar-section {
+    display: inline-flex;
+    flex-direction: column;
+    flex-basis: 80%;
+}
+
+.video-volume-text {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.video-volume-seekbar {
+    position: relative;
+    display: inline-flex;
+    height: 5px;
+    border-radius: 2px;
+    /* flex-basis: 100%; */
+    background: rgba(255, 255, 255, 0.6);
+}
+
+.video-volume-progressbar {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 2px;
+}
+
+.video-volume-progressbar::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 4px;
+    height: 4px;
+    right: -4px;
+    border-radius: 500px;
+    transition: all 250ms ease;
+}
+
+.video-volume-seekbar:hover {
+    cursor: pointer;
+}
+
+.video-volume-seekbar:hover .video-volume-progressbar::after {
+    width: 10px;
+    height: 10px;
+    background: rgba(255, 255, 255, 1);
+}
+
+.video-playback {
+    display: inline-flex;
+    flex-basis: 50%;
+    justify-content: space-evenly;
+}
+
+.video-button, .video-fullscreen-icon {
+    background: transparent;
+    outline: 0;
+    border: none;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.video-button:hover, .video-fullscreen-icon:hover {
+    cursor: pointer;
+}
+
+.video-button:hover, .video-fullscreen-icon:hover .fa {
+    color: rgba(255, 255, 255, 1);
+}
+
+.video-play .fa-pause {
+    display: none;
+}
+
+.video-pause .fa-play {
+    display: none;
+}
+
+.video-fullscreen {
+    display: inline-flex;
+    justify-content: flex-end;
+    flex-basis: 15%;
+}
+

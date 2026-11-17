@@ -1,0 +1,662 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-11-13T11:30:36.530Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "science-solarsystem",
+  "url": "https://elt.eso.org/science/solarsystem/",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-11-13T11:30:36.530Z",
+  "finalUrl": "https://elt.eso.org/science/solarsystem/",
+  "title": "Solar System | ELT | ESO",
+  "description": "The Extremely Large Telescope: The World's Biggest Eye On The Sky",
+  "og": {
+    "title": "Solar System | ELT | ESO",
+    "description": "The Extremely Large Telescope: The World's Biggest Eye On The Sky",
+    "image": "http://cdn.eso.org/images/screen/header-frontpage.jpg",
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h2",
+      "text": "Astronomers will use the ELT to study the physical properties of asteroids, comets, and trans-Neptunian objects (TNOs) to characterise their nature and origin and refine the details of how the Solar System formed. This includes:"
+    },
+    {
+      "tag": "h2",
+      "text": "The ELT will be able to take regular high-resolution images and spectra of moons orbiting other planets, allowing astronomers to better understand their evolving surfaces and atmospheres. Of particular interest are active moons that may be among the most likely places in the Solar System to host life, but the ELT will be used to follow the surface activity (ices and chemical contaminants) of a wide range of moons."
+    },
+    {
+      "tag": "h2",
+      "text": "In short periods when Venus is furthest from the Sun, the ELT will enable astronomers to study the variability in atmospheric motions at different altitudes through cloud tracking and Doppler velocimetry of solar Fraunhofer lines. Astronomers will also use the telescope to map the intensity of oxygen airglow emission and track the motion of emissions, as well as to study the variability of chemical compounds."
+    },
+    {
+      "tag": "h2",
+      "text": "The ELT will enable astronomers to take advantage of occultation events of Solar System bodies to study the structure of atmospheres at high spatial and spectral resolution, as well as to discover and characterise small satellites and rings."
+    },
+    {
+      "tag": "h1",
+      "text": "Our use of Cookies"
+    },
+    {
+      "tag": "h1",
+      "text": "ESO Cookies Policy"
+    },
+    {
+      "tag": "h2",
+      "text": "What are cookies?"
+    },
+    {
+      "tag": "h2",
+      "text": "Categories of cookies we use"
+    },
+    {
+      "tag": "h2",
+      "text": "How to manage cookies"
+    },
+    {
+      "tag": "h2",
+      "text": "Updates to the ESO Cookies Policy"
+    },
+    {
+      "tag": "h2",
+      "text": "Additional information"
+    }
+  ],
+  "body": [
+    "Choose your language English Español",
+    "search Search",
+    "EuropeanSouthernObservatory",
+    "ELT HOME",
+    "ABOUT About the ELT Timeline Location Webcams Facts Road to the ELT Meet the Team Working Groups Industrial and Institutional Partners FAQ",
+    "TELESCOPE Telescope Overview Dome Main Structure Mirrors Mirrors Overview M1 M2M3 M4 M5 Adaptive Optics Prefocal Station Controls Operations",
+    "INSTRUMENTS Instruments Overview HARMONI MICADO MORFEO METIS ANDES MOSAIC",
+    "SCIENCE Science Overview Solar System Exoplanets Stars Black Holes Galaxies Cosmology and Dark Matter Fundamental Physics Unexpected Discoveries",
+    "NEWS & MULTIMEDIA",
+    "SUCCESS STORIES",
+    "We have been using telescopes to observe the Solar System for over four hundred years, but there is always more to discover.",
+    "From planets and moons to asteroids and comets, unveiling the surfaces of rocky objects and probing the atmospheres of our neighbouring planets, the ELT may reveal parts of the Solar System in more detail than we have ever seen before.",
+    "The ELT will peer through planetary atmospheres, study volcanic activity and watery plumes on the moons of Jupiter and Saturn, and discover the origin of asteroids and comets. By taking repeated high-resolution images and light spectra of planets and moons with evolving surfaces and atmospheres, the telescope will be capable of assembling a unique atlas of hundreds of Solar System objects.",
+    "As the ELT will have a much larger sensitivity and resolution than the current generation of large telescopes, it will be particularly useful for studying the faintest objects in the Solar System. It will open our eyes to objects in the outer Solar System, including Neptune, Uranus and outer asteroids and comets, many of which have not been explored in detail with space missions.",
+    "Objects in the Asteroid Belt between Mars and Jupiter and the Kuiper Belt beyond Neptune provide a window into the properties of the protoplanetary disc from which Earth and the other planets formed 4.5 billion years ago. Using the ELT to explore these objects, we will gain a better insight into the creation and evolution of the Solar System.",
+    "Astronomers will use the ELT to study asteroids, comets and other small objects in our Solar System to better understand their nature and origin and refine the details of how the Solar System formed.",
+    "The ELT will be able to take regular high-resolution images and spectra of moons orbiting other planets, allowing astronomers to better understand their evolving surfaces and atmospheres.",
+    "From studying chemical compounds in the Venusian atmosphere and dust storms on Mars, to learning more about the climate and meteorology of the gas giants, the ELT will play a key role in exploring planetary atmospheres.",
+    "The ELT will have a spatial resolution that will allow us to study different Solar System objects over a range of wavelengths.",
+    "Creating maps of the surfaces of large asteroids with a resolution of several kilometres, providing topography, chemical composition and geological information.",
+    "Determining the rotational periods, sizes, shapes and chemical compositions of medium-sized asteroids in the main Asteroid Belt.",
+    "Analysing the surface composition and outgassing processes for active asteroids in the Asteroid Belt, as well as determining the proportion of volatile elements, observing degassing processes, and even looking for the presence of atmospheres.",
+    "Studying the spatial distribution of chemical elements in the comas and tails of comets, looking at how these change with cometary activity, and monitoring jet activity, jet structure and fragmentation processes.",
+    "Measuring the dimensions, masses and densities of binary TNOs and Centaurs — objects that are similar to asteroids in size but to comets in chemical composition — as well as determining their thermal properties and the presence of volatiles and atmospheres. The largest of these objects can be spatially resolved using the ELT, and long-term spectroscopic monitoring will provide information on their surface evolution.",
+    "Searching and discovering moons and rings around all types of small bodies; over 400 asteroids and TNOs are known to host satellites, and rings have been detected around two of them, Chariklo (a Centaur object) and Haumea (a dwarf planet).",
+    "Long-term monitoring of Pluto and other dwarf planets to explore the evolution of atmospheres, temperatures and surface compositions (ices and mixtures).",
+    "Characterising possible interstellar objects such as ʻOumuamua and 2I/Borisov.",
+    "Jupiter has two moons that are especially interesting from an astrobiological point of view: volcanic Io and watery Europa. Astronomers will use the ELT to survey volcanic activity on Io, which releases sulphur dioxide that settles on the surface as a frost. The telescope will also be used to study Io’s atmospheric variability in response to this activity, as well as its influence on the neutral and plasma torus, which is a cloud of gas and plasma surrounding Io. Looking to Europa, the ELT will help us better understand the evolution of watery plumes that emanate from the moon’s surface, and the variability in its composition.",
+    "Saturn also has two moons displaying conditions that could be suited to life. NASA’s Cassini spacecraft spotted geysers of frozen water shooting out of the surface of icy Enceladus; the ELT will provide us with the opportunity to study the evolution of these plumes. Massive Titan, another Saturn moon, is the only place in the Solar System — other than Earth — known to host liquid lakes. The ELT will be used to follow the seasonal cycle of high-altitude hazes, lower altitude methane clouds, and the \"methane hydrology\" on the moon, all of which are directly related to the formation of lakes and seas.",
+    "When Earth passes between Mars and the Sun, the ELT will be able to support space missions by observing large-scale meteorological phenomena on the red planet (for example dust storms, orographic clouds and cyclones) and by mapping the seasonal evolution of key molecules (HDO, H2O2 and CH4).",
+    "The ELT will allow monitoring of atmospheric phenomena in specific regions of the giant planets Jupiter and Saturn. For example, with the ELT astronomers will be able to observe changes in the dynamics (winds) of Jupiter and Saturn, study the properties of their clouds, and monitor the variability and distribution of temperatures and chemical compounds as a function of height, in addition to the aurora phenomena in the gas giants' polar regions. The case of Saturn is particularly important since there is no scheduled space mission for the next few years.",
+    "Since there aren't, to date, approved plans for space missions to Uranus and Neptune, and due to their enormous distances from the Sun, the ELT and its instruments will be fundamental to study these planets. Namely, the telescope will allow astronomers to study these planets' climate and meteorology (characterising winds, storms, vortices and waves), clouds and aerosol properties, the variability of their ionospheres and auroras, and the chemical composition and thermal structure of their atmospheres.",
+    "The four outer planets have dynamic ring systems with very different characteristics and whose temporal changes could be accurately followed with ELT instruments.",
+    "The ELT will have a spatial resolution that will allow us to study different Solar System objects over a range of wavelengths. For comparison, we indicate below the resolution of the ELT at various wavelengths, as well as the diameter for various Solar System objects.",
+    "Resolution in milliarc seconds (mas) at the indicated wavelength:",
+    "3 (0.5 μm)",
+    "10 (1.5 μm)",
+    "16 (2.5 μm)",
+    "32 (5 μm)",
+    "65 (10 μm)",
+    "130 (20 μm)",
+    "We use cookies that are essential for accessing our websites and using our services. We also use cookies to analyse, measure and improve our websites’ performance, to enable content sharing via social media and to display media content hosted on third-party platforms.",
+    "The European Organisation for Astronomical Research in the Southern Hemisphere (ESO) is the pre-eminent intergovernmental science and technology organisation in astronomy. It carries out an ambitious programme focused on the design, construction and operation of powerful ground-based observing facilities for astronomy.",
+    "This Cookies Policy is intended to provide clarity by outlining the cookies used on the ESO public websites, their functions, the options you have for controlling them, and the ways you can contact us for additional details.",
+    "Cookies are small pieces of data stored on your device by websites you visit. They serve various purposes, such as remembering login credentials and preferences and enhance your browsing experience.",
+    "Essential cookies (always active): These cookies are strictly necessary for the proper functioning of our website. Without these cookies, the website cannot operate correctly, and certain services, such as logging in or accessing secure areas, may not be available; because they are essential for the website’s operation, they cannot be disabled.",
+    "Functional Cookies: These cookies enhance your browsing experience by enabling additional features and personalization, such as remembering your preferences and settings. While not strictly necessary for the website to function, they improve usability and convenience; these cookies are only placed if you provide your consent.",
+    "Analytics cookies: These cookies collect information about how visitors interact with our website, such as which pages are visited most often and how users navigate the site. This data helps us improve website performance, optimize content, and enhance the user experience; these cookies are only placed if you provide your consent. We use the following analytics cookies.",
+    "Matomo Cookies:",
+    "This website uses Matomo (formerly Piwik), an open source software which enables the statistical analysis of website visits. Matomo uses cookies (text files) which are saved on your computer and which allow us to analyze how you use our website. The website user information generated by the cookies will only be saved on the servers of our IT Department. We use this information to analyze www.eso.org visits and to prepare reports on website activities. These data will not be disclosed to third parties.",
+    "On behalf of ESO, Matomo will use this information for the purpose of evaluating your use of the website, compiling reports on website activity and providing other services relating to website activity and internet usage.",
+    "Matomo cookies settings:",
+    "Additional Third-party cookies on ESO websites: some of our pages display content from external providers, e.g. YouTube.",
+    "Such third-party services are outside of ESO control and may, at any time, change their terms of service, use of cookies, etc.",
+    "YouTube: Some videos on the ESO website are embedded from ESO’s official YouTube channel. We have enabled YouTube’s privacy-enhanced mode, meaning that no cookies are set unless the user actively clicks on the video to play it. Additionally, in this mode, YouTube does not store any personally identifiable cookie data for embedded video playbacks. For more details, please refer to YouTube’s embedding videos information page.",
+    "Cookies can also be classified based on the following elements.",
+    "Regarding the domain, there are:",
+    "First-party cookies, set by the website you are currently visiting. They are stored by the same domain that you are browsing and are used to enhance your experience on that site;",
+    "Third-party cookies, set by a domain other than the one you are currently visiting.",
+    "As for their duration, cookies can be:",
+    "Browser-session cookies, which are deleted when the user closes the browser;",
+    "Stored cookies, which stay on the user's device for a predetermined period of time.",
+    "Cookie settings: You can modify your cookie choices for the ESO webpages at any time by clicking on the link Cookie settings at the bottom of any page.",
+    "In your browser: If you wish to delete cookies or instruct your browser to delete or block cookies by default, please visit the help pages of your browser:",
+    "Brave",
+    "Chrome",
+    "Edge",
+    "Firefox",
+    "Safari",
+    "Please be aware that if you delete or decline cookies, certain functionalities of our website may be not be available and your browsing experience may be affected.",
+    "You can set most browsers to prevent any cookies being placed on your device, but you may then have to manually adjust some preferences every time you visit a site/page. And some services and functionalities may not work properly at all (e.g. profile logging-in, shop check out).",
+    "The ESO Cookies Policy may be subject to future updates, which will be made available on this page.",
+    "For any queries related to cookies, please contact: pdprATesoDOTorg.",
+    "As ESO public webpages are managed by our Department of Communication, your questions will be dealt with the support of the said Department."
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "search",
+      "href": "#"
+    },
+    {
+      "label": "ELT HOME",
+      "href": "/"
+    },
+    {
+      "label": "ABOUT",
+      "href": "/about/"
+    },
+    {
+      "label": "TELESCOPE",
+      "href": "/telescope/"
+    },
+    {
+      "label": "INSTRUMENTS",
+      "href": "/instrument/"
+    },
+    {
+      "label": "SCIENCE",
+      "href": "/science/"
+    },
+    {
+      "label": "NEWS & MULTIMEDIA",
+      "href": "/media/"
+    },
+    {
+      "label": "SUCCESS STORIES",
+      "href": "/success/buildingon/"
+    },
+    {
+      "label": "Small bodies",
+      "href": "#primitive"
+    },
+    {
+      "label": "Satellites",
+      "href": "#satellites"
+    },
+    {
+      "label": "Planetary atmospheres",
+      "href": "#planetary"
+    },
+    {
+      "label": "General observations",
+      "href": "#observation"
+    },
+    {
+      "label": "Small primitive bodies",
+      "href": "#primitive"
+    },
+    {
+      "label": "Read More",
+      "href": "#primitive"
+    },
+    {
+      "label": "Read More",
+      "href": "#satellites"
+    },
+    {
+      "label": "Satellites",
+      "href": "#satellites"
+    },
+    {
+      "label": "Planetary atmospheres",
+      "href": "#planetary"
+    },
+    {
+      "label": "Read More",
+      "href": "#planetary"
+    },
+    {
+      "label": "Read More",
+      "href": "#observation"
+    },
+    {
+      "label": "General observations of the Solar System",
+      "href": "#observation"
+    },
+    {
+      "label": "ESO",
+      "href": "https:///www.eso.org/"
+    },
+    {
+      "label": "Credits",
+      "href": "/credits/"
+    },
+    {
+      "label": "Contact us",
+      "href": "mailto:information@eso.org"
+    },
+    {
+      "label": "Subscribe to ESO news",
+      "href": "https://www.eso.org/public/outreach/newsletters/"
+    },
+    {
+      "label": "Accelerated by CDN77",
+      "href": "https://www.cdn77.com/"
+    },
+    {
+      "label": "Terms & Conditions",
+      "href": "https://www.eso.org/public/about-eso/privacy/"
+    },
+    {
+      "label": "Cookie Settings and Policy",
+      "href": "#"
+    },
+    {
+      "label": "Accept All",
+      "href": null
+    },
+    {
+      "label": "Accept Only Essential Cookies",
+      "href": null
+    },
+    {
+      "label": "Cookie Settings and Policy",
+      "href": null
+    },
+    {
+      "label": "YouTube",
+      "href": "https://www.youtube.com/t/terms"
+    },
+    {
+      "label": "ESO’s official YouTube channel",
+      "href": "https://www.youtube.com/channel/UCIhYoC2VIAJqCkoIWNHBQ3Q"
+    },
+    {
+      "label": "embedding videos information page",
+      "href": "https://support.google.com/youtube/answer/171780?hl=en-GB"
+    },
+    {
+      "label": "Brave",
+      "href": "https://support.brave.com/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.brave.com%2Fhc%2Fen-us%2Farticles%2F360050634931-How-Do-I-Manage-Cookies-In-Brave"
+    },
+    {
+      "label": "Chrome",
+      "href": "https://support.google.com/chrome/bin/answer.py?hl=en&answer=95647&p=cpn_cookies"
+    },
+    {
+      "label": "Edge",
+      "href": "https://support.microsoft.com/en-us/windows/manage-cookies-in-microsoft-edge-view-allow-block-delete-and-use-168dab11-0753-043d-7c16-ede5947fc64d"
+    },
+    {
+      "label": "Firefox",
+      "href": "https://support.mozilla.org/en-US/kb/Blocking cookies"
+    },
+    {
+      "label": "Safari",
+      "href": "https://docs.info.apple.com/article.html?path=Safari/3.0/en/9277.html"
+    },
+    {
+      "label": "Save",
+      "href": null
+    },
+    {
+      "label": "Cancel",
+      "href": null
+    }
+  ],
+  "links": [
+    "https://www.eso.org/",
+    "https://elt.eso.org/science/solarsystem/?lang",
+    "https://elt.eso.org/chile/science/solarsystem/?lang",
+    "https://facebook.com/ESOAstronomy",
+    "https://www.instagram.com/esoastronomy/",
+    "https://www.linkedin.com/company/european-southern-observatory",
+    "https://www.youtube.com/channel/UCIhYoC2VIAJqCkoIWNHBQ3Q",
+    "https://elt.eso.org/",
+    "https://elt.eso.org/about/",
+    "https://elt.eso.org/about/timeline/",
+    "https://elt.eso.org/about/location/",
+    "https://elt.eso.org/about/webcams/",
+    "https://elt.eso.org/about/facts/",
+    "https://elt.eso.org/about/road/",
+    "https://elt.eso.org/about/team/",
+    "https://elt.eso.org/about/workinggroups/",
+    "https://elt.eso.org/about/industrial/",
+    "https://elt.eso.org/about/faq/",
+    "https://elt.eso.org/telescope/",
+    "https://elt.eso.org/telescope/dome/",
+    "https://elt.eso.org/telescope/structure/",
+    "https://elt.eso.org/mirror/",
+    "https://elt.eso.org/mirror/M1/",
+    "https://elt.eso.org/mirror/M2M3/",
+    "https://elt.eso.org/mirror/M4/",
+    "https://elt.eso.org/mirror/M5/",
+    "https://elt.eso.org/telescope/adaptiveoptics/",
+    "https://elt.eso.org/telescope/prefocal/",
+    "https://elt.eso.org/telescope/controls/",
+    "https://elt.eso.org/telescope/operations/",
+    "https://elt.eso.org/instrument/",
+    "https://elt.eso.org/instrument/HARMONI/",
+    "https://elt.eso.org/instrument/MICADO/",
+    "https://elt.eso.org/instrument/MORFEO/",
+    "https://elt.eso.org/instrument/METIS/",
+    "https://elt.eso.org/instrument/ANDES/",
+    "https://elt.eso.org/instrument/MOSAIC/",
+    "https://elt.eso.org/science/",
+    "https://elt.eso.org/science/solarsystem/",
+    "https://elt.eso.org/science/exoplanets/",
+    "https://elt.eso.org/science/stars/",
+    "https://elt.eso.org/science/blackholes/",
+    "https://elt.eso.org/science/galaxies/",
+    "https://elt.eso.org/science/cosmodm/",
+    "https://elt.eso.org/science/fundamentalphysics/",
+    "https://elt.eso.org/science/discoveries/",
+    "https://elt.eso.org/media/",
+    "https://elt.eso.org/success/buildingon/",
+    "https://elt.eso.org/science/solarsystem/#",
+    "https://elt.eso.org/science/solarsystem/#primitive",
+    "https://elt.eso.org/science/solarsystem/#satellites",
+    "https://elt.eso.org/science/solarsystem/#planetary",
+    "https://elt.eso.org/science/solarsystem/#observation",
+    "https://www.facebook.com/sharer/sharer.php?u=https://elt.eso.org/science/solarsystem/",
+    "https://www.linkedin.com/sharing/share-offsite/?url=https://elt.eso.org/science/solarsystem/",
+    {},
+    {},
+    {},
+    {},
+    "https://www.eso.org/public/images/eso1410a/",
+    "https://www.eso.org/public/images/science-ss_satellites-banner/",
+    "https://www.eso.org/public/images/eso1824a/",
+    "https://www.eso.org/public/images/eso1410c/",
+    "https://elt.eso.org/credits/",
+    "mailto:information@eso.org",
+    "https://www.eso.org/public/outreach/newsletters/",
+    "https://www.cdn77.com/",
+    "https://www.eso.org/public/about-eso/privacy/",
+    "https://www.youtube.com/t/terms",
+    "https://support.google.com/youtube/answer/171780?hl=en-GB",
+    "https://support.brave.com/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.brave.com%2Fhc%2Fen-us%2Farticles%2F360050634931-How-Do-I-Manage-Cookies-In-Brave",
+    "https://support.google.com/chrome/bin/answer.py?hl=en&answer=95647&p=cpn_cookies",
+    "https://support.microsoft.com/en-us/windows/manage-cookies-in-microsoft-edge-view-allow-block-delete-and-use-168dab11-0753-043d-7c16-ede5947fc64d",
+    "https://support.mozilla.org/en-US/kb/Blocking%20cookies",
+    "https://docs.info.apple.com/article.html?path=Safari/3.0/en/9277.html"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/eso_logo.jpg",
+        "alt": "",
+        "w": 100,
+        "h": 130
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_topbar_mobile_1.png",
+        "alt": "ESO on Facebook",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_topbar_mobile_3.png",
+        "alt": "ESO on Instagram",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_topbar_mobile_4.png",
+        "alt": "ESO on LinkedIn",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_topbar_mobile_5.png",
+        "alt": "ESO on YouTube",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_topbar_mobile_1.png",
+        "alt": "ESO on Facebook",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_topbar_mobile_3.png",
+        "alt": "ESO on Instagram",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_topbar_mobile_4.png",
+        "alt": "ESO on LinkedIn",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_topbar_mobile_5.png",
+        "alt": "ESO on YouTube",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://cdn.eso.org/images/banner1920/header-science-solarsystem.jpg",
+        "alt": "",
+        "w": 1920,
+        "h": 900
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/eso_logo_transparent.png",
+        "alt": "",
+        "w": 981,
+        "h": 1279
+      },
+      {
+        "src": "https://cdn.eso.org/images/banner1920/subheader-science-solarsystem.jpg",
+        "alt": "",
+        "w": 1920,
+        "h": 900
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_share_1.png",
+        "alt": "Share on Facebook",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_share_3.png",
+        "alt": "",
+        "w": 36,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_share_1.png",
+        "alt": "Share on Facebook",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_share_5.png",
+        "alt": "E-Mail",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_share_6.png",
+        "alt": "Copy link",
+        "w": 36,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_share_4.png",
+        "alt": "Share on LinkedIn",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://cdn.eso.org/images/banner1920/science-ss-small.jpg",
+        "alt": "",
+        "w": 1920,
+        "h": 900
+      },
+      {
+        "src": "https://cdn.eso.org/images/banner1920/science-ss-satellites.jpg",
+        "alt": "",
+        "w": 1920,
+        "h": 900
+      },
+      {
+        "src": "https://cdn.eso.org/images/banner1920/science-ss-planetary.jpg",
+        "alt": "",
+        "w": 1920,
+        "h": 900
+      },
+      {
+        "src": "https://cdn.eso.org/images/banner1920/science-ss-general.jpg",
+        "alt": "",
+        "w": 1920,
+        "h": 900
+      },
+      {
+        "src": "https://cdn.eso.org/images/original/science-ss-primitive-banner.jpg",
+        "alt": "",
+        "w": 2560,
+        "h": 743
+      },
+      {
+        "src": "https://cdn.eso.org/images/banner1920/science-ss_satellites-banner.jpg",
+        "alt": "",
+        "w": 1920,
+        "h": 900
+      },
+      {
+        "src": "https://cdn.eso.org/images/original/science-ss-planetary-banner.jpg",
+        "alt": "",
+        "w": 2560,
+        "h": 743
+      },
+      {
+        "src": "https://cdn.eso.org/images/original/science-ss-general-banner.jpg",
+        "alt": "",
+        "w": 2560,
+        "h": 743
+      }
+    ],
+    "allImgCount": 26,
+    "cssBackgrounds": [],
+    "modals": [],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {
+    "--blue": "#007bff",
+    "--indigo": "#6610f2",
+    "--purple": "#6f42c1",
+    "--pink": "#e83e8c",
+    "--red": "#dc3545",
+    "--orange": "rgb(232, 133, 38)",
+    "--yellow": "#ffc107",
+    "--green": "#28a745",
+    "--teal": "#20c997",
+    "--cyan": "#17a2b8",
+    "--white": "#fff",
+    "--gray": "#6c757d",
+    "--gray-dark": "#343a40",
+    "--primary": "#007bff",
+    "--secondary": "#6c757d",
+    "--success": "#28a745",
+    "--info": "#17a2b8",
+    "--warning": "#ffc107",
+    "--danger": "#dc3545",
+    "--light": "#f8f9fa",
+    "--dark": "#343a40",
+    "--breakpoint-xxxs": "0",
+    "--breakpoint-xxs": "320px",
+    "--breakpoint-xs": "480px",
+    "--breakpoint-sm": "576px",
+    "--breakpoint-md": "768px",
+    "--breakpoint-lg": "992px",
+    "--breakpoint-xl": "1200px",
+    "--breakpoint-xxl": "1440px",
+    "--breakpoint-xxxl": "1680px",
+    "--breakpoint-xxxxl": "1920px",
+    "--font-family-sans-serif": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+    "--font-family-monospace": "SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+    "--swiper-theme-color": "#007aff",
+    "--swiper-navigation-size": "44px",
+    "--esoblue": "rgb(0, 119, 190)",
+    "--esoblueshade": "rgba(0, 119, 190, 0.1)",
+    "--esobluelightshade": "rgba(0, 119, 190, 0.4)",
+    "--headerblue": "rgb(45, 164, 245)",
+    "--esobluedarkdarkshade": "#005e97",
+    "--esobluedarkshade": "#0077be",
+    "--esogray": "#878787"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 11,
+    "mainTextLen": 17888,
+    "realImageCount": 26,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [],
+    "thirdPartyScriptHosts": [],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [],
+    "frameworkHints": [],
+    "forms": [],
+    "ariaLiveRegions": 0,
+    "triggers": [],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 0,
+      "thirdPartyEndpoints": 0,
+      "thirdPartyScriptHosts": 0,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": false
+    }
+  },
+  "screenshot": "assets/screenshots/science-solarsystem.png",
+  "renderedHtml": "pages/science-solarsystem.html",
+  "slots": {
+    "pageTitle": "Science with the ELT",
+    "heroImage": "https://cdn.eso.org/images/banner1920/header-science-solarsystem.jpg",
+    "program-headline": "Solar System",
+    "summary": "We have been using telescopes to observe the Solar System for over four hundred years, but there is always more to discover.",
+    "description": "From planets and moons to asteroids and comets, unveiling the surfaces of rocky objects and probing the atmospheres of our neighbouring planets, the ELT may reveal parts of the Solar System in more detail than we have ever seen before.",
+    "quick-links": [
+      {
+        "label": "Small bodies",
+        "href": "#primitive"
+      },
+      {
+        "label": "Satellites",
+        "href": "#satellites"
+      },
+      {
+        "label": "Planetary atmospheres",
+        "href": "#planetary"
+      },
+      {
+        "label": "General observations",
+        "href": "#observation"
+      }
+    ],
+    "feature-grid": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "sections": [
+      "Small primitive bodies",
+      "Satellites",
+      "Planetary atmospheres",
+      "General observations of the Solar System"
+    ]
+  }
+}

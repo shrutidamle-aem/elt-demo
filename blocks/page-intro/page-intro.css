@@ -1,0 +1,279 @@
+/*
+ * Page Intro — instrument-harmoni.css §3 (source L15908–L15970, L19587, L20196): banner image,
+ * text block absolutely laid over it (top 0, left 10.5%, width 89.5%, flex column space-around).
+ * Visibility tiers are Bootstrap d-lg (992) / d-xl (1200). Type tiers are the source's own:
+ * <= 576 / >= 576, 768, 992, 1200, 1440, 1680, 1920. The section ground is section-metadata
+ * `dark-tight`.
+ */
+.page-intro {
+  position: relative;
+}
+
+.page-intro .page-intro-image picture {
+  display: contents;
+}
+
+.page-intro .page-intro-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.page-intro .page-intro-textblock {
+  position: absolute;
+  top: 0;
+  left: var(--content-inset);
+  width: 89.5%;
+  height: 100%;
+}
+
+.page-intro .page-intro-textblock-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.page-intro .header-title p,
+.page-intro .header-subtitle p,
+.page-intro .header-quick-links p {
+  margin: 0;
+}
+
+.page-intro .header-description p {
+  margin: 0 0 1rem;
+}
+
+.page-intro .header-title {
+  font-weight: 600;
+  color: var(--headerblue);
+}
+
+.page-intro .header-subtitle,
+.page-intro .header-description {
+  display: none;
+  width: 40%;
+}
+
+.page-intro .header-quick-links {
+  width: 89.5%;
+  font-weight: 600;
+}
+
+.page-intro .quick-links-list,
+.page-intro .quick-links-list a,
+.page-intro .quick-links-list a:hover {
+  color: var(--headerblue);
+}
+
+.page-intro .quick-links-list a:hover {
+  color: var(--orange);
+}
+
+@media (width >= 992px) {
+  .page-intro .header-subtitle {
+    display: block;
+  }
+}
+
+@media (width >= 1200px) {
+  .page-intro .header-description {
+    display: block;
+  }
+}
+
+@media only screen and (width <= 576px) {
+  .page-intro .header-title {
+    font-size: 1.75rem;
+  }
+
+  .page-intro .header-subtitle {
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+  }
+
+  .page-intro .header-description {
+    font-size: 0.875rem;
+    line-height: 1.625rem;
+  }
+
+  .page-intro .header-quick-links {
+    font-size: 0.875rem;
+  }
+}
+
+@media only screen and (width >= 576px) {
+  .page-intro .header-title {
+    font-size: 1.875rem;
+  }
+
+  .page-intro .header-subtitle {
+    font-size: 25px;
+    line-height: 2.375rem;
+  }
+
+  .page-intro .header-description {
+    font-size: 0.9375rem;
+    line-height: 27px;
+  }
+
+  .page-intro .header-quick-links {
+    font-size: 0.9375rem;
+  }
+}
+
+@media only screen and (width >= 768px) {
+  .page-intro .header-title {
+    font-size: 1.9375rem;
+  }
+
+  .page-intro .header-subtitle {
+    font-size: 27px;
+    line-height: 2.4375rem;
+  }
+
+  .page-intro .header-description {
+    font-size: 1rem;
+    line-height: 1.75rem;
+  }
+
+  .page-intro .header-quick-links {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (width >= 992px) {
+  .page-intro .header-title {
+    font-size: 32.5px;
+  }
+
+  .page-intro .header-subtitle {
+    font-size: 1.75rem;
+    line-height: 2.5625rem;
+  }
+
+  .page-intro .header-description {
+    font-size: 1.0625rem;
+    line-height: 1.8125rem;
+  }
+
+  .page-intro .header-quick-links {
+    font-size: 1.0625rem;
+  }
+}
+
+@media only screen and (width >= 1200px) {
+  .page-intro .header-title {
+    font-size: 2.125rem;
+  }
+
+  .page-intro .header-subtitle {
+    font-size: 1.8125rem;
+    line-height: 2.625rem;
+  }
+
+  .page-intro .header-description {
+    font-size: 1.125rem;
+    line-height: 1.875rem;
+  }
+
+  .page-intro .header-quick-links {
+    font-size: 1.125rem;
+  }
+}
+
+@media only screen and (width >= 1440px) {
+  .page-intro .header-title {
+    font-size: 2.25rem;
+  }
+
+  .page-intro .header-subtitle {
+    font-size: 1.9375rem;
+    line-height: 2.75rem;
+  }
+
+  .page-intro .header-description {
+    font-size: 1.1875rem;
+    line-height: 2rem;
+  }
+
+  .page-intro .header-quick-links {
+    font-size: 1.1875rem;
+  }
+}
+
+@media only screen and (width >= 1680px) {
+  .page-intro .header-title {
+    font-size: 2.375rem;
+  }
+
+  .page-intro .header-subtitle {
+    font-size: 2rem;
+    line-height: 2.875rem;
+  }
+
+  .page-intro .header-description {
+    font-size: 1.25rem;
+    line-height: 2.0625rem;
+  }
+
+  .page-intro .header-quick-links {
+    font-size: 1.25rem;
+  }
+}
+
+@media only screen and (width >= 1920px) {
+  .page-intro .header-subtitle {
+    font-size: 2.125rem;
+    line-height: 3rem;
+  }
+
+  .page-intro .header-description {
+    font-size: 1.3125rem;
+    line-height: 2.125rem;
+  }
+
+  .page-intro .header-quick-links {
+    font-size: 1.3125rem;
+  }
+}
+
+/* ── variant `program` (telescope-dome.css §2, program template): subtitle / description
+   35% wide, subtitle from 1200 px (d-xl), description from 1440 px (d-xxl) ── */
+.page-intro.program .header-subtitle,
+.page-intro.program .header-description {
+  width: 35%;
+}
+
+@media (width >= 992px) {
+  .page-intro.program .header-subtitle {
+    display: none;
+  }
+}
+
+@media (width >= 1200px) {
+  .page-intro.program .header-subtitle {
+    display: block;
+  }
+
+  .page-intro.program .header-description {
+    display: none;
+  }
+}
+
+@media (width >= 1440px) {
+  .page-intro.program .header-description {
+    display: block;
+  }
+}
+
+/* `program quick-sm`: the quick-links line from 576 px only (mirror pages: d-none d-sm-block) */
+.page-intro.quick-sm .header-quick-links {
+  display: none;
+}
+
+@media (width >= 576px) {
+  .page-intro.quick-sm .header-quick-links {
+    display: block;
+  }
+}

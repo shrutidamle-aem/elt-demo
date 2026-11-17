@@ -1,0 +1,23 @@
+[live-session] waiting to pace live navigations to main--26c59ee1--aemcoder.aem.page (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+chrome-parity @ 360px, tolerance 1px
+  live:  https://elt.eso.org/telescope/ (live side from cache stardust/replica/gates/telescope-360/chrome-live.json, probed 2026-11-13T13:06:46.783Z — delete the file to re-probe)
+  build: https://main--26c59ee1--aemcoder.aem.page/telescope
+
+■ header: 1 delta(s) — 3 paired of 3/3 texts, 5/5 icons
+  (live has no <header>: auto-detected nav#top-navbar.navbar.top_ — pass --region header=<liveSel>|<buildSel> to override)
+  REGION STYLE position fixed → static (fixed/sticky chrome must stay fixed/sticky — seam symmetry)
+
+■ footer: 10 delta(s) — 10 paired of 10/10 texts, 0/0 icons
+  OFFSET       the region sit Δy -26px from live as one block — content identical; the page above is a different height (fix that, or a live feed rendered another length)
+  PAIR         "| ELT ©"  tag <div> → <p>; letterSpacing normal → 0.032832px; Δy -26px (4054→4028)
+  PAIR         "ESO"  letterSpacing normal → 0.032832px; Δy -26px (4055→4029)
+  PAIR         "2026"  letterSpacing normal → 0.032832px; Δy -26px (4054→4028)
+  PAIR         "| | | | |"  tag <div> → <p>; letterSpacing normal → 0.032832px; Δy -26px (4088→4062)
+  PAIR         "Credits"  letterSpacing normal → 0.032832px; Δy -26px (4089→4063)
+  PAIR         "Contact us"  letterSpacing normal → 0.032832px; Δy -26px (4089→4063)
+  PAIR         "Subscribe to ESO news"  letterSpacing normal → 0.032832px; Δy -26px (4089→4063)
+  PAIR         "Accelerated by CDN77"  letterSpacing normal → 0.032832px; Δy -26px (4108→4082)
+  PAIR         "Terms & Conditions"  letterSpacing normal → 0.032832px; Δy -26px (4108→4082)
+  PAIR         "Cookie Settings and Policy"  letterSpacing normal → 0.032832px; Δy -26px (4108→4082)
+
+✗ 11 delta(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

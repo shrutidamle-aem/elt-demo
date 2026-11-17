@@ -1,0 +1,25 @@
+origin: cached about-road-units (2026-11-13T14:53:35.543Z)
+unit-geometry @ 1440px, tol 4px — https://elt.eso.org/about/road/ vs https://main--26c59ee1--aemcoder.aem.page/about/road
+footer .col-12=.site-footer__row > .footer-item: no visible unit on the served side (2 / 0 DOM matches)
+unit 1 of article-image-rows (required) .page-section > .m-0=.page-section > .article-image: origin 0,1500 360×173 vs served 0,1404 1440×691 → Δx 0 Δy -96 Δw +1080 Δh +518  ✗ unit size; 2 elements: 0 within 4px, 2 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "link:a.d-flex.align-items-center#1" | 0,0 360×169 | 0,0 1440×677 | 0 | 0 | +1080 | +508 | ✗ |
+| image "image:img#1" | 0,0 360×169 | 0,0 1440×677 | 0 | 0 | +1080 | +508 | ✗ |
+unit 2 of article-image-rows (required) .page-section > .m-0=.page-section > .article-image: origin 0,2606 360×128 vs served 0,2574 1440×512 → Δx 0 Δy -32 Δw +1080 Δh +384  ✗ unit size; 2 elements: 0 within 4px, 2 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "link:a.d-flex.align-items-center#1" | 38,0 284×124 | 151,0 1138×497 | +113 | 0 | +854 | +373 | ✗ |
+| image "image:img#1" | 38,0 284×124 | 151,0 1138×497 | +113 | 0 | +854 | +373 | ✗ |
+unit 3 of article-image-rows (required) .page-section > .m-0=.page-section > .article-image: origin 0,3734 360×124 vs served 0,3566 1440×496 → Δx 0 Δy -168 Δw +1080 Δh +372  ✗ unit size; 2 elements: 0 within 4px, 2 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "link:a.d-flex.align-items-center#1" | 38,0 284×120 | 151,0 1138×482 | +113 | 0 | +854 | +362 | ✗ |
+| image "image:img#1" | 38,0 284×120 | 151,0 1138×482 | +113 | 0 | +854 | +362 | ✗ |
+unit 4 of article-image-rows (required) .page-section > .m-0=.page-section > .article-image: origin 0,5033 360×136 vs served 0,4767 1440×544 → Δx 0 Δy -266 Δw +1080 Δh +408  ✗ unit size; 2 elements: 0 within 4px, 2 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "link:a.d-flex.align-items-center#1" | 38,0 284×132 | 151,0 1138×529 | +113 | 0 | +854 | +397 | ✗ |
+| image "image:img#1" | 38,0 284×132 | 151,0 1138×529 | +113 | 0 | +854 | +397 | ✗ |
+Units: 4 compared; elements within 0, off 8, hidden 0, missing 0; 1 selector error(s) → FAIL
+json → stardust/replica/gates/about-road-1440/units-pub2.json

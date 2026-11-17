@@ -1,0 +1,14 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "design-system-font",
+        "value": "swiper-icons",
+        "createdAt": "2026-11-13T12:33:31.054Z",
+        "reason": "replica of elt.eso.org: Swiper's own arrow icon face, lifted verbatim (data: URI) from the source stylesheet L15608"
+      }
+    ]
+  }
+}

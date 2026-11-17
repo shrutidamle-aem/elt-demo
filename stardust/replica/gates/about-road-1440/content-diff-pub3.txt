@@ -1,0 +1,171 @@
+
+Content diff @ 1440px (profile "generic", roots: .big-header-text, #main-navbar, [class*=light]:not(.footer-item), header, footer)
+root ".big-header-text"
+  source: 3 text nodes — 0 headings, 0 eyebrows, 0 CTAs, 3 body; 1 img
+  build: 3 text nodes — 1 headings, 0 eyebrows, 0 CTAs, 2 body; 1 img
+  editable texts (outermost h*/p/ul/ol): source 1 / build 2
+  attributes (placeholder/aria-label/title): source 0 / build 0; icons: source 0 / build 0
+root "#main-navbar"
+  source: 46 text nodes — 0 headings, 0 eyebrows, 46 CTAs, 0 body; 0 img
+  build: 46 text nodes — 0 headings, 0 eyebrows, 46 CTAs, 0 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 1 / build 1
+  attributes (placeholder/aria-label/title): source 1 / build 15; icons: source 1 / build 0
+root "[class*=light]:not(.footer-item)"
+  source: 10 text nodes — 0 headings, 0 eyebrows, 7 CTAs, 3 body; 7 img
+  build: 10 text nodes — 0 headings, 0 eyebrows, 7 CTAs, 3 body; 7 img
+  editable texts (outermost h*/p/ul/ol): source 2 / build 7
+  attributes (placeholder/aria-label/title): source 6 / build 9; icons: source 6 / build 6
+root "header" — source: absent (no <header> / [role="banner"] outside the main root(s)) — measured as empty
+  source: 0 text nodes — 0 headings, 0 eyebrows, 0 CTAs, 0 body; 0 img
+  build: 54 text nodes — 0 headings, 0 eyebrows, 51 CTAs, 3 body; 9 img
+  editable texts (outermost h*/p/ul/ol): source 0 / build 3
+  attributes (placeholder/aria-label/title): source 0 / build 29; icons: source 0 / build 30
+root "footer"
+  source: 10 text nodes — 0 headings, 0 eyebrows, 7 CTAs, 3 body; 0 img
+  build: 10 text nodes — 0 headings, 0 eyebrows, 7 CTAs, 3 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 0 / build 2
+  attributes (placeholder/aria-label/title): source 0 / build 7; icons: source 0 / build 0
+
+Findings: 141 (2 structural 🔴)
+Tiers: looks-same 🔴 2 · nothing-lost 🟡 1 · accepted 🟢 0 (owner 0, auto 0) · advisory 138
+  🔴 ROLE SWAP [.big-header-text]: "| The road to the ELT" is a body in the source but a heading in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 MISSING ICON [#main-navbar]: source empty icon box (0×0) at "toggle navigation" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟠 EXTRA [header]: build cta "English" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Español" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "en" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "es" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "ELT HOME" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "ABOUT" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "About the ELT" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Timeline" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Location" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Webcams" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Facts" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Road to the ELT" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Meet the Team" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Working Groups" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Industrial and Institutional Partners" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "FAQ" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "TELESCOPE" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Telescope Overview" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Dome" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Main Structure" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Mirrors" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Mirrors Overview" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "M1" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "M2M3" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "M4" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "M5" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Adaptive Optics" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Prefocal Station" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Controls" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Operations" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "INSTRUMENTS" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Instruments Overview" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "HARMONI" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "MICADO" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "MORFEO" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "METIS" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "ANDES" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "MOSAIC" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "SCIENCE" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Science Overview" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Solar System" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Exoplanets" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Stars" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Black Holes" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Galaxies" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Cosmology and Dark Matter" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Fundamental Physics" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Unexpected Discoveries" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "NEWS & MULTIMEDIA" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "SUCCESS STORIES" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "search" has no source source — Unexpected node with no source.
+  🟡 MISSING ARIA-LABEL [#main-navbar]: source <button> aria-label="Toggle navigation" has no build <button> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 EXTRA TITLE [#main-navbar]: build <a> title="ELT HOME" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#main-navbar]: build <a> title="ABOUT" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#main-navbar]: build <a> title="TELESCOPE" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#main-navbar]: build <a> title="Telescope Overview" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#main-navbar]: build <a> title="Dome" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#main-navbar]: build <a> title="Main Structure" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#main-navbar]: build <a> title="Mirrors" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#main-navbar]: build <a> title="Adaptive Optics" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#main-navbar]: build <a> title="Prefocal Station" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#main-navbar]: build <a> title="Controls" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#main-navbar]: build <a> title="Operations" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#main-navbar]: build <a> title="INSTRUMENTS" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#main-navbar]: build <a> title="SCIENCE" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#main-navbar]: build <a> title="NEWS & MULTIMEDIA" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#main-navbar]: build <a> title="SUCCESS STORIES" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [[class*=light]:not(.footer-item)]: build <a> title="OWL Blue Book" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [[class*=light]:not(.footer-item)]: build <a> title="recommended" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [[class*=light]:not(.footer-item)]: build <a> title="conference" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA [header]: build body "Choose your language" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "|" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Search" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA ARIA-LABEL [header]: build <nav> aria-label="ESO and site navigation" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="ESO on Facebook" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="ESO on Instagram" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="ESO on LinkedIn" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="ESO on YouTube" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="en" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="es" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <button> aria-label="Toggle navigation" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="ELT HOME" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="ABOUT" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="TELESCOPE" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="Telescope Overview" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="Dome" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="Main Structure" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="Mirrors" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="Adaptive Optics" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="Prefocal Station" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="Controls" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="Operations" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="INSTRUMENTS" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="SCIENCE" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="NEWS & MULTIMEDIA" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="SUCCESS STORIES" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="ESO on Facebook" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="ESO on Instagram" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="ESO on LinkedIn" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="ESO on YouTube" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA PLACEHOLDER [header]: build <input> placeholder="Search..." has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <input> aria-label="Search" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ICON [header]: build image media_175cb2986e8ee49e7c64e8a9df5fa3f1f9b298693.jpg (38×50) at "/" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon bg:sprites.png (26×18) at "choose your language english español" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon bg:sprites.png (26×18) at "choose your language english español" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon bg:sprites.png (26×18) at "choose your language english español" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon bg:sprites.png (26×18) at "choose your language english español" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon bg:sprites.png (26×18) at "choose your language english español" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon bg:sprites.png (28×18) at "choose your language english español" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon bg:sprites.png (26×18) at "choose your language english español" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon bg:sprites.png (26×18) at "choose your language english español" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon bg:sprites.png (26×18) at "choose your language english español" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon bg:sprites.png (26×18) at "choose your language english español" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon bg:sprites.png (26×18) at "choose your language english español" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon bg:sprites.png (26×18) at "choose your language english español" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon bg:sprites.png (26×18) at "choose your language english español" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon bg:sprites.png (26×18) at "choose your language english español" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon bg:sprites.png (26×18) at "choose your language english español" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon bg:sprites.png (26×18) at "choose your language english español" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon bg:sprites.png (26×18) at "choose your language english español" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph U+F063 (Font Awesome 5 Free, 11×13) at "choose your language" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon bg:sprites.png (0×0) at "english" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon bg:sprites.png (0×0) at "español" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build image media_1f386e2b9f7ed0b34b2f603a73f839485d120c14f.png (35×35) at "eso on facebook" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build image media_19faa7be92695e315cea4cad487aa3e15b6594830.png (35×35) at "eso on instagram" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build image media_15b4dfde77d1909c3b38baaf7167a2e3d48f25f72.png (35×35) at "eso on linkedin" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build image media_101417719196c90d4b42a69d39754d790fdc2b645.png (35×35) at "eso on youtube" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build empty icon box (0×0) at "toggle navigation" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build image media_1f386e2b9f7ed0b34b2f603a73f839485d120c14f.png (28×28) at "eso on facebook" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build image media_19faa7be92695e315cea4cad487aa3e15b6594830.png (28×28) at "eso on instagram" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build image media_15b4dfde77d1909c3b38baaf7167a2e3d48f25f72.png (28×28) at "eso on linkedin" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build image media_101417719196c90d4b42a69d39754d790fdc2b645.png (28×28) at "eso on youtube" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA TITLE [footer]: build <a> title="ESO" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: build <a> title="Credits" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: build <a> title="Contact us" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: build <a> title="Subscribe to ESO news" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: build <a> title="Accelerated by CDN77" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: build <a> title="Terms & Conditions" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: build <a> title="Cookie Settings and Policy" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).

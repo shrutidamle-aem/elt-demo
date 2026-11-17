@@ -1,0 +1,179 @@
+/*
+ * about-timeline.css — `timeline` template (about-timeline): hero title, a dark section holding the
+ * 27 milestone cards over a viewport-sized banner (one banner per milestone, cross-faded by
+ * about-timeline.js), and the fixed quick-access rail on the right edge.
+ * Link order: canon.css → inner.css (hero title) → this file.
+ *
+ * Source of every value: elt_assets_timeline.670864a68239.css (Lnnn, captured in
+ * stardust/current/assets/css/) and elt_assets.66fa71510905.css (Lnnnnn) for the container and the
+ * Bootstrap utilities the source markup carries (.position-relative/.w-100/.h-100/.position-absolute).
+ * Tiers are the source's own (max 576 / min 576, 768, 992, 1200, 1440, 1680, 1920).
+ */
+
+/* 1 ─ Hero section label — inline style on the source span (color: rgb(232, 133, 38)) ─ */
+.big-header-section { color: rgb(232, 133, 38); }
+
+/* 2 ─ Dark section — .container-dark L19727 + .container-tight L19760 (padding 0 !important) ─ */
+.container-dark {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #fff;
+}
+
+/* 3 ─ Timeline frame — L419, L438, L444, L460 ─ */
+.timeline-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  overflow-x: hidden;
+}
+.timeline-img {
+  position: static;          /* about-timeline.js switches to fixed once the frame is scrolled past */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;             /* replaced by the JS banner size (1920:900 cover of the viewport) */
+  z-index: 0;
+}
+.timeline-img-frame { position: relative; width: 100%; height: 100%; }
+.timeline-img-frame > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 500ms ease-in-out;
+}
+.timeline-img-frame > img.is-shown { opacity: 1; }
+.timeline { position: relative; width: 85%; z-index: 1; }
+
+/* 4 ─ Milestone cards — L428, L464–476 ─ */
+.timeline-content {
+  position: relative;
+  margin: 20px;
+  padding: 20px;
+  background: rgba(100, 100, 100, 0.4);
+  border-radius: 5px;
+  box-shadow: 6px 6px 15px rgb(50, 50, 50);
+  transition: all 0.5s ease;
+}
+.timeline-content.is-current { background: rgba(90, 140, 200, 0.9); }
+.timeline-content-title { font-weight: 600; }
+.timeline-content-year { font-style: italic; color: rgb(225, 150, 0); }
+
+@media (min-width: 768px) {
+  /* L478–L517: centre line, alternating cards, dots */
+  .timeline::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 3px;
+    height: 100%;
+    background: rgb(90, 140, 200);
+    transform: translateX(-50%);
+  }
+  .timeline-content { width: 50%; }
+  .timeline-content:nth-child(odd) { float: left; clear: both; transform: translateX(-55px); }
+  .timeline-content:nth-child(even) { float: right; clear: both; transform: translateX(55px); }
+  .timeline-content::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -43px;
+    width: 16px;
+    height: 16px;
+    background: rgb(90, 140, 200);
+    border-radius: 50%;
+  }
+  .timeline-content:nth-child(even)::before { left: -43px; }
+}
+
+/* Type ramp — L525–L661 */
+@media only screen and (max-width: 576px) {
+  .timeline-content-title { font-size: 34px; line-height: 42px; padding: 1rem 0; }
+  .timeline-content-text { font-size: 22px; }
+  .timeline-content-year { font-size: 28px; }
+}
+@media only screen and (min-width: 576px) {
+  .timeline-content-title { font-size: 38px; line-height: 46px; padding: 1.1rem 0; }
+  .timeline-content-text { font-size: 23px; }
+  .timeline-content-year { font-size: 30px; }
+}
+@media only screen and (min-width: 768px) {
+  .timeline-content-title { font-size: 41px; line-height: 49px; padding: 1.25rem 0; }
+  .timeline-content-text { font-size: 24px; }
+  .timeline-content-year { font-size: 32px; }
+}
+@media only screen and (min-width: 992px) {
+  .timeline-content-title { font-size: 45px; line-height: 53px; padding: 1.4rem 0; }
+  .timeline-content-text { font-size: 25px; }
+  .timeline-content-year { font-size: 34px; }
+}
+@media only screen and (min-width: 1200px) {
+  .timeline-content-title { font-size: 49px; line-height: 57px; padding: 1.5rem 0; }
+  .timeline-content-text { font-size: 26px; }
+  .timeline-content-year { font-size: 37px; }
+}
+@media only screen and (min-width: 1440px) {
+  .timeline-content-title { font-size: 53px; line-height: 61px; padding: 1.7rem 0; }
+  .timeline-content-text { font-size: 28px; }
+  .timeline-content-year { font-size: 39px; }
+}
+@media only screen and (min-width: 1680px) {
+  .timeline-content-title { font-size: 58px; line-height: 66px; padding: 1.85rem 0; }
+  .timeline-content-text { font-size: 29px; }
+  .timeline-content-year { font-size: 42px; }
+}
+@media (min-width: 1920px) {
+  .timeline-content-title { font-size: 62px; line-height: 70px; padding: 2rem 0; }
+  .timeline-content-text { font-size: 30px; }
+  .timeline-content-year { font-size: 44px; }
+}
+
+/* 5 ─ Quick-access rail — L667–L745 (background-blend-mode `soft-lighten;;` is invalid on the
+       source and dropped by the browser, so it is not lifted) ─ */
+.timeline-quick-access {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  z-index: 1200;
+  width: 30px;
+  height: 60vh;
+  margin-top: -30vh;
+  margin-left: -100px;
+  padding: 1vh 0 1vh 30px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  font-size: 1rem;
+  background-color: rgba(90, 140, 200, 0.9);
+  background-image: url("media/left-arrowhead.svg");
+  background-position: left center;
+  background-size: 20px;
+  background-repeat: no-repeat;
+  border: 2px solid rgb(90, 140, 200);
+  border-right: 0;
+  border-radius: max(1vh, 1vw) 0 0 max(1vh, 1vw);
+  scrollbar-width: none;
+  transition: all 0.5s ease;
+}
+.timeline-quick-access::-webkit-scrollbar { display: none; }
+.timeline-quick-access:hover { width: 200px; background-color: rgba(0, 0, 0, 0.5); transition: all 0.5s ease; }
+.timeline-quick-access-container { padding: 4rem 0; }
+.timeline-quick-access-element-container { position: relative; padding: 0.2vh 0; }
+.timeline-quick-access-element-container:hover {
+  background: linear-gradient(to right, rgba(90, 140, 200, 1.0), rgba(90, 140, 200, 0.2));
+}
+.timeline-quick-access-element-container.active { font-weight: 700; color: rgb(225, 150, 0); }
+.timeline-quick-access-element-title { display: block; height: 0; opacity: 0; transform: scale(1, 0); }
+.timeline-quick-access-element-container:hover > .timeline-quick-access-element-title {
+  display: block;
+  height: 100%;
+  opacity: 1;
+  transform: scale(1, 1);
+  transition: all 0.5s ease;
+}

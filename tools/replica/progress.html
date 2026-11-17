@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Migration result</title>
+<link rel="stylesheet" href="spectrum.css">
+<style>
+  body { background-color: var(--spectrum-bg-app); }
+  main { max-width: 760px; margin: 0 auto; padding: 40px 24px 64px; }
+  header { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+  .meta { color: var(--spectrum-text-subdued); margin: 0 0 24px; }
+  .spectrum-panel { margin-bottom: 16px; }
+  .spectrum-panel-header { margin: 0; padding: 0 16px; }
+  details.spectrum-panel > summary { cursor: pointer; list-style: none; }
+  details.spectrum-panel > summary::-webkit-details-marker { display: none; }
+  details.spectrum-panel > summary > h2 { margin: 0; font: inherit; }
+  details.spectrum-panel > summary > h2::before { content: "\25B8"; display: inline-block; width: 1em; margin-right: 6px; color: var(--spectrum-text-subdued); }
+  details.spectrum-panel[open] > summary > h2::before { content: "\25BE"; }
+  .panel-body { padding: 16px; }
+  .panel-body > :last-child { margin-bottom: 0; }
+  .bar { height: 8px; border-radius: 9999px; background-color: var(--spectrum-gray-200); overflow: hidden; }
+  .bar span { display: block; height: 100%; background-color: var(--spectrum-accent-bg); }
+  ol.steps { list-style: none; padding: 0; margin: 0; }
+  ol.steps li { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 0; }
+  ol.steps li + li { border-top: 1px solid var(--spectrum-gray-200); }
+  details summary { cursor: pointer; }
+  table.pages { margin-top: 8px; }
+  table.pages td { word-break: break-all; }
+  table.pages td .spectrum-badge { word-break: normal; }
+  @media (max-width: 400px) { table.pages th, table.pages td { padding: 8px 4px; } }
+  table { width: 100%; border-collapse: collapse; }
+  th, td { padding: 8px; text-align: left; border-bottom: 1px solid var(--spectrum-gray-200); }
+  th { color: var(--spectrum-text-subdued); font-weight: 700; }
+  .panel-body h3 { margin: 16px 0 4px; }
+  ol.todo { padding-left: 20px; margin: 0 0 16px; }
+  ol.todo li { margin: 6px 0; }
+  ul.all { columns: 2; margin: 4px 0; padding-left: 18px; }
+  .spectrum-panel-header .spectrum-badge { margin-left: 8px; vertical-align: middle; }
+  #blocks-used table.blocks { table-layout: fixed; }
+  #blocks-used table.blocks th:nth-child(1) { width: 26%; }
+  #blocks-used table.blocks th:nth-child(2) { width: 32%; }
+  #blocks-used td { overflow-wrap: break-word; vertical-align: top; }
+  #blocks-used td:last-child { overflow-wrap: anywhere; }
+  #blocks-used tr.group td { border-top: 1px solid var(--spectrum-gray-300); }
+  #blocks-used td.block { font-weight: 700; }
+  #blocks-used .block-pages { display: block; font-weight: 400; color: var(--spectrum-text-subdued); }
+  #blocks-used .variant { display: inline-block; padding: 0 6px; margin: 0 4px 2px 0; border: 1px solid var(--spectrum-gray-300); border-radius: var(--spectrum-radius-sm); font-family: var(--spectrum-font-code); }
+  #blocks-used .variant-inline { font-family: var(--spectrum-font-code); font-weight: 400; color: var(--spectrum-text-subdued); }
+  #blocks-used .default, #blocks-used .blocks-count { color: var(--spectrum-text-subdued); }
+  #blocks-used .default { font-style: italic; }
+  #blocks-used .blocks-count { margin: 0; }
+  #blocks-used button.more { padding: 0; border: 0; background: none; color: var(--spectrum-text-accent); font: inherit; cursor: pointer; text-decoration: underline; }
+  #blocks-used .blocks-popover { width: min(520px, 90vw); max-height: 80vh; overflow: auto; overflow-wrap: anywhere; padding: 16px 20px; border: 1px solid var(--spectrum-gray-300); border-radius: var(--spectrum-radius-lg); background-color: var(--spectrum-bg-layer-1); box-shadow: var(--spectrum-shadow-elevated); }
+  #blocks-used .blocks-popover::backdrop { background-color: color-mix(in srgb, var(--spectrum-gray-900) 35%, transparent); }
+  #blocks-used .popover-head { display: flex; justify-content: space-between; align-items: start; gap: 12px; }
+  #blocks-used .popover-head h3 { margin: 0; }
+  #blocks-used ul.popover-pages { columns: 2; padding-left: 20px; margin: 12px 0 0; }
+  #blocks-used ul.popover-pages li { padding: 4px 0; break-inside: avoid; }
+  /* A browser without the popover API would show every page list inline; ':popover-open' is invalid there. */
+  @supports not selector(:popover-open) {
+    #blocks-used .blocks-popover, #blocks-used .more { display: none; }
+  }
+  #blocks-used .bp-radio { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  #blocks-used .bp-page, #blocks-used .bp-range { display: none; }
+  #blocks-used .pager { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 12px; flex-wrap: wrap; }
+  #blocks-used .labels { display: flex; flex-wrap: wrap; gap: 4px; }
+  #blocks-used .bp-radio:focus-visible ~ .pager label { outline: 2px solid var(--spectrum-focus-ring); }
+  #bp-1:checked ~ table .bp-page-1 { display: table-row-group; }
+  #bp-1:checked ~ .pager .bp-range-1 { display: inline; }
+  #bp-1:checked ~ .pager label[for="bp-1"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-2:checked ~ table .bp-page-2 { display: table-row-group; }
+  #bp-2:checked ~ .pager .bp-range-2 { display: inline; }
+  #bp-2:checked ~ .pager label[for="bp-2"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-3:checked ~ table .bp-page-3 { display: table-row-group; }
+  #bp-3:checked ~ .pager .bp-range-3 { display: inline; }
+  #bp-3:checked ~ .pager label[for="bp-3"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Migration result</h1>
+    <span class="spectrum-badge spectrum-badge--positive">Ready</span>
+  </header>
+  <p class="meta">Source site: <a href="https://elt.eso.org/" target="_blank" rel="noopener">https://elt.eso.org/</a><br>Preview site: <a href="https://main--26c59ee1--aemcoder.aem.page/" target="_blank" rel="noopener">https://main--26c59ee1--aemcoder.aem.page/</a><br>Finished: 2026-11-14 04:23 UTC</p>
+
+  <details class="spectrum-panel" open>
+    <summary class="spectrum-panel-header"><h2>What's done</h2></summary>
+    <div class="panel-body">
+      <p>The migration is complete: all 44 pages are live on the new platform, match the current site on desktop and mobile, and have passed the site-wide checks. Analytics and the privacy notice are carried over, switched off until you turn them on.</p>
+    </div>
+  </details>
+
+  <details class="spectrum-panel" open>
+    <summary class="spectrum-panel-header"><h2>Next steps</h2></summary>
+    <div class="panel-body">
+      <p>The site is ready for your review; the final report lists the few decisions that are yours to make.</p>
+      <ol class="todo">
+        <li><strong>Make it yours.</strong> Move this result into your own site and GitHub repository: use <strong>Make it yours</strong> on this migration in AEM Coder.</li>
+        <li><strong>Review the pages</strong> on the <a href="https://main--26c59ee1--aemcoder.aem.page/" target="_blank" rel="noopener">preview site</a>.</li>
+        <li><strong>Switch on analytics and tags</strong> when you are ready: see <em>Before you switch them on</em> under Analytics and tags.</li>
+      </ol>
+    </div>
+  </details>
+
+  <details class="spectrum-panel" open>
+    <summary class="spectrum-panel-header"><h2>Pages</h2></summary>
+    <div class="panel-body">
+      <p>This migration covers 44 pages. 43 of 44 are published on the preview site; 43 have passed the side-by-side check against the original.</p>
+      <details>
+        <summary>44 pages in this migration</summary>
+        <table class="pages">
+          <thead><tr><th>Source page</th><th>On the preview site</th><th>Status</th></tr></thead>
+          <tbody>
+          <tr><td><a href="https://elt.eso.org/" target="_blank" rel="noopener">https://elt.eso.org/</a></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/" target="_blank" rel="noopener">ELT | ESO</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://elt.eso.org/?lang" target="_blank" rel="noopener">https://elt.eso.org/?lang</a></td><td>—</td><td><span class="spectrum-badge">Upcoming</span></td></tr>
+          <tr><td><a href="https://elt.eso.org/chile/?lang" target="_blank" rel="noopener">https://elt.eso.org/chile/?lang</a></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/chile" target="_blank" rel="noopener">ELT | ESO Chile</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://elt.eso.org/about/" target="_blank" rel="noopener">https://elt.eso.org/about/</a></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/about" target="_blank" rel="noopener">About</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://elt.eso.org/telescope/" target="_blank" rel="noopener">https://elt.eso.org/telescope/</a></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/telescope" target="_blank" rel="noopener">Telescope | ELT | ESO</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://elt.eso.org/mirror/" target="_blank" rel="noopener">https://elt.eso.org/mirror/</a></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/mirror" target="_blank" rel="noopener">Mirror</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://elt.eso.org/instrument/" target="_blank" rel="noopener">https://elt.eso.org/instrument/</a></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/instrument" target="_blank" rel="noopener">Instrument</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://elt.eso.org/science/" target="_blank" rel="noopener">https://elt.eso.org/science/</a></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/science" target="_blank" rel="noopener">Science</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://elt.eso.org/media/" target="_blank" rel="noopener">https://elt.eso.org/media/</a></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/media" target="_blank" rel="noopener">News and Multimedia | ELT | ESO</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://elt.eso.org/credits/" target="_blank" rel="noopener">https://elt.eso.org/credits/</a></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/credits" target="_blank" rel="noopener">credits</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://elt.eso.org/about/timeline/" target="_blank" rel="noopener">https://elt.eso.org/about/timeline/</a></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/about/timeline" target="_blank" rel="noopener">Timeline | ELT | ESO</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://elt.eso.org/about/location/" target="_blank" rel="noopener">https://elt.eso.org/about/location/</a></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/about/location" target="_blank" rel="noopener">about-location</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://elt.eso.org/about/webcams/" target="_blank" rel="noopener">https://elt.eso.org/about/webcams/</a></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/about/webcams" target="_blank" rel="noopener">about-webcams</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://elt.eso.org/about/facts/" target="_blank" rel="noopener">https://elt.eso.org/about/facts/</a></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/about/facts" target="_blank" rel="noopener">Facts about the ELT | ELT | ESO</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://elt.eso.org/about/road/" target="_blank" rel="noopener">https://elt.eso.org/about/road/</a></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/about/road" target="_blank" rel="noopener">The road to the ELT | ELT | ESO</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://elt.eso.org/about/team/" target="_blank" rel="noopener">https://elt.eso.org/about/team/</a></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/about/team" target="_blank" rel="noopener">about-team</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://elt.eso.org/about/workinggroups/" target="_blank" rel="noopener">https://elt.eso.org/about/workinggroups/</a></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/about/workinggroups" target="_blank" rel="noopener">about-workinggroups</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://elt.eso.org/about/industrial/" target="_blank" rel="noopener">https://elt.eso.org/about/industrial/</a></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/about/industrial" target="_blank" rel="noopener">about-industrial</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://elt.eso.org/about/faq/" target="_blank" rel="noopener">https://elt.eso.org/about/faq/</a></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/about/faq" target="_blank" rel="noopener">about-faq</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://elt.eso.org/telescope/dome/" target="_blank" rel="noopener">https://elt.eso.org/telescope/dome/</a></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/telescope/dome" target="_blank" rel="noopener">Dome | ELT | ESO</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://elt.eso.org/telescope/structure/" target="_blank" rel="noopener">https://elt.eso.org/telescope/structure/</a></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/telescope/structure" target="_blank" rel="noopener">telescope-structure</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://elt.eso.org/mirror/M1/" target="_blank" rel="noopener">https://elt.eso.org/mirror/M1/</a></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/mirror/m1" target="_blank" rel="noopener">mirror-m1</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://elt.eso.org/mirror/M2M3/" target="_blank" rel="noopener">https://elt.eso.org/mirror/M2M3/</a></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/mirror/m2m3" target="_blank" rel="noopener">mirror-m2m3</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://elt.eso.org/mirror/M4/" target="_blank" rel="noopener">https://elt.eso.org/mirror/M4/</a></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/mirror/m4" target="_blank" rel="noopener">mirror-m4</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://elt.eso.org/mirror/M5/" target="_blank" rel="noopener">https://elt.eso.org/mirror/M5/</a></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/mirror/m5" target="_blank" rel="noopener">mirror-m5</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://elt.eso.org/telescope/adaptiveoptics/" target="_blank" rel="noopener">https://elt.eso.org/telescope/adaptiveoptics/</a></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/telescope/adaptiveoptics" target="_blank" rel="noopener">telescope-adaptiveoptics</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://elt.eso.org/telescope/prefocal/" target="_blank" rel="noopener">https://elt.eso.org/telescope/prefocal/</a></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/telescope/prefocal" target="_blank" rel="noopener">telescope-prefocal</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://elt.eso.org/telescope/controls/" target="_blank" rel="noopener">https://elt.eso.org/telescope/controls/</a></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/telescope/controls" target="_blank" rel="noopener">telescope-controls</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://elt.eso.org/telescope/operations/" target="_blank" rel="noopener">https://elt.eso.org/telescope/operations/</a></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/telescope/operations" target="_blank" rel="noopener">telescope-operations</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://elt.eso.org/instrument/HARMONI/" target="_blank" rel="noopener">https://elt.eso.org/instrument/HARMONI/</a></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/instrument/harmoni" target="_blank" rel="noopener">HARMONI | ELT | ESO</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://elt.eso.org/instrument/MICADO/" target="_blank" rel="noopener">https://elt.eso.org/instrument/MICADO/</a></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/instrument/micado" target="_blank" rel="noopener">MICADO</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://elt.eso.org/instrument/MORFEO/" target="_blank" rel="noopener">https://elt.eso.org/instrument/MORFEO/</a></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/instrument/morfeo" target="_blank" rel="noopener">MORFEO</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://elt.eso.org/instrument/METIS/" target="_blank" rel="noopener">https://elt.eso.org/instrument/METIS/</a></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/instrument/metis" target="_blank" rel="noopener">METIS</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://elt.eso.org/instrument/ANDES/" target="_blank" rel="noopener">https://elt.eso.org/instrument/ANDES/</a></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/instrument/andes" target="_blank" rel="noopener">ANDES</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://elt.eso.org/instrument/MOSAIC/" target="_blank" rel="noopener">https://elt.eso.org/instrument/MOSAIC/</a></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/instrument/mosaic" target="_blank" rel="noopener">MOSAIC</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://elt.eso.org/science/solarsystem/" target="_blank" rel="noopener">https://elt.eso.org/science/solarsystem/</a></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/science/solarsystem" target="_blank" rel="noopener">science-solarsystem</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://elt.eso.org/science/exoplanets/" target="_blank" rel="noopener">https://elt.eso.org/science/exoplanets/</a></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/science/exoplanets" target="_blank" rel="noopener">science-exoplanets</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://elt.eso.org/science/stars/" target="_blank" rel="noopener">https://elt.eso.org/science/stars/</a></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/science/stars" target="_blank" rel="noopener">science-stars</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://elt.eso.org/science/blackholes/" target="_blank" rel="noopener">https://elt.eso.org/science/blackholes/</a></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/science/blackholes" target="_blank" rel="noopener">science-blackholes</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://elt.eso.org/science/galaxies/" target="_blank" rel="noopener">https://elt.eso.org/science/galaxies/</a></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/science/galaxies" target="_blank" rel="noopener">science-galaxies</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://elt.eso.org/science/cosmodm/" target="_blank" rel="noopener">https://elt.eso.org/science/cosmodm/</a></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/science/cosmodm" target="_blank" rel="noopener">science-cosmodm</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://elt.eso.org/science/fundamentalphysics/" target="_blank" rel="noopener">https://elt.eso.org/science/fundamentalphysics/</a></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/science/fundamentalphysics" target="_blank" rel="noopener">science-fundamentalphysics</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://elt.eso.org/science/discoveries/" target="_blank" rel="noopener">https://elt.eso.org/science/discoveries/</a></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/science/discoveries" target="_blank" rel="noopener">science-discoveries</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://elt.eso.org/success/buildingon/" target="_blank" rel="noopener">https://elt.eso.org/success/buildingon/</a></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/success/buildingon" target="_blank" rel="noopener">success-buildingon</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          </tbody>
+        </table>
+      </details>
+    </div>
+  </details>
+
+  <details class="spectrum-panel">
+    <summary class="spectrum-panel-header"><h2>Page templates</h2></summary>
+    <div class="panel-body">
+      <table>
+        <thead><tr><th>Template</th><th>Pages</th><th>Desktop</th><th>Mobile</th><th>Status</th></tr></thead>
+        <tbody>
+          <tr><td>Information pages</td><td>9</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+          <tr><td>Facts and figures</td><td>1</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+          <tr><td>Instrument pages</td><td>6</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+          <tr><td>Home page</td><td>3</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+          <tr><td>Section overview pages</td><td>5</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+          <tr><td>Media page</td><td>1</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+          <tr><td>Telescope and science topic pages</td><td>18</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+          <tr><td>Timeline</td><td>1</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </details>
+
+  <details class="spectrum-panel" id="blocks-used">
+    <summary class="spectrum-panel-header"><h2>Blocks used</h2></summary>
+    <div class="panel-body">
+      <p>15 blocks in 89 variants across 43 pages. These are the building blocks your authors will work with.</p>
+      <input type="radio" name="blocks-page" id="bp-1" class="bp-radio" checked>
+      <input type="radio" name="blocks-page" id="bp-2" class="bp-radio">
+      <input type="radio" name="blocks-page" id="bp-3" class="bp-radio">
+      <table class="blocks">
+        <thead><tr><th>Block</th><th>Variant</th><th>Pages</th></tr></thead>
+        <tbody class="bp-page bp-page-1">
+          <tr class="group"><td class="block" rowspan="4">big-header<span class="block-pages">43 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-0-0">View 39 pages</button></td></tr>
+          <tr><td><span class="variant">home</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/" target="_blank" rel="noopener">ELT | ESO</a>, <a href="https://main--26c59ee1--aemcoder.aem.page/chile" target="_blank" rel="noopener">ELT | ESO Chile</a></td></tr>
+          <tr><td><span class="variant">facts</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/about/facts" target="_blank" rel="noopener">Facts about the ELT | ELT | ESO</a></td></tr>
+          <tr><td><span class="variant">success</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/success/buildingon" target="_blank" rel="noopener">success-buildingon</a></td></tr>
+          <tr class="group"><td class="block" rowspan="56">text-section<span class="block-pages">39 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-1-0">View 15 pages</button></td></tr>
+          <tr><td><span class="variant">bleed</span><span class="variant">row-styles</span></td><td><button class="more" popovertarget="blocks-pages-1-1">View 17 pages</button></td></tr>
+          <tr><td><span class="variant">row-styles</span></td><td><button class="more" popovertarget="blocks-pages-1-2">View 13 pages</button></td></tr>
+          <tr><td><span class="variant">intro</span></td><td><button class="more" popovertarget="blocks-pages-1-3">View 5 pages</button></td></tr>
+          <tr><td><span class="variant">intro</span><span class="variant">program</span></td><td><button class="more" popovertarget="blocks-pages-1-4">View 5 pages</button></td></tr>
+          <tr><td><span class="variant">bleed</span></td><td><button class="more" popovertarget="blocks-pages-1-5">View 4 pages</button></td></tr>
+          <tr><td><span class="variant">row-styles</span><span class="variant">video-caption</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/telescope/adaptiveoptics" target="_blank" rel="noopener">telescope-adaptiveoptics</a>, <a href="https://main--26c59ee1--aemcoder.aem.page/instrument/micado" target="_blank" rel="noopener">MICADO</a>, <a href="https://main--26c59ee1--aemcoder.aem.page/instrument/metis" target="_blank" rel="noopener">METIS</a></td></tr>
+          <tr><td><span class="variant">bleed</span><span class="variant">row-styles</span><span class="variant">fit-s-ls-n05</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/telescope/operations" target="_blank" rel="noopener">telescope-operations</a>, <a href="https://main--26c59ee1--aemcoder.aem.page/science/blackholes" target="_blank" rel="noopener">science-blackholes</a></td></tr>
+          <tr><td><span class="variant">bleed</span><span class="variant">row-styles</span><span class="variant">fit-s-ls-p05</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/telescope/prefocal" target="_blank" rel="noopener">telescope-prefocal</a>, <a href="https://main--26c59ee1--aemcoder.aem.page/science/stars" target="_blank" rel="noopener">science-stars</a></td></tr>
+          <tr><td><span class="variant">intro</span><span class="variant">program</span><span class="variant">plain-nutshell</span><span class="variant">fit-l-ls-p05</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/science/exoplanets" target="_blank" rel="noopener">science-exoplanets</a>, <a href="https://main--26c59ee1--aemcoder.aem.page/science/galaxies" target="_blank" rel="noopener">science-galaxies</a></td></tr>
+          <tr><td><span class="variant">y-2</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/mirror" target="_blank" rel="noopener">Mirror</a>, <a href="https://main--26c59ee1--aemcoder.aem.page/instrument" target="_blank" rel="noopener">Instrument</a></td></tr>
+          <tr><td><span class="variant">bleed</span><span class="variant">bordered</span><span class="variant">centered</span><span class="variant">logo-widths</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/about/industrial" target="_blank" rel="noopener">about-industrial</a></td></tr>
+          <tr><td><span class="variant">bleed</span><span class="variant">row-styles</span><span class="variant">continued</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/telescope/operations" target="_blank" rel="noopener">telescope-operations</a></td></tr>
+          <tr><td><span class="variant">intro</span><span class="variant">program</span><span class="variant">bleed</span><span class="variant">row-styles</span><span class="variant">empty-echo</span><span class="variant">row-images-full</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/telescope/operations" target="_blank" rel="noopener">telescope-operations</a></td></tr>
+          <tr><td><span class="variant">faq</span><span class="variant">bleed</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/about/faq" target="_blank" rel="noopener">about-faq</a></td></tr>
+          <tr><td><span class="variant">bleed</span><span class="variant">row-styles</span><span class="variant">h2-text</span><span class="variant">fit-l-ls-n1</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/science/solarsystem" target="_blank" rel="noopener">science-solarsystem</a></td></tr>
+          <tr><td><span class="variant">bleed</span><span class="variant">row-styles</span><span class="variant">snug-captions</span><span class="variant">row-images-full</span><span class="variant">fit-l-ls-p05</span><span class="variant">fitp16-s-ls-p05</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/science/blackholes" target="_blank" rel="noopener">science-blackholes</a></td></tr>
+          <tr><td><span class="variant">bleed</span><span class="variant">row-styles</span><span class="variant">fit-l-ls-p05</span><span class="variant">fitp5-s-ls-p05</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/telescope/adaptiveoptics" target="_blank" rel="noopener">telescope-adaptiveoptics</a></td></tr>
+          <tr><td><span class="variant">bleed</span><span class="variant">row-styles</span><span class="variant">fit-s-pr1</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/mirror/m1" target="_blank" rel="noopener">mirror-m1</a> <span class="blocks-count">×2</span></td></tr>
+          <tr><td><span class="variant">bleed</span><span class="variant">row-styles</span><span class="variant">h2-text</span><span class="variant">fitp2-s-ls-n05</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/science/solarsystem" target="_blank" rel="noopener">science-solarsystem</a></td></tr>
+          <tr><td><span class="variant">bleed</span><span class="variant">row-styles</span><span class="variant">fitp5-s-ls-n05</span><span class="variant">fitp8-s-ls-p1</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/science/galaxies" target="_blank" rel="noopener">science-galaxies</a></td></tr>
+          <tr><td><span class="variant">bleed</span><span class="variant">row-styles</span><span class="variant">sup-metrics</span><span class="variant">fitp5-s-ls-p05</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/mirror/m4" target="_blank" rel="noopener">mirror-m4</a></td></tr>
+          <tr><td><span class="variant">bleed</span><span class="variant">grey-pair</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/instrument" target="_blank" rel="noopener">Instrument</a></td></tr>
+          <tr><td><span class="variant">intro</span><span class="variant">program</span><span class="variant">bleed</span><span class="variant">row-styles</span><span class="variant">snug-captions</span><span class="variant">row-images-full</span><span class="variant">grey-triptych</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/mirror/m2m3" target="_blank" rel="noopener">mirror-m2m3</a></td></tr>
+          <tr><td><span class="variant">intro</span><span class="variant">program</span><span class="variant">bleed</span><span class="variant">row-styles</span><span class="variant">h2-text</span><span class="variant">plain-nutshell</span><span class="variant">h2-spaced</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/science/fundamentalphysics" target="_blank" rel="noopener">science-fundamentalphysics</a></td></tr>
+          <tr><td><span class="variant">bleed</span><span class="variant">row-styles</span><span class="variant">h2-text</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/science/solarsystem" target="_blank" rel="noopener">science-solarsystem</a></td></tr>
+          <tr><td><span class="variant">bleed</span><span class="variant">row-styles</span><span class="variant">h2-text</span><span class="variant">sup-metrics</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/science/solarsystem" target="_blank" rel="noopener">science-solarsystem</a></td></tr>
+          <tr><td><span class="variant">bleed</span><span class="variant">inline-titles</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/about/workinggroups" target="_blank" rel="noopener">about-workinggroups</a> <span class="blocks-count">×6</span></td></tr>
+          <tr><td><span class="variant">bleed</span><span class="variant">inline-titles</span><span class="variant">measure-nudge</span><span class="variant">nudge-fine</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/about/workinggroups" target="_blank" rel="noopener">about-workinggroups</a></td></tr>
+          <tr><td><span class="variant">intro</span><span class="variant">program</span><span class="variant">bleed</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/mirror/m5" target="_blank" rel="noopener">mirror-m5</a></td></tr>
+          <tr><td><span class="variant">intro</span><span class="variant">program</span><span class="variant">bleed</span><span class="variant">row-styles</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/mirror/m4" target="_blank" rel="noopener">mirror-m4</a></td></tr>
+          <tr><td><span class="variant">intro</span><span class="variant">program</span><span class="variant">bleed</span><span class="variant">sup-metrics</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/mirror/m1" target="_blank" rel="noopener">mirror-m1</a></td></tr>
+          <tr><td><span class="variant">bleed</span><span class="variant">measure-nudge</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/success/buildingon" target="_blank" rel="noopener">success-buildingon</a></td></tr>
+          <tr><td><span class="variant">bleed</span><span class="variant">narrow-image</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/instrument" target="_blank" rel="noopener">Instrument</a></td></tr>
+          <tr><td><span class="variant">bleed</span><span class="variant">row-styles</span><span class="variant">sup-metrics</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/science/exoplanets" target="_blank" rel="noopener">science-exoplanets</a></td></tr>
+          <tr><td><span class="variant">bleed</span><span class="variant">sup-metrics</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/about/location" target="_blank" rel="noopener">about-location</a></td></tr>
+          <tr><td><span class="variant">row-styles</span><span class="variant">continued</span><span class="variant">fit-s-pr1</span><span class="variant">fit-s-ls-p05</span><span class="variant">fitp3-s-ls-p1</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/mirror/m2m3" target="_blank" rel="noopener">mirror-m2m3</a></td></tr>
+          <tr><td><span class="variant">row-styles</span><span class="variant">continued</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/telescope/adaptiveoptics" target="_blank" rel="noopener">telescope-adaptiveoptics</a></td></tr>
+          <tr><td><span class="variant">faq</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/about/faq" target="_blank" rel="noopener">about-faq</a> <span class="blocks-count">×2</span></td></tr>
+          <tr><td><span class="variant">fit-l-ls-p05</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/mirror" target="_blank" rel="noopener">Mirror</a></td></tr>
+          <tr><td><span class="variant">intro</span><span class="variant">program</span><span class="variant">fit-s-ls-n05</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/telescope/prefocal" target="_blank" rel="noopener">telescope-prefocal</a></td></tr>
+          <tr><td><span class="variant">row-styles</span><span class="variant">spec-head</span><span class="variant">fit-s-ls-p1</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/mirror/m2m3" target="_blank" rel="noopener">mirror-m2m3</a></td></tr>
+          <tr><td><span class="variant">intro</span><span class="variant">program</span><span class="variant">plain-nutshell</span><span class="variant">fitp7-s-ls-n05</span><span class="variant">fitp8-s-ls-p05</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/science/blackholes" target="_blank" rel="noopener">science-blackholes</a></td></tr>
+          <tr><td><span class="variant">inline-titles</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/about/workinggroups" target="_blank" rel="noopener">about-workinggroups</a> <span class="blocks-count">×5</span></td></tr>
+          <tr><td><span class="variant">intro</span><span class="variant">narrow-measure</span><span class="variant">measure-280</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/instrument/andes" target="_blank" rel="noopener">ANDES</a></td></tr>
+          <tr><td><span class="variant">intro</span><span class="variant">program</span><span class="variant">plain-nutshell</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/science/stars" target="_blank" rel="noopener">science-stars</a></td></tr>
+          <tr><td><span class="variant">intro</span><span class="variant">program</span><span class="variant">row-styles</span><span class="variant">plain-nutshell</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/science/solarsystem" target="_blank" rel="noopener">science-solarsystem</a></td></tr>
+          <tr><td><span class="variant">intro</span><span class="variant">program</span><span class="variant">row-styles</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/telescope/adaptiveoptics" target="_blank" rel="noopener">telescope-adaptiveoptics</a></td></tr>
+          <tr><td><span class="variant">row-styles</span><span class="variant">media-info</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/media" target="_blank" rel="noopener">News and Multimedia | ELT | ESO</a></td></tr>
+          <tr><td><span class="variant">media-intro</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/media" target="_blank" rel="noopener">News and Multimedia | ELT | ESO</a></td></tr>
+          <tr><td><span class="variant">narrow-image</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/about/workinggroups" target="_blank" rel="noopener">about-workinggroups</a></td></tr>
+          <tr><td><span class="variant">narrow-measure</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/about/location" target="_blank" rel="noopener">about-location</a></td></tr>
+          <tr><td><span class="variant">webcams</span><span class="variant">narrow-text</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/about/webcams" target="_blank" rel="noopener">about-webcams</a></td></tr>
+          <tr><td><span class="variant">row-styles</span><span class="variant">tight-tracking</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/instrument/andes" target="_blank" rel="noopener">ANDES</a></td></tr>
+          <tr><td><span class="variant">subtitle-gap</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/success/buildingon" target="_blank" rel="noopener">success-buildingon</a></td></tr>
+          <tr><td><span class="variant">webcams</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/about/webcams" target="_blank" rel="noopener">about-webcams</a> <span class="blocks-count">×4</span></td></tr>
+          <tr class="group"><td class="block">share-bar<span class="block-pages">35 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-2-0">View 35 pages</button></td></tr>
+          <tr class="group"><td class="block" rowspan="3">page-intro<span class="block-pages">24 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-3-0">View 6 pages</button></td></tr>
+          <tr><td><span class="variant">program</span></td><td><button class="more" popovertarget="blocks-pages-3-1">View 14 pages</button></td></tr>
+          <tr><td><span class="variant">program</span><span class="variant">quick-sm</span></td><td><button class="more" popovertarget="blocks-pages-3-2">View 4 pages</button></td></tr>
+          <tr class="group"><td class="block" rowspan="4">subpage-tiles<span class="block-pages">18 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-4-0">View 6 pages</button></td></tr>
+          <tr><td><span class="variant">program</span></td><td><button class="more" popovertarget="blocks-pages-4-1">View 10 pages</button></td></tr>
+          <tr><td><span class="variant">about</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/about" target="_blank" rel="noopener">About</a></td></tr>
+          <tr><td><span class="variant">program</span><span class="variant">fit-s-ls-p05</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/science/exoplanets" target="_blank" rel="noopener">science-exoplanets</a></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-2">
+          <tr class="group"><td class="block">tech-table<span class="block-pages">6 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-5-0">View 6 pages</button></td></tr>
+          <tr class="group"><td class="block" rowspan="4">carousel<span class="block-pages">4 pages</span></td><td><span class="variant">science</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/" target="_blank" rel="noopener">ELT | ESO</a>, <a href="https://main--26c59ee1--aemcoder.aem.page/chile" target="_blank" rel="noopener">ELT | ESO Chile</a></td></tr>
+          <tr><td><span class="variant">facts</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/about/facts" target="_blank" rel="noopener">Facts about the ELT | ELT | ESO</a> <span class="blocks-count">×2</span></td></tr>
+          <tr><td><span class="variant">rail</span><span class="variant">images</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/media" target="_blank" rel="noopener">News and Multimedia | ELT | ESO</a></td></tr>
+          <tr><td><span class="variant">rail</span><span class="variant">videos</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/media" target="_blank" rel="noopener">News and Multimedia | ELT | ESO</a></td></tr>
+          <tr class="group"><td class="block" rowspan="7">overview-bands<span class="block-pages">4 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/telescope" target="_blank" rel="noopener">Telescope | ELT | ESO</a></td></tr>
+          <tr><td><span class="variant">banners</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/instrument" target="_blank" rel="noopener">Instrument</a></td></tr>
+          <tr><td><span class="variant">banners</span><span class="variant">mirror</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/mirror" target="_blank" rel="noopener">Mirror</a></td></tr>
+          <tr><td><span class="variant">centered</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/telescope" target="_blank" rel="noopener">Telescope | ELT | ESO</a></td></tr>
+          <tr><td><span class="variant">overlay</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/science" target="_blank" rel="noopener">Science</a></td></tr>
+          <tr><td><span class="variant">wide</span><span class="variant">tail</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/telescope" target="_blank" rel="noopener">Telescope | ELT | ESO</a></td></tr>
+          <tr><td><span class="variant">wide</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/telescope" target="_blank" rel="noopener">Telescope | ELT | ESO</a></td></tr>
+          <tr class="group"><td class="block" rowspan="3">data-table<span class="block-pages">3 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/telescope/dome" target="_blank" rel="noopener">Dome | ELT | ESO</a></td></tr>
+          <tr><td><span class="variant">bordered</span><span class="variant">ao-modes</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/telescope/adaptiveoptics" target="_blank" rel="noopener">telescope-adaptiveoptics</a></td></tr>
+          <tr><td><span class="variant">spec</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/mirror/m2m3" target="_blank" rel="noopener">mirror-m2m3</a></td></tr>
+          <tr class="group"><td class="block">home-tiles<span class="block-pages">2 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/" target="_blank" rel="noopener">ELT | ESO</a>, <a href="https://main--26c59ee1--aemcoder.aem.page/chile" target="_blank" rel="noopener">ELT | ESO Chile</a></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-3">
+          <tr class="group"><td class="block">teaser-video<span class="block-pages">2 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/" target="_blank" rel="noopener">ELT | ESO</a>, <a href="https://main--26c59ee1--aemcoder.aem.page/chile" target="_blank" rel="noopener">ELT | ESO Chile</a></td></tr>
+          <tr class="group"><td class="block">webcam-panel<span class="block-pages">2 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/" target="_blank" rel="noopener">ELT | ESO</a>, <a href="https://main--26c59ee1--aemcoder.aem.page/chile" target="_blank" rel="noopener">ELT | ESO Chile</a></td></tr>
+          <tr class="group"><td class="block">facts<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/about/facts" target="_blank" rel="noopener">Facts about the ELT | ELT | ESO</a> <span class="blocks-count">×3</span></td></tr>
+          <tr class="group"><td class="block">media-stories<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/media" target="_blank" rel="noopener">News and Multimedia | ELT | ESO</a></td></tr>
+          <tr class="group"><td class="block">timeline<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--26c59ee1--aemcoder.aem.page/about/timeline" target="_blank" rel="noopener">Timeline | ELT | ESO</a></td></tr>
+        </tbody>
+      </table>
+      <nav class="pager" aria-label="Pages of blocks"><span class="bp-range bp-range-1">Blocks 1–5 of 15</span><span class="bp-range bp-range-2">Blocks 6–10 of 15</span><span class="bp-range bp-range-3">Blocks 11–15 of 15</span><div class="labels"><label for="bp-1" class="spectrum-button spectrum-button--quiet">1</label><label for="bp-2" class="spectrum-button spectrum-button--quiet">2</label><label for="bp-3" class="spectrum-button spectrum-button--quiet">3</label></div></nav>
+      <div popover id="blocks-pages-0-0" class="blocks-popover" aria-labelledby="blocks-pages-0-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-0-0-title">big-header <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 39 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-0-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/about" target="_blank" rel="noopener">About</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/telescope" target="_blank" rel="noopener">Telescope | ELT | ESO</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/mirror" target="_blank" rel="noopener">Mirror</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/instrument" target="_blank" rel="noopener">Instrument</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/science" target="_blank" rel="noopener">Science</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/media" target="_blank" rel="noopener">News and Multimedia | ELT | ESO</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/credits" target="_blank" rel="noopener">credits</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/about/timeline" target="_blank" rel="noopener">Timeline | ELT | ESO</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/about/location" target="_blank" rel="noopener">about-location</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/about/webcams" target="_blank" rel="noopener">about-webcams</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/about/road" target="_blank" rel="noopener">The road to the ELT | ELT | ESO</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/about/team" target="_blank" rel="noopener">about-team</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/about/workinggroups" target="_blank" rel="noopener">about-workinggroups</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/about/industrial" target="_blank" rel="noopener">about-industrial</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/about/faq" target="_blank" rel="noopener">about-faq</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/telescope/dome" target="_blank" rel="noopener">Dome | ELT | ESO</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/telescope/structure" target="_blank" rel="noopener">telescope-structure</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/mirror/m1" target="_blank" rel="noopener">mirror-m1</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/mirror/m2m3" target="_blank" rel="noopener">mirror-m2m3</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/mirror/m4" target="_blank" rel="noopener">mirror-m4</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/mirror/m5" target="_blank" rel="noopener">mirror-m5</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/telescope/adaptiveoptics" target="_blank" rel="noopener">telescope-adaptiveoptics</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/telescope/prefocal" target="_blank" rel="noopener">telescope-prefocal</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/telescope/controls" target="_blank" rel="noopener">telescope-controls</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/telescope/operations" target="_blank" rel="noopener">telescope-operations</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/instrument/harmoni" target="_blank" rel="noopener">HARMONI | ELT | ESO</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/instrument/micado" target="_blank" rel="noopener">MICADO</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/instrument/morfeo" target="_blank" rel="noopener">MORFEO</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/instrument/metis" target="_blank" rel="noopener">METIS</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/instrument/andes" target="_blank" rel="noopener">ANDES</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/instrument/mosaic" target="_blank" rel="noopener">MOSAIC</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/science/solarsystem" target="_blank" rel="noopener">science-solarsystem</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/science/exoplanets" target="_blank" rel="noopener">science-exoplanets</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/science/stars" target="_blank" rel="noopener">science-stars</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/science/blackholes" target="_blank" rel="noopener">science-blackholes</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/science/galaxies" target="_blank" rel="noopener">science-galaxies</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/science/cosmodm" target="_blank" rel="noopener">science-cosmodm</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/science/fundamentalphysics" target="_blank" rel="noopener">science-fundamentalphysics</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/science/discoveries" target="_blank" rel="noopener">science-discoveries</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-1-0" class="blocks-popover" aria-labelledby="blocks-pages-1-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-1-0-title">text-section <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 15 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-1-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/about" target="_blank" rel="noopener">About</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/telescope" target="_blank" rel="noopener">Telescope | ELT | ESO</a> <span class="blocks-count">×3</span></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/instrument" target="_blank" rel="noopener">Instrument</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/science" target="_blank" rel="noopener">Science</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/credits" target="_blank" rel="noopener">credits</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/about/location" target="_blank" rel="noopener">about-location</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/about/road" target="_blank" rel="noopener">The road to the ELT | ELT | ESO</a> <span class="blocks-count">×4</span></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/about/team" target="_blank" rel="noopener">about-team</a> <span class="blocks-count">×4</span></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/instrument/harmoni" target="_blank" rel="noopener">HARMONI | ELT | ESO</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/instrument/micado" target="_blank" rel="noopener">MICADO</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/instrument/morfeo" target="_blank" rel="noopener">MORFEO</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/instrument/metis" target="_blank" rel="noopener">METIS</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/instrument/andes" target="_blank" rel="noopener">ANDES</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/instrument/mosaic" target="_blank" rel="noopener">MOSAIC</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/success/buildingon" target="_blank" rel="noopener">success-buildingon</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-1-1" class="blocks-popover" aria-labelledby="blocks-pages-1-1-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-1-1-title">text-section <span class="variant-inline">bleed row-styles</span></h3>
+            <p class="blocks-count">Used on 17 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-1-1" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/telescope/dome" target="_blank" rel="noopener">Dome | ELT | ESO</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/telescope/structure" target="_blank" rel="noopener">telescope-structure</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/mirror/m1" target="_blank" rel="noopener">mirror-m1</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/mirror/m5" target="_blank" rel="noopener">mirror-m5</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/telescope/adaptiveoptics" target="_blank" rel="noopener">telescope-adaptiveoptics</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/telescope/prefocal" target="_blank" rel="noopener">telescope-prefocal</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/telescope/controls" target="_blank" rel="noopener">telescope-controls</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/instrument/harmoni" target="_blank" rel="noopener">HARMONI | ELT | ESO</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/instrument/micado" target="_blank" rel="noopener">MICADO</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/instrument/metis" target="_blank" rel="noopener">METIS</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/instrument/andes" target="_blank" rel="noopener">ANDES</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/instrument/mosaic" target="_blank" rel="noopener">MOSAIC</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/science/exoplanets" target="_blank" rel="noopener">science-exoplanets</a> <span class="blocks-count">×3</span></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/science/stars" target="_blank" rel="noopener">science-stars</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/science/blackholes" target="_blank" rel="noopener">science-blackholes</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/science/galaxies" target="_blank" rel="noopener">science-galaxies</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/science/cosmodm" target="_blank" rel="noopener">science-cosmodm</a> <span class="blocks-count">×2</span></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-1-2" class="blocks-popover" aria-labelledby="blocks-pages-1-2-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-1-2-title">text-section <span class="variant-inline">row-styles</span></h3>
+            <p class="blocks-count">Used on 13 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-1-2" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/telescope/dome" target="_blank" rel="noopener">Dome | ELT | ESO</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/telescope/structure" target="_blank" rel="noopener">telescope-structure</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/mirror/m4" target="_blank" rel="noopener">mirror-m4</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/mirror/m5" target="_blank" rel="noopener">mirror-m5</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/telescope/controls" target="_blank" rel="noopener">telescope-controls</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/telescope/operations" target="_blank" rel="noopener">telescope-operations</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/instrument/harmoni" target="_blank" rel="noopener">HARMONI | ELT | ESO</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/instrument/micado" target="_blank" rel="noopener">MICADO</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/instrument/morfeo" target="_blank" rel="noopener">MORFEO</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/instrument/metis" target="_blank" rel="noopener">METIS</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/instrument/andes" target="_blank" rel="noopener">ANDES</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/instrument/mosaic" target="_blank" rel="noopener">MOSAIC</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/science/solarsystem" target="_blank" rel="noopener">science-solarsystem</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-1-3" class="blocks-popover" aria-labelledby="blocks-pages-1-3-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-1-3-title">text-section <span class="variant-inline">intro</span></h3>
+            <p class="blocks-count">Used on 5 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-1-3" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/instrument/harmoni" target="_blank" rel="noopener">HARMONI | ELT | ESO</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/instrument/micado" target="_blank" rel="noopener">MICADO</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/instrument/morfeo" target="_blank" rel="noopener">MORFEO</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/instrument/metis" target="_blank" rel="noopener">METIS</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/instrument/mosaic" target="_blank" rel="noopener">MOSAIC</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-1-4" class="blocks-popover" aria-labelledby="blocks-pages-1-4-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-1-4-title">text-section <span class="variant-inline">intro program</span></h3>
+            <p class="blocks-count">Used on 5 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-1-4" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/telescope/dome" target="_blank" rel="noopener">Dome | ELT | ESO</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/telescope/structure" target="_blank" rel="noopener">telescope-structure</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/telescope/controls" target="_blank" rel="noopener">telescope-controls</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/science/cosmodm" target="_blank" rel="noopener">science-cosmodm</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/science/discoveries" target="_blank" rel="noopener">science-discoveries</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-1-5" class="blocks-popover" aria-labelledby="blocks-pages-1-5-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-1-5-title">text-section <span class="variant-inline">bleed</span></h3>
+            <p class="blocks-count">Used on 4 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-1-5" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/about/road" target="_blank" rel="noopener">The road to the ELT | ELT | ESO</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/about/team" target="_blank" rel="noopener">about-team</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/instrument/morfeo" target="_blank" rel="noopener">MORFEO</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/success/buildingon" target="_blank" rel="noopener">success-buildingon</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-2-0" class="blocks-popover" aria-labelledby="blocks-pages-2-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-2-0-title">share-bar <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 35 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-2-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/about" target="_blank" rel="noopener">About</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/telescope" target="_blank" rel="noopener">Telescope | ELT | ESO</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/mirror" target="_blank" rel="noopener">Mirror</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/instrument" target="_blank" rel="noopener">Instrument</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/science" target="_blank" rel="noopener">Science</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/media" target="_blank" rel="noopener">News and Multimedia | ELT | ESO</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/credits" target="_blank" rel="noopener">credits</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/about/location" target="_blank" rel="noopener">about-location</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/about/road" target="_blank" rel="noopener">The road to the ELT | ELT | ESO</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/about/industrial" target="_blank" rel="noopener">about-industrial</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/about/faq" target="_blank" rel="noopener">about-faq</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/telescope/dome" target="_blank" rel="noopener">Dome | ELT | ESO</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/telescope/structure" target="_blank" rel="noopener">telescope-structure</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/mirror/m1" target="_blank" rel="noopener">mirror-m1</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/mirror/m2m3" target="_blank" rel="noopener">mirror-m2m3</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/mirror/m4" target="_blank" rel="noopener">mirror-m4</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/mirror/m5" target="_blank" rel="noopener">mirror-m5</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/telescope/adaptiveoptics" target="_blank" rel="noopener">telescope-adaptiveoptics</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/telescope/prefocal" target="_blank" rel="noopener">telescope-prefocal</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/telescope/controls" target="_blank" rel="noopener">telescope-controls</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/telescope/operations" target="_blank" rel="noopener">telescope-operations</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/instrument/harmoni" target="_blank" rel="noopener">HARMONI | ELT | ESO</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/instrument/micado" target="_blank" rel="noopener">MICADO</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/instrument/morfeo" target="_blank" rel="noopener">MORFEO</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/instrument/metis" target="_blank" rel="noopener">METIS</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/instrument/andes" target="_blank" rel="noopener">ANDES</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/instrument/mosaic" target="_blank" rel="noopener">MOSAIC</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/science/solarsystem" target="_blank" rel="noopener">science-solarsystem</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/science/exoplanets" target="_blank" rel="noopener">science-exoplanets</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/science/stars" target="_blank" rel="noopener">science-stars</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/science/blackholes" target="_blank" rel="noopener">science-blackholes</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/science/galaxies" target="_blank" rel="noopener">science-galaxies</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/science/cosmodm" target="_blank" rel="noopener">science-cosmodm</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/science/fundamentalphysics" target="_blank" rel="noopener">science-fundamentalphysics</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/science/discoveries" target="_blank" rel="noopener">science-discoveries</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-3-0" class="blocks-popover" aria-labelledby="blocks-pages-3-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-3-0-title">page-intro <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 6 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-3-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/instrument/harmoni" target="_blank" rel="noopener">HARMONI | ELT | ESO</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/instrument/micado" target="_blank" rel="noopener">MICADO</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/instrument/morfeo" target="_blank" rel="noopener">MORFEO</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/instrument/metis" target="_blank" rel="noopener">METIS</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/instrument/andes" target="_blank" rel="noopener">ANDES</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/instrument/mosaic" target="_blank" rel="noopener">MOSAIC</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-3-1" class="blocks-popover" aria-labelledby="blocks-pages-3-1-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-3-1-title">page-intro <span class="variant-inline">program</span></h3>
+            <p class="blocks-count">Used on 14 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-3-1" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/telescope/dome" target="_blank" rel="noopener">Dome | ELT | ESO</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/telescope/structure" target="_blank" rel="noopener">telescope-structure</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/telescope/adaptiveoptics" target="_blank" rel="noopener">telescope-adaptiveoptics</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/telescope/prefocal" target="_blank" rel="noopener">telescope-prefocal</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/telescope/controls" target="_blank" rel="noopener">telescope-controls</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/telescope/operations" target="_blank" rel="noopener">telescope-operations</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/science/solarsystem" target="_blank" rel="noopener">science-solarsystem</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/science/exoplanets" target="_blank" rel="noopener">science-exoplanets</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/science/stars" target="_blank" rel="noopener">science-stars</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/science/blackholes" target="_blank" rel="noopener">science-blackholes</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/science/galaxies" target="_blank" rel="noopener">science-galaxies</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/science/cosmodm" target="_blank" rel="noopener">science-cosmodm</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/science/fundamentalphysics" target="_blank" rel="noopener">science-fundamentalphysics</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/science/discoveries" target="_blank" rel="noopener">science-discoveries</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-3-2" class="blocks-popover" aria-labelledby="blocks-pages-3-2-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-3-2-title">page-intro <span class="variant-inline">program quick-sm</span></h3>
+            <p class="blocks-count">Used on 4 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-3-2" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/mirror/m1" target="_blank" rel="noopener">mirror-m1</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/mirror/m2m3" target="_blank" rel="noopener">mirror-m2m3</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/mirror/m4" target="_blank" rel="noopener">mirror-m4</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/mirror/m5" target="_blank" rel="noopener">mirror-m5</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-4-0" class="blocks-popover" aria-labelledby="blocks-pages-4-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-4-0-title">subpage-tiles <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 6 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-4-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/instrument/harmoni" target="_blank" rel="noopener">HARMONI | ELT | ESO</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/instrument/micado" target="_blank" rel="noopener">MICADO</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/instrument/morfeo" target="_blank" rel="noopener">MORFEO</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/instrument/metis" target="_blank" rel="noopener">METIS</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/instrument/andes" target="_blank" rel="noopener">ANDES</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/instrument/mosaic" target="_blank" rel="noopener">MOSAIC</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-4-1" class="blocks-popover" aria-labelledby="blocks-pages-4-1-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-4-1-title">subpage-tiles <span class="variant-inline">program</span></h3>
+            <p class="blocks-count">Used on 10 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-4-1" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/telescope/dome" target="_blank" rel="noopener">Dome | ELT | ESO</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/telescope/structure" target="_blank" rel="noopener">telescope-structure</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/telescope/adaptiveoptics" target="_blank" rel="noopener">telescope-adaptiveoptics</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/telescope/prefocal" target="_blank" rel="noopener">telescope-prefocal</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/telescope/controls" target="_blank" rel="noopener">telescope-controls</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/science/solarsystem" target="_blank" rel="noopener">science-solarsystem</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/science/stars" target="_blank" rel="noopener">science-stars</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/science/blackholes" target="_blank" rel="noopener">science-blackholes</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/science/galaxies" target="_blank" rel="noopener">science-galaxies</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/science/cosmodm" target="_blank" rel="noopener">science-cosmodm</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-5-0" class="blocks-popover" aria-labelledby="blocks-pages-5-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-5-0-title">tech-table <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 6 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-5-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/instrument/harmoni" target="_blank" rel="noopener">HARMONI | ELT | ESO</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/instrument/micado" target="_blank" rel="noopener">MICADO</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/instrument/morfeo" target="_blank" rel="noopener">MORFEO</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/instrument/metis" target="_blank" rel="noopener">METIS</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/instrument/andes" target="_blank" rel="noopener">ANDES</a></li>
+          <li><a href="https://main--26c59ee1--aemcoder.aem.page/instrument/mosaic" target="_blank" rel="noopener">MOSAIC</a></li>
+        </ul>
+      </div>
+    </div>
+  </details>
+
+  <details class="spectrum-panel" open>
+    <summary class="spectrum-panel-header"><h2>Analytics and tags</h2><span class="spectrum-badge">Switched off</span></summary>
+    <div class="panel-body">
+      <p>We carried over 1 tag, <strong>switched off</strong>: nothing loads on the new site until you turn it on.</p>
+      <table>
+        <thead><tr><th>Found on elt.eso.org</th><th></th></tr></thead>
+        <tbody>
+          <tr><td>Matomo</td><td><code>matomo.js</code></td></tr>
+          <tr><td>Consent manager</td><td>None found</td></tr>
+        </tbody>
+      </table>
+      <p>We read the Matomo container (1 rule, 0 data elements).</p>
+      <h3>Before you switch them on</h3>
+      <ol class="todo">
+        <li><strong>Check 1 rule that targets the old page structure</strong> (CSS selectors or URLs), for example <code>page view + link tracking</code>.</li>
+        <li><strong>Send 1 data-layer event from the new pages</strong> so the tags fire, for example <code>window load</code>.</li>
+        <li><strong>Decide how consent works.</strong> We found no consent manager on the pages we checked; once switched on, the tags load without one.</li>
+      </ol>
+      <p class="meta">Full details for your developers: <code>stardust/martech-handoff.md</code> in the repository.</p>
+    </div>
+  </details>
+
+  <details class="spectrum-panel">
+    <summary class="spectrum-panel-header"><h2>Journey</h2></summary>
+    <div class="panel-body">
+      <ol class="steps">
+        <li>Analyzing your site<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Capturing brand and design<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Rebuilding page templates<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Publishing your pages<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Checking every page against the original<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Final checks<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+      </ol>
+    </div>
+  </details>
+</main>
+</body>
+</html>

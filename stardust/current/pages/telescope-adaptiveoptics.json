@@ -1,0 +1,757 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-11-13T11:15:29.052Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "telescope-adaptiveoptics",
+  "url": "https://elt.eso.org/telescope/adaptiveoptics/",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-11-13T11:15:29.052Z",
+  "finalUrl": "https://elt.eso.org/telescope/adaptiveoptics/",
+  "title": "Adaptive Optics | ELT | ESO",
+  "description": "The Extremely Large Telescope: The World's Biggest Eye On The Sky",
+  "og": {
+    "title": "Adaptive Optics | ELT | ESO",
+    "description": "The Extremely Large Telescope: The World's Biggest Eye On The Sky",
+    "image": "http://cdn.eso.org/images/screen/header-frontpage.jpg",
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Our use of Cookies"
+    },
+    {
+      "tag": "h1",
+      "text": "ESO Cookies Policy"
+    },
+    {
+      "tag": "h2",
+      "text": "What are cookies?"
+    },
+    {
+      "tag": "h2",
+      "text": "Categories of cookies we use"
+    },
+    {
+      "tag": "h2",
+      "text": "How to manage cookies"
+    },
+    {
+      "tag": "h2",
+      "text": "Updates to the ESO Cookies Policy"
+    },
+    {
+      "tag": "h2",
+      "text": "Additional information"
+    }
+  ],
+  "body": [
+    "Choose your language English Español",
+    "search Search",
+    "EuropeanSouthernObservatory",
+    "ELT HOME",
+    "ABOUT About the ELT Timeline Location Webcams Facts Road to the ELT Meet the Team Working Groups Industrial and Institutional Partners FAQ",
+    "TELESCOPE Telescope Overview Dome Main Structure Mirrors Mirrors Overview M1 M2M3 M4 M5 Adaptive Optics Prefocal Station Controls Operations",
+    "INSTRUMENTS Instruments Overview HARMONI MICADO MORFEO METIS ANDES MOSAIC",
+    "SCIENCE Science Overview Solar System Exoplanets Stars Black Holes Galaxies Cosmology and Dark Matter Fundamental Physics Unexpected Discoveries",
+    "NEWS & MULTIMEDIA",
+    "SUCCESS STORIES",
+    "The turbulence of the Earth's atmosphere distorts images obtained at even the best sites in the world for astronomy, including Chile's Cerro Armazones, home to the ELT.",
+    "The telescope will employ incredibly sophisticated “adaptive optics” technologies to ensure its images are sharper than those of any other telescope.",
+    "Turbulence in the Earth’s atmosphere causes the stars to twinkle in a way that delights poets but frustrates astronomers since it blurs the finest details of the cosmos. Observing directly from space can avoid this atmospheric blurring effect, but the high cost of operating space telescopes compared to using ground-based facilities limits the size and scope of the telescopes we can place off-Earth.",
+    "Astronomers have turned to a method called adaptive optics. Sophisticated, deformable mirrors controlled by computers can correct in real-time for the distortion caused by the turbulence of the Earth's atmosphere, making the images obtained almost as sharp as (or, in the case of the ELT, sharper than) those taken in space. Adaptive optics allows the corrected optical system to observe finer details of much fainter astronomical objects than is otherwise possible from the ground.",
+    "Adaptive optics requires a fairly bright reference star that is very close to the object under study. This reference star is used to measure the blurring caused by the local atmosphere so that the deformable mirror can correct for it. Since suitable stars are not available everywhere in the night sky, astronomers can create artificial stars instead by shining a powerful laser beam into the Earth's upper atmosphere. Thanks to these laser guide stars, almost the entire sky can now be observed with adaptive optics. The ELT will have up to eight of these lasers.",
+    "From the largest adaptive mirror ever built to advanced control systems, the ELT will have some of the most sophisticated technologies ever employed on a telescope to correct for the blurring effects of the Earth’s atmosphere.",
+    "This video explains the principles of adaptive optics, a technique used in many ESO telescopes. Credit: ESO",
+    "To correct for atmospheric distortions, the ELT will use advanced adaptive-optics hardware and software, working together seamlessly.",
+    "The best image quality is obtained by controlling the deformable mirror shape from the focus of the instruments in operation. ELT instruments do this using different adaptive optics modes.",
+    "The larger a telescope’s main mirror is, the more light it can collect, allowing astronomers to observe faint structures in the Universe. Doubling the diameter of a telescope increases its ability to observe faint objects by 16 times, but without adaptive optics, this advantage is only 4-fold because it’s limited by atmospheric turbulence. Therefore, advanced adaptive optics systems are key to making sure large telescopes such as the ELT are able to function to their full potential.",
+    "M4, a deformable and formidable mirror",
+    "M4 is at the heart of adaptive optics corrections on ESO’s ELT. This large deformable mirror, with a reflective surface 2.4 metres in diameter, will be used by all instruments on the telescope. The mirror surface is extremely thin, less than 2mm, and is maintained actively in levitation by 5000 magnets glued to its back side. These magnets play a key role in deforming the flexible M4 surface, making adjustments 1000 times per second to an accuracy of a few tens of nanometers. This is necessary for the mirror to correct for atmospheric disturbances, which are very short-lived and need to be adjusted for extremely quickly.",
+    "Besides turbulence, the adaptive mirror also helps correct for the wind shake of the telescope’s main structure and mirrors. More information on the M4 mirror can be found on a dedicated page.",
+    "Laser guide stars",
+    "To know what adjustments the M4 mirror needs to make, systems on the ELT need to map atmospheric disturbances by measuring the blurring of a bright star. In the vast majority of the night sky, where a reference star is not available, this requires creating artificial stars by exciting sodium atoms in the Earth’s upper atmosphere. The more powerful lasers are, the more sodium atoms they excite, making the artificial star brighter and improving the turbulence correction.",
+    "To improve the sharpness of adaptive-optics images, especially at visible wavelengths, lasers will shine around the scientific field of view. They will project on the sky as much light as thousands of handheld laser pointers, concentrated in 6 or 8 artificial stars, so high up in the atmosphere that some of the returning light will actually come from outer space.",
+    "To ensure the safety of aircrafts approaching the laser beam, a dedicated camera will permanently observe the region around the laser guide stars. A sophisticated algorithm will analyse the images to ensure that the laser is switched off as soon as a flying object gets too close to the beam. A similar automated system is already in operation at ESO’s Very Large Telescope.",
+    "Sensing cameras and real-time computers",
+    "Another essential component of ESO’s ELT adaptive optics system are the wavefront sensing cameras, which act as the “eyes” of the telescope by sensing the light from guide stars. ESO’s ELT will be equipped with three complementary types of wavefront sensing cameras, each with a distinct image sensor or detector, which will be used both by the telescope itself and by the science instruments. These wavefront sensors make extremely fast measurements of atmospheric distortions constantly, to optimally re-shape the surface of the deformable mirror.",
+    "These cameras are considered so critical for the functioning of the ELT adaptive optics that ESO decided to do much of the work on them in-house. Two types of cameras, called ALICE and LISA, are designed at ESO while the third camera type, FREDA, is an adaptation of a commercially available camera. In addition, ESO has developed, in collaboration with international company Teledyne, the detector for LISA.",
+    "Adaptive-optics real-time computers analyse the signals from the cameras in real-time — 500 times per second — to calculate how mirrors like M4 need to be deformed to correct for distortions caused by turbulence in the Earth’s atmosphere. More information on these control systems is available on a dedicated page.",
+    "More deformable mirrors",
+    "M4 is the main adaptive mirror in the ELT and it is used by the telescope and all the instruments. However, in the ELT’s arsenal of adaptive-optics systems there is also MORFEO. This multi-conjugate adaptive-optics system features another two (smaller) deformable mirrors that will be used in combination with M4 to provide an extra layer of correction for atmospheric turbulence. MORFEO will work with the first-generation imager MICADO and, in the future, with an additional instrument. More information about MORFEO is available on a dedicated page.",
+    "By hosting a deformable mirror, the telescope can control the image it delivers to the instruments, but the best image quality is obtained by controlling the mirror shape from the focus of the instruments in operation. ELT instruments do this using different adaptive optics modes.",
+    "There are multiple flavours of adaptive optics technology that have been developed, each of which is capable of achieving different goals.",
+    "Classical adaptive optics is performed in the Single Conjugated Adaptive Optics (SCAO) mode. In this mode, the turbulence corrected for is that in a cylinder projection of the telescope aperture towards a guide star. SCAO benefits from high performance, but across a small field of view. In addition, the amount of the night sky that can be observed in this mode is limited by the availability of sufficiently bright natural guide stars. The sky coverage can however be improved by using a laser guide star, thus turning SCAO into Single Laser Adaptive Optics (SLAO). This comes with some cost to performance due to the “cone effect”, because the lasers are projected at finite distance, and “anisoplanetism”, because only a single turbulence slice is sensed and corrected. The SCAO technology can be combined with coronography to achieve both extreme spatial resolution and image contrast, allowing, for instance, the detection of extremely faint exoplanets. The ELT instruments MICADO, HARMONI, METIS and ANDES are capable of operating using SCAO to observe the sky near tens of thousands of stars, bright enough to get good performance, but will benefit from the use of laser guide stars to enable the observation of the majority of the sky.",
+    "The Ground Layer Adaptive Optics (GLAO) mode, employed by MOSAIC, brings things down to Earth, by correcting for a turbulence layer at ground level, where the largest fraction of the atmospheric turbulence energy is concentrated. Unlike SCAO, which works for a specific line-of-sight (towards the guide star), ground-level turbulence is the same across the entire field of view, and therefore the correction is made over the whole field of view. In GLAO mode, multiple off-axis wavefront sensors are used to obtain an average of the ground turbulence, which is then corrected by a single deformable mirror. Experience on the VLT has also demonstrated that the image quality is stabilised by correcting for this low-altitude, variable turbulence. Along with the advantages of this mode (a large-field-of-view correction) comes the compromise of relatively low performance, with a limiting factor being the amount of turbulence at higher altitude.",
+    "The Laser Tomography Adaptive Optics (LTAO) mode is a technique similar to executing a CT-scan of the atmosphere: it allows the telescope to reconstruct the turbulence above it layer by layer. Employed by HARMONI, it is a compromise between the SCAO and MCAO modes. It implements several off-axis wavefront sensors, but optimised to analyse the centre of the field-of-view in detail. This way, the on-axis turbulence cylinder can be better sampled, almost as well as in the SCAO mode. The correction is applied using a single deformable mirror. The result is high performance across a small field-of-view, limited by tomographic error and low order residuals. The main advantage with respect to SCAO is the increased (medium) sky coverage.",
+    "It is possible to go a step further and correct for both ground-level and higher-altitude turbulence, by using several deformable mirrors. This is achieved with the Multi-Conjugate Adaptive Optics (MCAO) mode. In this setup, multiple off-axis wavefront sensors are used to measure the turbulence in several directions. These measurements are fed to a tomographic reconstructor (using both multiple lasers and stars) that estimates the 3D turbulence, which is in turn projected onto the deformable planes to generate the control commands. This mode offers medium-to-high performance across a medium field-of-view. In the laser-guide-star-based MCAO mode there is high sky coverage, but also a need for several natural guide stars, to keep a handle on the 3D turbulence. MORFEO employs MCAO by using a deformable mirror (in addition to M4) that allows it to correct atmospheric turbulence not only directly on the line of sight of the telescope, but also in a wider field of view. Thanks to MCAO, MORFEO’s partner instrument MICADO is able to study large structures or multiple objects at once.",
+    "Another complementary approach is provided by Multi Object Adaptive Optics (MOAO). Here the goal is to obtain multiple small-field turbulence corrections within a larger overall field-of-view. Similarly to MCAO and LTAO, the 3D turbulence is tomographically reconstructed. But in this mode, the turbulence is corrected for along the specific lines of sight where the science objects are located. This is done using multiple natural- and/or laser-guide-star wavefront sensors across the field-of-view. A dedicated deformable mirror corrects each science channel. This mode can also be combined with a first common deformable mirror conjugated close to the ground level.",
+    "Main characteristics of the various adaptive optics modes",
+    "Small(10-15 arcsec)",
+    "Small(10-15 arcsec)",
+    "Large(Several arcmin)",
+    "Medium(1-2 arcmin)",
+    "High",
+    "Medium/High",
+    "Low",
+    "Medium/High",
+    "Small",
+    "Large",
+    "Large",
+    "Large",
+    "*The Strehl ratio provides a measure of how good the adaptive optics correction is. It is defined as the ratio between the peak intensity of the image corrected by adaptive optics compared to the maximum attainable intensity (i.e. if the system was perfect).",
+    "We use cookies that are essential for accessing our websites and using our services. We also use cookies to analyse, measure and improve our websites’ performance, to enable content sharing via social media and to display media content hosted on third-party platforms.",
+    "The European Organisation for Astronomical Research in the Southern Hemisphere (ESO) is the pre-eminent intergovernmental science and technology organisation in astronomy. It carries out an ambitious programme focused on the design, construction and operation of powerful ground-based observing facilities for astronomy.",
+    "This Cookies Policy is intended to provide clarity by outlining the cookies used on the ESO public websites, their functions, the options you have for controlling them, and the ways you can contact us for additional details.",
+    "Cookies are small pieces of data stored on your device by websites you visit. They serve various purposes, such as remembering login credentials and preferences and enhance your browsing experience.",
+    "Essential cookies (always active): These cookies are strictly necessary for the proper functioning of our website. Without these cookies, the website cannot operate correctly, and certain services, such as logging in or accessing secure areas, may not be available; because they are essential for the website’s operation, they cannot be disabled.",
+    "Functional Cookies: These cookies enhance your browsing experience by enabling additional features and personalization, such as remembering your preferences and settings. While not strictly necessary for the website to function, they improve usability and convenience; these cookies are only placed if you provide your consent.",
+    "Analytics cookies: These cookies collect information about how visitors interact with our website, such as which pages are visited most often and how users navigate the site. This data helps us improve website performance, optimize content, and enhance the user experience; these cookies are only placed if you provide your consent. We use the following analytics cookies.",
+    "Matomo Cookies:",
+    "This website uses Matomo (formerly Piwik), an open source software which enables the statistical analysis of website visits. Matomo uses cookies (text files) which are saved on your computer and which allow us to analyze how you use our website. The website user information generated by the cookies will only be saved on the servers of our IT Department. We use this information to analyze www.eso.org visits and to prepare reports on website activities. These data will not be disclosed to third parties.",
+    "On behalf of ESO, Matomo will use this information for the purpose of evaluating your use of the website, compiling reports on website activity and providing other services relating to website activity and internet usage.",
+    "Matomo cookies settings:",
+    "Additional Third-party cookies on ESO websites: some of our pages display content from external providers, e.g. YouTube.",
+    "Such third-party services are outside of ESO control and may, at any time, change their terms of service, use of cookies, etc.",
+    "YouTube: Some videos on the ESO website are embedded from ESO’s official YouTube channel. We have enabled YouTube’s privacy-enhanced mode, meaning that no cookies are set unless the user actively clicks on the video to play it. Additionally, in this mode, YouTube does not store any personally identifiable cookie data for embedded video playbacks. For more details, please refer to YouTube’s embedding videos information page.",
+    "Cookies can also be classified based on the following elements.",
+    "Regarding the domain, there are:",
+    "First-party cookies, set by the website you are currently visiting. They are stored by the same domain that you are browsing and are used to enhance your experience on that site;",
+    "Third-party cookies, set by a domain other than the one you are currently visiting.",
+    "As for their duration, cookies can be:",
+    "Browser-session cookies, which are deleted when the user closes the browser;",
+    "Stored cookies, which stay on the user's device for a predetermined period of time.",
+    "Cookie settings: You can modify your cookie choices for the ESO webpages at any time by clicking on the link Cookie settings at the bottom of any page.",
+    "In your browser: If you wish to delete cookies or instruct your browser to delete or block cookies by default, please visit the help pages of your browser:",
+    "Brave",
+    "Chrome",
+    "Edge",
+    "Firefox",
+    "Safari",
+    "Please be aware that if you delete or decline cookies, certain functionalities of our website may be not be available and your browsing experience may be affected.",
+    "You can set most browsers to prevent any cookies being placed on your device, but you may then have to manually adjust some preferences every time you visit a site/page. And some services and functionalities may not work properly at all (e.g. profile logging-in, shop check out).",
+    "The ESO Cookies Policy may be subject to future updates, which will be made available on this page.",
+    "For any queries related to cookies, please contact: pdprATesoDOTorg.",
+    "As ESO public webpages are managed by our Department of Communication, your questions will be dealt with the support of the said Department."
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "search",
+      "href": "#"
+    },
+    {
+      "label": "ELT HOME",
+      "href": "/"
+    },
+    {
+      "label": "ABOUT",
+      "href": "/about/"
+    },
+    {
+      "label": "TELESCOPE",
+      "href": "/telescope/"
+    },
+    {
+      "label": "INSTRUMENTS",
+      "href": "/instrument/"
+    },
+    {
+      "label": "SCIENCE",
+      "href": "/science/"
+    },
+    {
+      "label": "NEWS & MULTIMEDIA",
+      "href": "/media/"
+    },
+    {
+      "label": "SUCCESS STORIES",
+      "href": "/success/buildingon/"
+    },
+    {
+      "label": "Adaptive optics systems",
+      "href": "#adaptive-optics-systems"
+    },
+    {
+      "label": "Adaptive optics modes",
+      "href": "#adaptive-optics-modes"
+    },
+    {
+      "label": "Adaptive optics systems",
+      "href": "#adaptive-optics-systems"
+    },
+    {
+      "label": "Read More",
+      "href": "#adaptive-optics-systems"
+    },
+    {
+      "label": "Read More",
+      "href": "#adaptive-optics-modes"
+    },
+    {
+      "label": "Adaptive optics modes",
+      "href": "#adaptive-optics-modes"
+    },
+    {
+      "label": "dedicated",
+      "href": "/mirror/M4/"
+    },
+    {
+      "label": "wavefront sensing cameras",
+      "href": "/telescope/prefocal/"
+    },
+    {
+      "label": "dedicated page",
+      "href": "/telescope/controls/"
+    },
+    {
+      "label": "dedicated page",
+      "href": "/instrument/MORFEO/"
+    },
+    {
+      "label": "MICADO",
+      "href": "/instrument/MICADO/"
+    },
+    {
+      "label": "HARMONI",
+      "href": "/instrument/HARMONI/"
+    },
+    {
+      "label": "METIS",
+      "href": "/instrument/METIS/"
+    },
+    {
+      "label": "ANDES",
+      "href": "/instrument/ANDES/"
+    },
+    {
+      "label": "MOSAIC",
+      "href": "/instrument/MOSAIC/"
+    },
+    {
+      "label": "HARMONI",
+      "href": "/instrument/HARMONI/"
+    },
+    {
+      "label": "MORFEO",
+      "href": "/instrument/MORFEO/"
+    },
+    {
+      "label": "ESO",
+      "href": "https:///www.eso.org/"
+    },
+    {
+      "label": "Credits",
+      "href": "/credits/"
+    },
+    {
+      "label": "Contact us",
+      "href": "mailto:information@eso.org"
+    },
+    {
+      "label": "Subscribe to ESO news",
+      "href": "https://www.eso.org/public/outreach/newsletters/"
+    },
+    {
+      "label": "Accelerated by CDN77",
+      "href": "https://www.cdn77.com/"
+    },
+    {
+      "label": "Terms & Conditions",
+      "href": "https://www.eso.org/public/about-eso/privacy/"
+    },
+    {
+      "label": "Cookie Settings and Policy",
+      "href": "#"
+    },
+    {
+      "label": "Accept All",
+      "href": null
+    },
+    {
+      "label": "Accept Only Essential Cookies",
+      "href": null
+    },
+    {
+      "label": "Cookie Settings and Policy",
+      "href": null
+    },
+    {
+      "label": "YouTube",
+      "href": "https://www.youtube.com/t/terms"
+    },
+    {
+      "label": "ESO’s official YouTube channel",
+      "href": "https://www.youtube.com/channel/UCIhYoC2VIAJqCkoIWNHBQ3Q"
+    },
+    {
+      "label": "embedding videos information page",
+      "href": "https://support.google.com/youtube/answer/171780?hl=en-GB"
+    },
+    {
+      "label": "Brave",
+      "href": "https://support.brave.com/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.brave.com%2Fhc%2Fen-us%2Farticles%2F360050634931-How-Do-I-Manage-Cookies-In-Brave"
+    },
+    {
+      "label": "Chrome",
+      "href": "https://support.google.com/chrome/bin/answer.py?hl=en&answer=95647&p=cpn_cookies"
+    },
+    {
+      "label": "Edge",
+      "href": "https://support.microsoft.com/en-us/windows/manage-cookies-in-microsoft-edge-view-allow-block-delete-and-use-168dab11-0753-043d-7c16-ede5947fc64d"
+    },
+    {
+      "label": "Firefox",
+      "href": "https://support.mozilla.org/en-US/kb/Blocking cookies"
+    },
+    {
+      "label": "Safari",
+      "href": "https://docs.info.apple.com/article.html?path=Safari/3.0/en/9277.html"
+    },
+    {
+      "label": "Save",
+      "href": null
+    },
+    {
+      "label": "Cancel",
+      "href": null
+    }
+  ],
+  "links": [
+    "https://www.eso.org/",
+    "https://elt.eso.org/telescope/adaptiveoptics/?lang",
+    "https://elt.eso.org/chile/telescope/adaptiveoptics/?lang",
+    "https://facebook.com/ESOAstronomy",
+    "https://www.instagram.com/esoastronomy/",
+    "https://www.linkedin.com/company/european-southern-observatory",
+    "https://www.youtube.com/channel/UCIhYoC2VIAJqCkoIWNHBQ3Q",
+    "https://elt.eso.org/",
+    "https://elt.eso.org/about/",
+    "https://elt.eso.org/about/timeline/",
+    "https://elt.eso.org/about/location/",
+    "https://elt.eso.org/about/webcams/",
+    "https://elt.eso.org/about/facts/",
+    "https://elt.eso.org/about/road/",
+    "https://elt.eso.org/about/team/",
+    "https://elt.eso.org/about/workinggroups/",
+    "https://elt.eso.org/about/industrial/",
+    "https://elt.eso.org/about/faq/",
+    "https://elt.eso.org/telescope/",
+    "https://elt.eso.org/telescope/dome/",
+    "https://elt.eso.org/telescope/structure/",
+    "https://elt.eso.org/mirror/",
+    "https://elt.eso.org/mirror/M1/",
+    "https://elt.eso.org/mirror/M2M3/",
+    "https://elt.eso.org/mirror/M4/",
+    "https://elt.eso.org/mirror/M5/",
+    "https://elt.eso.org/telescope/adaptiveoptics/",
+    "https://elt.eso.org/telescope/prefocal/",
+    "https://elt.eso.org/telescope/controls/",
+    "https://elt.eso.org/telescope/operations/",
+    "https://elt.eso.org/instrument/",
+    "https://elt.eso.org/instrument/HARMONI/",
+    "https://elt.eso.org/instrument/MICADO/",
+    "https://elt.eso.org/instrument/MORFEO/",
+    "https://elt.eso.org/instrument/METIS/",
+    "https://elt.eso.org/instrument/ANDES/",
+    "https://elt.eso.org/instrument/MOSAIC/",
+    "https://elt.eso.org/science/",
+    "https://elt.eso.org/science/solarsystem/",
+    "https://elt.eso.org/science/exoplanets/",
+    "https://elt.eso.org/science/stars/",
+    "https://elt.eso.org/science/blackholes/",
+    "https://elt.eso.org/science/galaxies/",
+    "https://elt.eso.org/science/cosmodm/",
+    "https://elt.eso.org/science/fundamentalphysics/",
+    "https://elt.eso.org/science/discoveries/",
+    "https://elt.eso.org/media/",
+    "https://elt.eso.org/success/buildingon/",
+    "https://elt.eso.org/telescope/adaptiveoptics/#",
+    "https://elt.eso.org/telescope/adaptiveoptics/#adaptive-optics-systems",
+    "https://elt.eso.org/telescope/adaptiveoptics/#adaptive-optics-modes",
+    "https://www.facebook.com/sharer/sharer.php?u=https://elt.eso.org/telescope/adaptiveoptics/",
+    "https://www.linkedin.com/sharing/share-offsite/?url=https://elt.eso.org/telescope/adaptiveoptics/",
+    {},
+    {},
+    "https://www.eso.org/public/chile/images/ao-systems-banner/",
+    "https://www.eso.org/public/images/ao-elt/",
+    "https://www.eso.org/public/images/ao-maory/",
+    "https://www.eso.org/public/chile/images/ao-modes-banner/",
+    "https://www.eso.org/public/images/ao-mosaic/",
+    "https://www.eso.org/public/images/ao-harmoni/",
+    "https://elt.eso.org/credits/",
+    "mailto:information@eso.org",
+    "https://www.eso.org/public/outreach/newsletters/",
+    "https://www.cdn77.com/",
+    "https://www.eso.org/public/about-eso/privacy/",
+    "https://www.youtube.com/t/terms",
+    "https://support.google.com/youtube/answer/171780?hl=en-GB",
+    "https://support.brave.com/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.brave.com%2Fhc%2Fen-us%2Farticles%2F360050634931-How-Do-I-Manage-Cookies-In-Brave",
+    "https://support.google.com/chrome/bin/answer.py?hl=en&answer=95647&p=cpn_cookies",
+    "https://support.microsoft.com/en-us/windows/manage-cookies-in-microsoft-edge-view-allow-block-delete-and-use-168dab11-0753-043d-7c16-ede5947fc64d",
+    "https://support.mozilla.org/en-US/kb/Blocking%20cookies",
+    "https://docs.info.apple.com/article.html?path=Safari/3.0/en/9277.html"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/eso_logo.jpg",
+        "alt": "",
+        "w": 100,
+        "h": 130
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_topbar_mobile_1.png",
+        "alt": "ESO on Facebook",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_topbar_mobile_3.png",
+        "alt": "ESO on Instagram",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_topbar_mobile_4.png",
+        "alt": "ESO on LinkedIn",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_topbar_mobile_5.png",
+        "alt": "ESO on YouTube",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_topbar_mobile_1.png",
+        "alt": "ESO on Facebook",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_topbar_mobile_3.png",
+        "alt": "ESO on Instagram",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_topbar_mobile_4.png",
+        "alt": "ESO on LinkedIn",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_topbar_mobile_5.png",
+        "alt": "ESO on YouTube",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://cdn.eso.org/images/banner1920/header-telescope-ao.jpg",
+        "alt": "",
+        "w": 1920,
+        "h": 900
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/eso_logo_transparent.png",
+        "alt": "",
+        "w": 981,
+        "h": 1279
+      },
+      {
+        "src": "https://cdn.eso.org/images/banner1920/subheader-telescope-ao.jpg",
+        "alt": "",
+        "w": 1920,
+        "h": 900
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_share_1.png",
+        "alt": "Share on Facebook",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_share_3.png",
+        "alt": "",
+        "w": 36,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_share_1.png",
+        "alt": "Share on Facebook",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_share_5.png",
+        "alt": "E-Mail",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_share_6.png",
+        "alt": "Copy link",
+        "w": 36,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_share_4.png",
+        "alt": "Share on LinkedIn",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://cdn.eso.org/images/banner1920/ao-systems-menu.jpg",
+        "alt": "",
+        "w": 1920,
+        "h": 900
+      },
+      {
+        "src": "https://cdn.eso.org/images/banner1920/ao-mode-menu.jpg",
+        "alt": "",
+        "w": 1920,
+        "h": 900
+      },
+      {
+        "src": "https://cdn.eso.org/images/screen/ao-systems-banner.jpg",
+        "alt": "",
+        "w": 1280,
+        "h": 495
+      },
+      {
+        "src": "https://cdn.eso.org/images/screen/ao-elt.jpg",
+        "alt": "",
+        "w": 1280,
+        "h": 1644
+      },
+      {
+        "src": "https://cdn.eso.org/images/screen/ao-elt.jpg",
+        "alt": "",
+        "w": 1280,
+        "h": 1644
+      },
+      {
+        "src": "https://cdn.eso.org/images/screen/ao-maory.jpg",
+        "alt": "",
+        "w": 1280,
+        "h": 739
+      },
+      {
+        "src": "https://cdn.eso.org/images/screen/ao-maory.jpg",
+        "alt": "",
+        "w": 1280,
+        "h": 739
+      },
+      {
+        "src": "https://cdn.eso.org/images/screen/ao-modes-banner.jpg",
+        "alt": "",
+        "w": 1280,
+        "h": 451
+      },
+      {
+        "src": "https://cdn.eso.org/images/screen/ao-mosaic.jpg",
+        "alt": "",
+        "w": 1280,
+        "h": 1078
+      },
+      {
+        "src": "https://cdn.eso.org/images/screen/ao-mosaic.jpg",
+        "alt": "",
+        "w": 1280,
+        "h": 1078
+      },
+      {
+        "src": "https://cdn.eso.org/images/screen/ao-harmoni.jpg",
+        "alt": "",
+        "w": 1280,
+        "h": 1430
+      },
+      {
+        "src": "https://cdn.eso.org/images/screen/ao-harmoni.jpg",
+        "alt": "",
+        "w": 1280,
+        "h": 1430
+      },
+      {
+        "src": "https://cdn.eso.org/images/large/ELT_AO_Mode_SCAO_collapsed.jpg",
+        "alt": "",
+        "w": 910,
+        "h": 466
+      },
+      {
+        "src": "https://cdn.eso.org/images/large/ELT_AO_Mode_LTAO_collapsed.jpg",
+        "alt": "",
+        "w": 910,
+        "h": 466
+      },
+      {
+        "src": "https://cdn.eso.org/images/large/ELT_AO_Mode_GLAO_collapsed.jpg",
+        "alt": "",
+        "w": 910,
+        "h": 466
+      },
+      {
+        "src": "https://cdn.eso.org/images/large/ELT_AO_Mode_MCAO_collapsed.jpg",
+        "alt": "",
+        "w": 910,
+        "h": 466
+      }
+    ],
+    "allImgCount": 35,
+    "cssBackgrounds": [],
+    "modals": [],
+    "videos": [],
+    "iframes": [
+      {
+        "src": "https://www.youtube-nocookie.com/embed/h3I13AiIbho",
+        "title": null
+      }
+    ]
+  },
+  "customProps": {
+    "--blue": "#007bff",
+    "--indigo": "#6610f2",
+    "--purple": "#6f42c1",
+    "--pink": "#e83e8c",
+    "--red": "#dc3545",
+    "--orange": "rgb(232, 133, 38)",
+    "--yellow": "#ffc107",
+    "--green": "#28a745",
+    "--teal": "#20c997",
+    "--cyan": "#17a2b8",
+    "--white": "#fff",
+    "--gray": "#6c757d",
+    "--gray-dark": "#343a40",
+    "--primary": "#007bff",
+    "--secondary": "#6c757d",
+    "--success": "#28a745",
+    "--info": "#17a2b8",
+    "--warning": "#ffc107",
+    "--danger": "#dc3545",
+    "--light": "#f8f9fa",
+    "--dark": "#343a40",
+    "--breakpoint-xxxs": "0",
+    "--breakpoint-xxs": "320px",
+    "--breakpoint-xs": "480px",
+    "--breakpoint-sm": "576px",
+    "--breakpoint-md": "768px",
+    "--breakpoint-lg": "992px",
+    "--breakpoint-xl": "1200px",
+    "--breakpoint-xxl": "1440px",
+    "--breakpoint-xxxl": "1680px",
+    "--breakpoint-xxxxl": "1920px",
+    "--font-family-sans-serif": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+    "--font-family-monospace": "SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+    "--swiper-theme-color": "#007aff",
+    "--swiper-navigation-size": "44px",
+    "--esoblue": "rgb(0, 119, 190)",
+    "--esoblueshade": "rgba(0, 119, 190, 0.1)",
+    "--esobluelightshade": "rgba(0, 119, 190, 0.4)",
+    "--headerblue": "rgb(45, 164, 245)",
+    "--esobluedarkdarkshade": "#005e97",
+    "--esobluedarkshade": "#0077be",
+    "--esogray": "#878787"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 7,
+    "mainTextLen": 21854,
+    "realImageCount": 34,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "POST",
+        "host": "jnn-pa.googleapis.com",
+        "path": "/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json+protobuf",
+        "status": 200,
+        "bytes": 126,
+        "hits": 1,
+        "example": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.youtube-nocookie.com",
+        "path": "/youtubei/v1/log_event",
+        "query": [
+          "alt"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 31,
+        "hits": 1,
+        "example": "https://www.youtube-nocookie.com/youtubei/v1/log_event",
+        "sameSite": false
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "www.youtube-nocookie.com",
+        "count": 3
+      },
+      {
+        "host": "www.google.com",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [],
+    "frameworkHints": [],
+    "forms": [],
+    "ariaLiveRegions": 0,
+    "triggers": [],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 0,
+      "thirdPartyEndpoints": 2,
+      "thirdPartyScriptHosts": 2,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": false
+    }
+  },
+  "screenshot": "assets/screenshots/telescope-adaptiveoptics.png",
+  "renderedHtml": "pages/telescope-adaptiveoptics.html",
+  "slots": {
+    "pageTitle": "Telescope",
+    "heroImage": "https://cdn.eso.org/images/banner1920/header-telescope-ao.jpg",
+    "program-headline": "Adaptive Optics",
+    "summary": "The turbulence of the Earth's atmosphere distorts images obtained at even the best sites in the world for astronomy, including Chile's Cerro Armazones, home to the ELT.",
+    "description": "The telescope will employ incredibly sophisticated “adaptive optics” technologies to ensure its images are sharper than those of any other telescope.",
+    "quick-links": [
+      {
+        "label": "Adaptive optics systems",
+        "href": "#adaptive-optics-systems"
+      },
+      {
+        "label": "Adaptive optics modes",
+        "href": "#adaptive-optics-modes"
+      }
+    ],
+    "feature-grid": [
+      "",
+      ""
+    ],
+    "sections": [
+      "In a nutshell Share on Facebook E-Mail Copy Link Share on LinkedIn",
+      "Adaptive optics systems",
+      "Adaptive optics modes"
+    ]
+  }
+}

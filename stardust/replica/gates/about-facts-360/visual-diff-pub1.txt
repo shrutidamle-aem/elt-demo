@@ -1,0 +1,480 @@
+[live-session] waiting to pace live navigations to elt.eso.org (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+
+Visual diff @ 360px (profile "generic") — screenshots in stardust/replica/gates/about-facts-360/vdiff-pub1/
+
+build red flags (advisory): none
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 169,
+  "textLen": 58,
+  "images": [
+   {
+    "src": "eso_logo.jpg",
+    "natural": "100x130",
+    "rendered": "38x50",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_topbar_mobile_1.png",
+    "natural": "35x35",
+    "rendered": "28x28",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_topbar_mobile_3.png",
+    "natural": "35x35",
+    "rendered": "28x28",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_topbar_mobile_4.png",
+    "natural": "35x35",
+    "rendered": "28x28",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_topbar_mobile_5.png",
+    "natural": "35x35",
+    "rendered": "28x28",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_topbar_mobile_1.png",
+    "natural": "35x35",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_topbar_mobile_3.png",
+    "natural": "35x35",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_topbar_mobile_4.png",
+    "natural": "35x35",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_topbar_mobile_5.png",
+    "natural": "35x35",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "header-about-facts.jpg",
+    "natural": "1920x900",
+    "rendered": "360x169",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "eso_logo_transparent.png",
+    "natural": "981x1279",
+    "rendered": "30x39",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "about-facts1.jpg",
+    "natural": "1280x1024",
+    "rendered": "360x288",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "about-facts2.jpg",
+    "natural": "1280x1024",
+    "rendered": "360x288",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "about-facts3.jpg",
+    "natural": "1280x1024",
+    "rendered": "360x288",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "about-facts1.jpg",
+    "natural": "1280x1024",
+    "rendered": "360x288",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "about-facts2.jpg",
+    "natural": "1280x1024",
+    "rendered": "360x288",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "about-facts3.jpg",
+    "natural": "1280x1024",
+    "rendered": "360x288",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "about-facts1.jpg",
+    "natural": "1280x1024",
+    "rendered": "360x288",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "about-facts2.jpg",
+    "natural": "1280x1024",
+    "rendered": "360x288",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "about-facts3.jpg",
+    "natural": "1280x1024",
+    "rendered": "360x288",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "about-facts4.jpg",
+    "natural": "1280x1024",
+    "rendered": "360x288",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "about-facts5.jpg",
+    "natural": "1280x1024",
+    "rendered": "360x288",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "about-facts6.jpg",
+    "natural": "1280x1024",
+    "rendered": "360x288",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "about-facts7.jpg",
+    "natural": "1280x1024",
+    "rendered": "360x288",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "about-facts8.jpg",
+    "natural": "1280x1024",
+    "rendered": "360x288",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "about-facts4.jpg",
+    "natural": "1280x1024",
+    "rendered": "360x288",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "about-facts5.jpg",
+    "natural": "1280x1024",
+    "rendered": "360x288",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "about-facts6.jpg",
+    "natural": "1280x1024",
+    "rendered": "360x288",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "about-facts7.jpg",
+    "natural": "1280x1024",
+    "rendered": "360x288",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "about-facts8.jpg",
+    "natural": "1280x1024",
+    "rendered": "360x288",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "about-facts4.jpg",
+    "natural": "1280x1024",
+    "rendered": "360x288",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "about-facts5.jpg",
+    "natural": "1280x1024",
+    "rendered": "360x288",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "about-facts6.jpg",
+    "natural": "1280x1024",
+    "rendered": "360x288",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "about-facts7.jpg",
+    "natural": "1280x1024",
+    "rendered": "360x288",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "about-facts8.jpg",
+    "natural": "1280x1024",
+    "rendered": "360x288",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": []
+ },
+ "build": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 169,
+  "textLen": 58,
+  "images": [
+   {
+    "src": "media_175cb2986e8ee49e7c64e8a9df5fa3f1f9b298693.jpg?width=750&format=webply&optimize=medium",
+    "natural": "100x130",
+    "rendered": "38x50",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1f386e2b9f7ed0b34b2f603a73f839485d120c14f.png?width=750&format=webply&optimize=medium",
+    "natural": "35x35",
+    "rendered": "28x28",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_19faa7be92695e315cea4cad487aa3e15b6594830.png?width=750&format=webply&optimize=medium",
+    "natural": "35x35",
+    "rendered": "28x28",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_15b4dfde77d1909c3b38baaf7167a2e3d48f25f72.png?width=750&format=webply&optimize=medium",
+    "natural": "35x35",
+    "rendered": "28x28",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_101417719196c90d4b42a69d39754d790fdc2b645.png?width=750&format=webply&optimize=medium",
+    "natural": "35x35",
+    "rendered": "28x28",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1f386e2b9f7ed0b34b2f603a73f839485d120c14f.png?width=750&format=webply&optimize=medium",
+    "natural": "35x35",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_19faa7be92695e315cea4cad487aa3e15b6594830.png?width=750&format=webply&optimize=medium",
+    "natural": "35x35",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_15b4dfde77d1909c3b38baaf7167a2e3d48f25f72.png?width=750&format=webply&optimize=medium",
+    "natural": "35x35",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_101417719196c90d4b42a69d39754d790fdc2b645.png?width=750&format=webply&optimize=medium",
+    "natural": "35x35",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1fc1510bc8b24aee5a15c34d6288cea8720e29cd3.jpg?width=750&format=webply&optimize=medium",
+    "natural": "750x352",
+    "rendered": "360x169",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1a043431fda0378cd219e1a181f4b0998cf7fbc73.png?width=750&format=webply&optimize=medium",
+    "natural": "750x978",
+    "rendered": "30x39",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_189593d9543d7ae8c369726ab04f6cd0a5e8cdaec.jpg?width=750&format=webply&optimize=medium",
+    "natural": "750x600",
+    "rendered": "360x288",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1410b3917c2e1ceeb802ddeeb398e9633463932ef.jpg?width=750&format=webply&optimize=medium",
+    "natural": "750x600",
+    "rendered": "360x288",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_12158c5131e2e18803ef88a475065ea97a636af20.jpg?width=750&format=webply&optimize=medium",
+    "natural": "750x600",
+    "rendered": "360x288",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_11cdd27c0f0f73b8e3643e593fdca8e494c44d234.jpg?width=750&format=webply&optimize=medium",
+    "natural": "750x600",
+    "rendered": "360x288",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_162c6f4e5969ad5b39ae0b4abd549f15e7ad38ac8.jpg?width=750&format=webply&optimize=medium",
+    "natural": "750x600",
+    "rendered": "360x288",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1d096e3e299ef31d265461a237fa2d01ee3a6e88a.jpg?width=750&format=webply&optimize=medium",
+    "natural": "750x600",
+    "rendered": "360x288",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1758f237311903bb5c1e597a68ee97d1d89ce71cf.jpg?width=750&format=webply&optimize=medium",
+    "natural": "750x600",
+    "rendered": "360x288",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1993c1be690310515b8d551ce77e7fc6c7f79281f.jpg?width=750&format=webply&optimize=medium",
+    "natural": "750x600",
+    "rendered": "360x288",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "About | Facts about the ELT",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "24px",
+    "family": "Helvetica Neue LT ESO",
+    "fontLoaded": false
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "big-header-title",
+    "width": 284,
+    "left": 38
+   }
+  ]
+ }
+}

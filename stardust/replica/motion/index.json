@@ -1,0 +1,1817 @@
+{
+  "url": "https://elt.eso.org/",
+  "width": 1440,
+  "headerTimeline": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "widgetSamples": [
+    {
+      "sel": ".swiper-button-next",
+      "frames": [
+        {
+          "t": 29923.200000000186,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 30130.800000000745,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 30342.10000000056,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 30546.900000000373,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".swiper-pagination-bullet:nth-child(4)",
+      "frames": [
+        {
+          "t": 31561.800000000745,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 31765.800000000745,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 31970.10000000056,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 32174.200000000186,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [
+    {
+      "sel": "#main-navbar li.nav-item:nth-of-type(2)",
+      "changed": [
+        "self.background",
+        "a.nav-link.transform",
+        "a.nav-link.color",
+        "a.nav-link.transition"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "a.nav-link",
+            "transform": "none",
+            "color": "rgba(255, 255, 255, 0.7)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.nav-about-about.dropdown-item",
+            "transform": "none",
+            "color": "rgba(255, 255, 255, 0.7)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.nav-about-timeline.dropdown-item",
+            "transform": "none",
+            "color": "rgba(255, 255, 255, 0.7)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.nav-about-location.dropdown-item",
+            "transform": "none",
+            "color": "rgba(255, 255, 255, 0.7)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.nav-about-webcams.dropdown-item",
+            "transform": "none",
+            "color": "rgba(255, 255, 255, 0.7)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(35, 41, 50)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "a.nav-link",
+            "transform": "matrix(1.07, 0, 0, 1.07, 0, -4.8)",
+            "color": "rgba(255, 255, 255, 0.9)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "0.25s"
+          },
+          {
+            "el": "a.nav-about-about.dropdown-item",
+            "transform": "none",
+            "color": "rgba(255, 255, 255, 0.7)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.nav-about-timeline.dropdown-item",
+            "transform": "none",
+            "color": "rgba(255, 255, 255, 0.7)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.nav-about-location.dropdown-item",
+            "transform": "none",
+            "color": "rgba(255, 255, 255, 0.7)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.nav-about-webcams.dropdown-item",
+            "transform": "none",
+            "color": "rgba(255, 255, 255, 0.7)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    },
+    {
+      "sel": "#nav-search",
+      "changed": [
+        "self.background",
+        "a.nav-link.transform",
+        "a.nav-link.color",
+        "a.nav-link.transition",
+        "i.material-icons.color"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "a.nav-link",
+            "transform": "none",
+            "color": "rgba(255, 255, 255, 0.7)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "i.material-icons",
+            "transform": "none",
+            "color": "rgba(255, 255, 255, 0.7)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(35, 41, 50)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "a.nav-link",
+            "transform": "matrix(1.07, 0, 0, 1.07, 0, -5.64)",
+            "color": "rgba(255, 255, 255, 0.9)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "0.25s"
+          },
+          {
+            "el": "i.material-icons",
+            "transform": "none",
+            "color": "rgba(255, 255, 255, 0.9)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    },
+    {
+      "sel": "li.desktop-top-sm-icons a",
+      "changed": [
+        "self.transform"
+      ],
+      "before": {
+        "self": {
+          "transform": "matrix(0.8, 0, 0, 0.8, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.5s"
+        },
+        "subs": [
+          {
+            "el": "img.desktop-top-sm-element",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "matrix(0.93279, 0, 0, 0.93279, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.5s"
+        },
+        "subs": [
+          {
+            "el": "img.desktop-top-sm-element",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    },
+    {
+      "sel": "#navbar-flags > li:last-child",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "i.fas.fa-arrow-down",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.link-en",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.link-cl",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "i.fas.fa-arrow-down",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.link-en",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.link-cl",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    },
+    {
+      "sel": "a[href=\"/telescope/\"] > img",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 86, 179)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 86, 179)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    }
+  ],
+  "media": {
+    "videos": [
+      {
+        "src": "https://cdn.eso.org/videos/hd_1080p25_screen/elt-teaser-2021.mp4",
+        "autoplay": true,
+        "loop": false,
+        "muted": true,
+        "paused": false,
+        "currentTime": 21.639846,
+        "readyState": 4,
+        "inViewport": true,
+        "currentTimeAfter": 23.14439,
+        "playing": true
+      }
+    ],
+    "idleClassMutations": [
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-prev"
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-active"
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-next"
+      },
+      {
+        "added": [
+          "swiper-pagination-bullet-active"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets > span.swiper-pagination-bullet.swiper-pagination-bullet-active"
+      },
+      {
+        "added": [
+          "swiper-pagination-bullet-active"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets > span.swiper-pagination-bullet.swiper-pagination-bullet-active"
+      },
+      {
+        "added": [
+          "swiper-pagination-bullet-active"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets > span.swiper-pagination-bullet.swiper-pagination-bullet-active"
+      },
+      {
+        "added": [
+          "swiper-pagination-bullet-active"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets > span.swiper-pagination-bullet.swiper-pagination-bullet-active"
+      },
+      {
+        "added": [
+          "swiper-pagination-bullet-active"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets > span.swiper-pagination-bullet.swiper-pagination-bullet-active"
+      },
+      {
+        "added": [
+          "swiper-pagination-bullet-active"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets > span.swiper-pagination-bullet.swiper-pagination-bullet-active"
+      },
+      {
+        "added": [
+          "swiper-pagination-bullet-active"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets > span.swiper-pagination-bullet.swiper-pagination-bullet-active"
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-prev"
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-active"
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-next"
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-prev"
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-active"
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-next"
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-prev"
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-active"
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-next"
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-prev"
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-active"
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-next"
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-prev"
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-active"
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-next"
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-prev"
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-active"
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-next"
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-active"
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-next"
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-prev"
+      }
+    ],
+    "idleClassMutationCount": 31
+  },
+  "events": {
+    "animations": [
+      {
+        "name": "menuDown",
+        "el": "nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-about.nav-item.dropdown-menu-top > div.dropdown-menu.bg-dark.dropdown-main-menu",
+        "txt": "About the ELT\n                \n            \n      ",
+        "y": 1435
+      },
+      {
+        "name": "menuDown",
+        "el": "nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-item.dropdown.dropdown-menu-top-top > div.dropdown-menu.bg-dark.dropdown-main-menu",
+        "txt": "Search",
+        "y": 1435
+      }
+    ],
+    "transitions": [
+      {
+        "prop": "opacity",
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-active",
+        "y": 0,
+        "dur": "0.9s"
+      },
+      {
+        "prop": "opacity",
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-prev",
+        "y": 0,
+        "dur": "0.9s"
+      },
+      {
+        "prop": "opacity",
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-active",
+        "y": 1491,
+        "dur": "0.9s"
+      },
+      {
+        "prop": "opacity",
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-prev",
+        "y": 1491,
+        "dur": "0.9s"
+      },
+      {
+        "prop": "opacity",
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide",
+        "y": 1801,
+        "dur": "0.9s"
+      },
+      {
+        "prop": "opacity",
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-active",
+        "y": 1801,
+        "dur": "0.9s"
+      },
+      {
+        "prop": "transform",
+        "el": "nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-about.nav-item.dropdown-menu-top > a.nav-link",
+        "y": 1435,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "color",
+        "el": "nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-about.nav-item.dropdown-menu-top > a.nav-link",
+        "y": 1435,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "transform",
+        "el": "nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-item.dropdown.dropdown-menu-top-top > a.nav-link",
+        "y": 1435,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "color",
+        "el": "nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-item.dropdown.dropdown-menu-top-top > a.nav-link",
+        "y": 1435,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "transform",
+        "el": "nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-item_.menu-item_.d-none > a",
+        "y": 1435,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-item_.menu-item_.d-none > a",
+        "y": 1435,
+        "dur": "0.5s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-prev",
+        "y": 0
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-active",
+        "y": 0
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-next",
+        "y": 0
+      },
+      {
+        "added": [
+          "swiper-pagination-bullet-active"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets > span.swiper-pagination-bullet.swiper-pagination-bullet-active",
+        "y": 0
+      },
+      {
+        "added": [
+          "swiper-pagination-bullet-active"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets > span.swiper-pagination-bullet.swiper-pagination-bullet-active",
+        "y": 0
+      },
+      {
+        "added": [
+          "swiper-pagination-bullet-active"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets > span.swiper-pagination-bullet.swiper-pagination-bullet-active",
+        "y": 0
+      },
+      {
+        "added": [
+          "swiper-pagination-bullet-active"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets > span.swiper-pagination-bullet.swiper-pagination-bullet-active",
+        "y": 0
+      },
+      {
+        "added": [
+          "swiper-pagination-bullet-active"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets > span.swiper-pagination-bullet.swiper-pagination-bullet-active",
+        "y": 0
+      },
+      {
+        "added": [
+          "swiper-pagination-bullet-active"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets > span.swiper-pagination-bullet.swiper-pagination-bullet-active",
+        "y": 0
+      },
+      {
+        "added": [
+          "swiper-pagination-bullet-active"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets > span.swiper-pagination-bullet.swiper-pagination-bullet-active",
+        "y": 0
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-prev",
+        "y": 0
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-active",
+        "y": 0
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-next",
+        "y": 0
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-prev",
+        "y": 0
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-active",
+        "y": 0
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-next",
+        "y": 0
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-prev",
+        "y": 0
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-active",
+        "y": 0
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-next",
+        "y": 0
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-prev",
+        "y": 0
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-active",
+        "y": 0
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-next",
+        "y": 0
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-prev",
+        "y": 0
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-active",
+        "y": 0
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-next",
+        "y": 0
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-prev",
+        "y": 0
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-active",
+        "y": 0
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-next",
+        "y": 0
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-active",
+        "y": 0
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-next",
+        "y": 0
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-prev",
+        "y": 0
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-about.nav-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-telescope.nav-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-instruments.nav-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-science.nav-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-about.nav-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-telescope.nav-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-instruments.nav-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-science.nav-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-about.nav-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-telescope.nav-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-instruments.nav-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-science.nav-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-about.nav-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-telescope.nav-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-instruments.nav-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-science.nav-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "top-aligned"
+        ],
+        "el": "ul.navbar-nav.ml-auto.mt-2_ > li.nav-telescope.nav-item.dropdown-menu-top > div.dropdown-menu.bg-dark.dropdown-main-menu > div.dropdown-submenu > div.dropdown-menu.bg-dark.dropdown-main-menu",
+        "y": 400
+      },
+      {
+        "added": [
+          "top-aligned"
+        ],
+        "el": "ul.navbar-nav.mx-auto.mt-0 > li.nav-telescope.nav-item.dropdown-menu-top > div.dropdown-menu.bg-dark.dropdown-main-menu > div.dropdown-submenu > div.dropdown-menu.bg-dark.dropdown-main-menu",
+        "y": 400
+      },
+      {
+        "added": [
+          "top-aligned"
+        ],
+        "el": "ul.navbar-nav.ml-auto.mt-2_ > li.nav-telescope.nav-item.dropdown-menu-top > div.dropdown-menu.bg-dark.dropdown-main-menu > div.dropdown-submenu > div.dropdown-menu.bg-dark.dropdown-main-menu",
+        "y": 400
+      },
+      {
+        "added": [
+          "top-aligned"
+        ],
+        "el": "ul.navbar-nav.mx-auto.mt-0 > li.nav-telescope.nav-item.dropdown-menu-top > div.dropdown-menu.bg-dark.dropdown-main-menu > div.dropdown-submenu > div.dropdown-menu.bg-dark.dropdown-main-menu",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-about.nav-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-telescope.nav-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-instruments.nav-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-science.nav-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-about.nav-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-telescope.nav-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-instruments.nav-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-science.nav-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-about.nav-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-telescope.nav-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-instruments.nav-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-science.nav-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-about.nav-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-telescope.nav-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-instruments.nav-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-science.nav-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "bottom-aligned"
+        ],
+        "el": "ul.navbar-nav.ml-auto.mt-2_ > li.nav-telescope.nav-item.dropdown-menu-top > div.dropdown-menu.bg-dark.dropdown-main-menu > div.dropdown-submenu > div.dropdown-menu.bg-dark.dropdown-main-menu",
+        "y": 120
+      },
+      {
+        "added": [
+          "bottom-aligned"
+        ],
+        "el": "ul.navbar-nav.mx-auto.mt-0 > li.nav-telescope.nav-item.dropdown-menu-top > div.dropdown-menu.bg-dark.dropdown-main-menu > div.dropdown-submenu > div.dropdown-menu.bg-dark.dropdown-main-menu",
+        "y": 120
+      },
+      {
+        "added": [
+          "bottom-aligned"
+        ],
+        "el": "ul.navbar-nav.ml-auto.mt-2_ > li.nav-telescope.nav-item.dropdown-menu-top > div.dropdown-menu.bg-dark.dropdown-main-menu > div.dropdown-submenu > div.dropdown-menu.bg-dark.dropdown-main-menu",
+        "y": 120
+      },
+      {
+        "added": [
+          "bottom-aligned"
+        ],
+        "el": "ul.navbar-nav.mx-auto.mt-0 > li.nav-telescope.nav-item.dropdown-menu-top > div.dropdown-menu.bg-dark.dropdown-main-menu > div.dropdown-submenu > div.dropdown-menu.bg-dark.dropdown-main-menu",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-about.nav-item.dropdown-menu-top",
+        "y": 1491
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-telescope.nav-item.dropdown-menu-top",
+        "y": 1491
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-instruments.nav-item.dropdown-menu-top",
+        "y": 1491
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-science.nav-item.dropdown-menu-top",
+        "y": 1491
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-about.nav-item.dropdown-menu-top",
+        "y": 1491
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-telescope.nav-item.dropdown-menu-top",
+        "y": 1491
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-instruments.nav-item.dropdown-menu-top",
+        "y": 1491
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-science.nav-item.dropdown-menu-top",
+        "y": 1491
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-about.nav-item.dropdown-menu-top",
+        "y": 1491
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-telescope.nav-item.dropdown-menu-top",
+        "y": 1491
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-instruments.nav-item.dropdown-menu-top",
+        "y": 1491
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-science.nav-item.dropdown-menu-top",
+        "y": 1491
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-about.nav-item.dropdown-menu-top",
+        "y": 1491
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-telescope.nav-item.dropdown-menu-top",
+        "y": 1491
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-instruments.nav-item.dropdown-menu-top",
+        "y": 1491
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-science.nav-item.dropdown-menu-top",
+        "y": 1491
+      },
+      {
+        "added": [
+          "top-aligned"
+        ],
+        "el": "ul.navbar-nav.ml-auto.mt-2_ > li.nav-telescope.nav-item.dropdown-menu-top > div.dropdown-menu.bg-dark.dropdown-main-menu > div.dropdown-submenu > div.dropdown-menu.bg-dark.dropdown-main-menu",
+        "y": 1491
+      },
+      {
+        "added": [
+          "top-aligned"
+        ],
+        "el": "ul.navbar-nav.mx-auto.mt-0 > li.nav-telescope.nav-item.dropdown-menu-top > div.dropdown-menu.bg-dark.dropdown-main-menu > div.dropdown-submenu > div.dropdown-menu.bg-dark.dropdown-main-menu",
+        "y": 1491
+      },
+      {
+        "added": [
+          "top-aligned"
+        ],
+        "el": "ul.navbar-nav.ml-auto.mt-2_ > li.nav-telescope.nav-item.dropdown-menu-top > div.dropdown-menu.bg-dark.dropdown-main-menu > div.dropdown-submenu > div.dropdown-menu.bg-dark.dropdown-main-menu",
+        "y": 1491
+      },
+      {
+        "added": [
+          "top-aligned"
+        ],
+        "el": "ul.navbar-nav.mx-auto.mt-0 > li.nav-telescope.nav-item.dropdown-menu-top > div.dropdown-menu.bg-dark.dropdown-main-menu > div.dropdown-submenu > div.dropdown-menu.bg-dark.dropdown-main-menu",
+        "y": 1491
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-prev",
+        "y": 1491
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-active",
+        "y": 1491
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-next",
+        "y": 1491
+      },
+      {
+        "added": [
+          "swiper-pagination-bullet-active"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets > span.swiper-pagination-bullet.swiper-pagination-bullet-active",
+        "y": 1491
+      },
+      {
+        "added": [
+          "swiper-pagination-bullet-active"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets > span.swiper-pagination-bullet.swiper-pagination-bullet-active",
+        "y": 1491
+      },
+      {
+        "added": [
+          "swiper-pagination-bullet-active"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets > span.swiper-pagination-bullet.swiper-pagination-bullet-active",
+        "y": 1491
+      },
+      {
+        "added": [
+          "swiper-pagination-bullet-active"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets > span.swiper-pagination-bullet.swiper-pagination-bullet-active",
+        "y": 1491
+      },
+      {
+        "added": [
+          "swiper-pagination-bullet-active"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets > span.swiper-pagination-bullet.swiper-pagination-bullet-active",
+        "y": 1491
+      },
+      {
+        "added": [
+          "swiper-pagination-bullet-active"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets > span.swiper-pagination-bullet.swiper-pagination-bullet-active",
+        "y": 1491
+      },
+      {
+        "added": [
+          "swiper-pagination-bullet-active"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets > span.swiper-pagination-bullet.swiper-pagination-bullet-active",
+        "y": 1491
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-prev",
+        "y": 1491
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-active",
+        "y": 1491
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-next",
+        "y": 1491
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-prev",
+        "y": 1491
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-active",
+        "y": 1491
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-next",
+        "y": 1491
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-prev",
+        "y": 1491
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-active",
+        "y": 1491
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-next",
+        "y": 1491
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-prev",
+        "y": 1491
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-active",
+        "y": 1491
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-next",
+        "y": 1491
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-prev",
+        "y": 1491
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-active",
+        "y": 1491
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-next",
+        "y": 1491
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-prev",
+        "y": 1491
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-active",
+        "y": 1491
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-next",
+        "y": 1491
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-active",
+        "y": 1491
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-next",
+        "y": 1491
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-prev",
+        "y": 1491
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-prev",
+        "y": 1801
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-active",
+        "y": 1801
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-next",
+        "y": 1801
+      },
+      {
+        "added": [
+          "swiper-pagination-bullet-active"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets > span.swiper-pagination-bullet.swiper-pagination-bullet-active",
+        "y": 1801
+      },
+      {
+        "added": [
+          "swiper-pagination-bullet-active"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets > span.swiper-pagination-bullet.swiper-pagination-bullet-active",
+        "y": 1801
+      },
+      {
+        "added": [
+          "swiper-pagination-bullet-active"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets > span.swiper-pagination-bullet.swiper-pagination-bullet-active",
+        "y": 1801
+      },
+      {
+        "added": [
+          "swiper-pagination-bullet-active"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets > span.swiper-pagination-bullet.swiper-pagination-bullet-active",
+        "y": 1801
+      },
+      {
+        "added": [
+          "swiper-pagination-bullet-active"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets > span.swiper-pagination-bullet.swiper-pagination-bullet-active",
+        "y": 1801
+      },
+      {
+        "added": [
+          "swiper-pagination-bullet-active"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets > span.swiper-pagination-bullet.swiper-pagination-bullet-active",
+        "y": 1801
+      },
+      {
+        "added": [
+          "swiper-pagination-bullet-active"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets > span.swiper-pagination-bullet.swiper-pagination-bullet-active",
+        "y": 1801
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-prev",
+        "y": 1801
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-active",
+        "y": 1801
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-next",
+        "y": 1801
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-prev",
+        "y": 1801
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-active",
+        "y": 1801
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-next",
+        "y": 1801
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-prev",
+        "y": 1801
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-active",
+        "y": 1801
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-next",
+        "y": 1801
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-prev",
+        "y": 1801
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-active",
+        "y": 1801
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-next",
+        "y": 1801
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-prev",
+        "y": 1801
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-active",
+        "y": 1801
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-next",
+        "y": 1801
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-prev",
+        "y": 1801
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-active",
+        "y": 1801
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-next",
+        "y": 1801
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-active",
+        "y": 1801
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-next",
+        "y": 1801
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "body > div.container-fluid.container-light.lightlinks > div.swiper-container.swiper-container-science.w-100 > div.h-100.w-100.swiper-wrapper > div.swiper-slide.swiper-slide-prev",
+        "y": 1801
+      }
+    ]
+  }
+}

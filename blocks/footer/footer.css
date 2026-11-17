@@ -1,20 +1,108 @@
-footer {
-  background-color: var(--light-color);
-  font-size: var(--body-font-size-xs);
+/* Footer — canon.css §7 (.container-footer, elt_assets.66fa71510905.css). Source tiers. */
+footer .site-footer {
+  width: 100%;
+  margin: 0;
+  padding: 1rem 0;
+  background-color: var(--footer-bg);
+  color: #fff;
+  font-family: var(--font-brand);
+  line-height: 1.5;
 }
 
-footer .footer > div {
-  margin: auto;
-  max-width: 1200px;
-  padding: 40px 24px 24px;
+footer .site-footer-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 -15px;
 }
 
-footer .footer p {
+footer .site-footer-brand,
+footer .site-footer-links {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding: 0 15px;
+  color: var(--light-bg);
+
+  /* R-01 fallback compensation: the fitted face runs the link row 5px narrow (837 vs 842 @1440);
+     drop it when the licensed faces return (fonts/LICENSING.md) */
+  letter-spacing: 0.0027em;
+  font-weight: 400;
+}
+
+footer .site-footer-brand {
+  padding-bottom: 1rem;
+}
+
+footer .site-footer p {
   margin: 0;
 }
 
-@media (width >= 900px) {
-  footer .footer > div {
-    padding: 40px 32px 24px;
+footer .site-footer-links a {
+  color: var(--light-bg);
+}
+
+/* the source's link spans carry their trailing space (" Credits ") — the pipeline trims it */
+footer .site-footer-links a:not(:last-of-type) > span::after {
+  content: " ";
+}
+
+footer .site-footer-links > div {
+  text-align: center;
+}
+
+footer .site-footer-links span {
+  color: var(--light-bg);
+}
+
+footer .footer-item {
+  font-weight: 400;
+}
+
+@media only screen and (width <= 576px) {
+  footer .footer-item { font-size: 0.76rem; }
+}
+
+@media only screen and (width >= 576px) {
+  footer .footer-item { font-size: 0.79rem; }
+}
+
+@media only screen and (width >= 768px) {
+  footer .footer-item { font-size: 0.82rem; }
+}
+
+@media only screen and (width >= 992px) {
+  footer .footer-item { font-size: 0.86rem; }
+
+  footer .site-footer-brand {
+    flex: 0 0 25%;
+    max-width: 25%;
+    padding-bottom: 0;
   }
+
+  footer .site-footer-links {
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+}
+
+@media only screen and (width >= 1200px) {
+  footer .footer-item { font-size: 0.89rem; }
+}
+
+@media only screen and (width >= 1440px) {
+  footer .footer-item { font-size: 0.92rem; }
+}
+
+@media only screen and (width >= 1680px) {
+  footer .footer-item { font-size: 0.96rem; }
+}
+
+@media only screen and (width >= 1920px) {
+  footer .footer-item { font-size: 1rem; }
 }

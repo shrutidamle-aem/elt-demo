@@ -1,0 +1,346 @@
+{
+ "source": "file:///workspace/26c59ee1/stardust/prototypes/about-facts-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "container-darkblue",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Name"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Extremely Large Telescope (ELT)"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Main mirror diameter"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "39 metres"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Light collecting area"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "978 square metres"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Number of main mirror segments"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "798"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Alignment precision of the different segments that make up the main mirror"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Tens of nanometres (10000 thinner than a human hair) across its entire 39-metre diameter"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Number of edge sensors that will measure the relative positions of the segments"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "4608"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Amount of glass-ceramic Zerodur(c) in the telescope mirrors"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "140 tonnes, of which 132 tonnes in the primary mirror alone"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 7,
+   "repeats": [
+    {
+     "unitSelector": "DD.fact-value",
+     "count": 7,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "container-darkblue",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "How much light will the ELT gather?"
+    }
+   ],
+   "imgCount": 3,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "DIV.swiper-slide",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "container-darkblue",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Type"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Optical/near-infrared extremely large telescope"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Optical Design"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Five-mirror design"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Telescope field of view"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "10 arcminutes"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Enclosure"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Hemispherical Dome"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Time needed to walk from the entrance of the dome to the top via the set of stairs and walkways fixed to the inner side of the dome"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "~30 minutes"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 5,
+   "repeats": [
+    {
+     "unitSelector": "DD.fact-value",
+     "count": 5,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "container-darkblue",
+   "items": [],
+   "imgCount": 5,
+   "editableTexts": 0,
+   "repeats": [
+    {
+     "unitSelector": "DIV.swiper-slide",
+     "count": 5,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "container-darkblue",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Site"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Cerro Armazones, Atacama Desert, Chile"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Altitude"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "3046 m"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Height of rock removed from the top of Armazones to create the platform for the ELT"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "~18 metres"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Amount of rock removed to make room for the 150 metre by 300 metre ELT platform"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "~220 000 m"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "3"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Distance between Armazones and Paranal (by air)"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "23 km"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Planned duration of the telescope construction"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "About 12 years"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Planned year of technical first light"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "2029"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Estimated lifespan"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "30+ years"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Budget"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "€1.45 billion"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "Number of industrial contracts above €500 000 made to date"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "55"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Number of ESO staff (Full-Time Equivalent) the ELT uses on average during 2018–2022"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "~100 each year"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 11,
+   "repeats": [
+    {
+     "unitSelector": "DD.fact-value",
+     "count": 11,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  }
+ ]
+}

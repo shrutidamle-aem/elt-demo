@@ -1,0 +1,359 @@
+{
+  "units": {
+    "foundation": {
+      "status": "done",
+      "kind": "foundation",
+      "templates": [],
+      "pages": 0,
+      "startedAt": "2026-11-13T15:04:32.015Z",
+      "blocks": 3,
+      "endedAt": "2026-11-13T15:57:19.720Z",
+      "gates": {
+        "360": {
+          "chromeCompare": "1 error: drawer 3.3% — shell-path artifacts (active item ELT HOME vs ABOUT, # href resolves to /drafts/foundation-shell) + R-01 stroke weight; re-checked on /about/road/ at the article archetype unit",
+          "cropHeader": "2.37% (R-01 stroke weight)",
+          "cropFooter": "5.21% (R-01 stroke weight)",
+          "chromeParity": "exit 0"
+        },
+        "1440": {
+          "chromeCompare": "search panel PASS (6.5%→<2%); 0 errors at 1440",
+          "cropHeader": "0.55%",
+          "cropFooter": "3.65% (R-01 stroke weight)",
+          "chromeParity": "8 deltas, all ≤3px text-width offsets (R-01)"
+        },
+        "history": {
+          "360": {
+            "chromeCompare": "exit 2 (3 errors: menu 3.9%, search 10.1%, shell-path search href)",
+            "cropHeader": "2.57%",
+            "cropFooter": "5.76%",
+            "chromeParity": 9
+          },
+          "1440": {
+            "chromeCompare": "exit 2 (1 error: search panel 10.3%)",
+            "cropHeader": "0.96%",
+            "cropFooter": "4.01%",
+            "chromeParity": 10
+          },
+          "crop": "before font swap: 0.00/0.00 (1440), 0.00/2.78 (360)",
+          "chrome": "before font swap: chrome-compare 1440 exit 0; parity 1/0"
+        }
+      },
+      "verdict": "foundation: frozen (19 files, foundation-freeze.json); nav+footer+chile nav published; metric-fitted local fallback faces for R-01 (no font file shipped); header contract 1440 clean, 360 drawer residual = shell path + R-01; footer crop residuals = R-01 stroke weight",
+      "residuals": [
+        "R-01: fallback renders Arial-metric Regular strokes where the brand uses 45 Light; widths fitted by size-adjust (96.8/100.7/97/93.5%, caps 93.7%), geometry within 3px; crop residuals are glyph weight only — logged against R-01, not iterated (cap 3 rounds)",
+        "shell-path: header drawer active item and # href depend on the page path; chrome-compare re-run against the delivered /about/road/"
+      ]
+    },
+    "archetype-facts": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "facts"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-13T15:58:43.239Z",
+      "endedAt": "2026-11-13T16:50:31.571Z",
+      "blocks": 2,
+      "gates": {
+        "360": {
+          "pixel": "3.27%",
+          "dh": 0,
+          "clip": 0,
+          "presence": "0/0",
+          "units": "0",
+          "verdict": "PASS"
+        },
+        "1440": {
+          "pixel": "1.53%",
+          "dh": 0,
+          "clip": 0,
+          "presence": "0/0",
+          "units": "off 1 (footer link row dw -5, R-01 — foundation request queued)",
+          "verdict": "FAIL (units only)"
+        }
+      },
+      "verdict": "archetype-facts: /about/facts live, blocks 2 (facts, carousel), gate 1440 1.53% Δh 0 / 360 3.27% Δh 0, clip 0, presence 0 (symmetric roots), rounds 1; 1440 units residual = footer R-01 width, queued"
+    },
+    "archetype-article": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "article"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-13T15:58:43.239Z",
+      "endedAt": "2026-11-13T16:57:04.649Z",
+      "blocks": 2,
+      "gates": {
+        "360": {
+          "pixel": "6.88%",
+          "dh": 0,
+          "clip": 0,
+          "presence": "0/0",
+          "verdict": "PASS"
+        },
+        "1440": {
+          "pixel": "2.04%",
+          "dh": 0,
+          "clip": 0,
+          "presence": "0/0",
+          "units": "off 1 (footer R-01 width, queued)",
+          "verdict": "FAIL (units only)"
+        },
+        "headerContract": "/about/road: 9 errors — 8 scroll-state (instrument measures static <header> box; #top-navbar stays fixed, probe-confirmed), drawer 360 4.1% R-01 glyph weight/1px label offset; queued"
+      },
+      "verdict": "archetype-article: /about/road live, blocks 2 (text-section, share-bar), gate 1440 2.04% Δh 0 / 360 6.88% Δh 0, clip 0, presence 0, rounds 1"
+    },
+    "archetype-timeline": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "timeline"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-13T15:58:43.239Z",
+      "endedAt": "2026-11-13T17:21:59.871Z",
+      "blocks": 1,
+      "gates": {
+        "360": {
+          "pixel": "8.61%",
+          "dh": 33,
+          "clip": 0,
+          "presence": "0/0",
+          "units": "off 6 (R-01 wraps)",
+          "verdict": "FAIL (units only, R-01)"
+        },
+        "1440": {
+          "pixel": "4.82%",
+          "dh": 42,
+          "clip": 0,
+          "presence": "0/0",
+          "units": "off 4 (R-01 text width / one wrap)",
+          "verdict": "FAIL (units only, R-01)"
+        }
+      },
+      "residuals": [
+        "R-01 fallback wraps: unit 26 @1440 (-42px), units 21/26/27 @360 (±33px); year texts 5px narrow (units 22, 24 @1440)",
+        "block-roundtrip --ew: 17 ROLE SWAP (year <p> inside EW6 card link reads body vs source CTA label) — classifier artifact, editability 81/81"
+      ],
+      "verdict": "archetype-timeline: /about/timeline live, blocks 1, gate 1440 4.82% Δh 42 / 360 8.61% Δh 33, clip 0, presence 0, rounds 3 + EW6 card-as-link; units residual R-01 only"
+    },
+    "cluster-facts": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "facts"
+      ],
+      "pages": 0,
+      "startedAt": "2026-11-13T16:50:42.874Z",
+      "endedAt": "2026-11-13T16:50:42.874Z",
+      "verdict": "cluster-facts: pages 0/0 (template has no siblings; archetype about-facts delivered in archetype-facts)"
+    },
+    "cluster-article": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "article"
+      ],
+      "pages": 8,
+      "startedAt": "2026-11-13T16:59:33.110Z",
+      "note": null,
+      "endedAt": "2026-11-13T19:15:34.464Z",
+      "blocks": 2,
+      "gates": {
+        "worst": {
+          "360": "35.22% (about-webcams)",
+          "1440": "22.06% (about-webcams)"
+        }
+      },
+      "failed": {
+        "about-webcams": "360 viewer not carried (static panorama); 22.06%/35.22%",
+        "about-workinggroups": "1440 10.17% (14 diagram hotspots not authorable + R-01 wraps); 360 PASS 9.75%",
+        "success-buildingon": "1440 12.23% (R-01 one-line-shorter paragraph, -33px); 360 PASS",
+        "about-industrial": "360 Δh -1788 (source logo width=210 widens scroll table); 1440 PASS",
+        "about-location": "360 13.93% (R-01 wraps); 1440 PASS 8.24%"
+      },
+      "verdict": "cluster-article: pages 8/8 live, blocks 2, gate 1440 22.06% / 360 35.22% (worst), failed: about-location, about-webcams, about-workinggroups, about-industrial, success-buildingon (credits passed after coordinator units.json scoping); fix pass deferred before gate-all"
+    },
+    "archetype-instrument": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "instrument"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-13T16:59:42.856Z",
+      "note": null,
+      "endedAt": "2026-11-13T18:05:44.620Z",
+      "blocks": 3,
+      "gates": {
+        "360": {
+          "pixel": "6.77%",
+          "dh": -1,
+          "clip": 0,
+          "presence": 0,
+          "verdict": "PASS (units selectors fixed by coordinator after the run)"
+        },
+        "1440": {
+          "pixel": "3.37%",
+          "dh": -1,
+          "clip": 0,
+          "presence": 0,
+          "verdict": "PASS (units selectors fixed by coordinator after the run)"
+        }
+      },
+      "residuals": [
+        "R-01 text widths",
+        "gate.sh content-diff 15 red: 3 header/hero (queued foundation), 12 region-name pairing (gate-all symmetric: 0)"
+      ],
+      "verdict": "archetype-instrument: /instrument/harmoni live, blocks 3, gate 1440 3.37% Δh -1 / 360 6.77% Δh -1, clip 0, presence 0, rounds 2"
+    },
+    "cluster-timeline": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "timeline"
+      ],
+      "pages": 0,
+      "startedAt": "2026-11-13T17:21:59.872Z",
+      "endedAt": "2026-11-13T17:21:59.872Z",
+      "verdict": "cluster-timeline: pages 0/0 (no siblings)"
+    },
+    "archetype-landing": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "landing"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-13T17:24:09.000Z",
+      "note": "index live; 1440 PASS 0.84% (masked carousel); 360 13.58% Δh -1 (masked video bar+webcam) — tiles 3-4px offset unfixed: source boxes in stardust/.work/rollout/landing/probes/measure-live-360.json, build render log stardust/.work/replica/bg/landing-render360.log; fix in home-tiles/teaser-video CSS, re-gate 360. Then cluster-landing: content/chile.html authored+pushed, not deployed (add /chile to units/landing.paths), index-b7ff /?lang verify only.",
+      "endedAt": "2026-11-13T19:41:48Z",
+      "blocks": 3,
+      "verdict": "archetype-landing: / live, blocks 3 (home-tiles, webcam-panel, teaser-video; carousel reused), gate 1440 0.84% Δh -1 / 360 2.76% Δh -1 (masked carousel, video bar, webcam: timer/live data), clip 0, presence 0, rounds 360: 1 (home-tiles 1920:900 tile box + R-01 baseline nudge)"
+    },
+    "cluster-instrument": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "instrument"
+      ],
+      "pages": 5,
+      "startedAt": "2026-11-13T18:05:57.000Z",
+      "note": "5/5 siblings live (instrument.paths); round 1 of 3: 1440 all pixel/Δh pass (unit-only fails predate units.json scoping → re-run gate-all 1440); 360 FAIL micado 17.87% Δh -32, andes 16.35% -27, metis 14.63% -32, morfeo 9.36% FAIL(elements, reason unclear); mosaic PASS 7.55%. Next: section-boxes probe stardust/.work/rollout/instrument/probes/section-boxes.sh <NAME> 360, fix rounds 2-3, re-gate both widths; add coverage rows with update-coverage --new (siblings missing from inventory).",
+      "endedAt": "2026-11-13T20:03:14Z",
+      "blocks": 3,
+      "verdict": "cluster-instrument: pages 5/5 live, blocks 3 (+ text-section/share-bar reused), gate 1440 5.78% / 360 16.35% (worst), failed: instrument-andes (360 Δh -27: one extra intro wrap from R-01 fallback face, ~5% once aligned; queued for the pre-gate-all fix pass), rounds 2 of 3"
+    },
+    "archetype-media": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "media"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-13T19:15:59.000Z",
+      "note": "code on main (media-stories block, carousel rail variant + async hook in carousel.js — visually re-check default carousels on /index and /about/facts, text-section media-info); content/media.html authored, 15 images uploaded; NOT deployed/gated. Resume: section-schema → block-roundtrip --ew → block CSS served → units/media.paths (/media) → deploy-batch → qa-gate → gate.sh 1440/360 → gate-all → coverage.",
+      "endedAt": "2026-11-13T20:19:19Z",
+      "blocks": 1,
+      "verdict": "archetype-media: /media live, blocks 4 (media-stories converted; carousel rail variant, text-section media-info + media-intro, share-bar reused), gate 1440 2.07% Δh 1 / 360 4.32% Δh 1, clip 0, presence 0, rounds 2 (360: R-01 wrap tracking nudge in variant + spacer); about-facts no regression 1.53%"
+    },
+    "cluster-landing": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "landing"
+      ],
+      "pages": 1,
+      "endedAt": "2026-11-13T20:04:32Z",
+      "blocks": 0,
+      "verdict": "cluster-landing: pages 1/1 live (/chile, nav /chile/nav, lang es-cl; /?lang folded into home, verified 200), blocks 5 reused, gate 1440 0.94% Δh 0 / 360 2.68% Δh -1 (index timer masks), failed: none, rounds 0"
+    },
+    "archetype-program": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "program"
+      ],
+      "pages": 1,
+      "endedAt": "2026-11-13T20:07:08Z",
+      "blocks": 1,
+      "verdict": "archetype-program: /telescope/dome live, blocks 1 new (data-table) + program variants on page-intro/text-section/subpage-tiles, gate 1440 7.36% Δh 32 / 360 9.27% Δh 26 (gate-all PASS both; Δh = one R-01 wrap), clip 0, presence 0, units PASS, rounds 2"
+    },
+    "archetype-listing": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "listing"
+      ],
+      "pages": 1,
+      "endedAt": "2026-11-13T20:13:39Z",
+      "blocks": 1,
+      "verdict": "archetype-listing: /telescope live, blocks 1 new (overview-bands: wide|centered|tail), gate 1440 2.69% Δh -1 / 360 3.85% Δh -1, clip 0, presence 0, units PASS, rounds 3; queued: header active state on section landings without trailing slash"
+    },
+    "cluster-media": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "media"
+      ],
+      "pages": 0,
+      "startedAt": "2026-11-13T20:19:19Z",
+      "endedAt": "2026-11-13T20:19:19Z",
+      "verdict": "cluster-media: pages 0/0 (template has no siblings)"
+    },
+    "cluster-listing": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "listing"
+      ],
+      "pages": 4,
+      "endedAt": "2026-11-13T20:48:10Z",
+      "blocks": 1,
+      "verdict": "cluster-listing: pages 4/4 live, blocks 5 (overview-bands variants; subpage-tiles/text-section variants), gate 1440 16.98% / 360 9.55% (worst), failed: mirror (1440 Δh +33, R-01 wraps; queued for the fix pass)"
+    },
+    "fix-pass": {
+      "status": "done",
+      "kind": "fix",
+      "endedAt": "2026-11-13T21:47:49Z",
+      "verdict": "fix-pass: 7/7 pass (about-webcams pano-viewer widget + masks, about-location, about-industrial nbsp restore, about-workinggroups, success-buildingon, instrument-andes, instrument-harmoni by documented override); about-road no regression; NOT started: mirror (listing, 1440 16.98% Δh +33 R-01 wraps, 0/3 rounds). Watch: nbsp/U+202F lost in content on siblings"
+    },
+    "cluster-program": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "program"
+      ],
+      "pages": 17,
+      "note": "Residuals (all pass, proxy gate): R-01 fallback-face wraps fitted per block/paragraph (fit-s-*, fit-l-*, fitp<n>-*), unfittable: adaptiveoptics 360 Strehl footnote 7→6 lines (Δh -82, 9.98% — thinnest margin), blackholes 360 one caption column empty in source (16 px), solarsystem 1440 Δh +293 (eds shorter, 3.78%), m2m3 360 spec row sub/sup +5 px, mirror (listing) 1440 16.98% still pending (other unit). Code commits 21cf6c8..e1ff0af unpushed: re-gate the 12 round-3 pages on aem.page after the push (gate-all --only … --eds-host https://main--26c59ee1--aemcoder.aem.page). adaptiveoptics delivery-lint P1 one-cta-per-p accepted (verbatim prose).",
+      "endedAt": "2026-11-14T00:11:09.000Z",
+      "verdict": "cluster-program: pages 17/17 live, 17/17 pass both widths on the published origin after the code push (gate-all --only, recapture-eds): 1440 worst controls 8.62%, 360 worst adaptiveoptics 9.99% / cosmodm 9.97%; m2m3 1440 crawl-fallback origin retaken → 5.31%; clip 0, presence 0; failed: none"
+    },
+    "fix-listing": {
+      "status": "done",
+      "kind": "fix",
+      "templates": [
+        "listing"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-14T01:04:05Z",
+      "endedAt": "2026-11-14T01:04:05Z",
+      "verdict": "fix-listing: /mirror R-01 wrap fitted (text-section fit-l-ls-p05, wrap-fit), redeployed + published; gate 1440 16.98% → 1.76% Δh 0, 360 5.78% Δh -1, clip 0, presence 0; PASS"
+    },
+    "gate-all": {
+      "status": "done",
+      "kind": "final",
+      "startedAt": "2026-11-14T01:04:26Z",
+      "endedAt": "2026-11-14T04:03:55Z",
+      "verdict": "gate-all: roster 43 pages (44 planned, /?lang folded into /), published origin, 1440 43/43 delivered (41 PASS + 2 documented overrides: instrument-harmoni, about-timeline — units only, R-01 text width), 360 43/43 delivered (same 2 overrides); pixel 43/43 both widths, clip 0, content MISSING/HIDDEN 0; update-coverage --gate both widths → 43 deployed, 0 failed. Origin captures with STARDUST_LIVE_STATE=0 (shared cookie jar served Spanish after /chile/?lang)."
+    },
+    "final": {
+      "status": "done",
+      "kind": "final",
+      "startedAt": "2026-11-14T04:03:55Z",
+      "endedAt": "2026-11-14T04:03:55Z",
+      "verdict": "final: foundation-freeze check clean; foundation-requests applied once (header active item: trailing-slash normalisation, ELT HOME only on / and /chile — verified on 7 pages); re-frozen (19 files); remaining request lines are gate-config notes already resolved in sidecars or accepted R-01 residuals"
+    }
+  }
+}

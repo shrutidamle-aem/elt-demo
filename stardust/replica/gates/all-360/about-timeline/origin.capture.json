@@ -1,0 +1,16 @@
+{
+  "writtenBy": "skills/replica/scripts/stitch-shot.mjs",
+  "url": "https://elt.eso.org/about/timeline/",
+  "width": 360,
+  "vh": 900,
+  "height": 13851,
+  "chunks": 16,
+  "denialCheck": "ok",
+  "fontsFailed": [],
+  "fixedLayers": {
+    "capture": "once",
+    "count": 7,
+    "late": 1
+  },
+  "at": "2026-11-14T03:20:41.133Z"
+}

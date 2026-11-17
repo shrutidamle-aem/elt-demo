@@ -1,0 +1,751 @@
+stardust/current/assets/css/elt_assets.66fa71510905.css: 182 of 5945 rules match /container-tight|container-dark|container-light|science-header|header-title|header-subtitle|header-description|header-quick-links|instrument-link|big-header|bar-dark|nutshell|page-section|container-paragraph|section-title-paragraph|section-subtitle|section-text-paragraph|section-heading|container-heading|container-subtitle|share-social|lightlinks|internal-menu|instrument-trapezoid|anchor|embed-responsive|table|caption-text|float-text|float-right|float-left|^\.row|col-lg-6|col-lg-12|^p$|^body|^html/i
+L5 .fa-anchor:before
+      content: "\f13d";
+L5 .fa-table:before
+      content: "\f0ce";
+L5 .fa-table-tennis:before
+      content: "\f45d";
+L5 .fa-tablet:before
+      content: "\f10a";
+L5 .fa-tablet-alt:before
+      content: "\f3fa";
+L5 .fa-tablets:before
+      content: "\f490";
+L76 html
+      font-family: sans-serif; line-height: 1.15; -webkit-text-size-adjust: 100%; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+L87 body
+      margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica …; font-size: 1rem; font-weight: 400; line-height: 1.5; color: #212529; text-align: left; background-color: #fff;
+L113 p
+      margin-top: 0; margin-bottom: 1rem;
+L233 table
+      border-collapse: collapse;
+L633 .row
+      display: flex; flex-wrap: wrap; margin-right: -15px; margin-left: -15px;
+L650 .col-xxxxl, .col-xxxxl-auto, .col-xxxxl-12, .col-xxxxl-11, .col-xxxxl-10, .col-xxxxl-9, .col-xxxxl-8, .col-xxxxl-7, .col-xxxxl-6, .col-xxxxl-5, .col-xxxxl-4, .…
+      position: relative; width: 100%; padding-right: 15px; padding-left: 15px;
+L673 .row-cols-1 > *
+      flex: 0 0 100%; max-width: 100%;
+L678 .row-cols-2 > *
+      flex: 0 0 50%; max-width: 50%;
+L683 .row-cols-3 > *
+      flex: 0 0 33.3333333333%; max-width: 33.3333333333%;
+L688 .row-cols-4 > *
+      flex: 0 0 25%; max-width: 25%;
+L693 .row-cols-5 > *
+      flex: 0 0 20%; max-width: 20%;
+L698 .row-cols-6 > *
+      flex: 0 0 16.6666666667%; max-width: 16.6666666667%;
+L2772 .table
+      width: 100%; margin-bottom: 1rem; color: #212529;
+L2777 .table th, .table td
+      padding: 0.75rem; vertical-align: top; border-top: 1px solid #dee2e6;
+L2783 .table thead th
+      vertical-align: bottom; border-bottom: 2px solid #dee2e6;
+L2787 .table tbody + tbody
+      border-top: 2px solid #dee2e6;
+L2791 .table-sm th, .table-sm td
+      padding: 0.3rem;
+L2796 .table-bordered
+      border: 1px solid #dee2e6;
+L2799 .table-bordered th, .table-bordered td
+      border: 1px solid #dee2e6;
+L2803 .table-bordered thead th, .table-bordered thead td
+      border-bottom-width: 2px;
+L2808 .table-borderless th, .table-borderless td, .table-borderless thead th, .table-borderless tbody + tbody
+      border: 0;
+L2815 .table-striped tbody tr:nth-of-type(odd)
+      background-color: rgba(0, 0, 0, 0.05);
+L2819 .table-hover tbody tr:hover
+      color: #212529; background-color: rgba(0, 0, 0, 0.075);
+L2824 .table-primary, .table-primary > th, .table-primary > td
+      background-color: #b8daff;
+L2829 .table-primary th, .table-primary td, .table-primary thead th, .table-primary tbody + tbody
+      border-color: #7abaff;
+L2836 .table-hover .table-primary:hover
+      background-color: #9fcdff;
+L2839 .table-hover .table-primary:hover > td, .table-hover .table-primary:hover > th
+      background-color: #9fcdff;
+L2844 .table-secondary, .table-secondary > th, .table-secondary > td
+      background-color: #d6d8db;
+L2849 .table-secondary th, .table-secondary td, .table-secondary thead th, .table-secondary tbody + tbody
+      border-color: #b3b7bb;
+L2856 .table-hover .table-secondary:hover
+      background-color: #c8cbcf;
+L2859 .table-hover .table-secondary:hover > td, .table-hover .table-secondary:hover > th
+      background-color: #c8cbcf;
+L2864 .table-success, .table-success > th, .table-success > td
+      background-color: #c3e6cb;
+L2869 .table-success th, .table-success td, .table-success thead th, .table-success tbody + tbody
+      border-color: #8fd19e;
+L2876 .table-hover .table-success:hover
+      background-color: #b1dfbb;
+L2879 .table-hover .table-success:hover > td, .table-hover .table-success:hover > th
+      background-color: #b1dfbb;
+L2884 .table-info, .table-info > th, .table-info > td
+      background-color: #bee5eb;
+L2889 .table-info th, .table-info td, .table-info thead th, .table-info tbody + tbody
+      border-color: #86cfda;
+L2896 .table-hover .table-info:hover
+      background-color: #abdde5;
+L2899 .table-hover .table-info:hover > td, .table-hover .table-info:hover > th
+      background-color: #abdde5;
+L2904 .table-warning, .table-warning > th, .table-warning > td
+      background-color: #ffeeba;
+L2909 .table-warning th, .table-warning td, .table-warning thead th, .table-warning tbody + tbody
+      border-color: #ffdf7e;
+L2916 .table-hover .table-warning:hover
+      background-color: #ffe8a1;
+L2919 .table-hover .table-warning:hover > td, .table-hover .table-warning:hover > th
+      background-color: #ffe8a1;
+L2924 .table-danger, .table-danger > th, .table-danger > td
+      background-color: #f5c6cb;
+L2929 .table-danger th, .table-danger td, .table-danger thead th, .table-danger tbody + tbody
+      border-color: #ed969e;
+L2936 .table-hover .table-danger:hover
+      background-color: #f1b0b7;
+L2939 .table-hover .table-danger:hover > td, .table-hover .table-danger:hover > th
+      background-color: #f1b0b7;
+L2944 .table-light, .table-light > th, .table-light > td
+      background-color: #fdfdfe;
+L2949 .table-light th, .table-light td, .table-light thead th, .table-light tbody + tbody
+      border-color: #fbfcfc;
+L2956 .table-hover .table-light:hover
+      background-color: #ececf6;
+L2959 .table-hover .table-light:hover > td, .table-hover .table-light:hover > th
+      background-color: #ececf6;
+L2964 .table-dark, .table-dark > th, .table-dark > td
+      background-color: #c6c8ca;
+L2969 .table-dark th, .table-dark td, .table-dark thead th, .table-dark tbody + tbody
+      border-color: #95999c;
+L2976 .table-hover .table-dark:hover
+      background-color: #b9bbbe;
+L2979 .table-hover .table-dark:hover > td, .table-hover .table-dark:hover > th
+      background-color: #b9bbbe;
+L2984 .table-active, .table-active > th, .table-active > td
+      background-color: rgba(0, 0, 0, 0.075);
+L2990 .table-hover .table-active:hover
+      background-color: rgba(0, 0, 0, 0.075);
+L2993 .table-hover .table-active:hover > td, .table-hover .table-active:hover > th
+      background-color: rgba(0, 0, 0, 0.075);
+L2998 .table .thead-dark th
+      color: #fff; background-color: #343a40; border-color: #454d55;
+L3003 .table .thead-light th
+      color: #495057; background-color: #e9ecef; border-color: #dee2e6;
+L3009 .table-dark
+      color: #fff; background-color: #343a40;
+L3013 .table-dark th, .table-dark td, .table-dark thead th
+      border-color: #454d55;
+L3018 .table-dark.table-bordered
+      border: 0;
+L3021 .table-dark.table-striped tbody tr:nth-of-type(odd)
+      background-color: rgba(255, 255, 255, 0.05);
+L3024 .table-dark.table-hover tbody tr:hover
+      color: #fff; background-color: rgba(255, 255, 255, 0.075);
+L3128 .table-responsive
+      display: block; width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch;
+L3134 .table-responsive > .table-bordered
+      border: 0;
+L5814 .navbar-dark .navbar-brand
+      color: #fff;
+L5817 .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus
+      color: #fff;
+L5820 .navbar-dark .navbar-nav .nav-link
+      color: rgba(255, 255, 255, 0.5);
+L5823 .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus
+      color: rgba(255, 255, 255, 0.75);
+L5826 .navbar-dark .navbar-nav .nav-link.disabled
+      color: rgba(255, 255, 255, 0.25);
+L5829 .navbar-dark .navbar-nav .show > .nav-link, .navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .na…
+      color: #fff;
+L5835 .navbar-dark .navbar-toggler
+      color: rgba(255, 255, 255, 0.5); border-color: rgba(255, 255, 255, 0.1);
+L5839 .navbar-dark .navbar-toggler-icon
+      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/…;
+L5842 .navbar-dark .navbar-text
+      color: rgba(255, 255, 255, 0.5);
+L5845 .navbar-dark .navbar-text a
+      color: #fff;
+L5848 .navbar-dark .navbar-text a:hover, .navbar-dark .navbar-text a:focus
+      color: #fff;
+L7924 .d-table
+      display: table !important;
+L7928 .d-table-row
+      display: table-row !important;
+L7932 .d-table-cell
+      display: table-cell !important;
+L8314 .embed-responsive
+      position: relative; display: block; width: 100%; padding: 0; overflow: hidden;
+L8321 .embed-responsive::before
+      display: block; content: "";
+L8325 .embed-responsive .embed-responsive-item, .embed-responsive iframe, .embed-responsive embed, .embed-responsive object, .embed-responsive video
+      position: absolute; top: 0; bottom: 0; left: 0; width: 100%; height: 100%; border: 0;
+L8339 .embed-responsive-21by9::before
+      padding-top: 42.8571428571%;
+L8343 .embed-responsive-16by9::before
+      padding-top: 56.25%;
+L8347 .embed-responsive-4by3::before
+      padding-top: 75%;
+L8351 .embed-responsive-1by1::before
+      padding-top: 100%;
+L9724 .float-left
+      float: left !important;
+L9728 .float-right
+      float: right !important;
+L15661 html,body
+      font-family: "Helvetica Neue LT ESO", "Helvetica Neue", Helvetica, Arial, sans-…; /* width: 100%; */ /* height: 100%; */ margin: 0px; padding: 0px; /* overflow-x: hidden; */;
+L15671 body
+      background-color: #000000; color: #ffffff; padding-top: 50px; overflow-x: hidden;
+L15678 a.anchor
+      display: block; position: relative; visibility: hidden; top: -125px;
+L15707 .table
+      margin-bottom: 0; padding-bottom: 1rem;
+L15712 .instrument-technical-table-cell p
+      margin: 0;
+L15749 .big-header-image
+      position: fixed; top: 50px; width: 100vw; z-index: -1;
+L15756 .big-header-text
+      height: 46.875vw; background: transparent !important;
+L15779 .big-header-eso-logo
+      margin-bottom: 5px;
+L15806 .share-social-media-dropdown
+      top: 100%; right: -25px; transform: scale(1, 0); transition: all 0.5s ease; /* transform-origin: top; */ width: 350px; background: transparent; z-index: 100;
+L15817 .share-social-media-dropdown-icons
+      position: relative; margin-top: 2.5rem; background: rgb(232, 232, 232); padding: 1rem 1.5rem 1rem 1.5rem; border-radius: 10px; /* offset-x | offset-y | blur-radius | spread-radius | color */ box-shadow: 2px…; /* box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.5); */ /* border: 1px solid rgba(0, 0, 0, 0.5); */ display: grid; grid-template-columns: auto auto; grid-template-rows: 1fr 1fr 1fr; gap: 0 12px;
+L15834 .share-social-media-dropdown-icons::before
+      content: ''; position: absolute; width: 0; height: 0; bottom: 99%; right: 25px; border: 18px solid transparent; border-top: none; border-bottom-color: rgb(232, 232, 232); filter: drop-shadow(0 -4px 3px rgba(0, 0, 0, .3));
+L15847 .share-social-media-dropdown-icons a, .share-social-media-dropdown-icons a.active, .share-social-media-dropdown-icons a:hover
+      color: var(--esoblue) !important;
+L15851 .share-social-media-icons
+      padding: 0 0.3rem 0 0.3rem; transform: scale(0.95); transition: all 0.5s ease;
+L15857 .share-social-media-icons:hover
+      transform: scale(1.05); transition: all 0.5s ease;
+L15862 .share-social-media-dropdown-icons a img
+      transform: scale(0.95); transition: all 0.5s ease;
+L15867 .share-social-media-dropdown-icons a:hover img
+      transform: scale(1.05); transition: all 0.5s ease;
+L15872 .share-social-media-dropdown:hover
+      transform: scale(1, 1); transition: all 0.5s ease;
+L15877 .share-social-media:hover ~ .share-social-media-dropdown
+      transform: scale(1, 1); transition: all 0.5s ease;
+L15882 .share-social-media-dropdown-text
+      font-size: 14px;
+L15886 .share-social-media
+      cursor: pointer;
+L15890 .share-social-media-dropdown-image
+      background: var(--esoblue); border-radius: 10px; padding: 0.3rem;
+L15908 .header-title
+      /* font-size: 2.8125rem; */ font-weight: 600; color: var(--headerblue); top: 8%; left: 10.5%; right: 10.5%;
+L15917 .header-subtitle
+      top: 23%; left: 10.5%; right: 10.5%; width: 35%; /* font-size: 2.8125rem; */ /* line-height: 3.375rem; */;
+L15926 .header-description
+      bottom: 25%; left: 10.5%; right: 10.5%; width: 35%; /* font-size: 21.5px; */ /* font-weight: 600; */ /* font-family: "Helvetica Neue LT ESO Light"; */ font-family: "Helvetica Neue LT ESO";
+L15957 .instrument-header-subtitle
+      top: 23%; left: 10.5%; right: 10.5%; width: 40%;
+L15964 .instrument-header-description
+      bottom: 25%; left: 10.5%; right: 10.5%; width: 40%;
+L15978 .science-header-textblock
+      top: 0%; left: 10.5%; width: 89.5%; height: 100%;
+L16019 .internal-menu-title
+      /* font-size: 2.8125rem; */ bottom: 10%; left: 10.5%; right: 10.5%; color: white; pointer-events: none;
+L16028 .internal-menu-text
+      /* font-size: 27px; */ line-height: 2.109375rem; color: white; padding-left: 7%; padding-right: 7%;
+L16036 .internal-menu-shape
+      bottom: 0%; left: 0%;
+L16041 .internal-menu-link
+      bottom: 0%; top: 83%; right: 70%; left: 0%; /* font-size: 27px; */ /* font-weight: 700; */ font-weight: 600; font-size: 1.3125rem; /* text-decoration: underline; */;
+L16053 .internal-menu-trapezoid-link
+      pointer-events: none;
+L16057 .internal-menu-link-original
+      top: 72%;
+L16109 .frontpage-section-title
+      /* font-size: 2.8125rem; */ color: var(--esoblue); margin-bottom: 2rem;
+L16115 .frontpage-section-subtitle
+      /* font-size: 2.8125rem; */ margin-bottom: 1rem;
+L16125 .container-paragraph
+      padding-left: 10.5%; /* padding-bottom: 2rem; */ padding-bottom: 0.005rem; padding-right: 10.5%;
+L16142 .caption-text
+      /* font-family: "Helvetica Neue LT ESO Light"; */ font-family: "Helvetica Neue LT ESO"; font-weight: 400;
+L16148 .float-text p
+      padding-top: 0 !important;
+L16157 .big-header-visuals-title
+      text-shadow: 2px 0px black; left: 10.5%; right: 10.5%;
+L16163 .section-subtitle-paragraph
+      padding-bottom: 0; padding-top: 0; font-weight: 700;
+L16169 .section-subtitle-paragraph p
+      padding-bottom: 0; padding-top: 0;
+L16174 .section-subtitle-paragraph-aftertitle
+      padding-bottom: 0; padding-top: 0; font-weight: 700;
+L16180 .section-subtitle-paragraph-aftertitle p
+      padding-bottom: 0; padding-top: 0;
+L16185 .section-heading-paragraph
+      padding-bottom: 0; padding-top: 0; font-weight: 700;
+L16191 .section-heading-paragraph p
+      padding-bottom: 0; padding-top: 0;
+L16196 .section-heading-paragraph-aftertitle
+      padding-bottom: 0; padding-top: 0; font-weight: 700;
+L16202 .section-heading-paragraph-aftertitle p
+      padding-bottom: 0; padding-top: 0;
+L16207 .page-section h2
+      padding-bottom: 0; padding-top: 0; font-weight: 700;
+L19587 .header-quick-links
+      bottom: 10%; left: 10.5%; right: 10.5%; width: 89.5%; /* font-size: 26px; */ font-weight: 600; /* font-family: "Helvetica Neue LT ESO Light"; */ font-family: "Helvetica Neue LT ESO";
+L19611 .section-subtitle
+      margin-left: 4rem; margin-bottom: 2rem;
+L19621 .container-light
+      padding-right: 0px; padding-left: 0px; margin-right: 0px; margin-left: 0px; background-color: rgb(232, 232, 232); color: #000; padding-top: 2rem; /* padding-bottom: 2rem; */ padding-bottom: 0;
+L19633 .container-light a
+      color: var(--esoblue);
+L19636 .container-light a.active
+      color: var(--esoblue);
+L19639 .container-light a:hover
+      color: #0056b3;
+L19643 .container-darkblue
+      padding-right: 0px; padding-left: 0px; margin-right: 0px; margin-left: 0px; background-color: rgb(11, 22, 39); color: #fff; padding-top: 2rem; /* padding-bottom: 2rem; */ padding-bottom: 0;
+L19655 .container-darkblue a
+      color: #fff;
+L19658 .container-darkblue a.active
+      color: #fff;
+L19661 .container-darkblue a:hover
+      color: #fff;
+L19695 .lightlinks a
+      color: #fff;
+L19698 .lightlinks a.active
+      color: #fff;
+L19701 .lightlinks a:hover
+      color: #fff;
+L19727 .container-dark
+      padding-right: 0px; padding-left: 0px; margin-right: 0px; margin-left: 0px; background-color: #000; color: #fff; padding-top: 2rem; padding-bottom: 0rem;
+L19760 .container-tight
+      padding: 0 !important;
+L19779 .bar-dark
+      padding-right: 0px; padding-left: 0px; margin-right: 0px; margin-left: 0px; background-color: #000; color: #fff; padding-top: 1rem; padding-bottom: 1rem;
+L19790 .bar-dark-tight
+      padding: 0; margin-right: 0px; margin-left: 0px; background-color: #000; color: #fff;
+L20043 .navbar-dark .navbar-nav .nav-link
+      color: rgba(255, 255, 255, 0.7);
+L20047 .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus
+      color: rgba(255, 255, 255, 0.9);
+L20196 .instrument-link-color
+      color: var(--headerblue);
+L20200 .instrument-link:hover
+      color: var(--orange);
+L20237 .section-title-paragraph-blue
+      font-weight: 250; padding-bottom: 2rem; padding-top: 2rem; color: var(--esoblue);
+L20244 .container-subtitle
+      padding-left: 10.5%; padding-bottom: 0rem; padding-right: 10.5%;
+L20250 .container-heading
+      padding-left: 10.5%; padding-bottom: 0rem; padding-right: 10.5%;
+L20275 svg.instrument-trapezoid
+      width: 100%; /* height: 15%; */ height: 100%;
+L20281 svg.instrument-trapezoid polygon
+      fill: white; stroke: white; stroke-width: 0;
+L20383 .table-science
+      padding: 0 !important; /* border: none !important; */ border-style: solid; border-top: 4px solid rgb(215, 215, 215) !important; border-bottom: 4px solid rgb(215, 215, 215) !important; border-right: 7px solid rgb(215, 215, 215) !important; border-left: 7px solid rgb(215, 215, 215) !important;
+L20393 th.table-science
+      padding: 0 !important; border-style: solid; border-top: 4px solid rgb(215, 215, 215) !important; border-bottom: 4px solid rgb(215, 215, 215) !important; border-right: 7px solid rgb(215, 215, 215) !important; border-left: 0px solid rgb(215, 215, 215) !important;
+L20502 a.anchor
+      display: block; position: relative; top: -150px; visibility: hidden;
+L20942 .cookies-table
+      display: grid; grid-template-columns: 7fr 10fr 5fr 5fr 5fr; margin-bottom: 1rem; min-width: 900px;
+L20949 .cookies-table-row
+      grid-column: 1 / span 5; display: grid; grid-template-columns: 7fr 10fr 5fr 5fr 5fr;
+L20955 .cookies-table-row-choice
+      grid-column: 1 / span 6; display: grid; grid-template-columns: 7fr 10fr 5fr 5fr 5fr 5fr;
+L20961 .cookies-table-row:nth-child(odd)
+      background-color: var(--esobluedarkdarkshade);
+L20964 .cookies-table-row:nth-child(even)
+      background-color: var(--esobluedarkshade);
+L20968 .cookies-table-row-choice:nth-child(odd)
+      background-color: var(--esobluedarkdarkshade);
+L20971 .cookies-table-row-choice:nth-child(even)
+      background-color: var(--esobluedarkshade);
+L20974 .cookies-table-cell
+      padding: 0.5rem;
+L20978 .cookies-table-header
+      font-weight: 900;
+stardust/current/assets/css/elt_assets.66fa71510905.css: 40 of 5945 rules match /container-tight|container-dark|container-light|science-header|header-title|header-subtitle|header-description|header-quick-links|instrument-link|big-header|bar-dark|nutshell|page-section|container-paragraph|section-title-paragraph|section-subtitle|section-text-paragraph|section-heading|container-heading|container-subtitle|share-social|lightlinks|internal-menu|instrument-trapezoid|anchor|embed-responsive|table|caption-text|float-text|float-right|float-left|^\.row|col-lg-6|col-lg-12|^p$|^body|^html/i
+L16375 .share-social-media-logos   @media only screen and (max-width: 576px)
+      width: 130px;
+L16423 .big-header-visuals-title   @media only screen and (max-width: 576px)
+      font-size: 1.5625rem; bottom: 5%;
+L16440 .section-text-paragraph .faq-question p   @media only screen and (max-width: 576px)
+      font-size: 1.125rem !important;
+L16449 .container-paragraph-right   @media only screen and (max-width: 576px)
+      padding-right: 10.5%; padding-left: 10.5%;
+L16462 .frontpage-section-subtitle   @media only screen and (max-width: 576px)
+      font-size: 2.125rem;
+L16466 .frontpage-section-title   @media only screen and (max-width: 576px)
+      font-size: 2.125rem; margin-bottom: 2rem;
+L16492 .table-text   @media only screen and (max-width: 576px)
+      font-size: 1rem;
+L16500 .internal-menu-link   @media only screen and (max-width: 576px)
+      font-size: 1rem;
+L16504 .internal-menu-text   @media only screen and (max-width: 576px)
+      font-size: 1rem;
+L16508 .internal-menu-title   @media only screen and (max-width: 576px)
+      font-size: 1.625rem;
+L16512 .section-subtitle-paragraph   @media only screen and (max-width: 576px)
+      /* font-size: 1.4375rem; */ /* font-size: 1.3125rem; */ /* line-height: 2.125rem; */ font-size: 1.25rem; line-height: 2rem; /* padding-bottom: 1rem; */ /* padding-top: 1.5rem; */;
+L16522 .section-subtitle-paragraph p   @media only screen and (max-width: 576px)
+      /* font-size: 1.3125rem !important; */ /* line-height: 2.125rem !important; */ font-size: 1.25rem !important; line-height: 2rem !important; /* padding-bottom: 1rem !important; */ /* padding-top: 1.5rem !important; */;
+L16531 .section-subtitle-paragraph-aftertitle   @media only screen and (max-width: 576px)
+      /* font-size: 1.3125rem; */ font-size: 1.25rem; line-height: 2rem; /* line-height: 2.125rem; */ /* padding-bottom: 1rem; */;
+L16539 .section-subtitle-paragraph-aftertitle p   @media only screen and (max-width: 576px)
+      /* font-size: 2.34375rem !important; */ /* font-size: 1.3125rem !important; */ font-size: 1.25rem !important; line-height: 2rem !important; /* line-height: 2.125rem !important; */ /* padding-bottom: 1rem !important; */;
+L16548 .section-heading-paragraph   @media only screen and (max-width: 576px)
+      font-size: 1rem; line-height: 1.6875rem;
+L16553 .section-heading-paragraph p   @media only screen and (max-width: 576px)
+      font-size: 1rem !important; line-height: 1.6875rem !important;
+L16558 .section-heading-paragraph-aftertitle   @media only screen and (max-width: 576px)
+      font-size: 1rem; line-height: 1.6875rem;
+L16563 .section-heading-paragraph-aftertitle p   @media only screen and (max-width: 576px)
+      font-size: 1rem !important; line-height: 1.6875rem !important;
+L16568 .page-section h2   @media only screen and (max-width: 576px)
+      /* font-size: 1.3125rem; */ /* line-height: 2.125rem; */ font-size: 1rem; line-height: 1.6875rem; /* padding-bottom: 1rem; */ /* padding-top: 1.5rem; */;
+L16577 .section-title-paragraph   @media only screen and (max-width: 576px)
+      /* font-size: 2.8125rem; */ font-size: 1.625rem; font-weight: 600; /* padding-bottom: 2rem; */ padding-bottom: 1.5rem; /* padding-top: 1.5rem; */ padding-top: 0;
+L16587 .section-title-paragraph p   @media only screen and (max-width: 576px)
+      /* font-size: 2.8125rem !important; */ font-size: 1.625rem !important; font-weight: 600 !important; /* padding-bottom: 2rem !important; */ padding-bottom: 1.5rem !important; /* padding-top: 1.5rem !important; */ padding-top: 0 !important;
+L16597 .page-section h1   @media only screen and (max-width: 576px)
+      /* font-size: 2.8125rem; */ font-size: 1.625rem; font-weight: 600; padding-bottom: 2rem; padding-top: 1.5rem;
+L16609 .section-text-paragraph   @media only screen and (max-width: 576px)
+      font-size: 1rem; line-height: 1.6875rem; padding-top: 0.2rem; padding-bottom: 0.2rem;
+L16616 .section-text-paragraph p   @media only screen and (max-width: 576px)
+      font-size: 1rem !important; line-height: 1.6875rem !important; padding-top: 0.2rem !important; padding-bottom: 0.2rem !important;
+L16623 .page-section p   @media only screen and (max-width: 576px)
+      font-size: 1rem; line-height: 1.6875rem; padding-top: 0.2rem; padding-bottom: 0.2rem;
+L16630 .caption-text   @media only screen and (max-width: 576px)
+      font-size: 0.8125rem !important;
+L16634 .caption-text p   @media only screen and (max-width: 576px)
+      font-size: 0.8125rem !important;
+L16638 .header-title   @media only screen and (max-width: 576px)
+      font-size: 1.75rem;
+L16642 .header-subtitle   @media only screen and (max-width: 576px)
+      font-size: 1.5rem; line-height: 2.25rem;
+L16647 .header-description   @media only screen and (max-width: 576px)
+      font-size: 0.875rem; line-height: 1.625rem;
+L16652 .header-quick-links   @media only screen and (max-width: 576px)
+      font-size: 0.875rem;
+L16656 .big-header-eso-logo   @media only screen and (max-width: 576px)
+      width: 30px;
+L16660 .big-header-social-logos   @media only screen and (max-width: 576px)
+      width: 120px;
+L16664 .big-header-logos   @media only screen and (max-width: 576px)
+      top: 5%; left: 10.5%; width: 180px;
+L16674 .frontpage-header-title   @media only screen and (max-width: 576px)
+      font-size: 1rem; font-weight: 600; text-shadow: 10px 10px 20px black; bottom: 5%; left: 10.5%; right: 10.5%;
+L16683 .frontpage-header-subtitle   @media only screen and (max-width: 576px)
+      font-size: 1rem; font-weight: 500; text-shadow: 10px 10px 20px black;
+L16689 .big-header-title   @media only screen and (max-width: 576px)
+      font-size: 1.875rem; text-shadow: 2px 0px black; bottom: 14%; left: 10.5%; right: 10.5%;
+L16697 .big-header-title-facts   @media only screen and (max-width: 576px)
+      font-size: 1.5rem;
+L16701 .big-header-title-mirrors   @media only screen and (max-width: 576px)
+      font-size: 1.5625rem;
+L16705 .big-header-title-success   @media only screen and (max-width: 576px)
+      font-size: 0.95rem;
+stardust/current/assets/css/elt_assets.66fa71510905.css: 152 of 5945 rules match /container-tight|container-dark|container-light|science-header|header-title|header-subtitle|header-description|header-quick-links|instrument-link|big-header|bar-dark|nutshell|page-section|container-paragraph|section-title-paragraph|section-subtitle|section-text-paragraph|section-heading|container-heading|container-subtitle|share-social|lightlinks|internal-menu|instrument-trapezoid|anchor|embed-responsive|table|caption-text|float-text|float-right|float-left|^\.row|col-lg-6|col-lg-12|^p$|^body|^html/i
+L1724 .row-cols-lg-1 > *   @media (min-width: 992px)
+      flex: 0 0 100%; max-width: 100%;
+L1729 .row-cols-lg-2 > *   @media (min-width: 992px)
+      flex: 0 0 50%; max-width: 50%;
+L1734 .row-cols-lg-3 > *   @media (min-width: 992px)
+      flex: 0 0 33.3333333333%; max-width: 33.3333333333%;
+L1739 .row-cols-lg-4 > *   @media (min-width: 992px)
+      flex: 0 0 25%; max-width: 25%;
+L1744 .row-cols-lg-5 > *   @media (min-width: 992px)
+      flex: 0 0 20%; max-width: 20%;
+L1749 .row-cols-lg-6 > *   @media (min-width: 992px)
+      flex: 0 0 16.6666666667%; max-width: 16.6666666667%;
+L1785 .col-lg-6   @media (min-width: 992px)
+      flex: 0 0 50%; max-width: 50%;
+L1815 .col-lg-12   @media (min-width: 992px)
+      flex: 0 0 100%; max-width: 100%;
+L1935 .row-cols-xl-1 > *   @media (min-width: 1200px)
+      flex: 0 0 100%; max-width: 100%;
+L1940 .row-cols-xl-2 > *   @media (min-width: 1200px)
+      flex: 0 0 50%; max-width: 50%;
+L1945 .row-cols-xl-3 > *   @media (min-width: 1200px)
+      flex: 0 0 33.3333333333%; max-width: 33.3333333333%;
+L1950 .row-cols-xl-4 > *   @media (min-width: 1200px)
+      flex: 0 0 25%; max-width: 25%;
+L1955 .row-cols-xl-5 > *   @media (min-width: 1200px)
+      flex: 0 0 20%; max-width: 20%;
+L1960 .row-cols-xl-6 > *   @media (min-width: 1200px)
+      flex: 0 0 16.6666666667%; max-width: 16.6666666667%;
+L2146 .row-cols-xxl-1 > *   @media (min-width: 1440px)
+      flex: 0 0 100%; max-width: 100%;
+L2151 .row-cols-xxl-2 > *   @media (min-width: 1440px)
+      flex: 0 0 50%; max-width: 50%;
+L2156 .row-cols-xxl-3 > *   @media (min-width: 1440px)
+      flex: 0 0 33.3333333333%; max-width: 33.3333333333%;
+L2161 .row-cols-xxl-4 > *   @media (min-width: 1440px)
+      flex: 0 0 25%; max-width: 25%;
+L2166 .row-cols-xxl-5 > *   @media (min-width: 1440px)
+      flex: 0 0 20%; max-width: 20%;
+L2171 .row-cols-xxl-6 > *   @media (min-width: 1440px)
+      flex: 0 0 16.6666666667%; max-width: 16.6666666667%;
+L8109 .d-lg-table   @media (min-width: 992px)
+      display: table !important;
+L8113 .d-lg-table-row   @media (min-width: 992px)
+      display: table-row !important;
+L8117 .d-lg-table-cell   @media (min-width: 992px)
+      display: table-cell !important;
+L8146 .d-xl-table   @media (min-width: 1200px)
+      display: table !important;
+L8150 .d-xl-table-row   @media (min-width: 1200px)
+      display: table-row !important;
+L8154 .d-xl-table-cell   @media (min-width: 1200px)
+      display: table-cell !important;
+L8183 .d-xxl-table   @media (min-width: 1440px)
+      display: table !important;
+L8187 .d-xxl-table-row   @media (min-width: 1440px)
+      display: table-row !important;
+L8191 .d-xxl-table-cell   @media (min-width: 1440px)
+      display: table-cell !important;
+L17570 .float-text p   @media only screen and (min-width: 992px)
+      margin-top: -0.4rem;
+L17591 .share-social-media-logos   @media only screen and (min-width: 992px)
+      width: 210px;
+L17635 .big-header-visuals-title   @media only screen and (min-width: 992px)
+      font-size: 2.5625rem; bottom: 9%;
+L17652 .section-text-paragraph .faq-question p   @media only screen and (min-width: 992px)
+      font-size: 1.3125rem !important;
+L17661 .container-paragraph-right   @media only screen and (min-width: 992px)
+      padding-right: 10.5%; padding-left: 0%;
+L17674 .frontpage-section-subtitle   @media only screen and (min-width: 992px)
+      font-size: 2.4375rem;
+L17678 .frontpage-section-title   @media only screen and (min-width: 992px)
+      font-size: 2.4375rem; margin-bottom: 2rem;
+L17704 .table-text   @media only screen and (min-width: 992px)
+      font-size: 1.125rem;
+L17716 .internal-menu-link   @media only screen and (min-width: 992px)
+      font-size: 1.125rem;
+L17720 .internal-menu-text   @media only screen and (min-width: 992px)
+      font-size: 1.174rem;
+L17724 .internal-menu-title   @media only screen and (min-width: 992px)
+      font-size: 1.84375rem;
+L17728 .section-subtitle-paragraph   @media only screen and (min-width: 992px)
+      /* font-size: 1.587rem; */ /* line-height: 2.4375rem; */ font-size: 1.43rem; line-height: 2.3rem; /* padding-bottom: 1.4rem; */ /* padding-top: 2.1rem; */;
+L17737 .section-subtitle-paragraph p   @media only screen and (min-width: 992px)
+      /* font-size: 1.587rem !important; */ /* line-height: 2.4375rem !important; */ font-size: 1.43rem !important; line-height: 2.3rem !important; /* padding-bottom: 1.4rem !important; */ /* padding-top: 2.1rem !important; */;
+L17746 .section-subtitle-paragraph-aftertitle   @media only screen and (min-width: 992px)
+      /* font-size: 1.587rem; */ /* line-height: 2.4375rem; */ font-size: 1.43rem; line-height: 2.3rem; /* padding-bottom: 1.4rem; */;
+L17754 .section-subtitle-paragraph-aftertitle p   @media only screen and (min-width: 992px)
+      /* font-size: 1.587rem !important; */ /* line-height: 2.4375rem !important; */ font-size: 1.43rem !important; line-height: 2.3rem !important; /* padding-bottom: 1.4rem !important; */;
+L17762 .section-heading-paragraph   @media only screen and (min-width: 992px)
+      /* font-size: 1.587rem; */ /* line-height: 2.4375rem; */ font-size: 1.125rem; line-height: 1.90625rem; /* padding-bottom: 1.4rem; */ /* padding-top: 2.1rem; */;
+L17771 .section-heading-paragraph p   @media only screen and (min-width: 992px)
+      /* font-size: 1.587rem !important; */ /* line-height: 2.4375rem !important; */ font-size: 1.125rem !important; line-height: 1.90625rem !important; /* padding-bottom: 1.4rem !important; */ /* padding-top: 2.1rem !important; */;
+L17780 .section-heading-paragraph-aftertitle   @media only screen and (min-width: 992px)
+      /* font-size: 1.587rem; */ /* line-height: 2.4375rem; */ font-size: 1.125rem; line-height: 1.90625rem; /* padding-bottom: 1.4rem; */;
+L17788 .section-heading-paragraph-aftertitle p   @media only screen and (min-width: 992px)
+      /* font-size: 1.587rem !important; */ /* line-height: 2.4375rem !important; */ font-size: 1.125rem !important; line-height: 1.90625rem !important; /* padding-bottom: 1.4rem !important; */;
+L17796 .page-section h2   @media only screen and (min-width: 992px)
+      /* font-size: 1.587rem; */ /* line-height: 2.4375rem; */ font-size: 1.125rem; line-height: 1.90625rem; /* padding-bottom: 1.4rem; */ /* padding-top: 2.1rem; */;
+L17805 .section-title-paragraph   @media only screen and (min-width: 992px)
+      font-size: 1.84375rem; font-weight: 600; /* padding-bottom: 2.8rem; */ padding-bottom: 2.1rem; /* padding-top: 2.3rem; */ padding-top: 0.6rem;
+L17814 .section-title-paragraph p   @media only screen and (min-width: 992px)
+      font-size: 1.84375rem !important; font-weight: 600 !important; /* padding-bottom: 2.8rem !important; */ padding-bottom: 2.1rem !important; /* padding-top: 2.3rem !important; */ padding-top: 0.6rem !important;
+L17823 .page-section h1   @media only screen and (min-width: 992px)
+      font-size: 1.84375rem; font-weight: 600; /* padding-bottom: 2.8rem; */ padding-bottom: 2.1rem; /* padding-top: 2.3rem; */ padding-top: 0.6rem;
+L17836 .section-text-paragraph   @media only screen and (min-width: 992px)
+      font-size: 1.125rem; line-height: 1.90625rem; padding-top: 0.35rem; padding-bottom: 0.35rem;
+L17843 .section-text-paragraph p   @media only screen and (min-width: 992px)
+      font-size: 1.125rem !important; line-height: 1.90625rem !important; padding-top: 0.35rem !important; padding-bottom: 0.35rem !important;
+L17850 .page-section p   @media only screen and (min-width: 992px)
+      font-size: 1.125rem; line-height: 1.90625rem; padding-top: 0.35rem; padding-bottom: 0.35rem;
+L17857 .caption-text   @media only screen and (min-width: 992px)
+      font-size: 0.937rem !important;
+L17861 .caption-text p   @media only screen and (min-width: 992px)
+      font-size: 0.937rem !important;
+L17865 .header-title   @media only screen and (min-width: 992px)
+      font-size: 2.03125rem;
+L17869 .header-subtitle   @media only screen and (min-width: 992px)
+      font-size: 1.75rem; line-height: 2.5625rem;
+L17874 .header-description   @media only screen and (min-width: 992px)
+      font-size: 1.0625rem; line-height: 1.8125rem;
+L17879 .header-quick-links   @media only screen and (min-width: 992px)
+      font-size: 1.0625rem;
+L17883 .big-header-eso-logo   @media only screen and (min-width: 992px)
+      width: 58px;
+L17887 .big-header-social-logos   @media only screen and (min-width: 992px)
+      width: 210px;
+L17891 .big-header-logos   @media only screen and (min-width: 992px)
+      top: 10%; left: 10.5%; width: 325px;
+L17897 .big-header-title-facts   @media only screen and (min-width: 992px)
+      font-size: 2.5rem;
+L17901 .big-header-title   @media only screen and (min-width: 992px)
+      font-size: 2.71875rem; text-shadow: 2px 0px black; bottom: 14%; left: 10.5%; right: 10.5%;
+L17909 .big-header-title-mirrors   @media only screen and (min-width: 992px)
+      font-size: 2.5rem;
+L17913 .big-header-title-success   @media only screen and (min-width: 992px)
+      font-size: 2.1668rem;
+L17921 .frontpage-header-title   @media only screen and (min-width: 992px)
+      font-size: 2.25rem; font-weight: 600; text-shadow: 10px 10px 20px black; bottom: 10%; left: 10.5%; right: 10.5%;
+L17930 .frontpage-header-subtitle   @media only screen and (min-width: 992px)
+      font-size: 2.25rem; font-weight: 500; text-shadow: 10px 10px 20px black;
+L18004 .float-text p   @media only screen and (min-width: 1200px)
+      margin-top: -0.5rem;
+L18020 .share-social-media-logos   @media only screen and (min-width: 1200px)
+      width: 235px;
+L18064 .big-header-visuals-title   @media only screen and (min-width: 1200px)
+      font-size: 2.875rem; bottom: 10%;
+L18081 .section-text-paragraph .faq-question p   @media only screen and (min-width: 1200px)
+      font-size: 1.390625rem !important;
+L18090 .container-paragraph-right   @media only screen and (min-width: 1200px)
+      padding-right: 10.5%; padding-left: 0%;
+L18103 .frontpage-section-subtitle   @media only screen and (min-width: 1200px)
+      font-size 2.5rem;
+L18107 .frontpage-section-title   @media only screen and (min-width: 1200px)
+      font-size 2.5rem; margin-bottom: 2rem;
+L18133 .table-text   @media only screen and (min-width: 1200px)
+      font-size: 1.15625rem;
+L18145 .internal-menu-link   @media only screen and (min-width: 1200px)
+      font-size: 1.15625rem;
+L18149 .internal-menu-text   @media only screen and (min-width: 1200px)
+      font-size: 1.233rem;
+L18153 .internal-menu-title   @media only screen and (min-width: 1200px)
+      font-size: 1.9375rem;
+L18157 .section-subtitle-paragraph   @media only screen and (min-width: 1200px)
+      /* font-size: 1.679rem; */ /* line-height: 2.5625rem; */ font-size: 1.49rem; line-height: 2.4rem; /* padding-bottom: 1.5rem; */ /* padding-top: 2.3rem; */;
+L18166 .section-subtitle-paragraph p   @media only screen and (min-width: 1200px)
+      /* font-size: 1.679rem !important; */ /* line-height: 2.5625rem !important; */ font-size: 1.49rem !important; line-height: 2.4rem !important; /* padding-bottom: 1.5rem !important; */ /* padding-top: 2.3rem !important; */;
+L18175 .section-subtitle-paragraph-aftertitle   @media only screen and (min-width: 1200px)
+      /* font-size: 1.679rem; */ /* line-height: 2.5625rem; */ font-size: 1.49rem; line-height: 2.4rem; /* padding-bottom: 1.5rem; */;
+L18183 .section-subtitle-paragraph-aftertitle p   @media only screen and (min-width: 1200px)
+      /* font-size: 1.679rem !important; */ /* line-height: 2.5625rem !important; */ font-size: 1.49rem !important; line-height: 2.4rem !important; /* padding-bottom: 1.5rem !important; */;
+L18191 .section-heading-paragraph   @media only screen and (min-width: 1200px)
+      /* font-size: 1.679rem; */ /* line-height: 2.5625rem; */ font-size: 1.15625rem; line-height: 2rem; /* padding-bottom: 1.5rem; */ /* padding-top: 2.3rem; */;
+L18200 .section-heading-paragraph p   @media only screen and (min-width: 1200px)
+      /* font-size: 1.679rem !important; */ /* line-height: 2.5625rem !important; */ font-size: 1.15625rem !important; line-height: 2rem !important; /* padding-bottom: 1.5rem !important; */ /* padding-top: 2.3rem !important; */;
+L18209 .section-heading-paragraph-aftertitle   @media only screen and (min-width: 1200px)
+      /* font-size: 1.679rem; */ /* line-height: 2.5625rem; */ font-size: 1.15625rem; line-height: 2rem; /* padding-bottom: 1.5rem; */;
+L18217 .section-heading-paragraph-aftertitle p   @media only screen and (min-width: 1200px)
+      /* font-size: 1.679rem !important; */ /* line-height: 2.5625rem !important; */ font-size: 1.15625rem !important; line-height: 2rem !important; /* padding-bottom: 1.5rem !important; */;
+L18225 .page-section h2   @media only screen and (min-width: 1200px)
+      /* font-size: 1.679rem; */ font-size: 1.15625rem; line-height: 2rem; /* line-height: 2.5625rem; */ /* padding-bottom: 1.5rem; */ /* padding-top: 2.3rem; */;
+L18234 .section-title-paragraph   @media only screen and (min-width: 1200px)
+      font-size: 1.9375rem; font-weight: 600; /* padding-bottom: 3rem; */ padding-bottom: 2.3rem; /* padding-top: 2.5rem; */ padding-top: 0.8rem;
+L18243 .section-title-paragraph p   @media only screen and (min-width: 1200px)
+      font-size: 1.9375rem !important; font-weight: 600 !important; /* padding-bottom: 3rem !important; */ padding-bottom: 2.3rem !important; /* padding-top: 2.5rem !important; */ padding-top: 0.8rem !important;
+L18252 .page-section h1   @media only screen and (min-width: 1200px)
+      font-size: 1.9375rem; font-weight: 600; /* padding-bottom: 3rem; */ padding-bottom: 2.3rem; /* padding-top: 2.5rem; */ padding-top: 0.8rem;
+L18265 .section-text-paragraph   @media only screen and (min-width: 1200px)
+      font-size: 1.15625rem; line-height: 2rem; padding-top: 0.4rem; padding-bottom: 0.4rem;
+L18272 .section-text-paragraph p   @media only screen and (min-width: 1200px)
+      font-size: 1.15625rem !important; line-height: 2rem !important; padding-top: 0.4rem !important; padding-bottom: 0.4rem !important;
+L18279 .page-section p   @media only screen and (min-width: 1200px)
+      font-size: 1.15625rem; line-height: 2rem; padding-top: 0.4rem; padding-bottom: 0.4rem;
+L18286 .caption-text   @media only screen and (min-width: 1200px)
+      font-size: 0.979rem !important;
+L18290 .caption-text p   @media only screen and (min-width: 1200px)
+      font-size: 0.979rem !important;
+L18294 .header-title   @media only screen and (min-width: 1200px)
+      font-size: 2.125rem;
+L18298 .header-subtitle   @media only screen and (min-width: 1200px)
+      font-size: 1.8125rem; line-height: 2.625rem;
+L18303 .header-description   @media only screen and (min-width: 1200px)
+      font-size: 1.125rem; line-height: 1.875rem;
+L18308 .header-quick-links   @media only screen and (min-width: 1200px)
+      font-size: 1.125rem;
+L18312 .big-header-eso-logo   @media only screen and (min-width: 1200px)
+      width: 67px;
+L18316 .big-header-social-logos   @media only screen and (min-width: 1200px)
+      width: 240px;
+L18320 .big-header-logos   @media only screen and (min-width: 1200px)
+      top: 10%; left: 10.5%; width: 375px;
+L18326 .big-header-title-facts   @media only screen and (min-width: 1200px)
+      font-size: 2.83rem;
+L18330 .big-header-title   @media only screen and (min-width: 1200px)
+      font-size: 3rem; text-shadow: 2px 0px black; bottom: 14%; left: 10.5%; right: 10.5%;
+L18338 .big-header-title-mirrors   @media only screen and (min-width: 1200px)
+      font-size: 2.875rem;
+L18342 .big-header-title-success   @media only screen and (min-width: 1200px)
+      font-size: 2.5777rem;
+L18350 .frontpage-header-title   @media only screen and (min-width: 1200px)
+      font-size: 2.625rem; font-weight: 600; text-shadow: 10px 10px 20px black; bottom: 10%; left: 10.5%; right: 10.5%;
+L18359 .frontpage-header-subtitle   @media only screen and (min-width: 1200px)
+      font-size: 2.625rem; font-weight: 500; text-shadow: 10px 10px 20px black;
+L18398 .float-text p   @media only screen and (min-width: 1440px)
+      margin-top: -0.5rem;
+L18410 .share-social-media-logos   @media only screen and (min-width: 1440px)
+      width: 265px;
+L18454 .big-header-visuals-title   @media only screen and (min-width: 1440px)
+      font-size: 3.25rem; bottom: 11%;
+L18471 .section-text-paragraph .faq-question p   @media only screen and (min-width: 1440px)
+      font-size: 1.46875rem !important;
+L18480 .container-paragraph-right   @media only screen and (min-width: 1440px)
+      padding-right: 10.5%; padding-left: 0%;
+L18493 .frontpage-section-subtitle   @media only screen and (min-width: 1440px)
+      font-size: 2.59375rem;
+L18497 .frontpage-section-title   @media only screen and (min-width: 1440px)
+      font-size: 2.59375rem; margin-bottom: 2rem;
+L18523 .table-text   @media only screen and (min-width: 1440px)
+      font-size: 1.21875rem;
+L18535 .internal-menu-link   @media only screen and (min-width: 1440px)
+      font-size: 1.21875rem;
+L18539 .internal-menu-text   @media only screen and (min-width: 1440px)
+      font-size: 1.301rem;
+L18543 .internal-menu-title   @media only screen and (min-width: 1440px)
+      font-size: 2rem;
+L18547 .section-subtitle-paragraph   @media only screen and (min-width: 1440px)
+      /* font-size: 1.786rem; */ /* line-height: 2.6875rem; */ font-size: 1.56rem; line-height: 2.5rem; /* padding-bottom: 1.7rem; */ /* padding-top: 2.5rem; */;
+L18556 .section-subtitle-paragraph p   @media only screen and (min-width: 1440px)
+      /* font-size: 1.786rem !important; */ /* line-height: 2.6875rem !important; */ font-size: 1.56rem !important; line-height: 2.5rem !important; /* padding-bottom: 1.7rem !important; */ /* padding-top: 2.5rem !important; */;
+L18565 .section-subtitle-paragraph-aftertitle   @media only screen and (min-width: 1440px)
+      /* font-size: 1.786rem; */ /* line-height: 2.6875rem; */ font-size: 1.56rem; line-height: 2.5rem; /* padding-bottom: 1.7rem; */;
+L18573 .section-subtitle-paragraph-aftertitle p   @media only screen and (min-width: 1440px)
+      /* font-size: 1.786rem !important; */ /* line-height: 2.6875rem !important; */ font-size: 1.56rem !important; line-height: 2.5rem !important; /* padding-bottom: 1.7rem !important; */;
+L18581 .section-heading-paragraph   @media only screen and (min-width: 1440px)
+      /* font-size: 1.786rem; */ /* line-height: 2.6875rem; */ font-size: 1.21875rem; line-height: 2.0625rem; /* padding-bottom: 1.7rem; */ /* padding-top: 2.5rem; */;
+L18590 .section-heading-paragraph p   @media only screen and (min-width: 1440px)
+      /* font-size: 1.786rem !important; */ /* line-height: 2.6875rem !important; */ font-size: 1.21875rem !important; line-height: 2.0625rem !important; /* padding-bottom: 1.7rem !important; */ /* padding-top: 2.5rem !important; */;
+L18599 .section-heading-paragraph-aftertitle   @media only screen and (min-width: 1440px)
+      /* font-size: 1.786rem; */ /* line-height: 2.6875rem; */ font-size: 1.21875rem; line-height: 2.0625rem; /* padding-bottom: 1.7rem; */;
+L18607 .section-heading-paragraph-aftertitle p   @media only screen and (min-width: 1440px)
+      /* font-size: 1.786rem !important; */ /* line-height: 2.6875rem !important; */ font-size: 1.21875rem !important; line-height: 2.0625rem !important; /* padding-bottom: 1.7rem !important; */;
+L18615 .page-section h2   @media only screen and (min-width: 1440px)
+      /* font-size: 1.786rem; */ /* line-height: 2.6875rem; */ font-size: 1.21875rem; line-height: 2.0625rem; /* padding-bottom: 1.7rem; */ /* padding-top: 2.5rem; */;
+L18624 .section-title-paragraph   @media only screen and (min-width: 1440px)
+      font-size: 2rem; font-weight: 600; /* padding-bottom: 3.4rem; */ padding-bottom: 2.5rem; /* padding-top: 2.9rem; */ padding-top: 1rem;
+L18633 .section-title-paragraph p   @media only screen and (min-width: 1440px)
+      font-size: 2rem !important; font-weight: 600 !important; /* padding-bottom: 3.4rem !important; */ padding-bottom: 2.5rem !important; /* padding-top: 2.9rem !important; */ padding-top: 1rem !important;
+L18642 .page-section h1   @media only screen and (min-width: 1440px)
+      font-size: 2rem; font-weight: 600; /* padding-bottom: 3.4rem; */ padding-bottom: 2.5rem; /* padding-top: 2.9rem; */ padding-top: 1rem;
+L18655 .section-text-paragraph   @media only screen and (min-width: 1440px)
+      font-size: 1.21875rem; line-height: 2.0625rem; padding-top: 0.48rem; padding-bottom: 0.48rem;
+L18662 .section-text-paragraph p   @media only screen and (min-width: 1440px)
+      font-size: 1.21875rem !important; line-height: 2.0625rem !important; padding-top: 0.48rem !important; padding-bottom: 0.48rem !important;
+L18669 .page-section p   @media only screen and (min-width: 1440px)
+      font-size: 1.21875rem; line-height: 2.0625rem; padding-top: 0.48rem; padding-bottom: 0.48rem;
+L18676 .caption-text   @media only screen and (min-width: 1440px)
+      font-size: 1.028rem !important;
+L18680 .caption-text p   @media only screen and (min-width: 1440px)
+      font-size: 1.028rem !important;
+L18684 .header-title   @media only screen and (min-width: 1440px)
+      font-size: 2.25rem;
+L18688 .header-subtitle   @media only screen and (min-width: 1440px)
+      font-size: 1.9375rem; line-height: 2.75rem;
+L18693 .header-description   @media only screen and (min-width: 1440px)
+      font-size: 1.1875rem; line-height: 2rem;
+L18698 .header-quick-links   @media only screen and (min-width: 1440px)
+      font-size: 1.1875rem;
+L18702 .big-header-eso-logo   @media only screen and (min-width: 1440px)
+      width: 78px;
+L18706 .big-header-social-logos   @media only screen and (min-width: 1440px)
+      width: 280px;
+L18710 .big-header-logos   @media only screen and (min-width: 1440px)
+      top: 10%; left: 10.5%; width: 435px;
+L18716 .big-header-title-facts   @media only screen and (min-width: 1440px)
+      font-size: 3.22rem;
+L18720 .big-header-title   @media only screen and (min-width: 1440px)
+      font-size: 3.34375rem; text-shadow: 2px 0px black; bottom: 14%; left: 10.5%; right: 10.5%;
+L18728 .big-header-title-mirrors   @media only screen and (min-width: 1440px)
+      font-size: 3.25rem;
+L18732 .big-header-title-success   @media only screen and (min-width: 1440px)
+      font-size: 3.0518rem;
+L18740 .frontpage-header-title   @media only screen and (min-width: 1440px)
+      font-size: 3rem; font-weight: 600; text-shadow: 10px 10px 20px black; bottom: 15%; left: 10.5%; right: 10.5%;
+L18749 .frontpage-header-subtitle   @media only screen and (min-width: 1440px)
+      font-size: 3rem; font-weight: 500; text-shadow: 10px 10px 20px black;

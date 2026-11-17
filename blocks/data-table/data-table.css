@@ -1,0 +1,250 @@
+/*
+ * Data Table — telescope-dome.css §10 (Bootstrap .table.table-striped, source L2772–L2815,
+ * L15707): full-width table in the section text column (padding 0 10.5%), cells 0.75rem padded,
+ * top rule #dee2e6, odd rows rgb(0 0 0 / 5%), label column 55.05%. The source sets the table
+ * in a `.section-text-paragraph` between two `<p>&nbsp;</p>` spacers, so the cell type is the
+ * section text ramp; the spacers are the block's top and bottom space (one text line plus its
+ * paragraph padding; below, also the 1rem paragraph margin).
+ * Source tiers: <= 576 / >= 576, 768, 992, 1200, 1440, 1680, 1920.
+ */
+
+/* variants restyle the base cells after it */
+/* stylelint-disable no-descending-specificity */
+.data-table {
+  --dt-text-size: 1rem;
+  --dt-text-lh: 1.6875rem;
+  --dt-text-pad: 0.2rem;
+
+  padding: calc(var(--dt-text-lh) + var(--dt-text-pad) + 1rem) var(--content-inset)
+    calc(var(--dt-text-lh) + 3 * var(--dt-text-pad) + 1rem);
+  font-size: var(--dt-text-size);
+  line-height: var(--dt-text-lh);
+}
+
+.data-table .data-table-scroll {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.data-table .data-table-table {
+  width: 100%;
+  height: 180px;
+  margin-bottom: 0;
+  color: #212529;
+  border-collapse: collapse;
+}
+
+.data-table td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+
+.data-table td:first-child {
+  width: 55.0505%;
+}
+
+.data-table td:last-child {
+  width: 44.9495%;
+}
+
+.data-table td p {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+.data-table tr:nth-of-type(odd) {
+  background-color: rgb(0 0 0 / 5%);
+}
+
+.data-table sup {
+  position: relative;
+  top: -0.5em;
+  font-size: 75%;
+  line-height: 0;
+  vertical-align: baseline;
+}
+
+@media only screen and (width >= 576px) {
+  .data-table {
+    --dt-text-size: 16.5px;
+    --dt-text-lh: 1.75rem;
+    --dt-text-pad: 0.25rem;
+  }
+}
+
+@media only screen and (width >= 768px) {
+  .data-table {
+    --dt-text-size: 1.0625rem;
+    --dt-text-lh: 1.8125rem;
+    --dt-text-pad: 0.3rem;
+  }
+}
+
+@media only screen and (width >= 992px) {
+  .data-table {
+    --dt-text-size: 1.125rem;
+    --dt-text-lh: 30.5px;
+    --dt-text-pad: 0.35rem;
+  }
+}
+
+@media only screen and (width >= 1200px) {
+  .data-table {
+    --dt-text-size: 18.5px;
+    --dt-text-lh: 2rem;
+    --dt-text-pad: 0.4rem;
+  }
+}
+
+@media only screen and (width >= 1440px) {
+  .data-table {
+    --dt-text-size: 19.5px;
+    --dt-text-lh: 2.0625rem;
+    --dt-text-pad: 0.48rem;
+  }
+}
+
+@media only screen and (width >= 1680px) {
+  .data-table {
+    --dt-text-size: 1.25rem;
+    --dt-text-lh: 34.5px;
+    --dt-text-pad: 0.54rem;
+  }
+}
+
+@media only screen and (width >= 1920px) {
+  .data-table {
+    --dt-text-size: 1.3125rem;
+    --dt-text-lh: 2.25rem;
+    --dt-text-pad: 0.6rem;
+  }
+}
+
+/* ── variant `spec` (mirror-m2m3: the source's nested comparison rows, .row.no-gutters with an
+   svg arrow tab 30:4, two white value boxes; rows mt-2 mb-2, shell padding 2rem 0 1rem) ── */
+.data-table.spec {
+  padding: 2rem 0 1rem;
+}
+
+.data-table.spec .data-table-table,
+.data-table.spec tbody {
+  display: block;
+  height: auto;
+}
+
+.data-table.spec tr {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0.5rem 0;
+  background: none;
+}
+
+.data-table.spec td {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  padding: 0;
+  border: 0;
+  background: #fff;
+  text-align: center;
+}
+
+.data-table.spec td:first-child {
+  grid-column: 1 / -1;
+  justify-content: flex-start;
+  aspect-ratio: 30 / 4;
+  padding-left: 10%;
+  color: #fff;
+  background: var(--spec-color, rgb(224 98 76));
+  clip-path: polygon(0 0, 66.667% 0, 100% 50%, 66.667% 100%, 0 100%);
+  text-align: left;
+}
+
+.data-table.spec td:last-child {
+  margin-left: 1rem;
+}
+
+.data-table.spec tr:nth-child(2) { --spec-color: rgb(232 112 47); }
+.data-table.spec tr:nth-child(3) { --spec-color: rgb(241 162 58); }
+.data-table.spec tr:nth-child(4) { --spec-color: rgb(92 183 124); }
+.data-table.spec tr:nth-child(5) { --spec-color: rgb(77 151 229); }
+.data-table.spec tr:nth-child(6) { --spec-color: rgb(92 183 232); }
+.data-table.spec tr:nth-child(7) { --spec-color: rgb(104 204 225); }
+
+/* below md the value boxes stack under the tab: each is the source's white .bg-white box around
+   a centred paragraph with its own box (padding 0.2rem 0, 1rem margin below → 49.4 px a line);
+   the second box's measure 5 px short — the source face sets the aspheric coefficients
+   "α4= – 8.272163 × 10-15" (167.6 px) on two lines in the 164 px box, the fallback (R-01,
+   160.4 px) on one */
+@media (width < 768px) {
+  .data-table.spec td:not(:first-child) {
+    padding: 0.2rem 0 1.2rem;
+  }
+
+  .data-table.spec td:last-child {
+    padding-right: 5px;
+  }
+}
+
+@media (width >= 768px) {
+  .data-table.spec tr {
+    grid-template-columns: 2fr 1fr 1fr;
+  }
+
+  .data-table.spec td:first-child {
+    grid-column: auto;
+  }
+}
+
+/* ── variant `bordered` (Bootstrap .table.table-bordered, source L2772–L2830): every cell ruled,
+   no stripes, cells centred after the label column; the table sits in the text column with the
+   paragraph padding and its 1rem margin below. `ao-modes` (adaptive optics modes): the source's
+   inline header colours, first header cell unruled. ── */
+.data-table.bordered {
+  padding: var(--dt-text-pad) var(--content-inset) calc(var(--dt-text-pad) + 1rem);
+}
+
+.data-table.bordered .data-table-table {
+  height: auto;
+}
+
+.data-table.bordered td {
+  width: auto;
+  border: 1px solid #dee2e6;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.data-table.bordered td:first-child {
+  width: auto;
+  text-align: left;
+}
+
+.data-table.bordered tr:nth-of-type(odd) {
+  background-color: transparent;
+}
+
+.data-table.bordered img {
+  max-width: 100%;
+  height: auto;
+}
+
+.data-table.ao-modes tr:first-child td:first-child {
+  border: 0;
+}
+
+.data-table.ao-modes tr:first-child td:nth-child(2) { background-color: rgb(240 90 66); }
+.data-table.ao-modes tr:first-child td:nth-child(3) { background-color: rgb(188 109 201); }
+.data-table.ao-modes tr:first-child td:nth-child(4) { background-color: rgb(43 187 118); }
+.data-table.ao-modes tr:first-child td:nth-child(5) { background-color: rgb(253 159 1); }
+
+/* `ao-modes`: the corrected-FoV / Strehl / sky-coverage values are the source's <p> in the cell
+   (text padding, 1rem margin below) — the delivery unwraps them; the box is kept on the cell */
+.data-table.ao-modes tr:nth-child(n + 3):nth-child(-n + 5) td:not(:first-child) {
+  padding-top: calc(12px + var(--dt-text-pad));
+  padding-bottom: calc(12px + var(--dt-text-pad) + 1rem);
+}

@@ -1,0 +1,26 @@
+[live-session] waiting to pace live navigations to elt.eso.org (2000 ms apart, 1 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+[live-session] waiting to pace live navigations to main--26c59ee1--aemcoder.aem.page (7500 ms apart, 1 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 5545 ms
+content-presence @ 360px (chrome) — origin https://elt.eso.org/ (docH 1350, 119 items, HTTP 200) vs served https://main--26c59ee1--aemcoder.aem.page/ (docH 1351, 52 items, HTTP 200)
+scope: whole page (one side has no <main> / --main root) (header/footer left to the chrome crop gate; --chrome to include)
+| band | heading | links O/E (+hidden) | buttons O/E (+hidden) | text O/E | images O/E | findings |
+|---|---|---|---|---|---|---|
+| 0 | (top) | 13/8 | 11/10 | 3/2 | 12/8 | MISSING HEADING, MISSING LINK, EXTRA LINK, MISSING BUTTON, COUNT IMAGES, CONTROL MISSING |
+  🔴 MISSING HEADING: h1 "eso cookies policy" (origin y 1006) has no served heading
+  🔴 MISSING HEADING: h1 "our use of cookies" (origin y 1192) has no served heading
+  🔴 MISSING LINK: "eso on facebook" → /ESOAstronomy in band "(top)" (origin y 11) not on the served page
+  🔴 MISSING LINK: "eso on instagram" → /esoastronomy/ in band "(top)" (origin y 11) not on the served page
+  🔴 MISSING LINK: "eso on linkedin" → /company/european-southern-observatory in band "(top)" (origin y 11) not on the served page
+  🔴 MISSING LINK: "eso on youtube" → /channel/UCIhYoC2VIAJqCkoIWNHBQ3Q in band "(top)" (origin y 11) not on the served page
+  🔴 MISSING LINK: "en" → / in band "(top)" (origin y 17) not on the served page
+  🔴 MISSING LINK: "es" → / in band "(top)" (origin y 17) not on the served page
+  🔴 MISSING LINK: "cosmology and dark matter" → /science/ in band "(top)" (origin y 501) not on the served page
+  🟠 MISSING BUTTON: "toggle navigation" in band "(top)" (origin y 5) not on the served page
+  🟡 EXTRA HEADING: served h1 "the extremely large telescope" (y 138) has no origin heading
+  🟡 EXTRA LINK: "stars" served in band "(top)", no origin link or button
+  🟡 EXTRA LINK: "black holes" served in band "(top)", no origin link or button
+  🟡 COUNT IMAGES: band "(top)": 12 origin → 8 served visible
+  🟡 CONTROL MISSING: toggle navigation = "toggle navigation" (band "(top)") has no served counterpart
+Content: MISSING 9 (headings 2, links 7) / HIDDEN 0 (headings 0, links 0) / control-state 0 / buttons missing 1 hidden 0 / moved 0 extra 2 / count deltas 1
+Findings: 15 (9 structural 🔴)
+Clipped (served side): 0 — origin side 0
+json → stardust/replica/gates/index-360/content-presence-pub2.json

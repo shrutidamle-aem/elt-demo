@@ -1,0 +1,364 @@
+/*
+ * Timeline — about-timeline.css (gated prototype); values from the source's
+ * elt_assets_timeline.670864a68239.css (L419–L745). Source tiers (576/768/992/1200/1440/1680/1920).
+ * Section ground: section-metadata `dark-tight` (.container-dark + .container-tight).
+ * Prototype → block names: .timeline-container → .timeline-stage, .timeline → .timeline-column,
+ * banner <img> → .timeline-banner (moved picture), card inner div → .timeline-content-body.
+ */
+
+/* frame — L419, L438, L444, L460 */
+.timeline .timeline-stage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.timeline .timeline-img {
+  position: static;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 0;
+}
+
+.timeline .timeline-img-frame {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.timeline .timeline-banner {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity 500ms ease-in-out;
+}
+
+.timeline .timeline-banner.is-shown {
+  opacity: 1;
+}
+
+.timeline .timeline-banner :is(picture, img) {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.timeline .timeline-column {
+  position: relative;
+  width: 85%;
+  z-index: 1;
+}
+
+/* cards — L428, L464–L476 */
+.timeline .timeline-content {
+  position: relative;
+  margin: 20px;
+  padding: 20px;
+  background: rgb(100 100 100 / 40%);
+  border-radius: 5px;
+  box-shadow: 6px 6px 15px rgb(50 50 50);
+  transition: all 0.5s ease;
+}
+
+.timeline .timeline-content.is-current {
+  background: rgb(90 140 200 / 90%);
+}
+
+.timeline .timeline-content-body {
+  display: block;
+  color: #fff;
+}
+
+.timeline .timeline-content-year p,
+.timeline .timeline-content-title :is(h1, h2, h3, h4, h5, h6, p) {
+  margin: 0;
+}
+
+.timeline .timeline-content-year :is(em, a) {
+  font-style: italic;
+  color: rgb(225 150 0);
+}
+
+.timeline .timeline-content-title {
+  font-weight: 600;
+}
+
+.timeline .timeline-content-title :is(h1, h2, h3, h4, h5, h6, p) {
+  padding: var(--timeline-title-pad) 0;
+  font: inherit;
+  color: inherit;
+}
+
+.timeline .timeline-content-title strong {
+  font-weight: inherit;
+}
+
+/* the source's card link is an inline <a> around the year span and the blocks */
+.timeline a.timeline-content-body {
+  display: inline;
+}
+
+.timeline a.timeline-content-body .timeline-content-year,
+.timeline a.timeline-content-body .timeline-content-year p {
+  display: inline;
+}
+
+@media (width >= 768px) {
+  /* L478–L517: centre line, alternating cards, dots */
+  .timeline .timeline-column::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 3px;
+    height: 100%;
+    background: rgb(90 140 200);
+    transform: translateX(-50%);
+  }
+
+  .timeline .timeline-content {
+    width: 50%;
+  }
+
+  .timeline .timeline-content:nth-child(odd) {
+    float: left;
+    clear: both;
+    transform: translateX(-55px);
+  }
+
+  .timeline .timeline-content:nth-child(even) {
+    float: right;
+    clear: both;
+    transform: translateX(55px);
+  }
+
+  .timeline .timeline-content::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -43px;
+    width: 16px;
+    height: 16px;
+    background: rgb(90 140 200);
+    border-radius: 50%;
+  }
+
+  .timeline .timeline-content:nth-child(even)::before {
+    right: auto;
+    left: -43px;
+  }
+}
+
+/* type ramp — L525–L661 */
+@media (width <= 576px) {
+  .timeline .timeline-content-title {
+    font-size: 34px;
+    line-height: 42px;
+
+    --timeline-title-pad: 1rem;
+  }
+
+  .timeline .timeline-content-text {
+    font-size: 22px;
+  }
+
+  .timeline .timeline-content-year :is(em, a) {
+    font-size: 28px;
+  }
+}
+
+@media (width >= 576px) {
+  .timeline .timeline-content-title {
+    font-size: 38px;
+    line-height: 46px;
+
+    --timeline-title-pad: 1.1rem;
+  }
+
+  .timeline .timeline-content-text {
+    font-size: 23px;
+  }
+
+  .timeline .timeline-content-year :is(em, a) {
+    font-size: 30px;
+  }
+}
+
+@media (width >= 768px) {
+  .timeline .timeline-content-title {
+    font-size: 41px;
+    line-height: 49px;
+
+    --timeline-title-pad: 1.25rem;
+  }
+
+  .timeline .timeline-content-text {
+    font-size: 24px;
+  }
+
+  .timeline .timeline-content-year :is(em, a) {
+    font-size: 32px;
+  }
+}
+
+@media (width >= 992px) {
+  .timeline .timeline-content-title {
+    font-size: 45px;
+    line-height: 53px;
+
+    --timeline-title-pad: 1.4rem;
+  }
+
+  .timeline .timeline-content-text {
+    font-size: 25px;
+  }
+
+  .timeline .timeline-content-year :is(em, a) {
+    font-size: 34px;
+  }
+}
+
+@media (width >= 1200px) {
+  .timeline .timeline-content-title {
+    font-size: 49px;
+    line-height: 57px;
+
+    --timeline-title-pad: 1.5rem;
+  }
+
+  .timeline .timeline-content-text {
+    font-size: 26px;
+  }
+
+  .timeline .timeline-content-year :is(em, a) {
+    font-size: 37px;
+  }
+}
+
+@media (width >= 1440px) {
+  .timeline .timeline-content-title {
+    font-size: 53px;
+    line-height: 61px;
+
+    --timeline-title-pad: 1.7rem;
+  }
+
+  .timeline .timeline-content-text {
+    font-size: 28px;
+  }
+
+  .timeline .timeline-content-year :is(em, a) {
+    font-size: 39px;
+  }
+}
+
+@media (width >= 1680px) {
+  .timeline .timeline-content-title {
+    font-size: 58px;
+    line-height: 66px;
+
+    --timeline-title-pad: 1.85rem;
+  }
+
+  .timeline .timeline-content-text {
+    font-size: 29px;
+  }
+
+  .timeline .timeline-content-year :is(em, a) {
+    font-size: 42px;
+  }
+}
+
+@media (width >= 1920px) {
+  .timeline .timeline-content-title {
+    font-size: 62px;
+    line-height: 70px;
+
+    --timeline-title-pad: 2rem;
+  }
+
+  .timeline .timeline-content-text {
+    font-size: 30px;
+  }
+
+  .timeline .timeline-content-year :is(em, a) {
+    font-size: 44px;
+  }
+}
+
+/* quick-access rail — L667–L745 (the source's invalid blend mode is not lifted) */
+.timeline .timeline-quick-access {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  z-index: 1200;
+  width: 30px;
+  height: 60vh;
+  margin-top: -30vh;
+  margin-left: -100px;
+  padding: 1vh 0 1vh 30px;
+  overflow: hidden scroll;
+  font-size: 1rem;
+  background-color: rgb(90 140 200 / 90%);
+  background-image: url("left-arrowhead.svg");
+  background-position: left center;
+  background-size: 20px;
+  background-repeat: no-repeat;
+  border: 2px solid rgb(90 140 200);
+  border-right: 0;
+  border-radius: max(1vh, 1vw) 0 0 max(1vh, 1vw);
+  scrollbar-width: none;
+  transition: all 0.5s ease;
+}
+
+.timeline .timeline-quick-access::-webkit-scrollbar {
+  display: none;
+}
+
+.timeline .timeline-quick-access:hover {
+  width: 200px;
+  background-color: rgb(0 0 0 / 50%);
+  transition: all 0.5s ease;
+}
+
+.timeline .timeline-quick-access-container {
+  padding: 4rem 0;
+}
+
+.timeline .timeline-quick-access-link {
+  color: #fff;
+}
+
+.timeline .timeline-quick-access-element-container {
+  position: relative;
+  padding: 0.2vh 0;
+}
+
+.timeline .timeline-quick-access-element-container:hover {
+  background: linear-gradient(to right, rgb(90 140 200 / 100%), rgb(90 140 200 / 20%));
+}
+
+.timeline .timeline-quick-access-element-container.active {
+  font-weight: 700;
+  color: rgb(225 150 0);
+}
+
+.timeline .timeline-quick-access-element-title {
+  display: block;
+  height: 0;
+  opacity: 0;
+  transform: scale(1, 0);
+}
+
+.timeline .timeline-quick-access-element-container:hover > .timeline-quick-access-element-title {
+  display: block;
+  height: 100%;
+  opacity: 1;
+  transform: scale(1, 1);
+  transition: all 0.5s ease;
+}

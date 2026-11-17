@@ -1,0 +1,15 @@
+cap-probe  base 1440 → probe 2560 (from DESIGN.json)
+live   https://elt.eso.org/
+  modules  11 sections: capped 1400 ×2, 960 ×1, 807 ×1, 550 ×1 · full-bleed ×6
+  contentMaxWidth fluid · shellMaxWidth fluid · root body
+build  http://localhost:8791/index-proposed.html
+  other    18 capped box(es) outside the section tier (in the JSON) — e.g. 550px #big-header > div.big-header-logos
+  modules  3 sections: none capped · full-bleed ×3
+  contentMaxWidth fluid · shellMaxWidth fluid · root body.page-index
+rows
+  ✓ content cap: fluid on both sides — no wrapper, no shared module cap
+  ⚠ sections: live 11 vs build 3 top-level sections — module rows compared by order up to the shorter side, advisory until the structure matches
+  ✓ module 1/11: full-bleed on both
+  ✓ module 2/11: full-bleed on both
+  ⚠ module 3/11: live 550px (#big-header > div.position-absolute.d-lg-block_) → build full-bleed (body.page-index > footer.site-footer)
+cap-probe: PASS at 2560 — 0 of 5 rows failed (evidence stardust/replica/gates/index-2560/cap-iter.json)

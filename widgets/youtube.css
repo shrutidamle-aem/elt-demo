@@ -1,0 +1,19 @@
+/* YouTube widget — .container-paragraph (0 10.5%) + .pb-5 (3rem) + .embed-responsive-16by9 */
+.youtube {
+  padding: 0 var(--content-inset) 3rem;
+}
+
+.youtube .youtube-frame {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+}
+
+.youtube .youtube-frame iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}

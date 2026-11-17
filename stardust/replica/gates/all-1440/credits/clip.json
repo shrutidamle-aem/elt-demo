@@ -1,0 +1,36 @@
+{
+ "url": "https://main--26c59ee1--aemcoder.aem.page/credits",
+ "at": "2026-11-14T03:32:01.989Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 0,
+  "offPage": 0,
+  "textNodes": 50,
+  "controls": 24,
+  "total": 0
+ },
+ "groups": [],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 121,
+   "horizontal": 0,
+   "offPage": 0,
+   "textNodes": 198,
+   "controls": 37,
+   "total": 0
+  }
+ }
+}

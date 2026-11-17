@@ -1,0 +1,29 @@
+{
+  "/chile/nav": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-14T04:07:40.359Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/nav": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-14T04:07:40.359Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/search": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-14T04:07:47.943Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

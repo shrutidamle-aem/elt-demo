@@ -1,0 +1,466 @@
+{
+  "url": "http://localhost:8791/telescope-dome-proposed.html",
+  "width": 1440,
+  "headerTimeline": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "widgetSamples": [],
+  "hoverSamples": [
+    {
+      "sel": ".share-social-media-icons",
+      "changed": [
+        "self.transform",
+        "self.color",
+        "img..color"
+      ],
+      "before": {
+        "self": {
+          "transform": "matrix(0.95, 0, 0, 0.95, 0, 0)",
+          "color": "rgb(0, 119, 190)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.5s"
+        },
+        "subs": [
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgb(0, 119, 190)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "matrix(1.03852, 0, 0, 1.03852, 0, 0)",
+          "color": "rgb(0, 90, 180)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.5s"
+        },
+        "subs": [
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgb(0, 90, 180)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    },
+    {
+      "sel": "span.share-social-media",
+      "changed": [
+        "self.transform"
+      ],
+      "before": {
+        "self": {
+          "transform": "matrix(0.95, 0, 0, 0.95, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.5s"
+        },
+        "subs": [
+          {
+            "el": "img.share-social-media",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "matrix(1.03852, 0, 0, 1.03852, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.5s"
+        },
+        "subs": [
+          {
+            "el": "img.share-social-media",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    },
+    {
+      "sel": ".instrument-link",
+      "changed": [
+        "self.color"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(45, 164, 245)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(232, 133, 38)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": ".section-text-paragraph a",
+      "changed": [
+        "self.color"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 119, 190)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 86, 179)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": ".lightlink-media a",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    }
+  ],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [],
+    "transitions": [
+      {
+        "prop": "transform",
+        "el": "main.elt-program > section.container-light.nutshell.page-section > div.container-paragraph.section-title-paragraph.section-title-paragraph--share > div.share-bar > a.share-social-media-link.share-social-media-icons",
+        "y": 1091,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "color",
+        "el": "main.elt-program > section.container-light.nutshell.page-section > div.container-paragraph.section-title-paragraph.section-title-paragraph--share > div.share-bar > a.share-social-media-link.share-social-media-icons",
+        "y": 1091,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "main.elt-program > section.container-light.nutshell.page-section > div.container-paragraph.section-title-paragraph.section-title-paragraph--share > div.share-bar > a.share-social-media-link.share-social-media-icons",
+        "y": 1091,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "color",
+        "el": "main.elt-program > section.container-light.nutshell.page-section > div.container-paragraph.section-title-paragraph.section-title-paragraph--share > div.share-bar > a.share-social-media-link.share-social-media-icons",
+        "y": 1091,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "section.container-light.nutshell.page-section > div.container-paragraph.section-title-paragraph.section-title-paragraph--share > div.share-bar > span.share-menu > div.share-social-media-dropdown",
+        "y": 1091,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "section.container-light.nutshell.page-section > div.container-paragraph.section-title-paragraph.section-title-paragraph--share > div.share-bar > span.share-menu > span.share-social-media.share-social-media-icons",
+        "y": 1091,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "section.container-light.nutshell.page-section > div.container-paragraph.section-title-paragraph.section-title-paragraph--share > div.share-bar > span.share-menu > div.share-social-media-dropdown",
+        "y": 985,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "section.container-light.nutshell.page-section > div.container-paragraph.section-title-paragraph.section-title-paragraph--share > div.share-bar > span.share-menu > span.share-social-media.share-social-media-icons",
+        "y": 985,
+        "dur": "0.5s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-program > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-program > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-program > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-program > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-program > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-program > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-program > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-program > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "top-aligned"
+        ],
+        "el": "ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top > div.dropdown-menu > div.dropdown-submenu > div.dropdown-menu.top-aligned",
+        "y": 400
+      },
+      {
+        "added": [
+          "top-aligned"
+        ],
+        "el": "ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top > div.dropdown-menu > div.dropdown-submenu > div.dropdown-menu.top-aligned",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "main.elt-program > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "main.elt-program > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "main.elt-program > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "main.elt-program > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "bottom-aligned"
+        ],
+        "el": "ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top > div.dropdown-menu > div.dropdown-submenu > div.dropdown-menu.bottom-aligned",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-program > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 1091
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-program > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 1091
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-program > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 1091
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-program > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 1091
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-program > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 1091
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-program > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 1091
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-program > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 1091
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-program > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 1091
+      },
+      {
+        "added": [
+          "top-aligned"
+        ],
+        "el": "ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top > div.dropdown-menu > div.dropdown-submenu > div.dropdown-menu.top-aligned",
+        "y": 1091
+      },
+      {
+        "added": [
+          "top-aligned"
+        ],
+        "el": "ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top > div.dropdown-menu > div.dropdown-submenu > div.dropdown-menu.top-aligned",
+        "y": 1091
+      }
+    ]
+  }
+}

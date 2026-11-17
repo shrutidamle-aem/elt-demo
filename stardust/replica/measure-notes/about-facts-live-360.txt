@@ -1,0 +1,51 @@
+measure: overlay dismissed via extra selector .privacy-notice .privacy-button.accept-all
+measure  https://elt.eso.org/about/facts/
+  widths 360 · 11 selector(s) · 6 props · all matches (≤ 12)
+
+@ 360px
+  root  scrollWidth   360  viewport 360  scrollHeight   3681
+  .container-darkblue [1 of 5]
+       x     0  y    219  w   360  h   897  vis  "Name Extremely Large Telescope (ELT) Ma…"
+      width: 360px; height: 897px; padding: 32px 0px 0px; fontSize: 16px; lineHeight: 24px; transform: none
+  .container-darkblue [2 of 5]
+       x     0  y   1116  w   360  h   454  vis  "How much light will the ELT gather? `"
+      width: 360px; height: 454.375px; padding: 32px 0px 0px; fontSize: 16px; lineHeight: 24px; transform: none
+  .container-darkblue [3 of 5]
+       x     0  y   1570  w   360  h   526  vis  "Type Optical/near-infrared extremely la…"
+      width: 360px; height: 526px; padding: 32px 0px 0px; fontSize: 16px; lineHeight: 24px; transform: none
+  .container-darkblue [4 of 5]
+       x     0  y   2096  w   360  h   320  vis  ""
+      width: 360px; height: 320px; padding: 32px 0px 0px; fontSize: 16px; lineHeight: 24px; transform: none
+  .container-darkblue [5 of 5]
+       x     0  y   2416  w   360  h  1144  vis  "Site Cerro Armazones, Atacama Desert, C…"
+      width: 360px; height: 1144px; padding: 32px 0px 0px; fontSize: 16px; lineHeight: 24px; transform: none
+  .facts-title
+       x     0  y   1148  w   360  h   110  vis  "How much light will the ELT gather?"
+      width: 360px; height: 110.375px; padding: 7.2px 37.7969px; fontSize: 32px; lineHeight: 48px; transform: none
+  .swiper-container-carousel
+       x     0  y   1282  w   360  h   288  vis  ""
+      width: 360px; height: 288px; padding: 0px; fontSize: 16px; lineHeight: 24px; transform: none
+  .swiper-container-carousel .swiper-slide-active
+       x     0  y   1282  w   360  h   288  vis  ""
+      width: 360px; height: 288px; padding: 0px; fontSize: 16px; lineHeight: 24px; transform: none
+  .swiper-container-carousel2 .swiper-slide-active
+       x     0  y   2128  w   360  h   288  vis  ""
+      width: 360px; height: 288px; padding: 0px; fontSize: 16px; lineHeight: 24px; transform: none
+  .swiper-button-next-carousel
+       x   323  y   1404  w    27  h    44  vis  ""
+      width: 27px; height: 44px; padding: 0px; fontSize: 16px; lineHeight: 24px; transform: none
+  .swiper-button-prev-carousel
+       x    10  y   1404  w    27  h    44  vis  ""
+      width: 27px; height: 44px; padding: 0px; fontSize: 16px; lineHeight: 24px; transform: none
+  .big-header-title-facts
+       x    38  y    123  w   284  h    72  vis  "About | Facts about the ELT"
+      width: 284.406px; height: 72px; padding: 0px; fontSize: 24px; lineHeight: 36px; transform: none
+  #big-header
+       x     0  y     50  w   360  h   169  vis  "European Southern Observatory About | F…"
+      width: 360px; height: 168.75px; padding: 0px; fontSize: 16px; lineHeight: 24px; transform: none
+  .big-header-image
+       x     0  y     50  w   360  h   169  vis  ""  img 1920×900 …/header-about-facts.jpg
+      width: 360px; height: 168.75px; padding: 0px; fontSize: 16px; lineHeight: 24px; transform: matrix(1, 0, 0, 1, 0, 0)
+  .container-footer
+       x     0  y   3560  w   360  h   121  vis  "ESO | ELT © 2026 Credits | Contact us |…"
+      width: 360px; height: 120.938px; padding: 16px 0px; fontSize: 16px; lineHeight: 24px; transform: none

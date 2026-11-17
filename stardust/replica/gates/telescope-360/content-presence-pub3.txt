@@ -1,0 +1,32 @@
+[live-session] waiting to pace live navigations to elt.eso.org (15000 ms apart, 1 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+content-presence @ 360px (chrome) — origin https://elt.eso.org/telescope/ (docH 4159, 138 items, HTTP 200) vs served https://main--26c59ee1--aemcoder.aem.page/telescope (docH 4160, 67 items, HTTP 200)
+scope: whole page (one side has no <main> / --main root) (header/footer left to the chrome crop gate; --chrome to include)
+| band | heading | links O/E (+hidden) | buttons O/E (+hidden) | text O/E | images O/E | findings |
+|---|---|---|---|---|---|---|
+| 0 | (top) | 28/21 | 4/0 | 43/4 | 19/14 | MISSING HEADING, MISSING LINK, MISSING BUTTON, COUNT TEXT, COUNT IMAGES, CONTROL MISSING |
+  🔴 MISSING HEADING: h1 "eso cookies policy" (origin y 1006) has no served heading
+  🔴 MISSING HEADING: h1 "our use of cookies" (origin y 1192) has no served heading
+  🔴 MISSING HEADING: h2 "what are cookies?" (origin y 1526) has no served heading
+  🔴 MISSING HEADING: h2 "categories of cookies we use" (origin y 1732) has no served heading
+  🔴 MISSING LINK: "eso on facebook" → /ESOAstronomy in band "(top)" (origin y 11) not on the served page
+  🔴 MISSING LINK: "eso on instagram" → /esoastronomy/ in band "(top)" (origin y 11) not on the served page
+  🔴 MISSING LINK: "eso on linkedin" → /company/european-southern-observatory in band "(top)" (origin y 11) not on the served page
+  🔴 MISSING LINK: "eso on youtube" → /channel/UCIhYoC2VIAJqCkoIWNHBQ3Q in band "(top)" (origin y 11) not on the served page
+  🔴 MISSING LINK: "en" → /telescope/ in band "(top)" (origin y 17) not on the served page
+  🔴 MISSING LINK: "es" → /telescope/ in band "(top)" (origin y 17) not on the served page
+  🟠 MISSING BUTTON: "toggle navigation" in band "(top)" (origin y 5) not on the served page
+  🟠 MISSING BUTTON: "accept all" in band "(top)" (origin y 1584) not on the served page
+  🟠 MISSING BUTTON: "accept only essential cookies" in band "(top)" (origin y 1656) not on the served page
+  🟠 MISSING BUTTON: "cookie settings and policy" in band "(top)" (origin y 1728) not on the served page
+  🟡 EXTRA HEADING: served h1 "telescope overview" (y 150) has no origin heading
+  🟡 EXTRA HEADING: served h2 "dome and main structure" (y 251) has no origin heading
+  🟡 EXTRA HEADING: served h2 "mirrors and optical design" (y 1017) has no origin heading
+  🟡 EXTRA HEADING: served h2 "telescope systems" (y 2648) has no origin heading
+  🟡 EXTRA HEADING: served h2 "operations" (y 3791) has no origin heading
+  🟡 COUNT TEXT: band "(top)": 43 origin → 4 served visible
+  🟡 COUNT IMAGES: band "(top)": 19 origin → 14 served visible
+  🟡 CONTROL MISSING: toggle navigation = "toggle navigation" (band "(top)") has no served counterpart
+Content: MISSING 10 (headings 4, links 6) / HIDDEN 0 (headings 0, links 0) / control-state 0 / buttons missing 4 hidden 0 / moved 0 extra 0 / count deltas 2
+Findings: 22 (10 structural 🔴)
+Clipped (served side): 0 — origin side 0
+json → stardust/replica/gates/telescope-360/content-presence-pub3.json

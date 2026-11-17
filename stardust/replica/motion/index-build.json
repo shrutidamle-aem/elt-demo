@@ -1,0 +1,839 @@
+{
+  "url": "http://localhost:8791/index-proposed.html",
+  "width": 1440,
+  "headerTimeline": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "widgetSamples": [
+    {
+      "sel": ".swiper-button-next",
+      "frames": [
+        {
+          "t": 18477.39999999944,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 18682.099999999627,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 18885.799999999814,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 19090,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".swiper-pagination-bullet:nth-child(4)",
+      "frames": [
+        {
+          "t": 20101.799999999814,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 20306,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 20509.199999999255,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 20714.599999999627,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [
+    {
+      "sel": "#main-navbar li.nav-item:nth-of-type(2)",
+      "changed": [
+        "self.background",
+        "a.nav-link.transform",
+        "a.nav-link.color",
+        "a.nav-link.transition"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "a.nav-link",
+            "transform": "none",
+            "color": "rgba(255, 255, 255, 0.7)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.dropdown-item",
+            "transform": "none",
+            "color": "rgba(255, 255, 255, 0.7)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.dropdown-item",
+            "transform": "none",
+            "color": "rgba(255, 255, 255, 0.7)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.dropdown-item",
+            "transform": "none",
+            "color": "rgba(255, 255, 255, 0.7)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.dropdown-item",
+            "transform": "none",
+            "color": "rgba(255, 255, 255, 0.7)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(35, 41, 50)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "a.nav-link",
+            "transform": "matrix(1.07, 0, 0, 1.07, 0, -4.8)",
+            "color": "rgba(255, 255, 255, 0.9)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "0.25s"
+          },
+          {
+            "el": "a.dropdown-item",
+            "transform": "none",
+            "color": "rgba(255, 255, 255, 0.7)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.dropdown-item",
+            "transform": "none",
+            "color": "rgba(255, 255, 255, 0.7)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.dropdown-item",
+            "transform": "none",
+            "color": "rgba(255, 255, 255, 0.7)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.dropdown-item",
+            "transform": "none",
+            "color": "rgba(255, 255, 255, 0.7)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    },
+    {
+      "sel": "#nav-search",
+      "changed": [
+        "self.background",
+        "a.nav-link.transform",
+        "a.nav-link.color",
+        "a.nav-link.transition",
+        "i.material-icons.color"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "a.nav-link",
+            "transform": "none",
+            "color": "rgba(255, 255, 255, 0.7)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "i.material-icons",
+            "transform": "none",
+            "color": "rgba(255, 255, 255, 0.7)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(35, 41, 50)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "a.nav-link",
+            "transform": "matrix(1.07, 0, 0, 1.07, 0, -5.64)",
+            "color": "rgba(255, 255, 255, 0.9)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "0.25s"
+          },
+          {
+            "el": "i.material-icons",
+            "transform": "none",
+            "color": "rgba(255, 255, 255, 0.9)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    },
+    {
+      "sel": "li.desktop-top-sm-icons a",
+      "changed": [
+        "self.transform"
+      ],
+      "before": {
+        "self": {
+          "transform": "matrix(0.8, 0, 0, 0.8, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.5s"
+        },
+        "subs": [
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "matrix(0.932793, 0, 0, 0.932793, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.5s"
+        },
+        "subs": [
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    },
+    {
+      "sel": "#navbar-flags > li:last-child",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "i.fa-arrow-down",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "i.fa-arrow-down",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    },
+    {
+      "sel": "a[href=\"/telescope/\"] > img",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 119, 190)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 119, 190)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    }
+  ],
+  "media": {
+    "videos": [
+      {
+        "src": "https://cdn.eso.org/videos/hd_1080p25_screen/elt-teaser-2021.mp4",
+        "autoplay": false,
+        "loop": false,
+        "muted": true,
+        "paused": false,
+        "currentTime": 10.040748,
+        "readyState": 4,
+        "inViewport": true,
+        "currentTimeAfter": 11.548546,
+        "playing": true
+      }
+    ],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [
+      {
+        "name": "menuDown",
+        "el": "nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top > div.dropdown-menu",
+        "txt": "About the ELT\n              Timeline\n             ",
+        "y": 1435
+      },
+      {
+        "name": "menuDown",
+        "el": "nav.navbar > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown > div.dropdown-menu",
+        "txt": "Search",
+        "y": 1435
+      }
+    ],
+    "transitions": [
+      {
+        "prop": "opacity",
+        "el": "main.elt-home > section.band-light > div.swiper-container-science > ul.science-slides > li.science-slide.swiper-slide-prev",
+        "y": 2000,
+        "dur": "0.9s"
+      },
+      {
+        "prop": "opacity",
+        "el": "main.elt-home > section.band-light > div.swiper-container-science > ul.science-slides > li.science-slide.swiper-slide-active",
+        "y": 2000,
+        "dur": "0.9s"
+      },
+      {
+        "prop": "opacity",
+        "el": "main.elt-home > section.band-light > div.swiper-container-science > ul.science-slides > li.science-slide.swiper-slide-prev",
+        "y": 1491,
+        "dur": "0.9s"
+      },
+      {
+        "prop": "opacity",
+        "el": "main.elt-home > section.band-light > div.swiper-container-science > ul.science-slides > li.science-slide.swiper-slide-active",
+        "y": 1491,
+        "dur": "0.9s"
+      },
+      {
+        "prop": "opacity",
+        "el": "main.elt-home > section.band-light > div.swiper-container-science > ul.science-slides > li.science-slide.swiper-slide-active",
+        "y": 1801,
+        "dur": "0.9s"
+      },
+      {
+        "prop": "opacity",
+        "el": "main.elt-home > section.band-light > div.swiper-container-science > ul.science-slides > li.science-slide.swiper-slide-next",
+        "y": 1801,
+        "dur": "0.9s"
+      },
+      {
+        "prop": "transform",
+        "el": "nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top > a.nav-link",
+        "y": 1435,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "color",
+        "el": "nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top > a.nav-link",
+        "y": 1435,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "transform",
+        "el": "nav.navbar > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown > a.nav-link",
+        "y": 1435,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "color",
+        "el": "nav.navbar > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown > a.nav-link",
+        "y": 1435,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "transform",
+        "el": "nav.navbar > div.navbar-collapse > ul.navbar-nav > li.social-desktop.desktop-top-sm-icons > a",
+        "y": 1435,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "nav.navbar > div.navbar-collapse > ul.navbar-nav > li.social-desktop.desktop-top-sm-icons > a",
+        "y": 1435,
+        "dur": "0.5s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-home > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-home > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-home > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-home > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-home > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-home > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-home > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-home > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "top-aligned"
+        ],
+        "el": "ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top > div.dropdown-menu > div.dropdown-submenu > div.dropdown-menu.top-aligned",
+        "y": 400
+      },
+      {
+        "added": [
+          "top-aligned"
+        ],
+        "el": "ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top > div.dropdown-menu > div.dropdown-submenu > div.dropdown-menu.top-aligned",
+        "y": 400
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "main.elt-home > section.band-light > div.swiper-container-science > ul.science-slides > li.science-slide.swiper-slide-prev",
+        "y": 2000
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "main.elt-home > section.band-light > div.swiper-container-science > ul.science-slides > li.science-slide.swiper-slide-prev",
+        "y": 2000
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "main.elt-home > section.band-light > div.swiper-container-science > ul.science-slides > li.science-slide.swiper-slide-active",
+        "y": 2000
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "main.elt-home > section.band-light > div.swiper-container-science > ul.science-slides > li.science-slide.swiper-slide-next",
+        "y": 2000
+      },
+      {
+        "added": [
+          "swiper-pagination-bullet-active"
+        ],
+        "el": "main.elt-home > section.band-light > div.swiper-container-science > div.swiper-pagination > button.swiper-pagination-bullet.swiper-pagination-bullet-active",
+        "y": 2000
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "main.elt-home > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "main.elt-home > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "main.elt-home > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "main.elt-home > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "bottom-aligned"
+        ],
+        "el": "ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top > div.dropdown-menu > div.dropdown-submenu > div.dropdown-menu.bottom-aligned",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-home > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 1491
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-home > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 1491
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-home > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 1491
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-home > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 1491
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-home > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 1491
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-home > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 1491
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-home > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 1491
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "main.elt-home > nav.navbar.mysticky > div.navbar-collapse > ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top",
+        "y": 1491
+      },
+      {
+        "added": [
+          "top-aligned"
+        ],
+        "el": "ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top > div.dropdown-menu > div.dropdown-submenu > div.dropdown-menu.top-aligned",
+        "y": 1491
+      },
+      {
+        "added": [
+          "top-aligned"
+        ],
+        "el": "ul.navbar-nav > li.nav-item.menu-item.dropdown-menu-top > div.dropdown-menu > div.dropdown-submenu > div.dropdown-menu.top-aligned",
+        "y": 1491
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "main.elt-home > section.band-light > div.swiper-container-science > ul.science-slides > li.science-slide.swiper-slide-prev",
+        "y": 1491
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "main.elt-home > section.band-light > div.swiper-container-science > ul.science-slides > li.science-slide.swiper-slide-prev",
+        "y": 1491
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "main.elt-home > section.band-light > div.swiper-container-science > ul.science-slides > li.science-slide.swiper-slide-active",
+        "y": 1491
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "main.elt-home > section.band-light > div.swiper-container-science > ul.science-slides > li.science-slide.swiper-slide-next",
+        "y": 1491
+      },
+      {
+        "added": [
+          "swiper-pagination-bullet-active"
+        ],
+        "el": "main.elt-home > section.band-light > div.swiper-container-science > div.swiper-pagination > button.swiper-pagination-bullet.swiper-pagination-bullet-active",
+        "y": 1491
+      },
+      {
+        "added": [
+          "swiper-slide-prev"
+        ],
+        "el": "main.elt-home > section.band-light > div.swiper-container-science > ul.science-slides > li.science-slide.swiper-slide-prev",
+        "y": 1801
+      },
+      {
+        "added": [
+          "swiper-slide-active"
+        ],
+        "el": "main.elt-home > section.band-light > div.swiper-container-science > ul.science-slides > li.science-slide.swiper-slide-active",
+        "y": 1801
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "main.elt-home > section.band-light > div.swiper-container-science > ul.science-slides > li.science-slide.swiper-slide-next",
+        "y": 1801
+      },
+      {
+        "added": [
+          "swiper-slide-next"
+        ],
+        "el": "main.elt-home > section.band-light > div.swiper-container-science > ul.science-slides > li.science-slide.swiper-slide-next",
+        "y": 1801
+      },
+      {
+        "added": [
+          "swiper-pagination-bullet-active"
+        ],
+        "el": "main.elt-home > section.band-light > div.swiper-container-science > div.swiper-pagination > button.swiper-pagination-bullet.swiper-pagination-bullet-active",
+        "y": 1801
+      }
+    ]
+  }
+}

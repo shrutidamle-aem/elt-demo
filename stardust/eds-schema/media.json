@@ -1,0 +1,321 @@
+{
+ "source": "file:///workspace/26c59ee1/stardust/prototypes/media-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "container-light",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Featured Stories"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Share on Facebook",
+     "href": "https://www.facebook.com/sharer/sharer.php?u=https://elt.eso.org/media/"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "E-Mail",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Copy Link",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Share on LinkedIn",
+     "href": "https://www.linkedin.com/sharing/share-offsite/?url=https://elt.eso.org/media/"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "This section shows ELT-related content retrieved from the main ESO website. For all ESO press releases, announcements, pictures of the week, blog posts, images and videos, please check ."
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "eso.org",
+     "href": "https://www.eso.org/public/"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "All"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Press Releases"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Announcements"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Pictures of the Week"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Blog Posts"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Videos"
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "Explorer",
+     "href": "/media/explorer/"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Video"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "5 Nov 2026 — cs0032a"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Chatting science with the world's largest telescope (ft. Dr Becky)"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Video"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "26 Oct 2026 — potw2643b"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "Tilting the ELT upwards"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Video"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "26 Oct 2026 — potw2643a"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "Moving forward"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Video"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "26 Oct 2026 — potw2643d"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "Inclining the ELT for the first time"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "Video"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "26 Oct 2026 — potw2643c"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "Inclining the ELT for the first time"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "More..."
+    }
+   ],
+   "imgCount": 11,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "DIV.container-paragraph",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 6,
+      "textRuns": 5
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "container-light",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Media information and contacts"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "ELT news"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "To receive news updates about the ELT, please sign up to ESO’s media newsletter using the form at the bottom of our online ."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Press Room",
+     "href": "https://www.eso.org/public/outreach/pressmedia/"
+    },
+    {
+     "role": "heading",
+     "order": 4,
+     "text": "ELT press kit"
+    },
+    {
+     "role": "heading",
+     "order": 5,
+     "text": "Media visits"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "ESO welcomes journalists, science writers and producers who are interested in visiting the sites in Chile as part of the production process for news stories, documentaries, photo books and other projects. As these represent a significant investment of resources on the part of ESO, the ESO Department of Communication reserves the right to choose projects that have the largest return on investment (for instance, in terms of the media exposure of ESO and astronomy in general)."
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "visits",
+     "href": "https://www.eso.org/public/outreach/pressmedia/mediavisits/"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "The ELT will be part of ESO’s Paranal Observatory, located 120 km south of the city of Antofagasta and 110 km north of the town of Taltal, in the Atacama Desert, Chile."
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "There are two ways to visit the ELT as a media representative: individual media visits and group media visits. If you are interested in an individual media visit, please get in touch with ESO’s Department of Communication in Chile (contacto@ eso.org) as far in advance as possible (preferably two to three months). ESO usually grants two days/one night for media visits at Paranal. If necessary, extended periods can be arranged."
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "ESO also organises group media visits through its Department of Communication and its Science Outreach Network ( ). These visits are an exclusive service offered to a limited number of media representatives annually, and ESO covers all expenses to and from Santiago airport. These visits are planned 6–18 months ahead, and therefore long advance notice from interested journalists is needed. For both types of visits, lodging at Paranal Residence is sponsored by ESO for accredited media representatives. For further questions, don’t hesitate to get in touch with ESO’s Department of Communication ( )."
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "ESON",
+     "href": "https://www.eso.org/public/outreach/partnerships/eson/"
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "contacto@eso.org",
+     "href": "mailto:contacto@eso.org"
+    },
+    {
+     "role": "heading",
+     "order": 13,
+     "text": "Media contacts"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Bárbara Ferreira ESO Media Manager Garching bei München, Germany Phone: +49 89 3200 6670 Mobile: +49 151 241 664 00 Email:"
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "press@eso.org",
+     "href": "mailto:press@eso.org"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Cristian Soto ESO Media Officer Chile Vitacura, Santiago, Chile Tel: +56 2 2463 3151 Email:"
+    },
+    {
+     "role": "cta",
+     "order": 17,
+     "text": "Cristian.Soto@eso.org",
+     "href": "mailto:Cristian.Soto@eso.org"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 11,
+   "repeats": [
+    {
+     "unitSelector": "DIV.container-paragraph",
+     "count": 5,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "P.",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "P.",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  }
+ ]
+}

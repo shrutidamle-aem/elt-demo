@@ -1,0 +1,164 @@
+{
+  "/telescope/dome": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-13T19:42:38.376Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/mirror/m1": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-13T23:46:42.252Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/mirror/m2m3": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-13T23:46:49.337Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/mirror/m4": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-13T23:46:56.114Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/mirror/m5": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-13T20:23:45.170Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/science/blackholes": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-13T23:47:02.667Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/science/cosmodm": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-13T20:59:39.439Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/science/discoveries": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-13T20:24:04.783Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/science/exoplanets": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-13T23:47:09.866Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/science/fundamentalphysics": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-13T23:47:16.959Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/science/galaxies": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-13T23:47:23.145Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/science/solarsystem": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-13T23:47:30.205Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/science/stars": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-13T23:47:36.931Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/telescope/adaptiveoptics": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-13T23:47:44.140Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/telescope/controls": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-13T20:24:51.521Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/telescope/operations": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-13T23:47:50.589Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/telescope/prefocal": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-13T23:47:57.237Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/telescope/structure": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-13T20:25:11.439Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

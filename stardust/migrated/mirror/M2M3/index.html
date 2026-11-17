@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- stardust:migrate
+  writtenBy:        stardust:migrate
+  writtenAt:        2026-11-13T20:20:29Z
+  page:             M2 and M3 Mirrors | ELT | ESO Chile
+  slug:             mirror-m2m3
+  pagePath:         migrated/mirror/M2M3/index.html
+  renderBranch:     A'
+  template:         telescope-dome
+  archetypePath:    stardust/prototypes/telescope-dome-proposed.html
+  archetypeSha:     c42b9f92bef0
+  sourceCurrent:    stardust/current/pages/mirror-m2m3.json
+  againstDirection: stardust/direction.md (Active)
+  designMd:         DESIGN.md (sha: bcd81ac1bff9)
+  designJson:       DESIGN.json (sha: 1687cec3d675)
+  canonShas:        header:null footer:df97728fd0f7 css:7a5011377ec8
+  decisionTrace:    _meta.json
+  brokenInternalLinks: 17
+  stardustVersion:  local
+-->
+<style>
+:root {
+  --font-brand: "Helvetica Neue LT ESO", "Helvetica Neue", Helvetica, Arial, sans-serif; /* L15662 */
+  --esoblue: rgb(0, 119, 190);            /* L15617 */
+  --orange: rgb(232, 133, 38);
+  --headerblue: rgb(45, 164, 245);
+  --ink-black: #000;
+  --nav-gradient: linear-gradient(rgb(40, 39, 49), rgb(16, 17, 19)); /* .navbar L16313 */
+  --nav-link: rgba(255, 255, 255, 0.7);   /* L20043 */
+  --nav-link-hover: rgba(255, 255, 255, 0.9);
+  --nav-hover-bg: #232932;                /* L19971 */
+  --nav-accent: #ef3c3c;                  /* active / hover rule */
+  --menu-bg: #343a40;                     /* .bg-dark */
+  --menu-border: rgba(0, 0, 0, 0.15);
+  --light-bg: rgb(232, 232, 232);         /* .container-light, .medium-light */
+  --footer-bg: #202020;                   /* .container-footer */
+  --topbar-h: 50px;                       /* body padding-top, .mysticky top */
+}
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Dome | ELT | ESO","description":"The Extremely Large Telescope: The World&#x27;s Biggest Eye On The Sky","url":"https://elt.eso.org/mirror/M2M3/"}</script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dome | ELT | ESO</title>
+  <meta name="description" content="The Extremely Large Telescope: The World&#x27;s Biggest Eye On The Sky">
+  <link rel="icon" href="../../assets/media/favicon.ico">
+  <link rel="stylesheet" href="../../assets/canon.css">
+  <link rel="stylesheet" href="../../assets/telescope-dome.css">
+  <script src="../../assets/canon.js" defer></script>
+
+</head>
+<body class="page-program">
+  <nav id="top-navbar" class="navbar" aria-label="ESO and site navigation">
+    <span class="navbar-brand navbar-brand--main">
+      <div class="brand-logo"><a href="https://www.eso.org/" target="_blank" rel="noopener noreferrer"><img class="navbar-eso-logo" src="../../assets/media/eso_logo.jpg" alt="" width="100" height="130"></a></div>
+      <div class="brand-flags">
+        <ul id="navbar-flags">
+          <li><span class="flag flag-at"></span></li>
+          <li><span class="flag flag-be"></span></li>
+          <li><span class="flag flag-cl"></span></li>
+          <li><span class="flag flag-cz"></span></li>
+          <li><span class="flag flag-da"></span></li>
+          <li><span class="flag flag-fi"></span></li>
+          <li><span class="flag flag-fr"></span></li>
+          <li><span class="flag flag-de"></span></li>
+          <li><span class="flag flag-ie"></span></li>
+          <li><span class="flag flag-it"></span></li>
+          <li><span class="flag flag-nl"></span></li>
+          <li><span class="flag flag-pl"></span></li>
+          <li><span class="flag flag-pt"></span></li>
+          <li><span class="flag flag-es"></span></li>
+          <li><span class="flag flag-sv"></span></li>
+          <li><span class="flag flag-ch"></span></li>
+          <li><span class="flag flag-gb"></span></li>
+          <li class="language-menu">
+            <div class="choose-language-message"> Choose your language &nbsp;<i class="fa-arrow-down" aria-hidden="true"></i></div>
+            <div class="language-options">
+              <a href="../../index.html?lang"><span class="flag flag-gb">&nbsp;</span> English </a>
+              <a href="https://elt.eso.org/chile/?lang" data-broken-link="true"><span class="flag flag-cl">&nbsp;</span> Español </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </span>
+    <div class="navbar-brand brand-social">
+      <div class="desktop-top-sm-icons">
+        <a href="https://facebook.com/ESOAstronomy" title="ESO on Facebook" target="_blank" rel="noopener noreferrer"><img src="../../assets/media/icon_topbar_mobile_1.png" alt="ESO on Facebook" width="35" height="35"></a>
+        <a href="https://www.instagram.com/esoastronomy/" title="ESO on Instagram" target="_blank" rel="noopener noreferrer"><img src="../../assets/media/icon_topbar_mobile_3.png" alt="ESO on Instagram" width="35" height="35"></a>
+        <a href="https://www.linkedin.com/company/european-southern-observatory" title="ESO on LinkedIn" target="_blank" rel="noopener noreferrer"><img src="../../assets/media/icon_topbar_mobile_4.png" alt="ESO on LinkedIn" width="35" height="35"></a>
+        <a href="https://www.youtube.com/channel/UCIhYoC2VIAJqCkoIWNHBQ3Q" title="ESO on YouTube" target="_blank" rel="noopener noreferrer"><img src="../../assets/media/icon_topbar_mobile_5.png" alt="ESO on YouTube" width="35" height="35"></a>
+      </div>
+    </div>
+    <span class="lang-links"><a href="../../index.html?lang" class="lang-link">en</a> | <a href="../../index.html?lang" class="lang-link">es</a></span>
+    <button class="navbar-toggler" type="button" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+    <div class="navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item menu-item mobile-only">
+          <a class="nav-link" href="../../index.html">ELT HOME</a>
+        </li>
+        <li class="nav-item menu-item mobile-only dropdown-menu-top dropup">
+          <a class="nav-link" href="https://elt.eso.org/about/" data-broken-link="true">ABOUT</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="https://elt.eso.org/about/" data-broken-link="true">About the ELT</a>
+            <a class="dropdown-item" href="../../about/timeline/index.html">Timeline</a>
+            <a class="dropdown-item" href="../../about/location/index.html">Location</a>
+            <a class="dropdown-item" href="../../about/webcams/index.html">Webcams</a>
+            <a class="dropdown-item" href="../../about/facts/index.html">Facts</a>
+            <a class="dropdown-item" href="../../about/road/index.html">Road to the ELT</a>
+            <a class="dropdown-item" href="../../about/team/index.html">Meet the Team</a>
+            <a class="dropdown-item" href="../../about/workinggroups/index.html">Working Groups</a>
+            <a class="dropdown-item" href="../../about/industrial/index.html">Industrial and Institutional Partners</a>
+            <a class="dropdown-item" href="../../about/faq/index.html">FAQ</a>
+          </div>
+        </li>
+        <li class="nav-item menu-item mobile-only dropdown-menu-top dropup active">
+          <a class="nav-link" href="../../telescope/index.html">TELESCOPE</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="../../telescope/index.html">Telescope Overview</a>
+            <a class="dropdown-item active" href="../../telescope/dome/index.html" aria-current="page">Dome</a>
+            <a class="dropdown-item" href="../../telescope/structure/index.html">Main Structure</a>
+            <div class="dropdown-submenu">
+              <a class="dropdown-item" href="https://elt.eso.org/mirror/" data-broken-link="true">Mirrors</a>
+              <div class="dropdown-menu bottom-aligned">
+                <a class="dropdown-item" href="https://elt.eso.org/mirror/" data-broken-link="true">Mirrors Overview</a>
+                <a class="dropdown-item" href="../../mirror/M1/index.html">M1</a>
+                <a class="dropdown-item" href="../../mirror/M2M3/index.html">M2M3</a>
+                <a class="dropdown-item" href="../../mirror/M4/index.html">M4</a>
+                <a class="dropdown-item" href="../../mirror/M5/index.html">M5</a>
+              </div>
+            </div>
+            <a class="dropdown-item" href="../../telescope/adaptiveoptics/index.html">Adaptive Optics</a>
+            <a class="dropdown-item" href="../../telescope/prefocal/index.html">Prefocal Station</a>
+            <a class="dropdown-item" href="../../telescope/controls/index.html">Controls</a>
+            <a class="dropdown-item" href="../../telescope/operations/index.html">Operations</a>
+          </div>
+        </li>
+        <li class="nav-item menu-item mobile-only dropdown-menu-top dropup">
+          <a class="nav-link" href="https://elt.eso.org/instrument/" data-broken-link="true">INSTRUMENTS</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="https://elt.eso.org/instrument/" data-broken-link="true">Instruments Overview</a>
+            <a class="dropdown-item" href="../../instrument/HARMONI/index.html">HARMONI</a>
+            <a class="dropdown-item" href="../../instrument/MICADO/index.html">MICADO</a>
+            <a class="dropdown-item" href="../../instrument/MORFEO/index.html">MORFEO</a>
+            <a class="dropdown-item" href="../../instrument/METIS/index.html">METIS</a>
+            <a class="dropdown-item" href="../../instrument/ANDES/index.html">ANDES</a>
+            <a class="dropdown-item" href="../../instrument/MOSAIC/index.html">MOSAIC</a>
+          </div>
+        </li>
+        <li class="nav-item menu-item mobile-only dropdown-menu-top dropup">
+          <a class="nav-link" href="https://elt.eso.org/science/" data-broken-link="true">SCIENCE</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="https://elt.eso.org/science/" data-broken-link="true">Science Overview</a>
+            <a class="dropdown-item" href="../../science/solarsystem/index.html">Solar System</a>
+            <a class="dropdown-item" href="../../science/exoplanets/index.html">Exoplanets</a>
+            <a class="dropdown-item" href="../../science/stars/index.html">Stars</a>
+            <a class="dropdown-item" href="../../science/blackholes/index.html">Black Holes</a>
+            <a class="dropdown-item" href="../../science/galaxies/index.html">Galaxies</a>
+            <a class="dropdown-item" href="../../science/cosmodm/index.html">Cosmology and Dark Matter</a>
+            <a class="dropdown-item" href="../../science/fundamentalphysics/index.html">Fundamental Physics</a>
+            <a class="dropdown-item" href="../../science/discoveries/index.html">Unexpected Discoveries</a>
+          </div>
+        </li>
+        <li class="nav-item menu-item mobile-only">
+          <a class="nav-link" href="../../media/index.html">NEWS &amp; MULTIMEDIA</a>
+        </li>
+        <li class="nav-item menu-item mobile-only">
+          <a class="nav-link" href="../../success/buildingon/index.html">SUCCESS STORIES</a>
+        </li>
+        <li class="social-desktop desktop-top-sm-icons">
+          <a href="https://facebook.com/ESOAstronomy" title="ESO on Facebook" target="_blank" rel="noopener noreferrer"><img src="../../assets/media/icon_topbar_mobile_1.png" alt="ESO on Facebook" width="35" height="35"></a>
+          <a href="https://www.instagram.com/esoastronomy/" title="ESO on Instagram" target="_blank" rel="noopener noreferrer"><img src="../../assets/media/icon_topbar_mobile_3.png" alt="ESO on Instagram" width="35" height="35"></a>
+          <a href="https://www.linkedin.com/company/european-southern-observatory" title="ESO on LinkedIn" target="_blank" rel="noopener noreferrer"><img src="../../assets/media/icon_topbar_mobile_4.png" alt="ESO on LinkedIn" width="35" height="35"></a>
+          <a href="https://www.youtube.com/channel/UCIhYoC2VIAJqCkoIWNHBQ3Q" title="ESO on YouTube" target="_blank" rel="noopener noreferrer"><img src="../../assets/media/icon_topbar_mobile_5.png" alt="ESO on YouTube" width="35" height="35"></a>
+        </li>
+        <li id="nav-search" class="nav-item menu-item dropdown dropdown-menu-top-top">
+          <a class="nav-link" href="#"><i class="material-icons">search</i></a>
+          <div class="dropdown-menu">
+            <div class="dropdown-item">
+              <form class="search-form" action="/public/eltsearch/" method="get"><input type="search" placeholder="Search..." name="q" aria-label="Search"><button type="submit">Search</button></form>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <img class="big-header-image" src="https://cdn.eso.org/images/banner1920/header-dome.jpg" alt="" width="1920" height="900">
+  <main class="elt-program" data-template="telescope-dome">
+    <div id="big-header" class="big-header-text" data-section="1">
+      <div class="big-header-logos">
+        <img class="big-header-eso-logo" src="../../assets/media/eso_logo_transparent.png" alt="" width="981" height="1279">
+        <p class="esologo-text">European<br>Southern<br>Observatory</p>
+      </div>
+      <div class="big-header-title"> Telescope </div>
+    </div>
+
+    <nav id="main-navbar" class="navbar mysticky" aria-label="Main" data-section="2">
+      <button class="navbar-toggler" type="button" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      <div class="navbar-collapse">
+        <ul class="navbar-nav">
+          <li class="nav-item menu-item">
+            <a class="nav-link" href="../../index.html">ELT HOME</a>
+          </li>
+          <li class="nav-item menu-item dropdown-menu-top dropup">
+            <a class="nav-link" href="https://elt.eso.org/about/" data-broken-link="true">ABOUT</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="https://elt.eso.org/about/" data-broken-link="true">About the ELT</a>
+              <a class="dropdown-item" href="../../about/timeline/index.html">Timeline</a>
+              <a class="dropdown-item" href="../../about/location/index.html">Location</a>
+              <a class="dropdown-item" href="../../about/webcams/index.html">Webcams</a>
+              <a class="dropdown-item" href="../../about/facts/index.html">Facts</a>
+              <a class="dropdown-item" href="../../about/road/index.html">Road to the ELT</a>
+              <a class="dropdown-item" href="../../about/team/index.html">Meet the Team</a>
+              <a class="dropdown-item" href="../../about/workinggroups/index.html">Working Groups</a>
+              <a class="dropdown-item" href="../../about/industrial/index.html">Industrial and Institutional Partners</a>
+              <a class="dropdown-item" href="../../about/faq/index.html">FAQ</a>
+            </div>
+          </li>
+          <li class="nav-item menu-item dropdown-menu-top dropup active">
+            <a class="nav-link" href="../../telescope/index.html">TELESCOPE</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="../../telescope/index.html">Telescope Overview</a>
+              <a class="dropdown-item active" href="../../telescope/dome/index.html" aria-current="page">Dome</a>
+              <a class="dropdown-item" href="../../telescope/structure/index.html">Main Structure</a>
+              <div class="dropdown-submenu">
+                <a class="dropdown-item" href="https://elt.eso.org/mirror/" data-broken-link="true">Mirrors</a>
+                <div class="dropdown-menu bottom-aligned">
+                  <a class="dropdown-item" href="https://elt.eso.org/mirror/" data-broken-link="true">Mirrors Overview</a>
+                  <a class="dropdown-item" href="../../mirror/M1/index.html">M1</a>
+                  <a class="dropdown-item" href="../../mirror/M2M3/index.html">M2M3</a>
+                  <a class="dropdown-item" href="../../mirror/M4/index.html">M4</a>
+                  <a class="dropdown-item" href="../../mirror/M5/index.html">M5</a>
+                </div>
+              </div>
+              <a class="dropdown-item" href="../../telescope/adaptiveoptics/index.html">Adaptive Optics</a>
+              <a class="dropdown-item" href="../../telescope/prefocal/index.html">Prefocal Station</a>
+              <a class="dropdown-item" href="../../telescope/controls/index.html">Controls</a>
+              <a class="dropdown-item" href="../../telescope/operations/index.html">Operations</a>
+            </div>
+          </li>
+          <li class="nav-item menu-item dropdown-menu-top dropup">
+            <a class="nav-link" href="https://elt.eso.org/instrument/" data-broken-link="true">INSTRUMENTS</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="https://elt.eso.org/instrument/" data-broken-link="true">Instruments Overview</a>
+              <a class="dropdown-item" href="../../instrument/HARMONI/index.html">HARMONI</a>
+              <a class="dropdown-item" href="../../instrument/MICADO/index.html">MICADO</a>
+              <a class="dropdown-item" href="../../instrument/MORFEO/index.html">MORFEO</a>
+              <a class="dropdown-item" href="../../instrument/METIS/index.html">METIS</a>
+              <a class="dropdown-item" href="../../instrument/ANDES/index.html">ANDES</a>
+              <a class="dropdown-item" href="../../instrument/MOSAIC/index.html">MOSAIC</a>
+            </div>
+          </li>
+          <li class="nav-item menu-item dropdown-menu-top dropup">
+            <a class="nav-link" href="https://elt.eso.org/science/" data-broken-link="true">SCIENCE</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="https://elt.eso.org/science/" data-broken-link="true">Science Overview</a>
+              <a class="dropdown-item" href="../../science/solarsystem/index.html">Solar System</a>
+              <a class="dropdown-item" href="../../science/exoplanets/index.html">Exoplanets</a>
+              <a class="dropdown-item" href="../../science/stars/index.html">Stars</a>
+              <a class="dropdown-item" href="../../science/blackholes/index.html">Black Holes</a>
+              <a class="dropdown-item" href="../../science/galaxies/index.html">Galaxies</a>
+              <a class="dropdown-item" href="../../science/cosmodm/index.html">Cosmology and Dark Matter</a>
+              <a class="dropdown-item" href="../../science/fundamentalphysics/index.html">Fundamental Physics</a>
+              <a class="dropdown-item" href="../../science/discoveries/index.html">Unexpected Discoveries</a>
+            </div>
+          </li>
+          <li class="nav-item menu-item">
+            <a class="nav-link" href="../../media/index.html">NEWS &amp; MULTIMEDIA</a>
+          </li>
+          <li class="nav-item menu-item">
+            <a class="nav-link" href="../../success/buildingon/index.html">SUCCESS STORIES</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid container-dark container-tight position-relative" data-section="3">
+        <img class="d-block h-100 w-100" src="https://cdn.eso.org/images/banner1920/subheader-mirrors-m2m3.jpg">
+        <div class="position-absolute science-header-textblock">
+            <div class="d-flex flex-column justify-content-around h-100">
+                <div class="header-title">M2 and M3 Mirrors</div>
+                <div class="d-none d-xl-block header-subtitle"><p>Perfecting image quality</p></div>
+                <div class="d-none d-xxl-block header-description">
+                    <p>The ELT's secondary mirror is the largest convex mirror ever produced. It will reflect light collected by M1 to the tertiary mirror M3, a concave mirror similar in size to M2. The three curved mirrors will allow the ELT to deliver a better image quality over a larger field of view than would be possible otherwise.</p>
+                </div>
+                <div class="d-none d-sm-block header-quick-links">
+                    <div>Quick Links:</div>
+                    <div class="instrument-link-color">
+                        
+                        <a class="instrument-link-color instrument-link" href="#techdetails">Technical details</a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="container-fluid container-light page-section" data-section="4">
+        
+                <div class="container-paragraph section-title-paragraph d-flex align-items-center justify-content-between">
+            <div class="">In a nutshell</div>
+            <div class="d-flex">
+                <a class="share-social-media-link share-social-media-icons" href="https://www.facebook.com/sharer/sharer.php?u=https://elt.eso.org/mirror/M2M3/" title="Share on Facebook" target="_blank" rel="noopener noreferrer">
+                    <img src="/public/archives/djp/elt-assets/img/social-media/icon_share_1.png" alt="Share on Facebook">
+                </a>
+                <span class="position-relative d-flex" style="" title="Share on Social Media">
+                    <span class="share-social-media share-social-media-icons">
+                    <img class="share-social-media" src="/public/archives/djp/elt-assets/img/social-media/icon_share_3.png" alt"share="" on="" social="" media"="">
+                    </span>
+                    <div class="position-absolute share-social-media-dropdown">
+                        <div class="share-social-media-dropdown-icons">
+                        <a class="share-social-media-link" href="https://www.facebook.com/sharer/sharer.php?u=https://elt.eso.org/mirror/M2M3/" title="Share on Facebook" target="_blank" rel="noopener noreferrer">
+                            <img src="/public/archives/djp/elt-assets/img/social-media/icon_share_1.png" alt="Share on Facebook">
+                            <span class="share-social-media-dropdown-text">Share on Facebook</span>
+                        </a>
+                        <a class="share-social-media-link share-email" href="#" title="E-Mail">
+                            <img src="/public/archives/djp/elt-assets/img/social-media/icon_share_5.png" alt="E-Mail">
+                            <span class="share-social-media-dropdown-text">E-Mail</span>
+                        </a>
+                        <a href="#" class="share-social-media-link clipboard" title="Copy Link">
+                            <img src="/public/archives/djp/elt-assets/img/social-media/icon_share_6.png" alt="Copy link">
+                            <span class="share-social-media-dropdown-text">Copy Link</span>
+                        </a>
+                        <a class="share-social-media-link" href="https://www.linkedin.com/sharing/share-offsite/?url=https://elt.eso.org/mirror/M2M3/" title="Share on LinkedIn" target="_blank" rel="noopener noreferrer">
+                            <img src="/public/archives/djp/elt-assets/img/social-media/icon_share_4.png" alt="Share on LinkedIn">
+                            <span class="share-social-media-dropdown-text">Share on LinkedIn</span>
+                        </a>
+                        </div>
+                    </div>
+                </span>
+            </div>
+        </div>
+
+        <div class="container-subtitle d-none d-xl-block d-xxl-none section-subtitle-paragraph-aftertitle"><p>The ELT's secondary mirror is the largest convex mirror ever produced. It will reflect light collected by M1 to the tertiary mirror M3, a concave mirror similar in size to M2. The three curved mirrors will allow the ELT to deliver a better image quality over a larger field of view than would be possible otherwise.</p></div>
+        <div class="container-subtitle d-block d-xl-none section-subtitle-paragraph-aftertitle"><p>Perfecting image quality</p></div>
+        <div class="container-paragraph d-block d-xl-none section-text-paragraph"><p>The ELT's secondary mirror is the largest convex mirror ever produced. It will reflect light collected by M1 to the tertiary mirror M3, a concave mirror similar in size to M2. The three curved mirrors will allow the ELT to deliver a better image quality over a larger field of view than would be possible otherwise.</p></div>
+        
+            
+            
+<div class="container-paragraph section-text-paragraph">
+    <p>Most large telescopes, including ESO’s Very Large Telescope (VLT) and the NASA/ESA Hubble Space Telescope, use just two curved mirrors to form an image. The ELT has three. Its secondary mirror (M2), will hang above the spectacular 39-metre main mirror, M1, reflecting the light collected by it to the tertiary mirror M3.</p>
+</div>
+
+        
+            
+            
+<div class="m-0 ">
+        <div class="row w-100 m-0">
+            <div class="col-lg-6 p-0 d-flex align-items-center order-lg-1 order-1">
+                <div> 
+                     <a href="https://www.eso.org/public/images/ELT-M2-Render-CC/" target="_blank" rel="noopener noreferrer" class="d-flex w-100 align-items-center justify-content-center justify-content-center justify-content-lg-middle"><img class="" style="width: 100%; " src="https://cdn.eso.org/images/wallpaper3/ELT-M2-Render-CC.jpg"></a>
+                </div>
+            </div>
+            <div class="col-lg-6 p-0 d-flex align-items-center order-lg-2 order-3">
+                <div> 
+                     <a href="https://www.eso.org/public/images/M3-render1-big-cc/" target="_blank" rel="noopener noreferrer" class="d-flex w-100 align-items-center justify-content-center justify-content-middle justify-content-lg-middle"><img class="" style="width: 100%; " src="https://cdn.eso.org/images/wallpaper3/M3-render1-big-cc.jpg"></a>
+                </div>
+            </div>
+
+            <div class="col-lg-6 pt-3 d-block align-items-center order-lg-3 order-2 caption-text">
+                <div>
+                <p style="text-align: center;">This image shows a rendering of the M2 mirror.&nbsp;Credit: ESO (L. Calçada)/SENER</p>
+                </div>
+            </div>
+            <div class="col-lg-6 pt-3 d-block align-items-center order-lg-4 order-4 caption-text">
+                <div>
+                <p style="text-align: center;">This image shows a rendering of the M3 mirror.&nbsp;Credit: ESO (L. Calçada)/SENER</p>
+                </div>
+            </div>
+
+        </div>
+</div>
+
+
+        
+            
+            
+<div class="container-paragraph section-text-paragraph">
+    <p>The ELT’s M2 mirror, with its 4.25-metre diameter, will, like many aspects of the ELT, set another record in the astronomical landscape. M2 will be the largest optical secondary mirror ever used on a telescope — it will be as big as the primary mirrors of many of today’s world-class telescopes. There is also the added challenge that M2 will hang upside-down over the ELT’s main mirror, about 60 m above the ground, held in mid-air by its support structure (called the M2 cell) and anchored to the telescope main structure. The M3 mirror is similarly large and complex, with its 4-metre diameter. The mirrors alone weigh more than 3 tonnes each; with the cell and structure included, the overall weight of each assembly is about 12 tonnes.&nbsp;</p>
+<p>Both blanks of M2 and M3 are produced by the German company SCHOTT and are made of a special glass-ceramic material called ZERODUR®. Thanks to the unique properties of this material, the form and the shape of the mirrors will not change significantly with temperature during observations. This material is also extremely resistant; it can be polished to incredible precision and has been used in telescope mirrors for decades.</p>
+</div>
+
+        
+            
+            
+<div class="m-0 " style="padding-bottom: 1vw;">
+        <div class="row w-100 m-0">
+            <div class="col-lg-12 p-0 position-relative d-flex align-items-center order-lg-1 order-1">
+                <a href="https://www.eso.org/public/images/ann19003b/" target="_blank" class="d-flex align-items-center justify-content-center w-100" rel="noopener noreferrer">
+                    <img class="" style="width: 100%; " src="https://cdn.eso.org/images/banner1920/ann19003b.jpg">
+                    
+                </a>
+
+                
+
+            </div>
+
+            <div class="col-lg-12 pt-3 d-block align-items-center order-lg-3 order-2 caption-text">
+                <p style="text-align: right;">This image shows some of the people behind the scenes at the technical acceptance of the massive 3-ton blank for the ELT's secondary mirror.&nbsp;Credit: SCHOTT</p>
+            </div>
+
+        </div>
+</div>
+
+
+
+        
+            
+            
+<div class="container-paragraph section-text-paragraph">
+    <p>The manufacturing of the M2 and M3 mirrors is a great example of the strong collaboration between ESO and European industries. The production of the blanks is being carried out by SCHOTT in Germany, the final polishing of the surface by the French company Safran Reosc, and the cells to hold the mirrors will be made by the Spanish company SENER.</p>
+<p>Please check the <a href="../../media/index.html">News &amp; Multimedia section</a> for recent news, images and videos on the M2 and M3 mirrors.</p>
+</div>
+
+        
+            
+            
+<div class="m-0 ">
+        <div class="row w-100 m-0">
+            <div class="col-lg-4 p-0 d-flex align-items-center order-lg-1 order-1">
+                <div>
+                     <a href="https://www.eso.org/public/images/ann19003a/" target="_blank" rel="noopener noreferrer"><img class="mx-auto_ " style="width: 100%; " src="https://cdn.eso.org/images/wallpaper3/mirrors-m2m3-image1.jpg"></a>
+                </div>
+            </div>
+            <div class="col-lg-4 p-0 d-flex align-items-center order-lg-2 order-3">
+                <div>
+                <a href="https://www.eso.org/public/images/mirrors-m2m3-image2/" target="_blank" rel="noopener noreferrer"><img class="mx-auto_ " style="width: 100%; " src="https://cdn.eso.org/images/wallpaper3/mirrors-m2m3-image2.jpg"></a>
+                </div>
+            </div>
+            <div class="col-lg-4 p-0 d-flex align-items-center order-lg-3 order-5">
+                <div>
+                <a href="https://www.eso.org/public/images/mirrors-m2m3-image3/" target="_blank" rel="noopener noreferrer"><img class="mx-auto_ " style="width: 100%; " src="https://cdn.eso.org/images/wallpaper3/mirrors-m2m3-image3.jpg"></a>
+                </div>
+            </div>
+
+            <div class="col-lg-4 p-0 d-block align-items-center order-lg-4 order-2 ">
+                <div>
+                <span style="width: 100%; background-color: rgb(188, 189, 190);" class="h-100 d-flex align-items-center justify-content-center p-3 mx-auto_">
+                <p style="text-align: center;"><span style="text-align: center;">ELT M2 Mirror Blank, ready for figuring</span></p>
+                </span>
+                </div>
+            </div>
+            <div class="col-lg-4 p-0 d-block align-items-center order-lg-5 order-4 ">
+                <div>
+                <span style="width: 100%; background-color: rgb(255, 255, 255);" class="h-100 d-flex align-items-center justify-content-center p-3 mx-auto_">
+                <p style="text-align: center;"><span style="text-align: center;">M2 Mirror Blank casting</span></p>
+                </span>
+                </div>
+            </div>
+            <div class="col-lg-4 p-0 d-block align-items-center order-lg-6 order-6 ">
+                <div>
+                <span style="width: 100%; background-color: rgb(188, 189, 190);" class="h-100 d-flex align-items-center justify-content-center p-3 mx-auto_">
+                <p style="text-align: center;"><span style="text-align: center;">M2 Mirror Blank inspection after annealing at Schott</span></p>
+                </span>
+                </div>
+            </div>
+        </div>
+
+</div>
+
+
+        
+    </div>
+<div id="techdetails_" class="container-fluid container-light page-section" data-section="5">
+        
+        
+        <div class="container-paragraph section-title-paragraph">Technical details and challenges with M2 and M3</div>
+        
+        
+            
+            
+<div class="container-paragraph section-text-paragraph">
+    <p>The M2 mirror is a convex 4.25-metre F/1.1 thin meniscus, about 100 mm thick, with an 800-mm central hole. Its optical surface shape is very aspheric, with a departure from a sphere that is close to 2 mm. The size, convexity, aperture ratio and asphericity make this mirror extremely difficult to polish and test.</p>
+<p><em>Main characteristics of the M2 and M3 mirrors</em></p>
+<table style="width: 100%;" border="0" width="100%">
+<tbody>
+<tr>
+<td style="width: 36.3224%;">&nbsp;</td>
+<td style="width: 58.6232%; text-align: center;">
+<p><strong>M2</strong></p>
+</td>
+<td style="width: 5.05436%; text-align: center;">
+<p><strong>M3</strong></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+
+    
+    <div class="container-fluid container-light page-section" style="padding-top: 2rem; padding-bottom: 1rem;">
+        
+        <div class="row d-flex w-100 mr-0 ml-0 mt-2 mb-2 align-items-stretch no-gutters" style="background-color_: white;">
+            <div class="col-md-6 d-flex align-items-center position-relative bg-white">
+                <svg width="100%" height="100%" viewBox="0 0 30 4" preserveAspectRatio="none">
+                    <polygon fill="rgb(224, 98, 76)" stroke-width="0" points="0,0 20,0 30,2 20,4 0,4"></polygon>
+                </svg>
+                <div class="position-absolute d-flex align-items-center" style="left: 10%;">
+                    <p>Mechanical diameter, outer</p>
+                </div>
+            </div>
+            
+            <div class="col-6 col-md-3 d-flex align-items-center">
+                <div class="w-100 h-100 bg-white d-flex align-items-center ">
+                    <div class="d-block w-100">
+                            
+                <p style="text-align: center;"><span style="text-align: center;">4250 mm</span></p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-6 col-md-3 d-flex align-items-center">
+                <div class="w-100 h-100 bg-white d-flex align-items-center ml-3">
+                    <div class="d-block w-100">
+                            
+                <p style="text-align: center;"><span style="text-align: center;">4000 mm</span></p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+        <div class="row d-flex w-100 mr-0 ml-0 mt-2 mb-2 align-items-stretch no-gutters" style="background-color_: white;">
+            <div class="col-md-6 d-flex align-items-center position-relative bg-white">
+                <svg width="100%" height="100%" viewBox="0 0 30 4" preserveAspectRatio="none">
+                    <polygon fill="rgb(232, 112, 47)" stroke-width="0" points="0,0 20,0 30,2 20,4 0,4"></polygon>
+                </svg>
+                <div class="position-absolute d-flex align-items-center" style="left: 10%;">
+                    <p>Mechanical diameter, inner</p>
+                </div>
+            </div>
+            
+            <div class="col-6 col-md-3 d-flex align-items-center">
+                <div class="w-100 h-100 bg-white d-flex align-items-center ">
+                    <div class="d-block w-100">
+                            
+                <p style="text-align: center;"><span style="text-align: center;">800 mm</span></p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-6 col-md-3 d-flex align-items-center">
+                <div class="w-100 h-100 bg-white d-flex align-items-center ml-3">
+                    <div class="d-block w-100">
+                            
+                <p style="text-align: center;"><span style="text-align: center;">30 mm</span></p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+        <div class="row d-flex w-100 mr-0 ml-0 mt-2 mb-2 align-items-stretch no-gutters" style="background-color_: white;">
+            <div class="col-md-6 d-flex align-items-center position-relative bg-white">
+                <svg width="100%" height="100%" viewBox="0 0 30 4" preserveAspectRatio="none">
+                    <polygon fill="rgb(241, 162, 58)" stroke-width="0" points="0,0 20,0 30,2 20,4 0,4"></polygon>
+                </svg>
+                <div class="position-absolute d-flex align-items-center" style="left: 10%;">
+                    <p>Material</p>
+                </div>
+            </div>
+            
+            <div class="col-6 col-md-3 d-flex align-items-center">
+                <div class="w-100 h-100 bg-white d-flex align-items-center ">
+                    <div class="d-block w-100">
+                            
+                <p style="text-align: center;">Zerodur<sup>®</sup></p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-6 col-md-3 d-flex align-items-center">
+                <div class="w-100 h-100 bg-white d-flex align-items-center ml-3">
+                    <div class="d-block w-100">
+                            
+                <p style="text-align: center;">Zerodur<sup>®</sup></p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+        <div class="row d-flex w-100 mr-0 ml-0 mt-2 mb-2 align-items-stretch no-gutters" style="background-color_: white;">
+            <div class="col-md-6 d-flex align-items-center position-relative bg-white">
+                <svg width="100%" height="100%" viewBox="0 0 30 4" preserveAspectRatio="none">
+                    <polygon fill="rgb(92, 183, 124)" stroke-width="0" points="0,0 20,0 30,2 20,4 0,4"></polygon>
+                </svg>
+                <div class="position-absolute d-flex align-items-center" style="left: 10%;">
+                    <p>Mass (incl. mounting interfaces)</p>
+                </div>
+            </div>
+            
+            <div class="col-6 col-md-3 d-flex align-items-center">
+                <div class="w-100 h-100 bg-white d-flex align-items-center ">
+                    <div class="d-block w-100">
+                            
+                <p style="text-align: center;">3533 kg</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-6 col-md-3 d-flex align-items-center">
+                <div class="w-100 h-100 bg-white d-flex align-items-center ml-3">
+                    <div class="d-block w-100">
+                            
+                <p style="text-align: center;">3258 kg</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+        <div class="row d-flex w-100 mr-0 ml-0 mt-2 mb-2 align-items-stretch no-gutters" style="background-color_: white;">
+            <div class="col-md-6 d-flex align-items-center position-relative bg-white">
+                <svg width="100%" height="100%" viewBox="0 0 30 4" preserveAspectRatio="none">
+                    <polygon fill="rgb(77, 151, 229)" stroke-width="0" points="0,0 20,0 30,2 20,4 0,4"></polygon>
+                </svg>
+                <div class="position-absolute d-flex align-items-center" style="left: 10%;">
+                    <p>Radius of curvature</p>
+                </div>
+            </div>
+            
+            <div class="col-6 col-md-3 d-flex align-items-center">
+                <div class="w-100 h-100 bg-white d-flex align-items-center ">
+                    <div class="d-block w-100">
+                            
+                <p style="text-align: center;">R<sub>M2</sub> = 8810 ± 5 mm (convex f/1.1)</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-6 col-md-3 d-flex align-items-center">
+                <div class="w-100 h-100 bg-white d-flex align-items-center ml-3">
+                    <div class="d-block w-100">
+                            
+                <p style="text-align: center;">R<sub>M3</sub> =  21089.53 ± 10 mm (concave f/2.6)</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+        <div class="row d-flex w-100 mr-0 ml-0 mt-2 mb-2 align-items-stretch no-gutters" style="background-color_: white;">
+            <div class="col-md-6 d-flex align-items-center position-relative bg-white">
+                <svg width="100%" height="100%" viewBox="0 0 30 4" preserveAspectRatio="none">
+                    <polygon fill="rgb(92, 183, 232)" stroke-width="0" points="0,0 20,0 30,2 20,4 0,4"></polygon>
+                </svg>
+                <div class="position-absolute d-flex align-items-center" style="left: 10%;">
+                    <p>Aspheric coefficients</p>
+                </div>
+            </div>
+            
+            <div class="col-6 col-md-3 d-flex align-items-center">
+                <div class="w-100 h-100 bg-white d-flex align-items-center ">
+                    <div class="d-block w-100">
+                            
+                <p style="text-align: center;">k<sub>M2</sub> = -2.208857&nbsp;<br>α<sub>4</sub> = -5.198196x10<sup>-16</sup></p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-6 col-md-3 d-flex align-items-center">
+                <div class="w-100 h-100 bg-white d-flex align-items-center ml-3">
+                    <div class="d-block w-100">
+                            
+                <p style="text-align: center;">k<sub>M3</sub> = 0&nbsp;<br>α<sub>4</sub>= – 8.272163 × 10<sup>-15</sup>&nbsp;<br>α<sub>6</sub> = – 8.925957 × 10<sup>-24</sup>&nbsp;</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+        <div class="row d-flex w-100 mr-0 ml-0 mt-2 mb-2 align-items-stretch no-gutters" style="background-color_: white;">
+            <div class="col-md-6 d-flex align-items-center position-relative bg-white">
+                <svg width="100%" height="100%" viewBox="0 0 30 4" preserveAspectRatio="none">
+                    <polygon fill="rgb(104, 204, 225)" stroke-width="0" points="0,0 20,0 30,2 20,4 0,4"></polygon>
+                </svg>
+                <div class="position-absolute d-flex align-items-center" style="left: 10%;">
+                    <p>Aspheric departure</p>
+                </div>
+            </div>
+            
+            <div class="col-6 col-md-3 d-flex align-items-center">
+                <div class="w-100 h-100 bg-white d-flex align-items-center ">
+                    <div class="d-block w-100">
+                            
+                <p style="text-align: center;">1.8 mm</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-6 col-md-3 d-flex align-items-center">
+                <div class="w-100 h-100 bg-white d-flex align-items-center ml-3">
+                    <div class="d-block w-100">
+                            
+                <p style="text-align: center;">33 microns</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+    
+
+
+
+
+
+        
+            
+            
+<div class="container-paragraph section-text-paragraph">
+    <p>The M3 mirror is a concave 4.0-metre F/2.6 thin meniscus, about 100 mm thick, with a 30-mm central hole. Its optical surface shape is mildly aspheric, with a departure from a sphere of only about 30 µm. Besides its 4-metre size, the M3 mirror is easier to manufacture and test compared to the M2, and the required M3 mirror production and metrology processes are more common. The M2 and M3 mirror blanks (i.e., the “glass” made by SCHOTT) require sophisticated production methods and processes. After an initial raw material casting in a cylindrical mould, each blank is carefully cooled down and annealed for about three months, so as to maximise the material’s homogeneity, and minimise the internal stresses and the number of bubbles and inclusions. The resulting glassy boule then undergoes a six-month heat treatment to transform the material into glass-ceramic and adjust the near-zero coefficient of thermal expansion to a few parts per billion accuracy. Each blank is then machined to its final geometry, and acid etched to remove residual subsurface damage and maximise the mirror strength.</p>
+</div>
+
+
+    
+
+
+
+
+
+        
+            
+            
+<div class="m-0  container-paragraph-right">
+    <div style="width: 25%;" class="d-none d-lg-flex flex-column align-items-center justify-content-between float-left mr-5 mb-3">
+        <div>
+             <a href="https://www.eso.org/public/images/ann19003d/" target="_blank" rel="noopener noreferrer"><img class="w-100 d-block " style="" src="https://cdn.eso.org/images/screen/ann19003d.jpg"></a>
+            
+        </div>
+    </div>
+    <div class="d-flex d-lg-none flex-column align-items-center justify-content-between w-100 mb-3">
+        <div>
+             <a href="https://www.eso.org/public/images/ann19003d/" target="_blank"><img class="w-100 d-block " style="" src="https://cdn.eso.org/images/screen/ann19003d.jpg"></a>
+        
+        </div>
+    </div>
+</div>
+<div class="container-paragraph float-text">
+    <span>
+        <p>The blanks are then transported to Safran Reosc for figuring and polishing, in the same facilities where the 8-metre VLT primary mirrors were polished in the 1990s. These facilities have been refurbished to accommodate the specific requirements of figuring and testing M2 and M3. Each blank follows the same finishing process: adhesive bonding of the invar interface pads, and then a series of steps to achieve the final surface quality; grinding and fine grinding to an accuracy of a few µm, followed by polishing and figuring to an accuracy of a few nm — about 20 000 times thinner than a human hair. Both the grinding and polishing processes rely on a combination of small tool figure correction and mid-size tool smoothing on a dedicated 4-metre figuring machine. At the grinding stage the mirror figure is monitored using a 4-metre 3D coordinate measurement machine (3D CMM).</p>
+    </span>
+</div>
+
+
+
+
+    
+
+
+
+
+
+        
+            
+            
+<div class="container-paragraph section-text-paragraph">
+    <p>Interferometry testing through null correctors has been developed for polishing, using a giant Fizeau Test Matrix for M2 and computer-generated holograms (CGH) for M3. Both mirrors are supported on dedicated active metrology mounts during figuring to accurately match the force distribution in the mirror cells’ support. Each mirror requires about two years for figuring and polishing, not including the time needed to upgrade the facilities, the production of testing equipment and commissioning.&nbsp;</p>
+<p>Both M2 and M3 mirrors are hosted on the telescope in dedicated cells, which provide shape adjustment capability to compensate static errors to some extent and position control for locating the mirrors within the telescope. The overall weight of each assembly (mirror and cell) is about 12 tonnes and the requirements to position such a massive structure are extremely challenging — despite the weight, the requisite accuracy of the positioning stage is on the order of just 0.1 mm.</p>
+</div>
+
+
+    
+
+
+
+
+
+        
+            
+            
+<div class="m-0  container-paragraph-right">
+    <div style="width: 25%;" class="d-none d-lg-flex flex-column align-items-center justify-content-between float-left mr-5 mb-3">
+        <div>
+             <a href="https://www.eso.org/public/images/ann20003a/" target="_blank" rel="noopener noreferrer"><img class="w-100 d-block " style="" src="https://cdn.eso.org/images/screen/ann20003a.jpg"></a>
+            
+        </div>
+    </div>
+    <div class="d-flex d-lg-none flex-column align-items-center justify-content-between w-100 mb-3">
+        <div>
+             <a href="https://www.eso.org/public/images/ann20003a/" target="_blank"><img class="w-100 d-block " style="" src="https://cdn.eso.org/images/screen/ann20003a.jpg"></a>
+        
+        </div>
+    </div>
+</div>
+<div class="container-paragraph float-text">
+    <span>
+        <p>The cells for M2 and M3 have similar design concepts. Each mirror is axially supported on its back surface with an 18-point whiffletree, and laterally at 14 points on the mirror’s outer edge. As the M3 mirror is away from any pupil, the active correction of this mirror is mandatory. On the other hand, low-order deformations of the M2 mirror have very limited error propagation in the field, so the active shaping of M2 is implemented as a provision only.&nbsp;</p>
+<p>Each mirror is connected via the axial and lateral supports to a common frame: the cell structure. Safety restrainers are connected to this structure to limit the mirror displacement and stress in case of earthquake and prevent the mirror from falling in case of catastrophic event, such as total failure of the mirror fixation interface.</p>
+    </span>
+</div>
+
+<div style="clear: both;"></div>
+
+
+
+
+    
+
+
+
+
+
+        
+            
+            
+<div class="container-paragraph section-text-paragraph">
+    <p>In order to align the M2 mirror with respect to the rest of the optics, the whole assembly will be moved relative to the telescope structure using six position actuators (hexapods). Three actuators are oriented along the mirror optical axis, the three others are located within the plane of the centre of gravity. It is worth noting that the relative accuracy of this hexapod, which will move every few minutes, is in the sub-µm range, which presents a real challenge.</p>
+</div>
+
+
+    
+
+
+
+
+
+        
+    </div>
+  </main>
+
+
+  <footer class="site-footer">
+    <div class="site-footer__row">
+      <div class="site-footer__brand footer-item">
+        <a href="https:///www.eso.org/"><span class="esoblue">ESO</span></a>&nbsp;|&nbsp;ELT © <div id="current-year">2026</div>
+      </div>
+      <div class="site-footer__links footer-item">
+        <div>
+          <a href="../../credits/index.html"><span class="footer-item"> Credits </span></a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="mailto:information@eso.org"><span class="footer-item"> Contact us </span></a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="https://www.eso.org/public/outreach/newsletters/"><span class="footer-item"> Subscribe to ESO news </span></a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="https://www.cdn77.com/"><span class="footer-item"> Accelerated by CDN77 </span></a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="https://www.eso.org/public/about-eso/privacy/"><span class="footer-item"> Terms &amp; Conditions </span></a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="#"><span class="footer-item privacy-settings-link"> Cookie Settings and Policy </span></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,528 @@
+{
+  "generatedAt": "2026-11-14T04:22:16.953Z",
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://elt.eso.org/",
+    "liveHost": "main--26c59ee1--aemcoder.aem.live"
+  },
+  "stageCount": {
+    "identified": 44,
+    "prototyped": 43,
+    "deployed": 43,
+    "optimised": 0
+  },
+  "stageExclusive": {
+    "identified": 1,
+    "prototyped": 0,
+    "deployed": 43,
+    "optimised": 0
+  },
+  "pages": [
+    {
+      "slug": "index",
+      "path": "/",
+      "stage": "deployed",
+      "templateId": "index",
+      "isTemplate": true,
+      "openFindings": 3
+    },
+    {
+      "slug": "index-b7ff",
+      "path": "/",
+      "stage": "identified",
+      "templateId": "landing",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "about",
+      "path": "/about",
+      "stage": "deployed",
+      "templateId": "listing",
+      "isTemplate": true,
+      "openFindings": 2
+    },
+    {
+      "slug": "about-facts",
+      "path": "/about/facts",
+      "stage": "deployed",
+      "templateId": "about-facts",
+      "isTemplate": true,
+      "openFindings": 2
+    },
+    {
+      "slug": "about-faq",
+      "path": "/about/faq",
+      "stage": "deployed",
+      "templateId": "about-road",
+      "isTemplate": false,
+      "openFindings": 2
+    },
+    {
+      "slug": "about-industrial",
+      "path": "/about/industrial",
+      "stage": "deployed",
+      "templateId": "about-road",
+      "isTemplate": false,
+      "openFindings": 2
+    },
+    {
+      "slug": "about-location",
+      "path": "/about/location",
+      "stage": "deployed",
+      "templateId": "about-road",
+      "isTemplate": false,
+      "openFindings": 2
+    },
+    {
+      "slug": "about-road",
+      "path": "/about/road",
+      "stage": "deployed",
+      "templateId": "about-road",
+      "isTemplate": true,
+      "openFindings": 2
+    },
+    {
+      "slug": "about-team",
+      "path": "/about/team",
+      "stage": "deployed",
+      "templateId": "about-road",
+      "isTemplate": false,
+      "openFindings": 2
+    },
+    {
+      "slug": "about-timeline",
+      "path": "/about/timeline",
+      "stage": "deployed",
+      "templateId": "about-timeline",
+      "isTemplate": true,
+      "openFindings": 2
+    },
+    {
+      "slug": "about-webcams",
+      "path": "/about/webcams",
+      "stage": "deployed",
+      "templateId": "about-road",
+      "isTemplate": false,
+      "openFindings": 2
+    },
+    {
+      "slug": "about-workinggroups",
+      "path": "/about/workinggroups",
+      "stage": "deployed",
+      "templateId": "about-road",
+      "isTemplate": false,
+      "openFindings": 2
+    },
+    {
+      "slug": "chile",
+      "path": "/chile",
+      "stage": "deployed",
+      "templateId": "index",
+      "isTemplate": false,
+      "openFindings": 2
+    },
+    {
+      "slug": "credits",
+      "path": "/credits",
+      "stage": "deployed",
+      "templateId": "about-road",
+      "isTemplate": false,
+      "openFindings": 2
+    },
+    {
+      "slug": "instrument",
+      "path": "/instrument",
+      "stage": "deployed",
+      "templateId": "listing",
+      "isTemplate": false,
+      "openFindings": 2
+    },
+    {
+      "slug": "instrument-andes",
+      "path": "/instrument/andes",
+      "stage": "deployed",
+      "templateId": "instrument",
+      "isTemplate": false,
+      "openFindings": 2
+    },
+    {
+      "slug": "instrument-harmoni",
+      "path": "/instrument/harmoni",
+      "stage": "deployed",
+      "templateId": "instrument-harmoni",
+      "isTemplate": true,
+      "openFindings": 2
+    },
+    {
+      "slug": "instrument-metis",
+      "path": "/instrument/metis",
+      "stage": "deployed",
+      "templateId": "instrument",
+      "isTemplate": false,
+      "openFindings": 2
+    },
+    {
+      "slug": "instrument-micado",
+      "path": "/instrument/micado",
+      "stage": "deployed",
+      "templateId": "instrument",
+      "isTemplate": true,
+      "openFindings": 2
+    },
+    {
+      "slug": "instrument-morfeo",
+      "path": "/instrument/morfeo",
+      "stage": "deployed",
+      "templateId": "instrument",
+      "isTemplate": false,
+      "openFindings": 2
+    },
+    {
+      "slug": "instrument-mosaic",
+      "path": "/instrument/mosaic",
+      "stage": "deployed",
+      "templateId": "instrument",
+      "isTemplate": false,
+      "openFindings": 2
+    },
+    {
+      "slug": "media",
+      "path": "/media",
+      "stage": "deployed",
+      "templateId": "media",
+      "isTemplate": true,
+      "openFindings": 2
+    },
+    {
+      "slug": "mirror",
+      "path": "/mirror",
+      "stage": "deployed",
+      "templateId": "listing",
+      "isTemplate": false,
+      "openFindings": 2
+    },
+    {
+      "slug": "mirror-m1",
+      "path": "/mirror/m1",
+      "stage": "deployed",
+      "templateId": "program",
+      "isTemplate": false,
+      "openFindings": 2
+    },
+    {
+      "slug": "mirror-m2m3",
+      "path": "/mirror/m2m3",
+      "stage": "deployed",
+      "templateId": "program",
+      "isTemplate": false,
+      "openFindings": 2
+    },
+    {
+      "slug": "mirror-m4",
+      "path": "/mirror/m4",
+      "stage": "deployed",
+      "templateId": "program",
+      "isTemplate": false,
+      "openFindings": 2
+    },
+    {
+      "slug": "mirror-m5",
+      "path": "/mirror/m5",
+      "stage": "deployed",
+      "templateId": "program",
+      "isTemplate": false,
+      "openFindings": 2
+    },
+    {
+      "slug": "science",
+      "path": "/science",
+      "stage": "deployed",
+      "templateId": "listing",
+      "isTemplate": false,
+      "openFindings": 2
+    },
+    {
+      "slug": "science-blackholes",
+      "path": "/science/blackholes",
+      "stage": "deployed",
+      "templateId": "program",
+      "isTemplate": false,
+      "openFindings": 2
+    },
+    {
+      "slug": "science-cosmodm",
+      "path": "/science/cosmodm",
+      "stage": "deployed",
+      "templateId": "program",
+      "isTemplate": false,
+      "openFindings": 2
+    },
+    {
+      "slug": "science-discoveries",
+      "path": "/science/discoveries",
+      "stage": "deployed",
+      "templateId": "program",
+      "isTemplate": false,
+      "openFindings": 2
+    },
+    {
+      "slug": "science-exoplanets",
+      "path": "/science/exoplanets",
+      "stage": "deployed",
+      "templateId": "program",
+      "isTemplate": false,
+      "openFindings": 2
+    },
+    {
+      "slug": "science-fundamentalphysics",
+      "path": "/science/fundamentalphysics",
+      "stage": "deployed",
+      "templateId": "program",
+      "isTemplate": false,
+      "openFindings": 2
+    },
+    {
+      "slug": "science-galaxies",
+      "path": "/science/galaxies",
+      "stage": "deployed",
+      "templateId": "program",
+      "isTemplate": false,
+      "openFindings": 2
+    },
+    {
+      "slug": "science-solarsystem",
+      "path": "/science/solarsystem",
+      "stage": "deployed",
+      "templateId": "program",
+      "isTemplate": false,
+      "openFindings": 2
+    },
+    {
+      "slug": "science-stars",
+      "path": "/science/stars",
+      "stage": "deployed",
+      "templateId": "program",
+      "isTemplate": false,
+      "openFindings": 2
+    },
+    {
+      "slug": "success-buildingon",
+      "path": "/success/buildingon",
+      "stage": "deployed",
+      "templateId": "about-road",
+      "isTemplate": false,
+      "openFindings": 2
+    },
+    {
+      "slug": "telescope",
+      "path": "/telescope",
+      "stage": "deployed",
+      "templateId": "telescope",
+      "isTemplate": true,
+      "openFindings": 2
+    },
+    {
+      "slug": "telescope-adaptiveoptics",
+      "path": "/telescope/adaptiveoptics",
+      "stage": "deployed",
+      "templateId": "program",
+      "isTemplate": false,
+      "openFindings": 2
+    },
+    {
+      "slug": "telescope-controls",
+      "path": "/telescope/controls",
+      "stage": "deployed",
+      "templateId": "program",
+      "isTemplate": false,
+      "openFindings": 2
+    },
+    {
+      "slug": "telescope-dome",
+      "path": "/telescope/dome",
+      "stage": "deployed",
+      "templateId": "telescope-dome",
+      "isTemplate": true,
+      "openFindings": 2
+    },
+    {
+      "slug": "telescope-operations",
+      "path": "/telescope/operations",
+      "stage": "deployed",
+      "templateId": "program",
+      "isTemplate": false,
+      "openFindings": 2
+    },
+    {
+      "slug": "telescope-prefocal",
+      "path": "/telescope/prefocal",
+      "stage": "deployed",
+      "templateId": "program",
+      "isTemplate": false,
+      "openFindings": 2
+    },
+    {
+      "slug": "telescope-structure",
+      "path": "/telescope/structure",
+      "stage": "deployed",
+      "templateId": "program",
+      "isTemplate": true,
+      "openFindings": 2
+    }
+  ],
+  "templates": [
+    {
+      "id": "about-facts",
+      "archetype": "about-facts",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "about-road",
+      "archetype": "about-road",
+      "pageCount": 9,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 9,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "about-timeline",
+      "archetype": "about-timeline",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "index",
+      "archetype": "index",
+      "pageCount": 2,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 2,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "instrument",
+      "archetype": "instrument-micado",
+      "pageCount": 5,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 5,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "instrument-harmoni",
+      "archetype": "instrument-harmoni",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "listing",
+      "archetype": "about",
+      "pageCount": 4,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 4,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "media",
+      "archetype": "media",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "program",
+      "archetype": "telescope-structure",
+      "pageCount": 17,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 17,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "telescope",
+      "archetype": "telescope",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "telescope-dome",
+      "archetype": "telescope-dome",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    }
+  ],
+  "blocks": {
+    "total": 13,
+    "converted": 5
+  },
+  "quality": {
+    "overall": 99,
+    "dimensions": {
+      "brand-tensions": null,
+      "design-ux": null,
+      "accessibility": null,
+      "seo": 100,
+      "content-conversion": null,
+      "ai-search": 100,
+      "cross-page": 96
+    },
+    "severity": {
+      "P1": 0,
+      "P2": 0,
+      "P3": 1
+    },
+    "history": [
+      99
+    ]
+  },
+  "findings": {
+    "byFixability": {
+      "out-of-scope": 44,
+      "design-pass": 1
+    },
+    "byAutofix": {}
+  }
+}

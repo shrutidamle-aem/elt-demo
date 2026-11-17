@@ -1,0 +1,641 @@
+[live-session] waiting to pace live navigations to elt.eso.org (2000 ms apart, 1 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+
+Visual diff @ 360px (profile "generic") — screenshots in stardust/replica/gates/about-timeline-360/vdiff-iter2/
+
+build red flags (advisory): none
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 169,
+  "textLen": 47,
+  "images": [
+   {
+    "src": "eso_logo.jpg",
+    "natural": "100x130",
+    "rendered": "38x50",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_topbar_mobile_1.png",
+    "natural": "35x35",
+    "rendered": "28x28",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_topbar_mobile_3.png",
+    "natural": "35x35",
+    "rendered": "28x28",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_topbar_mobile_4.png",
+    "natural": "35x35",
+    "rendered": "28x28",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_topbar_mobile_5.png",
+    "natural": "35x35",
+    "rendered": "28x28",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_topbar_mobile_1.png",
+    "natural": "35x35",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_topbar_mobile_3.png",
+    "natural": "35x35",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_topbar_mobile_4.png",
+    "natural": "35x35",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_topbar_mobile_5.png",
+    "natural": "35x35",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "header-about-timeline.jpg",
+    "natural": "1920x900",
+    "rendered": "360x169",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "eso_logo_transparent.png",
+    "natural": "981x1279",
+    "rendered": "30x39",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "header-science-cosmology.jpg",
+    "natural": "1920x900",
+    "rendered": "2133x1000",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "tl-first-light-full.jpg",
+    "natural": "1920x900",
+    "rendered": "2133x1000",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "tl-main-mirror-full.jpg",
+    "natural": "1920x900",
+    "rendered": "2133x1000",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "eso1704i.jpg",
+    "natural": "1920x900",
+    "rendered": "2133x1000",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "tl-m4-full.jpg",
+    "natural": "1920x900",
+    "rendered": "2133x1000",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "M3-render1-big-cc.jpg",
+    "natural": "1920x900",
+    "rendered": "2133x1000",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "tl-dome-complete-full.jpg",
+    "natural": "1920x900",
+    "rendered": "2133x1000",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "elt_internal-cc.jpg",
+    "natural": "1920x900",
+    "rendered": "2133x1000",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "tl-secondary-full.jpg",
+    "natural": "1920x900",
+    "rendered": "2133x1000",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "tl-mirror-polish-full.jpg",
+    "natural": "1920x900",
+    "rendered": "2133x1000",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "eso2310a.jpg",
+    "natural": "1920x900",
+    "rendered": "2133x1000",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "tl-mirror-polish-full.jpg",
+    "natural": "1920x900",
+    "rendered": "2133x1000",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ann18031a.jpg",
+    "natural": "1920x900",
+    "rendered": "2133x1000",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "eso1801a.jpg",
+    "natural": "1920x900",
+    "rendered": "2133x1000",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "tl-dome-contract-full.jpg",
+    "natural": "1920x900",
+    "rendered": "2133x1000",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ann15093b.jpg",
+    "natural": "1920x900",
+    "rendered": "2133x1000",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ann15073b.jpg",
+    "natural": "1920x900",
+    "rendered": "2133x1000",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ann15070b.jpg",
+    "natural": "1920x900",
+    "rendered": "2133x1000",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ann15068c.jpg",
+    "natural": "1920x900",
+    "rendered": "2133x1000",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "tl-construction-starts-full.jpg",
+    "natural": "1920x900",
+    "rendered": "2133x1000",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "eso1419a.jpg",
+    "natural": "1920x900",
+    "rendered": "2133x1000",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ann14019a.jpg",
+    "natural": "1920x900",
+    "rendered": "2133x1000",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "eso1345a.jpg",
+    "natural": "1920x900",
+    "rendered": "2133x1000",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "eso1225a.jpg",
+    "natural": "1920x900",
+    "rendered": "2133x1000",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "eso1139a.jpg",
+    "natural": "1920x900",
+    "rendered": "2133x1000",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "eso1018a.jpg",
+    "natural": "1920x900",
+    "rendered": "2133x1000",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "owl_still_a_cc.jpg",
+    "natural": "1920x900",
+    "rendered": "2133x1000",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": []
+ },
+ "build": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 169,
+  "textLen": 47,
+  "images": [
+   {
+    "src": "eso_logo.jpg",
+    "natural": "100x130",
+    "rendered": "38x50",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_topbar_mobile_1.png",
+    "natural": "35x35",
+    "rendered": "28x28",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_topbar_mobile_3.png",
+    "natural": "35x35",
+    "rendered": "28x28",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_topbar_mobile_4.png",
+    "natural": "35x35",
+    "rendered": "28x28",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_topbar_mobile_5.png",
+    "natural": "35x35",
+    "rendered": "28x28",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_topbar_mobile_1.png",
+    "natural": "35x35",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_topbar_mobile_3.png",
+    "natural": "35x35",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_topbar_mobile_4.png",
+    "natural": "35x35",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_topbar_mobile_5.png",
+    "natural": "35x35",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "header-about-timeline.jpg",
+    "natural": "1920x900",
+    "rendered": "360x169",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "eso_logo_transparent.png",
+    "natural": "981x1279",
+    "rendered": "30x39",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "header-science-cosmology.jpg",
+    "natural": "1920x900",
+    "rendered": "2133x1000",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "tl-first-light-full.jpg",
+    "natural": "1920x900",
+    "rendered": "2133x1000",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "tl-main-mirror-full.jpg",
+    "natural": "1920x900",
+    "rendered": "2133x1000",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "eso1704i.jpg",
+    "natural": "1920x900",
+    "rendered": "2133x1000",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "tl-m4-full.jpg",
+    "natural": "1920x900",
+    "rendered": "2133x1000",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "M3-render1-big-cc.jpg",
+    "natural": "1920x900",
+    "rendered": "2133x1000",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "tl-dome-complete-full.jpg",
+    "natural": "1920x900",
+    "rendered": "2133x1000",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "elt_internal-cc.jpg",
+    "natural": "1920x900",
+    "rendered": "2133x1000",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "tl-secondary-full.jpg",
+    "natural": "1920x900",
+    "rendered": "2133x1000",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "tl-mirror-polish-full.jpg",
+    "natural": "1920x900",
+    "rendered": "2133x1000",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "eso2310a.jpg",
+    "natural": "1920x900",
+    "rendered": "2133x1000",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "tl-mirror-polish-full.jpg",
+    "natural": "1920x900",
+    "rendered": "2133x1000",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ann18031a.jpg",
+    "natural": "1920x900",
+    "rendered": "2133x1000",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "eso1801a.jpg",
+    "natural": "1920x900",
+    "rendered": "2133x1000",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "tl-dome-contract-full.jpg",
+    "natural": "1920x900",
+    "rendered": "2133x1000",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ann15093b.jpg",
+    "natural": "1920x900",
+    "rendered": "2133x1000",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ann15073b.jpg",
+    "natural": "1920x900",
+    "rendered": "2133x1000",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ann15070b.jpg",
+    "natural": "1920x900",
+    "rendered": "2133x1000",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ann15068c.jpg",
+    "natural": "1920x900",
+    "rendered": "2133x1000",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "tl-construction-starts-full.jpg",
+    "natural": "1920x900",
+    "rendered": "2133x1000",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "eso1419a.jpg",
+    "natural": "1920x900",
+    "rendered": "2133x1000",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ann14019a.jpg",
+    "natural": "1920x900",
+    "rendered": "2133x1000",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "eso1345a.jpg",
+    "natural": "1920x900",
+    "rendered": "2133x1000",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "eso1225a.jpg",
+    "natural": "1920x900",
+    "rendered": "2133x1000",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "eso1139a.jpg",
+    "natural": "1920x900",
+    "rendered": "2133x1000",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "eso1018a.jpg",
+    "natural": "1920x900",
+    "rendered": "2133x1000",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "owl_still_a_cc.jpg",
+    "natural": "1920x900",
+    "rendered": "2133x1000",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": []
+ }
+}

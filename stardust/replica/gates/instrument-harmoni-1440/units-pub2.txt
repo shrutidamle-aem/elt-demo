@@ -1,0 +1,21 @@
+[live-session] waiting to pace live navigations to elt.eso.org (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 678 ms
+unit-geometry @ 1440px, tol 4px — https://elt.eso.org/instrument/HARMONI/ vs https://main--26c59ee1--aemcoder.aem.page/instrument/harmoni
+unit 1 of footer-columns (required) footer .col-12=.site-footer-row > .footer-item: origin -15,9579 360×22 vs served -15,9580 360×22 → Δx 0 Δy +1 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "eso" | 124,0 29×22 | 123,0 30×22 | -1 | 0 | +1 | 0 | ✓ |
+| text "2026" | 203,0 33×22 | 205,0 32×22 | +2 | 0 | -1 | 0 | ✓ |
+unit 2 of footer-columns (required) footer .col-12=.site-footer-row > .footer-item: origin 345,9579 1080×22 vs served 345,9580 1080×22 → Δx 0 Δy +1 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "| | | | |" | 119,0 842×22 | 119,0 843×22 | 0 | 0 | +1 | 0 | ✓ |
+| link "credits" | 119,2 49×18 | 119,2 49×18 | 0 | 0 | 0 | 0 | ✓ |
+| link "contact us" | 192,2 74×18 | 192,2 72×18 | 0 | 0 | -2 | 0 | ✓ |
+| link "subscribe to eso news" | 289,2 155×18 | 288,2 155×18 | -1 | 0 | 0 | 0 | ✓ |
+| link "accelerated by cdn77" | 468,2 149×18 | 466,2 150×18 | -2 | 0 | +1 | 0 | ✓ |
+| link "terms & conditions" | 641,2 128×18 | 639,2 128×18 | -2 | 0 | 0 | 0 | ✓ |
+| link "cookie settings and policy" | 792,2 169×18 | 791,2 170×18 | -1 | 0 | +1 | 0 | ✓ |
+.lightlinks > .row=.lightlinks > .lightlink-row: no visible unit on the served side (4 / 0 DOM matches)
+.page-section > .row.no-gutters=.tech-specs__list > .tech-row: no visible unit on the served side (5 / 0 DOM matches)
+Units: 2 compared; elements within 9, off 0, hidden 0, missing 0; 2 selector error(s) → FAIL
+json → stardust/replica/gates/instrument-harmoni-1440/units-pub2.json

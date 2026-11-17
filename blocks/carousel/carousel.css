@@ -1,0 +1,350 @@
+/*
+ * Carousel — about-facts.css (gated prototype): Swiper 5.4.5 horizontal, centredSlides,
+ * loop, spaceBetween 0, default 300 ms; arrows `.swiper-button-white` (source L15608).
+ * Default: one slide per view. Variant `facts`: two per view from 1000 px (window) and the
+ * facts title (L19899 over .container-paragraph L16125).
+ */
+@font-face {
+  font-family: swiper-icons;
+  src: url("swiper-icons.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.carousel {
+  --carousel-arrow-size: 44px;
+}
+
+.carousel .carousel-head p {
+  margin: 0;
+}
+
+.carousel .carousel-stage {
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+  z-index: 1;
+}
+
+.carousel .carousel-slides {
+  display: grid;
+  width: 100%;
+}
+
+.carousel .carousel-slide {
+  grid-area: 1 / 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  transform: translateX(calc(var(--offset, 0) * 100%));
+  transition: transform 300ms ease;
+}
+
+.carousel .carousel-slide.is-jump {
+  transition: none;
+}
+
+.carousel .carousel-slide-image {
+  width: 100%;
+  line-height: 0;
+}
+
+.carousel .carousel-slide-image picture {
+  display: block;
+}
+
+.carousel .carousel-slide-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* arrows (Swiper .swiper-button-next/-prev, white) */
+.carousel .carousel-arrow {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: calc(var(--carousel-arrow-size) / 44 * 27);
+  height: var(--carousel-arrow-size);
+  margin-top: calc(-1 * var(--carousel-arrow-size) / 2);
+  padding: 0;
+  border: 0;
+  background: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.carousel .carousel-arrow-prev {
+  left: 10px;
+  right: auto;
+}
+
+.carousel .carousel-arrow-next {
+  right: 10px;
+  left: auto;
+}
+
+.carousel .carousel-arrow::after {
+  /* icon face: a generic fallback would paint the ligature words "prev" / "next" */
+  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+  font-family: swiper-icons;
+  font-size: var(--carousel-arrow-size);
+  font-variant: initial;
+  line-height: 1;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.carousel .carousel-arrow-prev::after {
+  content: "prev";
+}
+
+.carousel .carousel-arrow-next::after {
+  content: "next";
+}
+
+/* variant facts — the facts title and two slides per view from 1000 px */
+.carousel.facts .carousel-head :is(h1, h2, h3, h4, h5, h6) {
+  margin: 0;
+  padding: 2vw 10.5%;
+  color: #ff8c00;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+@media only screen and (width >= 576px) {
+  .carousel.facts .carousel-head :is(h1, h2, h3, h4, h5, h6) { font-size: 2.26rem; }
+}
+
+@media only screen and (width >= 768px) {
+  .carousel.facts .carousel-head :is(h1, h2, h3, h4, h5, h6) { font-size: 2.51rem; }
+}
+
+@media only screen and (width >= 992px) {
+  .carousel.facts .carousel-head :is(h1, h2, h3, h4, h5, h6) { font-size: 2.8rem; }
+}
+
+@media only screen and (width >= 1000px) {
+  .carousel.facts .carousel-slide {
+    width: 50%;
+    margin-left: 25%;
+  }
+}
+
+@media only screen and (width >= 1200px) {
+  .carousel.facts .carousel-head :is(h1, h2, h3, h4, h5, h6) { font-size: 3.07rem; }
+}
+
+@media only screen and (width >= 1440px) {
+  .carousel.facts .carousel-head :is(h1, h2, h3, h4, h5, h6) { font-size: 3.38rem; }
+}
+
+@media only screen and (width >= 1680px) {
+  .carousel.facts .carousel-head :is(h1, h2, h3, h4, h5, h6) { font-size: 3.69rem; }
+}
+
+@media only screen and (width >= 1920px) {
+  .carousel.facts .carousel-head :is(h1, h2, h3, h4, h5, h6) { font-size: 4rem; }
+}
+
+/*
+ * variant science — the home page's science carousel (index.css "Science carousel", source
+ * Swiper fade/crossFade, loop, autoplay 5 s, speed 900 ms, clickable bullets; caption tiers
+ * L18341–L18369). Added by archetype-landing; the default rendering above is untouched.
+ */
+.carousel.science {
+  text-align: center;
+}
+
+.carousel.science .carousel-slide {
+  position: relative;
+  display: block;
+  opacity: 0;
+  pointer-events: none;
+  transform: none;
+  transition: opacity 900ms ease;
+}
+
+.carousel.science .carousel-slide.carousel-slide-active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.carousel.science .carousel-slide-content {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.carousel.science .carousel-caption-pos {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel.science .carousel-caption-pos p {
+  margin: 0;
+}
+
+.carousel.science .carousel-caption-title,
+.carousel.science .carousel-caption-subject {
+  color: #000;
+  text-align: left;
+}
+
+.carousel.science .carousel-caption-title a:any-link {
+  color: var(--esoblue);
+  font-weight: 400;
+}
+
+.carousel.science .carousel-caption-subject {
+  font-weight: 600;
+}
+
+.carousel.science .carousel-caption-subject a:any-link {
+  color: #fff;
+}
+
+.carousel.science .carousel-pagination {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+}
+
+.carousel.science .carousel-bullet {
+  display: block;
+  width: 13px;
+  height: 13px;
+  margin: 0 1vw 10px;
+  padding: 0;
+  border: 0;
+  border-radius: 100%;
+  background: rgb(255 255 255 / 40%);
+  font-size: 12px;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.carousel.science .carousel-bullet.carousel-bullet-active {
+  width: 15px;
+  height: 15px;
+  background: #fff;
+}
+
+@media only screen and (width <= 576px) {
+  .carousel.science .carousel-arrow::after {
+    font-size: 22px;
+  }
+
+  .carousel.science .carousel-caption-title {
+    font-size: 1rem;
+  }
+
+  .carousel.science .carousel-caption-subject {
+    font-size: 1.25rem;
+  }
+
+  .carousel.science .carousel-slide-content {
+    top: 10%;
+    bottom: 30%;
+  }
+
+  .carousel.science .carousel-caption-pos {
+    padding-left: 13%;
+    padding-right: 13%;
+  }
+}
+
+@media only screen and (width >= 576px) {
+  .carousel.science .carousel-arrow::after {
+    font-size: var(--carousel-arrow-size);
+  }
+
+  .carousel.science .carousel-caption-title {
+    font-size: 1.5rem;
+  }
+
+  .carousel.science .carousel-caption-subject {
+    font-size: 2.125rem;
+  }
+
+  .carousel.science .carousel-slide-content {
+    top: 15%;
+    bottom: 35%;
+  }
+
+  .carousel.science .carousel-caption-pos {
+    padding-left: 13%;
+    padding-right: 13%;
+  }
+}
+
+@media only screen and (width >= 768px) {
+  .carousel.science .carousel-caption-title {
+    font-size: 1.75rem;
+  }
+
+  .carousel.science .carousel-caption-subject {
+    font-size: 2.625rem;
+  }
+
+  .carousel.science .carousel-slide-content {
+    bottom: 40%;
+  }
+
+  .carousel.science .carousel-caption-pos {
+    padding-left: 10.5%;
+    padding-right: 10.5%;
+  }
+}
+
+@media only screen and (width >= 992px) {
+  .carousel.science .carousel-caption-title {
+    font-size: 2.125rem;
+  }
+
+  .carousel.science .carousel-caption-subject {
+    font-size: 3.25rem;
+  }
+
+  .carousel.science .carousel-slide-content {
+    bottom: 45%;
+  }
+}
+
+@media only screen and (width >= 1200px) {
+  .carousel.science .carousel-caption-subject {
+    font-size: 4rem;
+  }
+
+  .carousel.science .carousel-slide-content {
+    bottom: 50%;
+  }
+}
+
+@media only screen and (width >= 1440px) {
+  .carousel.science .carousel-slide-content {
+    bottom: 55%;
+  }
+}
+
+@media only screen and (width >= 1680px) {
+  .carousel.science .carousel-slide-content {
+    bottom: 60%;
+  }
+}

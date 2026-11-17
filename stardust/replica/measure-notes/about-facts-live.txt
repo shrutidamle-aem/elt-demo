@@ -1,0 +1,105 @@
+measure: overlay dismissed via extra selector .privacy-notice .privacy-button.accept-all
+measure  https://elt.eso.org/about/facts/
+  widths 1440, 360 · 16 selector(s) · 24 props · first match
+
+@ 1440px
+  root  scrollWidth  1440  viewport 1440  scrollHeight   6104
+  .container-darkblue [1 of 5]
+       x     0  y    794  w  1440  h  1298  vis  "Name Extremely Large Telescope (ELT) Ma…"
+      display: block; position: static; boxSizing: border-box; width: 1440px; height: 1298.25px; maxWidth: none; margin: 0px; padding: 32px 0px 0px; gap: normal; backgroundColor: rgb(11, 22, 39); backgroundImage: none; color: rgb(255, 255, 255); fontFamily: "Helvetica Neue LT ESO", "Helvetica Neue", Helvetica, Arial, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: 24px; letterSpacing: normal; textTransform: none; textAlign: left; borderRadius: 0px; border: 0px none rgb(255, 255, 255); boxShadow: none; opacity: 1; objectFit: fill
+  .container-darkblue > .w-100 [1 of 3]
+       x     0  y    826  w  1440  h  1266  vis  "Name Extremely Large Telescope (ELT) Ma…"
+      display: flex; position: static; boxSizing: border-box; width: 1440px; height: 1266.25px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(255, 255, 255); fontFamily: "Helvetica Neue LT ESO", "Helvetica Neue", Helvetica, Arial, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: 24px; letterSpacing: normal; textTransform: none; textAlign: left; borderRadius: 0px; border: 0px none rgb(255, 255, 255); boxShadow: none; opacity: 1; objectFit: fill
+  .fact-name [1 of 23]
+       x   180  y    826  w  1080  h    52  vis  "Name"
+      display: block; position: static; boxSizing: border-box; width: 1080px; height: 51.75px; maxWidth: none; margin: 0px 180px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(255, 140, 0); fontFamily: "Helvetica Neue LT ESO", "Helvetica Neue", Helvetica, Arial, sans-serif; fontSize: 34.5px; fontWeight: 400; lineHeight: 51.75px; letterSpacing: normal; textTransform: none; textAlign: center; borderRadius: 0px; border: 0px none rgb(255, 140, 0); boxShadow: none; opacity: 1; objectFit: fill
+  .fact-value [1 of 23]
+       x   180  y    878  w  1080  h    93  vis  "Extremely Large Telescope (ELT)"
+      display: block; position: static; boxSizing: border-box; width: 1080px; height: 92.5px; maxWidth: none; margin: 0px 180px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(255, 255, 255); fontFamily: "Helvetica Neue LT ESO", "Helvetica Neue", Helvetica, Arial, sans-serif; fontSize: 51px; fontWeight: 400; lineHeight: 76.5px; letterSpacing: normal; textTransform: none; textAlign: center; borderRadius: 0px; border: 0px none rgb(255, 255, 255); boxShadow: none; opacity: 1; objectFit: fill
+  .fact-value p [1 of 23]
+       x   180  y    878  w  1080  h    77  vis  "Extremely Large Telescope (ELT)"
+      display: block; position: static; boxSizing: border-box; width: 1080px; height: 76.5px; maxWidth: none; margin: 0px 0px 16px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(255, 255, 255); fontFamily: "Helvetica Neue LT ESO", "Helvetica Neue", Helvetica, Arial, sans-serif; fontSize: 51px; fontWeight: 400; lineHeight: 76.5px; letterSpacing: normal; textTransform: none; textAlign: center; borderRadius: 0px; border: 0px none rgb(255, 255, 255); boxShadow: none; opacity: 1; objectFit: fill
+  .facts-title
+       x     0  y   2124  w  1440  h   139  vis  "How much light will the ELT gather?"
+      display: block; position: static; boxSizing: border-box; width: 1440px; height: 138.703px; maxWidth: none; margin: 0px; padding: 28.8px 151.188px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(255, 140, 0); fontFamily: "Helvetica Neue LT ESO", "Helvetica Neue", Helvetica, Arial, sans-serif; fontSize: 54.08px; fontWeight: 400; lineHeight: 81.12px; letterSpacing: normal; textTransform: none; textAlign: center; borderRadius: 0px; border: 0px none rgb(255, 140, 0); boxShadow: none; opacity: 1; objectFit: fill
+  .swiper-container-carousel
+       x     0  y   2287  w  1440  h   576  vis  ""
+      display: block; position: relative; boxSizing: border-box; width: 1440px; height: 576px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(255, 255, 255); fontFamily: "Helvetica Neue LT ESO", "Helvetica Neue", Helvetica, Arial, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: 24px; letterSpacing: normal; textTransform: none; textAlign: left; borderRadius: 0px; border: 0px none rgb(255, 255, 255); boxShadow: none; opacity: 1; objectFit: fill
+  .swiper-container-carousel .swiper-slide-active
+       x   360  y   2287  w   720  h   576  vis  ""
+      display: flex; position: relative; boxSizing: border-box; width: 720px; height: 576px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(255, 255, 255); fontFamily: "Helvetica Neue LT ESO", "Helvetica Neue", Helvetica, Arial, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: 24px; letterSpacing: normal; textTransform: none; textAlign: left; borderRadius: 0px; border: 0px none rgb(255, 255, 255); boxShadow: none; opacity: 1; objectFit: fill
+  .swiper-container-carousel .swiper-slide-active img
+       x   360  y   2287  w   720  h   576  vis  ""  img 1280×1024 …/about-facts1.jpg
+      display: block; position: static; boxSizing: border-box; width: 720px; height: 576px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(255, 255, 255); fontFamily: "Helvetica Neue LT ESO", "Helvetica Neue", Helvetica, Arial, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: 24px; letterSpacing: normal; textTransform: none; textAlign: left; borderRadius: 0px; border: 0px none rgb(255, 255, 255); boxShadow: none; opacity: 1; objectFit: fill
+  .swiper-container-carousel2
+       x     0  y   3700  w  1440  h   576  vis  ""
+      display: block; position: relative; boxSizing: border-box; width: 1440px; height: 576px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(255, 255, 255); fontFamily: "Helvetica Neue LT ESO", "Helvetica Neue", Helvetica, Arial, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: 24px; letterSpacing: normal; textTransform: none; textAlign: left; borderRadius: 0px; border: 0px none rgb(255, 255, 255); boxShadow: none; opacity: 1; objectFit: fill
+  .swiper-button-next-carousel
+       x  1403  y   2553  w    27  h    44  vis  ""
+      display: flex; position: absolute; boxSizing: border-box; width: 27px; height: 44px; maxWidth: none; margin: -22px 0px 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(255, 255, 255); fontFamily: "Helvetica Neue LT ESO", "Helvetica Neue", Helvetica, Arial, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: 24px; letterSpacing: normal; textTransform: none; textAlign: left; borderRadius: 0px; border: 0px none rgb(255, 255, 255); boxShadow: none; opacity: 1; objectFit: fill
+  .big-header-title-facts
+       x   151  y    550  w  1138  h    80  vis  "About | Facts about the ELT"
+      display: block; position: absolute; boxSizing: border-box; width: 1137.62px; height: 80.25px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(255, 255, 255); fontFamily: "Helvetica Neue LT ESO", "Helvetica Neue", Helvetica, Arial, sans-serif; fontSize: 53.5px; fontWeight: 400; lineHeight: 80.25px; letterSpacing: normal; textTransform: none; textAlign: left; borderRadius: 0px; border: 0px none rgb(255, 255, 255); boxShadow: none; opacity: 1; objectFit: fill
+  .big-header-title-facts span
+       x   151  y    557  w   139  h    65  vis  "About"
+      display: inline; position: static; boxSizing: border-box; width: auto; height: auto; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(232, 133, 38); fontFamily: "Helvetica Neue LT ESO", "Helvetica Neue", Helvetica, Arial, sans-serif; fontSize: 53.5px; fontWeight: 400; lineHeight: 80.25px; letterSpacing: normal; textTransform: none; textAlign: left; borderRadius: 0px; border: 0px none rgb(232, 133, 38); boxShadow: none; opacity: 1; objectFit: fill
+  #big-header
+       x     0  y     50  w  1440  h   675  vis  "European Southern Observatory About | F…"
+      display: block; position: relative; boxSizing: border-box; width: 1440px; height: 675px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(255, 255, 255); fontFamily: "Helvetica Neue LT ESO", "Helvetica Neue", Helvetica, Arial, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: 24px; letterSpacing: normal; textTransform: none; textAlign: left; borderRadius: 0px; border: 0px none rgb(255, 255, 255); boxShadow: none; opacity: 1; objectFit: fill
+  .big-header-image
+       x     0  y     50  w  1440  h   675  vis  ""  img 1920×900 …/header-about-facts.jpg
+      display: block; position: fixed; boxSizing: border-box; width: 1440px; height: 675px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(255, 255, 255); fontFamily: "Helvetica Neue LT ESO", "Helvetica Neue", Helvetica, Arial, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: 24px; letterSpacing: normal; textTransform: none; textAlign: left; borderRadius: 0px; border: 0px none rgb(255, 255, 255); boxShadow: none; opacity: 1; objectFit: fill
+  .container-footer
+       x     0  y   6050  w  1440  h    54  vis  "ESO | ELT © 2026 Credits | Contact us |…"
+      display: block; position: static; boxSizing: border-box; width: 1440px; height: 54.0781px; maxWidth: none; margin: 0px; padding: 16px 0px; gap: normal; backgroundColor: rgb(32, 32, 32); backgroundImage: none; color: rgb(255, 255, 255); fontFamily: "Helvetica Neue LT ESO", "Helvetica Neue", Helvetica, Arial, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: 24px; letterSpacing: normal; textTransform: none; textAlign: left; borderRadius: 0px; border: 0px none rgb(255, 255, 255); boxShadow: none; opacity: 1; objectFit: fill
+
+@ 360px
+  root  scrollWidth   360  viewport 360  scrollHeight   4257
+  .container-darkblue [1 of 5]
+       x     0  y    219  w   360  h   897  vis  "Name Extremely Large Telescope (ELT) Ma…"
+      display: block; position: static; boxSizing: border-box; width: 360px; height: 897px; maxWidth: none; margin: 0px; padding: 32px 0px 0px; gap: normal; backgroundColor: rgb(11, 22, 39); backgroundImage: none; color: rgb(255, 255, 255); fontFamily: "Helvetica Neue LT ESO", "Helvetica Neue", Helvetica, Arial, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: 24px; letterSpacing: normal; textTransform: none; textAlign: left; borderRadius: 0px; border: 0px none rgb(255, 255, 255); boxShadow: none; opacity: 1; objectFit: fill
+  .container-darkblue > .w-100 [1 of 3]
+       x     0  y    251  w   360  h   865  vis  "Name Extremely Large Telescope (ELT) Ma…"
+      display: flex; position: static; boxSizing: border-box; width: 360px; height: 865px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(255, 255, 255); fontFamily: "Helvetica Neue LT ESO", "Helvetica Neue", Helvetica, Arial, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: 24px; letterSpacing: normal; textTransform: none; textAlign: left; borderRadius: 0px; border: 0px none rgb(255, 255, 255); boxShadow: none; opacity: 1; objectFit: fill
+  .fact-name [1 of 23]
+       x    45  y    251  w   270  h    27  vis  "Name"
+      display: block; position: static; boxSizing: border-box; width: 270px; height: 27px; maxWidth: none; margin: 0px 45px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(255, 140, 0); fontFamily: "Helvetica Neue LT ESO", "Helvetica Neue", Helvetica, Arial, sans-serif; fontSize: 18px; fontWeight: 400; lineHeight: 27px; letterSpacing: normal; textTransform: none; textAlign: center; borderRadius: 0px; border: 0px none rgb(255, 140, 0); boxShadow: none; opacity: 1; objectFit: fill
+  .fact-value [1 of 23]
+       x    45  y    278  w   270  h    82  vis  "Extremely Large Telescope (ELT)"
+      display: block; position: static; boxSizing: border-box; width: 270px; height: 82px; maxWidth: none; margin: 0px 45px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(255, 255, 255); fontFamily: "Helvetica Neue LT ESO", "Helvetica Neue", Helvetica, Arial, sans-serif; fontSize: 22px; fontWeight: 400; lineHeight: 33px; letterSpacing: normal; textTransform: none; textAlign: center; borderRadius: 0px; border: 0px none rgb(255, 255, 255); boxShadow: none; opacity: 1; objectFit: fill
+  .fact-value p [1 of 23]
+       x    45  y    278  w   270  h    66  vis  "Extremely Large Telescope (ELT)"
+      display: block; position: static; boxSizing: border-box; width: 270px; height: 66px; maxWidth: none; margin: 0px 0px 16px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(255, 255, 255); fontFamily: "Helvetica Neue LT ESO", "Helvetica Neue", Helvetica, Arial, sans-serif; fontSize: 22px; fontWeight: 400; lineHeight: 33px; letterSpacing: normal; textTransform: none; textAlign: center; borderRadius: 0px; border: 0px none rgb(255, 255, 255); boxShadow: none; opacity: 1; objectFit: fill
+  .facts-title
+       x     0  y   1148  w   360  h   110  vis  "How much light will the ELT gather?"
+      display: block; position: static; boxSizing: border-box; width: 360px; height: 110.375px; maxWidth: none; margin: 0px; padding: 7.2px 37.7969px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(255, 140, 0); fontFamily: "Helvetica Neue LT ESO", "Helvetica Neue", Helvetica, Arial, sans-serif; fontSize: 32px; fontWeight: 400; lineHeight: 48px; letterSpacing: normal; textTransform: none; textAlign: center; borderRadius: 0px; border: 0px none rgb(255, 140, 0); boxShadow: none; opacity: 1; objectFit: fill
+  .swiper-container-carousel
+       x     0  y   1282  w   360  h   576  vis  ""
+      display: block; position: relative; boxSizing: border-box; width: 360px; height: 576px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(255, 255, 255); fontFamily: "Helvetica Neue LT ESO", "Helvetica Neue", Helvetica, Arial, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: 24px; letterSpacing: normal; textTransform: none; textAlign: left; borderRadius: 0px; border: 0px none rgb(255, 255, 255); boxShadow: none; opacity: 1; objectFit: fill
+  .swiper-container-carousel .swiper-slide-active
+       x  -180  y   1282  w   720  h   576  vis  ""
+      display: flex; position: relative; boxSizing: border-box; width: 720px; height: 576px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(255, 255, 255); fontFamily: "Helvetica Neue LT ESO", "Helvetica Neue", Helvetica, Arial, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: 24px; letterSpacing: normal; textTransform: none; textAlign: left; borderRadius: 0px; border: 0px none rgb(255, 255, 255); boxShadow: none; opacity: 1; objectFit: fill
+  .swiper-container-carousel .swiper-slide-active img
+       x  -180  y   1282  w   720  h   576  vis  ""  img 1280×1024 …/about-facts1.jpg
+      display: block; position: static; boxSizing: border-box; width: 720px; height: 576px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(255, 255, 255); fontFamily: "Helvetica Neue LT ESO", "Helvetica Neue", Helvetica, Arial, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: 24px; letterSpacing: normal; textTransform: none; textAlign: left; borderRadius: 0px; border: 0px none rgb(255, 255, 255); boxShadow: none; opacity: 1; objectFit: fill
+  .swiper-container-carousel2
+       x     0  y   2416  w   360  h   576  vis  ""
+      display: block; position: relative; boxSizing: border-box; width: 360px; height: 576px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(255, 255, 255); fontFamily: "Helvetica Neue LT ESO", "Helvetica Neue", Helvetica, Arial, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: 24px; letterSpacing: normal; textTransform: none; textAlign: left; borderRadius: 0px; border: 0px none rgb(255, 255, 255); boxShadow: none; opacity: 1; objectFit: fill
+  .swiper-button-next-carousel
+       x   323  y   1548  w    27  h    44  vis  ""
+      display: flex; position: absolute; boxSizing: border-box; width: 27px; height: 44px; maxWidth: none; margin: -22px 0px 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(255, 255, 255); fontFamily: "Helvetica Neue LT ESO", "Helvetica Neue", Helvetica, Arial, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: 24px; letterSpacing: normal; textTransform: none; textAlign: left; borderRadius: 0px; border: 0px none rgb(255, 255, 255); boxShadow: none; opacity: 1; objectFit: fill
+  .big-header-title-facts
+       x    38  y    123  w   284  h    72  vis  "About | Facts about the ELT"
+      display: block; position: absolute; boxSizing: border-box; width: 284.406px; height: 72px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(255, 255, 255); fontFamily: "Helvetica Neue LT ESO", "Helvetica Neue", Helvetica, Arial, sans-serif; fontSize: 24px; fontWeight: 400; lineHeight: 36px; letterSpacing: normal; textTransform: none; textAlign: left; borderRadius: 0px; border: 0px none rgb(255, 255, 255); boxShadow: none; opacity: 1; objectFit: fill
+  .big-header-title-facts span
+       x    38  y    126  w    62  h    29  vis  "About"
+      display: inline; position: static; boxSizing: border-box; width: auto; height: auto; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(232, 133, 38); fontFamily: "Helvetica Neue LT ESO", "Helvetica Neue", Helvetica, Arial, sans-serif; fontSize: 24px; fontWeight: 400; lineHeight: 36px; letterSpacing: normal; textTransform: none; textAlign: left; borderRadius: 0px; border: 0px none rgb(232, 133, 38); boxShadow: none; opacity: 1; objectFit: fill
+  #big-header
+       x     0  y     50  w   360  h   169  vis  "European Southern Observatory About | F…"
+      display: block; position: relative; boxSizing: border-box; width: 360px; height: 168.75px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(255, 255, 255); fontFamily: "Helvetica Neue LT ESO", "Helvetica Neue", Helvetica, Arial, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: 24px; letterSpacing: normal; textTransform: none; textAlign: left; borderRadius: 0px; border: 0px none rgb(255, 255, 255); boxShadow: none; opacity: 1; objectFit: fill
+  .big-header-image
+       x     0  y     50  w   360  h   169  vis  ""  img 1920×900 …/header-about-facts.jpg
+      display: block; position: fixed; boxSizing: border-box; width: 360px; height: 168.75px; maxWidth: none; margin: 0px; padding: 0px; gap: normal; backgroundColor: rgba(0, 0, 0, 0); backgroundImage: none; color: rgb(255, 255, 255); fontFamily: "Helvetica Neue LT ESO", "Helvetica Neue", Helvetica, Arial, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: 24px; letterSpacing: normal; textTransform: none; textAlign: left; borderRadius: 0px; border: 0px none rgb(255, 255, 255); boxShadow: none; opacity: 1; objectFit: fill
+  .container-footer
+       x     0  y   4136  w   360  h   121  vis  "ESO | ELT © 2026 Credits | Contact us |…"
+      display: block; position: static; boxSizing: border-box; width: 360px; height: 120.938px; maxWidth: none; margin: 0px; padding: 16px 0px; gap: normal; backgroundColor: rgb(32, 32, 32); backgroundImage: none; color: rgb(255, 255, 255); fontFamily: "Helvetica Neue LT ESO", "Helvetica Neue", Helvetica, Arial, sans-serif; fontSize: 16px; fontWeight: 400; lineHeight: 24px; letterSpacing: normal; textTransform: none; textAlign: left; borderRadius: 0px; border: 0px none rgb(255, 255, 255); boxShadow: none; opacity: 1; objectFit: fill

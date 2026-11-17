@@ -1,0 +1,47 @@
+{
+ "url": "https://main--26c59ee1--aemcoder.aem.page/about/faq",
+ "at": "2026-11-14T02:47:20.594Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 1,
+  "offPage": 1,
+  "textNodes": 266,
+  "controls": 84,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": null,
+   "path": "div.section-text-paragraph.container-paragraph > div.faq-paragraph.faq-answer > p > a",
+   "text": "http://www.eso.org/public/announcements/ann12096/",
+   "cutMin": 47,
+   "cutMax": 47
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 88,
+   "horizontal": 1,
+   "offPage": 61,
+   "textNodes": 414,
+   "controls": 97,
+   "total": 0
+  }
+ }
+}

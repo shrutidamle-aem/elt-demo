@@ -1,0 +1,310 @@
+measure: overlay dismissed via extra selector .privacy-notice .privacy-button.accept-all
+measure: https://elt.eso.org/media/ @360: horizontal overflow +15px (scrollWidth 375 > viewport 360)
+measure: https://elt.eso.org/media/ @1440: horizontal overflow +15px (scrollWidth 1455 > viewport 1440)
+measure: http://localhost:8791/media-proposed.html @360: horizontal overflow +15px (scrollWidth 375 > viewport 360)
+measure: http://localhost:8791/media-proposed.html @1440: horizontal overflow +15px (scrollWidth 1455 > viewport 1440)
+measure  A = https://elt.eso.org/media/
+         B = http://localhost:8791/media-proposed.html
+  widths 1440, 360 · 37 selector(s) · 24 props · first match
+
+@ 1440px
+  root
+    A  scrollWidth  1455  viewport 1440  scrollHeight   5593  ◄◄ OVERFLOW +15px
+    B  scrollWidth  1455  viewport 1440  scrollHeight   5561  ◄◄ OVERFLOW +15px
+    Δ  scrollWidth 0  scrollHeight -32
+  #big-header
+    A  x     0  y     50  w  1440  h   675  vis  "European Southern Observatory News & Mu…"
+    B  x     0  y     50  w  1440  h   675  vis  "European Southern Observatory News & Mu…"
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+  .big-header-title
+    A  x   151  y    550  w  1138  h    80  vis  "News & Multimedia"
+    B  x   151  y    550  w  1138  h    80  vis  "News & Multimedia"
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+  #main-navbar
+    A  x     0  y    725  w  1440  h    69  vis  "ELT HOME ABOUT TELESCOPE INSTRUMENTS SC…"
+    B  x     0  y    725  w  1440  h    69  vis  "ELT HOME ABOUT TELESCOPE INSTRUMENTS SC…"
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+  .container-light
+    A  x     0  y    794  w  1440  h  1123  vis  "Featured Stories Share on Facebook E-Ma…"
+    B  x     0  y    794  w  1440  h  1123  vis  "Featured Stories Share on Facebook E-Ma…"
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+  .section-title-paragraph
+    A  x     0  y    826  w  1440  h   104  vis  "Featured Stories Share on Facebook E-Ma…"
+    B  x     0  y    826  w  1440  h   104  vis  "Featured Stories Share on Facebook E-Ma…"
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+  .container-light > .section-text-paragraph
+    A  x     0  y    930  w  1440  h   113  vis  "This section shows ELT-related content …"
+    B  x     0  y    930  w  1440  h   113  vis  "This section shows ELT-related content …"
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+  .story-categories
+    A  x   151  y   1106  w  1138  h   104  vis  "All Press Releases Announcements Pictur…"
+    B  x   151  y   1106  w  1138  h   104  vis  "All Press Releases Announcements Pictur…"
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+  .story-category
+    A  x   245  y   1114  w    68  h    36  vis  "All"
+    B  x   245  y   1114  w    68  h    36  vis  "All"
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+  .stories-container
+    A  x   151  y   1258  w  1138  h   587  vis  "Video 5 Nov 2026 — cs0032a Chatting sci…"
+    B  x   151  y   1258  w  1138  h   587  vis  "Video 5 Nov 2026 — cs0032a Chatting sci…"
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+  .story-container
+    A  x   151  y   1258  w   358  h   289  vis  "Video 5 Nov 2026 — cs0032a Chatting sci…"
+    B  x   151  y   1258  w   358  h   289  vis  "Video 5 Nov 2026 — cs0032a Chatting sci…"
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+  .story-img-container
+    A  x   151  y   1258  w   358  h   201  vis  "Video"
+    B  x   151  y   1258  w   358  h   201  vis  "Video"
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+  .story-category-stamp
+    A  x   431  y   1258  w    79  h    30  vis  "Video"
+    B  x   431  y   1258  w    79  h    30  vis  "Video"
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+  .story-description
+    A  x   151  y   1460  w   358  h    88  vis  "5 Nov 2026 — cs0032a Chatting science w…"
+    B  x   151  y   1460  w   358  h    88  vis  "5 Nov 2026 — cs0032a Chatting science w…"
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+  .story-description .title
+    A  x   159  y   1492  w   342  h    48  vis  "Chatting science with the world's large…"
+    B  x   159  y   1492  w   342  h    48  vis  "Chatting science with the world's large…"
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+  .story-more-container
+    A  x   931  y   1580  w   358  h   195  vis  "More..."
+    B  x   931  y   1580  w   358  h   195  vis  "More..."
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+  .story-more
+    A  x  1046  y   1647  w   128  h    60  vis  "More..."
+    B  x  1046  y   1647  w   128  h    60  vis  "More..."
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+  .bar-medium-dark
+    A  x     0  y   1917  w  1440  h    94  vis  "fullscreen Videos Sort by DATE | RANKIN…"
+    B  x     0  y   1917  w  1440  h    94  vis  "fullscreen Videos Sort by DATE | RANKIN…"
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  position: relative → static
+  .visuals-dashboard
+    A  x     0  y   1933  w  1440  h    62  vis  "fullscreen Videos Sort by DATE | RANKIN…"
+    B  x     0  y   1933  w  1440  h    62  vis  "fullscreen Videos Sort by DATE | RANKIN…"
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+  .visuals-fullscreen
+    A  x    72  y   1937  w    49  h    49  vis  "fullscreen"
+    B  x    72  y   1937  w    49  h    49  vis  "fullscreen"
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+  .media-type
+    A  x   562  y   1933  w   317  h    62  vis  "Videos"
+    B  x   562  y   1933  w   317  h    62  vis  "Videos"
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+  .visuals-dashboard > .row
+    A  x   863  y   1933  w   592  h    62  vis  "Sort by DATE | RANKING search"
+    B  x   863  y   1933  w   592  h    62  vis  "Sort by DATE | RANKING search"
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+  .media-ranking
+    A  x   863  y   1947  w   296  h    34  vis  "Sort by DATE | RANKING"
+    B  x   863  y   1947  w   296  h    34  vis  "Sort by DATE | RANKING"
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+  #videoSearchform
+    A  x  1183  y   1945  w   248  h    38  vis  "search"
+    B  x  1174  y   1945  w   266  h    38  vis  "search"
+    Δ  Δx -9 Δy 0 Δw +18 Δh 0  width: 248px → 265.797px
+  #video-searchstr
+    A  x  1183  y   1945  w   207  h    38  vis  ""
+    B  x  1174  y   1945  w   207  h    38  vis  ""
+    Δ  Δx -9 Δy 0 Δw 0 Δh 0  props equal
+  #videoSearchform .btn
+    A  x  1389  y   1945  w    42  h    38  vis  "search"
+    B  x  1380  y   1945  w    42  h    38  vis  "search"
+    Δ  Δx -9 Δy 0 Δw 0 Δh 0  props equal
+  .swiper-container-video
+    A  x     0  y   2011  w  1440  h   270  vis  "Chatting science with the world's large…"
+    B  x     0  y   2011  w  1440  h   270  vis  "Chatting science with the world's large…"
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+  .carouselVideoItem
+    A  x     0  y   2011  w   480  h   270  vis  "Chatting science with the world's large…"
+    B  x     0  y   2011  w   480  h   270  vis  "Chatting science with the world's large…"
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+  .swiper-button-next-video
+    A  x  1403  y   2124  w    27  h    44  vis  ""
+    B  x  1403  y   2124  w    27  h    44  vis  ""
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+  .swiper-button-prev-video
+    A  x    10  y   2124  w    27  h    44  vis  ""
+    B  x    10  y   2124  w    27  h    44  vis  ""
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+  .img-thumb-hover
+    A  x     0  y   1984  w   480  h   270  vis  "Chatting science with the world's large…"
+    B  x     0  y   1984  w   480  h   270  vis  "Chatting science with the world's large…"
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+  .visuals-hover-title
+    A  x     0  y   2000  w   480  h    87  vis  "Chatting science with the world's large…"
+    B  x     0  y   2000  w   480  h    87  vis  "Chatting science with the world's large…"
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+  .swiper-container-media
+    A  x     0  y   2407  w  1440  h   270  vis  "Tilting the ELT upwards Inclining the E…"
+    B  x     0  y   2375  w  1440  h   270  vis  "Tilting the ELT upwards Inclining the E…"
+    Δ  Δx 0 Δy -32 Δw 0 Δh 0  props equal
+  .img-carousel
+    A  x     0  y   2407  w   480  h   270  vis  ""  img 1024×768 …/potw2643a.jpg
+    B  x     0  y   2375  w   480  h   270  vis  ""  img 1024×768 …/potw2643a.jpg
+    Δ  Δx 0 Δy -32 Δw 0 Δh 0  props equal
+  .container-light.page-section
+    A  x     0  y   2677  w  1440  h  2861  vis  "Media information and contacts ELT news…"
+    B  x     0  y   2645  w  1440  h  2861  vis  "Media information and contacts ELT news…"
+    Δ  Δx 0 Δy -32 Δw 0 Δh 0  props equal
+  .page-section h2
+    A  x   151  y   2821  w  1138  h    33  vis  "ELT news"
+    B  x   151  y   2789  w  1138  h    33  vis  "ELT news"
+    Δ  Δx 0 Δy -32 Δw 0 Δh 0  props equal
+  .page-section .section-text-paragraph img
+    A  x   436  y   3016  w   569  h   804  vis  ""  img 1280×1810 …/brochure_0079.jpg
+    B  x   436  y   2984  w   569  h   804  vis  ""  img 1280×1810 …/brochure_0079.jpg
+    Δ  Δx 0 Δy -32 Δw 0 Δh 0  props equal
+  .container-footer   MISSING on B (1 on A)
+
+@ 360px
+  root
+    A  scrollWidth   375  viewport 360  scrollHeight   5544  ◄◄ OVERFLOW +15px
+    B  scrollWidth   375  viewport 360  scrollHeight   5512  ◄◄ OVERFLOW +15px
+    Δ  scrollWidth 0  scrollHeight -32
+  #big-header
+    A  x     0  y     50  w   360  h   169  vis  "European Southern Observatory News & Mu…"
+    B  x     0  y     50  w   360  h   169  vis  "European Southern Observatory News & Mu…"
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+  .big-header-title
+    A  x    38  y    150  w   284  h    45  vis  "News & Multimedia"
+    B  x    38  y    150  w   284  h    45  vis  "News & Multimedia"
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+  #main-navbar
+    A  x     0  y      0  w     0  h     0  hid  "ELT HOME ABOUT About the ELT Timeline L…"
+    B  x     0  y      0  w     0  h     0  hid  "ELT HOME ABOUT About the ELT Timeline L…"
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+  .container-light
+    A  x     0  y    219  w   360  h  1950  vis  "Featured Stories Share on Facebook E-Ma…"
+    B  x     0  y    219  w   360  h  1950  vis  "Featured Stories Share on Facebook E-Ma…"
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+  .section-title-paragraph
+    A  x     0  y    251  w   360  h    64  vis  "Featured Stories Share on Facebook E-Ma…"
+    B  x     0  y    251  w   360  h    64  vis  "Featured Stories Share on Facebook E-Ma…"
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+  .container-light > .section-text-paragraph
+    A  x     0  y    315  w   360  h   164  vis  "This section shows ELT-related content …"
+    B  x     0  y    315  w   360  h   164  vis  "This section shows ELT-related content …"
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+  .story-categories
+    A  x    38  y    542  w   284  h   200  vis  "All Press Releases Announcements Pictur…"
+    B  x    38  y    542  w   284  h   200  vis  "All Press Releases Announcements Pictur…"
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+  .story-category
+    A  x   108  y    550  w    60  h    24  vis  "All"
+    B  x   108  y    550  w    60  h    24  vis  "All"
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+  .stories-container
+    A  x    38  y    790  w   284  h  1360  vis  "Video 5 Nov 2026 — cs0032a Chatting sci…"
+    B  x    38  y    790  w   284  h  1360  vis  "Video 5 Nov 2026 — cs0032a Chatting sci…"
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+  .story-container
+    A  x    38  y    790  w   284  h   200  vis  "Video 5 Nov 2026 — cs0032a Chatting sci…"
+    B  x    38  y    790  w   284  h   200  vis  "Video 5 Nov 2026 — cs0032a Chatting sci…"
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+  .story-img-container
+    A  x    38  y    790  w   284  h    90  vis  "Video"
+    B  x    38  y    790  w   284  h    90  vis  "Video"
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+  .story-category-stamp
+    A  x   244  y    790  w    79  h    30  vis  "Video"
+    B  x   244  y    790  w    79  h    30  vis  "Video"
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+  .story-description
+    A  x    38  y    880  w   284  h    74  vis  "5 Nov 2026 — cs0032a Chatting science w…"
+    B  x    38  y    880  w   284  h    74  vis  "5 Nov 2026 — cs0032a Chatting science w…"
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+  .story-description .title
+    A  x    46  y    907  w   268  h    38  vis  "Chatting science with the world's large…"
+    B  x    46  y    907  w   268  h    38  vis  "Chatting science with the world's large…"
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+  .story-more-container
+    A  x    38  y   1950  w   284  h   108  vis  "More..."
+    B  x    38  y   1950  w   284  h   108  vis  "More..."
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+  .story-more
+    A  x   116  y   1974  w   128  h    60  vis  "More..."
+    B  x   116  y   1974  w   128  h    60  vis  "More..."
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+  .bar-medium-dark
+    A  x     0  y   2168  w   360  h   147  vis  "fullscreen Videos Sort by DATE | RANKIN…"
+    B  x     0  y   2168  w   360  h   147  vis  "fullscreen Videos Sort by DATE | RANKIN…"
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  position: relative → static
+  .visuals-dashboard
+    A  x     0  y   2184  w   360  h   115  vis  "fullscreen Videos Sort by DATE | RANKIN…"
+    B  x     0  y   2184  w   360  h   115  vis  "fullscreen Videos Sort by DATE | RANKIN…"
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+  .visuals-fullscreen
+    A  x    18  y   2222  w    32  h    32  vis  "fullscreen"
+    B  x    18  y   2222  w    32  h    32  vis  "fullscreen"
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+  .media-type
+    A  x     0  y   2184  w   360  h    50  vis  "Videos"
+    B  x     0  y   2184  w   360  h    50  vis  "Videos"
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+  .visuals-dashboard > .row
+    A  x   -15  y   2234  w   390  h    65  vis  "Sort by DATE | RANKING search"
+    B  x   -15  y   2234  w   390  h    65  vis  "Sort by DATE | RANKING search"
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+  .media-ranking
+    A  x   -15  y   2234  w   390  h    27  vis  "Sort by DATE | RANKING"
+    B  x   -15  y   2234  w   390  h    27  vis  "Sort by DATE | RANKING"
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+  #videoSearchform
+    A  x    56  y   2262  w   248  h    38  vis  "search"
+    B  x     0  y   2262  w   360  h    38  vis  "search"
+    Δ  Δx -56 Δy 0 Δw +112 Δh 0  width: 248px → 360px
+  #video-searchstr
+    A  x    56  y   2262  w   207  h    38  vis  ""
+    B  x     0  y   2262  w   319  h    38  vis  ""
+    Δ  Δx -56 Δy 0 Δw +112 Δh 0  width: 207px → 319px
+  #videoSearchform .btn
+    A  x   262  y   2262  w    42  h    38  vis  "search"
+    B  x   318  y   2262  w    42  h    38  vis  "search"
+    Δ  Δx +56 Δy 0 Δw 0 Δh 0  props equal
+  .swiper-container-video
+    A  x     0  y   2316  w   360  h   203  vis  "Chatting science with the world's large…"
+    B  x     0  y   2316  w   360  h   203  vis  "Chatting science with the world's large…"
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+  .carouselVideoItem
+    A  x     0  y   2316  w   360  h   203  vis  "Chatting science with the world's large…"
+    B  x     0  y   2316  w   360  h   203  vis  "Chatting science with the world's large…"
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+  .swiper-button-next-video
+    A  x   323  y   2395  w    27  h    44  vis  ""
+    B  x   323  y   2395  w    27  h    44  vis  ""
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+  .swiper-button-prev-video
+    A  x    10  y   2395  w    27  h    44  vis  ""
+    B  x    10  y   2395  w    27  h    44  vis  ""
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+  .img-thumb-hover
+    A  x     0  y   2295  w   360  h   203  vis  "Chatting science with the world's large…"
+    B  x     0  y   2295  w   360  h   203  vis  "Chatting science with the world's large…"
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+  .visuals-hover-title
+    A  x     0  y   2307  w   360  h    66  vis  "Chatting science with the world's large…"
+    B  x     0  y   2307  w   360  h    66  vis  "Chatting science with the world's large…"
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+  .swiper-container-media
+    A  x     0  y   2697  w   360  h   203  vis  "Tilting the ELT upwards Inclining the E…"
+    B  x     0  y   2665  w   360  h   203  vis  "Tilting the ELT upwards Inclining the E…"
+    Δ  Δx 0 Δy -32 Δw 0 Δh 0  props equal
+  .img-carousel
+    A  x     0  y   2697  w   360  h   203  vis  ""  img 1024×768 …/potw2643a.jpg
+    B  x     0  y   2665  w   360  h   203  vis  ""  img 1024×768 …/potw2643a.jpg
+    Δ  Δx 0 Δy -32 Δw 0 Δh 0  props equal
+  .container-light.page-section
+    A  x     0  y   2900  w   360  h  2524  vis  "Media information and contacts ELT news…"
+    B  x     0  y   2868  w   360  h  2524  vis  "Media information and contacts ELT news…"
+    Δ  Δx 0 Δy -32 Δw 0 Δh 0  props equal
+  .page-section h2
+    A  x    38  y   3037  w   284  h    27  vis  "ELT news"
+    B  x    38  y   3005  w   284  h    27  vis  "ELT news"
+    Δ  Δx 0 Δy -32 Δw 0 Δh 0  props equal
+  .page-section .section-text-paragraph img
+    A  x   109  y   3244  w   142  h   201  vis  ""  img 1280×1810 …/brochure_0079.jpg
+    B  x   109  y   3212  w   142  h   201  vis  ""  img 1280×1810 …/brochure_0079.jpg
+    Δ  Δx 0 Δy -32 Δw 0 Δh 0  props equal
+  .container-footer   MISSING on B (1 on A)

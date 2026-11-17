@@ -1,0 +1,379 @@
+{
+  "discovery": {
+    "fetchTechnique": "chrome",
+    "count": 44,
+    "concurrency": 3,
+    "technique": "given",
+    "userChoice": "--pages: the 44 URLs of stardust/.labs/site-plan.json (run scope fixed by the runner)",
+    "recaptures": [
+      "full re-crawl with the site consent control accepted (STARDUST_CONSENT_SELECTOR)",
+      "telescope-dome re-run after a 45 s goto timeout",
+      "14 pages re-crawled with STARDUST_LIVE_STATE=0 after a language cookie (set via /chile/?lang) rendered them in Spanish"
+    ]
+  },
+  "consent": {
+    "method": "selector .privacy-notice .privacy-button.accept-all"
+  },
+  "favicon": null,
+  "crawl": {
+    "failures": [],
+    "pageTimeoutMs": 120000
+  },
+  "captureGaps": {
+    "roots": [],
+    "detail": "uncaptured first-level targets: none (no locale root captured)"
+  },
+  "dynamicSurface": {
+    "pages": 15,
+    "pagesWithSameSiteData": 1,
+    "pagesWithSearchForm": 1,
+    "pagesHydrated": 0,
+    "truncatedPages": 0,
+    "endpoints": [
+      {
+        "method": "POST",
+        "host": "jnn-pa.googleapis.com",
+        "path": "/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json+protobuf",
+        "sameSite": false,
+        "example": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+        "pages": 2,
+        "examples": [
+          "instrument-metis",
+          "mirror"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.youtube-nocookie.com",
+        "path": "/youtubei/v1/log_event",
+        "query": [
+          "alt"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://www.youtube-nocookie.com/youtubei/v1/log_event",
+        "pages": 2,
+        "examples": [
+          "instrument-metis",
+          "mirror"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "elt.eso.org",
+        "path": "/media/innervid_paginated/all/date/",
+        "query": [
+          "page"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://elt.eso.org/media/innervid_paginated/all/date/",
+        "pages": 1,
+        "examples": [
+          "media"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "elt.eso.org",
+        "path": "/media/innerimg_paginated/all/date/",
+        "query": [
+          "page"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://elt.eso.org/media/innerimg_paginated/all/date/",
+        "pages": 1,
+        "examples": [
+          "media"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.gstatic.com",
+        "path": "/youtube/img/icons/mweb/youtube_fill/logo/v2/67px.svg",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/svg+xml",
+        "sameSite": false,
+        "example": "https://www.gstatic.com/youtube/img/icons/mweb/youtube_fill/logo/v2/67px.svg",
+        "pages": 1,
+        "examples": [
+          "mirror"
+        ]
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "www.youtube-nocookie.com",
+        "pages": 2,
+        "examples": [
+          "instrument-metis",
+          "mirror"
+        ]
+      },
+      {
+        "host": "www.google.com",
+        "pages": 2,
+        "examples": [
+          "instrument-metis",
+          "mirror"
+        ]
+      }
+    ],
+    "frameworkHints": [],
+    "globalState": [],
+    "formTargets": [
+      {
+        "action": "https://elt.eso.org/media/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "search"
+        ],
+        "pages": 2,
+        "examples": [
+          "media",
+          "media"
+        ]
+      }
+    ]
+  },
+  "visionCheck": [
+    {
+      "slug": "index",
+      "verdict": "ok",
+      "notes": "rendered; the fixed .privacy-settings panel (parked below the viewport) appears in fullPage screenshots only — capture artefact, not page content"
+    },
+    {
+      "slug": "index-b7ff",
+      "verdict": "ok",
+      "notes": "duplicate of index (/?lang)"
+    },
+    {
+      "slug": "chile",
+      "verdict": "ok",
+      "notes": "rendered; the fixed .privacy-settings panel (parked below the viewport) appears in fullPage screenshots only — capture artefact, not page content"
+    },
+    {
+      "slug": "about",
+      "verdict": "ok",
+      "notes": "rendered; the fixed .privacy-settings panel (parked below the viewport) appears in fullPage screenshots only — capture artefact, not page content"
+    },
+    {
+      "slug": "telescope",
+      "verdict": "ok",
+      "notes": "rendered; the fixed .privacy-settings panel (parked below the viewport) appears in fullPage screenshots only — capture artefact, not page content"
+    },
+    {
+      "slug": "mirror",
+      "verdict": "ok",
+      "notes": "rendered; the fixed .privacy-settings panel (parked below the viewport) appears in fullPage screenshots only — capture artefact, not page content"
+    },
+    {
+      "slug": "instrument",
+      "verdict": "ok",
+      "notes": "rendered; the fixed .privacy-settings panel (parked below the viewport) appears in fullPage screenshots only — capture artefact, not page content"
+    },
+    {
+      "slug": "science",
+      "verdict": "ok",
+      "notes": "rendered; the fixed .privacy-settings panel (parked below the viewport) appears in fullPage screenshots only — capture artefact, not page content"
+    },
+    {
+      "slug": "media",
+      "verdict": "ok",
+      "notes": "rendered; the fixed .privacy-settings panel (parked below the viewport) appears in fullPage screenshots only — capture artefact, not page content"
+    },
+    {
+      "slug": "credits",
+      "verdict": "ok",
+      "notes": "rendered; the fixed .privacy-settings panel (parked below the viewport) appears in fullPage screenshots only — capture artefact, not page content"
+    },
+    {
+      "slug": "about-timeline",
+      "verdict": "ok",
+      "notes": "rendered; the fixed .privacy-settings panel (parked below the viewport) appears in fullPage screenshots only — capture artefact, not page content"
+    },
+    {
+      "slug": "about-location",
+      "verdict": "ok",
+      "notes": "rendered; the fixed .privacy-settings panel (parked below the viewport) appears in fullPage screenshots only — capture artefact, not page content"
+    },
+    {
+      "slug": "about-webcams",
+      "verdict": "ok",
+      "notes": "rendered; the fixed .privacy-settings panel (parked below the viewport) appears in fullPage screenshots only — capture artefact, not page content"
+    },
+    {
+      "slug": "about-facts",
+      "verdict": "ok",
+      "notes": "rendered; the fixed .privacy-settings panel (parked below the viewport) appears in fullPage screenshots only — capture artefact, not page content"
+    },
+    {
+      "slug": "about-road",
+      "verdict": "ok",
+      "notes": "rendered; the fixed .privacy-settings panel (parked below the viewport) appears in fullPage screenshots only — capture artefact, not page content"
+    },
+    {
+      "slug": "about-team",
+      "verdict": "ok",
+      "notes": "rendered; the fixed .privacy-settings panel (parked below the viewport) appears in fullPage screenshots only — capture artefact, not page content"
+    },
+    {
+      "slug": "about-workinggroups",
+      "verdict": "ok",
+      "notes": "rendered; the fixed .privacy-settings panel (parked below the viewport) appears in fullPage screenshots only — capture artefact, not page content"
+    },
+    {
+      "slug": "about-industrial",
+      "verdict": "ok",
+      "notes": "rendered; the fixed .privacy-settings panel (parked below the viewport) appears in fullPage screenshots only — capture artefact, not page content"
+    },
+    {
+      "slug": "about-faq",
+      "verdict": "ok",
+      "notes": "rendered; the fixed .privacy-settings panel (parked below the viewport) appears in fullPage screenshots only — capture artefact, not page content"
+    },
+    {
+      "slug": "telescope-dome",
+      "verdict": "ok",
+      "notes": "rendered; the fixed .privacy-settings panel (parked below the viewport) appears in fullPage screenshots only — capture artefact, not page content"
+    },
+    {
+      "slug": "telescope-structure",
+      "verdict": "ok",
+      "notes": "rendered; the fixed .privacy-settings panel (parked below the viewport) appears in fullPage screenshots only — capture artefact, not page content"
+    },
+    {
+      "slug": "mirror-m1",
+      "verdict": "ok",
+      "notes": "rendered; the fixed .privacy-settings panel (parked below the viewport) appears in fullPage screenshots only — capture artefact, not page content"
+    },
+    {
+      "slug": "mirror-m2m3",
+      "verdict": "ok",
+      "notes": "rendered; the fixed .privacy-settings panel (parked below the viewport) appears in fullPage screenshots only — capture artefact, not page content"
+    },
+    {
+      "slug": "mirror-m4",
+      "verdict": "ok",
+      "notes": "rendered; the fixed .privacy-settings panel (parked below the viewport) appears in fullPage screenshots only — capture artefact, not page content"
+    },
+    {
+      "slug": "mirror-m5",
+      "verdict": "ok",
+      "notes": "rendered; the fixed .privacy-settings panel (parked below the viewport) appears in fullPage screenshots only — capture artefact, not page content"
+    },
+    {
+      "slug": "telescope-adaptiveoptics",
+      "verdict": "ok",
+      "notes": "rendered; the fixed .privacy-settings panel (parked below the viewport) appears in fullPage screenshots only — capture artefact, not page content"
+    },
+    {
+      "slug": "telescope-prefocal",
+      "verdict": "ok",
+      "notes": "rendered; the fixed .privacy-settings panel (parked below the viewport) appears in fullPage screenshots only — capture artefact, not page content"
+    },
+    {
+      "slug": "telescope-controls",
+      "verdict": "ok",
+      "notes": "rendered; the fixed .privacy-settings panel (parked below the viewport) appears in fullPage screenshots only — capture artefact, not page content"
+    },
+    {
+      "slug": "telescope-operations",
+      "verdict": "ok",
+      "notes": "rendered; the fixed .privacy-settings panel (parked below the viewport) appears in fullPage screenshots only — capture artefact, not page content"
+    },
+    {
+      "slug": "instrument-harmoni",
+      "verdict": "ok",
+      "notes": "rendered; the fixed .privacy-settings panel (parked below the viewport) appears in fullPage screenshots only — capture artefact, not page content"
+    },
+    {
+      "slug": "instrument-micado",
+      "verdict": "ok",
+      "notes": "rendered; the fixed .privacy-settings panel (parked below the viewport) appears in fullPage screenshots only — capture artefact, not page content"
+    },
+    {
+      "slug": "instrument-morfeo",
+      "verdict": "ok",
+      "notes": "rendered; the fixed .privacy-settings panel (parked below the viewport) appears in fullPage screenshots only — capture artefact, not page content"
+    },
+    {
+      "slug": "instrument-metis",
+      "verdict": "ok",
+      "notes": "rendered; the fixed .privacy-settings panel (parked below the viewport) appears in fullPage screenshots only — capture artefact, not page content"
+    },
+    {
+      "slug": "instrument-andes",
+      "verdict": "ok",
+      "notes": "rendered; the fixed .privacy-settings panel (parked below the viewport) appears in fullPage screenshots only — capture artefact, not page content"
+    },
+    {
+      "slug": "instrument-mosaic",
+      "verdict": "ok",
+      "notes": "rendered; the fixed .privacy-settings panel (parked below the viewport) appears in fullPage screenshots only — capture artefact, not page content"
+    },
+    {
+      "slug": "science-solarsystem",
+      "verdict": "ok",
+      "notes": "rendered; the fixed .privacy-settings panel (parked below the viewport) appears in fullPage screenshots only — capture artefact, not page content"
+    },
+    {
+      "slug": "science-exoplanets",
+      "verdict": "ok",
+      "notes": "rendered; the fixed .privacy-settings panel (parked below the viewport) appears in fullPage screenshots only — capture artefact, not page content"
+    },
+    {
+      "slug": "science-stars",
+      "verdict": "ok",
+      "notes": "rendered; the fixed .privacy-settings panel (parked below the viewport) appears in fullPage screenshots only — capture artefact, not page content"
+    },
+    {
+      "slug": "science-blackholes",
+      "verdict": "ok",
+      "notes": "rendered; the fixed .privacy-settings panel (parked below the viewport) appears in fullPage screenshots only — capture artefact, not page content"
+    },
+    {
+      "slug": "science-galaxies",
+      "verdict": "ok",
+      "notes": "rendered; the fixed .privacy-settings panel (parked below the viewport) appears in fullPage screenshots only — capture artefact, not page content"
+    },
+    {
+      "slug": "science-cosmodm",
+      "verdict": "ok",
+      "notes": "rendered; the fixed .privacy-settings panel (parked below the viewport) appears in fullPage screenshots only — capture artefact, not page content"
+    },
+    {
+      "slug": "science-fundamentalphysics",
+      "verdict": "ok",
+      "notes": "rendered; the fixed .privacy-settings panel (parked below the viewport) appears in fullPage screenshots only — capture artefact, not page content"
+    },
+    {
+      "slug": "science-discoveries",
+      "verdict": "ok",
+      "notes": "rendered; the fixed .privacy-settings panel (parked below the viewport) appears in fullPage screenshots only — capture artefact, not page content"
+    },
+    {
+      "slug": "success-buildingon",
+      "verdict": "ok",
+      "notes": "rendered; the fixed .privacy-settings panel (parked below the viewport) appears in fullPage screenshots only — capture artefact, not page content"
+    }
+  ],
+  "siblingCandidates": [
+    {
+      "origin": "https://www.eso.org",
+      "confidence": "high",
+      "evidence": "header logo + footer links point to eso.org",
+      "decision": "excluded — parent organisation site, different design system; scope is fixed by the run plan"
+    }
+  ]
+}

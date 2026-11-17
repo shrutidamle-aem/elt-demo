@@ -1,0 +1,12 @@
+/*
+ * Teaser Video — index.css "Teaser video" (gated prototype; source `.video-container`,
+ * canon.css `video { display: block }`).
+ */
+.teaser-video .teaser-video-frame {
+  position: relative;
+}
+
+.teaser-video video {
+  display: block;
+  width: 100%;
+}

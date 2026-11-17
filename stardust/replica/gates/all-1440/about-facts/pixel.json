@@ -1,0 +1,91 @@
+{
+  "a": "stardust/replica/gates/all-1440/about-facts/origin.png",
+  "b": "stardust/replica/gates/all-1440/about-facts/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 6104,
+    "mode": "overlap"
+  },
+  "heightDelta": 0,
+  "differingPixels": 134305,
+  "pct": 1.53,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/about-facts/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 4.66,
+  "textBoxes": 142,
+  "textPixels": 1713988,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.2
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 2.3
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 1.2
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 4.1
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0.9
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 1
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 1.2
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 1
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 0.6
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 2.1
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 1.6
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 2
+    },
+    {
+      "y0": 6000,
+      "y1": 6104,
+      "pct": 2.3
+    }
+  ],
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--26c59ee1--aemcoder.aem.page/about/facts"
+  }
+}

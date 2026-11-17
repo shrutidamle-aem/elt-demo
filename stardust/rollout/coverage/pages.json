@@ -1,0 +1,1829 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-11-13T14:59:50.417Z",
+    "readArtifacts": [
+      "stardust/migrated"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-14T04:18:37.329Z",
+  "pages": [
+    {
+      "slug": "about",
+      "path": "/about",
+      "title": "About",
+      "templateId": "listing",
+      "source": {
+        "migratedHtml": "cluster-listing:about",
+        "metaJson": null,
+        "sourceHash": "sha256:fc24ad68f78e65844cff206a56d52d02e9f7436fdaba29a5ba1cd93c78f1e271"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--26c59ee1--aemcoder.aem.page/about",
+        "deployedAt": "2026-11-13T20:47:48.097Z",
+        "verifiedAt": "2026-11-14T04:18:30.523Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 7.55,
+          "heightDelta": 1,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 14,
+            "variable": [
+              ".privacy-notice",
+              ".privacy-settings"
+            ]
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T04:03:39.191Z"
+        }
+      }
+    },
+    {
+      "slug": "about-facts",
+      "path": "/about/facts",
+      "title": "Facts about the ELT | ELT | ESO",
+      "templateId": "about-facts",
+      "source": {
+        "migratedHtml": "stardust/migrated/about/facts/index.html",
+        "metaJson": "stardust/migrated/about/facts/_meta.json",
+        "sourceHash": "sha256:961fab46dbc4c554389d18de5f668c9163e05c4f85e0183d236a0acee8ef4a59",
+        "sourceUrl": "https://elt.eso.org/about/facts/"
+      },
+      "blocks": [
+        "facts",
+        "carousel"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--26c59ee1--aemcoder.aem.page/about/facts",
+        "deployedAt": "2026-11-13T16:09:30.090Z",
+        "verifiedAt": "2026-11-14T04:18:30.523Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 3.26,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 6,
+            "variable": [
+              ".privacy-notice",
+              ".privacy-settings"
+            ]
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T04:03:39.191Z"
+        }
+      }
+    },
+    {
+      "slug": "about-faq",
+      "path": "/about/faq",
+      "title": "about-faq",
+      "templateId": "about-road",
+      "source": {
+        "migratedHtml": "replica:about-faq",
+        "metaJson": null,
+        "sourceHash": "sha256:2018306d33c6044827fcd71d8a02bdfeef330810fc7a04c458031ceebf620caa"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--26c59ee1--aemcoder.aem.page/about/faq",
+        "deployedAt": "2026-11-13T19:01:30.067Z",
+        "verifiedAt": "2026-11-14T04:18:30.523Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 8.48,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 42,
+            "variable": [
+              ".privacy-notice",
+              ".privacy-settings"
+            ]
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T04:03:39.191Z"
+        }
+      }
+    },
+    {
+      "slug": "about-industrial",
+      "path": "/about/industrial",
+      "title": "about-industrial",
+      "templateId": "about-road",
+      "source": {
+        "migratedHtml": "replica:about-industrial",
+        "metaJson": null,
+        "sourceHash": "sha256:a8f6b032260debdecfdd5f3a6e07c5dcc614381d9d893febf493e3d2a5848cf2"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--26c59ee1--aemcoder.aem.page/about/industrial",
+        "deployedAt": "2026-11-13T21:24:20.277Z",
+        "verifiedAt": "2026-11-14T04:18:30.523Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 6.1,
+          "heightDelta": 181,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 53,
+            "variable": [
+              ".privacy-notice",
+              ".privacy-settings"
+            ]
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T04:03:39.191Z"
+        }
+      }
+    },
+    {
+      "slug": "about-location",
+      "path": "/about/location",
+      "title": "about-location",
+      "templateId": "about-road",
+      "source": {
+        "migratedHtml": "replica:about-location",
+        "metaJson": null,
+        "sourceHash": "sha256:d3a9544bc076cb2fcaff5e0e659f69a2008fbc069c4863342db67624b981df3e"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--26c59ee1--aemcoder.aem.page/about/location",
+        "deployedAt": "2026-11-13T21:14:00.795Z",
+        "verifiedAt": "2026-11-14T04:18:30.523Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 5.61,
+          "heightDelta": -3,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 9,
+            "variable": [
+              ".privacy-notice",
+              ".privacy-settings"
+            ]
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T04:03:39.191Z"
+        }
+      }
+    },
+    {
+      "slug": "about-road",
+      "path": "/about/road",
+      "title": "The road to the ELT | ELT | ESO",
+      "templateId": "about-road",
+      "source": {
+        "migratedHtml": "stardust/migrated/about/road/index.html",
+        "metaJson": "stardust/migrated/about/road/_meta.json",
+        "sourceHash": "sha256:1c5a05d4f076bbdfc4dd49f32dc8524ae17b2ce711e54f8ad35efa4d9531b746",
+        "sourceUrl": "https://elt.eso.org/about/road/"
+      },
+      "blocks": [
+        "text-section",
+        "share-bar"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--26c59ee1--aemcoder.aem.page/about/road",
+        "deployedAt": "2026-11-13T16:28:41.400Z",
+        "verifiedAt": "2026-11-14T04:18:30.523Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 6.86,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 27,
+            "variable": [
+              ".privacy-notice",
+              ".privacy-settings"
+            ]
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T04:03:39.191Z"
+        }
+      }
+    },
+    {
+      "slug": "about-team",
+      "path": "/about/team",
+      "title": "about-team",
+      "templateId": "about-road",
+      "source": {
+        "migratedHtml": "replica:about-team",
+        "metaJson": null,
+        "sourceHash": "sha256:c815a3b13e0cae04efbbc3182f809c57abd5ac43b9ae0ba4a0842772baf6f9ad"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--26c59ee1--aemcoder.aem.page/about/team",
+        "deployedAt": "2026-11-13T19:01:29.989Z",
+        "verifiedAt": "2026-11-14T04:18:30.523Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 5.94,
+          "heightDelta": -43,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 13,
+            "variable": [
+              ".privacy-notice",
+              ".privacy-settings"
+            ]
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T04:03:39.191Z"
+        }
+      }
+    },
+    {
+      "slug": "about-timeline",
+      "path": "/about/timeline",
+      "title": "Timeline | ELT | ESO",
+      "templateId": "about-timeline",
+      "source": {
+        "migratedHtml": "stardust/migrated/about/timeline/index.html",
+        "metaJson": "stardust/migrated/about/timeline/_meta.json",
+        "sourceHash": "sha256:bb4adffa0188bea5d37180521d4f21998f9059010e8c7bc09d2d9f62a4a6fb92",
+        "sourceUrl": "https://elt.eso.org/about/timeline/"
+      },
+      "blocks": [
+        "timeline"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": null,
+        "deployedAt": "2026-11-14T04:03:44.237Z",
+        "verifiedAt": "2026-11-14T04:18:30.523Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 8.61,
+          "heightDelta": 33,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 19,
+            "variable": [
+              ".privacy-notice",
+              ".privacy-settings"
+            ]
+          },
+          "reasons": [
+            "units off 6 hidden 0 missing 0"
+          ],
+          "override": "delivered",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T04:03:39.191Z"
+        }
+      }
+    },
+    {
+      "slug": "about-webcams",
+      "path": "/about/webcams",
+      "title": "about-webcams",
+      "templateId": "about-road",
+      "source": {
+        "migratedHtml": "replica:about-webcams",
+        "metaJson": null,
+        "sourceHash": "sha256:74891a10e35c7902fcb6a6b6d90c971aa4b88c7e8adf7881700b0110093b0f15"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--26c59ee1--aemcoder.aem.page/about/webcams",
+        "deployedAt": "2026-11-13T20:52:00.398Z",
+        "verifiedAt": "2026-11-14T04:18:30.523Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 4.2,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 11,
+            "variable": [
+              ".privacy-notice",
+              ".privacy-settings"
+            ]
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T04:03:39.191Z"
+        }
+      }
+    },
+    {
+      "slug": "about-workinggroups",
+      "path": "/about/workinggroups",
+      "title": "about-workinggroups",
+      "templateId": "about-road",
+      "source": {
+        "migratedHtml": "replica:about-workinggroups",
+        "metaJson": null,
+        "sourceHash": "sha256:0a8f4d971449d112f60511501ec3b06c092b5485047e4914da82d64172ee10e9"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--26c59ee1--aemcoder.aem.page/about/workinggroups",
+        "deployedAt": "2026-11-13T21:43:09.117Z",
+        "verifiedAt": "2026-11-14T04:18:30.523Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 9.75,
+          "heightDelta": 46,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 6,
+            "variable": [
+              ".privacy-notice",
+              ".privacy-settings"
+            ]
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T04:03:39.191Z"
+        }
+      }
+    },
+    {
+      "slug": "chile",
+      "path": "/chile",
+      "title": "ELT | ESO Chile",
+      "templateId": "index",
+      "source": {
+        "migratedHtml": "rollout:chile",
+        "metaJson": null,
+        "sourceHash": "sha256:b0069d911445989aa91b7c7bc2ab448714aa16f87dfad2511f190d7cf78606a6"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--26c59ee1--aemcoder.aem.page/chile",
+        "deployedAt": "2026-11-13T20:04:24.976Z",
+        "verifiedAt": "2026-11-14T04:18:30.523Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2.68,
+          "heightDelta": -1,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 12,
+            "variable": [
+              ".privacy-notice",
+              ".privacy-settings"
+            ]
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T04:03:39.191Z"
+        }
+      }
+    },
+    {
+      "slug": "credits",
+      "path": "/credits",
+      "title": "credits",
+      "templateId": "about-road",
+      "source": {
+        "migratedHtml": "replica:credits",
+        "metaJson": null,
+        "sourceHash": "sha256:035f99959584771398d90a024c72f5ac082d1aa863ad29f9a8454f72adb3e123"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--26c59ee1--aemcoder.aem.page/credits",
+        "deployedAt": "2026-11-13T19:15:28.077Z",
+        "verifiedAt": "2026-11-14T04:18:30.523Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 7.59,
+          "heightDelta": 49,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 15,
+            "variable": [
+              ".privacy-notice",
+              ".privacy-settings"
+            ]
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T04:03:39.191Z"
+        }
+      }
+    },
+    {
+      "slug": "index",
+      "path": "/",
+      "title": "ELT | ESO",
+      "templateId": "index",
+      "source": {
+        "migratedHtml": "stardust/migrated/index.html",
+        "metaJson": "stardust/migrated/_meta.json",
+        "sourceHash": "sha256:54bb63020ab1508b106feabdc9277d06f39cd6ad9cd62bc2f98d8be4f29cb257",
+        "sourceUrl": "https://elt.eso.org/"
+      },
+      "blocks": [
+        "home-tiles",
+        "carousel",
+        "webcam-panel"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--26c59ee1--aemcoder.aem.page/",
+        "deployedAt": "2026-11-13T19:36:46.624Z",
+        "verifiedAt": "2026-11-14T04:18:30.523Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2.76,
+          "heightDelta": -1,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 12,
+            "variable": [
+              ".privacy-notice",
+              ".privacy-settings"
+            ]
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T04:03:39.191Z"
+        }
+      }
+    },
+    {
+      "slug": "instrument",
+      "path": "/instrument",
+      "title": "Instrument",
+      "templateId": "listing",
+      "source": {
+        "migratedHtml": "cluster-listing:instrument",
+        "metaJson": null,
+        "sourceHash": "sha256:b9268d58015c4725aa5fbed0b3416cafe6f35b09a454a085fd8b59023ec7b490"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--26c59ee1--aemcoder.aem.page/instrument",
+        "deployedAt": "2026-11-13T20:47:48.457Z",
+        "verifiedAt": "2026-11-14T04:18:30.523Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 9.55,
+          "heightDelta": -28,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 15,
+            "variable": [
+              ".privacy-notice",
+              ".privacy-settings"
+            ]
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T04:03:39.191Z"
+        }
+      }
+    },
+    {
+      "slug": "instrument-andes",
+      "path": "/instrument/andes",
+      "title": "ANDES",
+      "templateId": "instrument",
+      "source": {
+        "migratedHtml": "replica:instrument-andes",
+        "metaJson": null,
+        "sourceHash": "sha256:3cc174fdffd5825dfe719b0fc2629096bb0b54b437b0c4bbd214520f01cb24ae"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--26c59ee1--aemcoder.aem.page/instrument/andes",
+        "deployedAt": "2026-11-13T21:36:55.595Z",
+        "verifiedAt": "2026-11-14T04:18:30.523Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 6.83,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 23,
+            "variable": [
+              ".privacy-notice",
+              ".privacy-settings"
+            ]
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T04:03:39.191Z"
+        }
+      }
+    },
+    {
+      "slug": "instrument-harmoni",
+      "path": "/instrument/harmoni",
+      "title": "HARMONI | ELT | ESO",
+      "templateId": "instrument-harmoni",
+      "source": {
+        "migratedHtml": "stardust/migrated/instrument/HARMONI/index.html",
+        "metaJson": "stardust/migrated/instrument/HARMONI/_meta.json",
+        "sourceHash": "sha256:53c313ca0de0dcfd4e2d2116f098d5f1bec66030fba02beea2f321758eac2015",
+        "sourceUrl": "https://elt.eso.org/instrument/HARMONI/"
+      },
+      "blocks": [
+        "page-intro",
+        "subpage-tiles",
+        "text-section",
+        "share-bar",
+        "tech-table"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--26c59ee1--aemcoder.aem.page/instrument/harmoni",
+        "deployedAt": "2026-11-13T20:59:21.625Z",
+        "verifiedAt": "2026-11-14T04:18:30.523Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 6.77,
+          "heightDelta": -1,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 26,
+            "variable": [
+              ".privacy-notice",
+              ".privacy-settings"
+            ]
+          },
+          "reasons": [
+            "units off 1 hidden 0 missing 0"
+          ],
+          "override": "delivered",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T04:03:39.191Z"
+        }
+      }
+    },
+    {
+      "slug": "instrument-metis",
+      "path": "/instrument/metis",
+      "title": "METIS",
+      "templateId": "instrument",
+      "source": {
+        "migratedHtml": "replica:instrument-metis",
+        "metaJson": null,
+        "sourceHash": "sha256:fa3b7229dd710c2c17fb33fcb8c08948d3e760bd2ed8a65b158da90e47b02d7d"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--26c59ee1--aemcoder.aem.page/instrument/metis",
+        "deployedAt": "2026-11-13T20:02:40.765Z",
+        "verifiedAt": "2026-11-14T04:18:36.934Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 7.74,
+          "heightDelta": -5,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 24,
+            "variable": [
+              ".privacy-notice",
+              ".privacy-settings"
+            ]
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T04:03:39.191Z"
+        }
+      }
+    },
+    {
+      "slug": "instrument-micado",
+      "path": "/instrument/micado",
+      "title": "MICADO",
+      "templateId": "instrument",
+      "source": {
+        "migratedHtml": "replica:instrument-micado",
+        "metaJson": null,
+        "sourceHash": "sha256:8c1d6c39bb274f3e24c9efac6b23ea6e6bddde510374eaf4f81c76361bf62130"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--26c59ee1--aemcoder.aem.page/instrument/micado",
+        "deployedAt": "2026-11-13T20:02:40.630Z",
+        "verifiedAt": "2026-11-14T04:18:37.003Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 7.95,
+          "heightDelta": -5,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 22,
+            "variable": [
+              ".privacy-notice",
+              ".privacy-settings"
+            ]
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T04:03:39.191Z"
+        }
+      }
+    },
+    {
+      "slug": "instrument-morfeo",
+      "path": "/instrument/morfeo",
+      "title": "MORFEO",
+      "templateId": "instrument",
+      "source": {
+        "migratedHtml": "replica:instrument-morfeo",
+        "metaJson": null,
+        "sourceHash": "sha256:c5afd5501a004bbabc5e34fe6e3c5fba20ab4173e754a13a19966dba8388123e"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--26c59ee1--aemcoder.aem.page/instrument/morfeo",
+        "deployedAt": "2026-11-13T20:02:40.697Z",
+        "verifiedAt": "2026-11-14T04:18:30.523Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 9.36,
+          "heightDelta": 5,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 21,
+            "variable": [
+              ".privacy-notice",
+              ".privacy-settings"
+            ]
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T04:03:39.191Z"
+        }
+      }
+    },
+    {
+      "slug": "instrument-mosaic",
+      "path": "/instrument/mosaic",
+      "title": "MOSAIC",
+      "templateId": "instrument",
+      "source": {
+        "migratedHtml": "replica:instrument-mosaic",
+        "metaJson": null,
+        "sourceHash": "sha256:d28bd31594d807d5fc1deaa0e2a0cd6cabdc343b5face75b0953e95219a8d7ce"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--26c59ee1--aemcoder.aem.page/instrument/mosaic",
+        "deployedAt": "2026-11-13T20:02:40.849Z",
+        "verifiedAt": "2026-11-14T04:18:30.523Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 7.55,
+          "heightDelta": -28,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 25,
+            "variable": [
+              ".privacy-notice",
+              ".privacy-settings"
+            ]
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T04:03:39.191Z"
+        }
+      }
+    },
+    {
+      "slug": "media",
+      "path": "/media",
+      "title": "News and Multimedia | ELT | ESO",
+      "templateId": "media",
+      "source": {
+        "migratedHtml": "stardust/migrated/media/index.html",
+        "metaJson": "stardust/migrated/media/_meta.json",
+        "sourceHash": "sha256:b19fb14a04c86d69792b2613a7fb944cd21af868c5e23fa028e9f17477d93041",
+        "sourceUrl": "https://elt.eso.org/media/"
+      },
+      "blocks": [
+        "media-stories",
+        "carousel",
+        "text-section",
+        "share-bar"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--26c59ee1--aemcoder.aem.page/media",
+        "deployedAt": "2026-11-13T20:19:07.203Z",
+        "verifiedAt": "2026-11-14T04:18:30.523Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 4.32,
+          "heightDelta": 1,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 28,
+            "variable": [
+              ".privacy-notice",
+              ".privacy-settings"
+            ]
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T04:03:39.191Z"
+        }
+      }
+    },
+    {
+      "slug": "mirror",
+      "path": "/mirror",
+      "title": "Mirror",
+      "templateId": "listing",
+      "source": {
+        "migratedHtml": "cluster-listing:mirror",
+        "metaJson": null,
+        "sourceHash": "sha256:b0688e741f2ffb1fbe6abcb6490520f3895aeca8dcebd78e1045bd3d5f472feb"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": null,
+        "deployedAt": "2026-11-14T04:03:44.295Z",
+        "verifiedAt": "2026-11-14T04:18:37.065Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 5.78,
+          "heightDelta": -1,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 14,
+            "variable": [
+              ".privacy-notice",
+              ".privacy-settings"
+            ]
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T04:03:39.191Z"
+        }
+      }
+    },
+    {
+      "slug": "mirror-m1",
+      "path": "/mirror/m1",
+      "title": "mirror-m1",
+      "templateId": "program",
+      "source": {
+        "migratedHtml": "migrate:mirror-m1",
+        "metaJson": null,
+        "sourceHash": "sha256:b46e8a8521512c40ea440d09e11bf0afc3060137d634b26d032c5cee791a9558"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--26c59ee1--aemcoder.aem.page/mirror/m1",
+        "deployedAt": "2026-11-14T00:10:38.641Z",
+        "verifiedAt": "2026-11-14T04:18:30.523Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 7.01,
+          "heightDelta": -4,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 5,
+            "variable": [
+              ".privacy-notice",
+              ".privacy-settings"
+            ]
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T04:03:39.191Z"
+        }
+      }
+    },
+    {
+      "slug": "mirror-m2m3",
+      "path": "/mirror/m2m3",
+      "title": "mirror-m2m3",
+      "templateId": "program",
+      "source": {
+        "migratedHtml": "migrate:mirror-m2m3",
+        "metaJson": null,
+        "sourceHash": "sha256:f7d51470b9986314bdd78d4171bf9a53dea303270354f23f3073a3bf2f3d7e35"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--26c59ee1--aemcoder.aem.page/mirror/m2m3",
+        "deployedAt": "2026-11-14T00:10:38.717Z",
+        "verifiedAt": "2026-11-14T04:18:30.523Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 7.42,
+          "heightDelta": 1,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 5,
+            "variable": [
+              ".privacy-notice",
+              ".privacy-settings"
+            ]
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T04:03:39.191Z"
+        }
+      }
+    },
+    {
+      "slug": "mirror-m4",
+      "path": "/mirror/m4",
+      "title": "mirror-m4",
+      "templateId": "program",
+      "source": {
+        "migratedHtml": "migrate:mirror-m4",
+        "metaJson": null,
+        "sourceHash": "sha256:ac2c96a128900d4cef7cf6742d91dd6f770955bd0d1e07568d71c8d855bc6e03"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--26c59ee1--aemcoder.aem.page/mirror/m4",
+        "deployedAt": "2026-11-14T00:10:38.805Z",
+        "verifiedAt": "2026-11-14T04:18:30.523Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 6.98,
+          "heightDelta": -1,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 5,
+            "variable": [
+              ".privacy-notice",
+              ".privacy-settings"
+            ]
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T04:03:39.191Z"
+        }
+      }
+    },
+    {
+      "slug": "mirror-m5",
+      "path": "/mirror/m5",
+      "title": "mirror-m5",
+      "templateId": "program",
+      "source": {
+        "migratedHtml": "migrate:mirror-m5",
+        "metaJson": null,
+        "sourceHash": "sha256:72ba3c1c6bc2a74c8e502506ed14d1250170cc9395aafbb983264cc7c41a59d7"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--26c59ee1--aemcoder.aem.page/mirror/m5",
+        "deployedAt": "2026-11-13T21:48:47.111Z",
+        "verifiedAt": "2026-11-14T04:18:30.523Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 7.08,
+          "heightDelta": 26,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 5,
+            "variable": [
+              ".privacy-notice",
+              ".privacy-settings"
+            ]
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T04:03:39.191Z"
+        }
+      }
+    },
+    {
+      "slug": "science",
+      "path": "/science",
+      "title": "Science",
+      "templateId": "listing",
+      "source": {
+        "migratedHtml": "cluster-listing:science",
+        "metaJson": null,
+        "sourceHash": "sha256:95c9def9eef5e209fe203c1eb2ea06cf7cd9befec42f25812804ca8935556362"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--26c59ee1--aemcoder.aem.page/science",
+        "deployedAt": "2026-11-13T20:47:48.540Z",
+        "verifiedAt": "2026-11-14T04:18:30.523Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 5.86,
+          "heightDelta": -2,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 19,
+            "variable": [
+              ".privacy-notice",
+              ".privacy-settings"
+            ]
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T04:03:39.191Z"
+        }
+      }
+    },
+    {
+      "slug": "science-blackholes",
+      "path": "/science/blackholes",
+      "title": "science-blackholes",
+      "templateId": "program",
+      "source": {
+        "migratedHtml": "migrate:science-blackholes",
+        "metaJson": null,
+        "sourceHash": "sha256:275b515760862f8effa14221f8699aeab797433f9e49b9f7caf9a10a71e4bfd0"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--26c59ee1--aemcoder.aem.page/science/blackholes",
+        "deployedAt": "2026-11-14T00:10:39.323Z",
+        "verifiedAt": "2026-11-14T04:18:30.523Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 9.41,
+          "heightDelta": 15,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 18,
+            "variable": [
+              ".privacy-notice",
+              ".privacy-settings"
+            ]
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T04:03:39.191Z"
+        }
+      }
+    },
+    {
+      "slug": "science-cosmodm",
+      "path": "/science/cosmodm",
+      "title": "science-cosmodm",
+      "templateId": "program",
+      "source": {
+        "migratedHtml": "migrate:science-cosmodm",
+        "metaJson": null,
+        "sourceHash": "sha256:3c8a912b9beb153bf5bd88ffb871dd3aba87213f4b3fcb5ee8800faa5d7dc063"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--26c59ee1--aemcoder.aem.page/science/cosmodm",
+        "deployedAt": "2026-11-13T21:48:48.462Z",
+        "verifiedAt": "2026-11-14T04:18:30.523Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 9.97,
+          "heightDelta": -18,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 11,
+            "variable": [
+              ".privacy-notice",
+              ".privacy-settings"
+            ]
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T04:03:39.191Z"
+        }
+      }
+    },
+    {
+      "slug": "science-discoveries",
+      "path": "/science/discoveries",
+      "title": "science-discoveries",
+      "templateId": "program",
+      "source": {
+        "migratedHtml": "migrate:science-discoveries",
+        "metaJson": null,
+        "sourceHash": "sha256:975d0f05a83a57acd84832527b40c4f3b00b2e8bf84ad4e58bb79d6338e780bc"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--26c59ee1--aemcoder.aem.page/science/discoveries",
+        "deployedAt": "2026-11-13T21:48:48.693Z",
+        "verifiedAt": "2026-11-14T04:18:30.523Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 8.83,
+          "heightDelta": 20,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 4,
+            "variable": [
+              ".privacy-notice",
+              ".privacy-settings"
+            ]
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T04:03:39.191Z"
+        }
+      }
+    },
+    {
+      "slug": "science-exoplanets",
+      "path": "/science/exoplanets",
+      "title": "science-exoplanets",
+      "templateId": "program",
+      "source": {
+        "migratedHtml": "migrate:science-exoplanets",
+        "metaJson": null,
+        "sourceHash": "sha256:0490c1d2df6cba013027bc8489595769e9a346949e9b1bf5b41f7d12725d05b1"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--26c59ee1--aemcoder.aem.page/science/exoplanets",
+        "deployedAt": "2026-11-14T00:10:39.180Z",
+        "verifiedAt": "2026-11-14T04:18:30.523Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 8.28,
+          "heightDelta": -20,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 11,
+            "variable": [
+              ".privacy-notice",
+              ".privacy-settings"
+            ]
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T04:03:39.191Z"
+        }
+      }
+    },
+    {
+      "slug": "science-fundamentalphysics",
+      "path": "/science/fundamentalphysics",
+      "title": "science-fundamentalphysics",
+      "templateId": "program",
+      "source": {
+        "migratedHtml": "migrate:science-fundamentalphysics",
+        "metaJson": null,
+        "sourceHash": "sha256:066a97d451541a27a5852f0f324138a037c316f85cdcb2b1179d06654fc06449"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--26c59ee1--aemcoder.aem.page/science/fundamentalphysics",
+        "deployedAt": "2026-11-14T00:10:39.468Z",
+        "verifiedAt": "2026-11-14T04:18:30.523Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 7.6,
+          "heightDelta": 13,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 6,
+            "variable": [
+              ".privacy-notice",
+              ".privacy-settings"
+            ]
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T04:03:39.191Z"
+        }
+      }
+    },
+    {
+      "slug": "science-galaxies",
+      "path": "/science/galaxies",
+      "title": "science-galaxies",
+      "templateId": "program",
+      "source": {
+        "migratedHtml": "migrate:science-galaxies",
+        "metaJson": null,
+        "sourceHash": "sha256:0eba0f10fb32d09e929f1581c79ef6954c827f8d25f3fc23589e5f9ffb4835ff"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--26c59ee1--aemcoder.aem.page/science/galaxies",
+        "deployedAt": "2026-11-14T00:10:39.393Z",
+        "verifiedAt": "2026-11-14T04:18:30.523Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 7.44,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 11,
+            "variable": [
+              ".privacy-notice",
+              ".privacy-settings"
+            ]
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T04:03:39.191Z"
+        }
+      }
+    },
+    {
+      "slug": "science-solarsystem",
+      "path": "/science/solarsystem",
+      "title": "science-solarsystem",
+      "templateId": "program",
+      "source": {
+        "migratedHtml": "migrate:science-solarsystem",
+        "metaJson": null,
+        "sourceHash": "sha256:fee272c81b4e5ec80b597a6d4eef0dd0802cd7ed39cf530645aabefe3717f6f7"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--26c59ee1--aemcoder.aem.page/science/solarsystem",
+        "deployedAt": "2026-11-14T00:10:39.107Z",
+        "verifiedAt": "2026-11-14T04:18:30.523Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 7.15,
+          "heightDelta": 39,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 14,
+            "variable": [
+              ".privacy-notice",
+              ".privacy-settings"
+            ]
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T04:03:39.191Z"
+        }
+      }
+    },
+    {
+      "slug": "science-stars",
+      "path": "/science/stars",
+      "title": "science-stars",
+      "templateId": "program",
+      "source": {
+        "migratedHtml": "migrate:science-stars",
+        "metaJson": null,
+        "sourceHash": "sha256:a3aa7bb966721b44878167c85e1724c1eda4bf30a138b4fbfce5b0ff6a9cec46"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--26c59ee1--aemcoder.aem.page/science/stars",
+        "deployedAt": "2026-11-14T00:10:39.250Z",
+        "verifiedAt": "2026-11-14T04:18:30.523Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 7.85,
+          "heightDelta": -1,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 12,
+            "variable": [
+              ".privacy-notice",
+              ".privacy-settings"
+            ]
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T04:03:39.191Z"
+        }
+      }
+    },
+    {
+      "slug": "success-buildingon",
+      "path": "/success/buildingon",
+      "title": "success-buildingon",
+      "templateId": "about-road",
+      "source": {
+        "migratedHtml": "replica:success-buildingon",
+        "metaJson": null,
+        "sourceHash": "sha256:48124d0c0151be6e0f463f2b3406e0496435bc81a4b0f7f9712af2cd93cdc91b"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--26c59ee1--aemcoder.aem.page/success/buildingon",
+        "deployedAt": "2026-11-13T21:05:23.516Z",
+        "verifiedAt": "2026-11-14T04:18:37.130Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 8.84,
+          "heightDelta": 4,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 13,
+            "variable": [
+              ".privacy-notice",
+              ".privacy-settings"
+            ]
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T04:03:39.191Z"
+        }
+      }
+    },
+    {
+      "slug": "telescope",
+      "path": "/telescope",
+      "title": "Telescope | ELT | ESO",
+      "templateId": "telescope",
+      "source": {
+        "migratedHtml": "stardust/migrated/telescope/index.html",
+        "metaJson": "stardust/migrated/telescope/_meta.json",
+        "sourceHash": "sha256:4f3615c539d1437e6d72bbc3f41eeb5cccaddde2fa52b9c6828e15c7ab838c30",
+        "sourceUrl": "https://elt.eso.org/telescope/"
+      },
+      "blocks": [
+        "overview-bands",
+        "text-section",
+        "share-bar"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--26c59ee1--aemcoder.aem.page/telescope",
+        "deployedAt": "2026-11-13T20:12:59.344Z",
+        "verifiedAt": "2026-11-14T04:18:30.523Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 3.85,
+          "heightDelta": -1,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 19,
+            "variable": [
+              ".privacy-notice",
+              ".privacy-settings"
+            ]
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T04:03:39.191Z"
+        }
+      }
+    },
+    {
+      "slug": "telescope-adaptiveoptics",
+      "path": "/telescope/adaptiveoptics",
+      "title": "telescope-adaptiveoptics",
+      "templateId": "program",
+      "source": {
+        "migratedHtml": "migrate:telescope-adaptiveoptics",
+        "metaJson": null,
+        "sourceHash": "sha256:bbaedf8df8c7715d263281e6537cc00db167ff7352f40db5677a82ab8c59bb91"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--26c59ee1--aemcoder.aem.page/telescope/adaptiveoptics",
+        "deployedAt": "2026-11-14T00:10:38.887Z",
+        "verifiedAt": "2026-11-14T04:18:37.196Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 9.99,
+          "heightDelta": -82,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 15,
+            "variable": [
+              ".privacy-notice",
+              ".privacy-settings"
+            ]
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T04:03:39.191Z"
+        }
+      }
+    },
+    {
+      "slug": "telescope-controls",
+      "path": "/telescope/controls",
+      "title": "telescope-controls",
+      "templateId": "program",
+      "source": {
+        "migratedHtml": "migrate:telescope-controls",
+        "metaJson": null,
+        "sourceHash": "sha256:8a0856d50a8632ec883622f19043128dab47727dd3fd9699632ef43da5e873d8"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--26c59ee1--aemcoder.aem.page/telescope/controls",
+        "deployedAt": "2026-11-13T21:48:47.480Z",
+        "verifiedAt": "2026-11-14T04:18:30.523Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 6.64,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 10,
+            "variable": [
+              ".privacy-notice",
+              ".privacy-settings"
+            ]
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T04:03:39.191Z"
+        }
+      }
+    },
+    {
+      "slug": "telescope-dome",
+      "path": "/telescope/dome",
+      "title": "Dome | ELT | ESO",
+      "templateId": "telescope-dome",
+      "source": {
+        "migratedHtml": "stardust/migrated/telescope/dome/index.html",
+        "metaJson": "stardust/migrated/telescope/dome/_meta.json",
+        "sourceHash": "sha256:757643cd818c69d21eba09b64620f0bb97ff7e5c9fce2c367043fdb610987ce4",
+        "sourceUrl": "https://elt.eso.org/telescope/dome/"
+      },
+      "blocks": [
+        "page-intro",
+        "subpage-tiles",
+        "text-section",
+        "share-bar",
+        "data-table"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--26c59ee1--aemcoder.aem.page/telescope/dome",
+        "deployedAt": "2026-11-13T20:06:57.705Z",
+        "verifiedAt": "2026-11-14T04:18:37.262Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 9.27,
+          "heightDelta": 26,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 7,
+            "variable": [
+              ".privacy-notice",
+              ".privacy-settings"
+            ]
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T04:03:39.191Z"
+        }
+      }
+    },
+    {
+      "slug": "telescope-operations",
+      "path": "/telescope/operations",
+      "title": "telescope-operations",
+      "templateId": "program",
+      "source": {
+        "migratedHtml": "migrate:telescope-operations",
+        "metaJson": null,
+        "sourceHash": "sha256:ab372d1b2723145140135a8fb046ace93b29508b76c202199696968daa3d3c5d"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--26c59ee1--aemcoder.aem.page/telescope/operations",
+        "deployedAt": "2026-11-14T00:10:39.037Z",
+        "verifiedAt": "2026-11-14T04:18:37.329Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 5.51,
+          "heightDelta": -4,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 6,
+            "variable": [
+              ".privacy-notice",
+              ".privacy-settings"
+            ]
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T04:03:39.191Z"
+        }
+      }
+    },
+    {
+      "slug": "telescope-prefocal",
+      "path": "/telescope/prefocal",
+      "title": "telescope-prefocal",
+      "templateId": "program",
+      "source": {
+        "migratedHtml": "migrate:telescope-prefocal",
+        "metaJson": null,
+        "sourceHash": "sha256:6a9de97207a3184bc1a2294167c5d5960d04d674108ccfd7a0cb523cb4c76c39"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--26c59ee1--aemcoder.aem.page/telescope/prefocal",
+        "deployedAt": "2026-11-14T00:10:38.961Z",
+        "verifiedAt": "2026-11-14T04:18:30.523Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 7.86,
+          "heightDelta": -1,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 11,
+            "variable": [
+              ".privacy-notice",
+              ".privacy-settings"
+            ]
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T04:03:39.191Z"
+        }
+      }
+    },
+    {
+      "slug": "telescope-structure",
+      "path": "/telescope/structure",
+      "title": "telescope-structure",
+      "templateId": "program",
+      "source": {
+        "migratedHtml": "migrate:telescope-structure",
+        "metaJson": null,
+        "sourceHash": "sha256:d2409afb83299a33653e296523372470af952fbb4b473eb5202aaf911659d48c"
+      },
+      "blocks": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--26c59ee1--aemcoder.aem.page/telescope/structure",
+        "deployedAt": "2026-11-13T21:48:46.597Z",
+        "verifiedAt": "2026-11-14T04:18:30.523Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 9.51,
+          "heightDelta": -28,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 9,
+            "variable": [
+              ".privacy-notice",
+              ".privacy-settings"
+            ]
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-14T04:03:39.191Z"
+        }
+      }
+    }
+  ]
+}

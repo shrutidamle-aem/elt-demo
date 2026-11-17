@@ -1,0 +1,34 @@
+[live-session] waiting to pace live navigations to elt.eso.org (4000 ms apart, 1 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 3885 ms
+unit-geometry @ 360px, tol 4px — https://elt.eso.org/ vs http://localhost:8791/index-proposed.html
+unit 1 of landing-menu-tiles (required) .container-notop .col-lg-4=.menu-tile: origin 0,590 360×169 vs served 0,590 360×169 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "telescope" | 0,0 360×169 | 0,0 360×169 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:img.d-block.d-lg-none#1" | 0,0 360×169 | 0,0 360×169 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of landing-menu-tiles (required) .container-notop .col-lg-4=.menu-tile: origin 0,759 360×169 vs served 0,759 360×169 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "instruments" | 0,0 360×169 | 0,0 360×169 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:img.d-block.d-lg-none#1" | 0,0 360×169 | 0,0 360×169 | 0 | 0 | 0 | 0 | ✓ |
+unit 3 of landing-menu-tiles (required) .container-notop .col-lg-4=.menu-tile: origin 0,928 360×169 vs served 0,928 360×169 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "facts" | 0,0 360×169 | 0,0 360×169 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:img.d-block.d-lg-none#1" | 0,0 360×169 | 0,0 360×169 | 0 | 0 | 0 | 0 | ✓ |
+unit 1 of footer-columns (required) footer .col-12=.site-footer__row > .footer-item: origin -15,1245 360×34 vs served -15,1245 360×34 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "eso" | 134,0 24×18 | 134,0 24×18 | 0 | 0 | 0 | 0 | ✓ |
+| text "2026" | 199,0 27×18 | 199,0 27×18 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of footer-columns (required) footer .col-12=.site-footer__row > .footer-item: origin -15,1280 360×55 vs served -15,1280 360×55 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "| | | | |" | 15,0 330×55 | 15,0 330×55 | 0 | 0 | 0 | 0 | ✓ |
+| link "credits" | 38,1 41×15 | 38,1 41×15 | 0 | 0 | 0 | 0 | ✓ |
+| link "contact us" | 98,1 61×15 | 98,1 61×15 | 0 | 0 | 0 | 0 | ✓ |
+| link "subscribe to eso news" | 178,1 128×15 | 178,1 128×15 | 0 | 0 | 0 | 0 | ✓ |
+| link "accelerated by cdn77" | 28,19 123×15 | 28,19 123×15 | 0 | 0 | 0 | 0 | ✓ |
+| link "cookie settings and policy" | 130,19 202×33 | 130,19 202×33 | 0 | 0 | 0 | 0 | ✓ |
+| link "terms & conditions" | 171,19 105×15 | 171,19 105×15 | 0 | 0 | 0 | 0 | ✓ |
+Units: 5 compared; elements within 15, off 0, hidden 0, missing 0 → PASS
+json → stardust/replica/gates/index-360/units-iter3.json

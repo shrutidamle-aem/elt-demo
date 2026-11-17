@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- stardust:migrate
+  writtenBy:        stardust:migrate
+  writtenAt:        2026-11-13T14:57:52Z
+  page:             Dome | ELT | ESO
+  slug:             telescope-dome
+  pagePath:         migrated/telescope/dome/index.html
+  renderBranch:     A
+  sourceProposed:   stardust/prototypes/telescope-dome-proposed.html
+  sourceCurrent:    stardust/current/pages/telescope-dome.json
+  againstDirection: stardust/direction.md (Active)
+  designMd:         DESIGN.md (sha: bcd81ac1bff9)
+  designJson:       DESIGN.json (sha: 1687cec3d675)
+  canonShas:        header:null footer:df97728fd0f7 css:7a5011377ec8
+  decisionTrace:    _meta.json
+  brokenInternalLinks: 81
+  stardustVersion:  local
+-->
+<style>
+:root {
+  --font-brand: "Helvetica Neue LT ESO", "Helvetica Neue", Helvetica, Arial, sans-serif; /* L15662 */
+  --esoblue: rgb(0, 119, 190);            /* L15617 */
+  --orange: rgb(232, 133, 38);
+  --headerblue: rgb(45, 164, 245);
+  --ink-black: #000;
+  --nav-gradient: linear-gradient(rgb(40, 39, 49), rgb(16, 17, 19)); /* .navbar L16313 */
+  --nav-link: rgba(255, 255, 255, 0.7);   /* L20043 */
+  --nav-link-hover: rgba(255, 255, 255, 0.9);
+  --nav-hover-bg: #232932;                /* L19971 */
+  --nav-accent: #ef3c3c;                  /* active / hover rule */
+  --menu-bg: #343a40;                     /* .bg-dark */
+  --menu-border: rgba(0, 0, 0, 0.15);
+  --light-bg: rgb(232, 232, 232);         /* .container-light, .medium-light */
+  --footer-bg: #202020;                   /* .container-footer */
+  --topbar-h: 50px;                       /* body padding-top, .mysticky top */
+}
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Dome | ELT | ESO","description":"The Extremely Large Telescope: The World&#x27;s Biggest Eye On The Sky","url":"https://elt.eso.org/telescope/dome/"}</script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dome | ELT | ESO</title>
+  <meta name="description" content="The Extremely Large Telescope: The World&#x27;s Biggest Eye On The Sky">
+  <link rel="icon" href="../../assets/media/favicon.ico">
+  <link rel="stylesheet" href="../../assets/canon.css">
+  <link rel="stylesheet" href="../../assets/telescope-dome.css">
+  <script src="../../assets/canon.js" defer></script>
+
+</head>
+<body class="page-program">
+  <nav id="top-navbar" class="navbar" aria-label="ESO and site navigation">
+    <span class="navbar-brand navbar-brand--main">
+      <div class="brand-logo"><a href="https://www.eso.org/" target="_blank" rel="noopener noreferrer"><img class="navbar-eso-logo" src="../../assets/media/eso_logo.jpg" alt="" width="100" height="130"></a></div>
+      <div class="brand-flags">
+        <ul id="navbar-flags">
+          <li><span class="flag flag-at"></span></li>
+          <li><span class="flag flag-be"></span></li>
+          <li><span class="flag flag-cl"></span></li>
+          <li><span class="flag flag-cz"></span></li>
+          <li><span class="flag flag-da"></span></li>
+          <li><span class="flag flag-fi"></span></li>
+          <li><span class="flag flag-fr"></span></li>
+          <li><span class="flag flag-de"></span></li>
+          <li><span class="flag flag-ie"></span></li>
+          <li><span class="flag flag-it"></span></li>
+          <li><span class="flag flag-nl"></span></li>
+          <li><span class="flag flag-pl"></span></li>
+          <li><span class="flag flag-pt"></span></li>
+          <li><span class="flag flag-es"></span></li>
+          <li><span class="flag flag-sv"></span></li>
+          <li><span class="flag flag-ch"></span></li>
+          <li><span class="flag flag-gb"></span></li>
+          <li class="language-menu">
+            <div class="choose-language-message"> Choose your language &nbsp;<i class="fa-arrow-down" aria-hidden="true"></i></div>
+            <div class="language-options">
+              <a href="https://elt.eso.org/?lang" data-broken-link="true"><span class="flag flag-gb">&nbsp;</span> English </a>
+              <a href="https://elt.eso.org/chile/?lang" data-broken-link="true"><span class="flag flag-cl">&nbsp;</span> Español </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </span>
+    <div class="navbar-brand brand-social">
+      <div class="desktop-top-sm-icons">
+        <a href="https://facebook.com/ESOAstronomy" title="ESO on Facebook" target="_blank" rel="noopener noreferrer"><img src="../../assets/media/icon_topbar_mobile_1.png" alt="ESO on Facebook" width="35" height="35"></a>
+        <a href="https://www.instagram.com/esoastronomy/" title="ESO on Instagram" target="_blank" rel="noopener noreferrer"><img src="../../assets/media/icon_topbar_mobile_3.png" alt="ESO on Instagram" width="35" height="35"></a>
+        <a href="https://www.linkedin.com/company/european-southern-observatory" title="ESO on LinkedIn" target="_blank" rel="noopener noreferrer"><img src="../../assets/media/icon_topbar_mobile_4.png" alt="ESO on LinkedIn" width="35" height="35"></a>
+        <a href="https://www.youtube.com/channel/UCIhYoC2VIAJqCkoIWNHBQ3Q" title="ESO on YouTube" target="_blank" rel="noopener noreferrer"><img src="../../assets/media/icon_topbar_mobile_5.png" alt="ESO on YouTube" width="35" height="35"></a>
+      </div>
+    </div>
+    <span class="lang-links"><a href="https://elt.eso.org/?lang" class="lang-link" data-broken-link="true">en</a> | <a href="https://elt.eso.org/?lang" class="lang-link" data-broken-link="true">es</a></span>
+    <button class="navbar-toggler" type="button" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+    <div class="navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item menu-item mobile-only">
+          <a class="nav-link" href="https://elt.eso.org/" data-broken-link="true">ELT HOME</a>
+        </li>
+        <li class="nav-item menu-item mobile-only dropdown-menu-top dropup">
+          <a class="nav-link" href="https://elt.eso.org/about/" data-broken-link="true">ABOUT</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="https://elt.eso.org/about/" data-broken-link="true">About the ELT</a>
+            <a class="dropdown-item" href="../../about/timeline/index.html">Timeline</a>
+            <a class="dropdown-item" href="https://elt.eso.org/about/location/" data-broken-link="true">Location</a>
+            <a class="dropdown-item" href="https://elt.eso.org/about/webcams/" data-broken-link="true">Webcams</a>
+            <a class="dropdown-item" href="../../about/facts/index.html">Facts</a>
+            <a class="dropdown-item" href="../../about/road/index.html">Road to the ELT</a>
+            <a class="dropdown-item" href="https://elt.eso.org/about/team/" data-broken-link="true">Meet the Team</a>
+            <a class="dropdown-item" href="https://elt.eso.org/about/workinggroups/" data-broken-link="true">Working Groups</a>
+            <a class="dropdown-item" href="https://elt.eso.org/about/industrial/" data-broken-link="true">Industrial and Institutional Partners</a>
+            <a class="dropdown-item" href="https://elt.eso.org/about/faq/" data-broken-link="true">FAQ</a>
+          </div>
+        </li>
+        <li class="nav-item menu-item mobile-only dropdown-menu-top dropup active">
+          <a class="nav-link" href="../../telescope/index.html">TELESCOPE</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="../../telescope/index.html">Telescope Overview</a>
+            <a class="dropdown-item active" href="../../telescope/dome/index.html" aria-current="page">Dome</a>
+            <a class="dropdown-item" href="https://elt.eso.org/telescope/structure/" data-broken-link="true">Main Structure</a>
+            <div class="dropdown-submenu">
+              <a class="dropdown-item" href="https://elt.eso.org/mirror/" data-broken-link="true">Mirrors</a>
+              <div class="dropdown-menu bottom-aligned">
+                <a class="dropdown-item" href="https://elt.eso.org/mirror/" data-broken-link="true">Mirrors Overview</a>
+                <a class="dropdown-item" href="https://elt.eso.org/mirror/M1/" data-broken-link="true">M1</a>
+                <a class="dropdown-item" href="https://elt.eso.org/mirror/M2M3/" data-broken-link="true">M2M3</a>
+                <a class="dropdown-item" href="https://elt.eso.org/mirror/M4/" data-broken-link="true">M4</a>
+                <a class="dropdown-item" href="https://elt.eso.org/mirror/M5/" data-broken-link="true">M5</a>
+              </div>
+            </div>
+            <a class="dropdown-item" href="https://elt.eso.org/telescope/adaptiveoptics/" data-broken-link="true">Adaptive Optics</a>
+            <a class="dropdown-item" href="https://elt.eso.org/telescope/prefocal/" data-broken-link="true">Prefocal Station</a>
+            <a class="dropdown-item" href="https://elt.eso.org/telescope/controls/" data-broken-link="true">Controls</a>
+            <a class="dropdown-item" href="https://elt.eso.org/telescope/operations/" data-broken-link="true">Operations</a>
+          </div>
+        </li>
+        <li class="nav-item menu-item mobile-only dropdown-menu-top dropup">
+          <a class="nav-link" href="https://elt.eso.org/instrument/" data-broken-link="true">INSTRUMENTS</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="https://elt.eso.org/instrument/" data-broken-link="true">Instruments Overview</a>
+            <a class="dropdown-item" href="../../instrument/HARMONI/index.html">HARMONI</a>
+            <a class="dropdown-item" href="https://elt.eso.org/instrument/MICADO/" data-broken-link="true">MICADO</a>
+            <a class="dropdown-item" href="https://elt.eso.org/instrument/MORFEO/" data-broken-link="true">MORFEO</a>
+            <a class="dropdown-item" href="https://elt.eso.org/instrument/METIS/" data-broken-link="true">METIS</a>
+            <a class="dropdown-item" href="https://elt.eso.org/instrument/ANDES/" data-broken-link="true">ANDES</a>
+            <a class="dropdown-item" href="https://elt.eso.org/instrument/MOSAIC/" data-broken-link="true">MOSAIC</a>
+          </div>
+        </li>
+        <li class="nav-item menu-item mobile-only dropdown-menu-top dropup">
+          <a class="nav-link" href="https://elt.eso.org/science/" data-broken-link="true">SCIENCE</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="https://elt.eso.org/science/" data-broken-link="true">Science Overview</a>
+            <a class="dropdown-item" href="https://elt.eso.org/science/solarsystem/" data-broken-link="true">Solar System</a>
+            <a class="dropdown-item" href="https://elt.eso.org/science/exoplanets/" data-broken-link="true">Exoplanets</a>
+            <a class="dropdown-item" href="https://elt.eso.org/science/stars/" data-broken-link="true">Stars</a>
+            <a class="dropdown-item" href="https://elt.eso.org/science/blackholes/" data-broken-link="true">Black Holes</a>
+            <a class="dropdown-item" href="https://elt.eso.org/science/galaxies/" data-broken-link="true">Galaxies</a>
+            <a class="dropdown-item" href="https://elt.eso.org/science/cosmodm/" data-broken-link="true">Cosmology and Dark Matter</a>
+            <a class="dropdown-item" href="https://elt.eso.org/science/fundamentalphysics/" data-broken-link="true">Fundamental Physics</a>
+            <a class="dropdown-item" href="https://elt.eso.org/science/discoveries/" data-broken-link="true">Unexpected Discoveries</a>
+          </div>
+        </li>
+        <li class="nav-item menu-item mobile-only">
+          <a class="nav-link" href="../../media/index.html">NEWS &amp; MULTIMEDIA</a>
+        </li>
+        <li class="nav-item menu-item mobile-only">
+          <a class="nav-link" href="https://elt.eso.org/success/buildingon/" data-broken-link="true">SUCCESS STORIES</a>
+        </li>
+        <li class="social-desktop desktop-top-sm-icons">
+          <a href="https://facebook.com/ESOAstronomy" title="ESO on Facebook" target="_blank" rel="noopener noreferrer"><img src="../../assets/media/icon_topbar_mobile_1.png" alt="ESO on Facebook" width="35" height="35"></a>
+          <a href="https://www.instagram.com/esoastronomy/" title="ESO on Instagram" target="_blank" rel="noopener noreferrer"><img src="../../assets/media/icon_topbar_mobile_3.png" alt="ESO on Instagram" width="35" height="35"></a>
+          <a href="https://www.linkedin.com/company/european-southern-observatory" title="ESO on LinkedIn" target="_blank" rel="noopener noreferrer"><img src="../../assets/media/icon_topbar_mobile_4.png" alt="ESO on LinkedIn" width="35" height="35"></a>
+          <a href="https://www.youtube.com/channel/UCIhYoC2VIAJqCkoIWNHBQ3Q" title="ESO on YouTube" target="_blank" rel="noopener noreferrer"><img src="../../assets/media/icon_topbar_mobile_5.png" alt="ESO on YouTube" width="35" height="35"></a>
+        </li>
+        <li id="nav-search" class="nav-item menu-item dropdown dropdown-menu-top-top">
+          <a class="nav-link" href="#"><i class="material-icons">search</i></a>
+          <div class="dropdown-menu">
+            <div class="dropdown-item">
+              <form class="search-form" action="/public/eltsearch/" method="get"><input type="search" placeholder="Search..." name="q" aria-label="Search"><button type="submit">Search</button></form>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <img class="big-header-image" src="https://cdn.eso.org/images/banner1920/header-dome.jpg" alt="" width="1920" height="900">
+  <main class="elt-program" data-template="telescope-dome">
+    <div id="big-header" class="big-header-text" data-section="1">
+      <div class="big-header-logos">
+        <img class="big-header-eso-logo" src="../../assets/media/eso_logo_transparent.png" alt="" width="981" height="1279">
+        <p class="esologo-text">European<br>Southern<br>Observatory</p>
+      </div>
+      <div class="big-header-title"> Telescope </div>
+    </div>
+
+    <nav id="main-navbar" class="navbar mysticky" aria-label="Main" data-section="2">
+      <button class="navbar-toggler" type="button" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      <div class="navbar-collapse">
+        <ul class="navbar-nav">
+          <li class="nav-item menu-item">
+            <a class="nav-link" href="https://elt.eso.org/" data-broken-link="true">ELT HOME</a>
+          </li>
+          <li class="nav-item menu-item dropdown-menu-top dropup">
+            <a class="nav-link" href="https://elt.eso.org/about/" data-broken-link="true">ABOUT</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="https://elt.eso.org/about/" data-broken-link="true">About the ELT</a>
+              <a class="dropdown-item" href="../../about/timeline/index.html">Timeline</a>
+              <a class="dropdown-item" href="https://elt.eso.org/about/location/" data-broken-link="true">Location</a>
+              <a class="dropdown-item" href="https://elt.eso.org/about/webcams/" data-broken-link="true">Webcams</a>
+              <a class="dropdown-item" href="../../about/facts/index.html">Facts</a>
+              <a class="dropdown-item" href="../../about/road/index.html">Road to the ELT</a>
+              <a class="dropdown-item" href="https://elt.eso.org/about/team/" data-broken-link="true">Meet the Team</a>
+              <a class="dropdown-item" href="https://elt.eso.org/about/workinggroups/" data-broken-link="true">Working Groups</a>
+              <a class="dropdown-item" href="https://elt.eso.org/about/industrial/" data-broken-link="true">Industrial and Institutional Partners</a>
+              <a class="dropdown-item" href="https://elt.eso.org/about/faq/" data-broken-link="true">FAQ</a>
+            </div>
+          </li>
+          <li class="nav-item menu-item dropdown-menu-top dropup active">
+            <a class="nav-link" href="../../telescope/index.html">TELESCOPE</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="../../telescope/index.html">Telescope Overview</a>
+              <a class="dropdown-item active" href="../../telescope/dome/index.html" aria-current="page">Dome</a>
+              <a class="dropdown-item" href="https://elt.eso.org/telescope/structure/" data-broken-link="true">Main Structure</a>
+              <div class="dropdown-submenu">
+                <a class="dropdown-item" href="https://elt.eso.org/mirror/" data-broken-link="true">Mirrors</a>
+                <div class="dropdown-menu bottom-aligned">
+                  <a class="dropdown-item" href="https://elt.eso.org/mirror/" data-broken-link="true">Mirrors Overview</a>
+                  <a class="dropdown-item" href="https://elt.eso.org/mirror/M1/" data-broken-link="true">M1</a>
+                  <a class="dropdown-item" href="https://elt.eso.org/mirror/M2M3/" data-broken-link="true">M2M3</a>
+                  <a class="dropdown-item" href="https://elt.eso.org/mirror/M4/" data-broken-link="true">M4</a>
+                  <a class="dropdown-item" href="https://elt.eso.org/mirror/M5/" data-broken-link="true">M5</a>
+                </div>
+              </div>
+              <a class="dropdown-item" href="https://elt.eso.org/telescope/adaptiveoptics/" data-broken-link="true">Adaptive Optics</a>
+              <a class="dropdown-item" href="https://elt.eso.org/telescope/prefocal/" data-broken-link="true">Prefocal Station</a>
+              <a class="dropdown-item" href="https://elt.eso.org/telescope/controls/" data-broken-link="true">Controls</a>
+              <a class="dropdown-item" href="https://elt.eso.org/telescope/operations/" data-broken-link="true">Operations</a>
+            </div>
+          </li>
+          <li class="nav-item menu-item dropdown-menu-top dropup">
+            <a class="nav-link" href="https://elt.eso.org/instrument/" data-broken-link="true">INSTRUMENTS</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="https://elt.eso.org/instrument/" data-broken-link="true">Instruments Overview</a>
+              <a class="dropdown-item" href="../../instrument/HARMONI/index.html">HARMONI</a>
+              <a class="dropdown-item" href="https://elt.eso.org/instrument/MICADO/" data-broken-link="true">MICADO</a>
+              <a class="dropdown-item" href="https://elt.eso.org/instrument/MORFEO/" data-broken-link="true">MORFEO</a>
+              <a class="dropdown-item" href="https://elt.eso.org/instrument/METIS/" data-broken-link="true">METIS</a>
+              <a class="dropdown-item" href="https://elt.eso.org/instrument/ANDES/" data-broken-link="true">ANDES</a>
+              <a class="dropdown-item" href="https://elt.eso.org/instrument/MOSAIC/" data-broken-link="true">MOSAIC</a>
+            </div>
+          </li>
+          <li class="nav-item menu-item dropdown-menu-top dropup">
+            <a class="nav-link" href="https://elt.eso.org/science/" data-broken-link="true">SCIENCE</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="https://elt.eso.org/science/" data-broken-link="true">Science Overview</a>
+              <a class="dropdown-item" href="https://elt.eso.org/science/solarsystem/" data-broken-link="true">Solar System</a>
+              <a class="dropdown-item" href="https://elt.eso.org/science/exoplanets/" data-broken-link="true">Exoplanets</a>
+              <a class="dropdown-item" href="https://elt.eso.org/science/stars/" data-broken-link="true">Stars</a>
+              <a class="dropdown-item" href="https://elt.eso.org/science/blackholes/" data-broken-link="true">Black Holes</a>
+              <a class="dropdown-item" href="https://elt.eso.org/science/galaxies/" data-broken-link="true">Galaxies</a>
+              <a class="dropdown-item" href="https://elt.eso.org/science/cosmodm/" data-broken-link="true">Cosmology and Dark Matter</a>
+              <a class="dropdown-item" href="https://elt.eso.org/science/fundamentalphysics/" data-broken-link="true">Fundamental Physics</a>
+              <a class="dropdown-item" href="https://elt.eso.org/science/discoveries/" data-broken-link="true">Unexpected Discoveries</a>
+            </div>
+          </li>
+          <li class="nav-item menu-item">
+            <a class="nav-link" href="../../media/index.html">NEWS &amp; MULTIMEDIA</a>
+          </li>
+          <li class="nav-item menu-item">
+            <a class="nav-link" href="https://elt.eso.org/success/buildingon/" data-broken-link="true">SUCCESS STORIES</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="container-dark container-tight program-header" aria-label="Dome" data-section="3">
+      <img class="program-header__image" src="https://cdn.eso.org/images/banner1920/subheader-dome.jpg" alt="" width="1920" height="900">
+      <div class="science-header-textblock">
+        <div class="science-header-textblock__inner">
+          <div class="header-title">Dome</div>
+          <div class="header-subtitle show-xl"><p>The giant ELT dome will house the telescope and its interior structure, providing protection from the extreme environment of Chile's Atacama Desert.</p></div>
+          <div class="header-description show-xxl">
+            <p>The dome will be about 80 metres high and have a diameter of about 93 metres, giving it a footprint roughly equivalent to that of a football pitch. The upper part of the dome will&nbsp;rotate to allow the telescope to point in any direction through its large observing slit.</p>
+          </div>
+          <div class="header-quick-links">
+            <div>Quick Links:</div>
+            <div class="instrument-link-color">
+              <a class="instrument-link-color instrument-link" href="#astroperf">Astronomical Performance</a>
+               | <a class="instrument-link-color instrument-link" href="#enclosurestruct">Enclosure Structure</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-light nutshell page-section" aria-label="In a Nutshell" data-section="4">
+      <div class="container-paragraph section-title-paragraph section-title-paragraph--share">
+        <div>In a Nutshell</div>
+        <div class="share-bar">
+          <a class="share-social-media-link share-social-media-icons" href="https://www.facebook.com/sharer/sharer.php?u=https://elt.eso.org/telescope/dome/" title="Share on Facebook" target="_blank" rel="noopener noreferrer"><img src="../../assets/media/icon_share_1.png" alt="Share on Facebook" width="35" height="35"></a>
+          <span class="share-menu" title="Share on Social Media">
+            <span class="share-social-media share-social-media-icons"><img class="share-social-media" src="../../assets/media/icon_share_3.png" alt="" width="35" height="35"></span>
+            <div class="share-social-media-dropdown">
+              <div class="share-social-media-dropdown-icons">
+                <a class="share-social-media-link" href="https://www.facebook.com/sharer/sharer.php?u=https://elt.eso.org/telescope/dome/" title="Share on Facebook" target="_blank" rel="noopener noreferrer"><img src="../../assets/media/icon_share_1.png" alt="Share on Facebook" width="35" height="35"> <span class="share-social-media-dropdown-text">Share on Facebook</span></a>
+                <a class="share-social-media-link share-email" href="#" title="E-Mail"><img src="../../assets/media/icon_share_5.png" alt="E-Mail" width="35" height="35"> <span class="share-social-media-dropdown-text">E-Mail</span></a>
+                <a class="share-social-media-link clipboard" href="#" title="Copy Link"><img src="../../assets/media/icon_share_6.png" alt="Copy link" width="36" height="35"> <span class="share-social-media-dropdown-text">Copy Link</span></a>
+                <a class="share-social-media-link" href="https://www.linkedin.com/sharing/share-offsite/?url=https://elt.eso.org/telescope/dome/" title="Share on LinkedIn" target="_blank" rel="noopener noreferrer"><img src="../../assets/media/icon_share_4.png" alt="Share on LinkedIn" width="35" height="35"> <span class="share-social-media-dropdown-text">Share on LinkedIn</span></a>
+              </div>
+            </div>
+          </span>
+        </div>
+      </div>
+      <div class="container-subtitle section-subtitle-paragraph-aftertitle show-xl-only"><p>The dome will be about 80 metres high and have a diameter of about 93 metres, giving it a footprint roughly equivalent to that of a football pitch. The upper part of the dome will&nbsp;rotate to allow the telescope to point in any direction through its large observing slit.</p></div>
+      <div class="container-subtitle section-subtitle-paragraph-aftertitle hide-xl"><p>The giant ELT dome will house the telescope and its interior structure, providing protection from the extreme environment of Chile's Atacama Desert.</p></div>
+      <div class="container-paragraph section-text-paragraph hide-xl"><p>The dome will be about 80 metres high and have a diameter of about 93 metres, giving it a footprint roughly equivalent to that of a football pitch. The upper part of the dome will&nbsp;rotate to allow the telescope to point in any direction through its large observing slit.</p></div>
+      <div class="container-paragraph section-text-paragraph">
+        <p>The sensitive and delicate components of the most sophisticated telescope ground-based astronomy has ever seen require special protection. This is especially true in the rough desert environment, with potentially damaging sand and wind, and in a country that is prone to earthquakes.</p>
+        <p>The ELT dome shelters the telescope in windy conditions during observations and protects it and its delicate optics from the elements during the day. It consists of a lower fixed part, the concrete pier, a rotating upper part, and the enclosure, which is equipped with two motorised slit doors that open laterally to allow observations of the night sky.</p>
+        <p>The dome enclosure has a thermally insulated cladding made of aluminium, which allows thermal conditioning of the telescope chamber during the day and limits radiative cooling during the night. This rotating structure is also equipped with special cranes to allow handling operations during the day when the slits are closed.</p>
+        <p>The pier of the dome is surrounded by an auxiliary building, with the instrument assembly area and the entrance hall facing south, downstream of the prevailing wind. The various electrical, thermal, and hydraulic plants used to operate the dome and the telescope are distributed in different rooms of the building. The remaining rooms are used for mirror segment storage, computer rooms, and to host a facility for mirror coating.</p>
+        <p>The overall building is protected against major earthquakes. Both the dome pier and the auxiliary building rest on shock absorbers mounted on top of the foundations to dampen earthquake vibrations.</p>
+        <p>Please check the <a href="../../media/index.html">News &amp; Multimedia section</a> for recent news, images and videos of the ELT dome.</p>
+      </div>
+    </section>
+
+    <nav class="container-light lightlinks" aria-label="In this page" data-section="5">
+      <div class="lightlink-row" style="--row-color: rgb(56, 205, 228);">
+        <div class="lightlink-media">
+          <a href="#astroperf"><img src="https://cdn.eso.org/images/banner1920/dome-astronomical.jpg" alt="" width="1920" height="900"></a>
+          <span class="internal-menu-title"><a href="#astroperf">Astronomical Performance</a></span>
+        </div>
+        <div class="lightlink-body">
+          <div class="internal-menu-text">
+            <p>For precise astronomical observations that reach various target objects in the night sky, the dome will need to move fast, while avoiding vibrations.</p>
+          </div>
+          <div class="internal-menu-shape">
+            <div class="show-lg">
+              <svg class="internal-menu-trapezoid" viewBox="0 0 945 75" preserveAspectRatio="none" aria-hidden="true"><a href="../../telescope/dome/index.html#astroperf"><polygon points="0,0 260,0 340,67 945,67 945,75 0,75"></polygon></a></svg>
+            </div>
+          </div>
+          <div class="internal-menu-link">
+            <a href="#astroperf">
+            Read More
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="lightlink-row lightlink-row--reverse" style="--row-color: rgb(95, 160, 151);">
+        <div class="lightlink-body">
+          <div class="internal-menu-text">
+            <p>From a windscreen to ventilation and air conditioning, the ELT enclosure requires special equipment to protect the telescope from the elements.</p>
+          </div>
+          <div class="internal-menu-shape">
+            <div class="show-lg">
+              <svg class="internal-menu-trapezoid" viewBox="0 0 945 75" preserveAspectRatio="none" aria-hidden="true"><a href="../../telescope/dome/index.html#enclosurestruct"><polygon points="0,0 260,0 340,67 945,67 945,75 0,75"></polygon></a></svg>
+            </div>
+          </div>
+          <div class="internal-menu-link">
+            <a href="#enclosurestruct">
+            Read More
+            </a>
+          </div>
+        </div>
+        <div class="lightlink-media">
+          <a href="#enclosurestruct"><img src="https://cdn.eso.org/images/banner1920/dome-enclosure.jpg" alt="" width="1920" height="900"></a>
+          <span class="internal-menu-title"><a href="#enclosurestruct">Enclosure Structure</a></span>
+        </div>
+      </div>
+    </nav>
+
+    <a id="astroperf" class="anchor" data-section="6"></a>
+    <section id="astroperf_" class="container-light page-section" aria-label="Astronomical Performance" data-section="7">
+      <div class="container-paragraph section-title-paragraph">Astronomical Performance</div>
+      <div class="container-heading">
+        <span class="section-heading-paragraph"><p>For precise astronomical observations that reach various target objects in the night sky, the dome will need to move fast, while avoiding vibrations.</p></span>
+      </div>
+      <div class="container-paragraph section-text-paragraph">
+        <p>The telescope needs to be able to track about the 1-degree zenithal avoidance locus and preset to a new target within 5 minutes. This requires the enclosure to accelerate and move at angular speeds of up to 2 degrees/s (the linear speed at the outer diameter being ap-proximately 5 km/h), which poses considerable challenges to the motorisation system and its braking devices, and demands the implementation of various safety provisions. The enclosure rotates independently from the telescope structure, and sufficient mechanical clearance is guaranteed to allow the complete movement of the telescope within the open or closed dome. The dome design allows observations from zenith down to 20 degrees from the horizon.</p>
+      </div>
+      <figure class="wide-image">
+        <a href="https://www.eso.org/public/images/ELT5k-2-wide-cc2/" target="_blank" rel="noopener noreferrer"><img src="https://cdn.eso.org/images/banner1920/header-about.jpg" alt="" width="1920" height="900"></a>
+      </figure>
+      <div class="container-paragraph section-text-paragraph">
+        <p>To avoid vibration during the rotation of the enclosure, the rotating mechanism is, to the extent possible, structurally decoupled from the dome concrete base. In addition, the possible propagation of vibrations from the dome foundation to the telescope pier, via the seismic isolators and the rock substrate, has been studied in detail to ensure a smooth and vibration-free movement and to guarantee the required precision of the telescope tracking during observation.</p>
+      </div>
+    </section>
+
+    <a id="enclosurestruct" class="anchor" data-section="8"></a>
+    <section id="enclosurestruct_" class="container-light page-section" aria-label="Enclosure Structure" data-section="9">
+      <div class="container-paragraph section-title-paragraph">Enclosure Structure</div>
+      <div class="container-heading">
+        <span class="section-heading-paragraph"><p>The ELT dome is a giant, extending about 80 meters from the ground and measuring 93 metres in diameter.</p></span>
+      </div>
+      <div class="container-paragraph section-text-paragraph">
+        <p>The rotating enclosure, once fully equipped and finished, will have a mass of around 6100 tons, and it will rotate on 36 stationary trolleys mounted above the pier at a height of 11m from the ground.The structure itself consists of a round girder with a special track at its bottom that rests on the wheels of the trolleys. The primary structure of the enclosure is completed by three structural arches resting on the round girder, one at each side of the slit and one at the back. The enclosure structure, which will be bolted together on site, is closed by a number of secondary beams which will allow the assembly of the insulated aluminum cladding. A complex series of accesses inside the structure and the slit doors allows engineers to reach all mechanisms of the doors, ventilation louvers, and installed equipment.</p>
+        <p>The enclosure's slit doors, that open to allow observations of the night sky, move on three rails each, one at the round girder and two at the top. The doors provide an aperture of 41 m when open, and their system motors have sufficient redundancy to ensure the doors can be closed when needed, in all conditions. In addition, the doors will be equipped with latching mechanisms to achieve structural continuity and with special inflatable seals to guarantee environmental tightness when closed.</p>
+        <p>Engineers have carried out wind tunnel tests to compute the pressure forces acting on the structure in operational conditions (doors open) as well in survival conditions (doors closed). The structure has also been verified against earthquakes and snow loads.</p>
+      </div>
+      <figure class="wide-image">
+        <a href="https://www.eso.org/public/images/ELT4k-12-Night4-cc/" target="_blank" rel="noopener noreferrer"><img src="https://cdn.eso.org/images/banner1920/ELT4k-12-Night4-cc.jpg" alt="" width="1920" height="900"></a>
+      </figure>
+      <div class="container-subtitle">
+        <span class="section-subtitle-paragraph"><p>Windscreen</p></span>
+      </div>
+      <div class="container-paragraph section-text-paragraph">
+        <p>Since the ELT dome has a large opening, it requires a windscreen to protect the telescope's primary and secondary mirrors from direct wind exposure, which could negatively affect the pointing performance of the telescope. The windscreen reduces the overall wind speed and, thanks to its permeability, produces a quasi-laminar flow across the telescope optics to avoid degrading seeing effects. The windscreen design is based on four curved plate segments that can be moved up and down depending on the inclination of the telescope. For reliability and safety reasons, redundancy has been implemented in the windscreen mechanism. The windscreen segments are stored at the level of the enclosure ring, when retracted in the lowest position.</p>
+      </div>
+      <div class="container-paragraph video-embed">
+        <div class="video-embed__frame">
+          <iframe src="https://www.youtube-nocookie.com/embed/t-Ub_02dfUg" title="YouTube video" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="container-subtitle">
+        <span class="section-subtitle-paragraph"><p>Ventilation and Air Conditioning</p></span>
+      </div>
+      <div class="container-paragraph section-text-paragraph">
+        <p>The ELT dome has been designed to allow sufficient ventilation for the telescope not to be limited by dome seeing. It is equipped with ventilation louvers that, together with the windscreen, allow the modulation of the air flow inside the dome. The louvers are distributed laterally to the doors and also at the back of the telescope. The first ring of louvers is located in the pier, just above the auxiliary building, which allows air to be flushed below the primary mirror.</p>
+        <p>Engineers have performed simulations to study the airflow in and around the dome and the movement of the air depending on the direction of the wind with respect to the direction of observation.To avoid pockets of warm air, the pavement in the area between the piers of the dome and of the telescope has been decoupled from the rock temperature through the use of special thermal insulation. When the slit doors are closed, special seals avoid air exchange and prevent dust from entering the enclosure.</p>
+        <p>A powerful air conditioning system allows the regulation of air temperature inside the enclosure and of the telescope structure. To minimise seeing effects and thermal deformation of the telescope structure, this air conditioning system sets the temperature inside the dome to that expected outside at the time of opening the doors shortly after sunset. The system uses a chiller plant, located at the side of the telescope plateau, that rejects any residual heat down-stream of the prevailing wind, sufficiently far away from the telescope.</p>
+        <p>Cooling the telescope during the day is critical for operation. The air conditioning system can cool the telescope and dome internal volume by 10°C during 12 hours, even as heat from the Sun warms up the enclosure. To minimise the amount of heat transmitted inside the enclosure, an insulating layer will be inserted between the external aluminum cladding and the inner lining of the enclosure.</p>
+        <p>&nbsp;</p>
+        <table class="fact-table">
+          <tbody>
+            <tr><td>Height of the dome</td><td>80 m</td></tr>
+            <tr><td>Diameter of the dome&nbsp;</td><td>93 m</td></tr>
+            <tr><td>Diameter of the auxiliary building&nbsp;</td><td>117 m</td></tr>
+            <tr><td>Height of the dome pier&nbsp;</td><td>11 m</td></tr>
+            <tr><td>Mass of the rotating enclosure&nbsp;</td><td>6100 t</td></tr>
+            <tr><td>Number of trolleys for rotation&nbsp;</td><td>36</td></tr>
+            <tr><td>Dimension of each trolley&nbsp;</td><td>4x2x3 m</td></tr>
+            <tr><td>Mass of each trolley&nbsp;</td><td>27 t</td></tr>
+            <tr><td>Length of the track of dome&nbsp;</td><td>270 m</td></tr>
+            <tr><td>Door dimensions (w x h)&nbsp;</td><td>23x55 m</td></tr>
+            <tr><td>Mass of each door&nbsp;</td><td>600 t</td></tr>
+            <tr><td>Number of ventilation louvers in dome pier&nbsp;</td><td>89</td></tr>
+            <tr><td>Area of the ventilation louvers&nbsp;</td><td>1240 m<sup>2</sup>&nbsp;</td></tr>
+            <tr><td>Number of seismic isolators&nbsp;</td><td>118&nbsp;</td></tr>
+            <tr><td>Heating, ventilation, and air conditioning system cooling power&nbsp;</td><td>3 MW&nbsp;</td></tr>
+          </tbody>
+        </table>
+        <p>&nbsp;</p>
+      </div>
+    </section>
+  </main>
+
+
+  <footer class="site-footer">
+    <div class="site-footer__row">
+      <div class="site-footer__brand footer-item">
+        <a href="https:///www.eso.org/"><span class="esoblue">ESO</span></a>&nbsp;|&nbsp;ELT © <div id="current-year">2026</div>
+      </div>
+      <div class="site-footer__links footer-item">
+        <div>
+          <a href="https://elt.eso.org/credits/" data-broken-link="true"><span class="footer-item"> Credits </span></a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="mailto:information@eso.org"><span class="footer-item"> Contact us </span></a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="https://www.eso.org/public/outreach/newsletters/"><span class="footer-item"> Subscribe to ESO news </span></a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="https://www.cdn77.com/"><span class="footer-item"> Accelerated by CDN77 </span></a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="https://www.eso.org/public/about-eso/privacy/"><span class="footer-item"> Terms &amp; Conditions </span></a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="#"><span class="footer-item privacy-settings-link"> Cookie Settings and Policy </span></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

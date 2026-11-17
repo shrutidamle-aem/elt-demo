@@ -1,0 +1,9 @@
+[live-session] waiting to pace live navigations to main--26c59ee1--aemcoder.aem.page (1875 ms apart, 1 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 1491 ms
+measure  https://main--26c59ee1--aemcoder.aem.page/telescope
+  widths 1440 · 1 selector(s) · 1 props · first match
+
+@ 1440px
+  root  scrollWidth  1440  viewport 1440  scrollHeight   3434
+  html
+       x     0  y      0  w  1440  h  3434  vis  "Choose your language search European So…"
+      display: block

@@ -1,0 +1,68 @@
+measure: overlay dismissed via extra selector .privacy-notice .privacy-button.accept-all
+measure  A = https://elt.eso.org/about/facts/
+         B = http://localhost:8791/about-facts-proposed.html
+  widths 1440 · 3 selector(s) · 1 props · all matches (≤ 12)
+
+@ 1440px
+  root
+    A  scrollWidth  1440  viewport 1440  scrollHeight   6104
+    B  scrollWidth  1440  viewport 1440  scrollHeight   6112
+    Δ  scrollWidth 0  scrollHeight +8
+  .container-darkblue   5 matches
+    [1]
+    A  x     0  y    794  w  1440  h  1298  vis  "Name Extremely Large Telescope (ELT) Ma…"
+    B  x     0  y    794  w  1440  h  1298  vis  "Name Extremely Large Telescope (ELT) Ma…"
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+    [2]
+    A  x     0  y   2092  w  1440  h   771  vis  "How much light will the ELT gather? `"
+    B  x     0  y   2092  w  1440  h   771  vis  "How much light will the ELT gather? `"
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+    [3]
+    A  x     0  y   2863  w  1440  h   805  vis  "Type Optical/near-infrared extremely la…"
+    B  x     0  y   2863  w  1440  h   805  vis  "Type Optical/near-infrared extremely la…"
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+    [4]
+    A  x     0  y   3668  w  1440  h   608  vis  ""
+    B  x     0  y   3668  w  1440  h   608  vis  ""
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+    [5]
+    A  x     0  y   4276  w  1440  h  1774  vis  "Site Cerro Armazones, Atacama Desert, C…"
+    B  x     0  y   4276  w  1440  h  1782  vis  "Site Cerro Armazones, Atacama Desert, C…"
+    Δ  Δx 0 Δy 0 Δw 0 Δh +8  height: 1774px → 1782px
+  .container-darkblue img   matches 12 vs 8 — paired 8
+    [1]
+    A  x -1080  y   2287  w   720  h   576  vis  ""  img 1280×1024 …/about-facts2.jpg
+    B  x   360  y   2287  w   720  h   576  vis  ""  img 1280×1024 …/about-facts1.jpg
+    Δ  Δx +1440 Δy 0 Δw 0 Δh 0  img.file: about-facts2.jpg → about-facts1.jpg
+    [2]
+    A  x  -360  y   2287  w   720  h   576  vis  ""  img 1280×1024 …/about-facts3.jpg
+    B  x  1080  y   2287  w   720  h   576  vis  ""  img 1280×1024 …/about-facts2.jpg
+    Δ  Δx +1440 Δy 0 Δw 0 Δh 0  img.file: about-facts3.jpg → about-facts2.jpg
+    [3]
+    A  x   360  y   2287  w   720  h   576  vis  ""  img 1280×1024 …/about-facts1.jpg
+    B  x  -360  y   2287  w   720  h   576  vis  ""  img 1280×1024 …/about-facts3.jpg
+    Δ  Δx -720 Δy 0 Δw 0 Δh 0  img.file: about-facts1.jpg → about-facts3.jpg
+    [4]
+    A  x  1080  y   2287  w   720  h   576  vis  ""  img 1280×1024 …/about-facts2.jpg
+    B  x   360  y   3700  w   720  h   576  vis  ""  img 1280×1024 …/about-facts4.jpg
+    Δ  Δx -720 Δy +1413 Δw 0 Δh 0  img.file: about-facts2.jpg → about-facts4.jpg
+    [5]
+    A  x  1800  y   2287  w   720  h   576  vis  ""  img 1280×1024 …/about-facts3.jpg
+    B  x  1080  y   3700  w   720  h   576  vis  ""  img 1280×1024 …/about-facts5.jpg
+    Δ  Δx -720 Δy +1413 Δw 0 Δh 0  img.file: about-facts3.jpg → about-facts5.jpg
+    [6]
+    A  x  2520  y   2287  w   720  h   576  vis  ""  img 1280×1024 …/about-facts1.jpg
+    B  x  1800  y   3700  w   720  h   576  vis  ""  img 1280×1024 …/about-facts6.jpg
+    Δ  Δx -720 Δy +1413 Δw 0 Δh 0  img.file: about-facts1.jpg → about-facts6.jpg
+    [7]
+    A  x  3240  y   2287  w   720  h   576  vis  ""  img 1280×1024 …/about-facts2.jpg
+    B  x -1080  y   3700  w   720  h   576  vis  ""  img 1280×1024 …/about-facts7.jpg
+    Δ  Δx -4320 Δy +1413 Δw 0 Δh 0  img.file: about-facts2.jpg → about-facts7.jpg
+    [8]
+    A  x -1080  y   3700  w   720  h   576  vis  ""  img 1280×1024 …/about-facts7.jpg
+    B  x  -360  y   3700  w   720  h   576  vis  ""  img 1280×1024 …/about-facts8.jpg
+    Δ  Δx +720 Δy 0 Δw 0 Δh 0  img.file: about-facts7.jpg → about-facts8.jpg
+  footer
+    A  x     0  y   6050  w  1440  h    54  vis  "ESO | ELT © 2026 Credits | Contact us |…"
+    B  x     0  y   6058  w  1440  h    54  vis  "ESO | ELT © 2026 Credits | Contact us |…"
+    Δ  Δx 0 Δy +8 Δw 0 Δh 0  props equal

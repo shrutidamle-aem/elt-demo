@@ -1,0 +1,297 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/blocks",
+    "writtenAt": "2026-11-13T14:59:57.447Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage/pages.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-13T20:12:59.415Z",
+  "blocks": [
+    {
+      "id": "carousel",
+      "label": "carousel",
+      "kind": "module",
+      "signature": "module:carousel",
+      "source": null,
+      "usedByTemplates": [
+        "about-facts",
+        "index",
+        "media"
+      ],
+      "usedByPages": [
+        "about-facts",
+        "index",
+        "media"
+      ],
+      "instanceCount": 3,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "carousel",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "data-table",
+      "label": "data-table",
+      "kind": "module",
+      "signature": "module:data-table",
+      "source": null,
+      "usedByTemplates": [
+        "telescope-dome"
+      ],
+      "usedByPages": [
+        "telescope-dome"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "data-table",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "facts",
+      "label": "facts",
+      "kind": "module",
+      "signature": "module:facts",
+      "source": null,
+      "usedByTemplates": [
+        "about-facts"
+      ],
+      "usedByPages": [
+        "about-facts"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "facts",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "home-tiles",
+      "label": "home-tiles",
+      "kind": "module",
+      "signature": "module:home-tiles",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "home-tiles",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "media-stories",
+      "label": "media-stories",
+      "kind": "module",
+      "signature": "module:media-stories",
+      "source": null,
+      "usedByTemplates": [
+        "media"
+      ],
+      "usedByPages": [
+        "media"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "media-stories",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "overview-bands",
+      "label": "overview-bands",
+      "kind": "module",
+      "signature": "module:overview-bands",
+      "source": null,
+      "usedByTemplates": [
+        "telescope"
+      ],
+      "usedByPages": [
+        "telescope"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "overview-bands",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "page-intro",
+      "label": "page-intro",
+      "kind": "module",
+      "signature": "module:page-intro",
+      "source": null,
+      "usedByTemplates": [
+        "instrument-harmoni",
+        "telescope-dome"
+      ],
+      "usedByPages": [
+        "instrument-harmoni",
+        "telescope-dome"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "page-intro",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "share-bar",
+      "label": "share-bar",
+      "kind": "module",
+      "signature": "module:share-bar",
+      "source": null,
+      "usedByTemplates": [
+        "about-road",
+        "instrument-harmoni",
+        "media",
+        "telescope",
+        "telescope-dome"
+      ],
+      "usedByPages": [
+        "about-road",
+        "instrument-harmoni",
+        "media",
+        "telescope",
+        "telescope-dome"
+      ],
+      "instanceCount": 5,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "share-bar",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "subpage-tiles",
+      "label": "subpage-tiles",
+      "kind": "module",
+      "signature": "module:subpage-tiles",
+      "source": null,
+      "usedByTemplates": [
+        "instrument-harmoni",
+        "telescope-dome"
+      ],
+      "usedByPages": [
+        "instrument-harmoni",
+        "telescope-dome"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "subpage-tiles",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "tech-table",
+      "label": "tech-table",
+      "kind": "module",
+      "signature": "module:tech-table",
+      "source": null,
+      "usedByTemplates": [
+        "instrument-harmoni"
+      ],
+      "usedByPages": [
+        "instrument-harmoni"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "tech-table",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "text-section",
+      "label": "text-section",
+      "kind": "module",
+      "signature": "module:text-section",
+      "source": null,
+      "usedByTemplates": [
+        "about-road",
+        "instrument-harmoni",
+        "media",
+        "telescope",
+        "telescope-dome"
+      ],
+      "usedByPages": [
+        "about-road",
+        "instrument-harmoni",
+        "media",
+        "telescope",
+        "telescope-dome"
+      ],
+      "instanceCount": 5,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "text-section",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "timeline",
+      "label": "timeline",
+      "kind": "module",
+      "signature": "module:timeline",
+      "source": null,
+      "usedByTemplates": [
+        "about-timeline"
+      ],
+      "usedByPages": [
+        "about-timeline"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "timeline",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "webcam-panel",
+      "label": "webcam-panel",
+      "kind": "module",
+      "signature": "module:webcam-panel",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "webcam-panel",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    }
+  ]
+}

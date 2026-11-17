@@ -1,0 +1,258 @@
+/*
+ * telescope.css — `listing` template sections of the elt.eso.org replica (archetype slug `telescope`,
+ * https://elt.eso.org/telescope/; siblings about, mirror, instrument, science).
+ * The page links canon.css first. Every value lifted from elt_assets.66fa71510905.css (Lnnnnn) —
+ * Bootstrap 4 grid/utilities + the site layer; media tiers are the source's own.
+ * Sections: inner-page hero title · light content sections (title row, share icons, text paragraph)
+ * · trapezoid link grids (wide "domestruct" tiles, 3/4-up "mirrors" cards).
+ * Scoped here, canon candidates for every inner page: `.big-header-title`, `.dropdown-item.active`,
+ * `.container-light` section frame, share icons.
+ */
+
+/* Active sub-menu entry (L20037 over Bootstrap L4369) */
+.dropdown-item.active { color: rgba(255, 255, 255, 0.9); background-color: transparent; border-color: #ef3c3c; }
+
+/* ── Inner-page hero title (big-header frame lives in canon) ───────────── */
+.big-header-title {
+  position: absolute;
+  margin: 0;
+  font-size: 1.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-shadow: 2px 0 black;
+  bottom: 14%;
+  left: 10.5%;
+  right: 10.5%;
+}
+@media only screen and (min-width: 576px)  { .big-header-title { font-size: 2.15625rem; } }
+@media only screen and (min-width: 768px)  { .big-header-title { font-size: 2.40625rem; } }
+@media only screen and (min-width: 992px)  { .big-header-title { font-size: 2.71875rem; } }
+@media only screen and (min-width: 1200px) { .big-header-title { font-size: 3rem; } }
+@media only screen and (min-width: 1440px) { .big-header-title { font-size: 3.34375rem; } }
+@media only screen and (min-width: 1680px) { .big-header-title { font-size: 3.6875rem; } }
+@media only screen and (min-width: 1920px) { .big-header-title { font-size: 4rem; } }
+
+/* ── Light section frame (.container-fluid.container-light L19621, .blacklinks L19705) ─ */
+.container-light {
+  width: 100%;
+  padding: 2rem 0 0;
+  margin: 0;
+  background-color: rgb(232, 232, 232);
+  color: #000;
+}
+.container-light a { color: var(--esoblue); }
+.container-light a:hover { color: #0056b3; }
+.blacklinks a, .blacklinks a:hover { color: black; }
+.container-paragraph { padding: 0 10.5% 0.005rem; }           /* L16125 */
+.container-paragraph--tail { padding-bottom: 2vw; }            /* inline style on Operations */
+
+/* Section title row (.section-title-paragraph, per tier) */
+.section-title-paragraph {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  font-size: 1.625rem; font-weight: 600; line-height: 1.5;
+  padding-top: 0; padding-bottom: 1.5rem;
+}
+.section-title-paragraph--split { justify-content: space-between; }
+.section-title { margin: 0; font: inherit; }
+@media only screen and (min-width: 576px)  { .section-title-paragraph { font-size: 1.6875rem; padding-bottom: 1.7rem; padding-top: 0.2rem; } }
+@media only screen and (min-width: 768px)  { .section-title-paragraph { font-size: 1.75rem; padding-bottom: 1.9rem; padding-top: 0.4rem; } }
+@media only screen and (min-width: 992px)  { .section-title-paragraph { font-size: 1.84375rem; padding-bottom: 2.1rem; padding-top: 0.6rem; } }
+@media only screen and (min-width: 1200px) { .section-title-paragraph { font-size: 1.9375rem; padding-bottom: 2.3rem; padding-top: 0.8rem; } }
+@media only screen and (min-width: 1440px) { .section-title-paragraph { font-size: 2rem; padding-bottom: 2.5rem; padding-top: 1rem; } }
+@media only screen and (min-width: 1680px) { .section-title-paragraph { font-size: 2.09375rem; padding-bottom: 2.8rem; padding-top: 1.25rem; } }
+@media only screen and (min-width: 1920px) { .section-title-paragraph { font-size: 2.1875rem; padding-bottom: 3rem; padding-top: 1.5rem; } }
+
+/* "more" badge after a section title (Bootstrap .badge L6181 + inline style) */
+.section-badge {
+  display: inline-block;
+  margin-left: 0.5rem;
+  padding: 0;
+  font-size: 0%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+  background-color: rgb(90, 140, 200);
+}
+.blacklinks .section-badge, .blacklinks .section-badge:hover { color: white; background-color: rgb(90, 140, 200); }
+.section-badge .material-icons { font-size: 44px; }
+
+/* Share icons (L15806–L15890) */
+.share { display: flex; }
+.share-social-media-icons {
+  padding: 0 0.3rem;
+  transform: scale(0.95);
+  transition: all 0.5s ease;
+}
+.share-social-media-icons:hover { transform: scale(1.05); }
+.share-menu { position: relative; display: flex; }
+.share-social-media { cursor: pointer; }
+.share-social-media-dropdown {
+  position: absolute;
+  top: 100%;
+  right: -25px;
+  width: 350px;
+  z-index: 100;
+  background: transparent;
+  transform: scale(1, 0);
+  transition: all 0.5s ease;
+}
+.share-social-media-dropdown:hover,
+.share-social-media:hover ~ .share-social-media-dropdown { transform: scale(1, 1); }
+.share-social-media-dropdown-icons {
+  position: relative;
+  margin-top: 2.5rem;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  background: rgb(232, 232, 232);
+  box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.3);
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0 12px;
+}
+.share-social-media-dropdown-icons::before {
+  content: '';
+  position: absolute;
+  width: 0; height: 0;
+  bottom: 99%; right: 25px;
+  border: 18px solid transparent;
+  border-top: none;
+  border-bottom-color: rgb(232, 232, 232);
+  filter: drop-shadow(0 -4px 3px rgba(0, 0, 0, .3));
+}
+.blacklinks .share-social-media-dropdown-icons a { color: var(--esoblue); }
+.share-social-media-dropdown-icons a img { transform: scale(0.95); transition: all 0.5s ease; }
+.share-social-media-dropdown-icons a:hover img { transform: scale(1.05); }
+.share-social-media-dropdown-text { font-size: 14px; }
+
+/* Text paragraph section (.section-text-paragraph and its p carry the same tier values) */
+.section-text-paragraph, .section-text-paragraph p {
+  font-size: 1rem; line-height: 1.6875rem; padding-top: 0.2rem; padding-bottom: 0.2rem;
+}
+@media only screen and (min-width: 576px)  { .section-text-paragraph, .section-text-paragraph p { font-size: 1.03125rem; line-height: 1.75rem; padding-top: 0.25rem; padding-bottom: 0.25rem; } }
+@media only screen and (min-width: 768px)  { .section-text-paragraph, .section-text-paragraph p { font-size: 1.0625rem; line-height: 1.8125rem; padding-top: 0.3rem; padding-bottom: 0.3rem; } }
+@media only screen and (min-width: 992px)  { .section-text-paragraph, .section-text-paragraph p { font-size: 1.125rem; line-height: 1.90625rem; padding-top: 0.35rem; padding-bottom: 0.35rem; } }
+@media only screen and (min-width: 1200px) { .section-text-paragraph, .section-text-paragraph p { font-size: 1.15625rem; line-height: 2rem; padding-top: 0.4rem; padding-bottom: 0.4rem; } }
+@media only screen and (min-width: 1440px) { .section-text-paragraph, .section-text-paragraph p { font-size: 1.21875rem; line-height: 2.0625rem; padding-top: 0.48rem; padding-bottom: 0.48rem; } }
+@media only screen and (min-width: 1680px) { .section-text-paragraph, .section-text-paragraph p { font-size: 1.25rem; line-height: 2.15625rem; padding-top: 0.54rem; padding-bottom: 0.54rem; } }
+@media only screen and (min-width: 1920px) { .section-text-paragraph, .section-text-paragraph p { font-size: 1.3125rem; line-height: 2.25rem; padding-top: 0.6rem; padding-bottom: 0.6rem; } }
+
+/* ── Link grid (Bootstrap .row.m-0.w-100 + .col-lg-* p-0, order utilities) ── */
+.link-grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;
+  margin: 0;
+}
+.link-grid--white { background-color: white; }
+.link-grid > * {
+  position: relative;
+  width: 100%;
+  order: var(--o);
+}
+@media (min-width: 992px) {
+  .link-grid > * { order: var(--o-lg); }
+  .link-grid--2 > * { flex: 0 0 50%; max-width: 50%; }
+  .link-grid--3 > * { flex: 0 0 33.3333333333%; max-width: 33.3333333333%; }
+  .link-grid--4 > * { flex: 0 0 25%; max-width: 25%; }
+  .link-grid--1 > * { flex: 0 0 100%; max-width: 100%; }
+}
+
+/* Trapezoid tab shape (svg.telescope-landing-trapezoid L20335) */
+.trapezoid { width: 100%; height: 100%; }
+.trapezoid polygon { fill: rgb(188, 189, 190); stroke-width: 0; }
+
+/* Wide tile: full-width image + 945×75 trapezoid bar (.telescope-landing-col-domestruct) */
+.wide-tile__image { padding: 0; }
+.wide-tile__image img { width: 100%; }
+.wide-tile__bar {
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  height: 44px;
+}
+.wide-tile__shape {
+  position: absolute;
+  bottom: 0; left: 0;
+  width: 100%; height: 100%;
+  display: flex; align-items: flex-end;
+}
+.wide-tile__shape > div { display: flex; align-items: flex-end; width: 100%; height: 100%; }
+.wide-tile__more {                                   /* .telescope-landing-trapezoid-link-domestruct L16061 */
+  position: absolute;
+  top: 5px; bottom: 0; left: 0; right: 70%;
+  height: 100%;
+  display: flex; align-items: center; justify-content: center;
+  pointer-events: none;                              /* .internal-menu-trapezoid-link L16053 */
+  font-weight: 600;
+  font-size: 1rem;
+}
+.wide-tile__more a, .blacklinks .wide-tile__more a { color: white; font-weight: 600; font-size: inherit; }
+.wide-tile__name {                                   /* .telescope-landing-link-domestruct L16073 */
+  position: absolute;
+  top: 5px; bottom: 0; left: 30%; right: 0;
+  display: flex; align-items: center; justify-content: flex-end;
+  padding-right: 10%;
+  font-family: "Helvetica Neue LT ESO Light";
+  font-size: 1.125rem;
+}
+.wide-tile__name a { font-family: "Helvetica Neue LT ESO Light"; }
+@media only screen and (min-width: 576px)  { .wide-tile__bar { height: 47px; } .wide-tile__name { font-size: 1.375rem; } .wide-tile__more { font-size: 1.15625rem; } }
+@media only screen and (min-width: 768px)  { .wide-tile__bar { height: 49px; } .wide-tile__name { font-size: 1.625rem; } .wide-tile__more { font-size: 1.3125rem; } }
+@media only screen and (min-width: 992px)  { .wide-tile__bar { height: 53px; } .wide-tile__name { font-size: 1.3125rem; } .wide-tile__more { font-size: 1.125rem; } }
+@media only screen and (min-width: 1200px) { .wide-tile__bar { height: 55px; } .wide-tile__name { font-size: 1.40625rem; } .wide-tile__more { font-size: 1.15625rem; } }
+@media only screen and (min-width: 1440px) { .wide-tile__bar { height: 59px; } .wide-tile__name { font-size: 1.46875rem; } .wide-tile__more { font-size: 1.21875rem; } }
+@media only screen and (min-width: 1680px) { .wide-tile__bar { height: 62px; } .wide-tile__name { font-size: 1.546875rem; } .wide-tile__more { font-size: 1.25rem; } }
+@media only screen and (min-width: 1920px) { .wide-tile__bar { height: 66px; } .wide-tile__name { font-size: 1.625rem; } .wide-tile__more { font-size: 1.3125rem; } }
+
+/* Card: 99%-wide image + 120×8 trapezoid tab (45 px) + 5rem white label (.telescope-landing-*-mirrors) */
+.card__image { padding: 0; }
+.card__image img { width: 99%; }
+.card__shape {
+  position: absolute;
+  bottom: 0; left: 0;
+  width: 99%; height: 100%;
+  display: flex; align-items: flex-end;
+}
+.card__shape > div { display: block; width: 100%; }
+.card__shape .trapezoid { height: 45px; }
+.card__more {                                        /* .telescope-landing-trapezoid-link-mirrors L16088 */
+  position: absolute;
+  top: 0; bottom: 8px; left: 0; right: 55%;
+  display: flex; align-items: flex-end; justify-content: center;
+  pointer-events: none;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.card__more a, .blacklinks .card__more a { color: white; font-weight: 600; font-size: inherit; }
+.card__label {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  height: 5rem;
+}
+.card__label > div {                                 /* .telescope-landing-link-mirrors L16098 */
+  display: flex; align-items: center; justify-content: center;
+  height: 100%;
+  width: 99%;
+  background-color: white;
+  font-family: "Helvetica Neue LT ESO Light";
+  font-size: 1.125rem;
+}
+.card__label--center a { text-align: center; }
+@media only screen and (min-width: 576px)  { .card__label > div { font-size: 1.375rem; } .card__more { font-size: 1.15625rem; } }
+@media only screen and (min-width: 768px)  { .card__label > div { font-size: 1.625rem; } .card__more { font-size: 1.3125rem; } }
+@media only screen and (min-width: 992px)  { .card__label > div { font-size: 1.3125rem; } .card__more { font-size: 1.0625rem; } }
+@media only screen and (min-width: 1200px) { .card__label > div { font-size: 1.40625rem; } .card__more { font-size: 1.15625rem; } }
+@media only screen and (min-width: 1440px) { .card__label > div { font-size: 1.46875rem; } .card__more { font-size: 1.21875rem; } }
+@media only screen and (min-width: 1680px) { .card__label > div { font-size: 1.546875rem; } .card__more { font-size: 1.25rem; } }
+@media only screen and (min-width: 1920px) { .card__label > div { font-size: 1.625rem; } .card__more { font-size: 1.3125rem; } }
+
+/* Bootstrap reboot `svg { overflow: hidden; vertical-align: middle }` (L118) — the inline tab svg sits on it */
+.trapezoid { overflow: hidden; vertical-align: middle; }

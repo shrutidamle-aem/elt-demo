@@ -1,0 +1,683 @@
+/*
+ * Overview Bands — telescope.css (listing archetype, gated): the .blacklinks title row
+ * (.section-title-paragraph per tier, Bootstrap .badge L6181 + inline style), the Bootstrap
+ * .row.m-0.w-100 / .col-lg-* link grid with order utilities, the trapezoid tab
+ * (svg.telescope-landing-trapezoid L20335), wide tiles (.telescope-landing-col-domestruct,
+ * L16061, L16073) and cards (.telescope-landing-*-mirrors, L16088, L16098).
+ * Source tiers: <= 576 / >= 576, 768, 992, 1200, 1440, 1680, 1920; sub-0.0001rem values in px.
+ * The section ground (light) is the section-metadata style, not this block.
+ */
+
+/* the source ramp is ordered by module, not by specificity */
+/* stylelint-disable no-descending-specificity */
+
+.overview-bands {
+  --ob-title-size: 1.625rem;
+  --ob-title-pt: 0;
+  --ob-title-pb: 1.5rem;
+  --ob-name-size: 1.125rem;
+  --ob-more-size: 1rem;
+  --ob-bar-h: 44px;
+}
+
+@media only screen and (width >= 576px) {
+  .overview-bands {
+    --ob-title-size: 1.6875rem;
+    --ob-title-pt: 0.2rem;
+    --ob-title-pb: 1.7rem;
+    --ob-name-size: 1.375rem;
+    --ob-more-size: 18.5px;
+    --ob-bar-h: 47px;
+  }
+}
+
+@media only screen and (width >= 768px) {
+  .overview-bands {
+    --ob-title-size: 1.75rem;
+    --ob-title-pt: 0.4rem;
+    --ob-title-pb: 1.9rem;
+    --ob-name-size: 1.625rem;
+    --ob-more-size: 1.3125rem;
+    --ob-bar-h: 49px;
+  }
+}
+
+@media only screen and (width >= 992px) {
+  .overview-bands {
+    --ob-title-size: 29.5px;
+    --ob-title-pt: 0.6rem;
+    --ob-title-pb: 2.1rem;
+    --ob-name-size: 1.3125rem;
+    --ob-more-size: 1.0625rem;
+    --ob-bar-h: 53px;
+  }
+
+  .overview-bands.wide {
+    --ob-more-size: 1.125rem;
+  }
+}
+
+@media only screen and (width >= 1200px) {
+  .overview-bands {
+    --ob-title-size: 1.9375rem;
+    --ob-title-pt: 0.8rem;
+    --ob-title-pb: 2.3rem;
+    --ob-name-size: 22.5px;
+    --ob-more-size: 18.5px;
+    --ob-bar-h: 55px;
+  }
+
+  .overview-bands.wide {
+    --ob-more-size: 18.5px;
+  }
+}
+
+@media only screen and (width >= 1440px) {
+  .overview-bands {
+    --ob-title-size: 2rem;
+    --ob-title-pt: 1rem;
+    --ob-title-pb: 2.5rem;
+    --ob-name-size: 23.5px;
+    --ob-more-size: 19.5px;
+    --ob-bar-h: 59px;
+  }
+
+  .overview-bands.wide {
+    --ob-more-size: 19.5px;
+  }
+}
+
+@media only screen and (width >= 1680px) {
+  .overview-bands {
+    --ob-title-size: 33.5px;
+    --ob-title-pt: 1.25rem;
+    --ob-title-pb: 2.8rem;
+    --ob-name-size: 24.75px;
+    --ob-more-size: 1.25rem;
+    --ob-bar-h: 62px;
+  }
+
+  .overview-bands.wide {
+    --ob-more-size: 1.25rem;
+  }
+}
+
+@media only screen and (width >= 1920px) {
+  .overview-bands {
+    --ob-title-size: 2.1875rem;
+    --ob-title-pt: 1.5rem;
+    --ob-title-pb: 3rem;
+    --ob-name-size: 1.625rem;
+    --ob-more-size: 1.3125rem;
+    --ob-bar-h: 66px;
+  }
+
+  .overview-bands.wide {
+    --ob-more-size: 1.3125rem;
+  }
+}
+
+/* .blacklinks: every link of the band is black (the tab links are white, below) */
+main .section .overview-bands a,
+main .section .overview-bands a:hover {
+  color: #000;
+}
+
+.overview-bands p {
+  margin: 0;
+  padding: 0;
+}
+
+/* the tab and name links sit in their flex boxes as the source's bare anchors do */
+.overview-bands :is(.card-more, .wide-tile-more, .wide-tile-name, .card-name, .tile-more) > p {
+  display: contents;
+}
+
+/* .container-paragraph (L16125) */
+.overview-bands .container-paragraph {
+  padding: 0 var(--content-inset, 10.5%) 0.005rem;
+}
+
+.overview-bands.tail .band-grid {
+  padding-bottom: 2vw;
+}
+
+/* section title row */
+.overview-bands .section-title-paragraph {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  font-size: var(--ob-title-size);
+  font-weight: 600;
+  line-height: 1.5;
+  padding-top: var(--ob-title-pt);
+  padding-bottom: var(--ob-title-pb);
+}
+
+.overview-bands .section-title-paragraph.has-share {
+  justify-content: space-between;
+}
+
+.overview-bands .section-title-paragraph > :is(p, h2, h3) {
+  margin: 0;
+  font: inherit;
+}
+
+/* "more" badge after the title */
+.overview-bands .section-badge {
+  display: inline-block;
+  margin-left: 0.5rem;
+  line-height: 1;
+}
+
+.overview-bands .section-badge p {
+  display: inline;
+}
+
+main .section .overview-bands .section-badge a,
+main .section .overview-bands .section-badge a:hover {
+  display: inline-block;
+  padding: 0;
+  font-size: 0%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+  color: #fff;
+  background-color: rgb(90 140 200);
+}
+
+.overview-bands .section-badge .material-icons {
+  font-size: 44px;
+}
+
+/* link grid */
+.overview-bands .link-grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;
+  margin: 0;
+}
+
+.overview-bands.wide .link-grid {
+  background-color: #fff;
+}
+
+.overview-bands .link-grid > div {
+  position: relative;
+  width: 100%;
+  order: var(--o);
+}
+
+@media (width >= 992px) {
+  .overview-bands .link-grid > div {
+    order: var(--o-lg);
+  }
+
+  .overview-bands .link-grid-1 > div {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .overview-bands .link-grid-2 > div {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .overview-bands .link-grid-3 > div {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+  }
+
+  .overview-bands .link-grid-4 > div {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
+/* trapezoid tab; Bootstrap reboot svg { overflow: hidden; vertical-align: middle } (L118) */
+.overview-bands .trapezoid {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+.overview-bands .trapezoid polygon {
+  fill: rgb(188 189 190);
+  stroke-width: 0;
+}
+
+/* wide tile: full-width image + 945×75 trapezoid bar */
+.overview-bands .wide-tile-image img {
+  width: 100%;
+}
+
+.overview-bands .link-grid > .wide-tile-bar {
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  height: var(--ob-bar-h);
+}
+
+.overview-bands .wide-tile-shape {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.overview-bands .wide-tile-shape > div {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  height: 100%;
+}
+
+.overview-bands .wide-tile-more {
+  position: absolute;
+  inset: 5px 70% 0 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  font-weight: 600;
+  font-size: var(--ob-more-size);
+}
+
+.overview-bands .wide-tile-name {
+  position: absolute;
+  inset: 5px 0 0 30%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 10%;
+  font-family: var(--font-brand-light);
+  font-size: var(--ob-name-size);
+}
+
+/* card: 99%-wide image + 120×8 trapezoid tab (45 px) + 5rem white label */
+.overview-bands .card-image img {
+  width: 99%;
+}
+
+.overview-bands .card-shape {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 99%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.overview-bands .card-shape > div {
+  display: block;
+  width: 100%;
+}
+
+.overview-bands .card-shape .trapezoid {
+  height: 45px;
+}
+
+.overview-bands .card-more {
+  position: absolute;
+  inset: 0 55% 8px 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  pointer-events: none;
+  font-weight: 600;
+  font-size: var(--ob-more-size);
+}
+
+main .section .overview-bands :is(.card-more, .wide-tile-more) a {
+  color: #fff;
+  font-weight: 600;
+  font-size: inherit;
+}
+
+.overview-bands .link-grid > .card-label {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  height: 5rem;
+}
+
+.overview-bands .card-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 99%;
+  background-color: #fff;
+  font-family: var(--font-brand-light);
+  font-size: var(--ob-name-size);
+}
+
+.overview-bands.centered .card-name {
+  text-align: center;
+}
+
+/* ── `banners` / `overlay` tiles (instrument-, mirror- and science-landing; source L15885–L15984,
+   L19530–L19552, L20264–L20352 + per-tier rules): an image with the text laid over it, an
+   outlined black tab carrying the orange "Read More", the light #triangle-down on top ── */
+.overview-bands.banners,
+.overview-bands.overlay {
+  --ob-more-font: 16px;
+  --ob-overlay-title: 1.625rem;
+  --ob-banner-title: 1.75rem;
+  --ob-banner-sub: 1.5rem;
+  --ob-banner-sub-lh: 2.25rem;
+  --ob-banner-desc: 0.875rem;
+  --ob-banner-desc-lh: 1.625rem;
+  --ob-mirror-title: 1.625rem;
+}
+
+@media only screen and (width >= 576px) {
+  .overview-bands.banners,
+  .overview-bands.overlay {
+    --ob-more-font: 16.5px;
+    --ob-overlay-title: 27px;
+    --ob-banner-title: 1.875rem;
+    --ob-banner-sub: 1.5625rem;
+    --ob-banner-sub-lh: 2.375rem;
+    --ob-banner-desc: 0.9375rem;
+    --ob-banner-desc-lh: 1.6875rem;
+    --ob-mirror-title: 2.5rem;
+  }
+}
+
+@media only screen and (width >= 768px) {
+  .overview-bands.banners,
+  .overview-bands.overlay {
+    --ob-more-font: 17.5px;
+    --ob-overlay-title: 28.5px;
+    --ob-banner-title: 1.9375rem;
+    --ob-banner-sub: 1.6875rem;
+    --ob-banner-sub-lh: 2.4375rem;
+    --ob-banner-desc: 1rem;
+    --ob-banner-desc-lh: 1.75rem;
+  }
+}
+
+@media only screen and (width >= 992px) {
+  .overview-bands.banners,
+  .overview-bands.overlay {
+    --ob-more-font: 18px;
+    --ob-overlay-title: 29.5px;
+    --ob-banner-title: 32.5px;
+    --ob-banner-sub: 1.75rem;
+    --ob-banner-sub-lh: 2.5625rem;
+    --ob-banner-desc: 1.0625rem;
+    --ob-banner-desc-lh: 1.8125rem;
+  }
+}
+
+@media only screen and (width >= 1200px) {
+  .overview-bands.banners,
+  .overview-bands.overlay {
+    --ob-more-font: 18.5px;
+    --ob-overlay-title: 1.9375rem;
+    --ob-banner-title: 2.125rem;
+    --ob-banner-sub: 1.8125rem;
+    --ob-banner-sub-lh: 2.625rem;
+    --ob-banner-desc: 1.125rem;
+    --ob-banner-desc-lh: 1.875rem;
+  }
+}
+
+@media only screen and (width >= 1440px) {
+  .overview-bands.banners,
+  .overview-bands.overlay {
+    --ob-more-font: 19.5px;
+    --ob-overlay-title: 2rem;
+    --ob-banner-title: 2.25rem;
+    --ob-banner-sub: 1.9375rem;
+    --ob-banner-sub-lh: 2.75rem;
+    --ob-banner-desc: 1.1875rem;
+    --ob-banner-desc-lh: 2rem;
+  }
+}
+
+/* 1920: the source's `.header-title { font-size 2.5rem }` lacks its colon, 2.375rem stays */
+@media only screen and (width >= 1680px) {
+  .overview-bands.banners,
+  .overview-bands.overlay {
+    --ob-more-font: 20px;
+    --ob-overlay-title: 33.5px;
+    --ob-banner-title: 2.375rem;
+    --ob-banner-sub: 2rem;
+    --ob-banner-sub-lh: 2.875rem;
+    --ob-banner-desc: 1.25rem;
+    --ob-banner-desc-lh: 2.0625rem;
+  }
+}
+
+@media only screen and (width >= 1920px) {
+  .overview-bands.banners,
+  .overview-bands.overlay {
+    --ob-more-font: 21px;
+    --ob-overlay-title: 2.1875rem;
+    --ob-banner-sub: 2.125rem;
+    --ob-banner-sub-lh: 3rem;
+    --ob-banner-desc: 1.3125rem;
+    --ob-banner-desc-lh: 2.125rem;
+  }
+}
+
+.overview-bands .overlay-grid {
+  position: relative;
+}
+
+.overview-bands :is(.banner-tile, .overlay-tile) {
+  position: relative;
+  width: 100%;
+}
+
+.overview-bands .banner-tile {
+  background-color: #000;
+  color: #fff;
+}
+
+.overview-bands :is(.banner-tile, .overlay-tile) img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overview-bands :is(.banner-tile, .overlay-tile) picture {
+  display: block;
+}
+
+@media (width >= 992px) {
+  .overview-bands .overlay-tile {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+/* .instrument-landing-menu-textblock / .mirror-landing-menu-textblock (L15920, L15948) */
+.overview-bands .tile-text {
+  position: absolute;
+  top: 5%;
+  left: 10%;
+  width: 90%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/* overlay title (.internal-menu-title type) */
+.overview-bands.overlay .tile-title {
+  font-size: var(--ob-overlay-title);
+}
+
+main .section .overview-bands.overlay .tile-title a {
+  color: #fff;
+}
+
+/* banner title (.header-title: 600, header blue) */
+.overview-bands.banners .tile-title {
+  font-size: var(--ob-banner-title);
+  font-weight: 600;
+}
+
+main .section .overview-bands.banners .tile-title a {
+  color: var(--headerblue);
+}
+
+/* banner subtitle (.header-subtitle + .instrument-header-subtitle, d-md-block) */
+.overview-bands.banners .tile-subtitle {
+  display: none;
+  width: 40%;
+  font-size: var(--ob-banner-sub);
+  line-height: var(--ob-banner-sub-lh);
+}
+
+/* banner description (.header-description + .instrument-header-description, d-lg-block) */
+.overview-bands.banners .tile-description {
+  display: none;
+  width: 40%;
+  font-size: var(--ob-banner-desc);
+  line-height: var(--ob-banner-desc-lh);
+}
+
+.overview-bands.banners .tile-description p {
+  margin: 0 0 1rem;
+}
+
+@media (width >= 768px) {
+  .overview-bands.banners .tile-subtitle {
+    display: block;
+  }
+}
+
+@media (width >= 992px) {
+  .overview-bands.banners .tile-description {
+    display: block;
+  }
+}
+
+/* `mirror`: .mirror-landing-menu-title / -subtitle / -description (35 % column, d-xl desc) */
+.overview-bands.banners.mirror .tile-title {
+  width: 35%;
+  font-size: var(--ob-mirror-title);
+  line-height: 1.5;
+}
+
+main .section .overview-bands.banners.mirror .tile-title a {
+  color: var(--esoblue);
+}
+
+.overview-bands.banners.mirror .tile-subtitle {
+  width: 35%;
+  font-size: 2.125rem;
+  line-height: 3rem;
+}
+
+.overview-bands.banners.mirror .tile-subtitle p {
+  margin: 0 0 1rem;
+}
+
+.overview-bands.banners.mirror .tile-description {
+  width: 35%;
+  font-family: var(--font-brand-light);
+  font-size: 1.3125rem;
+  line-height: 2.125rem;
+}
+
+@media (width >= 992px) and (width < 1200px) {
+  .overview-bands.banners.mirror .tile-description {
+    display: none;
+  }
+}
+
+/* trapezoid tab (svg.instrument-landing-trapezoid / svg.science-landing-trapezoid) */
+.overview-bands .tile-shape {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.overview-bands .tile-shape > div {
+  display: block;
+  width: 100%;
+}
+
+.overview-bands .tile-shape .trapezoid {
+  height: auto;
+}
+
+.overview-bands .tile-shape .trapezoid polygon {
+  fill: #000;
+  stroke-width: 0;
+}
+
+.overview-bands .tile-shape .trapezoid polygon:hover {
+  fill: rgb(47 54 64);
+}
+
+.overview-bands .tile-shape .trapezoid polyline {
+  fill: none;
+  stroke: rgb(57 106 158);
+  stroke-width: 2;
+}
+
+/* "Read More" (.instrument-landing-trapezoid-link L15976, .science-landing-trapezoid-link L15962) */
+.overview-bands .tile-more {
+  position: absolute;
+  inset: 86% 60% 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  font-size: var(--ob-more-font);
+  font-weight: 600;
+}
+
+.overview-bands.overlay .tile-more {
+  inset: 83% 70% 0 0;
+}
+
+main .section .overview-bands .tile-more a {
+  color: var(--orange);
+  font-weight: 600;
+}
+
+/* .triangle-down (L20337, #triangle-down L20344; top -1% <= 576) */
+.overview-bands .triangle-down,
+.overview-bands .link-grid > .triangle-down {
+  position: absolute;
+  width: auto;
+  top: 0;
+  left: 10%;
+  z-index: 1;
+  display: flex;
+  align-items: flex-start;
+}
+
+.overview-bands .triangle-down-shape {
+  width: 0;
+  height: 0;
+  border-left: 80px solid transparent;
+  border-right: 80px solid transparent;
+  border-top: 40px solid rgb(232 232 232);
+}
+
+@media only screen and (width <= 576px) {
+  .overview-bands .triangle-down {
+    top: -1%;
+  }
+}

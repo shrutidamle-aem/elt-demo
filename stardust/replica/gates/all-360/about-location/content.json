@@ -1,0 +1,5352 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-14T04:03:05.655Z",
+  "width": 360,
+  "variable": [
+   ".privacy-notice",
+   ".privacy-settings"
+  ],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://elt.eso.org/about/location/",
+  "at": "2026-11-14T04:02:44.918Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 5782,
+  "root": "img.big-header-image.d-block",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "span.navbar-brand.ml-xl-5 > div.d-block > a",
+    "x": 4,
+    "y": 11,
+    "w": 38,
+    "h": 24,
+    "text": "",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.d-block > a > img.navbar-eso-logo",
+    "x": 4,
+    "y": 0,
+    "w": 38,
+    "h": 50,
+    "text": "",
+    "file": "eso_logo"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.navbar-brand.p-0 > div.nav-item_.menu-item_ > a",
+    "x": 55,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on facebook",
+    "href": "/ESOAstronomy"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.nav-item_.menu-item_ > a > img.desktop-top-sm-element",
+    "x": 55,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on facebook",
+    "file": "icon_topbar_mobile_1"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.navbar-brand.p-0 > div.nav-item_.menu-item_ > a",
+    "x": 105,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on instagram",
+    "href": "/esoastronomy/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.nav-item_.menu-item_ > a > img.desktop-top-sm-element",
+    "x": 105,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on instagram",
+    "file": "icon_topbar_mobile_3"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.navbar-brand.p-0 > div.nav-item_.menu-item_ > a",
+    "x": 155,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on linkedin",
+    "href": "/company/european-southern-observatory"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.nav-item_.menu-item_ > a > img.desktop-top-sm-element",
+    "x": 155,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on linkedin",
+    "file": "icon_topbar_mobile_4"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.navbar-brand.p-0 > div.nav-item_.menu-item_ > a",
+    "x": 205,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on youtube",
+    "href": "/channel/UCIhYoC2VIAJqCkoIWNHBQ3Q"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.nav-item_.menu-item_ > a > img.desktop-top-sm-element",
+    "x": 205,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on youtube",
+    "file": "icon_topbar_mobile_5"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav#top-navbar > span.lang-links > a.lang-link.link-en",
+    "x": 246,
+    "y": 17,
+    "w": 14,
+    "h": 15,
+    "text": "en",
+    "href": "/about/location/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav#top-navbar > span.lang-links > a.lang-link.link-cl",
+    "x": 269,
+    "y": 17,
+    "w": 13,
+    "h": 15,
+    "text": "es",
+    "href": "/about/location/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav#top-navbar > button.navbar-toggler",
+    "x": 300,
+    "y": 5,
+    "w": 56,
+    "h": 40,
+    "text": "toggle navigation"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav#top-navbar > button.navbar-toggler",
+    "x": 300,
+    "y": 5,
+    "w": 56,
+    "h": 40,
+    "label": "toggle navigation",
+    "value": "toggle navigation",
+    "via": "trigger"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "img.big-header-image.d-block",
+    "x": 0,
+    "y": 50,
+    "w": 360,
+    "h": 169,
+    "text": "",
+    "file": "header-about-location"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#big-header > div.position-absolute.big-header-logos > img.big-header-eso-logo",
+    "x": 38,
+    "y": 58,
+    "w": 30,
+    "h": 39,
+    "text": "",
+    "file": "eso_logo_transparent"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#big-header > div.position-absolute.big-header-logos > p.esologo-text",
+    "x": 38,
+    "y": 103,
+    "w": 180,
+    "h": 23,
+    "text": "European Southern Observatory"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#big-header > div.position-absolute.big-header-title",
+    "x": 38,
+    "y": 150,
+    "w": 284,
+    "h": 45,
+    "text": "| Location"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#nutshell > div.container-paragraph.section-title-paragraph > div",
+    "x": 38,
+    "y": 251,
+    "w": 140,
+    "h": 39,
+    "text": "In a nutshell"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-paragraph.section-title-paragraph > div.d-flex > a.share-social-media-link.share-social-media-icons",
+    "x": 233,
+    "y": 252,
+    "w": 42,
+    "h": 38,
+    "text": "share on facebook",
+    "href": "/sharer/sharer.php"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.d-flex > a.share-social-media-link.share-social-media-icons > img",
+    "x": 238,
+    "y": 256,
+    "w": 33,
+    "h": 33,
+    "text": "share on facebook",
+    "file": "icon_share_1"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "span.position-relative.d-flex > span.share-social-media.share-social-media-icons > img.share-social-media",
+    "x": 282,
+    "y": 256,
+    "w": 34,
+    "h": 33,
+    "text": "",
+    "file": "icon_share_3"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#nutshell > div.container-paragraph.section-text-paragraph > p",
+    "x": 38,
+    "y": 318,
+    "w": 284,
+    "h": 168,
+    "text": "An extraordinary telescope calls for an exceptional site. Great care was therefo"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#nutshell > div.container-paragraph.section-text-paragraph > p",
+    "x": 38,
+    "y": 502,
+    "w": 284,
+    "h": 276,
+    "text": ", the as the site for the planned 40-metre-class ELT. Cerro Armazones is a mount"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-paragraph.section-text-paragraph > p > a",
+    "x": 38,
+    "y": 509,
+    "w": 244,
+    "h": 46,
+    "text": "eso council selected cerro armazones",
+    "href": "/public/news/eso1018/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#nutshell > div.container-paragraph.section-text-paragraph > p",
+    "x": 38,
+    "y": 794,
+    "w": 284,
+    "h": 195,
+    "text": ", an agreement was between ESO and the Chilean government, including the donatio"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-paragraph.section-text-paragraph > p > a",
+    "x": 38,
+    "y": 829,
+    "w": 46,
+    "h": 19,
+    "text": "signed",
+    "href": "/public/news/eso1139/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#nutshell > div.container-paragraph.section-text-paragraph > p",
+    "x": 38,
+    "y": 1006,
+    "w": 284,
+    "h": 141,
+    "text": ", the Chilean President by which the Chilean government transferred this land ar"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-paragraph.section-text-paragraph > p > a",
+    "x": 38,
+    "y": 1040,
+    "w": 267,
+    "h": 46,
+    "text": "handed over the signed legal documents",
+    "href": "/public/news/eso1345/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.row.w-100 > div.col-lg-12.p-0 > a.d-flex.align-items-center",
+    "x": 0,
+    "y": 1166,
+    "w": 360,
+    "h": 168,
+    "text": "",
+    "href": "/public/images/ann18093a/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.col-lg-12.p-0 > a.d-flex.align-items-center > img",
+    "x": 0,
+    "y": 1166,
+    "w": 360,
+    "h": 168,
+    "text": "",
+    "file": "about-location-banner2"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#about-location-tour > div.container-paragraph.section-title-paragraph",
+    "x": 0,
+    "y": 1370,
+    "w": 360,
+    "h": 102,
+    "text": "A tour of Cerro Armazones"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#about-location-tour > div.container-paragraph.section-text-paragraph > p",
+    "x": 38,
+    "y": 1475,
+    "w": 284,
+    "h": 60,
+    "text": "To visit the ELT site, please check the travel information on the ."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-paragraph.section-text-paragraph > p > a",
+    "x": 208,
+    "y": 1509,
+    "w": 89,
+    "h": 19,
+    "text": "eso website",
+    "href": "/public/about-eso/travel/elt/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#about-site > div.container-paragraph.section-title-paragraph",
+    "x": 0,
+    "y": 1587,
+    "w": 360,
+    "h": 63,
+    "text": "Site Characteristics"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.row.w-100 > div.col-lg-12.p-0 > a.d-flex.align-items-center",
+    "x": 38,
+    "y": 1650,
+    "w": 284,
+    "h": 120,
+    "text": "",
+    "href": "/public/images/2019_07_05_Armazones_Pano_24mm_EQ_cut-CC/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.col-lg-12.p-0 > a.d-flex.align-items-center > img",
+    "x": 38,
+    "y": 1650,
+    "w": 284,
+    "h": 120,
+    "text": "",
+    "file": "about-location-banner1"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#about-site > div.container-paragraph.section-text-paragraph > p",
+    "x": 38,
+    "y": 1777,
+    "w": 284,
+    "h": 654,
+    "text": "Cerro Armazones’ location in the dry Chilean desert at high altitude makes it id"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#about-location-selection > div.container-paragraph.section-title-paragraph",
+    "x": 0,
+    "y": 2482,
+    "w": 360,
+    "h": 63,
+    "text": "Site Selection Process"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#about-location-selection > div.container-paragraph.section-text-paragraph > p",
+    "x": 38,
+    "y": 2548,
+    "w": 284,
+    "h": 114,
+    "text": "The decision on the ELT site was based on an extensive comparative meteorologica"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#about-location-selection > div.container-paragraph.section-text-paragraph > p",
+    "x": 38,
+    "y": 2679,
+    "w": 284,
+    "h": 681,
+    "text": "The site selection process took several factors into account. The “astronomical "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#about-location-selection > div.container-paragraph.section-text-paragraph > p",
+    "x": 38,
+    "y": 3376,
+    "w": 284,
+    "h": 276,
+    "text": "A Site Selection Advisory Committee was formed to advise the ESO Director Genera"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#about-location-selection > div.container-paragraph.section-text-paragraph > p",
+    "x": 38,
+    "y": 3669,
+    "w": 284,
+    "h": 708,
+    "text": "In March 2010, the ESO Council received a preliminary report with the main concl"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#about-location-selection > div.container-paragraph.section-text-paragraph > p",
+    "x": 38,
+    "y": 4393,
+    "w": 284,
+    "h": 87,
+    "text": "The site selection process was supported by FP6 activities described in an ."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-paragraph.section-text-paragraph > p > a",
+    "x": 59,
+    "y": 4454,
+    "w": 77,
+    "h": 19,
+    "text": "spie paper",
+    "href": "/sci/libraries/SPIE2008/7012-64.pdf"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.col-lg-3.p-0 > div > a",
+    "x": 38,
+    "y": 4593,
+    "w": 279,
+    "h": 19,
+    "text": "",
+    "href": "/public/images/tolonchar_5/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div > a > img.mx-auto_",
+    "x": 38,
+    "y": 4500,
+    "w": 279,
+    "h": 209,
+    "text": "",
+    "file": "about-location-thumb1"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.col-lg-3.p-0 > div > a",
+    "x": 38,
+    "y": 4884,
+    "w": 279,
+    "h": 19,
+    "text": "",
+    "href": "/public/images/img_20080524_1265/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div > a > img.mx-auto_",
+    "x": 38,
+    "y": 4790,
+    "w": 279,
+    "h": 209,
+    "text": "",
+    "file": "about-location-thumb2"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.col-lg-3.p-0 > div > a",
+    "x": 38,
+    "y": 5174,
+    "w": 279,
+    "h": 19,
+    "text": "",
+    "href": "/public/images/vizcachas20078274_cc/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div > a > img.mx-auto_",
+    "x": 38,
+    "y": 5080,
+    "w": 279,
+    "h": 209,
+    "text": "",
+    "file": "about-location-thumb3"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.col-lg-3.p-0 > div > a",
+    "x": 38,
+    "y": 5464,
+    "w": 279,
+    "h": 19,
+    "text": "",
+    "href": "/public/images/orm/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div > a > img.mx-auto_",
+    "x": 38,
+    "y": 5371,
+    "w": 279,
+    "h": 209,
+    "text": "",
+    "file": "about-location-thumb4"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "span.h-100.d-flex > p > span",
+    "x": 99,
+    "y": 4732,
+    "w": 156,
+    "h": 19,
+    "text": "Cerro Tolonchar (Chile)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "span.h-100.d-flex > p > span",
+    "x": 92,
+    "y": 5022,
+    "w": 171,
+    "h": 19,
+    "text": "Cerro Ventarrones (Chile)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "span.h-100.d-flex > p > span",
+    "x": 119,
+    "y": 5313,
+    "w": 115,
+    "h": 19,
+    "text": "Vizcachas (Chile)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "span.h-100.d-flex > p > span",
+    "x": 63,
+    "y": 5603,
+    "w": 228,
+    "h": 19,
+    "text": "Roque de los Muchachos (Spain)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "footer.container-fluid.container-footer > div.row.d-flex > div.col-12.col-lg-3",
+    "x": -15,
+    "y": 5677,
+    "w": 360,
+    "h": 34,
+    "text": "| ELT ©"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.row.d-flex > div.col-12.col-lg-3 > a",
+    "x": 119,
+    "y": 5677,
+    "w": 24,
+    "h": 18,
+    "text": "eso",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.row.d-flex > div.col-12.col-lg-9 > div.text-center",
+    "x": 0,
+    "y": 5711,
+    "w": 330,
+    "h": 55,
+    "text": "| | | | |"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-lg-9 > div.text-center > a.w-100",
+    "x": 23,
+    "y": 5712,
+    "w": 41,
+    "h": 15,
+    "text": "credits",
+    "href": "/credits/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-lg-9 > div.text-center > a.w-100",
+    "x": 83,
+    "y": 5712,
+    "w": 61,
+    "h": 15,
+    "text": "contact us",
+    "href": "information@eso.org"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-lg-9 > div.text-center > a.w-100",
+    "x": 163,
+    "y": 5712,
+    "w": 128,
+    "h": 15,
+    "text": "subscribe to eso news",
+    "href": "/public/outreach/newsletters/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-lg-9 > div.text-center > a.w-100",
+    "x": 13,
+    "y": 5731,
+    "w": 123,
+    "h": 15,
+    "text": "accelerated by cdn77",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-lg-9 > div.text-center > a.w-100",
+    "x": 156,
+    "y": 5731,
+    "w": 105,
+    "h": 15,
+    "text": "terms & conditions",
+    "href": "/public/about-eso/privacy/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-lg-9 > div.text-center > a.w-100",
+    "x": 115,
+    "y": 5731,
+    "w": 202,
+    "h": 33,
+    "text": "cookie settings and policy",
+    "href": "/about/location/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-notice > h1",
+    "x": 16,
+    "y": 1192,
+    "w": 328,
+    "h": 96,
+    "level": 1,
+    "text": "our use of cookies"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-container.centered-container > div.privacy-text-element > p",
+    "x": 16,
+    "y": 1296,
+    "w": 328,
+    "h": 168,
+    "text": "We use cookies that are essential for accessing our websites and using our servi"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-notice > div.privacy-container.centered-container > div.privacy-text-element",
+    "x": 16,
+    "y": 1496,
+    "w": 328,
+    "h": 72,
+    "text": "You can manage your cookie preferences and find out more by visiting 'Cookie Set"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-notice > div.centered-container > button.privacy-button.accept-all",
+    "x": 129,
+    "y": 1584,
+    "w": 101,
+    "h": 40,
+    "text": "accept all"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-notice > div.centered-container > button.privacy-button.reject-all",
+    "x": 59,
+    "y": 1656,
+    "w": 242,
+    "h": 40,
+    "text": "accept only essential cookies"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-notice > div.centered-container > button.privacy-button.settings",
+    "x": 72,
+    "y": 1728,
+    "w": 216,
+    "h": 40,
+    "text": "cookie settings and policy"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > h1",
+    "x": 32,
+    "y": 1006,
+    "w": 296,
+    "h": 96,
+    "level": 1,
+    "text": "eso cookies policy"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 1134,
+    "w": 296,
+    "h": 216,
+    "text": "The European Organisation for Astronomical Research in the Southern Hemisphere ("
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 1366,
+    "w": 296,
+    "h": 144,
+    "text": "This Cookies Policy is intended to provide clarity by outlining the cookies used"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > h2",
+    "x": 32,
+    "y": 1526,
+    "w": 296,
+    "h": 38,
+    "level": 2,
+    "text": "what are cookies?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 1572,
+    "w": 296,
+    "h": 144,
+    "text": "Cookies are small pieces of data stored on your device by websites you visit. Th"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > h2",
+    "x": 32,
+    "y": 1732,
+    "w": 296,
+    "h": 77,
+    "level": 2,
+    "text": "categories of cookies we use"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 1817,
+    "w": 296,
+    "h": 216,
+    "text": ": These cookies are strictly necessary for the proper functioning of our website"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 32,
+    "y": 2049,
+    "w": 197,
+    "h": 88,
+    "text": "Cookie ID/Name"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 229,
+    "y": 2049,
+    "w": 281,
+    "h": 88,
+    "text": "Description/Purpose"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 32,
+    "y": 2137,
+    "w": 197,
+    "h": 88,
+    "text": "csrftoken"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 229,
+    "y": 2137,
+    "w": 281,
+    "h": 88,
+    "text": "XSRF protection token. We use this cookie to protect against cross-site request "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 32,
+    "y": 2225,
+    "w": 197,
+    "h": 88,
+    "text": "user_privacy"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 229,
+    "y": 2225,
+    "w": 281,
+    "h": 88,
+    "text": "Your privacy choices. We use this cookie to save your privacy preferences."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 2329,
+    "w": 296,
+    "h": 216,
+    "text": ": These cookies enhance your browsing experience by enabling additional features"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row-choice.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 32,
+    "y": 2561,
+    "w": 170,
+    "h": 136,
+    "text": "Cookie ID/Name"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row-choice.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 202,
+    "y": 2561,
+    "w": 243,
+    "h": 136,
+    "text": "Description/Purpose"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row-choice > div.cookies-table-cell",
+    "x": 32,
+    "y": 2697,
+    "w": 170,
+    "h": 88,
+    "text": "preferred_language"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row-choice > div.cookies-table-cell",
+    "x": 202,
+    "y": 2697,
+    "w": 243,
+    "h": 88,
+    "text": "Language settings. We use this cookie to remember your preferred language settin"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 2801,
+    "w": 296,
+    "h": 240,
+    "text": ": These cookies collect information about how visitors interact with our website"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p > span",
+    "x": 64,
+    "y": 3059,
+    "w": 126,
+    "h": 19,
+    "text": "Matomo Cookies"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 3097,
+    "w": 296,
+    "h": 360,
+    "text": "This website uses Matomo (formerly Piwik), an open source software which enables"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 3473,
+    "w": 296,
+    "h": 144,
+    "text": "On behalf of ESO, Matomo will use this information for the purpose of evaluating"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > div.privacy-setting-toggle.privacy-matomo > span.privacy-option.privacy-option-off",
+    "x": 269,
+    "y": 3636,
+    "w": 39,
+    "h": 21,
+    "text": "OFF"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 3633,
+    "w": 296,
+    "h": 24,
+    "text": "Matomo cookies settings:"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 32,
+    "y": 3673,
+    "w": 197,
+    "h": 88,
+    "text": "Cookie ID/Name"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 229,
+    "y": 3673,
+    "w": 281,
+    "h": 88,
+    "text": "Description/Purpose"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 32,
+    "y": 3761,
+    "w": 197,
+    "h": 40,
+    "text": "Settings"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 32,
+    "y": 3801,
+    "w": 197,
+    "h": 40,
+    "text": "_pk_id"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 229,
+    "y": 3801,
+    "w": 281,
+    "h": 40,
+    "text": "Stores a unique visitor ID."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 32,
+    "y": 3841,
+    "w": 197,
+    "h": 64,
+    "text": "_pk_ses"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 229,
+    "y": 3841,
+    "w": 281,
+    "h": 64,
+    "text": "Session cookie temporarily stores data for the visit."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 32,
+    "y": 3905,
+    "w": 197,
+    "h": 88,
+    "text": "_pk_ref"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 229,
+    "y": 3905,
+    "w": 281,
+    "h": 88,
+    "text": "Stores attribution information (the referrer that brought the visitor to the web"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 32,
+    "y": 3993,
+    "w": 197,
+    "h": 136,
+    "text": "_pk_testcookie"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 229,
+    "y": 3993,
+    "w": 281,
+    "h": 136,
+    "text": "Temporary cookie to check if a visitor’s browser supports cookies (set in Intern"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 4145,
+    "w": 296,
+    "h": 96,
+    "text": ": some of our pages display content from external providers, e.g. YouTube."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 4257,
+    "w": 296,
+    "h": 72,
+    "text": "Such third-party services are outside of ESO control and may, at any time, chang"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 4345,
+    "w": 296,
+    "h": 264,
+    "text": ": Some videos on the ESO website are embedded from . We have enabled YouTube’s p"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p > a",
+    "x": 32,
+    "y": 4347,
+    "w": 59,
+    "h": 19,
+    "text": "youtube",
+    "href": "/t/terms"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p > a",
+    "x": 32,
+    "y": 4371,
+    "w": 288,
+    "h": 43,
+    "text": "eso’s official youtube channel",
+    "href": "/channel/UCIhYoC2VIAJqCkoIWNHBQ3Q"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p > a",
+    "x": 32,
+    "y": 4587,
+    "w": 247,
+    "h": 19,
+    "text": "embedding videos information page",
+    "href": "/youtube/answer/171780"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 4625,
+    "w": 296,
+    "h": 48,
+    "text": "Cookies can also be classified based on the following elements."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 4689,
+    "w": 296,
+    "h": 24,
+    "text": "Regarding the domain, there are:"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > ul.ul-privacy > li",
+    "x": 72,
+    "y": 4729,
+    "w": 256,
+    "h": 144,
+    "text": ", set by the website you are currently visiting. They are stored by the same dom"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > ul.ul-privacy > li",
+    "x": 72,
+    "y": 4873,
+    "w": 256,
+    "h": 72,
+    "text": ", set by a domain other than the one you are currently visiting."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 4961,
+    "w": 296,
+    "h": 24,
+    "text": "As for their duration, cookies can be:"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > ul.ul-privacy > li",
+    "x": 72,
+    "y": 5001,
+    "w": 256,
+    "h": 72,
+    "text": ", which are deleted when the user closes the browser;"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > ul.ul-privacy > li",
+    "x": 72,
+    "y": 5073,
+    "w": 256,
+    "h": 72,
+    "text": ", which stay on the user's device for a predetermined period of time."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > h2",
+    "x": 32,
+    "y": 5161,
+    "w": 296,
+    "h": 77,
+    "level": 2,
+    "text": "how to manage cookies"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 5246,
+    "w": 296,
+    "h": 96,
+    "text": ": You can modify your cookie choices for the ESO webpages at any time by clickin"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 5358,
+    "w": 296,
+    "h": 96,
+    "text": ": If you wish to delete cookies or instruct your browser to delete or block cook"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.ul-privacy > li > a",
+    "x": 72,
+    "y": 5472,
+    "w": 39,
+    "h": 19,
+    "text": "brave",
+    "href": "/hc/en-us/signin"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.ul-privacy > li > a",
+    "x": 72,
+    "y": 5496,
+    "w": 55,
+    "h": 19,
+    "text": "chrome",
+    "href": "/chrome/bin/answer.py"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.ul-privacy > li > a",
+    "x": 72,
+    "y": 5520,
+    "w": 36,
+    "h": 19,
+    "text": "edge",
+    "href": "/en-us/windows/manage-cookies-in-microsoft-edge-view-allow-block-delete-and-use-168dab11-0753-043d-7c16-ede5947fc64d"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.ul-privacy > li > a",
+    "x": 72,
+    "y": 5544,
+    "w": 45,
+    "h": 19,
+    "text": "firefox",
+    "href": "/en-US/kb/Blocking%20cookies"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.ul-privacy > li > a",
+    "x": 72,
+    "y": 5568,
+    "w": 39,
+    "h": 19,
+    "text": "safari",
+    "href": "/article.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 5606,
+    "w": 296,
+    "h": 96,
+    "text": "Please be aware that if you delete or decline cookies, certain functionalities o"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 5718,
+    "w": 296,
+    "h": 168,
+    "text": "You can set most browsers to prevent any cookies being placed on your device, bu"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.privacy-settings > h2",
+    "x": 32,
+    "y": 5902,
+    "w": 296,
+    "h": 77,
+    "level": 2,
+    "text": "updates to the eso cookies policy"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 5987,
+    "w": 296,
+    "h": 72,
+    "text": "The ESO Cookies Policy may be subject to future updates, which will be made avai"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.privacy-settings > h2",
+    "x": 32,
+    "y": 6075,
+    "w": 296,
+    "h": 77,
+    "level": 2,
+    "text": "additional information"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 6160,
+    "w": 296,
+    "h": 48,
+    "text": "For any queries related to cookies, please contact: pdprATesoDOTorg."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 6224,
+    "w": 296,
+    "h": 96,
+    "text": "As ESO public webpages are managed by our Department of Communication, your ques"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.privacy-settings > div.centered-container > button.privacy-button.save-settings",
+    "x": 64,
+    "y": 6352,
+    "w": 66,
+    "h": 40,
+    "text": "save"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.privacy-settings > div.centered-container > button.privacy-button.cancel-settings",
+    "x": 199,
+    "y": 6352,
+    "w": 80,
+    "h": 40,
+    "text": "cancel"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 88,
+    "horizontal": 0,
+    "offPage": 60,
+    "textNodes": 204,
+    "controls": 40,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 24,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > p",
+     "text": "cookies are small pieces of data stored on your device by we",
+     "cutMin": 3,
+     "cutMax": 3
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 14,
+     "clipper": "div.privacy-settings",
+     "path": "div.cookies-table-container > div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+     "text": "csrftoken",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 12,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > p > span",
+     "text": "essential cookies (always active)",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "CONTROL SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 8,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > p > a",
+     "text": "youtube",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 8,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > p > a",
+     "text": "youtube",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 7,
+     "clipper": "div.privacy-settings",
+     "path": "div.cookies-table-container > div.cookies-table > div.cookies-table-row.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+     "text": "cookie id/name",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 4,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > h2",
+     "text": "categories of cookies we use",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 4,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > ul.ul-privacy > li",
+     "text": ", set by the website you are currently visiting. they are st",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > div.privacy-setting-toggle.privacy-matomo > span.privacy-option.privacy-option-on",
+     "text": "on",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > div.privacy-setting-toggle.privacy-matomo",
+     "text": "|",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > div.privacy-setting-toggle.privacy-matomo > span.privacy-option.privacy-option-off",
+     "text": "off",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "CONTROL SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > div.centered-container > button.privacy-button.save-settings",
+     "text": "save",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > div.centered-container > button.privacy-button.save-settings",
+     "text": "save",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "CONTROL SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > div.centered-container > button.privacy-button.cancel-settings",
+     "text": "cancel",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > div.centered-container > button.privacy-button.cancel-settings",
+     "text": "cancel",
+     "cutMin": null,
+     "cutMax": null
+    }
+   ]
+  }
+ },
+ "eds": {
+  "url": "https://main--26c59ee1--aemcoder.aem.page/about/location",
+  "at": "2026-11-14T04:03:05.525Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 5785,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "span.navbar-brand.navbar-brand-main > div.brand-logo > a",
+    "x": 4,
+    "y": 0,
+    "w": 38,
+    "h": 50,
+    "text": "eso",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img.navbar-eso-logo",
+    "x": 4,
+    "y": 0,
+    "w": 38,
+    "h": 50,
+    "text": "eso",
+    "file": "media_175cb2986e8ee49e7c64e8a9df5fa3f1f9"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.navbar-brand.brand-social > div.desktop-top-sm-icons > a",
+    "x": 55,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on facebook",
+    "href": "/ESOAstronomy"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 55,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on facebook",
+    "file": "media_1f386e2b9f7ed0b34b2f603a73f839485d"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.navbar-brand.brand-social > div.desktop-top-sm-icons > a",
+    "x": 105,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on instagram",
+    "href": "/esoastronomy/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 105,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on instagram",
+    "file": "media_19faa7be92695e315cea4cad487aa3e15b"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.navbar-brand.brand-social > div.desktop-top-sm-icons > a",
+    "x": 155,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on linkedin",
+    "href": "/company/european-southern-observatory"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 155,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on linkedin",
+    "file": "media_15b4dfde77d1909c3b38baaf7167a2e3d4"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.navbar-brand.brand-social > div.desktop-top-sm-icons > a",
+    "x": 205,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on youtube",
+    "href": "/channel/UCIhYoC2VIAJqCkoIWNHBQ3Q"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 205,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on youtube",
+    "file": "media_101417719196c90d4b42a69d39754d790f"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "span.lang-links > p > a.lang-link",
+    "x": 246,
+    "y": 17,
+    "w": 14,
+    "h": 15,
+    "text": "en",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "span.lang-links > p > a.lang-link",
+    "x": 269,
+    "y": 17,
+    "w": 13,
+    "h": 15,
+    "text": "es",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header.block > nav#top-navbar > button.navbar-toggler",
+    "x": 300,
+    "y": 5,
+    "w": 56,
+    "h": 40,
+    "text": "toggle navigation"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header.block > nav#top-navbar > button.navbar-toggler",
+    "x": 300,
+    "y": 5,
+    "w": 56,
+    "h": 40,
+    "label": "toggle navigation",
+    "value": "toggle navigation",
+    "via": "trigger"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.big-header-media > picture > img.big-header-image",
+    "x": 0,
+    "y": 50,
+    "w": 360,
+    "h": 169,
+    "text": "",
+    "file": "media_17ae1a3b0f02666910634e13f91967d2e9"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.big-header-logos > picture > img.big-header-eso-logo",
+    "x": 38,
+    "y": 58,
+    "w": 30,
+    "h": 39,
+    "text": "eso",
+    "file": "media_1a043431fda0378cd219e1a181f4b0998c"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.big-header-text > div.big-header-logos > p.esologo-text",
+    "x": 38,
+    "y": 103,
+    "w": 180,
+    "h": 23,
+    "text": "European Southern Observatory"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.big-header-text > div.big-header-title > h1#about--location",
+    "x": 38,
+    "y": 150,
+    "w": 284,
+    "h": 45,
+    "level": 1,
+    "text": "about | location"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.big-header-title > h1#about--location > strong",
+    "x": 38,
+    "y": 154,
+    "w": 76,
+    "h": 36,
+    "text": "About"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > div.section-title-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 251,
+    "w": 141,
+    "h": 39,
+    "text": "In a nutshell"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-title-paragraph.container-paragraph > div.share-bar.block > a.share-social-media-link.share-social-media-icons",
+    "x": 233,
+    "y": 252,
+    "w": 42,
+    "h": 38,
+    "text": "share on facebook",
+    "href": "/sharer/sharer.php"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.share-bar.block > a.share-social-media-link.share-social-media-icons > img",
+    "x": 238,
+    "y": 256,
+    "w": 33,
+    "h": 33,
+    "text": "share on facebook",
+    "file": "icon_share_1"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "span.share-menu > span.share-social-media.share-social-media-icons > img.share-social-media",
+    "x": 282,
+    "y": 256,
+    "w": 34,
+    "h": 33,
+    "text": "",
+    "file": "icon_share_3"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > div.section-text-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 318,
+    "w": 284,
+    "h": 168,
+    "text": "An extraordinary telescope calls for an exceptional site. Great care was therefo"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > div.section-text-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 502,
+    "w": 284,
+    "h": 276,
+    "text": ", the as the site for the planned 40-metre-class ELT. Cerro Armazones is a mount"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-text-paragraph.container-paragraph > p > a",
+    "x": 38,
+    "y": 508,
+    "w": 244,
+    "h": 47,
+    "text": "eso council selected cerro armazones",
+    "href": "/public/news/eso1018/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > div.section-text-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 794,
+    "w": 284,
+    "h": 195,
+    "text": ", an agreement was between ESO and the Chilean government, including the donatio"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-text-paragraph.container-paragraph > p > a",
+    "x": 38,
+    "y": 827,
+    "w": 46,
+    "h": 20,
+    "text": "signed",
+    "href": "/public/news/eso1139/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > div.section-text-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 1006,
+    "w": 284,
+    "h": 141,
+    "text": ", the Chilean President by which the Chilean government transferred this land ar"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-text-paragraph.container-paragraph > p > a",
+    "x": 38,
+    "y": 1039,
+    "w": 268,
+    "h": 47,
+    "text": "handed over the signed legal documents",
+    "href": "/public/news/eso1345/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > figure.article-image > a",
+    "x": 0,
+    "y": 1166,
+    "w": 360,
+    "h": 168,
+    "text": "",
+    "href": "/public/images/ann18093a/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 0,
+    "y": 1166,
+    "w": 360,
+    "h": 168,
+    "text": "",
+    "file": "media_1db9a09d3298970aac4844985a143718aa"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.block > div.section-title-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 1370,
+    "w": 284,
+    "h": 78,
+    "text": "A tour of Cerro Armazones"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.block > div.section-text-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 1475,
+    "w": 284,
+    "h": 60,
+    "text": "To visit the ELT site, please check the travel information on the ."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-text-paragraph.container-paragraph > p > a",
+    "x": 208,
+    "y": 1508,
+    "w": 89,
+    "h": 20,
+    "text": "eso website",
+    "href": "/public/about-eso/travel/elt/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.block > div.section-title-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 1587,
+    "w": 284,
+    "h": 39,
+    "text": "Site Characteristics"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.block > figure.article-image > a",
+    "x": 38,
+    "y": 1650,
+    "w": 284,
+    "h": 120,
+    "text": "",
+    "href": "/public/images/2019_07_05_Armazones_Pano_24mm_EQ_cut-CC/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 38,
+    "y": 1650,
+    "w": 284,
+    "h": 120,
+    "text": "",
+    "file": "media_16bab9e289eb2689889808484568c0e084"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.block > div.section-text-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 1777,
+    "w": 284,
+    "h": 654,
+    "text": "Cerro Armazones’ location in the dry Chilean desert at high altitude makes it id"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.narrow-measure > div.section-title-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 2482,
+    "w": 284,
+    "h": 39,
+    "text": "Site Selection Process"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.narrow-measure > div.section-text-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 2548,
+    "w": 282,
+    "h": 114,
+    "text": "The decision on the ELT site was based on an extensive comparative meteorologica"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.narrow-measure > div.section-text-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 2679,
+    "w": 282,
+    "h": 681,
+    "text": "The site selection process took several factors into account. The “astronomical "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.narrow-measure > div.section-text-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 3376,
+    "w": 282,
+    "h": 276,
+    "text": "A Site Selection Advisory Committee was formed to advise the ESO Director Genera"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.narrow-measure > div.section-text-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 3668,
+    "w": 282,
+    "h": 708,
+    "text": "In March 2010, the ESO Council received a preliminary report with the main concl"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.narrow-measure > div.section-text-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 4393,
+    "w": 282,
+    "h": 87,
+    "text": "The site selection process was supported by FP6 activities described in an ."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-text-paragraph.container-paragraph > p > a",
+    "x": 59,
+    "y": 4453,
+    "w": 78,
+    "h": 20,
+    "text": "spie paper",
+    "href": "/sci/libraries/SPIE2008/7012-64.pdf"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "figure.article-image.article-image-row > div.article-image-cell > a",
+    "x": 38,
+    "y": 4499,
+    "w": 284,
+    "h": 209,
+    "text": "",
+    "href": "/public/images/tolonchar_5/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 38,
+    "y": 4499,
+    "w": 278,
+    "h": 209,
+    "text": "",
+    "file": "media_1ca88fba2647fb0fcc895b614a41fcba17"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-image-cell > div.article-image-caption > p",
+    "x": 97,
+    "y": 4724,
+    "w": 160,
+    "h": 33,
+    "text": "Cerro Tolonchar (Chile)"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "figure.article-image.article-image-row > div.article-image-cell > a",
+    "x": 38,
+    "y": 4790,
+    "w": 284,
+    "h": 209,
+    "text": "",
+    "href": "/public/images/img_20080524_1265/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 38,
+    "y": 4790,
+    "w": 278,
+    "h": 209,
+    "text": "",
+    "file": "media_1178b134af16977f6ea25c1b8068747faa"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-image-cell > div.article-image-caption > p",
+    "x": 89,
+    "y": 5015,
+    "w": 176,
+    "h": 33,
+    "text": "Cerro Ventarrones (Chile)"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "figure.article-image.article-image-row > div.article-image-cell > a",
+    "x": 38,
+    "y": 5080,
+    "w": 284,
+    "h": 209,
+    "text": "",
+    "href": "/public/images/vizcachas20078274_cc/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 38,
+    "y": 5080,
+    "w": 278,
+    "h": 209,
+    "text": "",
+    "file": "media_15c06d2c1d6fc241eb00aabfbd26a872a3"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-image-cell > div.article-image-caption > p",
+    "x": 117,
+    "y": 5305,
+    "w": 120,
+    "h": 33,
+    "text": "Vizcachas (Chile)"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "figure.article-image.article-image-row > div.article-image-cell > a",
+    "x": 38,
+    "y": 5370,
+    "w": 284,
+    "h": 209,
+    "text": "",
+    "href": "/public/images/orm/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 38,
+    "y": 5370,
+    "w": 278,
+    "h": 209,
+    "text": "",
+    "file": "media_13fffc3515556e65e344886c751838f283"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.article-image-cell > div.article-image-caption > p",
+    "x": 63,
+    "y": 5595,
+    "w": 229,
+    "h": 33,
+    "text": "Roque de los Muchachos (Spain)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer > div.site-footer-row > p.site-footer-brand.footer-item",
+    "x": -15,
+    "y": 5680,
+    "w": 360,
+    "h": 34,
+    "text": "| ELT ©"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-row > p.site-footer-brand.footer-item > a",
+    "x": 118,
+    "y": 5680,
+    "w": 25,
+    "h": 18,
+    "text": "eso",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-links.footer-item > div > p",
+    "x": 0,
+    "y": 5715,
+    "w": 330,
+    "h": 55,
+    "text": "| | | | |"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > p > a",
+    "x": 23,
+    "y": 5716,
+    "w": 41,
+    "h": 15,
+    "text": "credits",
+    "href": "/credits/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > p > a",
+    "x": 83,
+    "y": 5716,
+    "w": 60,
+    "h": 15,
+    "text": "contact us",
+    "href": "information@eso.org"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > p > a",
+    "x": 163,
+    "y": 5716,
+    "w": 128,
+    "h": 15,
+    "text": "subscribe to eso news",
+    "href": "/public/outreach/newsletters/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > p > a",
+    "x": 12,
+    "y": 5734,
+    "w": 124,
+    "h": 15,
+    "text": "accelerated by cdn77",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > p > a",
+    "x": 155,
+    "y": 5734,
+    "w": 106,
+    "h": 15,
+    "text": "terms & conditions",
+    "href": "/public/about-eso/privacy/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > p > a",
+    "x": 115,
+    "y": 5734,
+    "w": 203,
+    "h": 33,
+    "text": "cookie settings and policy",
+    "href": "/about/location"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 56,
+    "controls": 27,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 1
+   },
+   "eds": {
+    "link": 12,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 21,
+    "textHidden": 0,
+    "image": 10,
+    "imageHidden": 0
+   },
+   "findings": [
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "COUNT TEXT",
+    "COUNT IMAGES"
+   ]
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h1 \"about | location\" (y 150) has no origin heading",
+   "text": "about | location"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"share on facebook\" served in band \"(top)\", no origin link or button",
+   "band": 0,
+   "n": 1,
+   "text": "share on facebook"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"eso council selected cerro armazones\" served in band \"(top)\", no origin link or button",
+   "band": 0,
+   "n": 1,
+   "text": "eso council selected cerro armazones"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"signed\" served in band \"(top)\", no origin link or button",
+   "band": 0,
+   "n": 1,
+   "text": "signed"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"handed over the signed legal documents\" served in band \"(top)\", no origin link or button",
+   "band": 0,
+   "n": 1,
+   "text": "handed over the signed legal documents"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"eso website\" served in band \"(top)\", no origin link or button",
+   "band": 0,
+   "n": 1,
+   "text": "eso website"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"spie paper\" served in band \"(top)\", no origin link or button",
+   "band": 0,
+   "n": 1,
+   "text": "spie paper"
+  },
+  {
+   "sev": "🟡",
+   "kind": "COUNT TEXT",
+   "msg": "band \"(top)\": 0 origin → 21 served visible",
+   "band": 0,
+   "origin": 0,
+   "eds": 21,
+   "hidden": 0
+  },
+  {
+   "sev": "🟡",
+   "kind": "COUNT IMAGES",
+   "msg": "band \"(top)\": 1 origin → 10 served visible",
+   "band": 0,
+   "origin": 1,
+   "eds": 10,
+   "hidden": 0
+  }
+ ],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 1,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 6,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 2,
+  "findings": 9,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 246,
+    "y": 17,
+    "w": 14,
+    "h": 15
+   },
+   {
+    "x": 259,
+    "y": 17,
+    "w": 10,
+    "h": 15
+   },
+   {
+    "x": 269,
+    "y": 17,
+    "w": 13,
+    "h": 15
+   },
+   {
+    "x": 38,
+    "y": 104,
+    "w": 21,
+    "h": 6
+   },
+   {
+    "x": 38,
+    "y": 112,
+    "w": 20,
+    "h": 6
+   },
+   {
+    "x": 38,
+    "y": 119,
+    "w": 26,
+    "h": 6
+   },
+   {
+    "x": 38,
+    "y": 154,
+    "w": 78,
+    "h": 36
+   },
+   {
+    "x": 116,
+    "y": 154,
+    "w": 134,
+    "h": 36
+   },
+   {
+    "x": 38,
+    "y": 255,
+    "w": 140,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 325,
+    "w": 261,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 352,
+    "w": 219,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 379,
+    "w": 272,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 406,
+    "w": 260,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 433,
+    "w": 257,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 460,
+    "w": 97,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 509,
+    "w": 122,
+    "h": 19
+   },
+   {
+    "x": 160,
+    "y": 509,
+    "w": 35,
+    "h": 19
+   },
+   {
+    "x": 195,
+    "y": 509,
+    "w": 87,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 536,
+    "w": 182,
+    "h": 19
+   },
+   {
+    "x": 220,
+    "y": 536,
+    "w": 97,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 563,
+    "w": 266,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 590,
+    "w": 267,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 617,
+    "w": 246,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 644,
+    "w": 240,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 671,
+    "w": 212,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 698,
+    "w": 254,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 725,
+    "w": 277,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 752,
+    "w": 164,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 802,
+    "w": 148,
+    "h": 19
+   },
+   {
+    "x": 186,
+    "y": 802,
+    "w": 136,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 829,
+    "w": 46,
+    "h": 19
+   },
+   {
+    "x": 83,
+    "y": 829,
+    "w": 212,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 856,
+    "w": 260,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 883,
+    "w": 52,
+    "h": 19
+   },
+   {
+    "x": 90,
+    "y": 880,
+    "w": 7,
+    "h": 15
+   },
+   {
+    "x": 97,
+    "y": 883,
+    "w": 144,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 910,
+    "w": 279,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 937,
+    "w": 248,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 964,
+    "w": 223,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1013,
+    "w": 148,
+    "h": 19
+   },
+   {
+    "x": 186,
+    "y": 1013,
+    "w": 86,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1040,
+    "w": 69,
+    "h": 19
+   },
+   {
+    "x": 107,
+    "y": 1040,
+    "w": 198,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1067,
+    "w": 78,
+    "h": 19
+   },
+   {
+    "x": 115,
+    "y": 1067,
+    "w": 147,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1094,
+    "w": 275,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1121,
+    "w": 178,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1374,
+    "w": 172,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 1413,
+    "w": 130,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 1482,
+    "w": 256,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1509,
+    "w": 170,
+    "h": 19
+   },
+   {
+    "x": 208,
+    "y": 1509,
+    "w": 89,
+    "h": 19
+   },
+   {
+    "x": 296,
+    "y": 1509,
+    "w": 9,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1591,
+    "w": 225,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 1784,
+    "w": 251,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1811,
+    "w": 266,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1838,
+    "w": 274,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1865,
+    "w": 269,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1892,
+    "w": 215,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1919,
+    "w": 258,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1946,
+    "w": 267,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1973,
+    "w": 275,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2000,
+    "w": 280,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2027,
+    "w": 277,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2054,
+    "w": 282,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2081,
+    "w": 232,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2108,
+    "w": 280,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2135,
+    "w": 255,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2162,
+    "w": 269,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2189,
+    "w": 240,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2216,
+    "w": 247,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2243,
+    "w": 273,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2270,
+    "w": 283,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2297,
+    "w": 267,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2324,
+    "w": 266,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2351,
+    "w": 279,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2378,
+    "w": 269,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2405,
+    "w": 262,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2486,
+    "w": 260,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 2556,
+    "w": 272,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2583,
+    "w": 196,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2610,
+    "w": 239,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2637,
+    "w": 145,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2686,
+    "w": 265,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2713,
+    "w": 269,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2740,
+    "w": 261,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2767,
+    "w": 214,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2794,
+    "w": 216,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2821,
+    "w": 265,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2848,
+    "w": 256,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2875,
+    "w": 268,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2902,
+    "w": 257,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2929,
+    "w": 206,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2956,
+    "w": 265,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2983,
+    "w": 269,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3010,
+    "w": 271,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3037,
+    "w": 250,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3064,
+    "w": 182,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3091,
+    "w": 218,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3118,
+    "w": 233,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3145,
+    "w": 280,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3172,
+    "w": 221,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3199,
+    "w": 221,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3226,
+    "w": 280,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3253,
+    "w": 258,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3280,
+    "w": 201,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3307,
+    "w": 260,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3334,
+    "w": 187,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3383,
+    "w": 284,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3410,
+    "w": 235,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3437,
+    "w": 277,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3464,
+    "w": 250,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3491,
+    "w": 231,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3518,
+    "w": 273,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3545,
+    "w": 257,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3572,
+    "w": 271,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3599,
+    "w": 274,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3626,
+    "w": 223,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3676,
+    "w": 222,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3703,
+    "w": 253,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3730,
+    "w": 241,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3757,
+    "w": 257,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3784,
+    "w": 266,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3811,
+    "w": 198,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3838,
+    "w": 279,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3865,
+    "w": 260,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3892,
+    "w": 257,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3919,
+    "w": 259,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3946,
+    "w": 260,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3973,
+    "w": 210,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4000,
+    "w": 272,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4027,
+    "w": 274,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4054,
+    "w": 272,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4081,
+    "w": 254,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4108,
+    "w": 203,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4135,
+    "w": 264,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4162,
+    "w": 274,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4189,
+    "w": 264,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4216,
+    "w": 260,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4243,
+    "w": 278,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4270,
+    "w": 246,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4297,
+    "w": 254,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4324,
+    "w": 276,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4351,
+    "w": 125,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4400,
+    "w": 211,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4427,
+    "w": 275,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4454,
+    "w": 21,
+    "h": 19
+   },
+   {
+    "x": 59,
+    "y": 4454,
+    "w": 77,
+    "h": 19
+   },
+   {
+    "x": 136,
+    "y": 4454,
+    "w": 9,
+    "h": 19
+   },
+   {
+    "x": 99,
+    "y": 4732,
+    "w": 156,
+    "h": 19
+   },
+   {
+    "x": 92,
+    "y": 5022,
+    "w": 171,
+    "h": 19
+   },
+   {
+    "x": 119,
+    "y": 5313,
+    "w": 115,
+    "h": 19
+   },
+   {
+    "x": 63,
+    "y": 5603,
+    "w": 228,
+    "h": 19
+   },
+   {
+    "x": 119,
+    "y": 5678,
+    "w": 24,
+    "h": 15
+   },
+   {
+    "x": 142,
+    "y": 5678,
+    "w": 42,
+    "h": 15
+   },
+   {
+    "x": 184,
+    "y": 5678,
+    "w": 27,
+    "h": 15
+   },
+   {
+    "x": 23,
+    "y": 5712,
+    "w": 41,
+    "h": 15
+   },
+   {
+    "x": 63,
+    "y": 5712,
+    "w": 20,
+    "h": 15
+   },
+   {
+    "x": 83,
+    "y": 5712,
+    "w": 61,
+    "h": 15
+   },
+   {
+    "x": 144,
+    "y": 5712,
+    "w": 20,
+    "h": 15
+   },
+   {
+    "x": 163,
+    "y": 5712,
+    "w": 128,
+    "h": 15
+   },
+   {
+    "x": 291,
+    "y": 5712,
+    "w": 16,
+    "h": 15
+   },
+   {
+    "x": 13,
+    "y": 5731,
+    "w": 123,
+    "h": 15
+   },
+   {
+    "x": 136,
+    "y": 5731,
+    "w": 20,
+    "h": 15
+   },
+   {
+    "x": 156,
+    "y": 5731,
+    "w": 105,
+    "h": 15
+   },
+   {
+    "x": 261,
+    "y": 5731,
+    "w": 20,
+    "h": 15
+   },
+   {
+    "x": 281,
+    "y": 5731,
+    "w": 37,
+    "h": 15
+   },
+   {
+    "x": 115,
+    "y": 5749,
+    "w": 99,
+    "h": 15
+   },
+   {
+    "x": 76,
+    "y": 1191,
+    "w": 180,
+    "h": 49
+   },
+   {
+    "x": 110,
+    "y": 1239,
+    "w": 140,
+    "h": 49
+   },
+   {
+    "x": 16,
+    "y": 1298,
+    "w": 262,
+    "h": 20
+   },
+   {
+    "x": 16,
+    "y": 1322,
+    "w": 270,
+    "h": 20
+   },
+   {
+    "x": 16,
+    "y": 1346,
+    "w": 296,
+    "h": 20
+   },
+   {
+    "x": 16,
+    "y": 1370,
+    "w": 255,
+    "h": 20
+   },
+   {
+    "x": 16,
+    "y": 1394,
+    "w": 306,
+    "h": 20
+   },
+   {
+    "x": 16,
+    "y": 1418,
+    "w": 302,
+    "h": 20
+   },
+   {
+    "x": 16,
+    "y": 1442,
+    "w": 227,
+    "h": 20
+   },
+   {
+    "x": 16,
+    "y": 1498,
+    "w": 327,
+    "h": 20
+   },
+   {
+    "x": 16,
+    "y": 1522,
+    "w": 325,
+    "h": 20
+   },
+   {
+    "x": 16,
+    "y": 1546,
+    "w": 51,
+    "h": 20
+   },
+   {
+    "x": 145,
+    "y": 1594,
+    "w": 69,
+    "h": 19
+   },
+   {
+    "x": 75,
+    "y": 1666,
+    "w": 210,
+    "h": 19
+   },
+   {
+    "x": 88,
+    "y": 1738,
+    "w": 184,
+    "h": 19
+   },
+   {
+    "x": 65,
+    "y": 1005,
+    "w": 230,
+    "h": 49
+   },
+   {
+    "x": 130,
+    "y": 1053,
+    "w": 100,
+    "h": 49
+   },
+   {
+    "x": 32,
+    "y": 1136,
+    "w": 210,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1160,
+    "w": 268,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1184,
+    "w": 255,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1208,
+    "w": 290,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1232,
+    "w": 291,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1256,
+    "w": 258,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1280,
+    "w": 257,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1304,
+    "w": 290,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1328,
+    "w": 99,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1368,
+    "w": 285,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1392,
+    "w": 292,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1416,
+    "w": 278,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1440,
+    "w": 289,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1464,
+    "w": 290,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1488,
+    "w": 49,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1525,
+    "w": 256,
+    "h": 39
+   },
+   {
+    "x": 32,
+    "y": 1574,
+    "w": 293,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1598,
+    "w": 267,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1622,
+    "w": 222,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1646,
+    "w": 237,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1670,
+    "w": 277,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1694,
+    "w": 79,
+    "h": 19
+   }
+  ],
+  "eds": [
+   {
+    "x": 246,
+    "y": 17,
+    "w": 14,
+    "h": 15
+   },
+   {
+    "x": 259,
+    "y": 17,
+    "w": 10,
+    "h": 15
+   },
+   {
+    "x": 269,
+    "y": 17,
+    "w": 13,
+    "h": 15
+   },
+   {
+    "x": 38,
+    "y": 104,
+    "w": 21,
+    "h": 6
+   },
+   {
+    "x": 38,
+    "y": 112,
+    "w": 20,
+    "h": 6
+   },
+   {
+    "x": 38,
+    "y": 119,
+    "w": 26,
+    "h": 6
+   },
+   {
+    "x": 38,
+    "y": 154,
+    "w": 76,
+    "h": 36
+   },
+   {
+    "x": 114,
+    "y": 154,
+    "w": 133,
+    "h": 36
+   },
+   {
+    "x": 38,
+    "y": 255,
+    "w": 141,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 324,
+    "w": 263,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 351,
+    "w": 220,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 378,
+    "w": 272,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 405,
+    "w": 260,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 432,
+    "w": 255,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 459,
+    "w": 92,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 509,
+    "w": 121,
+    "h": 19
+   },
+   {
+    "x": 159,
+    "y": 508,
+    "w": 34,
+    "h": 20
+   },
+   {
+    "x": 193,
+    "y": 508,
+    "w": 89,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 535,
+    "w": 182,
+    "h": 20
+   },
+   {
+    "x": 220,
+    "y": 535,
+    "w": 97,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 562,
+    "w": 265,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 589,
+    "w": 267,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 616,
+    "w": 244,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 643,
+    "w": 237,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 670,
+    "w": 210,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 697,
+    "w": 252,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 724,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 751,
+    "w": 159,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 801,
+    "w": 146,
+    "h": 19
+   },
+   {
+    "x": 184,
+    "y": 800,
+    "w": 136,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 827,
+    "w": 46,
+    "h": 20
+   },
+   {
+    "x": 83,
+    "y": 827,
+    "w": 212,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 854,
+    "w": 258,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 881,
+    "w": 51,
+    "h": 20
+   },
+   {
+    "x": 89,
+    "y": 879,
+    "w": 6,
+    "h": 15
+   },
+   {
+    "x": 95,
+    "y": 881,
+    "w": 146,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 908,
+    "w": 281,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 935,
+    "w": 248,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 962,
+    "w": 219,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1013,
+    "w": 146,
+    "h": 19
+   },
+   {
+    "x": 184,
+    "y": 1012,
+    "w": 87,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1039,
+    "w": 70,
+    "h": 20
+   },
+   {
+    "x": 107,
+    "y": 1039,
+    "w": 199,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1066,
+    "w": 76,
+    "h": 20
+   },
+   {
+    "x": 113,
+    "y": 1066,
+    "w": 147,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1093,
+    "w": 275,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1120,
+    "w": 179,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1374,
+    "w": 170,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 1413,
+    "w": 132,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 1481,
+    "w": 257,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1508,
+    "w": 170,
+    "h": 20
+   },
+   {
+    "x": 208,
+    "y": 1508,
+    "w": 89,
+    "h": 20
+   },
+   {
+    "x": 297,
+    "y": 1508,
+    "w": 4,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1591,
+    "w": 225,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 1783,
+    "w": 249,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1810,
+    "w": 267,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1837,
+    "w": 274,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1864,
+    "w": 271,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1891,
+    "w": 213,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1918,
+    "w": 258,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1945,
+    "w": 266,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1972,
+    "w": 273,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1999,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2026,
+    "w": 274,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2053,
+    "w": 245,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2080,
+    "w": 272,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2107,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2134,
+    "w": 254,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2161,
+    "w": 264,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2188,
+    "w": 238,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2215,
+    "w": 246,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2242,
+    "w": 281,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2269,
+    "w": 273,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2296,
+    "w": 262,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2323,
+    "w": 271,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2350,
+    "w": 278,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2377,
+    "w": 269,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2404,
+    "w": 259,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2486,
+    "w": 262,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 2554,
+    "w": 273,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2581,
+    "w": 197,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2608,
+    "w": 239,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2635,
+    "w": 142,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2685,
+    "w": 267,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2712,
+    "w": 266,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2739,
+    "w": 259,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2766,
+    "w": 214,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2793,
+    "w": 217,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2820,
+    "w": 265,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2847,
+    "w": 255,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2874,
+    "w": 267,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2901,
+    "w": 255,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2928,
+    "w": 208,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2955,
+    "w": 264,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2982,
+    "w": 269,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3009,
+    "w": 270,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3036,
+    "w": 252,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3063,
+    "w": 181,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3090,
+    "w": 218,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3117,
+    "w": 234,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3144,
+    "w": 276,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3171,
+    "w": 218,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3198,
+    "w": 217,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3225,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3252,
+    "w": 259,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3279,
+    "w": 198,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3306,
+    "w": 261,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3333,
+    "w": 181,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3382,
+    "w": 282,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3409,
+    "w": 236,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3436,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3463,
+    "w": 247,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3490,
+    "w": 234,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3517,
+    "w": 272,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3544,
+    "w": 254,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3571,
+    "w": 270,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3598,
+    "w": 273,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3625,
+    "w": 213,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3675,
+    "w": 222,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3702,
+    "w": 254,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3729,
+    "w": 242,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3756,
+    "w": 257,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3783,
+    "w": 265,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3810,
+    "w": 199,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3837,
+    "w": 281,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3864,
+    "w": 261,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3891,
+    "w": 262,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3918,
+    "w": 256,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3945,
+    "w": 259,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3972,
+    "w": 209,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3999,
+    "w": 267,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4026,
+    "w": 275,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4053,
+    "w": 271,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4080,
+    "w": 253,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4107,
+    "w": 206,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4134,
+    "w": 260,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4161,
+    "w": 277,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4188,
+    "w": 263,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4215,
+    "w": 260,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4242,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4269,
+    "w": 245,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4296,
+    "w": 253,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4323,
+    "w": 277,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4350,
+    "w": 126,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4399,
+    "w": 211,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4426,
+    "w": 273,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4453,
+    "w": 22,
+    "h": 20
+   },
+   {
+    "x": 59,
+    "y": 4453,
+    "w": 78,
+    "h": 20
+   },
+   {
+    "x": 138,
+    "y": 4453,
+    "w": 4,
+    "h": 20
+   },
+   {
+    "x": 97,
+    "y": 4731,
+    "w": 160,
+    "h": 20
+   },
+   {
+    "x": 89,
+    "y": 5021,
+    "w": 176,
+    "h": 20
+   },
+   {
+    "x": 117,
+    "y": 5311,
+    "w": 120,
+    "h": 20
+   },
+   {
+    "x": 63,
+    "y": 5602,
+    "w": 229,
+    "h": 20
+   },
+   {
+    "x": 118,
+    "y": 5681,
+    "w": 25,
+    "h": 15
+   },
+   {
+    "x": 143,
+    "y": 5681,
+    "w": 42,
+    "h": 15
+   },
+   {
+    "x": 185,
+    "y": 5681,
+    "w": 26,
+    "h": 15
+   },
+   {
+    "x": 23,
+    "y": 5716,
+    "w": 38,
+    "h": 15
+   },
+   {
+    "x": 64,
+    "y": 5716,
+    "w": 20,
+    "h": 15
+   },
+   {
+    "x": 83,
+    "y": 5716,
+    "w": 57,
+    "h": 15
+   },
+   {
+    "x": 143,
+    "y": 5716,
+    "w": 20,
+    "h": 15
+   },
+   {
+    "x": 163,
+    "y": 5716,
+    "w": 125,
+    "h": 15
+   },
+   {
+    "x": 291,
+    "y": 5716,
+    "w": 16,
+    "h": 15
+   },
+   {
+    "x": 12,
+    "y": 5734,
+    "w": 120,
+    "h": 15
+   },
+   {
+    "x": 136,
+    "y": 5734,
+    "w": 19,
+    "h": 15
+   },
+   {
+    "x": 155,
+    "y": 5734,
+    "w": 103,
+    "h": 15
+   },
+   {
+    "x": 261,
+    "y": 5734,
+    "w": 20,
+    "h": 15
+   },
+   {
+    "x": 281,
+    "y": 5734,
+    "w": 37,
+    "h": 15
+   },
+   {
+    "x": 115,
+    "y": 5752,
+    "w": 101,
+    "h": 15
+   }
+  ]
+ }
+}

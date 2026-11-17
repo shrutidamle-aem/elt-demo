@@ -1,0 +1,101 @@
+/*
+ * Share Bar — inner.css "Share icons + share dropdown" (source L15806–L15890).
+ * Docked in a text-section title row (it then inherits the title's font size, as the
+ * source's .share does inside .section-title-paragraph); standalone a right-aligned row
+ * at the source's 10.5% content inset.
+ */
+.share-bar {
+  display: flex;
+}
+
+.share-bar-wrapper > .share-bar {
+  justify-content: flex-end;
+  padding: 0 var(--content-inset, 10.5%);
+}
+
+.share-bar .share-social-media-icons {
+  padding: 0 0.3rem;
+  transform: scale(0.95);
+  transition: all 0.5s ease;
+}
+
+.share-bar .share-social-media-icons:hover {
+  transform: scale(1.05);
+}
+
+.share-bar .share-menu {
+  position: relative;
+  display: flex;
+}
+
+.share-bar .share-social-media {
+  cursor: pointer;
+}
+
+.share-bar .share-social-media-dropdown {
+  position: absolute;
+  top: 100%;
+  right: -25px;
+  width: 350px;
+  z-index: 100;
+  background: transparent;
+  transform: scale(1, 0);
+  transition: all 0.5s ease;
+}
+
+.share-bar .share-social-media-dropdown:hover,
+.share-bar .share-social-media:hover ~ .share-social-media-dropdown {
+  transform: scale(1, 1);
+}
+
+.share-bar .share-social-media-dropdown-icons {
+  position: relative;
+  margin-top: 2.5rem;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  background: rgb(232 232 232);
+  box-shadow: 2px 2px 8px 0 rgb(0 0 0 / 30%);
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0 12px;
+}
+
+.share-bar .share-social-media-dropdown-icons::before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  bottom: 99%;
+  right: 25px;
+  border: 18px solid transparent;
+  border-top: none;
+  border-bottom-color: rgb(232 232 232);
+  filter: drop-shadow(0 -4px 3px rgb(0 0 0 / 30%));
+}
+
+.share-bar .share-social-media-dropdown-icons a {
+  color: var(--esoblue);
+}
+
+.share-bar .share-social-media-dropdown-icons a img {
+  transform: scale(0.95);
+  transition: all 0.5s ease;
+}
+
+.share-bar .share-social-media-dropdown-icons a:hover img {
+  transform: scale(1.05);
+}
+
+.share-bar .share-social-media-dropdown-text {
+  font-size: 14px;
+}
+
+/* the authored label paragraph renders as the source's inline span text */
+.share-bar .share-social-media-dropdown-text p {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  font-size: inherit;
+  line-height: inherit;
+}

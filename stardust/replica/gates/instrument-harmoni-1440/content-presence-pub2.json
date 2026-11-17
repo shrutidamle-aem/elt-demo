@@ -1,0 +1,8241 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-13T17:43:55.458Z",
+  "width": 1440,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://elt.eso.org/instrument/HARMONI/",
+  "at": "2026-11-13T17:43:29.448Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 9617,
+  "root": null,
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "span.navbar-brand.ml-xl-5 > div.d-block > a",
+    "x": 64,
+    "y": 11,
+    "w": 70,
+    "h": 24,
+    "text": "",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.d-block > a > img.navbar-eso-logo",
+    "x": 64,
+    "y": 0,
+    "w": 38,
+    "h": 50,
+    "text": "",
+    "file": "eso_logo"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "ul#navbar-flags > li.nav-item.text-center > div.choose-language-message.dropdown-toggle",
+    "x": 596,
+    "y": 15,
+    "w": 143,
+    "h": 19,
+    "text": "Choose your language"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "ul.navbar-nav.ml-auto > li.nav-item_.menu-item_ > a",
+    "x": 1121,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on facebook",
+    "href": "/ESOAstronomy"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "li.nav-item_.menu-item_ > a > img.desktop-top-sm-element",
+    "x": 1121,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on facebook",
+    "file": "icon_topbar_mobile_1"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "ul.navbar-nav.ml-auto > li.nav-item_.menu-item_ > a",
+    "x": 1184,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on instagram",
+    "href": "/esoastronomy/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "li.nav-item_.menu-item_ > a > img.desktop-top-sm-element",
+    "x": 1184,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on instagram",
+    "file": "icon_topbar_mobile_3"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "ul.navbar-nav.ml-auto > li.nav-item_.menu-item_ > a",
+    "x": 1246,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on linkedin",
+    "href": "/company/european-southern-observatory"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "li.nav-item_.menu-item_ > a > img.desktop-top-sm-element",
+    "x": 1246,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on linkedin",
+    "file": "icon_topbar_mobile_4"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "ul.navbar-nav.ml-auto > li.nav-item_.menu-item_ > a",
+    "x": 1309,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on youtube",
+    "href": "/channel/UCIhYoC2VIAJqCkoIWNHBQ3Q"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "li.nav-item_.menu-item_ > a > img.desktop-top-sm-element",
+    "x": 1309,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on youtube",
+    "file": "icon_topbar_mobile_5"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "ul.navbar-nav.ml-auto > li#nav-search > a.nav-link",
+    "x": 1370,
+    "y": 2,
+    "w": 40,
+    "h": 47,
+    "text": "search",
+    "href": "/instrument/HARMONI/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "img.big-header-image.d-block",
+    "x": 0,
+    "y": 50,
+    "w": 1440,
+    "h": 675,
+    "text": "",
+    "file": "header-instruments"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#big-header > div.position-absolute.d-lg-block_ > img.big-header-eso-logo",
+    "x": 151,
+    "y": 118,
+    "w": 78,
+    "h": 102,
+    "text": "",
+    "file": "eso_logo_transparent"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#big-header > div.position-absolute.d-lg-block_ > p.esologo-text",
+    "x": 151,
+    "y": 224,
+    "w": 435,
+    "h": 79,
+    "text": "European Southern Observatory"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#big-header > div.position-absolute.big-header-title",
+    "x": 151,
+    "y": 550,
+    "w": 1138,
+    "h": 80,
+    "text": "ELT Instruments"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "ul.navbar-nav.mx-auto > li.nav-home.nav-item > a.nav-link",
+    "x": 231,
+    "y": 739,
+    "w": 92,
+    "h": 40,
+    "text": "elt home",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "ul.navbar-nav.mx-auto > li.nav-about.nav-item > a.nav-link",
+    "x": 353,
+    "y": 739,
+    "w": 68,
+    "h": 40,
+    "text": "about",
+    "href": "/about/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "ul.navbar-nav.mx-auto > li.nav-telescope.nav-item > a.nav-link",
+    "x": 451,
+    "y": 739,
+    "w": 105,
+    "h": 40,
+    "text": "telescope",
+    "href": "/telescope/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "ul.navbar-nav.mx-auto > li.nav-instruments.nav-item > a.nav-link",
+    "x": 586,
+    "y": 739,
+    "w": 124,
+    "h": 40,
+    "text": "instruments",
+    "href": "/instrument/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "ul.navbar-nav.mx-auto > li.nav-science.nav-item > a.nav-link",
+    "x": 740,
+    "y": 739,
+    "w": 82,
+    "h": 40,
+    "text": "science",
+    "href": "/science/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "ul.navbar-nav.mx-auto > li.nav-multimedia.nav-item > a.nav-link",
+    "x": 852,
+    "y": 739,
+    "w": 171,
+    "h": 40,
+    "text": "news & multimedia",
+    "href": "/media/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "ul.navbar-nav.mx-auto > li.nav-success-buildingon.nav-item > a.nav-link",
+    "x": 1053,
+    "y": 739,
+    "w": 157,
+    "h": 40,
+    "text": "success stories",
+    "href": "/success/buildingon/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.container-fluid.container-dark > img.d-block.h-100",
+    "x": 0,
+    "y": 794,
+    "w": 1440,
+    "h": 675,
+    "text": "",
+    "file": "subheader-harmoni"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.position-absolute.instrument-header-textblock > div.d-flex.flex-column > div.header-title",
+    "x": 151,
+    "y": 822,
+    "w": 1289,
+    "h": 54,
+    "text": "HARMONI"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.position-absolute.instrument-header-textblock > div.d-flex.flex-column > div.d-none.d-lg-block",
+    "x": 151,
+    "y": 932,
+    "w": 516,
+    "h": 132,
+    "text": "High Angular Resolution Monolithic Optical and Near-infrared Integral field spec"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.d-flex.flex-column > div.d-none.d-xl-block > p",
+    "x": 151,
+    "y": 1120,
+    "w": 516,
+    "h": 192,
+    "text": "HARMONI will be one of the first generation of ELT instruments and will transfor"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.d-flex.flex-column > div.d-block.header-quick-links > div",
+    "x": 151,
+    "y": 1384,
+    "w": 1153,
+    "h": 29,
+    "text": "Quick Links:"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.d-flex.flex-column > div.d-block.header-quick-links > div.instrument-link-color",
+    "x": 151,
+    "y": 1412,
+    "w": 1153,
+    "h": 29,
+    "text": "| | |"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.d-block.header-quick-links > div.instrument-link-color > a.instrument-link-color.instrument-link",
+    "x": 151,
+    "y": 1414,
+    "w": 68,
+    "h": 23,
+    "text": "science",
+    "href": "/instrument/HARMONI/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.d-block.header-quick-links > div.instrument-link-color > a.instrument-link-color.instrument-link",
+    "x": 234,
+    "y": 1414,
+    "w": 59,
+    "h": 23,
+    "text": "design",
+    "href": "/instrument/HARMONI/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.d-block.header-quick-links > div.instrument-link-color > a.instrument-link-color.instrument-link",
+    "x": 307,
+    "y": 1414,
+    "w": 98,
+    "h": 23,
+    "text": "documents",
+    "href": "/instrument/HARMONI/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.d-block.header-quick-links > div.instrument-link-color > a.instrument-link-color.instrument-link",
+    "x": 420,
+    "y": 1414,
+    "w": 99,
+    "h": 23,
+    "text": "consortium",
+    "href": "/instrument/HARMONI/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.container-fluid.container-light > div.container-paragraph.section-title-paragraph > div",
+    "x": 151,
+    "y": 1517,
+    "w": 172,
+    "h": 48,
+    "text": "In a nutshell"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.container-paragraph.section-title-paragraph > div.d-flex > a.share-social-media-link.share-social-media-icons",
+    "x": 1200,
+    "y": 1518,
+    "w": 42,
+    "h": 46,
+    "text": "share on facebook",
+    "href": "/sharer/sharer.php"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.d-flex > a.share-social-media-link.share-social-media-icons > img",
+    "x": 1204,
+    "y": 1527,
+    "w": 33,
+    "h": 33,
+    "text": "share on facebook",
+    "file": "icon_share_1"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "span.position-relative.d-flex > span.share-social-media.share-social-media-icons > img.share-social-media",
+    "x": 1249,
+    "y": 1527,
+    "w": 34,
+    "h": 33,
+    "text": "",
+    "file": "icon_share_3"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.container-fluid.container-light > div.container-paragraph.section-text-paragraph > p",
+    "x": 151,
+    "y": 1612,
+    "w": 1138,
+    "h": 81,
+    "text": "Powerful and versatile, HARMONI will enable astronomers to study many different "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.container-fluid.container-light > div.container-paragraph.section-text-paragraph > p",
+    "x": 151,
+    "y": 1710,
+    "w": 1138,
+    "h": 81,
+    "text": "HARMONI will provide visible and near-infrared spectroscopy over a range of reso"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.row.d-flex > div.col-xl-6.p-0 > a",
+    "x": 0,
+    "y": 2005,
+    "w": 720,
+    "h": 19,
+    "text": "",
+    "href": "/instrument/HARMONI/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.col-xl-6.p-0 > a > img.w-100",
+    "x": 0,
+    "y": 1847,
+    "w": 720,
+    "h": 338,
+    "text": "",
+    "file": "eso1618a"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.col-xl-6.p-0 > span.position-absolute.internal-menu-title > a",
+    "x": 76,
+    "y": 2107,
+    "w": 328,
+    "h": 39,
+    "text": "science with harmoni",
+    "href": "/instrument/HARMONI/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.col-xl-6.pb-3 > div.internal-menu-text > p",
+    "x": 783,
+    "y": 1915,
+    "w": 593,
+    "h": 169,
+    "text": "HARMONI's versatility will allow astronomers to use it for a wide range of scien"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.col-xl-6.pb-3 > div.position-absolute.d-none > a.internal-menu-link",
+    "x": 780,
+    "y": 2141,
+    "w": 96,
+    "h": 29,
+    "text": "read more",
+    "href": "/instrument/HARMONI/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.col-xl-6.pb-3 > div.internal-menu-text > p",
+    "x": 63,
+    "y": 2278,
+    "w": 593,
+    "h": 117,
+    "text": "With its 3D spectroscopic capabilities and a variety of spatial and spectral set"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.col-xl-6.pb-3 > div.position-absolute.d-none > a.internal-menu-link",
+    "x": 60,
+    "y": 2479,
+    "w": 96,
+    "h": 29,
+    "text": "read more",
+    "href": "/instrument/HARMONI/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.row.d-flex > div.col-xl-6.p-0 > a",
+    "x": 720,
+    "y": 2342,
+    "w": 720,
+    "h": 19,
+    "text": "",
+    "href": "/instrument/HARMONI/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.col-xl-6.p-0 > a > img.w-100",
+    "x": 720,
+    "y": 2184,
+    "w": 720,
+    "h": 338,
+    "text": "",
+    "file": "thumb-harmoni-design"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.col-xl-6.p-0 > span.position-absolute.internal-menu-title > a",
+    "x": 796,
+    "y": 2444,
+    "w": 250,
+    "h": 39,
+    "text": "instrument design",
+    "href": "/instrument/HARMONI/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.row.d-flex > div.col-xl-6.p-0 > a",
+    "x": 0,
+    "y": 2680,
+    "w": 720,
+    "h": 19,
+    "text": "",
+    "href": "/instrument/HARMONI/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.col-xl-6.p-0 > a > img.w-100",
+    "x": 0,
+    "y": 2522,
+    "w": 720,
+    "h": 338,
+    "text": "",
+    "file": "thumb-harmoni-docs"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.col-xl-6.p-0 > span.position-absolute.internal-menu-title > a",
+    "x": 76,
+    "y": 2782,
+    "w": 300,
+    "h": 39,
+    "text": "tools and documents",
+    "href": "/instrument/HARMONI/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.internal-menu-text > p > a",
+    "x": 783,
+    "y": 2637,
+    "w": 84,
+    "h": 25,
+    "text": "simulator",
+    "href": "/Hsim.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.internal-menu-text > p > a",
+    "x": 783,
+    "y": 2687,
+    "w": 215,
+    "h": 25,
+    "text": "top level requirements",
+    "href": "/sci/facilities/eelt/docs/ESO-191883_2_Top_Level_Requirements_for_ELT-IFU.pdf"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.col-xl-6.pb-3 > div.position-absolute.d-none > a.internal-menu-link",
+    "x": 780,
+    "y": 2816,
+    "w": 96,
+    "h": 29,
+    "text": "read more",
+    "href": "/instrument/HARMONI/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.col-xl-6.pb-3 > div.internal-menu-text > p",
+    "x": 63,
+    "y": 2961,
+    "w": 593,
+    "h": 101,
+    "text": "HARMONI is made possible through an composed of seven research institutes from f"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.internal-menu-text > p > a",
+    "x": 63,
+    "y": 2965,
+    "w": 466,
+    "h": 59,
+    "text": "international consortium",
+    "href": "/consortium.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.col-xl-6.pb-3 > div.position-absolute.d-none > a.internal-menu-link",
+    "x": 60,
+    "y": 3154,
+    "w": 96,
+    "h": 29,
+    "text": "read more",
+    "href": "/instrument/HARMONI/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.row.d-flex > div.col-xl-6.p-0 > a",
+    "x": 720,
+    "y": 3017,
+    "w": 720,
+    "h": 19,
+    "text": "",
+    "href": "/instrument/HARMONI/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.col-xl-6.p-0 > a > img.w-100",
+    "x": 720,
+    "y": 2859,
+    "w": 720,
+    "h": 338,
+    "text": "",
+    "file": "0200_ems_cc"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.col-xl-6.p-0 > span.position-absolute.internal-menu-title > a",
+    "x": 796,
+    "y": 3119,
+    "w": 510,
+    "h": 39,
+    "text": "instrument consortium and contacts",
+    "href": "/instrument/HARMONI/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#science_ > div.container-paragraph.section-title-paragraph",
+    "x": 0,
+    "y": 3229,
+    "w": 1440,
+    "h": 104,
+    "text": "Science with HARMONI"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.row.w-100 > div.col-lg-12.p-0 > a.d-flex.align-items-center",
+    "x": 0,
+    "y": 3333,
+    "w": 1440,
+    "h": 438,
+    "text": "",
+    "href": "/public/images/instruments-harmoni-banner1/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.col-lg-12.p-0 > a.d-flex.align-items-center > img",
+    "x": 0,
+    "y": 3333,
+    "w": 1440,
+    "h": 438,
+    "text": "",
+    "file": "instruments-harmoni-banner1"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.container-heading > span.section-heading-paragraph > p",
+    "x": 151,
+    "y": 3786,
+    "w": 1138,
+    "h": 213,
+    "text": "Large-area galaxy surveys have allowed us to study the global properties of gala"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#science_ > div.container-paragraph.section-text-paragraph > p",
+    "x": 151,
+    "y": 4023,
+    "w": 1138,
+    "h": 213,
+    "text": "By probing the processes occurring within galaxies on the scale of individual st"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#science_ > div.container-paragraph.section-text-paragraph > p",
+    "x": 151,
+    "y": 4252,
+    "w": 1138,
+    "h": 114,
+    "text": "In addition, HARMONI's high angular resolution mode will help astronomers probe "
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.col-lg-12.p-0 > a.d-flex.align-items-center > img",
+    "x": 0,
+    "y": 4390,
+    "w": 1440,
+    "h": 375,
+    "text": "",
+    "file": "instruments-harmoni-banner2"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.row.w-100 > div.col-lg-12.pt-3 > p",
+    "x": 15,
+    "y": 4781,
+    "w": 1410,
+    "h": 48,
+    "text": "A simulation of how a galaxy in the early universe would look like when observed"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#science_ > div.container-paragraph.section-text-paragraph > p",
+    "x": 151,
+    "y": 4867,
+    "w": 1138,
+    "h": 213,
+    "text": "By resolving individual stars in other galaxies, astronomers will find out more "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#science_ > div.container-paragraph.section-text-paragraph > p",
+    "x": 151,
+    "y": 5096,
+    "w": 1138,
+    "h": 378,
+    "text": "To make direct measurements of the chemical and dynamical properties of resolved"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#science_ > div.container-paragraph.section-text-paragraph > p",
+    "x": 151,
+    "y": 5506,
+    "w": 1138,
+    "h": 147,
+    "text": "Astronomers believe that nearly all large galaxies have a massive black hole at "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#science_ > div.container-paragraph.section-text-paragraph > p",
+    "x": 151,
+    "y": 5669,
+    "w": 1138,
+    "h": 81,
+    "text": "Closer to home, with its special high-contrast mode, HARMONI will allow a detail"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.d-none.d-lg-flex > div > a",
+    "x": 891,
+    "y": 5853,
+    "w": 398,
+    "h": 444,
+    "text": "",
+    "href": "/public/images/HARMONI-4alpha/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div > a > img.w-100.d-block",
+    "x": 891,
+    "y": 5853,
+    "w": 398,
+    "h": 444,
+    "text": "",
+    "file": "image-harmoni"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#design_ > div.container-title.float-text > div.section-title-paragraph",
+    "x": 151,
+    "y": 5806,
+    "w": 1138,
+    "h": 104,
+    "text": "Instrument Design"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.container-subtitle.float-text > span.section-subtitle-paragraph > p",
+    "x": 151,
+    "y": 5903,
+    "w": 1138,
+    "h": 168,
+    "text": "With its 3D spectroscopic capabilities and a variety of spatial and spectral set"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.container-paragraph.float-text > span > p",
+    "x": 151,
+    "y": 6078,
+    "w": 1138,
+    "h": 371,
+    "text": "HARMONI will use an Integral Field Unit (IFU) with an image slicer to divide a s"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#design_ > div.container-paragraph.section-text-paragraph > p",
+    "x": 151,
+    "y": 6473,
+    "w": 1138,
+    "h": 213,
+    "text": "Astronomers will also be able to choose between a range of spectral resolution s"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#design_ > div.container-paragraph.section-text-paragraph > p",
+    "x": 151,
+    "y": 6702,
+    "w": 1138,
+    "h": 213,
+    "text": "HARMONI will be located at the “side-looking” Nasmyth port of the ELT. The first"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#design_ > div.container-paragraph.section-text-paragraph > p",
+    "x": 151,
+    "y": 6931,
+    "w": 1138,
+    "h": 180,
+    "text": "The bulk of the HARMONI’s optical and mechanical parts is hosted in a single up-"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.col-md-4.d-flex > div.position-absolute.d-flex > p",
+    "x": 48,
+    "y": 7183,
+    "w": 98,
+    "h": 48,
+    "text": "Wavelength"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.col-md-8.d-flex > div.w-100.text-center > p",
+    "x": 480,
+    "y": 7183,
+    "w": 960,
+    "h": 48,
+    "text": "0.47—2.45 μm"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.col-md-4.d-flex > div.position-absolute.d-flex > p",
+    "x": 48,
+    "y": 7255,
+    "w": 155,
+    "h": 48,
+    "text": "Spectral resolution"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.w-100.text-center > p > span",
+    "x": 679,
+    "y": 7267,
+    "w": 561,
+    "h": 24,
+    "text": "~3,500, 7,500, and 18,000 in the NIR and ~3,500 in the VIS bands"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.col-md-4.d-flex > div.position-absolute.d-flex > p",
+    "x": 48,
+    "y": 7327,
+    "w": 237,
+    "h": 48,
+    "text": "Simultaneous spectral range"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.w-100.text-center > p > span",
+    "x": 684,
+    "y": 7339,
+    "w": 552,
+    "h": 24,
+    "text": "at least one band at a time R~7,500 (i, z, J, H, K), two at R~3,500"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.col-md-4.d-flex > div.position-absolute.d-flex > p",
+    "x": 48,
+    "y": 7399,
+    "w": 125,
+    "h": 48,
+    "text": "Field(s)-of-view"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.w-100.text-center > p > span",
+    "x": 773,
+    "y": 7411,
+    "w": 375,
+    "h": 24,
+    "text": "four, corresponding to different spaxel scales"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.w-100.text-center > p > span",
+    "x": 891,
+    "y": 7483,
+    "w": 139,
+    "h": 24,
+    "text": "LTAO and SCAO"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#docsntools_ > div.container-paragraph.section-title-paragraph",
+    "x": 0,
+    "y": 7583,
+    "w": 1440,
+    "h": 104,
+    "text": "Tools and Documents"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.container-paragraph.section-text-paragraph > p > a",
+    "x": 151,
+    "y": 7707,
+    "w": 79,
+    "h": 24,
+    "text": "simulator",
+    "href": "/Hsim.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#docsntools_ > div.container-paragraph.section-text-paragraph > p",
+    "x": 151,
+    "y": 7759,
+    "w": 1138,
+    "h": 48,
+    "text": "Tool to simulate instrument observations"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.container-paragraph.section-text-paragraph > p > a",
+    "x": 151,
+    "y": 7835,
+    "w": 201,
+    "h": 24,
+    "text": "top level requirements",
+    "href": "/sci/facilities/eelt/docs/ESO-191883_2_Top_Level_Requirements_for_ELT-IFU.pdf"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#docsntools_ > div.container-paragraph.section-text-paragraph > p",
+    "x": 151,
+    "y": 7888,
+    "w": 1138,
+    "h": 48,
+    "text": "Description of the characteristics of the instrument required by the science cas"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#consortium_ > div.container-paragraph.section-title-paragraph",
+    "x": 0,
+    "y": 7992,
+    "w": 1440,
+    "h": 104,
+    "text": "Instrument Consortium and Contacts"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.container-paragraph.section-text-paragraph > p > strong",
+    "x": 151,
+    "y": 8115,
+    "w": 1128,
+    "h": 24,
+    "text": "HARMONI is made possible through an composed of research institues from four dif"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "p > strong > a",
+    "x": 509,
+    "y": 8115,
+    "w": 219,
+    "h": 24,
+    "text": "international consortium",
+    "href": "/consortium.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#consortium_ > div.container-paragraph.section-text-paragraph > p",
+    "x": 151,
+    "y": 8168,
+    "w": 1138,
+    "h": 213,
+    "text": "The institutes that make up the HARMONI consortium are the University of Oxford "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.container-paragraph > p > strong",
+    "x": 151,
+    "y": 8417,
+    "w": 190,
+    "h": 24,
+    "text": "Principal Investigator"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#consortium_ > div.container-paragraph > p",
+    "x": 151,
+    "y": 8469,
+    "w": 1138,
+    "h": 48,
+    "text": "(University of Edinburgh, UK)"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.container-paragraph > p > a",
+    "x": 151,
+    "y": 8481,
+    "w": 121,
+    "h": 24,
+    "text": "james dunlop",
+    "href": "James.Dunlop@ed.ac.uk"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#consortium_ > div.container-paragraph > p",
+    "x": 151,
+    "y": 8534,
+    "w": 1138,
+    "h": 48,
+    "text": "(Deputy; LAM, France)"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.container-paragraph > p > a",
+    "x": 151,
+    "y": 8546,
+    "w": 121,
+    "h": 24,
+    "text": "benoit neichel",
+    "href": "benoit.neichel@lam.fr"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.container-paragraph > p > strong",
+    "x": 151,
+    "y": 8610,
+    "w": 147,
+    "h": 24,
+    "text": "Project Scientist"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#consortium_ > div.container-paragraph > p",
+    "x": 151,
+    "y": 8663,
+    "w": 1138,
+    "h": 48,
+    "text": "(Durham University, UK)"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.container-paragraph > p > a",
+    "x": 151,
+    "y": 8674,
+    "w": 130,
+    "h": 24,
+    "text": "mark swinbank",
+    "href": "a.m.swinbank@durham.ac.uk"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#consortium_ > div.container-paragraph > p",
+    "x": 151,
+    "y": 8727,
+    "w": 1138,
+    "h": 48,
+    "text": "(STFC UKRI)"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.container-paragraph > p > a",
+    "x": 151,
+    "y": 8739,
+    "w": 133,
+    "h": 24,
+    "text": "óscar gonzález",
+    "href": "oscar.gonzalez@stfc.ac.uk"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.container-paragraph > p > strong",
+    "x": 151,
+    "y": 8803,
+    "w": 149,
+    "h": 24,
+    "text": "Project Manager"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#consortium_ > div.container-paragraph > p",
+    "x": 151,
+    "y": 8856,
+    "w": 1138,
+    "h": 48,
+    "text": "(ESO)"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.container-paragraph > p > a",
+    "x": 151,
+    "y": 8867,
+    "w": 238,
+    "h": 24,
+    "text": "michele cirasuolo (in interim)",
+    "href": "mciras@eso.org"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#consortium_ > div.container-paragraph > p",
+    "x": 151,
+    "y": 8920,
+    "w": 1138,
+    "h": 48,
+    "text": "(UK Astronomy Technology Centre, UK)"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.container-paragraph > p > a",
+    "x": 151,
+    "y": 8932,
+    "w": 138,
+    "h": 24,
+    "text": "stephen chittick",
+    "href": "stephen.chittick@stfc.ac.uk"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#consortium_ > div.container-paragraph > p",
+    "x": 151,
+    "y": 8984,
+    "w": 1138,
+    "h": 48,
+    "text": "(Deputy; LAM, France)"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.container-paragraph > p > a",
+    "x": 151,
+    "y": 8996,
+    "w": 146,
+    "h": 24,
+    "text": "david le mignant",
+    "href": "david.lemignant@lam.fr"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.container-paragraph > p > strong",
+    "x": 151,
+    "y": 9060,
+    "w": 178,
+    "h": 24,
+    "text": "Simulation Scientist"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#consortium_ > div.container-paragraph > p",
+    "x": 151,
+    "y": 9113,
+    "w": 1138,
+    "h": 48,
+    "text": "(Centre for Astrobiology CAB, INTA-CSIC, Spain)"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.container-paragraph > p > a",
+    "x": 151,
+    "y": 9125,
+    "w": 201,
+    "h": 24,
+    "text": "miguel pereira-santaella",
+    "href": "miguel.pereira@physics.ox.ac.uk"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.container-paragraph > p > strong",
+    "x": 151,
+    "y": 9189,
+    "w": 194,
+    "h": 24,
+    "text": "ESO Project Engineer"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.container-paragraph > p > a",
+    "x": 151,
+    "y": 9253,
+    "w": 154,
+    "h": 24,
+    "text": "peter hammersley",
+    "href": "Peter.Hammersley@eso.org"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.container-paragraph > p > strong",
+    "x": 151,
+    "y": 9318,
+    "w": 192,
+    "h": 24,
+    "text": "ESO Project Scientist"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.container-paragraph > p > a",
+    "x": 151,
+    "y": 9382,
+    "w": 145,
+    "h": 24,
+    "text": "morten andersen",
+    "href": "Morten.Andersen@eso.org"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.container-paragraph > p > strong",
+    "x": 151,
+    "y": 9446,
+    "w": 180,
+    "h": 24,
+    "text": "Instrument Scientist"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div#consortium_ > div.container-paragraph > p",
+    "x": 151,
+    "y": 9499,
+    "w": 1138,
+    "h": 48,
+    "text": "(UK Astronomy Technology Centre, UK)"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.container-paragraph > p > a",
+    "x": 151,
+    "y": 9511,
+    "w": 113,
+    "h": 24,
+    "text": "william taylor",
+    "href": "None"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "footer.container-fluid.container-footer > div.row.d-flex > div.col-12.col-lg-3",
+    "x": -15,
+    "y": 9579,
+    "w": 360,
+    "h": 22,
+    "text": "| ELT ©"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.row.d-flex > div.col-12.col-lg-3 > a",
+    "x": 109,
+    "y": 9579,
+    "w": 29,
+    "h": 22,
+    "text": "eso",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.row.d-flex > div.col-12.col-lg-9 > div.text-center",
+    "x": 464,
+    "y": 9579,
+    "w": 842,
+    "h": 22,
+    "text": "| | | | |"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.col-12.col-lg-9 > div.text-center > a.w-100",
+    "x": 464,
+    "y": 9581,
+    "w": 49,
+    "h": 18,
+    "text": "credits",
+    "href": "/credits/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.col-12.col-lg-9 > div.text-center > a.w-100",
+    "x": 537,
+    "y": 9581,
+    "w": 74,
+    "h": 18,
+    "text": "contact us",
+    "href": "information@eso.org"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.col-12.col-lg-9 > div.text-center > a.w-100",
+    "x": 634,
+    "y": 9581,
+    "w": 155,
+    "h": 18,
+    "text": "subscribe to eso news",
+    "href": "/public/outreach/newsletters/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.col-12.col-lg-9 > div.text-center > a.w-100",
+    "x": 813,
+    "y": 9581,
+    "w": 149,
+    "h": 18,
+    "text": "accelerated by cdn77",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.col-12.col-lg-9 > div.text-center > a.w-100",
+    "x": 986,
+    "y": 9581,
+    "w": 128,
+    "h": 18,
+    "text": "terms & conditions",
+    "href": "/public/about-eso/privacy/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": true,
+    "path": "div.col-12.col-lg-9 > div.text-center > a.w-100",
+    "x": 1137,
+    "y": 9581,
+    "w": 169,
+    "h": 18,
+    "text": "cookie settings and policy",
+    "href": "/instrument/HARMONI/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-notice > h1",
+    "x": 16,
+    "y": 1544,
+    "w": 1408,
+    "h": 48,
+    "level": 1,
+    "text": "our use of cookies"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-container.centered-container > div.privacy-text-element > p",
+    "x": 49,
+    "y": 1600,
+    "w": 640,
+    "h": 96,
+    "text": "We use cookies that are essential for accessing our websites and using our servi"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-notice > div.privacy-container.centered-container > div.privacy-text-element",
+    "x": 751,
+    "y": 1600,
+    "w": 640,
+    "h": 112,
+    "text": "You can manage your cookie preferences and find out more by visiting 'Cookie Set"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-notice > div.centered-container > button.privacy-button.accept-all",
+    "x": 372,
+    "y": 1728,
+    "w": 101,
+    "h": 40,
+    "text": "accept all"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-notice > div.centered-container > button.privacy-button.reject-all",
+    "x": 542,
+    "y": 1728,
+    "w": 242,
+    "h": 40,
+    "text": "accept only essential cookies"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-notice > div.centered-container > button.privacy-button.settings",
+    "x": 852,
+    "y": 1728,
+    "w": 216,
+    "h": 40,
+    "text": "cookie settings and policy"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > h1",
+    "x": 176,
+    "y": 1006,
+    "w": 1088,
+    "h": 48,
+    "level": 1,
+    "text": "eso cookies policy"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 176,
+    "y": 1086,
+    "w": 1088,
+    "h": 72,
+    "text": "The European Organisation for Astronomical Research in the Southern Hemisphere ("
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 176,
+    "y": 1174,
+    "w": 1088,
+    "h": 48,
+    "text": "This Cookies Policy is intended to provide clarity by outlining the cookies used"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > h2",
+    "x": 176,
+    "y": 1238,
+    "w": 1088,
+    "h": 38,
+    "level": 2,
+    "text": "what are cookies?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 176,
+    "y": 1284,
+    "w": 1088,
+    "h": 48,
+    "text": "Cookies are small pieces of data stored on your device by websites you visit. Th"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > h2",
+    "x": 176,
+    "y": 1348,
+    "w": 1088,
+    "h": 38,
+    "level": 2,
+    "text": "categories of cookies we use"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 176,
+    "y": 1395,
+    "w": 1088,
+    "h": 72,
+    "text": ": These cookies are strictly necessary for the proper functioning of our website"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 176,
+    "y": 1483,
+    "w": 238,
+    "h": 88,
+    "text": "Cookie ID/Name"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 414,
+    "y": 1483,
+    "w": 340,
+    "h": 88,
+    "text": "Description/Purpose"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 754,
+    "y": 1483,
+    "w": 170,
+    "h": 88,
+    "text": "Provider (1 party or 3 party)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 924,
+    "y": 1483,
+    "w": 170,
+    "h": 88,
+    "text": "Browser session cookie or Stored cookie?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 1094,
+    "y": 1483,
+    "w": 170,
+    "h": 88,
+    "text": "Duration"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 176,
+    "y": 1571,
+    "w": 238,
+    "h": 88,
+    "text": "csrftoken"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 414,
+    "y": 1571,
+    "w": 340,
+    "h": 88,
+    "text": "XSRF protection token. We use this cookie to protect against cross-site request "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 754,
+    "y": 1571,
+    "w": 170,
+    "h": 88,
+    "text": "1 party"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 924,
+    "y": 1571,
+    "w": 170,
+    "h": 88,
+    "text": "Stored"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 1094,
+    "y": 1571,
+    "w": 170,
+    "h": 88,
+    "text": "1 year"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 176,
+    "y": 1659,
+    "w": 238,
+    "h": 64,
+    "text": "user_privacy"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 414,
+    "y": 1659,
+    "w": 340,
+    "h": 64,
+    "text": "Your privacy choices. We use this cookie to save your privacy preferences."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 754,
+    "y": 1659,
+    "w": 170,
+    "h": 64,
+    "text": "1 party"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 924,
+    "y": 1659,
+    "w": 170,
+    "h": 64,
+    "text": "Stored"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 1094,
+    "y": 1659,
+    "w": 170,
+    "h": 64,
+    "text": "6 months"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 176,
+    "y": 1739,
+    "w": 1088,
+    "h": 72,
+    "text": ": These cookies enhance your browsing experience by enabling additional features"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row-choice.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 176,
+    "y": 1827,
+    "w": 206,
+    "h": 88,
+    "text": "Cookie ID/Name"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row-choice.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 382,
+    "y": 1827,
+    "w": 294,
+    "h": 88,
+    "text": "Description/Purpose"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row-choice.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 676,
+    "y": 1827,
+    "w": 147,
+    "h": 88,
+    "text": "Provider (1 party or 3 party)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row-choice.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 823,
+    "y": 1827,
+    "w": 147,
+    "h": 88,
+    "text": "Browser session cookie or Stored cookie?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row-choice.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 970,
+    "y": 1827,
+    "w": 147,
+    "h": 88,
+    "text": "Duration"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row-choice.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 1117,
+    "y": 1827,
+    "w": 147,
+    "h": 88,
+    "text": "Settings"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row-choice > div.cookies-table-cell",
+    "x": 176,
+    "y": 1915,
+    "w": 206,
+    "h": 88,
+    "text": "preferred_language"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row-choice > div.cookies-table-cell",
+    "x": 382,
+    "y": 1915,
+    "w": 294,
+    "h": 88,
+    "text": "Language settings. We use this cookie to remember your preferred language settin"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row-choice > div.cookies-table-cell",
+    "x": 676,
+    "y": 1915,
+    "w": 147,
+    "h": 88,
+    "text": "1 party"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row-choice > div.cookies-table-cell",
+    "x": 823,
+    "y": 1915,
+    "w": 147,
+    "h": 88,
+    "text": "Stored"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row-choice > div.cookies-table-cell",
+    "x": 970,
+    "y": 1915,
+    "w": 147,
+    "h": 88,
+    "text": "1 year"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table-cell > div.privacy-setting-toggle.privacy-language > span.privacy-option.privacy-option-off",
+    "x": 1175,
+    "y": 1926,
+    "w": 39,
+    "h": 21,
+    "text": "OFF"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 176,
+    "y": 2019,
+    "w": 1088,
+    "h": 72,
+    "text": ": These cookies collect information about how visitors interact with our website"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > p > span",
+    "x": 208,
+    "y": 2109,
+    "w": 126,
+    "h": 19,
+    "text": "Matomo Cookies"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 176,
+    "y": 2147,
+    "w": 1088,
+    "h": 96,
+    "text": "This website uses Matomo (formerly Piwik), an open source software which enables"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 176,
+    "y": 2259,
+    "w": 1088,
+    "h": 48,
+    "text": "On behalf of ESO, Matomo will use this information for the purpose of evaluating"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > div.privacy-setting-toggle.privacy-matomo > span.privacy-option.privacy-option-off",
+    "x": 1205,
+    "y": 2326,
+    "w": 39,
+    "h": 21,
+    "text": "OFF"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 176,
+    "y": 2323,
+    "w": 1088,
+    "h": 24,
+    "text": "Matomo cookies settings:"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 176,
+    "y": 2363,
+    "w": 238,
+    "h": 88,
+    "text": "Cookie ID/Name"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 414,
+    "y": 2363,
+    "w": 340,
+    "h": 88,
+    "text": "Description/Purpose"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 754,
+    "y": 2363,
+    "w": 170,
+    "h": 88,
+    "text": "Provider (1 party or 3 party)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 924,
+    "y": 2363,
+    "w": 170,
+    "h": 88,
+    "text": "Browser session cookie or Stored cookie?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 1094,
+    "y": 2363,
+    "w": 170,
+    "h": 88,
+    "text": "Duration"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 176,
+    "y": 2451,
+    "w": 238,
+    "h": 40,
+    "text": "Settings"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 176,
+    "y": 2491,
+    "w": 238,
+    "h": 40,
+    "text": "_pk_id"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 414,
+    "y": 2491,
+    "w": 340,
+    "h": 40,
+    "text": "Stores a unique visitor ID."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 754,
+    "y": 2491,
+    "w": 170,
+    "h": 40,
+    "text": "1 party"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 924,
+    "y": 2491,
+    "w": 170,
+    "h": 40,
+    "text": "Stored"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 1094,
+    "y": 2491,
+    "w": 170,
+    "h": 40,
+    "text": "13 months"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 176,
+    "y": 2531,
+    "w": 238,
+    "h": 64,
+    "text": "_pk_ses"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 414,
+    "y": 2531,
+    "w": 340,
+    "h": 64,
+    "text": "Session cookie temporarily stores data for the visit."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 754,
+    "y": 2531,
+    "w": 170,
+    "h": 64,
+    "text": "1 party"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 924,
+    "y": 2531,
+    "w": 170,
+    "h": 64,
+    "text": "Stored"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 1094,
+    "y": 2531,
+    "w": 170,
+    "h": 64,
+    "text": "30 minutes"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 176,
+    "y": 2595,
+    "w": 238,
+    "h": 64,
+    "text": "_pk_ref"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 414,
+    "y": 2595,
+    "w": 340,
+    "h": 64,
+    "text": "Stores attribution information (the referrer that brought the visitor to the web"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 754,
+    "y": 2595,
+    "w": 170,
+    "h": 64,
+    "text": "1 party"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 924,
+    "y": 2595,
+    "w": 170,
+    "h": 64,
+    "text": "Stored"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 1094,
+    "y": 2595,
+    "w": 170,
+    "h": 64,
+    "text": "6 months"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 176,
+    "y": 2659,
+    "w": 238,
+    "h": 112,
+    "text": "_pk_testcookie"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 414,
+    "y": 2659,
+    "w": 340,
+    "h": 112,
+    "text": "Temporary cookie to check if a visitor’s browser supports cookies (set in Intern"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 754,
+    "y": 2659,
+    "w": 170,
+    "h": 112,
+    "text": "1 party"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 924,
+    "y": 2659,
+    "w": 170,
+    "h": 112,
+    "text": "Stored"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 1094,
+    "y": 2659,
+    "w": 170,
+    "h": 112,
+    "text": "Temporary cookie that expires almost immediately after being set."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 176,
+    "y": 2787,
+    "w": 1088,
+    "h": 24,
+    "text": ": some of our pages display content from external providers, e.g. YouTube."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 176,
+    "y": 2827,
+    "w": 1088,
+    "h": 24,
+    "text": "Such third-party services are outside of ESO control and may, at any time, chang"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 176,
+    "y": 2867,
+    "w": 1088,
+    "h": 72,
+    "text": ": Some videos on the ESO website are embedded from . We have enabled YouTube’s p"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > p > a",
+    "x": 176,
+    "y": 2869,
+    "w": 59,
+    "h": 19,
+    "text": "youtube",
+    "href": "/t/terms"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > p > a",
+    "x": 620,
+    "y": 2869,
+    "w": 211,
+    "h": 19,
+    "text": "eso’s official youtube channel",
+    "href": "/channel/UCIhYoC2VIAJqCkoIWNHBQ3Q"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > p > a",
+    "x": 856,
+    "y": 2917,
+    "w": 247,
+    "h": 19,
+    "text": "embedding videos information page",
+    "href": "/youtube/answer/171780"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 176,
+    "y": 2955,
+    "w": 1088,
+    "h": 24,
+    "text": "Cookies can also be classified based on the following elements."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 176,
+    "y": 2995,
+    "w": 1088,
+    "h": 24,
+    "text": "Regarding the domain, there are:"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > ul.ul-privacy > li",
+    "x": 216,
+    "y": 3035,
+    "w": 1048,
+    "h": 48,
+    "text": ", set by the website you are currently visiting. They are stored by the same dom"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > ul.ul-privacy > li",
+    "x": 216,
+    "y": 3083,
+    "w": 1048,
+    "h": 24,
+    "text": ", set by a domain other than the one you are currently visiting."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 176,
+    "y": 3123,
+    "w": 1088,
+    "h": 24,
+    "text": "As for their duration, cookies can be:"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > ul.ul-privacy > li",
+    "x": 216,
+    "y": 3163,
+    "w": 1048,
+    "h": 24,
+    "text": ", which are deleted when the user closes the browser;"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > ul.ul-privacy > li",
+    "x": 216,
+    "y": 3187,
+    "w": 1048,
+    "h": 24,
+    "text": ", which stay on the user's device for a predetermined period of time."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > h2",
+    "x": 176,
+    "y": 3227,
+    "w": 1088,
+    "h": 38,
+    "level": 2,
+    "text": "how to manage cookies"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 176,
+    "y": 3273,
+    "w": 1088,
+    "h": 24,
+    "text": ": You can modify your cookie choices for the ESO webpages at any time by clickin"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 176,
+    "y": 3313,
+    "w": 1088,
+    "h": 24,
+    "text": ": If you wish to delete cookies or instruct your browser to delete or block cook"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "ul.ul-privacy > li > a",
+    "x": 216,
+    "y": 3355,
+    "w": 39,
+    "h": 19,
+    "text": "brave",
+    "href": "/hc/en-us/signin"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "ul.ul-privacy > li > a",
+    "x": 216,
+    "y": 3379,
+    "w": 55,
+    "h": 19,
+    "text": "chrome",
+    "href": "/chrome/bin/answer.py"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "ul.ul-privacy > li > a",
+    "x": 216,
+    "y": 3403,
+    "w": 36,
+    "h": 19,
+    "text": "edge",
+    "href": "/en-us/windows/manage-cookies-in-microsoft-edge-view-allow-block-delete-and-use-168dab11-0753-043d-7c16-ede5947fc64d"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "ul.ul-privacy > li > a",
+    "x": 216,
+    "y": 3427,
+    "w": 45,
+    "h": 19,
+    "text": "firefox",
+    "href": "/en-US/kb/Blocking%20cookies"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "ul.ul-privacy > li > a",
+    "x": 216,
+    "y": 3451,
+    "w": 39,
+    "h": 19,
+    "text": "safari",
+    "href": "/article.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 176,
+    "y": 3489,
+    "w": 1088,
+    "h": 48,
+    "text": "Please be aware that if you delete or decline cookies, certain functionalities o"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 176,
+    "y": 3553,
+    "w": 1088,
+    "h": 48,
+    "text": "You can set most browsers to prevent any cookies being placed on your device, bu"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > h2",
+    "x": 176,
+    "y": 3617,
+    "w": 1088,
+    "h": 38,
+    "level": 2,
+    "text": "updates to the eso cookies policy"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 176,
+    "y": 3664,
+    "w": 1088,
+    "h": 24,
+    "text": "The ESO Cookies Policy may be subject to future updates, which will be made avai"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > h2",
+    "x": 176,
+    "y": 3704,
+    "w": 1088,
+    "h": 38,
+    "level": 2,
+    "text": "additional information"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 176,
+    "y": 3750,
+    "w": 1088,
+    "h": 24,
+    "text": "For any queries related to cookies, please contact: pdprATesoDOTorg."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 176,
+    "y": 3790,
+    "w": 1088,
+    "h": 24,
+    "text": "As ESO public webpages are managed by our Department of Communication, your ques"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > div.centered-container > button.privacy-button.save-settings",
+    "x": 208,
+    "y": 3846,
+    "w": 66,
+    "h": 40,
+    "text": "save"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": null,
+    "inChrome": false,
+    "path": "div.privacy-settings > div.centered-container > button.privacy-button.cancel-settings",
+    "x": 343,
+    "y": 3846,
+    "w": 80,
+    "h": 40,
+    "text": "cancel"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 121,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 266,
+    "controls": 69,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 30,
+     "clipper": "div.privacy-settings",
+     "path": "div.cookies-table-container > div.cookies-table > div.cookies-table-row-choice > div.cookies-table-cell",
+     "text": "preferred_language",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 22,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > p",
+     "text": ": these cookies enhance your browsing experience by enabling",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 16,
+     "clipper": "div.privacy-settings",
+     "path": "div.cookies-table-container > div.cookies-table > div.cookies-table-row-choice.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+     "text": "cookie id/name",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 11,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > p > span",
+     "text": "functional cookies",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 9,
+     "clipper": "div.privacy-settings",
+     "path": "div.cookies-table > div.cookies-table-row-choice.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header > sup",
+     "text": "st",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "CONTROL SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 8,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > p > a",
+     "text": "youtube",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 8,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > p > a",
+     "text": "youtube",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 4,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > ul.ul-privacy > li",
+     "text": ", set by the website you are currently visiting. they are st",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 3,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > h2",
+     "text": "how to manage cookies",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 2,
+     "clipper": "div.privacy-settings",
+     "path": "div.cookies-table-row-choice > div.cookies-table-cell > div.privacy-setting-toggle.privacy-language > span.privacy-option.privacy-option-on",
+     "text": "on",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 2,
+     "clipper": "div.privacy-settings",
+     "path": "div.cookies-table-row-choice > div.cookies-table-cell > div.privacy-setting-toggle.privacy-language > span.privacy-option.privacy-option-off",
+     "text": "off",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.privacy-settings",
+     "path": "div.cookies-table > div.cookies-table-row-choice > div.cookies-table-cell > div.privacy-setting-toggle.privacy-language",
+     "text": "|",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > div.privacy-setting-toggle.privacy-matomo",
+     "text": "|",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "CONTROL SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > div.centered-container > button.privacy-button.save-settings",
+     "text": "save",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > div.centered-container > button.privacy-button.save-settings",
+     "text": "save",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "CONTROL SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > div.centered-container > button.privacy-button.cancel-settings",
+     "text": "cancel",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > div.centered-container > button.privacy-button.cancel-settings",
+     "text": "cancel",
+     "cutMin": null,
+     "cutMax": null
+    }
+   ]
+  }
+ },
+ "eds": {
+  "url": "https://main--26c59ee1--aemcoder.aem.page/instrument/harmoni",
+  "at": "2026-11-13T17:43:55.298Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 9618,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "span.navbar-brand.navbar-brand-main > div.brand-logo > a",
+    "x": 64,
+    "y": 0,
+    "w": 70,
+    "h": 50,
+    "text": "eso",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img.navbar-eso-logo",
+    "x": 64,
+    "y": 0,
+    "w": 38,
+    "h": 50,
+    "text": "eso",
+    "file": "media_175cb2986e8ee49e7c64e8a9df5fa3f1f9"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.language-menu > div.choose-language-message > p",
+    "x": 596,
+    "y": 15,
+    "w": 143,
+    "h": 19,
+    "text": "Choose your language"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.navbar-nav > li.social-desktop.desktop-top-sm-icons > a",
+    "x": 1121,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on facebook",
+    "href": "/ESOAstronomy"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 1121,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on facebook",
+    "file": "media_1f386e2b9f7ed0b34b2f603a73f839485d"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.navbar-nav > li.social-desktop.desktop-top-sm-icons > a",
+    "x": 1184,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on instagram",
+    "href": "/esoastronomy/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 1184,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on instagram",
+    "file": "media_19faa7be92695e315cea4cad487aa3e15b"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.navbar-nav > li.social-desktop.desktop-top-sm-icons > a",
+    "x": 1246,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on linkedin",
+    "href": "/company/european-southern-observatory"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 1246,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on linkedin",
+    "file": "media_15b4dfde77d1909c3b38baaf7167a2e3d4"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.navbar-nav > li.social-desktop.desktop-top-sm-icons > a",
+    "x": 1309,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on youtube",
+    "href": "/channel/UCIhYoC2VIAJqCkoIWNHBQ3Q"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 1309,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on youtube",
+    "file": "media_101417719196c90d4b42a69d39754d790f"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.navbar-nav > li#nav-search > a.nav-link",
+    "x": 1370,
+    "y": 2,
+    "w": 40,
+    "h": 46,
+    "text": "search",
+    "href": "/instrument/harmoni"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.big-header-media > picture > img.big-header-image",
+    "x": 0,
+    "y": 50,
+    "w": 1440,
+    "h": 675,
+    "text": "",
+    "file": "media_146f005594c3b169c321ec20005d24b662"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.big-header-logos > picture > img.big-header-eso-logo",
+    "x": 151,
+    "y": 118,
+    "w": 78,
+    "h": 102,
+    "text": "eso",
+    "file": "media_1a043431fda0378cd219e1a181f4b0998c"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.big-header-text > div.big-header-logos > p.esologo-text",
+    "x": 151,
+    "y": 224,
+    "w": 435,
+    "h": 79,
+    "text": "European Southern Observatory"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.big-header-text > div.big-header-title > h1#elt-instruments",
+    "x": 151,
+    "y": 550,
+    "w": 1138,
+    "h": 80,
+    "level": 1,
+    "text": "elt instruments"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.navbar-nav > li.nav-item.menu-item > a.nav-link",
+    "x": 231,
+    "y": 739,
+    "w": 91,
+    "h": 40,
+    "text": "elt home",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.navbar-nav > li.nav-item.menu-item > a.nav-link",
+    "x": 352,
+    "y": 739,
+    "w": 68,
+    "h": 40,
+    "text": "about",
+    "href": "/about/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.navbar-nav > li.nav-item.menu-item > a.nav-link",
+    "x": 449,
+    "y": 739,
+    "w": 106,
+    "h": 40,
+    "text": "telescope",
+    "href": "/telescope/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.navbar-nav > li.nav-item.menu-item > a.nav-link",
+    "x": 585,
+    "y": 739,
+    "w": 124,
+    "h": 40,
+    "text": "instruments",
+    "href": "/instrument/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.navbar-nav > li.nav-item.menu-item > a.nav-link",
+    "x": 739,
+    "y": 739,
+    "w": 83,
+    "h": 40,
+    "text": "science",
+    "href": "/science/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.navbar-nav > li.nav-item.menu-item > a.nav-link",
+    "x": 852,
+    "y": 739,
+    "w": 171,
+    "h": 40,
+    "text": "news & multimedia",
+    "href": "/media/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.navbar-nav > li.nav-item.menu-item > a.nav-link",
+    "x": 1052,
+    "y": 739,
+    "w": 158,
+    "h": 40,
+    "text": "success stories",
+    "href": "/success/buildingon/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page-intro.block > div.page-intro-image > img",
+    "x": 0,
+    "y": 794,
+    "w": 1440,
+    "h": 676,
+    "text": "",
+    "file": "media_112bb8d0ec6317685cb057ac63eb258bdb"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page-intro-textblock-inner > div.header-title > p",
+    "x": 151,
+    "y": 822,
+    "w": 1289,
+    "h": 54,
+    "text": "HARMONI"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page-intro-textblock-inner > div.header-subtitle > p",
+    "x": 151,
+    "y": 932,
+    "w": 516,
+    "h": 132,
+    "text": "High Angular Resolution Monolithic Optical and Near-infrared Integral field spec"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page-intro-textblock-inner > div.header-description > p",
+    "x": 151,
+    "y": 1120,
+    "w": 516,
+    "h": 192,
+    "text": "HARMONI will be one of the first generation of ELT instruments and will transfor"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.header-quick-links > div.quick-links-label > p",
+    "x": 151,
+    "y": 1385,
+    "w": 1153,
+    "h": 29,
+    "text": "Quick Links:"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.header-quick-links > div.quick-links-list > p",
+    "x": 151,
+    "y": 1413,
+    "w": 1153,
+    "h": 29,
+    "text": "| | |"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.quick-links-list > p > a",
+    "x": 151,
+    "y": 1415,
+    "w": 68,
+    "h": 23,
+    "text": "science",
+    "href": "/instrument/harmoni"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.quick-links-list > p > a",
+    "x": 235,
+    "y": 1415,
+    "w": 60,
+    "h": 23,
+    "text": "design",
+    "href": "/instrument/harmoni"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.quick-links-list > p > a",
+    "x": 310,
+    "y": 1415,
+    "w": 97,
+    "h": 23,
+    "text": "documents",
+    "href": "/instrument/harmoni"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.quick-links-list > p > a",
+    "x": 422,
+    "y": 1415,
+    "w": 98,
+    "h": 23,
+    "text": "consortium",
+    "href": "/instrument/harmoni"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.intro > div.section-title-paragraph.container-paragraph > p",
+    "x": 151,
+    "y": 1518,
+    "w": 174,
+    "h": 48,
+    "text": "In a nutshell"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-title-paragraph.container-paragraph > div.share-bar.block > a.share-social-media-link.share-social-media-icons",
+    "x": 1200,
+    "y": 1519,
+    "w": 42,
+    "h": 46,
+    "text": "share on facebook",
+    "href": "/sharer/sharer.php"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.share-bar.block > a.share-social-media-link.share-social-media-icons > img",
+    "x": 1204,
+    "y": 1527,
+    "w": 33,
+    "h": 33,
+    "text": "share on facebook",
+    "file": "icon_share_1"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "span.share-menu > span.share-social-media.share-social-media-icons > img.share-social-media",
+    "x": 1249,
+    "y": 1527,
+    "w": 34,
+    "h": 33,
+    "text": "",
+    "file": "icon_share_3"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.intro > div.section-text-paragraph.container-paragraph > p",
+    "x": 151,
+    "y": 1613,
+    "w": 1138,
+    "h": 81,
+    "text": "Powerful and versatile, HARMONI will enable astronomers to study many different "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.intro > div.section-text-paragraph.container-paragraph > p",
+    "x": 151,
+    "y": 1711,
+    "w": 1138,
+    "h": 81,
+    "text": "HARMONI will provide visible and near-infrared spectroscopy over a range of reso"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.lightlink-row > div.lightlink-media > a",
+    "x": 0,
+    "y": 2004,
+    "w": 720,
+    "h": 20,
+    "text": "",
+    "href": "/instrument/harmoni"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 0,
+    "y": 1848,
+    "w": 720,
+    "h": 338,
+    "text": "",
+    "file": "media_15e4a7c7fc4b502d18d753b9636a036760"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.internal-menu-title > p > a",
+    "x": 76,
+    "y": 2107,
+    "w": 329,
+    "h": 39,
+    "text": "science with harmoni",
+    "href": "/instrument/harmoni"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.lightlink-body > div.internal-menu-text > p",
+    "x": 783,
+    "y": 1916,
+    "w": 593,
+    "h": 169,
+    "text": "HARMONI's versatility will allow astronomers to use it for a wide range of scien"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.lightlink-body > div.internal-menu-link > a",
+    "x": 779,
+    "y": 2142,
+    "w": 97,
+    "h": 29,
+    "text": "read more",
+    "href": "/instrument/harmoni"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.lightlink-body > div.internal-menu-text > p",
+    "x": 63,
+    "y": 2287,
+    "w": 593,
+    "h": 101,
+    "text": "With its 3D spectroscopic capabilities and a variety of spatial and spectral set"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.lightlink-body > div.internal-menu-link > a",
+    "x": 59,
+    "y": 2479,
+    "w": 97,
+    "h": 29,
+    "text": "read more",
+    "href": "/instrument/harmoni"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.lightlink-row.lightlink-row-reverse > div.lightlink-media > a",
+    "x": 720,
+    "y": 2342,
+    "w": 720,
+    "h": 20,
+    "text": "",
+    "href": "/instrument/harmoni"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 720,
+    "y": 2185,
+    "w": 720,
+    "h": 338,
+    "text": "",
+    "file": "media_1af8e2cf3ae4b90830d6e76e63751ae35f"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.internal-menu-title > p > a",
+    "x": 796,
+    "y": 2445,
+    "w": 251,
+    "h": 39,
+    "text": "instrument design",
+    "href": "/instrument/harmoni"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.lightlink-row > div.lightlink-media > a",
+    "x": 0,
+    "y": 2679,
+    "w": 720,
+    "h": 20,
+    "text": "",
+    "href": "/instrument/harmoni"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 0,
+    "y": 2523,
+    "w": 720,
+    "h": 338,
+    "text": "",
+    "file": "media_1a85fb3d0aa8525b5676cfbf7e341208d9"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.internal-menu-title > p > a",
+    "x": 76,
+    "y": 2782,
+    "w": 298,
+    "h": 39,
+    "text": "tools and documents",
+    "href": "/instrument/harmoni"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.internal-menu-text > p > a",
+    "x": 783,
+    "y": 2638,
+    "w": 85,
+    "h": 25,
+    "text": "simulator",
+    "href": "/Hsim.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.internal-menu-text > p > a",
+    "x": 783,
+    "y": 2687,
+    "w": 217,
+    "h": 25,
+    "text": "top level requirements",
+    "href": "/sci/facilities/eelt/docs/ESO-191883_2_Top_Level_Requirements_for_ELT-IFU.pdf"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.lightlink-body > div.internal-menu-link > a",
+    "x": 779,
+    "y": 2817,
+    "w": 97,
+    "h": 29,
+    "text": "read more",
+    "href": "/instrument/harmoni"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.lightlink-body > div.internal-menu-text > p",
+    "x": 63,
+    "y": 2962,
+    "w": 593,
+    "h": 101,
+    "text": "HARMONI is made possible through an composed of seven research institutes from f"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.internal-menu-text > p > a",
+    "x": 63,
+    "y": 2966,
+    "w": 468,
+    "h": 59,
+    "text": "international consortium",
+    "href": "/consortium.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.lightlink-body > div.internal-menu-link > a",
+    "x": 59,
+    "y": 3154,
+    "w": 97,
+    "h": 29,
+    "text": "read more",
+    "href": "/instrument/harmoni"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.lightlink-row.lightlink-row-reverse > div.lightlink-media > a",
+    "x": 720,
+    "y": 3017,
+    "w": 720,
+    "h": 20,
+    "text": "",
+    "href": "/instrument/harmoni"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 720,
+    "y": 2860,
+    "w": 720,
+    "h": 338,
+    "text": "",
+    "file": "media_18402fa6a0c444677da585900549dd4ae3"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.internal-menu-title > p > a",
+    "x": 796,
+    "y": 3120,
+    "w": 504,
+    "h": 39,
+    "text": "instrument consortium and contacts",
+    "href": "/instrument/harmoni"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > div.section-title-paragraph.container-paragraph > p",
+    "x": 151,
+    "y": 3246,
+    "w": 1138,
+    "h": 48,
+    "text": "Science with HARMONI"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > figure.article-image > a",
+    "x": 0,
+    "y": 3334,
+    "w": 1440,
+    "h": 438,
+    "text": "",
+    "href": "/public/images/instruments-harmoni-banner1/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 0,
+    "y": 3334,
+    "w": 1440,
+    "h": 438,
+    "text": "",
+    "file": "media_1f7e6132607de69aded486c3c20926ee32"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > div.section-heading-paragraph.container-heading > p",
+    "x": 151,
+    "y": 3786,
+    "w": 1138,
+    "h": 213,
+    "text": "Large-area galaxy surveys have allowed us to study the global properties of gala"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > div.section-text-paragraph.container-paragraph > p",
+    "x": 151,
+    "y": 4023,
+    "w": 1138,
+    "h": 213,
+    "text": "By probing the processes occurring within galaxies on the scale of individual st"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > div.section-text-paragraph.container-paragraph > p",
+    "x": 151,
+    "y": 4253,
+    "w": 1138,
+    "h": 114,
+    "text": "In addition, HARMONI's high angular resolution mode will help astronomers probe "
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "figure.article-image.article-image-captioned > picture > img",
+    "x": 0,
+    "y": 4391,
+    "w": 1440,
+    "h": 374,
+    "text": "",
+    "file": "media_1d412c95df11b401368f5ff38d20d08c8f"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "figure.article-image.article-image-captioned > figcaption.caption-text > p",
+    "x": 15,
+    "y": 4781,
+    "w": 1410,
+    "h": 48,
+    "text": "A simulation of how a galaxy in the early universe would look like when observed"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > div.section-text-paragraph.container-paragraph > p",
+    "x": 151,
+    "y": 4868,
+    "w": 1138,
+    "h": 213,
+    "text": "By resolving individual stars in other galaxies, astronomers will find out more "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > div.section-text-paragraph.container-paragraph > p",
+    "x": 151,
+    "y": 5097,
+    "w": 1138,
+    "h": 378,
+    "text": "To make direct measurements of the chemical and dynamical properties of resolved"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > div.section-text-paragraph.container-paragraph > p",
+    "x": 151,
+    "y": 5507,
+    "w": 1138,
+    "h": 147,
+    "text": "Astronomers believe that nearly all large galaxies have a massive black hole at "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > div.section-text-paragraph.container-paragraph > p",
+    "x": 151,
+    "y": 5670,
+    "w": 1138,
+    "h": 81,
+    "text": "Closer to home, with its special high-contrast mode, HARMONI will allow a detail"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.container-paragraph.float-figure-box > figure.float-figure.float-figure-right > a",
+    "x": 891,
+    "y": 5853,
+    "w": 398,
+    "h": 444,
+    "text": "",
+    "href": "/public/images/HARMONI-4alpha/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 891,
+    "y": 5853,
+    "w": 398,
+    "h": 444,
+    "text": "",
+    "file": "media_11289e68c42e2e4cc47f3821b650848f3e"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.row-styles > div.section-title-paragraph.container-paragraph > p",
+    "x": 151,
+    "y": 5823,
+    "w": 1138,
+    "h": 48,
+    "text": "Instrument Design"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.row-styles > div.section-subtitle-paragraph.container-subtitle > p",
+    "x": 151,
+    "y": 5903,
+    "w": 1138,
+    "h": 168,
+    "text": "With its 3D spectroscopic capabilities and a variety of spatial and spectral set"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.row-styles > div.container-paragraph.float-text > p",
+    "x": 151,
+    "y": 6079,
+    "w": 1138,
+    "h": 371,
+    "text": "HARMONI will use an Integral Field Unit (IFU) with an image slicer to divide a s"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.row-styles > div.section-text-paragraph.container-paragraph > p",
+    "x": 151,
+    "y": 6473,
+    "w": 1138,
+    "h": 213,
+    "text": "Astronomers will also be able to choose between a range of spectral resolution s"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.row-styles > div.section-text-paragraph.container-paragraph > p",
+    "x": 151,
+    "y": 6703,
+    "w": 1138,
+    "h": 213,
+    "text": "HARMONI will be located at the “side-looking” Nasmyth port of the ELT. The first"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.row-styles > div.section-text-paragraph.container-paragraph > p",
+    "x": 151,
+    "y": 6932,
+    "w": 1138,
+    "h": 180,
+    "text": "The bulk of the HARMONI’s optical and mechanical parts is hosted in a single up-"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "dt.tech-row-key > div.tech-table-cell > p",
+    "x": 48,
+    "y": 7184,
+    "w": 99,
+    "h": 48,
+    "text": "Wavelength"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "dd.tech-row-value > div.tech-table-cell > p",
+    "x": 480,
+    "y": 7184,
+    "w": 960,
+    "h": 48,
+    "text": "0.47—2.45 μm"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "dt.tech-row-key > div.tech-table-cell > p",
+    "x": 48,
+    "y": 7256,
+    "w": 156,
+    "h": 48,
+    "text": "Spectral resolution"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "dd.tech-row-value > div.tech-table-cell > p",
+    "x": 480,
+    "y": 7256,
+    "w": 960,
+    "h": 48,
+    "text": "~3,500, 7,500, and 18,000 in the NIR and ~3,500 in the VIS bands"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "dt.tech-row-key > div.tech-table-cell > p",
+    "x": 48,
+    "y": 7328,
+    "w": 239,
+    "h": 48,
+    "text": "Simultaneous spectral range"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "dd.tech-row-value > div.tech-table-cell > p",
+    "x": 480,
+    "y": 7328,
+    "w": 960,
+    "h": 48,
+    "text": "at least one band at a time R~7,500 (i, z, J, H, K), two at R~3,500"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "dt.tech-row-key > div.tech-table-cell > p",
+    "x": 48,
+    "y": 7400,
+    "w": 129,
+    "h": 48,
+    "text": "Field(s)-of-view"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "dd.tech-row-value > div.tech-table-cell > p",
+    "x": 480,
+    "y": 7400,
+    "w": 960,
+    "h": 48,
+    "text": "four, corresponding to different spaxel scales"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "dd.tech-row-value > div.tech-table-cell > p",
+    "x": 480,
+    "y": 7472,
+    "w": 960,
+    "h": 48,
+    "text": "LTAO and SCAO"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.block > div.section-title-paragraph.container-paragraph > p",
+    "x": 151,
+    "y": 7600,
+    "w": 1138,
+    "h": 48,
+    "text": "Tools and Documents"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-text-paragraph.container-paragraph > p > a",
+    "x": 151,
+    "y": 7707,
+    "w": 80,
+    "h": 24,
+    "text": "simulator",
+    "href": "/Hsim.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.block > div.section-text-paragraph.container-paragraph > p",
+    "x": 151,
+    "y": 7760,
+    "w": 1138,
+    "h": 48,
+    "text": "Tool to simulate instrument observations"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-text-paragraph.container-paragraph > p > a",
+    "x": 151,
+    "y": 7836,
+    "w": 203,
+    "h": 24,
+    "text": "top level requirements",
+    "href": "/sci/facilities/eelt/docs/ESO-191883_2_Top_Level_Requirements_for_ELT-IFU.pdf"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.block > div.section-text-paragraph.container-paragraph > p",
+    "x": 151,
+    "y": 7889,
+    "w": 1138,
+    "h": 48,
+    "text": "Description of the characteristics of the instrument required by the science cas"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.row-styles > div.section-title-paragraph.container-paragraph > p",
+    "x": 151,
+    "y": 8009,
+    "w": 1138,
+    "h": 48,
+    "text": "Instrument Consortium and Contacts"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-text-paragraph.container-paragraph > p > strong",
+    "x": 151,
+    "y": 8116,
+    "w": 1135,
+    "h": 24,
+    "text": "HARMONI is made possible through an composed of research institues from four dif"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > strong > a",
+    "x": 508,
+    "y": 8116,
+    "w": 222,
+    "h": 24,
+    "text": "international consortium",
+    "href": "/consortium.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.row-styles > div.section-text-paragraph.container-paragraph > p",
+    "x": 151,
+    "y": 8169,
+    "w": 1138,
+    "h": 213,
+    "text": "The institutes that make up the HARMONI consortium are the University of Oxford "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.container-paragraph.contacts > p > strong",
+    "x": 151,
+    "y": 8417,
+    "w": 192,
+    "h": 24,
+    "text": "Principal Investigator"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.row-styles > div.container-paragraph.contacts > p",
+    "x": 151,
+    "y": 8470,
+    "w": 1138,
+    "h": 48,
+    "text": "(University of Edinburgh, UK)"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.container-paragraph.contacts > p > a",
+    "x": 151,
+    "y": 8482,
+    "w": 121,
+    "h": 24,
+    "text": "james dunlop",
+    "href": "James.Dunlop@ed.ac.uk"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.row-styles > div.container-paragraph.contacts > p",
+    "x": 151,
+    "y": 8534,
+    "w": 1138,
+    "h": 48,
+    "text": "(Deputy; LAM, France)"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.container-paragraph.contacts > p > a",
+    "x": 151,
+    "y": 8546,
+    "w": 122,
+    "h": 24,
+    "text": "benoit neichel",
+    "href": "benoit.neichel@lam.fr"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.container-paragraph.contacts > p > strong",
+    "x": 151,
+    "y": 8610,
+    "w": 148,
+    "h": 24,
+    "text": "Project Scientist"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.row-styles > div.container-paragraph.contacts > p",
+    "x": 151,
+    "y": 8663,
+    "w": 1138,
+    "h": 48,
+    "text": "(Durham University, UK)"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.container-paragraph.contacts > p > a",
+    "x": 151,
+    "y": 8675,
+    "w": 129,
+    "h": 24,
+    "text": "mark swinbank",
+    "href": "a.m.swinbank@durham.ac.uk"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.row-styles > div.container-paragraph.contacts > p",
+    "x": 151,
+    "y": 8727,
+    "w": 1138,
+    "h": 48,
+    "text": "(STFC UKRI)"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.container-paragraph.contacts > p > a",
+    "x": 151,
+    "y": 8739,
+    "w": 135,
+    "h": 24,
+    "text": "óscar gonzález",
+    "href": "oscar.gonzalez@stfc.ac.uk"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.container-paragraph.contacts > p > strong",
+    "x": 151,
+    "y": 8803,
+    "w": 147,
+    "h": 24,
+    "text": "Project Manager"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.row-styles > div.container-paragraph.contacts > p",
+    "x": 151,
+    "y": 8856,
+    "w": 1138,
+    "h": 48,
+    "text": "(ESO)"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.container-paragraph.contacts > p > a",
+    "x": 151,
+    "y": 8868,
+    "w": 244,
+    "h": 24,
+    "text": "michele cirasuolo (in interim)",
+    "href": "mciras@eso.org"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.row-styles > div.container-paragraph.contacts > p",
+    "x": 151,
+    "y": 8920,
+    "w": 1138,
+    "h": 48,
+    "text": "(UK Astronomy Technology Centre, UK)"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.container-paragraph.contacts > p > a",
+    "x": 151,
+    "y": 8932,
+    "w": 137,
+    "h": 24,
+    "text": "stephen chittick",
+    "href": "stephen.chittick@stfc.ac.uk"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.row-styles > div.container-paragraph.contacts > p",
+    "x": 151,
+    "y": 8985,
+    "w": 1138,
+    "h": 48,
+    "text": "(Deputy; LAM, France)"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.container-paragraph.contacts > p > a",
+    "x": 151,
+    "y": 8996,
+    "w": 147,
+    "h": 24,
+    "text": "david le mignant",
+    "href": "david.lemignant@lam.fr"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.container-paragraph.contacts > p > strong",
+    "x": 151,
+    "y": 9061,
+    "w": 181,
+    "h": 24,
+    "text": "Simulation Scientist"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.row-styles > div.container-paragraph.contacts > p",
+    "x": 151,
+    "y": 9113,
+    "w": 1138,
+    "h": 48,
+    "text": "(Centre for Astrobiology CAB, INTA-CSIC, Spain)"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.container-paragraph.contacts > p > a",
+    "x": 151,
+    "y": 9125,
+    "w": 207,
+    "h": 24,
+    "text": "miguel pereira-santaella",
+    "href": "miguel.pereira@physics.ox.ac.uk"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.container-paragraph.contacts > p > strong",
+    "x": 151,
+    "y": 9189,
+    "w": 195,
+    "h": 24,
+    "text": "ESO Project Engineer"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.container-paragraph.contacts > p > a",
+    "x": 151,
+    "y": 9254,
+    "w": 156,
+    "h": 24,
+    "text": "peter hammersley",
+    "href": "Peter.Hammersley@eso.org"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.container-paragraph.contacts > p > strong",
+    "x": 151,
+    "y": 9318,
+    "w": 193,
+    "h": 24,
+    "text": "ESO Project Scientist"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.container-paragraph.contacts > p > a",
+    "x": 151,
+    "y": 9382,
+    "w": 144,
+    "h": 24,
+    "text": "morten andersen",
+    "href": "Morten.Andersen@eso.org"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.container-paragraph.contacts > p > strong",
+    "x": 151,
+    "y": 9447,
+    "w": 182,
+    "h": 24,
+    "text": "Instrument Scientist"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.row-styles > div.container-paragraph.contacts > p",
+    "x": 151,
+    "y": 9500,
+    "w": 1138,
+    "h": 48,
+    "text": "(UK Astronomy Technology Centre, UK)"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.container-paragraph.contacts > p > a",
+    "x": 151,
+    "y": 9511,
+    "w": 116,
+    "h": 24,
+    "text": "william taylor",
+    "href": "None"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer > div.site-footer-row > p.site-footer-brand.footer-item",
+    "x": -15,
+    "y": 9580,
+    "w": 360,
+    "h": 22,
+    "text": "| ELT ©"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-row > p.site-footer-brand.footer-item > a",
+    "x": 108,
+    "y": 9580,
+    "w": 30,
+    "h": 22,
+    "text": "eso",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-links.footer-item > div > p",
+    "x": 464,
+    "y": 9580,
+    "w": 843,
+    "h": 22,
+    "text": "| | | | |"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > p > a",
+    "x": 464,
+    "y": 9582,
+    "w": 49,
+    "h": 18,
+    "text": "credits",
+    "href": "/credits/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > p > a",
+    "x": 537,
+    "y": 9582,
+    "w": 72,
+    "h": 18,
+    "text": "contact us",
+    "href": "information@eso.org"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > p > a",
+    "x": 633,
+    "y": 9582,
+    "w": 155,
+    "h": 18,
+    "text": "subscribe to eso news",
+    "href": "/public/outreach/newsletters/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > p > a",
+    "x": 811,
+    "y": 9582,
+    "w": 150,
+    "h": 18,
+    "text": "accelerated by cdn77",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > p > a",
+    "x": 984,
+    "y": 9582,
+    "w": 128,
+    "h": 18,
+    "text": "terms & conditions",
+    "href": "/public/about-eso/privacy/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > p > a",
+    "x": 1136,
+    "y": 9582,
+    "w": 170,
+    "h": 18,
+    "text": "cookie settings and policy",
+    "href": "/instrument/harmoni"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 118,
+    "controls": 56,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 57,
+    "button": 5,
+    "text": 143,
+    "image": 17
+   },
+   "eds": {
+    "link": 43,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 58,
+    "textHidden": 0,
+    "image": 12,
+    "imageHidden": 0
+   },
+   "findings": [
+    "MISSING HEADING",
+    "MISSING LINK",
+    "MISSING LINK",
+    "MISSING LINK",
+    "MISSING LINK",
+    "MISSING LINK",
+    "MISSING LINK",
+    "MISSING LINK",
+    "MISSING LINK",
+    "MISSING LINK",
+    "MISSING LINK",
+    "MISSING LINK",
+    "MISSING LINK",
+    "MISSING LINK",
+    "MISSING BUTTON",
+    "MISSING BUTTON",
+    "MISSING BUTTON",
+    "MISSING BUTTON",
+    "MISSING BUTTON",
+    "COUNT TEXT",
+    "COUNT IMAGES"
+   ]
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🔴",
+   "kind": "MISSING HEADING",
+   "msg": "h1 \"eso cookies policy\" (origin y 1006) has no served heading",
+   "band": 0,
+   "text": "eso cookies policy"
+  },
+  {
+   "sev": "🔴",
+   "kind": "MISSING HEADING",
+   "msg": "h2 \"what are cookies?\" (origin y 1238) has no served heading",
+   "band": 1,
+   "text": "what are cookies?"
+  },
+  {
+   "sev": "🔴",
+   "kind": "MISSING HEADING",
+   "msg": "h2 \"categories of cookies we use\" (origin y 1348) has no served heading",
+   "band": 2,
+   "text": "categories of cookies we use"
+  },
+  {
+   "sev": "🔴",
+   "kind": "MISSING HEADING",
+   "msg": "h1 \"our use of cookies\" (origin y 1544) has no served heading",
+   "band": 3,
+   "text": "our use of cookies"
+  },
+  {
+   "sev": "🔴",
+   "kind": "MISSING HEADING",
+   "msg": "h2 \"how to manage cookies\" (origin y 3227) has no served heading",
+   "band": 4,
+   "text": "how to manage cookies"
+  },
+  {
+   "sev": "🔴",
+   "kind": "MISSING HEADING",
+   "msg": "h2 \"updates to the eso cookies policy\" (origin y 3617) has no served heading",
+   "band": 5,
+   "text": "updates to the eso cookies policy"
+  },
+  {
+   "sev": "🔴",
+   "kind": "MISSING HEADING",
+   "msg": "h2 \"additional information\" (origin y 3704) has no served heading",
+   "band": 6,
+   "text": "additional information"
+  },
+  {
+   "sev": "🔴",
+   "kind": "MISSING LINK",
+   "msg": "\"eso on facebook\" → /ESOAstronomy in band \"(top)\" (origin y 11) not on the served page",
+   "band": 0,
+   "n": 1,
+   "text": "eso on facebook",
+   "href": "/ESOAstronomy"
+  },
+  {
+   "sev": "🔴",
+   "kind": "MISSING LINK",
+   "msg": "\"eso on instagram\" → /esoastronomy/ in band \"(top)\" (origin y 11) not on the served page",
+   "band": 0,
+   "n": 1,
+   "text": "eso on instagram",
+   "href": "/esoastronomy/"
+  },
+  {
+   "sev": "🔴",
+   "kind": "MISSING LINK",
+   "msg": "\"eso on linkedin\" → /company/european-southern-observatory in band \"(top)\" (origin y 11) not on the served page",
+   "band": 0,
+   "n": 1,
+   "text": "eso on linkedin",
+   "href": "/company/european-southern-observatory"
+  },
+  {
+   "sev": "🔴",
+   "kind": "MISSING LINK",
+   "msg": "\"eso on youtube\" → /channel/UCIhYoC2VIAJqCkoIWNHBQ3Q in band \"(top)\" (origin y 11) not on the served page",
+   "band": 0,
+   "n": 1,
+   "text": "eso on youtube",
+   "href": "/channel/UCIhYoC2VIAJqCkoIWNHBQ3Q"
+  },
+  {
+   "sev": "🔴",
+   "kind": "MISSING LINK",
+   "msg": "\"search\" → /instrument/HARMONI/ in band \"(top)\" (origin y 2) not on the served page",
+   "band": 0,
+   "n": 1,
+   "text": "search",
+   "href": "/instrument/HARMONI/"
+  },
+  {
+   "sev": "🔴",
+   "kind": "MISSING LINK",
+   "msg": "\"youtube\" → /t/terms in band \"(top)\" (origin y 2869) not on the served page",
+   "band": 0,
+   "n": 1,
+   "text": "youtube",
+   "href": "/t/terms"
+  },
+  {
+   "sev": "🔴",
+   "kind": "MISSING LINK",
+   "msg": "\"eso’s official youtube channel\" → /channel/UCIhYoC2VIAJqCkoIWNHBQ3Q in band \"(top)\" (origin y 2869) not on the served page",
+   "band": 0,
+   "n": 1,
+   "text": "eso’s official youtube channel",
+   "href": "/channel/UCIhYoC2VIAJqCkoIWNHBQ3Q"
+  },
+  {
+   "sev": "🔴",
+   "kind": "MISSING LINK",
+   "msg": "\"embedding videos information page\" → /youtube/answer/171780 in band \"(top)\" (origin y 2917) not on the served page",
+   "band": 0,
+   "n": 1,
+   "text": "embedding videos information page",
+   "href": "/youtube/answer/171780"
+  },
+  {
+   "sev": "🔴",
+   "kind": "MISSING LINK",
+   "msg": "\"brave\" → /hc/en-us/signin in band \"(top)\" (origin y 3355) not on the served page",
+   "band": 0,
+   "n": 1,
+   "text": "brave",
+   "href": "/hc/en-us/signin"
+  },
+  {
+   "sev": "🔴",
+   "kind": "MISSING LINK",
+   "msg": "\"chrome\" → /chrome/bin/answer.py in band \"(top)\" (origin y 3379) not on the served page",
+   "band": 0,
+   "n": 1,
+   "text": "chrome",
+   "href": "/chrome/bin/answer.py"
+  },
+  {
+   "sev": "🔴",
+   "kind": "MISSING LINK",
+   "msg": "\"edge\" → /en-us/windows/manage-cookies-in-microsoft-edge-view-allow-block-delete-and-use-168dab11-0753-043d-7c16-ede5947fc64d in band \"(top)\" (origin y 3403) not on the served page",
+   "band": 0,
+   "n": 1,
+   "text": "edge",
+   "href": "/en-us/windows/manage-cookies-in-microsoft-edge-view-allow-block-delete-and-use-168dab11-0753-043d-7c16-ede5947fc64d"
+  },
+  {
+   "sev": "🔴",
+   "kind": "MISSING LINK",
+   "msg": "\"firefox\" → /en-US/kb/Blocking%20cookies in band \"(top)\" (origin y 3427) not on the served page",
+   "band": 0,
+   "n": 1,
+   "text": "firefox",
+   "href": "/en-US/kb/Blocking%20cookies"
+  },
+  {
+   "sev": "🔴",
+   "kind": "MISSING LINK",
+   "msg": "\"safari\" → /article.html in band \"(top)\" (origin y 3451) not on the served page",
+   "band": 0,
+   "n": 1,
+   "text": "safari",
+   "href": "/article.html"
+  },
+  {
+   "sev": "🟠",
+   "kind": "MISSING BUTTON",
+   "msg": "\"accept all\" in band \"(top)\" (origin y 1728) not on the served page",
+   "band": 0,
+   "n": 1,
+   "text": "accept all"
+  },
+  {
+   "sev": "🟠",
+   "kind": "MISSING BUTTON",
+   "msg": "\"accept only essential cookies\" in band \"(top)\" (origin y 1728) not on the served page",
+   "band": 0,
+   "n": 1,
+   "text": "accept only essential cookies"
+  },
+  {
+   "sev": "🟠",
+   "kind": "MISSING BUTTON",
+   "msg": "\"cookie settings and policy\" in band \"(top)\" (origin y 1728) not on the served page",
+   "band": 0,
+   "n": 1,
+   "text": "cookie settings and policy"
+  },
+  {
+   "sev": "🟠",
+   "kind": "MISSING BUTTON",
+   "msg": "\"save\" in band \"(top)\" (origin y 3846) not on the served page",
+   "band": 0,
+   "n": 1,
+   "text": "save"
+  },
+  {
+   "sev": "🟠",
+   "kind": "MISSING BUTTON",
+   "msg": "\"cancel\" in band \"(top)\" (origin y 3846) not on the served page",
+   "band": 0,
+   "n": 1,
+   "text": "cancel"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h1 \"elt instruments\" (y 550) has no origin heading",
+   "text": "elt instruments"
+  },
+  {
+   "sev": "🟡",
+   "kind": "COUNT TEXT",
+   "msg": "band \"(top)\": 143 origin → 58 served visible",
+   "band": 0,
+   "origin": 143,
+   "eds": 58,
+   "hidden": 0
+  },
+  {
+   "sev": "🟡",
+   "kind": "COUNT IMAGES",
+   "msg": "band \"(top)\": 17 origin → 12 served visible",
+   "band": 0,
+   "origin": 17,
+   "eds": 12,
+   "hidden": 0
+  }
+ ],
+ "totals": {
+  "missingHeadings": 7,
+  "hiddenHeadings": 0,
+  "extraHeadings": 1,
+  "missingLinks": 13,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 0,
+  "missingButtons": 5,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 2,
+  "findings": 28,
+  "structural": 20,
+  "missing": 20,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 596,
+    "y": 17,
+    "w": 131,
+    "h": 15
+   },
+   {
+    "x": 1378,
+    "y": 10,
+    "w": 24,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 233,
+    "w": 68,
+    "h": 20
+   },
+   {
+    "x": 151,
+    "y": 257,
+    "w": 65,
+    "h": 20
+   },
+   {
+    "x": 151,
+    "y": 281,
+    "w": 88,
+    "h": 20
+   },
+   {
+    "x": 151,
+    "y": 557,
+    "w": 370,
+    "h": 65
+   },
+   {
+    "x": 239,
+    "y": 749,
+    "w": 76,
+    "h": 19
+   },
+   {
+    "x": 361,
+    "y": 749,
+    "w": 52,
+    "h": 19
+   },
+   {
+    "x": 459,
+    "y": 749,
+    "w": 89,
+    "h": 19
+   },
+   {
+    "x": 594,
+    "y": 749,
+    "w": 108,
+    "h": 19
+   },
+   {
+    "x": 748,
+    "y": 749,
+    "w": 66,
+    "h": 19
+   },
+   {
+    "x": 860,
+    "y": 749,
+    "w": 155,
+    "h": 19
+   },
+   {
+    "x": 1061,
+    "y": 749,
+    "w": 141,
+    "h": 19
+   },
+   {
+    "x": 151,
+    "y": 827,
+    "w": 168,
+    "h": 44
+   },
+   {
+    "x": 151,
+    "y": 935,
+    "w": 465,
+    "h": 38
+   },
+   {
+    "x": 151,
+    "y": 979,
+    "w": 502,
+    "h": 38
+   },
+   {
+    "x": 151,
+    "y": 1023,
+    "w": 177,
+    "h": 38
+   },
+   {
+    "x": 151,
+    "y": 1124,
+    "w": 512,
+    "h": 23
+   },
+   {
+    "x": 151,
+    "y": 1156,
+    "w": 466,
+    "h": 23
+   },
+   {
+    "x": 151,
+    "y": 1188,
+    "w": 509,
+    "h": 23
+   },
+   {
+    "x": 151,
+    "y": 1220,
+    "w": 513,
+    "h": 23
+   },
+   {
+    "x": 151,
+    "y": 1252,
+    "w": 515,
+    "h": 23
+   },
+   {
+    "x": 151,
+    "y": 1284,
+    "w": 500,
+    "h": 23
+   },
+   {
+    "x": 151,
+    "y": 1386,
+    "w": 105,
+    "h": 23
+   },
+   {
+    "x": 151,
+    "y": 1414,
+    "w": 68,
+    "h": 23
+   },
+   {
+    "x": 219,
+    "y": 1414,
+    "w": 15,
+    "h": 23
+   },
+   {
+    "x": 234,
+    "y": 1414,
+    "w": 59,
+    "h": 23
+   },
+   {
+    "x": 293,
+    "y": 1414,
+    "w": 15,
+    "h": 23
+   },
+   {
+    "x": 307,
+    "y": 1414,
+    "w": 98,
+    "h": 23
+   },
+   {
+    "x": 405,
+    "y": 1414,
+    "w": 15,
+    "h": 23
+   },
+   {
+    "x": 420,
+    "y": 1414,
+    "w": 99,
+    "h": 23
+   },
+   {
+    "x": 151,
+    "y": 1521,
+    "w": 172,
+    "h": 39
+   },
+   {
+    "x": 151,
+    "y": 1624,
+    "w": 1078,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 1657,
+    "w": 1048,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 1721,
+    "w": 1106,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 1754,
+    "w": 277,
+    "h": 24
+   },
+   {
+    "x": 76,
+    "y": 2107,
+    "w": 328,
+    "h": 39
+   },
+   {
+    "x": 783,
+    "y": 1919,
+    "w": 569,
+    "h": 25
+   },
+   {
+    "x": 783,
+    "y": 1953,
+    "w": 549,
+    "h": 25
+   },
+   {
+    "x": 783,
+    "y": 1987,
+    "w": 575,
+    "h": 25
+   },
+   {
+    "x": 783,
+    "y": 2020,
+    "w": 579,
+    "h": 25
+   },
+   {
+    "x": 783,
+    "y": 2054,
+    "w": 455,
+    "h": 25
+   },
+   {
+    "x": 780,
+    "y": 2143,
+    "w": 96,
+    "h": 24
+   },
+   {
+    "x": 63,
+    "y": 2282,
+    "w": 579,
+    "h": 25
+   },
+   {
+    "x": 63,
+    "y": 2316,
+    "w": 572,
+    "h": 25
+   },
+   {
+    "x": 63,
+    "y": 2350,
+    "w": 340,
+    "h": 25
+   },
+   {
+    "x": 60,
+    "y": 2481,
+    "w": 96,
+    "h": 24
+   },
+   {
+    "x": 796,
+    "y": 2444,
+    "w": 250,
+    "h": 39
+   },
+   {
+    "x": 76,
+    "y": 2782,
+    "w": 300,
+    "h": 39
+   },
+   {
+    "x": 783,
+    "y": 2637,
+    "w": 84,
+    "h": 25
+   },
+   {
+    "x": 783,
+    "y": 2687,
+    "w": 215,
+    "h": 25
+   },
+   {
+    "x": 780,
+    "y": 2818,
+    "w": 96,
+    "h": 24
+   },
+   {
+    "x": 63,
+    "y": 2965,
+    "w": 358,
+    "h": 25
+   },
+   {
+    "x": 421,
+    "y": 2965,
+    "w": 108,
+    "h": 25
+   },
+   {
+    "x": 63,
+    "y": 2999,
+    "w": 100,
+    "h": 25
+   },
+   {
+    "x": 164,
+    "y": 2999,
+    "w": 437,
+    "h": 25
+   },
+   {
+    "x": 63,
+    "y": 3033,
+    "w": 165,
+    "h": 25
+   },
+   {
+    "x": 60,
+    "y": 3156,
+    "w": 96,
+    "h": 24
+   },
+   {
+    "x": 796,
+    "y": 3119,
+    "w": 510,
+    "h": 39
+   },
+   {
+    "x": 151,
+    "y": 3249,
+    "w": 341,
+    "h": 39
+   },
+   {
+    "x": 151,
+    "y": 3797,
+    "w": 1128,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 3830,
+    "w": 1125,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 3863,
+    "w": 1129,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 3896,
+    "w": 1105,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 3929,
+    "w": 1125,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 3962,
+    "w": 551,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4034,
+    "w": 1093,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4067,
+    "w": 1080,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4100,
+    "w": 1108,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4133,
+    "w": 1048,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4166,
+    "w": 1131,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4199,
+    "w": 309,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4264,
+    "w": 1128,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4297,
+    "w": 1088,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4330,
+    "w": 484,
+    "h": 24
+   },
+   {
+    "x": 137,
+    "y": 4794,
+    "w": 1166,
+    "h": 20
+   },
+   {
+    "x": 151,
+    "y": 4879,
+    "w": 1071,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4912,
+    "w": 1073,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4945,
+    "w": 1119,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4978,
+    "w": 1137,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5011,
+    "w": 1133,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5044,
+    "w": 652,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5108,
+    "w": 1072,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5141,
+    "w": 1137,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5174,
+    "w": 1117,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5207,
+    "w": 1070,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5240,
+    "w": 1108,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5273,
+    "w": 1116,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5306,
+    "w": 1107,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5339,
+    "w": 1092,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5372,
+    "w": 1116,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5405,
+    "w": 1115,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5438,
+    "w": 497,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5518,
+    "w": 1132,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5551,
+    "w": 1133,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5584,
+    "w": 1067,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5617,
+    "w": 704,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5681,
+    "w": 1110,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5714,
+    "w": 1051,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5826,
+    "w": 261,
+    "h": 39
+   },
+   {
+    "x": 151,
+    "y": 5908,
+    "w": 620,
+    "h": 30
+   },
+   {
+    "x": 151,
+    "y": 5948,
+    "w": 614,
+    "h": 30
+   },
+   {
+    "x": 151,
+    "y": 5988,
+    "w": 649,
+    "h": 30
+   },
+   {
+    "x": 151,
+    "y": 6028,
+    "w": 46,
+    "h": 30
+   },
+   {
+    "x": 654,
+    "y": 6082,
+    "w": 180,
+    "h": 24
+   },
+   {
+    "x": 654,
+    "y": 6115,
+    "w": 187,
+    "h": 24
+   },
+   {
+    "x": 654,
+    "y": 6148,
+    "w": 187,
+    "h": 24
+   },
+   {
+    "x": 654,
+    "y": 6181,
+    "w": 118,
+    "h": 24
+   },
+   {
+    "x": 654,
+    "y": 6214,
+    "w": 153,
+    "h": 24
+   },
+   {
+    "x": 654,
+    "y": 6247,
+    "w": 184,
+    "h": 24
+   },
+   {
+    "x": 654,
+    "y": 6280,
+    "w": 184,
+    "h": 24
+   },
+   {
+    "x": 654,
+    "y": 6313,
+    "w": 175,
+    "h": 24
+   },
+   {
+    "x": 654,
+    "y": 6346,
+    "w": 611,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 6379,
+    "w": 1131,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 6412,
+    "w": 994,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 6484,
+    "w": 1085,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 6517,
+    "w": 1113,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 6550,
+    "w": 1084,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 6583,
+    "w": 1111,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 6616,
+    "w": 1123,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 6649,
+    "w": 158,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 6714,
+    "w": 1136,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 6747,
+    "w": 1126,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 6780,
+    "w": 1115,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 6813,
+    "w": 1088,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 6846,
+    "w": 1097,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 6879,
+    "w": 982,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 6943,
+    "w": 1083,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 6976,
+    "w": 1122,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 7009,
+    "w": 1103,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 7042,
+    "w": 1130,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 7075,
+    "w": 317,
+    "h": 24
+   },
+   {
+    "x": 48,
+    "y": 7195,
+    "w": 98,
+    "h": 24
+   },
+   {
+    "x": 896,
+    "y": 7195,
+    "w": 128,
+    "h": 24
+   },
+   {
+    "x": 48,
+    "y": 7267,
+    "w": 155,
+    "h": 24
+   },
+   {
+    "x": 679,
+    "y": 7267,
+    "w": 561,
+    "h": 24
+   },
+   {
+    "x": 48,
+    "y": 7339,
+    "w": 237,
+    "h": 24
+   },
+   {
+    "x": 684,
+    "y": 7339,
+    "w": 552,
+    "h": 24
+   },
+   {
+    "x": 48,
+    "y": 7411,
+    "w": 125,
+    "h": 24
+   },
+   {
+    "x": 773,
+    "y": 7411,
+    "w": 375,
+    "h": 24
+   },
+   {
+    "x": 48,
+    "y": 7483,
+    "w": 26,
+    "h": 24
+   },
+   {
+    "x": 891,
+    "y": 7483,
+    "w": 139,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 7603,
+    "w": 311,
+    "h": 39
+   },
+   {
+    "x": 151,
+    "y": 7707,
+    "w": 79,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 7771,
+    "w": 337,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 7835,
+    "w": 201,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 7900,
+    "w": 666,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 8012,
+    "w": 530,
+    "h": 39
+   },
+   {
+    "x": 151,
+    "y": 8115,
+    "w": 358,
+    "h": 24
+   },
+   {
+    "x": 509,
+    "y": 8115,
+    "w": 219,
+    "h": 24
+   },
+   {
+    "x": 728,
+    "y": 8115,
+    "w": 551,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 8180,
+    "w": 1067,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 8213,
+    "w": 1136,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 8246,
+    "w": 1108,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 8279,
+    "w": 1134,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 8312,
+    "w": 1098,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 8345,
+    "w": 288,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 8417,
+    "w": 190,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 8481,
+    "w": 121,
+    "h": 24
+   },
+   {
+    "x": 272,
+    "y": 8481,
+    "w": 245,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 8546,
+    "w": 121,
+    "h": 24
+   },
+   {
+    "x": 272,
+    "y": 8546,
+    "w": 192,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 8610,
+    "w": 147,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 8674,
+    "w": 130,
+    "h": 24
+   },
+   {
+    "x": 281,
+    "y": 8674,
+    "w": 204,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 8739,
+    "w": 133,
+    "h": 24
+   },
+   {
+    "x": 284,
+    "y": 8739,
+    "w": 110,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 8803,
+    "w": 149,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 8867,
+    "w": 238,
+    "h": 24
+   },
+   {
+    "x": 389,
+    "y": 8867,
+    "w": 53,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 8932,
+    "w": 138,
+    "h": 24
+   },
+   {
+    "x": 290,
+    "y": 8932,
+    "w": 336,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 8996,
+    "w": 146,
+    "h": 24
+   },
+   {
+    "x": 297,
+    "y": 8996,
+    "w": 192,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 9060,
+    "w": 178,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 9125,
+    "w": 201,
+    "h": 24
+   },
+   {
+    "x": 352,
+    "y": 9125,
+    "w": 412,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 9189,
+    "w": 194,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 9253,
+    "w": 154,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 9318,
+    "w": 192,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 9382,
+    "w": 145,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 9446,
+    "w": 180,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 9511,
+    "w": 113,
+    "h": 24
+   },
+   {
+    "x": 264,
+    "y": 9511,
+    "w": 336,
+    "h": 24
+   },
+   {
+    "x": 109,
+    "y": 9581,
+    "w": 29,
+    "h": 18
+   },
+   {
+    "x": 138,
+    "y": 9581,
+    "w": 51,
+    "h": 18
+   },
+   {
+    "x": 188,
+    "y": 9581,
+    "w": 33,
+    "h": 18
+   },
+   {
+    "x": 464,
+    "y": 9581,
+    "w": 49,
+    "h": 18
+   },
+   {
+    "x": 513,
+    "y": 9581,
+    "w": 24,
+    "h": 18
+   },
+   {
+    "x": 537,
+    "y": 9581,
+    "w": 74,
+    "h": 18
+   },
+   {
+    "x": 610,
+    "y": 9581,
+    "w": 24,
+    "h": 18
+   },
+   {
+    "x": 634,
+    "y": 9581,
+    "w": 155,
+    "h": 18
+   },
+   {
+    "x": 789,
+    "y": 9581,
+    "w": 24,
+    "h": 18
+   },
+   {
+    "x": 813,
+    "y": 9581,
+    "w": 149,
+    "h": 18
+   },
+   {
+    "x": 962,
+    "y": 9581,
+    "w": 24,
+    "h": 18
+   },
+   {
+    "x": 986,
+    "y": 9581,
+    "w": 128,
+    "h": 18
+   },
+   {
+    "x": 1113,
+    "y": 9581,
+    "w": 24,
+    "h": 18
+   },
+   {
+    "x": 1137,
+    "y": 9581,
+    "w": 169,
+    "h": 18
+   },
+   {
+    "x": 541,
+    "y": 1543,
+    "w": 331,
+    "h": 49
+   },
+   {
+    "x": 49,
+    "y": 1602,
+    "w": 632,
+    "h": 20
+   },
+   {
+    "x": 49,
+    "y": 1626,
+    "w": 630,
+    "h": 20
+   },
+   {
+    "x": 49,
+    "y": 1650,
+    "w": 597,
+    "h": 20
+   },
+   {
+    "x": 49,
+    "y": 1674,
+    "w": 72,
+    "h": 20
+   },
+   {
+    "x": 751,
+    "y": 1602,
+    "w": 625,
+    "h": 20
+   },
+   {
+    "x": 751,
+    "y": 1626,
+    "w": 83,
+    "h": 20
+   },
+   {
+    "x": 388,
+    "y": 1738,
+    "w": 69,
+    "h": 19
+   },
+   {
+    "x": 558,
+    "y": 1738,
+    "w": 210,
+    "h": 19
+   },
+   {
+    "x": 868,
+    "y": 1738,
+    "w": 184,
+    "h": 19
+   },
+   {
+    "x": 550,
+    "y": 1005,
+    "w": 341,
+    "h": 49
+   },
+   {
+    "x": 176,
+    "y": 1088,
+    "w": 1037,
+    "h": 19
+   },
+   {
+    "x": 176,
+    "y": 1112,
+    "w": 1053,
+    "h": 19
+   },
+   {
+    "x": 176,
+    "y": 1136,
+    "w": 157,
+    "h": 19
+   },
+   {
+    "x": 176,
+    "y": 1176,
+    "w": 1084,
+    "h": 19
+   },
+   {
+    "x": 176,
+    "y": 1200,
+    "w": 418,
+    "h": 19
+   },
+   {
+    "x": 176,
+    "y": 1237,
+    "w": 256,
+    "h": 39
+   },
+   {
+    "x": 176,
+    "y": 1286,
+    "w": 1032,
+    "h": 19
+   },
+   {
+    "x": 176,
+    "y": 1310,
+    "w": 360,
+    "h": 19
+   },
+   {
+    "x": 176,
+    "y": 1347,
+    "w": 405,
+    "h": 39
+   },
+   {
+    "x": 176,
+    "y": 1397,
+    "w": 241,
+    "h": 19
+   },
+   {
+    "x": 417,
+    "y": 1397,
+    "w": 838,
+    "h": 19
+   },
+   {
+    "x": 176,
+    "y": 1421,
+    "w": 1037,
+    "h": 19
+   },
+   {
+    "x": 176,
+    "y": 1445,
+    "w": 243,
+    "h": 19
+   },
+   {
+    "x": 184,
+    "y": 1493,
+    "w": 121,
+    "h": 19
+   },
+   {
+    "x": 422,
+    "y": 1493,
+    "w": 152,
+    "h": 19
+   },
+   {
+    "x": 762,
+    "y": 1493,
+    "w": 80,
+    "h": 19
+   },
+   {
+    "x": 842,
+    "y": 1491,
+    "w": 10,
+    "h": 14
+   },
+   {
+    "x": 852,
+    "y": 1493,
+    "w": 62,
+    "h": 19
+   },
+   {
+    "x": 762,
+    "y": 1517,
+    "w": 9,
+    "h": 19
+   },
+   {
+    "x": 771,
+    "y": 1515,
+    "w": 11,
+    "h": 14
+   },
+   {
+    "x": 782,
+    "y": 1517,
+    "w": 47,
+    "h": 19
+   },
+   {
+    "x": 932,
+    "y": 1493,
+    "w": 122,
+    "h": 19
+   },
+   {
+    "x": 932,
+    "y": 1517,
+    "w": 122,
+    "h": 19
+   },
+   {
+    "x": 932,
+    "y": 1541,
+    "w": 58,
+    "h": 19
+   },
+   {
+    "x": 1102,
+    "y": 1493,
+    "w": 63,
+    "h": 19
+   },
+   {
+    "x": 184,
+    "y": 1581,
+    "w": 63,
+    "h": 19
+   },
+   {
+    "x": 422,
+    "y": 1581,
+    "w": 311,
+    "h": 19
+   },
+   {
+    "x": 422,
+    "y": 1605,
+    "w": 282,
+    "h": 19
+   },
+   {
+    "x": 422,
+    "y": 1629,
+    "w": 55,
+    "h": 19
+   },
+   {
+    "x": 762,
+    "y": 1581,
+    "w": 9,
+    "h": 19
+   },
+   {
+    "x": 771,
+    "y": 1578,
+    "w": 9,
+    "h": 15
+   },
+   {
+    "x": 780,
+    "y": 1581,
+    "w": 39,
+    "h": 19
+   },
+   {
+    "x": 932,
+    "y": 1581,
+    "w": 46,
+    "h": 19
+   },
+   {
+    "x": 1102,
+    "y": 1581,
+    "w": 42,
+    "h": 19
+   },
+   {
+    "x": 184,
+    "y": 1669,
+    "w": 86,
+    "h": 19
+   },
+   {
+    "x": 422,
+    "y": 1669,
+    "w": 298,
+    "h": 19
+   },
+   {
+    "x": 422,
+    "y": 1693,
+    "w": 209,
+    "h": 19
+   },
+   {
+    "x": 762,
+    "y": 1669,
+    "w": 9,
+    "h": 19
+   },
+   {
+    "x": 771,
+    "y": 1666,
+    "w": 9,
+    "h": 15
+   },
+   {
+    "x": 780,
+    "y": 1669,
+    "w": 39,
+    "h": 19
+   },
+   {
+    "x": 932,
+    "y": 1669,
+    "w": 46,
+    "h": 19
+   },
+   {
+    "x": 1102,
+    "y": 1669,
+    "w": 65,
+    "h": 19
+   }
+  ],
+  "eds": [
+   {
+    "x": 596,
+    "y": 17,
+    "w": 125,
+    "h": 15
+   },
+   {
+    "x": 1378,
+    "y": 10,
+    "w": 24,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 233,
+    "w": 70,
+    "h": 20
+   },
+   {
+    "x": 151,
+    "y": 257,
+    "w": 65,
+    "h": 20
+   },
+   {
+    "x": 151,
+    "y": 281,
+    "w": 88,
+    "h": 20
+   },
+   {
+    "x": 151,
+    "y": 557,
+    "w": 375,
+    "h": 65
+   },
+   {
+    "x": 239,
+    "y": 749,
+    "w": 75,
+    "h": 20
+   },
+   {
+    "x": 360,
+    "y": 749,
+    "w": 52,
+    "h": 20
+   },
+   {
+    "x": 457,
+    "y": 749,
+    "w": 90,
+    "h": 20
+   },
+   {
+    "x": 593,
+    "y": 749,
+    "w": 108,
+    "h": 20
+   },
+   {
+    "x": 747,
+    "y": 749,
+    "w": 67,
+    "h": 20
+   },
+   {
+    "x": 860,
+    "y": 749,
+    "w": 155,
+    "h": 20
+   },
+   {
+    "x": 1060,
+    "y": 749,
+    "w": 142,
+    "h": 20
+   },
+   {
+    "x": 151,
+    "y": 827,
+    "w": 171,
+    "h": 44
+   },
+   {
+    "x": 151,
+    "y": 935,
+    "w": 465,
+    "h": 38
+   },
+   {
+    "x": 151,
+    "y": 979,
+    "w": 509,
+    "h": 38
+   },
+   {
+    "x": 151,
+    "y": 1023,
+    "w": 175,
+    "h": 38
+   },
+   {
+    "x": 151,
+    "y": 1124,
+    "w": 514,
+    "h": 23
+   },
+   {
+    "x": 151,
+    "y": 1156,
+    "w": 468,
+    "h": 23
+   },
+   {
+    "x": 151,
+    "y": 1188,
+    "w": 506,
+    "h": 23
+   },
+   {
+    "x": 151,
+    "y": 1220,
+    "w": 508,
+    "h": 23
+   },
+   {
+    "x": 151,
+    "y": 1252,
+    "w": 514,
+    "h": 23
+   },
+   {
+    "x": 151,
+    "y": 1284,
+    "w": 488,
+    "h": 23
+   },
+   {
+    "x": 151,
+    "y": 1387,
+    "w": 104,
+    "h": 23
+   },
+   {
+    "x": 151,
+    "y": 1415,
+    "w": 68,
+    "h": 23
+   },
+   {
+    "x": 219,
+    "y": 1415,
+    "w": 16,
+    "h": 23
+   },
+   {
+    "x": 235,
+    "y": 1415,
+    "w": 60,
+    "h": 23
+   },
+   {
+    "x": 294,
+    "y": 1415,
+    "w": 16,
+    "h": 23
+   },
+   {
+    "x": 310,
+    "y": 1415,
+    "w": 97,
+    "h": 23
+   },
+   {
+    "x": 407,
+    "y": 1415,
+    "w": 16,
+    "h": 23
+   },
+   {
+    "x": 422,
+    "y": 1415,
+    "w": 98,
+    "h": 23
+   },
+   {
+    "x": 151,
+    "y": 1522,
+    "w": 174,
+    "h": 39
+   },
+   {
+    "x": 151,
+    "y": 1625,
+    "w": 1078,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 1658,
+    "w": 1040,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 1722,
+    "w": 1105,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 1755,
+    "w": 272,
+    "h": 24
+   },
+   {
+    "x": 76,
+    "y": 2107,
+    "w": 329,
+    "h": 39
+   },
+   {
+    "x": 783,
+    "y": 1920,
+    "w": 570,
+    "h": 25
+   },
+   {
+    "x": 783,
+    "y": 1954,
+    "w": 547,
+    "h": 25
+   },
+   {
+    "x": 783,
+    "y": 1988,
+    "w": 573,
+    "h": 25
+   },
+   {
+    "x": 783,
+    "y": 2021,
+    "w": 581,
+    "h": 25
+   },
+   {
+    "x": 783,
+    "y": 2055,
+    "w": 451,
+    "h": 25
+   },
+   {
+    "x": 779,
+    "y": 2144,
+    "w": 97,
+    "h": 24
+   },
+   {
+    "x": 63,
+    "y": 2291,
+    "w": 577,
+    "h": 25
+   },
+   {
+    "x": 63,
+    "y": 2325,
+    "w": 575,
+    "h": 25
+   },
+   {
+    "x": 63,
+    "y": 2359,
+    "w": 341,
+    "h": 25
+   },
+   {
+    "x": 59,
+    "y": 2481,
+    "w": 97,
+    "h": 24
+   },
+   {
+    "x": 796,
+    "y": 2445,
+    "w": 251,
+    "h": 39
+   },
+   {
+    "x": 76,
+    "y": 2782,
+    "w": 298,
+    "h": 39
+   },
+   {
+    "x": 783,
+    "y": 2638,
+    "w": 85,
+    "h": 25
+   },
+   {
+    "x": 783,
+    "y": 2687,
+    "w": 217,
+    "h": 25
+   },
+   {
+    "x": 779,
+    "y": 2819,
+    "w": 97,
+    "h": 24
+   },
+   {
+    "x": 63,
+    "y": 2966,
+    "w": 358,
+    "h": 25
+   },
+   {
+    "x": 421,
+    "y": 2966,
+    "w": 110,
+    "h": 25
+   },
+   {
+    "x": 63,
+    "y": 3000,
+    "w": 98,
+    "h": 25
+   },
+   {
+    "x": 162,
+    "y": 3000,
+    "w": 435,
+    "h": 25
+   },
+   {
+    "x": 63,
+    "y": 3034,
+    "w": 165,
+    "h": 25
+   },
+   {
+    "x": 59,
+    "y": 3156,
+    "w": 97,
+    "h": 24
+   },
+   {
+    "x": 796,
+    "y": 3120,
+    "w": 504,
+    "h": 39
+   },
+   {
+    "x": 151,
+    "y": 3250,
+    "w": 342,
+    "h": 39
+   },
+   {
+    "x": 151,
+    "y": 3798,
+    "w": 1129,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 3831,
+    "w": 1122,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 3864,
+    "w": 1137,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 3897,
+    "w": 1117,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 3930,
+    "w": 1128,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 3963,
+    "w": 552,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4035,
+    "w": 1091,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4068,
+    "w": 1077,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4101,
+    "w": 1107,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4134,
+    "w": 1044,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4167,
+    "w": 1120,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4200,
+    "w": 306,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4264,
+    "w": 1131,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4297,
+    "w": 1083,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4330,
+    "w": 484,
+    "h": 24
+   },
+   {
+    "x": 136,
+    "y": 4795,
+    "w": 1167,
+    "h": 20
+   },
+   {
+    "x": 151,
+    "y": 4879,
+    "w": 1072,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4912,
+    "w": 1074,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4945,
+    "w": 1120,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4978,
+    "w": 1068,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5011,
+    "w": 1130,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5044,
+    "w": 726,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5109,
+    "w": 1072,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5142,
+    "w": 1135,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5175,
+    "w": 1114,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5208,
+    "w": 1068,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5241,
+    "w": 1109,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5274,
+    "w": 1114,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5307,
+    "w": 1136,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5340,
+    "w": 1059,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5373,
+    "w": 1122,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5406,
+    "w": 1109,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5439,
+    "w": 495,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5518,
+    "w": 1104,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5551,
+    "w": 1128,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5584,
+    "w": 1106,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5617,
+    "w": 700,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5682,
+    "w": 1109,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5715,
+    "w": 1048,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5827,
+    "w": 261,
+    "h": 39
+   },
+   {
+    "x": 151,
+    "y": 5908,
+    "w": 619,
+    "h": 30
+   },
+   {
+    "x": 151,
+    "y": 5948,
+    "w": 612,
+    "h": 30
+   },
+   {
+    "x": 151,
+    "y": 5988,
+    "w": 654,
+    "h": 30
+   },
+   {
+    "x": 151,
+    "y": 6028,
+    "w": 48,
+    "h": 30
+   },
+   {
+    "x": 654,
+    "y": 6083,
+    "w": 182,
+    "h": 24
+   },
+   {
+    "x": 654,
+    "y": 6116,
+    "w": 148,
+    "h": 24
+   },
+   {
+    "x": 654,
+    "y": 6149,
+    "w": 165,
+    "h": 24
+   },
+   {
+    "x": 654,
+    "y": 6182,
+    "w": 135,
+    "h": 24
+   },
+   {
+    "x": 654,
+    "y": 6215,
+    "w": 186,
+    "h": 24
+   },
+   {
+    "x": 654,
+    "y": 6248,
+    "w": 146,
+    "h": 24
+   },
+   {
+    "x": 654,
+    "y": 6281,
+    "w": 169,
+    "h": 24
+   },
+   {
+    "x": 654,
+    "y": 6314,
+    "w": 167,
+    "h": 24
+   },
+   {
+    "x": 654,
+    "y": 6347,
+    "w": 624,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 6380,
+    "w": 1089,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 6413,
+    "w": 1114,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 6485,
+    "w": 1086,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 6518,
+    "w": 1103,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 6551,
+    "w": 1080,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 6584,
+    "w": 1111,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 6617,
+    "w": 1130,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 6650,
+    "w": 152,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 6714,
+    "w": 1131,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 6747,
+    "w": 1122,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 6780,
+    "w": 1113,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 6813,
+    "w": 1093,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 6846,
+    "w": 1091,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 6879,
+    "w": 968,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 6944,
+    "w": 1079,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 6977,
+    "w": 1117,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 7010,
+    "w": 1102,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 7043,
+    "w": 1121,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 7076,
+    "w": 318,
+    "h": 24
+   },
+   {
+    "x": 48,
+    "y": 7195,
+    "w": 99,
+    "h": 24
+   },
+   {
+    "x": 898,
+    "y": 7195,
+    "w": 124,
+    "h": 24
+   },
+   {
+    "x": 48,
+    "y": 7267,
+    "w": 156,
+    "h": 24
+   },
+   {
+    "x": 683,
+    "y": 7267,
+    "w": 554,
+    "h": 24
+   },
+   {
+    "x": 48,
+    "y": 7339,
+    "w": 239,
+    "h": 24
+   },
+   {
+    "x": 687,
+    "y": 7339,
+    "w": 546,
+    "h": 24
+   },
+   {
+    "x": 48,
+    "y": 7411,
+    "w": 129,
+    "h": 24
+   },
+   {
+    "x": 773,
+    "y": 7411,
+    "w": 374,
+    "h": 24
+   },
+   {
+    "x": 48,
+    "y": 7483,
+    "w": 27,
+    "h": 24
+   },
+   {
+    "x": 889,
+    "y": 7483,
+    "w": 142,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 7604,
+    "w": 310,
+    "h": 39
+   },
+   {
+    "x": 151,
+    "y": 7707,
+    "w": 80,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 7772,
+    "w": 336,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 7836,
+    "w": 203,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 7900,
+    "w": 664,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 8013,
+    "w": 525,
+    "h": 39
+   },
+   {
+    "x": 151,
+    "y": 8116,
+    "w": 357,
+    "h": 24
+   },
+   {
+    "x": 508,
+    "y": 8116,
+    "w": 222,
+    "h": 24
+   },
+   {
+    "x": 730,
+    "y": 8116,
+    "w": 556,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 8180,
+    "w": 1066,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 8213,
+    "w": 1072,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 8246,
+    "w": 1132,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 8279,
+    "w": 1109,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 8312,
+    "w": 1122,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 8345,
+    "w": 376,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 8417,
+    "w": 192,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 8482,
+    "w": 121,
+    "h": 24
+   },
+   {
+    "x": 272,
+    "y": 8482,
+    "w": 249,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 8546,
+    "w": 122,
+    "h": 24
+   },
+   {
+    "x": 273,
+    "y": 8546,
+    "w": 196,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 8610,
+    "w": 148,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 8675,
+    "w": 129,
+    "h": 24
+   },
+   {
+    "x": 280,
+    "y": 8675,
+    "w": 208,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 8739,
+    "w": 135,
+    "h": 24
+   },
+   {
+    "x": 286,
+    "y": 8739,
+    "w": 117,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 8803,
+    "w": 147,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 8868,
+    "w": 244,
+    "h": 24
+   },
+   {
+    "x": 395,
+    "y": 8868,
+    "w": 58,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 8932,
+    "w": 137,
+    "h": 24
+   },
+   {
+    "x": 289,
+    "y": 8932,
+    "w": 337,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 8996,
+    "w": 147,
+    "h": 24
+   },
+   {
+    "x": 298,
+    "y": 8996,
+    "w": 196,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 9061,
+    "w": 181,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 9125,
+    "w": 207,
+    "h": 24
+   },
+   {
+    "x": 358,
+    "y": 9125,
+    "w": 416,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 9189,
+    "w": 195,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 9254,
+    "w": 156,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 9318,
+    "w": 193,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 9382,
+    "w": 144,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 9447,
+    "w": 182,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 9511,
+    "w": 116,
+    "h": 24
+   },
+   {
+    "x": 267,
+    "y": 9511,
+    "w": 337,
+    "h": 24
+   },
+   {
+    "x": 108,
+    "y": 9582,
+    "w": 30,
+    "h": 18
+   },
+   {
+    "x": 139,
+    "y": 9582,
+    "w": 51,
+    "h": 18
+   },
+   {
+    "x": 190,
+    "y": 9582,
+    "w": 32,
+    "h": 18
+   },
+   {
+    "x": 464,
+    "y": 9582,
+    "w": 45,
+    "h": 18
+   },
+   {
+    "x": 513,
+    "y": 9582,
+    "w": 24,
+    "h": 18
+   },
+   {
+    "x": 537,
+    "y": 9582,
+    "w": 68,
+    "h": 18
+   },
+   {
+    "x": 609,
+    "y": 9582,
+    "w": 24,
+    "h": 18
+   },
+   {
+    "x": 633,
+    "y": 9582,
+    "w": 151,
+    "h": 18
+   },
+   {
+    "x": 788,
+    "y": 9582,
+    "w": 23,
+    "h": 18
+   },
+   {
+    "x": 811,
+    "y": 9582,
+    "w": 146,
+    "h": 18
+   },
+   {
+    "x": 961,
+    "y": 9582,
+    "w": 23,
+    "h": 18
+   },
+   {
+    "x": 984,
+    "y": 9582,
+    "w": 124,
+    "h": 18
+   },
+   {
+    "x": 1112,
+    "y": 9582,
+    "w": 24,
+    "h": 18
+   },
+   {
+    "x": 1136,
+    "y": 9582,
+    "w": 170,
+    "h": 18
+   }
+  ]
+ }
+}

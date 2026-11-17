@@ -1,0 +1,610 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-11-13T11:30:19.931Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "mirror-m2m3",
+  "url": "https://elt.eso.org/mirror/M2M3/",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-11-13T11:30:19.931Z",
+  "finalUrl": "https://elt.eso.org/mirror/M2M3/",
+  "title": "M2 and M3 Mirrors | ELT | ESO",
+  "description": "The Extremely Large Telescope: The World's Biggest Eye On The Sky",
+  "og": {
+    "title": "M2 and M3 Mirrors | ELT | ESO",
+    "description": "The Extremely Large Telescope: The World's Biggest Eye On The Sky",
+    "image": "http://cdn.eso.org/images/screen/header-frontpage.jpg",
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Our use of Cookies"
+    },
+    {
+      "tag": "h1",
+      "text": "ESO Cookies Policy"
+    },
+    {
+      "tag": "h2",
+      "text": "What are cookies?"
+    },
+    {
+      "tag": "h2",
+      "text": "Categories of cookies we use"
+    },
+    {
+      "tag": "h2",
+      "text": "How to manage cookies"
+    },
+    {
+      "tag": "h2",
+      "text": "Updates to the ESO Cookies Policy"
+    },
+    {
+      "tag": "h2",
+      "text": "Additional information"
+    }
+  ],
+  "body": [
+    "Choose your language English Español",
+    "search Search",
+    "EuropeanSouthernObservatory",
+    "ELT HOME",
+    "ABOUT About the ELT Timeline Location Webcams Facts Road to the ELT Meet the Team Working Groups Industrial and Institutional Partners FAQ",
+    "TELESCOPE Telescope Overview Dome Main Structure Mirrors Mirrors Overview M1 M2M3 M4 M5 Adaptive Optics Prefocal Station Controls Operations",
+    "INSTRUMENTS Instruments Overview HARMONI MICADO MORFEO METIS ANDES MOSAIC",
+    "SCIENCE Science Overview Solar System Exoplanets Stars Black Holes Galaxies Cosmology and Dark Matter Fundamental Physics Unexpected Discoveries",
+    "NEWS & MULTIMEDIA",
+    "SUCCESS STORIES",
+    "Perfecting image quality",
+    "The ELT's secondary mirror is the largest convex mirror ever produced. It will reflect light collected by M1 to the tertiary mirror M3, a concave mirror similar in size to M2. The three curved mirrors will allow the ELT to deliver a better image quality over a larger field of view than would be possible otherwise.",
+    "Most large telescopes, including ESO’s Very Large Telescope (VLT) and the NASA/ESA Hubble Space Telescope, use just two curved mirrors to form an image. The ELT has three. Its secondary mirror (M2), will hang above the spectacular 39-metre main mirror, M1, reflecting the light collected by it to the tertiary mirror M3.",
+    "This image shows a rendering of the M2 mirror. Credit: ESO (L. Calçada)/SENER",
+    "This image shows a rendering of the M3 mirror. Credit: ESO (L. Calçada)/SENER",
+    "The ELT’s M2 mirror, with its 4.25-metre diameter, will, like many aspects of the ELT, set another record in the astronomical landscape. M2 will be the largest optical secondary mirror ever used on a telescope — it will be as big as the primary mirrors of many of today’s world-class telescopes. There is also the added challenge that M2 will hang upside-down over the ELT’s main mirror, about 60 m above the ground, held in mid-air by its support structure (called the M2 cell) and anchored to the telescope main structure. The M3 mirror is similarly large and complex, with its 4-metre diameter. The mirrors alone weigh more than 3 tonnes each; with the cell and structure included, the overall weight of each assembly is about 12 tonnes.",
+    "Both blanks of M2 and M3 are produced by the German company SCHOTT and are made of a special glass-ceramic material called ZERODUR®. Thanks to the unique properties of this material, the form and the shape of the mirrors will not change significantly with temperature during observations. This material is also extremely resistant; it can be polished to incredible precision and has been used in telescope mirrors for decades.",
+    "This image shows some of the people behind the scenes at the technical acceptance of the massive 3-ton blank for the ELT's secondary mirror. Credit: SCHOTT",
+    "The manufacturing of the M2 and M3 mirrors is a great example of the strong collaboration between ESO and European industries. The production of the blanks is being carried out by SCHOTT in Germany, the final polishing of the surface by the French company Safran Reosc, and the cells to hold the mirrors will be made by the Spanish company SENER.",
+    "Please check the News & Multimedia section for recent news, images and videos on the M2 and M3 mirrors.",
+    "ELT M2 Mirror Blank, ready for figuring",
+    "M2 Mirror Blank casting",
+    "M2 Mirror Blank inspection after annealing at Schott",
+    "The M2 mirror is a convex 4.25-metre F/1.1 thin meniscus, about 100 mm thick, with an 800-mm central hole. Its optical surface shape is very aspheric, with a departure from a sphere that is close to 2 mm. The size, convexity, aperture ratio and asphericity make this mirror extremely difficult to polish and test.",
+    "Main characteristics of the M2 and M3 mirrors",
+    "M2",
+    "M3",
+    "Mechanical diameter, outer",
+    "4250 mm",
+    "4000 mm",
+    "Mechanical diameter, inner",
+    "800 mm",
+    "30 mm",
+    "Material",
+    "Zerodur®",
+    "Zerodur®",
+    "Mass (incl. mounting interfaces)",
+    "3533 kg",
+    "3258 kg",
+    "Radius of curvature",
+    "RM2 = 8810 ± 5 mm (convex f/1.1)",
+    "RM3 = 21089.53 ± 10 mm (concave f/2.6)",
+    "Aspheric coefficients",
+    "kM2 = -2.208857 α4 = -5.198196x10-16",
+    "kM3 = 0 α4= – 8.272163 × 10-15 α6 = – 8.925957 × 10-24",
+    "Aspheric departure",
+    "1.8 mm",
+    "33 microns",
+    "The M3 mirror is a concave 4.0-metre F/2.6 thin meniscus, about 100 mm thick, with a 30-mm central hole. Its optical surface shape is mildly aspheric, with a departure from a sphere of only about 30 µm. Besides its 4-metre size, the M3 mirror is easier to manufacture and test compared to the M2, and the required M3 mirror production and metrology processes are more common. The M2 and M3 mirror blanks (i.e., the “glass” made by SCHOTT) require sophisticated production methods and processes. After an initial raw material casting in a cylindrical mould, each blank is carefully cooled down and annealed for about three months, so as to maximise the material’s homogeneity, and minimise the internal stresses and the number of bubbles and inclusions. The resulting glassy boule then undergoes a six-month heat treatment to transform the material into glass-ceramic and adjust the near-zero coefficient of thermal expansion to a few parts per billion accuracy. Each blank is then machined to its final geometry, and acid etched to remove residual subsurface damage and maximise the mirror strength.",
+    "The blanks are then transported to Safran Reosc for figuring and polishing, in the same facilities where the 8-metre VLT primary mirrors were polished in the 1990s. These facilities have been refurbished to accommodate the specific requirements of figuring and testing M2 and M3. Each blank follows the same finishing process: adhesive bonding of the invar interface pads, and then a series of steps to achieve the final surface quality; grinding and fine grinding to an accuracy of a few µm, followed by polishing and figuring to an accuracy of a few nm — about 20 000 times thinner than a human hair. Both the grinding and polishing processes rely on a combination of small tool figure correction and mid-size tool smoothing on a dedicated 4-metre figuring machine. At the grinding stage the mirror figure is monitored using a 4-metre 3D coordinate measurement machine (3D CMM).",
+    "Interferometry testing through null correctors has been developed for polishing, using a giant Fizeau Test Matrix for M2 and computer-generated holograms (CGH) for M3. Both mirrors are supported on dedicated active metrology mounts during figuring to accurately match the force distribution in the mirror cells’ support. Each mirror requires about two years for figuring and polishing, not including the time needed to upgrade the facilities, the production of testing equipment and commissioning.",
+    "Both M2 and M3 mirrors are hosted on the telescope in dedicated cells, which provide shape adjustment capability to compensate static errors to some extent and position control for locating the mirrors within the telescope. The overall weight of each assembly (mirror and cell) is about 12 tonnes and the requirements to position such a massive structure are extremely challenging — despite the weight, the requisite accuracy of the positioning stage is on the order of just 0.1 mm.",
+    "The cells for M2 and M3 have similar design concepts. Each mirror is axially supported on its back surface with an 18-point whiffletree, and laterally at 14 points on the mirror’s outer edge. As the M3 mirror is away from any pupil, the active correction of this mirror is mandatory. On the other hand, low-order deformations of the M2 mirror have very limited error propagation in the field, so the active shaping of M2 is implemented as a provision only.",
+    "Each mirror is connected via the axial and lateral supports to a common frame: the cell structure. Safety restrainers are connected to this structure to limit the mirror displacement and stress in case of earthquake and prevent the mirror from falling in case of catastrophic event, such as total failure of the mirror fixation interface.",
+    "In order to align the M2 mirror with respect to the rest of the optics, the whole assembly will be moved relative to the telescope structure using six position actuators (hexapods). Three actuators are oriented along the mirror optical axis, the three others are located within the plane of the centre of gravity. It is worth noting that the relative accuracy of this hexapod, which will move every few minutes, is in the sub-µm range, which presents a real challenge.",
+    "We use cookies that are essential for accessing our websites and using our services. We also use cookies to analyse, measure and improve our websites’ performance, to enable content sharing via social media and to display media content hosted on third-party platforms.",
+    "The European Organisation for Astronomical Research in the Southern Hemisphere (ESO) is the pre-eminent intergovernmental science and technology organisation in astronomy. It carries out an ambitious programme focused on the design, construction and operation of powerful ground-based observing facilities for astronomy.",
+    "This Cookies Policy is intended to provide clarity by outlining the cookies used on the ESO public websites, their functions, the options you have for controlling them, and the ways you can contact us for additional details.",
+    "Cookies are small pieces of data stored on your device by websites you visit. They serve various purposes, such as remembering login credentials and preferences and enhance your browsing experience.",
+    "Essential cookies (always active): These cookies are strictly necessary for the proper functioning of our website. Without these cookies, the website cannot operate correctly, and certain services, such as logging in or accessing secure areas, may not be available; because they are essential for the website’s operation, they cannot be disabled.",
+    "Functional Cookies: These cookies enhance your browsing experience by enabling additional features and personalization, such as remembering your preferences and settings. While not strictly necessary for the website to function, they improve usability and convenience; these cookies are only placed if you provide your consent.",
+    "Analytics cookies: These cookies collect information about how visitors interact with our website, such as which pages are visited most often and how users navigate the site. This data helps us improve website performance, optimize content, and enhance the user experience; these cookies are only placed if you provide your consent. We use the following analytics cookies.",
+    "Matomo Cookies:",
+    "This website uses Matomo (formerly Piwik), an open source software which enables the statistical analysis of website visits. Matomo uses cookies (text files) which are saved on your computer and which allow us to analyze how you use our website. The website user information generated by the cookies will only be saved on the servers of our IT Department. We use this information to analyze www.eso.org visits and to prepare reports on website activities. These data will not be disclosed to third parties.",
+    "On behalf of ESO, Matomo will use this information for the purpose of evaluating your use of the website, compiling reports on website activity and providing other services relating to website activity and internet usage.",
+    "Matomo cookies settings:",
+    "Additional Third-party cookies on ESO websites: some of our pages display content from external providers, e.g. YouTube.",
+    "Such third-party services are outside of ESO control and may, at any time, change their terms of service, use of cookies, etc.",
+    "YouTube: Some videos on the ESO website are embedded from ESO’s official YouTube channel. We have enabled YouTube’s privacy-enhanced mode, meaning that no cookies are set unless the user actively clicks on the video to play it. Additionally, in this mode, YouTube does not store any personally identifiable cookie data for embedded video playbacks. For more details, please refer to YouTube’s embedding videos information page.",
+    "Cookies can also be classified based on the following elements.",
+    "Regarding the domain, there are:",
+    "First-party cookies, set by the website you are currently visiting. They are stored by the same domain that you are browsing and are used to enhance your experience on that site;",
+    "Third-party cookies, set by a domain other than the one you are currently visiting.",
+    "As for their duration, cookies can be:",
+    "Browser-session cookies, which are deleted when the user closes the browser;",
+    "Stored cookies, which stay on the user's device for a predetermined period of time.",
+    "Cookie settings: You can modify your cookie choices for the ESO webpages at any time by clicking on the link Cookie settings at the bottom of any page.",
+    "In your browser: If you wish to delete cookies or instruct your browser to delete or block cookies by default, please visit the help pages of your browser:",
+    "Brave",
+    "Chrome",
+    "Edge",
+    "Firefox",
+    "Safari",
+    "Please be aware that if you delete or decline cookies, certain functionalities of our website may be not be available and your browsing experience may be affected.",
+    "You can set most browsers to prevent any cookies being placed on your device, but you may then have to manually adjust some preferences every time you visit a site/page. And some services and functionalities may not work properly at all (e.g. profile logging-in, shop check out).",
+    "The ESO Cookies Policy may be subject to future updates, which will be made available on this page.",
+    "For any queries related to cookies, please contact: pdprATesoDOTorg.",
+    "As ESO public webpages are managed by our Department of Communication, your questions will be dealt with the support of the said Department."
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "search",
+      "href": "#"
+    },
+    {
+      "label": "ELT HOME",
+      "href": "/"
+    },
+    {
+      "label": "ABOUT",
+      "href": "/about/"
+    },
+    {
+      "label": "TELESCOPE",
+      "href": "/telescope/"
+    },
+    {
+      "label": "INSTRUMENTS",
+      "href": "/instrument/"
+    },
+    {
+      "label": "SCIENCE",
+      "href": "/science/"
+    },
+    {
+      "label": "NEWS & MULTIMEDIA",
+      "href": "/media/"
+    },
+    {
+      "label": "SUCCESS STORIES",
+      "href": "/success/buildingon/"
+    },
+    {
+      "label": "Technical details",
+      "href": "#techdetails"
+    },
+    {
+      "label": "News & Multimedia section",
+      "href": "/media/"
+    },
+    {
+      "label": "ESO",
+      "href": "https:///www.eso.org/"
+    },
+    {
+      "label": "Credits",
+      "href": "/credits/"
+    },
+    {
+      "label": "Contact us",
+      "href": "mailto:information@eso.org"
+    },
+    {
+      "label": "Subscribe to ESO news",
+      "href": "https://www.eso.org/public/outreach/newsletters/"
+    },
+    {
+      "label": "Accelerated by CDN77",
+      "href": "https://www.cdn77.com/"
+    },
+    {
+      "label": "Terms & Conditions",
+      "href": "https://www.eso.org/public/about-eso/privacy/"
+    },
+    {
+      "label": "Cookie Settings and Policy",
+      "href": "#"
+    },
+    {
+      "label": "Accept All",
+      "href": null
+    },
+    {
+      "label": "Accept Only Essential Cookies",
+      "href": null
+    },
+    {
+      "label": "Cookie Settings and Policy",
+      "href": null
+    },
+    {
+      "label": "YouTube",
+      "href": "https://www.youtube.com/t/terms"
+    },
+    {
+      "label": "ESO’s official YouTube channel",
+      "href": "https://www.youtube.com/channel/UCIhYoC2VIAJqCkoIWNHBQ3Q"
+    },
+    {
+      "label": "embedding videos information page",
+      "href": "https://support.google.com/youtube/answer/171780?hl=en-GB"
+    },
+    {
+      "label": "Brave",
+      "href": "https://support.brave.com/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.brave.com%2Fhc%2Fen-us%2Farticles%2F360050634931-How-Do-I-Manage-Cookies-In-Brave"
+    },
+    {
+      "label": "Chrome",
+      "href": "https://support.google.com/chrome/bin/answer.py?hl=en&answer=95647&p=cpn_cookies"
+    },
+    {
+      "label": "Edge",
+      "href": "https://support.microsoft.com/en-us/windows/manage-cookies-in-microsoft-edge-view-allow-block-delete-and-use-168dab11-0753-043d-7c16-ede5947fc64d"
+    },
+    {
+      "label": "Firefox",
+      "href": "https://support.mozilla.org/en-US/kb/Blocking cookies"
+    },
+    {
+      "label": "Safari",
+      "href": "https://docs.info.apple.com/article.html?path=Safari/3.0/en/9277.html"
+    },
+    {
+      "label": "Save",
+      "href": null
+    },
+    {
+      "label": "Cancel",
+      "href": null
+    }
+  ],
+  "links": [
+    "https://www.eso.org/",
+    "https://elt.eso.org/mirror/M2M3/?lang",
+    "https://elt.eso.org/chile/mirror/M2M3/?lang",
+    "https://facebook.com/ESOAstronomy",
+    "https://www.instagram.com/esoastronomy/",
+    "https://www.linkedin.com/company/european-southern-observatory",
+    "https://www.youtube.com/channel/UCIhYoC2VIAJqCkoIWNHBQ3Q",
+    "https://elt.eso.org/",
+    "https://elt.eso.org/about/",
+    "https://elt.eso.org/about/timeline/",
+    "https://elt.eso.org/about/location/",
+    "https://elt.eso.org/about/webcams/",
+    "https://elt.eso.org/about/facts/",
+    "https://elt.eso.org/about/road/",
+    "https://elt.eso.org/about/team/",
+    "https://elt.eso.org/about/workinggroups/",
+    "https://elt.eso.org/about/industrial/",
+    "https://elt.eso.org/about/faq/",
+    "https://elt.eso.org/telescope/",
+    "https://elt.eso.org/telescope/dome/",
+    "https://elt.eso.org/telescope/structure/",
+    "https://elt.eso.org/mirror/",
+    "https://elt.eso.org/mirror/M1/",
+    "https://elt.eso.org/mirror/M2M3/",
+    "https://elt.eso.org/mirror/M4/",
+    "https://elt.eso.org/mirror/M5/",
+    "https://elt.eso.org/telescope/adaptiveoptics/",
+    "https://elt.eso.org/telescope/prefocal/",
+    "https://elt.eso.org/telescope/controls/",
+    "https://elt.eso.org/telescope/operations/",
+    "https://elt.eso.org/instrument/",
+    "https://elt.eso.org/instrument/HARMONI/",
+    "https://elt.eso.org/instrument/MICADO/",
+    "https://elt.eso.org/instrument/MORFEO/",
+    "https://elt.eso.org/instrument/METIS/",
+    "https://elt.eso.org/instrument/ANDES/",
+    "https://elt.eso.org/instrument/MOSAIC/",
+    "https://elt.eso.org/science/",
+    "https://elt.eso.org/science/solarsystem/",
+    "https://elt.eso.org/science/exoplanets/",
+    "https://elt.eso.org/science/stars/",
+    "https://elt.eso.org/science/blackholes/",
+    "https://elt.eso.org/science/galaxies/",
+    "https://elt.eso.org/science/cosmodm/",
+    "https://elt.eso.org/science/fundamentalphysics/",
+    "https://elt.eso.org/science/discoveries/",
+    "https://elt.eso.org/media/",
+    "https://elt.eso.org/success/buildingon/",
+    "https://elt.eso.org/mirror/M2M3/#",
+    "https://elt.eso.org/mirror/M2M3/#techdetails",
+    "https://www.facebook.com/sharer/sharer.php?u=https://elt.eso.org/mirror/M2M3/",
+    "https://www.linkedin.com/sharing/share-offsite/?url=https://elt.eso.org/mirror/M2M3/",
+    "https://www.eso.org/public/images/ELT-M2-Render-CC/",
+    "https://www.eso.org/public/images/M3-render1-big-cc/",
+    "https://www.eso.org/public/images/ann19003b/",
+    "https://www.eso.org/public/images/ann19003a/",
+    "https://www.eso.org/public/images/mirrors-m2m3-image2/",
+    "https://www.eso.org/public/images/mirrors-m2m3-image3/",
+    "https://www.eso.org/public/images/ann19003d/",
+    "https://www.eso.org/public/images/ann20003a/",
+    "https://elt.eso.org/credits/",
+    "mailto:information@eso.org",
+    "https://www.eso.org/public/outreach/newsletters/",
+    "https://www.cdn77.com/",
+    "https://www.eso.org/public/about-eso/privacy/",
+    "https://www.youtube.com/t/terms",
+    "https://support.google.com/youtube/answer/171780?hl=en-GB",
+    "https://support.brave.com/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.brave.com%2Fhc%2Fen-us%2Farticles%2F360050634931-How-Do-I-Manage-Cookies-In-Brave",
+    "https://support.google.com/chrome/bin/answer.py?hl=en&answer=95647&p=cpn_cookies",
+    "https://support.microsoft.com/en-us/windows/manage-cookies-in-microsoft-edge-view-allow-block-delete-and-use-168dab11-0753-043d-7c16-ede5947fc64d",
+    "https://support.mozilla.org/en-US/kb/Blocking%20cookies",
+    "https://docs.info.apple.com/article.html?path=Safari/3.0/en/9277.html"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/eso_logo.jpg",
+        "alt": "",
+        "w": 100,
+        "h": 130
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_topbar_mobile_1.png",
+        "alt": "ESO on Facebook",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_topbar_mobile_3.png",
+        "alt": "ESO on Instagram",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_topbar_mobile_4.png",
+        "alt": "ESO on LinkedIn",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_topbar_mobile_5.png",
+        "alt": "ESO on YouTube",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_topbar_mobile_1.png",
+        "alt": "ESO on Facebook",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_topbar_mobile_3.png",
+        "alt": "ESO on Instagram",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_topbar_mobile_4.png",
+        "alt": "ESO on LinkedIn",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_topbar_mobile_5.png",
+        "alt": "ESO on YouTube",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://cdn.eso.org/images/banner1920/header-mirrors.jpg",
+        "alt": "",
+        "w": 1920,
+        "h": 900
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/eso_logo_transparent.png",
+        "alt": "",
+        "w": 981,
+        "h": 1279
+      },
+      {
+        "src": "https://cdn.eso.org/images/banner1920/subheader-mirrors-m2m3.jpg",
+        "alt": "",
+        "w": 1920,
+        "h": 900
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_share_1.png",
+        "alt": "Share on Facebook",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_share_3.png",
+        "alt": "",
+        "w": 36,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_share_1.png",
+        "alt": "Share on Facebook",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_share_5.png",
+        "alt": "E-Mail",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_share_6.png",
+        "alt": "Copy link",
+        "w": 36,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_share_4.png",
+        "alt": "Share on LinkedIn",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://cdn.eso.org/images/wallpaper3/ELT-M2-Render-CC.jpg",
+        "alt": "",
+        "w": 1600,
+        "h": 1200
+      },
+      {
+        "src": "https://cdn.eso.org/images/wallpaper3/M3-render1-big-cc.jpg",
+        "alt": "",
+        "w": 1600,
+        "h": 1200
+      },
+      {
+        "src": "https://cdn.eso.org/images/banner1920/ann19003b.jpg",
+        "alt": "",
+        "w": 1920,
+        "h": 900
+      },
+      {
+        "src": "https://cdn.eso.org/images/wallpaper3/mirrors-m2m3-image1.jpg",
+        "alt": "",
+        "w": 1600,
+        "h": 1200
+      },
+      {
+        "src": "https://cdn.eso.org/images/wallpaper3/mirrors-m2m3-image2.jpg",
+        "alt": "",
+        "w": 1600,
+        "h": 1200
+      },
+      {
+        "src": "https://cdn.eso.org/images/wallpaper3/mirrors-m2m3-image3.jpg",
+        "alt": "",
+        "w": 1600,
+        "h": 1200
+      },
+      {
+        "src": "https://cdn.eso.org/images/screen/ann19003d.jpg",
+        "alt": "",
+        "w": 1280,
+        "h": 853
+      },
+      {
+        "src": "https://cdn.eso.org/images/screen/ann19003d.jpg",
+        "alt": "",
+        "w": 1280,
+        "h": 853
+      },
+      {
+        "src": "https://cdn.eso.org/images/screen/ann20003a.jpg",
+        "alt": "",
+        "w": 1280,
+        "h": 853
+      },
+      {
+        "src": "https://cdn.eso.org/images/screen/ann20003a.jpg",
+        "alt": "",
+        "w": 1280,
+        "h": 853
+      }
+    ],
+    "allImgCount": 28,
+    "cssBackgrounds": [],
+    "modals": [],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {
+    "--blue": "#007bff",
+    "--indigo": "#6610f2",
+    "--purple": "#6f42c1",
+    "--pink": "#e83e8c",
+    "--red": "#dc3545",
+    "--orange": "rgb(232, 133, 38)",
+    "--yellow": "#ffc107",
+    "--green": "#28a745",
+    "--teal": "#20c997",
+    "--cyan": "#17a2b8",
+    "--white": "#fff",
+    "--gray": "#6c757d",
+    "--gray-dark": "#343a40",
+    "--primary": "#007bff",
+    "--secondary": "#6c757d",
+    "--success": "#28a745",
+    "--info": "#17a2b8",
+    "--warning": "#ffc107",
+    "--danger": "#dc3545",
+    "--light": "#f8f9fa",
+    "--dark": "#343a40",
+    "--breakpoint-xxxs": "0",
+    "--breakpoint-xxs": "320px",
+    "--breakpoint-xs": "480px",
+    "--breakpoint-sm": "576px",
+    "--breakpoint-md": "768px",
+    "--breakpoint-lg": "992px",
+    "--breakpoint-xl": "1200px",
+    "--breakpoint-xxl": "1440px",
+    "--breakpoint-xxxl": "1680px",
+    "--breakpoint-xxxxl": "1920px",
+    "--font-family-sans-serif": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+    "--font-family-monospace": "SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+    "--swiper-theme-color": "#007aff",
+    "--swiper-navigation-size": "44px",
+    "--esoblue": "rgb(0, 119, 190)",
+    "--esoblueshade": "rgba(0, 119, 190, 0.1)",
+    "--esobluelightshade": "rgba(0, 119, 190, 0.4)",
+    "--headerblue": "rgb(45, 164, 245)",
+    "--esobluedarkdarkshade": "#005e97",
+    "--esobluedarkshade": "#0077be",
+    "--esogray": "#878787"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 7,
+    "mainTextLen": 16912,
+    "realImageCount": 28,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [],
+    "thirdPartyScriptHosts": [],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [],
+    "frameworkHints": [],
+    "forms": [],
+    "ariaLiveRegions": 0,
+    "triggers": [],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 0,
+      "thirdPartyEndpoints": 0,
+      "thirdPartyScriptHosts": 0,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": false
+    }
+  },
+  "screenshot": "assets/screenshots/mirror-m2m3.png",
+  "renderedHtml": "pages/mirror-m2m3.html",
+  "slots": {
+    "pageTitle": "Mirrors and Optical Design",
+    "heroImage": "https://cdn.eso.org/images/banner1920/header-mirrors.jpg",
+    "program-headline": "M2 and M3 Mirrors",
+    "summary": "Perfecting image quality",
+    "description": "The ELT's secondary mirror is the largest convex mirror ever produced. It will reflect light collected by M1 to the tertiary mirror M3, a concave mirror similar in size to M2. The three curved mirrors will allow the ELT to deliver a better image quality over a larger field of view than would be possible otherwise.",
+    "quick-links": [
+      {
+        "label": "Technical details",
+        "href": "#techdetails"
+      }
+    ],
+    "feature-grid": [],
+    "sections": [
+      "In a nutshell Share on Facebook E-Mail Copy Link Share on LinkedIn",
+      "Technical details and challenges with M2 and M3"
+    ]
+  }
+}

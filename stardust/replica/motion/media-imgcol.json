@@ -1,0 +1,947 @@
+{
+  "url": "https://elt.eso.org/media/",
+  "width": 1440,
+  "headerTimeline": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "widgetSamples": [],
+  "hoverSamples": [
+    {
+      "sel": ".swiper-container-media .swiper-slide-active .img-col",
+      "changed": [
+        "img.d-block.h-100.opacity"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(0, 119, 190)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "a.",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "img.d-block.h-100",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "0.5s"
+          },
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.px-3.imageTrigger",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.px-3",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(0, 119, 190)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "a.",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "img.d-block.h-100",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "0.380283",
+            "transition": "0.5s"
+          },
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.px-3.imageTrigger",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.px-3",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    },
+    {
+      "sel": ".swiper-container-video .swiper-slide-active .img-col",
+      "changed": [
+        "img.d-block.h-100.opacity"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(0, 119, 190)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "a.videoTrigger",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "img.d-block.h-100",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "0.5s"
+          },
+          {
+            "el": "a.videoTrigger",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.videoTrigger",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(0, 119, 190)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "a.videoTrigger",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "img.d-block.h-100",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "0.380302",
+            "transition": "0.5s"
+          },
+          {
+            "el": "a.videoTrigger",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.videoTrigger",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    }
+  ],
+  "media": {
+    "videos": [
+      {
+        "src": "https://elt.eso.org/media/",
+        "autoplay": false,
+        "loop": false,
+        "muted": false,
+        "paused": true,
+        "currentTime": 0,
+        "readyState": 0,
+        "inViewport": false,
+        "currentTimeAfter": 0,
+        "playing": false
+      }
+    ],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [],
+    "transitions": [
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > a.videoTrigger > img.d-block.h-100.w-100",
+        "y": 1200,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.swiper-slide.carouselVideoItem.swiper-slide-active > div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > div.h-100_.w-100.d-flex",
+        "y": 1200,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "top",
+        "el": "div.swiper-slide.carouselVideoItem.swiper-slide-active > div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > div.h-100_.w-100.d-flex",
+        "y": 1200,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > a.videoTrigger > img.d-block.h-100.w-100",
+        "y": 1600,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > a > img.d-block.h-100.w-100",
+        "y": 1600,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.swiper-slide.carouselMediaItem.swiper-slide-active > div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > div.h-100.w-100.d-flex",
+        "y": 1600,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "top",
+        "el": "div.swiper-slide.carouselMediaItem.swiper-slide-active > div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > div.h-100.w-100.d-flex",
+        "y": 1600,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.swiper-slide.carouselVideoItem.swiper-slide-active > div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > div.h-100_.w-100.d-flex",
+        "y": 1600,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "top",
+        "el": "div.swiper-slide.carouselVideoItem.swiper-slide-active > div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > div.h-100_.w-100.d-flex",
+        "y": 1600,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > a > img.d-block.h-100.w-100",
+        "y": 2000,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.swiper-slide.carouselMediaItem.swiper-slide-active > div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > div.h-100.w-100.d-flex",
+        "y": 2000,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "top",
+        "el": "div.swiper-slide.carouselMediaItem.swiper-slide-active > div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > div.h-100.w-100.d-flex",
+        "y": 2000,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > a.videoTrigger > img.d-block.h-100.w-100",
+        "y": 1200,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.swiper-slide.carouselVideoItem.swiper-slide-active > div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > div.h-100_.w-100.d-flex",
+        "y": 1200,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "top",
+        "el": "div.swiper-slide.carouselVideoItem.swiper-slide-active > div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > div.h-100_.w-100.d-flex",
+        "y": 1200,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > a.videoTrigger > img.d-block.h-100.w-100",
+        "y": 800,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.swiper-slide.carouselVideoItem.swiper-slide-active > div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > div.h-100_.w-100.d-flex",
+        "y": 800,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "top",
+        "el": "div.swiper-slide.carouselVideoItem.swiper-slide-active > div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > div.h-100_.w-100.d-flex",
+        "y": 800,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > a > img.d-block.h-100.w-100",
+        "y": 2092,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.swiper-slide.carouselMediaItem.swiper-slide-active > div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > div.h-100.w-100.d-flex",
+        "y": 2092,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "top",
+        "el": "div.swiper-slide.carouselMediaItem.swiper-slide-active > div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > div.h-100.w-100.d-flex",
+        "y": 2092,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > a > img.d-block.h-100.w-100",
+        "y": 2092,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.swiper-slide.carouselMediaItem.swiper-slide-active > div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > div.h-100.w-100.d-flex",
+        "y": 2092,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "top",
+        "el": "div.swiper-slide.carouselMediaItem.swiper-slide-active > div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > div.h-100.w-100.d-flex",
+        "y": 2092,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > a > img.d-block.h-100.w-100",
+        "y": 1696,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.swiper-slide.carouselMediaItem.swiper-slide-active > div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > div.h-100.w-100.d-flex",
+        "y": 1696,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "top",
+        "el": "div.swiper-slide.carouselMediaItem.swiper-slide-active > div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > div.h-100.w-100.d-flex",
+        "y": 1696,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > a.videoTrigger > img.d-block.h-100.w-100",
+        "y": 1696,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > a > img.d-block.h-100.w-100",
+        "y": 1696,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.swiper-slide.carouselMediaItem.swiper-slide-active > div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > div.h-100.w-100.d-flex",
+        "y": 1696,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "top",
+        "el": "div.swiper-slide.carouselMediaItem.swiper-slide-active > div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > div.h-100.w-100.d-flex",
+        "y": 1696,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.swiper-slide.carouselVideoItem.swiper-slide-active > div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > div.h-100_.w-100.d-flex",
+        "y": 1696,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "top",
+        "el": "div.swiper-slide.carouselVideoItem.swiper-slide-active > div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > div.h-100_.w-100.d-flex",
+        "y": 1696,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > a.videoTrigger > img.d-block.h-100.w-100",
+        "y": 1696,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > a > img.d-block.h-100.w-100",
+        "y": 1696,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.swiper-slide.carouselMediaItem.swiper-slide-active > div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > div.h-100.w-100.d-flex",
+        "y": 1696,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "top",
+        "el": "div.swiper-slide.carouselMediaItem.swiper-slide-active > div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > div.h-100.w-100.d-flex",
+        "y": 1696,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.swiper-slide.carouselVideoItem.swiper-slide-active > div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > div.h-100_.w-100.d-flex",
+        "y": 1696,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "top",
+        "el": "div.swiper-slide.carouselVideoItem.swiper-slide-active > div.container-fluid.container-tight > div.row.no-gutters > div.col.w-100.img-col > div.h-100_.w-100.d-flex",
+        "y": 1696,
+        "dur": "0.5s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-about.nav-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-telescope.nav-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-instruments.nav-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-science.nav-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-about.nav-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-telescope.nav-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-instruments.nav-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-science.nav-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-about.nav-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-telescope.nav-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-instruments.nav-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-science.nav-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-about.nav-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-telescope.nav-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-instruments.nav-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-science.nav-item.dropdown-menu-top",
+        "y": 400
+      },
+      {
+        "added": [
+          "top-aligned"
+        ],
+        "el": "ul.navbar-nav.ml-auto.mt-2_ > li.nav-telescope.nav-item.dropdown-menu-top > div.dropdown-menu.bg-dark.dropdown-main-menu > div.dropdown-submenu > div.dropdown-menu.bg-dark.dropdown-main-menu",
+        "y": 400
+      },
+      {
+        "added": [
+          "top-aligned"
+        ],
+        "el": "ul.navbar-nav.mx-auto.mt-0 > li.nav-telescope.nav-item.dropdown-menu-top > div.dropdown-menu.bg-dark.dropdown-main-menu > div.dropdown-submenu > div.dropdown-menu.bg-dark.dropdown-main-menu",
+        "y": 400
+      },
+      {
+        "added": [
+          "top-aligned"
+        ],
+        "el": "ul.navbar-nav.ml-auto.mt-2_ > li.nav-telescope.nav-item.dropdown-menu-top > div.dropdown-menu.bg-dark.dropdown-main-menu > div.dropdown-submenu > div.dropdown-menu.bg-dark.dropdown-main-menu",
+        "y": 400
+      },
+      {
+        "added": [
+          "top-aligned"
+        ],
+        "el": "ul.navbar-nav.mx-auto.mt-0 > li.nav-telescope.nav-item.dropdown-menu-top > div.dropdown-menu.bg-dark.dropdown-main-menu > div.dropdown-submenu > div.dropdown-menu.bg-dark.dropdown-main-menu",
+        "y": 400
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-about.nav-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-telescope.nav-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-instruments.nav-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-science.nav-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-about.nav-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-telescope.nav-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-instruments.nav-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-science.nav-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-about.nav-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-telescope.nav-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-instruments.nav-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-science.nav-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-about.nav-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-telescope.nav-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-instruments.nav-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropup"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-science.nav-item.dropdown-menu-top",
+        "y": 120
+      },
+      {
+        "added": [
+          "bottom-aligned"
+        ],
+        "el": "ul.navbar-nav.ml-auto.mt-2_ > li.nav-telescope.nav-item.dropdown-menu-top > div.dropdown-menu.bg-dark.dropdown-main-menu > div.dropdown-submenu > div.dropdown-menu.bg-dark.dropdown-main-menu",
+        "y": 120
+      },
+      {
+        "added": [
+          "bottom-aligned"
+        ],
+        "el": "ul.navbar-nav.mx-auto.mt-0 > li.nav-telescope.nav-item.dropdown-menu-top > div.dropdown-menu.bg-dark.dropdown-main-menu > div.dropdown-submenu > div.dropdown-menu.bg-dark.dropdown-main-menu",
+        "y": 120
+      },
+      {
+        "added": [
+          "bottom-aligned"
+        ],
+        "el": "ul.navbar-nav.ml-auto.mt-2_ > li.nav-telescope.nav-item.dropdown-menu-top > div.dropdown-menu.bg-dark.dropdown-main-menu > div.dropdown-submenu > div.dropdown-menu.bg-dark.dropdown-main-menu",
+        "y": 120
+      },
+      {
+        "added": [
+          "bottom-aligned"
+        ],
+        "el": "ul.navbar-nav.mx-auto.mt-0 > li.nav-telescope.nav-item.dropdown-menu-top > div.dropdown-menu.bg-dark.dropdown-main-menu > div.dropdown-submenu > div.dropdown-menu.bg-dark.dropdown-main-menu",
+        "y": 120
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-about.nav-item.dropdown-menu-top",
+        "y": 2092
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-telescope.nav-item.dropdown-menu-top",
+        "y": 2092
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-instruments.nav-item.dropdown-menu-top",
+        "y": 2092
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-science.nav-item.dropdown-menu-top",
+        "y": 2092
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-about.nav-item.dropdown-menu-top",
+        "y": 2092
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-telescope.nav-item.dropdown-menu-top",
+        "y": 2092
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-instruments.nav-item.dropdown-menu-top",
+        "y": 2092
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-science.nav-item.dropdown-menu-top",
+        "y": 2092
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-about.nav-item.dropdown-menu-top",
+        "y": 2092
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-telescope.nav-item.dropdown-menu-top",
+        "y": 2092
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-instruments.nav-item.dropdown-menu-top",
+        "y": 2092
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.navbar.top_.fixed-top > div.collapse.navbar-collapse.d-lg-flex > ul.navbar-nav.ml-auto.mt-2_ > li.nav-science.nav-item.dropdown-menu-top",
+        "y": 2092
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-about.nav-item.dropdown-menu-top",
+        "y": 2092
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-telescope.nav-item.dropdown-menu-top",
+        "y": 2092
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-instruments.nav-item.dropdown-menu-top",
+        "y": 2092
+      },
+      {
+        "added": [
+          "dropdown"
+        ],
+        "el": "body > nav.d-none.d-lg-flex.navbar > div.collapse.navbar-collapse.justify-content-around > ul.navbar-nav.mx-auto.mt-0 > li.nav-science.nav-item.dropdown-menu-top",
+        "y": 2092
+      },
+      {
+        "added": [
+          "top-aligned"
+        ],
+        "el": "ul.navbar-nav.ml-auto.mt-2_ > li.nav-telescope.nav-item.dropdown-menu-top > div.dropdown-menu.bg-dark.dropdown-main-menu > div.dropdown-submenu > div.dropdown-menu.bg-dark.dropdown-main-menu",
+        "y": 2092
+      },
+      {
+        "added": [
+          "top-aligned"
+        ],
+        "el": "ul.navbar-nav.mx-auto.mt-0 > li.nav-telescope.nav-item.dropdown-menu-top > div.dropdown-menu.bg-dark.dropdown-main-menu > div.dropdown-submenu > div.dropdown-menu.bg-dark.dropdown-main-menu",
+        "y": 2092
+      },
+      {
+        "added": [
+          "top-aligned"
+        ],
+        "el": "ul.navbar-nav.ml-auto.mt-2_ > li.nav-telescope.nav-item.dropdown-menu-top > div.dropdown-menu.bg-dark.dropdown-main-menu > div.dropdown-submenu > div.dropdown-menu.bg-dark.dropdown-main-menu",
+        "y": 2092
+      },
+      {
+        "added": [
+          "top-aligned"
+        ],
+        "el": "ul.navbar-nav.mx-auto.mt-0 > li.nav-telescope.nav-item.dropdown-menu-top > div.dropdown-menu.bg-dark.dropdown-main-menu > div.dropdown-submenu > div.dropdown-menu.bg-dark.dropdown-main-menu",
+        "y": 2092
+      }
+    ]
+  }
+}

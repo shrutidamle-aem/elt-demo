@@ -1,0 +1,399 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-14T03:46:28.931Z",
+  "tol": 4,
+  "n": 2,
+  "width": 1440,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://elt.eso.org/telescope/controls/",
+  "at": "2026-11-13T20:43:57.395Z",
+  "docH": 6120
+ },
+ "eds": {
+  "url": "https://main--26c59ee1--aemcoder.aem.page/telescope/controls",
+  "at": "2026-11-14T03:46:28.804Z",
+  "docH": 6088
+ },
+ "results": [
+  {
+   "sel": "footer .col-12=.site-footer-row > .footer-item",
+   "family": null,
+   "required": true,
+   "originMatches": 2,
+   "edsMatches": 2,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "footer.container-fluid.container-footer > div.row.d-flex > div.col-12.col-lg-3"
+     },
+     "eds": {
+      "path": "div.site-footer > div.site-footer-row > p.site-footer-brand.footer-item"
+     },
+     "rows": [
+      {
+       "key": "link:eso",
+       "role": "link",
+       "text": "eso",
+       "edsText": "eso",
+       "byPosition": false,
+       "origin": {
+        "x": 124,
+        "y": 0,
+        "w": 29,
+        "h": 22
+       },
+       "eds": {
+        "x": 123,
+        "y": 0,
+        "w": 30,
+        "h": 22,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": -1,
+       "dy": 0,
+       "dw": 1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "15/22/400",
+        "eds": "15/22/400"
+       }
+      },
+      {
+       "key": "text:2026",
+       "role": "text",
+       "text": "2026",
+       "edsText": "2026",
+       "byPosition": false,
+       "origin": {
+        "x": 203,
+        "y": 0,
+        "w": 33,
+        "h": 22
+       },
+       "eds": {
+        "x": 205,
+        "y": 0,
+        "w": 32,
+        "h": 22,
+        "sel": "div.current-year",
+        "role": "text"
+       },
+       "dx": 2,
+       "dy": 0,
+       "dw": -1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "15/22/400",
+        "eds": "15/22/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": -15,
+       "y": 6082,
+       "w": 360,
+       "h": 22
+      },
+      "eds": {
+       "x": -15,
+       "y": 6050,
+       "w": 360,
+       "h": 22
+      },
+      "dx": 0,
+      "dy": -32,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "footer.container-fluid.container-footer > div.row.d-flex > div.col-12.col-lg-9"
+     },
+     "eds": {
+      "path": "div.site-footer > div.site-footer-row > div.site-footer-links.footer-item"
+     },
+     "rows": [
+      {
+       "key": "text:| | | | |",
+       "role": "text",
+       "text": "| | | | |",
+       "edsText": "| | | | |",
+       "byPosition": false,
+       "origin": {
+        "x": 119,
+        "y": 0,
+        "w": 842,
+        "h": 22
+       },
+       "eds": {
+        "x": 119,
+        "y": 0,
+        "w": 843,
+        "h": 22,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "15/22/400",
+        "eds": "15/22/400"
+       }
+      },
+      {
+       "key": "link:credits",
+       "role": "link",
+       "text": "credits",
+       "edsText": "credits",
+       "byPosition": false,
+       "origin": {
+        "x": 119,
+        "y": 2,
+        "w": 49,
+        "h": 18
+       },
+       "eds": {
+        "x": 119,
+        "y": 2,
+        "w": 49,
+        "h": 18,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "15/22/400",
+        "eds": "15/22/400"
+       }
+      },
+      {
+       "key": "link:contact us",
+       "role": "link",
+       "text": "contact us",
+       "edsText": "contact us",
+       "byPosition": false,
+       "origin": {
+        "x": 192,
+        "y": 2,
+        "w": 74,
+        "h": 18
+       },
+       "eds": {
+        "x": 192,
+        "y": 2,
+        "w": 72,
+        "h": 18,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": -2,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "15/22/400",
+        "eds": "15/22/400"
+       }
+      },
+      {
+       "key": "link:subscribe to eso news",
+       "role": "link",
+       "text": "subscribe to eso news",
+       "edsText": "subscribe to eso news",
+       "byPosition": false,
+       "origin": {
+        "x": 289,
+        "y": 2,
+        "w": 155,
+        "h": 18
+       },
+       "eds": {
+        "x": 288,
+        "y": 2,
+        "w": 155,
+        "h": 18,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": -1,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "15/22/400",
+        "eds": "15/22/400"
+       }
+      },
+      {
+       "key": "link:accelerated by cdn77",
+       "role": "link",
+       "text": "accelerated by cdn77",
+       "edsText": "accelerated by cdn77",
+       "byPosition": false,
+       "origin": {
+        "x": 468,
+        "y": 2,
+        "w": 149,
+        "h": 18
+       },
+       "eds": {
+        "x": 466,
+        "y": 2,
+        "w": 150,
+        "h": 18,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": -2,
+       "dy": 0,
+       "dw": 1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "15/22/400",
+        "eds": "15/22/400"
+       }
+      },
+      {
+       "key": "link:terms & conditions",
+       "role": "link",
+       "text": "terms & conditions",
+       "edsText": "terms & conditions",
+       "byPosition": false,
+       "origin": {
+        "x": 641,
+        "y": 2,
+        "w": 128,
+        "h": 18
+       },
+       "eds": {
+        "x": 639,
+        "y": 2,
+        "w": 128,
+        "h": 18,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": -2,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "15/22/400",
+        "eds": "15/22/400"
+       }
+      },
+      {
+       "key": "link:cookie settings and policy",
+       "role": "link",
+       "text": "cookie settings and policy",
+       "edsText": "cookie settings and policy",
+       "byPosition": false,
+       "origin": {
+        "x": 792,
+        "y": 2,
+        "w": 169,
+        "h": 18
+       },
+       "eds": {
+        "x": 791,
+        "y": 2,
+        "w": 170,
+        "h": 18,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": -1,
+       "dy": 0,
+       "dw": 1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "15/22/400",
+        "eds": "15/22/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 345,
+       "y": 6082,
+       "w": 1080,
+       "h": 22
+      },
+      "eds": {
+       "x": 345,
+       "y": 6050,
+       "w": 1080,
+       "h": 22
+      },
+      "dx": 0,
+      "dy": -32,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 7,
+      "within": 7,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 2,
+  "within": 9,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

@@ -1,0 +1,46 @@
+{
+  "/chile/nav": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-13T15:19:54.988Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/drafts/foundation-shell": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-13T15:20:02.416Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/footer": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-13T15:26:09.364Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/nav": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-13T15:20:11.690Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/drafts/foundation-hero": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-11-13T15:36:37.196Z",
+    "put": 201,
+    "preview": 200,
+    "verify": "ok"
+  }
+}

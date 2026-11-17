@@ -1,0 +1,2034 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-13T19:41:59.088Z",
+  "tol": 4,
+  "n": 6,
+  "width": 1440,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://elt.eso.org/media/",
+  "at": "2026-11-13T19:34:52.860Z",
+  "docH": 5593
+ },
+ "eds": {
+  "url": "https://main--26c59ee1--aemcoder.aem.page/media",
+  "at": "2026-11-13T19:41:58.840Z",
+  "docH": 5528
+ },
+ "results": [
+  {
+   "sel": "footer .col-12=.site-footer-row > .footer-item",
+   "family": "footer-columns",
+   "required": true,
+   "originMatches": 2,
+   "edsMatches": 2,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "footer.container-fluid.container-footer > div.row.d-flex > div.col-12.col-lg-3"
+     },
+     "eds": {
+      "path": "div.site-footer > div.site-footer-row > p.site-footer-brand.footer-item"
+     },
+     "rows": [
+      {
+       "key": "link:eso",
+       "role": "link",
+       "text": "eso",
+       "edsText": "eso",
+       "byPosition": false,
+       "origin": {
+        "x": 124,
+        "y": 0,
+        "w": 29,
+        "h": 22
+       },
+       "eds": {
+        "x": 123,
+        "y": 0,
+        "w": 30,
+        "h": 22,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": -1,
+       "dy": 0,
+       "dw": 1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "15/22/400",
+        "eds": "15/22/400"
+       }
+      },
+      {
+       "key": "text:2026",
+       "role": "text",
+       "text": "2026",
+       "edsText": "2026",
+       "byPosition": false,
+       "origin": {
+        "x": 203,
+        "y": 0,
+        "w": 33,
+        "h": 22
+       },
+       "eds": {
+        "x": 205,
+        "y": 0,
+        "w": 32,
+        "h": 22,
+        "sel": "div.current-year",
+        "role": "text"
+       },
+       "dx": 2,
+       "dy": 0,
+       "dw": -1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "15/22/400",
+        "eds": "15/22/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": -15,
+       "y": 5555,
+       "w": 360,
+       "h": 22
+      },
+      "eds": {
+       "x": -15,
+       "y": 5490,
+       "w": 360,
+       "h": 22
+      },
+      "dx": 0,
+      "dy": -65,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "footer.container-fluid.container-footer > div.row.d-flex > div.col-12.col-lg-9"
+     },
+     "eds": {
+      "path": "div.site-footer > div.site-footer-row > div.site-footer-links.footer-item"
+     },
+     "rows": [
+      {
+       "key": "text:| | | | |",
+       "role": "text",
+       "text": "| | | | |",
+       "edsText": "| | | | |",
+       "byPosition": false,
+       "origin": {
+        "x": 119,
+        "y": 0,
+        "w": 842,
+        "h": 22
+       },
+       "eds": {
+        "x": 119,
+        "y": 0,
+        "w": 843,
+        "h": 22,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "15/22/400",
+        "eds": "15/22/400"
+       }
+      },
+      {
+       "key": "link:credits",
+       "role": "link",
+       "text": "credits",
+       "edsText": "credits",
+       "byPosition": false,
+       "origin": {
+        "x": 119,
+        "y": 2,
+        "w": 49,
+        "h": 18
+       },
+       "eds": {
+        "x": 119,
+        "y": 2,
+        "w": 49,
+        "h": 18,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "15/22/400",
+        "eds": "15/22/400"
+       }
+      },
+      {
+       "key": "link:contact us",
+       "role": "link",
+       "text": "contact us",
+       "edsText": "contact us",
+       "byPosition": false,
+       "origin": {
+        "x": 192,
+        "y": 2,
+        "w": 74,
+        "h": 18
+       },
+       "eds": {
+        "x": 192,
+        "y": 2,
+        "w": 72,
+        "h": 18,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": -2,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "15/22/400",
+        "eds": "15/22/400"
+       }
+      },
+      {
+       "key": "link:subscribe to eso news",
+       "role": "link",
+       "text": "subscribe to eso news",
+       "edsText": "subscribe to eso news",
+       "byPosition": false,
+       "origin": {
+        "x": 289,
+        "y": 2,
+        "w": 155,
+        "h": 18
+       },
+       "eds": {
+        "x": 288,
+        "y": 2,
+        "w": 155,
+        "h": 18,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": -1,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "15/22/400",
+        "eds": "15/22/400"
+       }
+      },
+      {
+       "key": "link:accelerated by cdn77",
+       "role": "link",
+       "text": "accelerated by cdn77",
+       "edsText": "accelerated by cdn77",
+       "byPosition": false,
+       "origin": {
+        "x": 468,
+        "y": 2,
+        "w": 149,
+        "h": 18
+       },
+       "eds": {
+        "x": 466,
+        "y": 2,
+        "w": 150,
+        "h": 18,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": -2,
+       "dy": 0,
+       "dw": 1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "15/22/400",
+        "eds": "15/22/400"
+       }
+      },
+      {
+       "key": "link:terms & conditions",
+       "role": "link",
+       "text": "terms & conditions",
+       "edsText": "terms & conditions",
+       "byPosition": false,
+       "origin": {
+        "x": 641,
+        "y": 2,
+        "w": 128,
+        "h": 18
+       },
+       "eds": {
+        "x": 639,
+        "y": 2,
+        "w": 128,
+        "h": 18,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": -2,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "15/22/400",
+        "eds": "15/22/400"
+       }
+      },
+      {
+       "key": "link:cookie settings and policy",
+       "role": "link",
+       "text": "cookie settings and policy",
+       "edsText": "cookie settings and policy",
+       "byPosition": false,
+       "origin": {
+        "x": 792,
+        "y": 2,
+        "w": 169,
+        "h": 18
+       },
+       "eds": {
+        "x": 791,
+        "y": 2,
+        "w": 170,
+        "h": 18,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": -1,
+       "dy": 0,
+       "dw": 1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "15/22/400",
+        "eds": "15/22/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 345,
+       "y": 5555,
+       "w": 1080,
+       "h": 22
+      },
+      "eds": {
+       "x": 345,
+       "y": 5490,
+       "w": 1080,
+       "h": 22
+      },
+      "dx": 0,
+      "dy": -65,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 7,
+      "within": 7,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".stories-container > .story-container=.stories-container > .story-container",
+   "family": "media-story-cards",
+   "required": true,
+   "originMatches": 6,
+   "edsMatches": 6,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.container-paragraph > div.stories-container > div.story-container"
+     },
+     "eds": {
+      "path": "div.stories-body > div.stories-container > div.story-container"
+     },
+     "rows": [
+      {
+       "key": "link:video 5 nov 2026 — cs0032a chatting scie",
+       "role": "link",
+       "text": "video 5 nov 2026 — cs0032a chatting science with the world's",
+       "edsText": "video 5 nov 2026 — cs0032a chatting science with the world's",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 358,
+        "h": 289
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 358,
+        "h": 289,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:chatting science with the world's larges",
+       "role": "image",
+       "text": "chatting science with the world's largest telescope (ft. dr ",
+       "edsText": "chatting science with the world's largest telescope (ft. dr ",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 358,
+        "h": 201
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 358,
+        "h": 201,
+        "sel": "img.story-img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:video",
+       "role": "text",
+       "text": "video",
+       "edsText": "video",
+       "byPosition": false,
+       "origin": {
+        "x": 279,
+        "y": 0,
+        "w": 79,
+        "h": 30
+       },
+       "eds": {
+        "x": 311,
+        "y": 4,
+        "w": 39,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 32,
+       "dy": 4,
+       "dw": -40,
+       "dh": -6,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/250",
+        "eds": "16/24/250"
+       }
+      },
+      {
+       "key": "text:5 nov 2026 — cs0032a",
+       "role": "text",
+       "text": "5 nov 2026 — cs0032a",
+       "edsText": "5 nov 2026 — cs0032a",
+       "byPosition": false,
+       "origin": {
+        "x": 8,
+        "y": 209,
+        "w": 342,
+        "h": 24
+       },
+       "eds": {
+        "x": 8,
+        "y": 209,
+        "w": 342,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "box",
+       "tag": "div",
+       "sel": "div.section-title.section-title-nolink",
+       "text": "",
+       "boxed": true,
+       "x": 279,
+       "y": 0,
+       "w": 79,
+       "h": 30,
+       "absY": 1258,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "250",
+       "color": "rgb(255, 255, 255)",
+       "bg": null,
+       "position": "absolute",
+       "key": "box:div.section-title.section-title-nolink#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 151,
+       "y": 1258,
+       "w": 358,
+       "h": 289
+      },
+      "eds": {
+       "x": 151,
+       "y": 1258,
+       "w": 358,
+       "h": 289
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 3,
+      "off": 1,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.container-paragraph > div.stories-container > div.story-container"
+     },
+     "eds": {
+      "path": "div.stories-body > div.stories-container > div.story-container"
+     },
+     "rows": [
+      {
+       "key": "link:video 26 oct 2026 — potw2643b tilting th",
+       "role": "link",
+       "text": "video 26 oct 2026 — potw2643b tilting the elt upwards",
+       "edsText": "video 26 oct 2026 — potw2643b tilting the elt upwards",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 358,
+        "h": 265
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 358,
+        "h": 265,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:tilting the elt upwards",
+       "role": "image",
+       "text": "tilting the elt upwards",
+       "edsText": "tilting the elt upwards",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 358,
+        "h": 201
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 358,
+        "h": 201,
+        "sel": "img.story-img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:video",
+       "role": "text",
+       "text": "video",
+       "edsText": "video",
+       "byPosition": false,
+       "origin": {
+        "x": 279,
+        "y": 0,
+        "w": 79,
+        "h": 30
+       },
+       "eds": {
+        "x": 311,
+        "y": 4,
+        "w": 39,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 32,
+       "dy": 4,
+       "dw": -40,
+       "dh": -6,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/250",
+        "eds": "16/24/250"
+       }
+      },
+      {
+       "key": "text:26 oct 2026 — potw2643b",
+       "role": "text",
+       "text": "26 oct 2026 — potw2643b",
+       "edsText": "26 oct 2026 — potw2643b",
+       "byPosition": false,
+       "origin": {
+        "x": 8,
+        "y": 209,
+        "w": 342,
+        "h": 24
+       },
+       "eds": {
+        "x": 8,
+        "y": 209,
+        "w": 342,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "box",
+       "tag": "div",
+       "sel": "div.section-title.section-title-nolink",
+       "text": "",
+       "boxed": true,
+       "x": 279,
+       "y": 0,
+       "w": 79,
+       "h": 30,
+       "absY": 1258,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "250",
+       "color": "rgb(255, 255, 255)",
+       "bg": null,
+       "position": "absolute",
+       "key": "box:div.section-title.section-title-nolink#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 541,
+       "y": 1258,
+       "w": 358,
+       "h": 289
+      },
+      "eds": {
+       "x": 541,
+       "y": 1258,
+       "w": 358,
+       "h": 289
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 3,
+      "off": 1,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.container-paragraph > div.stories-container > div.story-container"
+     },
+     "eds": {
+      "path": "div.stories-body > div.stories-container > div.story-container"
+     },
+     "rows": [
+      {
+       "key": "link:video 26 oct 2026 — potw2643a moving for",
+       "role": "link",
+       "text": "video 26 oct 2026 — potw2643a moving forward",
+       "edsText": "video 26 oct 2026 — potw2643a moving forward",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 358,
+        "h": 265
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 358,
+        "h": 265,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:moving forward",
+       "role": "image",
+       "text": "moving forward",
+       "edsText": "moving forward",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 358,
+        "h": 201
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 358,
+        "h": 201,
+        "sel": "img.story-img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:video",
+       "role": "text",
+       "text": "video",
+       "edsText": "video",
+       "byPosition": false,
+       "origin": {
+        "x": 279,
+        "y": 0,
+        "w": 79,
+        "h": 30
+       },
+       "eds": {
+        "x": 311,
+        "y": 4,
+        "w": 39,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 32,
+       "dy": 4,
+       "dw": -40,
+       "dh": -6,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/250",
+        "eds": "16/24/250"
+       }
+      },
+      {
+       "key": "text:26 oct 2026 — potw2643a",
+       "role": "text",
+       "text": "26 oct 2026 — potw2643a",
+       "edsText": "26 oct 2026 — potw2643a",
+       "byPosition": false,
+       "origin": {
+        "x": 8,
+        "y": 209,
+        "w": 342,
+        "h": 24
+       },
+       "eds": {
+        "x": 8,
+        "y": 209,
+        "w": 342,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "box",
+       "tag": "div",
+       "sel": "div.section-title.section-title-nolink",
+       "text": "",
+       "boxed": true,
+       "x": 279,
+       "y": 0,
+       "w": 79,
+       "h": 30,
+       "absY": 1258,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "250",
+       "color": "rgb(255, 255, 255)",
+       "bg": null,
+       "position": "absolute",
+       "key": "box:div.section-title.section-title-nolink#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 931,
+       "y": 1258,
+       "w": 358,
+       "h": 289
+      },
+      "eds": {
+       "x": 931,
+       "y": 1258,
+       "w": 358,
+       "h": 289
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 3,
+      "off": 1,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.container-paragraph > div.stories-container > div.story-container"
+     },
+     "eds": {
+      "path": "div.stories-body > div.stories-container > div.story-container"
+     },
+     "rows": [
+      {
+       "key": "link:video 26 oct 2026 — potw2643d inclining ",
+       "role": "link",
+       "text": "video 26 oct 2026 — potw2643d inclining the elt for the firs",
+       "edsText": "video 26 oct 2026 — potw2643d inclining the elt for the firs",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 358,
+        "h": 265
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 358,
+        "h": 265,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:inclining the elt for the first time",
+       "role": "image",
+       "text": "inclining the elt for the first time",
+       "edsText": "inclining the elt for the first time",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 358,
+        "h": 201
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 358,
+        "h": 201,
+        "sel": "img.story-img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:video",
+       "role": "text",
+       "text": "video",
+       "edsText": "video",
+       "byPosition": false,
+       "origin": {
+        "x": 279,
+        "y": 0,
+        "w": 79,
+        "h": 30
+       },
+       "eds": {
+        "x": 311,
+        "y": 4,
+        "w": 39,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 32,
+       "dy": 4,
+       "dw": -40,
+       "dh": -6,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/250",
+        "eds": "16/24/250"
+       }
+      },
+      {
+       "key": "text:26 oct 2026 — potw2643d",
+       "role": "text",
+       "text": "26 oct 2026 — potw2643d",
+       "edsText": "26 oct 2026 — potw2643d",
+       "byPosition": false,
+       "origin": {
+        "x": 8,
+        "y": 209,
+        "w": 342,
+        "h": 24
+       },
+       "eds": {
+        "x": 8,
+        "y": 209,
+        "w": 342,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "box",
+       "tag": "div",
+       "sel": "div.section-title.section-title-nolink",
+       "text": "",
+       "boxed": true,
+       "x": 279,
+       "y": 0,
+       "w": 79,
+       "h": 30,
+       "absY": 1580,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "250",
+       "color": "rgb(255, 255, 255)",
+       "bg": null,
+       "position": "absolute",
+       "key": "box:div.section-title.section-title-nolink#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 151,
+       "y": 1580,
+       "w": 358,
+       "h": 265
+      },
+      "eds": {
+       "x": 151,
+       "y": 1580,
+       "w": 358,
+       "h": 265
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 3,
+      "off": 1,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div.container-paragraph > div.stories-container > div.story-container"
+     },
+     "eds": {
+      "path": "div.stories-body > div.stories-container > div.story-container"
+     },
+     "rows": [
+      {
+       "key": "link:video 26 oct 2026 — potw2643c inclining ",
+       "role": "link",
+       "text": "video 26 oct 2026 — potw2643c inclining the elt for the firs",
+       "edsText": "video 26 oct 2026 — potw2643c inclining the elt for the firs",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 358,
+        "h": 265
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 358,
+        "h": 265,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:inclining the elt for the first time",
+       "role": "image",
+       "text": "inclining the elt for the first time",
+       "edsText": "inclining the elt for the first time",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 358,
+        "h": 201
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 358,
+        "h": 201,
+        "sel": "img.story-img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:video",
+       "role": "text",
+       "text": "video",
+       "edsText": "video",
+       "byPosition": false,
+       "origin": {
+        "x": 279,
+        "y": 0,
+        "w": 79,
+        "h": 30
+       },
+       "eds": {
+        "x": 311,
+        "y": 4,
+        "w": 39,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 32,
+       "dy": 4,
+       "dw": -40,
+       "dh": -6,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/250",
+        "eds": "16/24/250"
+       }
+      },
+      {
+       "key": "text:26 oct 2026 — potw2643c",
+       "role": "text",
+       "text": "26 oct 2026 — potw2643c",
+       "edsText": "26 oct 2026 — potw2643c",
+       "byPosition": false,
+       "origin": {
+        "x": 8,
+        "y": 209,
+        "w": 342,
+        "h": 24
+       },
+       "eds": {
+        "x": 8,
+        "y": 209,
+        "w": 342,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "box",
+       "tag": "div",
+       "sel": "div.section-title.section-title-nolink",
+       "text": "",
+       "boxed": true,
+       "x": 279,
+       "y": 0,
+       "w": 79,
+       "h": 30,
+       "absY": 1580,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "250",
+       "color": "rgb(255, 255, 255)",
+       "bg": null,
+       "position": "absolute",
+       "key": "box:div.section-title.section-title-nolink#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 541,
+       "y": 1580,
+       "w": 358,
+       "h": 265
+      },
+      "eds": {
+       "x": 541,
+       "y": 1580,
+       "w": 358,
+       "h": 265
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 3,
+      "off": 1,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 5,
+     "origin": {
+      "path": "div.container-paragraph > div.stories-container > div.story-container"
+     },
+     "eds": {
+      "path": "div.stories-body > div.stories-container > div.story-container"
+     },
+     "rows": [
+      {
+       "key": "text:more...",
+       "role": "text",
+       "text": "more...",
+       "edsText": "more...",
+       "byPosition": false,
+       "origin": {
+        "x": 115,
+        "y": 68,
+        "w": 128,
+        "h": 60
+       },
+       "eds": {
+        "x": 116,
+        "y": 68,
+        "w": 125,
+        "h": 60,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 1,
+       "dy": 0,
+       "dw": -3,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "40/60/700",
+        "eds": "40/60/700"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 931,
+       "y": 1580,
+       "w": 358,
+       "h": 265
+      },
+      "eds": {
+       "x": 931,
+       "y": 1580,
+       "w": 358,
+       "h": 265
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".carouselVideoItem=.carouselVideoItem",
+   "family": "media-video-slides",
+   "required": true,
+   "originMatches": 6,
+   "edsMatches": 6,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div#videoCarouselMedia > div#videoMediaCarousel > div.swiper-slide.carouselVideoItem"
+     },
+     "eds": {
+      "path": "div.rail-stage > div.rail-track > div.rail-slide.carouselVideoItem"
+     },
+     "rows": [
+      {
+       "key": "link:a.videoTrigger#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 480,
+        "h": 270
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 480,
+        "h": 270,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:img.d-block.h-100#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 480,
+        "h": 270
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 480,
+        "h": 270,
+        "sel": "img.img-thumb",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 2011,
+       "w": 480,
+       "h": 270
+      },
+      "eds": {
+       "x": 0,
+       "y": 2011,
+       "w": 480,
+       "h": 270
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div#videoCarouselMedia > div#videoMediaCarousel > div.swiper-slide.carouselVideoItem"
+     },
+     "eds": {
+      "path": "div.rail-stage > div.rail-track > div.rail-slide.carouselVideoItem"
+     },
+     "rows": [
+      {
+       "key": "link:a.videoTrigger#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 480,
+        "h": 270
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 480,
+        "h": 270,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:img.d-block.h-100#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 480,
+        "h": 270
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 480,
+        "h": 270,
+        "sel": "img.img-thumb",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 480,
+       "y": 2011,
+       "w": 480,
+       "h": 270
+      },
+      "eds": {
+       "x": 480,
+       "y": 2011,
+       "w": 480,
+       "h": 270
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div#videoCarouselMedia > div#videoMediaCarousel > div.swiper-slide.carouselVideoItem"
+     },
+     "eds": {
+      "path": "div.rail-stage > div.rail-track > div.rail-slide.carouselVideoItem"
+     },
+     "rows": [
+      {
+       "key": "link:a.videoTrigger#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 480,
+        "h": 270
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 480,
+        "h": 270,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:img.d-block.h-100#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 480,
+        "h": 270
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 480,
+        "h": 270,
+        "sel": "img.img-thumb",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 960,
+       "y": 2011,
+       "w": 480,
+       "h": 270
+      },
+      "eds": {
+       "x": 960,
+       "y": 2011,
+       "w": 480,
+       "h": 270
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".carouselMediaItem=.carouselMediaItem",
+   "family": "media-image-slides",
+   "required": true,
+   "originMatches": 6,
+   "edsMatches": 6,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div#carouselMedia > div#mediaCarousel > div.swiper-slide.carouselMediaItem"
+     },
+     "eds": {
+      "path": "div.rail-stage > div.rail-track > div.rail-slide.carouselMediaItem"
+     },
+     "rows": [
+      {
+       "key": "link:a#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 480,
+        "h": 270
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 480,
+        "h": 270,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:img.d-block.h-100#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 480,
+        "h": 270
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 480,
+        "h": 270,
+        "sel": "img.img-thumb",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 2407,
+       "w": 480,
+       "h": 270
+      },
+      "eds": {
+       "x": 0,
+       "y": 2407,
+       "w": 480,
+       "h": 270
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div#carouselMedia > div#mediaCarousel > div.swiper-slide.carouselMediaItem"
+     },
+     "eds": {
+      "path": "div.rail-stage > div.rail-track > div.rail-slide.carouselMediaItem"
+     },
+     "rows": [
+      {
+       "key": "link:a#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 480,
+        "h": 270
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 480,
+        "h": 270,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:img.d-block.h-100#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 480,
+        "h": 270
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 480,
+        "h": 270,
+        "sel": "img.img-thumb",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 480,
+       "y": 2407,
+       "w": 480,
+       "h": 270
+      },
+      "eds": {
+       "x": 480,
+       "y": 2407,
+       "w": 480,
+       "h": 270
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div#carouselMedia > div#mediaCarousel > div.swiper-slide.carouselMediaItem"
+     },
+     "eds": {
+      "path": "div.rail-stage > div.rail-track > div.rail-slide.carouselMediaItem"
+     },
+     "rows": [
+      {
+       "key": "link:a#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 480,
+        "h": 270
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 480,
+        "h": 270,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:img.d-block.h-100#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 480,
+        "h": 270
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 480,
+        "h": 270,
+        "sel": "img.img-thumb",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 960,
+       "y": 2407,
+       "w": 480,
+       "h": 270
+      },
+      "eds": {
+       "x": 960,
+       "y": 2407,
+       "w": 480,
+       "h": 270
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 14,
+  "within": 37,
+  "off": 5,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 5
+ }
+}

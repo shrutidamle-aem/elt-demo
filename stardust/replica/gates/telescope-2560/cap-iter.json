@@ -1,0 +1,155 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+    "writtenAt": "2026-11-13T13:03:50.877Z",
+    "baseWidth": 1440,
+    "urls": [
+      "https://elt.eso.org/telescope/",
+      "http://localhost:8791/telescope-proposed.html"
+    ],
+    "probeWidth": 2560,
+    "probeNote": "from DESIGN.json",
+    "tolerance": 20
+  },
+  "urls": [
+    "https://elt.eso.org/telescope/",
+    "http://localhost:8791/telescope-proposed.html"
+  ],
+  "probeNote": "from DESIGN.json",
+  "live": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "body > div.container-fluid.container-light",
+      "isBody": false,
+      "leaves": 9,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "other",
+        "px": 550,
+        "via": "other",
+        "selector": "#big-header > div.position-absolute.d-lg-block_",
+        "tier": 4,
+        "share": 0,
+        "section": -1,
+        "w1": 435,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 402,
+        "via": "other",
+        "selector": "body > div.container-fluid.container-light > div.container-paragraph.section-title-paragraph > div",
+        "tier": 2,
+        "share": 0.11,
+        "section": 0,
+        "w1": 367,
+        "maxWidth": "none"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "body > div.container-fluid.container-light > div.container-paragraph.section-title-paragraph",
+        "px": 402,
+        "capSelector": "body > div.container-fluid.container-light > div.container-paragraph.section-title-paragraph > div"
+      },
+      {
+        "index": 1,
+        "selector": "body > div.container-fluid.container-light > div.container-paragraph",
+        "px": null,
+        "capSelector": null
+      }
+    ],
+    "shellMaxWidth": null,
+    "contentMaxWidth": 402,
+    "contentFrom": "module",
+    "maxCap": 550,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 197
+  },
+  "build": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "body.page-telescope > main.elt-inner > section.container-light.blacklinks",
+      "isBody": false,
+      "leaves": 9,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "other",
+        "px": 550,
+        "via": "other",
+        "selector": "#big-header > div.big-header-logos",
+        "tier": 5,
+        "share": 0,
+        "section": -1,
+        "w1": 435,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 402,
+        "via": "other",
+        "selector": "#sec-domestruct",
+        "tier": 2,
+        "share": 0.11,
+        "section": 0,
+        "w1": 367,
+        "maxWidth": "none"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "body.page-telescope > main.elt-inner > section.container-light.blacklinks > div.container-paragraph.section-title-paragraph",
+        "px": 402,
+        "capSelector": "#sec-domestruct"
+      },
+      {
+        "index": 1,
+        "selector": "body.page-telescope > main.elt-inner > section.container-light.blacklinks > div.container-paragraph",
+        "px": null,
+        "capSelector": null
+      }
+    ],
+    "shellMaxWidth": null,
+    "contentMaxWidth": 402,
+    "contentFrom": "module",
+    "maxCap": 550,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 123
+  },
+  "compare": {
+    "probeWidth": 2560,
+    "rows": [
+      {
+        "ok": true,
+        "label": "content cap",
+        "detail": "live 402px = build 402px (±20, shared module cap)",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 1/2",
+        "detail": "402px = 402px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 2/2",
+        "detail": "full-bleed on both",
+        "advisory": false
+      }
+    ],
+    "fails": 0,
+    "pass": true
+  },
+  "evidence": "stardust/replica/gates/telescope-2560/cap-iter.json"
+}

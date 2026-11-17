@@ -1,0 +1,633 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-11-13T11:16:30.733Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "science-galaxies",
+  "url": "https://elt.eso.org/science/galaxies/",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-11-13T11:16:30.733Z",
+  "finalUrl": "https://elt.eso.org/science/galaxies/",
+  "title": "Galaxies | ELT | ESO",
+  "description": "The Extremely Large Telescope: The World's Biggest Eye On The Sky",
+  "og": {
+    "title": "Galaxies | ELT | ESO",
+    "description": "The Extremely Large Telescope: The World's Biggest Eye On The Sky",
+    "image": "http://cdn.eso.org/images/screen/header-frontpage.jpg",
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Our use of Cookies"
+    },
+    {
+      "tag": "h1",
+      "text": "ESO Cookies Policy"
+    },
+    {
+      "tag": "h2",
+      "text": "What are cookies?"
+    },
+    {
+      "tag": "h2",
+      "text": "Categories of cookies we use"
+    },
+    {
+      "tag": "h2",
+      "text": "How to manage cookies"
+    },
+    {
+      "tag": "h2",
+      "text": "Updates to the ESO Cookies Policy"
+    },
+    {
+      "tag": "h2",
+      "text": "Additional information"
+    }
+  ],
+  "body": [
+    "Choose your language English Español",
+    "search Search",
+    "EuropeanSouthernObservatory",
+    "ELT HOME",
+    "ABOUT About the ELT Timeline Location Webcams Facts Road to the ELT Meet the Team Working Groups Industrial and Institutional Partners FAQ",
+    "TELESCOPE Telescope Overview Dome Main Structure Mirrors Mirrors Overview M1 M2M3 M4 M5 Adaptive Optics Prefocal Station Controls Operations",
+    "INSTRUMENTS Instruments Overview HARMONI MICADO MORFEO METIS ANDES MOSAIC",
+    "SCIENCE Science Overview Solar System Exoplanets Stars Black Holes Galaxies Cosmology and Dark Matter Fundamental Physics Unexpected Discoveries",
+    "NEWS & MULTIMEDIA",
+    "SUCCESS STORIES",
+    "We share the Universe with hundreds of billions of other galaxies, the very first of which formed when the Universe was still very young.",
+    "The ELT will explore these early galaxies in exquisite detail and follow their evolution through cosmic time. This will help us understand how galaxies form and evolve, providing a key contribution to our knowledge of the Universe.",
+    "Very distant galaxies are so far away their light takes billions of years to reach us. With modern telescopes, astronomers can travel back in time to reveal these extremely distant, and therefore very young, galaxies as they were in the early Universe. There are limits to how far back we can look with current telescopes. After the Big Bang, the Universe grew cool and dark. Only once dark matter and gas had clumped together did stars and galaxies begin to shine. Energetic radiation from those galaxies then ionised the remaining neutral gas, but exactly when and how this all occurred remains one of the biggest mysteries in cosmology. As an enormous telescope equipped with the most advanced instruments, the ELT will be able to observe these first galaxies and revolutionise our perception of the Universe.",
+    "When astronomers use current telescopes to study light from far-away galaxies, they observe the combined light emitted by all the individual stars. However, to make significant progress in our understanding of the evolution of the Universe, we need to look at these stars individually. For galaxies in our Local Group and beyond the ELT will be able to resolve individual stars, allowing us to perform a sort of galactic archaeology, using the stellar fossil records to decipher how galaxies formed and evolved.",
+    "The ELT will also contribute to a better understanding of the complex interplay between galaxies and the surrounding intergalactic medium (IGM). The IGM provides the reservoir of gas for the ongoing infall of fresh material into galaxies. At the same time, it acts as a repository for the gas driven out of galaxies by energetic processes such as active galactic nuclei and supernova explosions.",
+    "The ELT will observe distant galaxies to gather clues on how these buildings blocks of our Universe formed and evolved. It will also search the early Universe to discover the very first galaxies.",
+    "It’s not just empty space in between galaxies: the gas in the intergalactic medium contains most of the visible matter in the Universe and is key to the process of galaxy formation and evolution. The ELT will help us study its properties.",
+    "How did galaxies form and evolve?",
+    "Galaxy formation and evolution is driven by a number of mechanisms and a complex interplay between them. These include the hierarchical merging of dark matter halos (galaxies with smaller dark matter halos are believed to have formed first and merged to form galaxies within larger halos), the accretion and cooling of gas, and the gravitational fragmentation and the formation of molecular clouds. Star formation, nucleosynthesis, metal-enriched outflows that are driven by stellar winds, supernova explosions and energetic output from accretion onto supermassive black holes also influence galaxy formation and evolution.",
+    "Thanks to recent deep surveys, it has become easier to observe properties of galaxies such as their luminosity, size, star formation rate, mass — and the mass of the stars within them, as well as how they evolve with redshift. But we now need more detailed spatially and spectrally resolved studies of individual galaxies to improve our understanding of their underlying physical processes. A comprehensive picture of galaxy formation should also describe a galaxy’s internal structure, for example, how stellar populations and dust are distributed or what properties its central region has. Current facilities, however, are not able to describe these internal properties in detail in far-away galaxies as they cannot reach the required small spatial scales. We need to get closer to the scale on which star formation occurs, which is that of giant molecular clouds; the ELT will enable us to do just this.",
+    "The Hubble Space Telescope has extended our view of evolving galaxies from the optical to the near-infrared, probing the emission from many stars in galaxies at high redshift and resolving the shapes and colours of galaxies. At the same time, integral field spectrometers, such as those on ESO’s Very Large Telescope, have routinely mapped the motion of ionised gas and the physical conditions of galaxies. The ELT will allow astronomers to observe fainter and more distant galaxies, up to when they were first building up their stellar populations and gas reservoirs, so studying them in more detail would much improve our current picture of galaxy evolution.",
+    "Characterising galaxies with a wide range of masses, star formation activities, and surroundings requires a giant leap in spatial resolution. This is uniquely provided by the ELT, with its 39-metre main mirror. and diffraction limit of 13 mas (~100pc at z > 1) in the K band (λ ~ 2μm). Both imaging and integral field spectroscopy (with the MICADO and HARMONI instruments) will enable deep views of galaxies across cosmic times that are ~15 times sharper than is currently possible with Hubble, and ~6 times sharper than possible with the James Webb Space Telescope. HARMONI will overcome present limitations by tracing structures just a few tens of parsecs wide, and providing detailed studies by exploiting spectroscopic information with high angular and spectral resolution and sensitivity.",
+    "Gain in resolution with MICADO: real data from HST/NIC2 compared to three different simulations from ISAAC, NIC2 and MICADO. Credit: MICADO Consortium",
+    "The very first galaxies",
+    "Some 380,000 years after the Big Bang, the temperature of the Universe was low enough that the hydrogen-dominated IGM, which pervades space, became neutral. The IGM today, however, is fully ionised, heated by the ultraviolet emission from galaxies and active galactic nuclei. However, how and when the IGM turned from neutral to fully ionised remains a matter of great debate.",
+    "The prime sources of reionisation have remained elusive so far and the quest for such sources, which produced the ultraviolet radiation that reionised the IGM, is closely related to the search for the first, most distant galaxies. Ultra-deep observations of faint sources with the ELT’s HARMONI and MOSAIC instruments will allow astronomers to determine the ionisation state of the IGM at redshifts from 5 to 13. In other words, the ELT will push back the limits of the observable Universe to the end of the Dark Ages, when the first light-emitting objects, which ionised much of the content of the Universe, switched on.",
+    "Scientists will be able to use MOSAIC to study Lyman α galaxies at high redshift. Credit: MOSAIC Consortium",
+    "The gas in the intergalactic medium is revealed by the numerous hydrogen absorption lines that are seen in the spectra of quasars. Astronomers have seen that at high redshift the IGM contains most of the baryons in the Universe and is therefore the baryonic reservoir for galaxy formation. In turn, galaxies emit ionising photons and expel metals and energy through powerful winds that determine the physical state of the gas in the IGM.",
+    "This interplay of galaxies and gas in the IGM is central to galaxy formation, but it is complex, and happens on scales of the order of just one megaparsec. The ELT’s MOSAIC spectrograph will be able to explore the distant Universe (at z ~ 2.5) in three dimensions to study the IGM structure and its chemical properties, and to look for correlations between the position of galaxies and gas density peaks in the IGM.",
+    "A spectroscopic survey with MOSAIC will enable the mapping of the IGM in the distant, young Universe. Credit: C. Laigle, J. Japelj",
+    "The absorption lines in the spectra of quasars arise from moderate density fluctuations in a warm, photo-ionised IGM. The spatial distribution of the IGM is related to the distribution of dark matter. The full density field can be reconstructed using a grid of lines-of-sight, but this requires at least about 900 randomly distributed targets per square degree. At a redshift of 2.5 there are ~900 Lyman Break Galaxies per square degree and around 50 (brighter) quasars. With MOSAIC, the ELT will be able to use these beacons to map the structure of the IGM at redshifts between 2.2 and 2.4 with moderate spectral resolution.",
+    "The ELT’s ANDES instrument will also study directly the IGM. One exciting prospect is detecting elements synthesised by the first stars in the Universe — the massive, metal-free Population III stars. The ability of ANDES to obtain high-signal-to-noise, high resolution spectroscopy for bright (AB mag ≤ 21) quasars will allow astronomers to study absorption lines too weak for current telescopes, resulting in an order-of-magnitude increase in the sample of useful background sources at high redshifts.",
+    "We use cookies that are essential for accessing our websites and using our services. We also use cookies to analyse, measure and improve our websites’ performance, to enable content sharing via social media and to display media content hosted on third-party platforms.",
+    "The European Organisation for Astronomical Research in the Southern Hemisphere (ESO) is the pre-eminent intergovernmental science and technology organisation in astronomy. It carries out an ambitious programme focused on the design, construction and operation of powerful ground-based observing facilities for astronomy.",
+    "This Cookies Policy is intended to provide clarity by outlining the cookies used on the ESO public websites, their functions, the options you have for controlling them, and the ways you can contact us for additional details.",
+    "Cookies are small pieces of data stored on your device by websites you visit. They serve various purposes, such as remembering login credentials and preferences and enhance your browsing experience.",
+    "Essential cookies (always active): These cookies are strictly necessary for the proper functioning of our website. Without these cookies, the website cannot operate correctly, and certain services, such as logging in or accessing secure areas, may not be available; because they are essential for the website’s operation, they cannot be disabled.",
+    "Functional Cookies: These cookies enhance your browsing experience by enabling additional features and personalization, such as remembering your preferences and settings. While not strictly necessary for the website to function, they improve usability and convenience; these cookies are only placed if you provide your consent.",
+    "Analytics cookies: These cookies collect information about how visitors interact with our website, such as which pages are visited most often and how users navigate the site. This data helps us improve website performance, optimize content, and enhance the user experience; these cookies are only placed if you provide your consent. We use the following analytics cookies.",
+    "Matomo Cookies:",
+    "This website uses Matomo (formerly Piwik), an open source software which enables the statistical analysis of website visits. Matomo uses cookies (text files) which are saved on your computer and which allow us to analyze how you use our website. The website user information generated by the cookies will only be saved on the servers of our IT Department. We use this information to analyze www.eso.org visits and to prepare reports on website activities. These data will not be disclosed to third parties.",
+    "On behalf of ESO, Matomo will use this information for the purpose of evaluating your use of the website, compiling reports on website activity and providing other services relating to website activity and internet usage.",
+    "Matomo cookies settings:",
+    "Additional Third-party cookies on ESO websites: some of our pages display content from external providers, e.g. YouTube.",
+    "Such third-party services are outside of ESO control and may, at any time, change their terms of service, use of cookies, etc.",
+    "YouTube: Some videos on the ESO website are embedded from ESO’s official YouTube channel. We have enabled YouTube’s privacy-enhanced mode, meaning that no cookies are set unless the user actively clicks on the video to play it. Additionally, in this mode, YouTube does not store any personally identifiable cookie data for embedded video playbacks. For more details, please refer to YouTube’s embedding videos information page.",
+    "Cookies can also be classified based on the following elements.",
+    "Regarding the domain, there are:",
+    "First-party cookies, set by the website you are currently visiting. They are stored by the same domain that you are browsing and are used to enhance your experience on that site;",
+    "Third-party cookies, set by a domain other than the one you are currently visiting.",
+    "As for their duration, cookies can be:",
+    "Browser-session cookies, which are deleted when the user closes the browser;",
+    "Stored cookies, which stay on the user's device for a predetermined period of time.",
+    "Cookie settings: You can modify your cookie choices for the ESO webpages at any time by clicking on the link Cookie settings at the bottom of any page.",
+    "In your browser: If you wish to delete cookies or instruct your browser to delete or block cookies by default, please visit the help pages of your browser:",
+    "Brave",
+    "Chrome",
+    "Edge",
+    "Firefox",
+    "Safari",
+    "Please be aware that if you delete or decline cookies, certain functionalities of our website may be not be available and your browsing experience may be affected.",
+    "You can set most browsers to prevent any cookies being placed on your device, but you may then have to manually adjust some preferences every time you visit a site/page. And some services and functionalities may not work properly at all (e.g. profile logging-in, shop check out).",
+    "The ESO Cookies Policy may be subject to future updates, which will be made available on this page.",
+    "For any queries related to cookies, please contact: pdprATesoDOTorg.",
+    "As ESO public webpages are managed by our Department of Communication, your questions will be dealt with the support of the said Department."
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "search",
+      "href": "#"
+    },
+    {
+      "label": "ELT HOME",
+      "href": "/"
+    },
+    {
+      "label": "ABOUT",
+      "href": "/about/"
+    },
+    {
+      "label": "TELESCOPE",
+      "href": "/telescope/"
+    },
+    {
+      "label": "INSTRUMENTS",
+      "href": "/instrument/"
+    },
+    {
+      "label": "SCIENCE",
+      "href": "/science/"
+    },
+    {
+      "label": "NEWS & MULTIMEDIA",
+      "href": "/media/"
+    },
+    {
+      "label": "SUCCESS STORIES",
+      "href": "/success/buildingon/"
+    },
+    {
+      "label": "Galaxy evolution",
+      "href": "#galaxy-evolution"
+    },
+    {
+      "label": "The intergalactic medium",
+      "href": "#intergalactic-medium"
+    },
+    {
+      "label": "Galaxy evolution",
+      "href": "#galaxy-evolution"
+    },
+    {
+      "label": "Read More",
+      "href": "#galaxy-evolution"
+    },
+    {
+      "label": "Read More",
+      "href": "#intergalactic-medium"
+    },
+    {
+      "label": "The intergalactic medium",
+      "href": "#intergalactic-medium"
+    },
+    {
+      "label": "ESO’s Very Large Telescope",
+      "href": "https://www.eso.org/public/teles-instr/paranal-observatory/vlt/"
+    },
+    {
+      "label": "MICADO",
+      "href": "/instrument/MICADO/"
+    },
+    {
+      "label": "HARMONI",
+      "href": "/instrument/HARMONI/"
+    },
+    {
+      "label": "HARMONI",
+      "href": "/instrument/HARMONI/"
+    },
+    {
+      "label": "HARMONI",
+      "href": "/instrument/HARMONI/"
+    },
+    {
+      "label": "MOSAIC",
+      "href": "/instrument/MOSAIC/"
+    },
+    {
+      "label": "MOSAIC",
+      "href": "/instrument/MOSAIC/"
+    },
+    {
+      "label": "MOSAIC",
+      "href": "/instrument/MOSAIC/"
+    },
+    {
+      "label": "ANDES",
+      "href": "/instrument/ANDES/"
+    },
+    {
+      "label": "ANDES",
+      "href": "/instrument/ANDES/"
+    },
+    {
+      "label": "ESO",
+      "href": "https:///www.eso.org/"
+    },
+    {
+      "label": "Credits",
+      "href": "/credits/"
+    },
+    {
+      "label": "Contact us",
+      "href": "mailto:information@eso.org"
+    },
+    {
+      "label": "Subscribe to ESO news",
+      "href": "https://www.eso.org/public/outreach/newsletters/"
+    },
+    {
+      "label": "Accelerated by CDN77",
+      "href": "https://www.cdn77.com/"
+    },
+    {
+      "label": "Terms & Conditions",
+      "href": "https://www.eso.org/public/about-eso/privacy/"
+    },
+    {
+      "label": "Cookie Settings and Policy",
+      "href": "#"
+    },
+    {
+      "label": "Accept All",
+      "href": null
+    },
+    {
+      "label": "Accept Only Essential Cookies",
+      "href": null
+    },
+    {
+      "label": "Cookie Settings and Policy",
+      "href": null
+    },
+    {
+      "label": "YouTube",
+      "href": "https://www.youtube.com/t/terms"
+    },
+    {
+      "label": "ESO’s official YouTube channel",
+      "href": "https://www.youtube.com/channel/UCIhYoC2VIAJqCkoIWNHBQ3Q"
+    },
+    {
+      "label": "embedding videos information page",
+      "href": "https://support.google.com/youtube/answer/171780?hl=en-GB"
+    },
+    {
+      "label": "Brave",
+      "href": "https://support.brave.com/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.brave.com%2Fhc%2Fen-us%2Farticles%2F360050634931-How-Do-I-Manage-Cookies-In-Brave"
+    },
+    {
+      "label": "Chrome",
+      "href": "https://support.google.com/chrome/bin/answer.py?hl=en&answer=95647&p=cpn_cookies"
+    },
+    {
+      "label": "Edge",
+      "href": "https://support.microsoft.com/en-us/windows/manage-cookies-in-microsoft-edge-view-allow-block-delete-and-use-168dab11-0753-043d-7c16-ede5947fc64d"
+    },
+    {
+      "label": "Firefox",
+      "href": "https://support.mozilla.org/en-US/kb/Blocking cookies"
+    },
+    {
+      "label": "Safari",
+      "href": "https://docs.info.apple.com/article.html?path=Safari/3.0/en/9277.html"
+    },
+    {
+      "label": "Save",
+      "href": null
+    },
+    {
+      "label": "Cancel",
+      "href": null
+    }
+  ],
+  "links": [
+    "https://www.eso.org/",
+    "https://elt.eso.org/science/galaxies/?lang",
+    "https://elt.eso.org/chile/science/galaxies/?lang",
+    "https://facebook.com/ESOAstronomy",
+    "https://www.instagram.com/esoastronomy/",
+    "https://www.linkedin.com/company/european-southern-observatory",
+    "https://www.youtube.com/channel/UCIhYoC2VIAJqCkoIWNHBQ3Q",
+    "https://elt.eso.org/",
+    "https://elt.eso.org/about/",
+    "https://elt.eso.org/about/timeline/",
+    "https://elt.eso.org/about/location/",
+    "https://elt.eso.org/about/webcams/",
+    "https://elt.eso.org/about/facts/",
+    "https://elt.eso.org/about/road/",
+    "https://elt.eso.org/about/team/",
+    "https://elt.eso.org/about/workinggroups/",
+    "https://elt.eso.org/about/industrial/",
+    "https://elt.eso.org/about/faq/",
+    "https://elt.eso.org/telescope/",
+    "https://elt.eso.org/telescope/dome/",
+    "https://elt.eso.org/telescope/structure/",
+    "https://elt.eso.org/mirror/",
+    "https://elt.eso.org/mirror/M1/",
+    "https://elt.eso.org/mirror/M2M3/",
+    "https://elt.eso.org/mirror/M4/",
+    "https://elt.eso.org/mirror/M5/",
+    "https://elt.eso.org/telescope/adaptiveoptics/",
+    "https://elt.eso.org/telescope/prefocal/",
+    "https://elt.eso.org/telescope/controls/",
+    "https://elt.eso.org/telescope/operations/",
+    "https://elt.eso.org/instrument/",
+    "https://elt.eso.org/instrument/HARMONI/",
+    "https://elt.eso.org/instrument/MICADO/",
+    "https://elt.eso.org/instrument/MORFEO/",
+    "https://elt.eso.org/instrument/METIS/",
+    "https://elt.eso.org/instrument/ANDES/",
+    "https://elt.eso.org/instrument/MOSAIC/",
+    "https://elt.eso.org/science/",
+    "https://elt.eso.org/science/solarsystem/",
+    "https://elt.eso.org/science/exoplanets/",
+    "https://elt.eso.org/science/stars/",
+    "https://elt.eso.org/science/blackholes/",
+    "https://elt.eso.org/science/galaxies/",
+    "https://elt.eso.org/science/cosmodm/",
+    "https://elt.eso.org/science/fundamentalphysics/",
+    "https://elt.eso.org/science/discoveries/",
+    "https://elt.eso.org/media/",
+    "https://elt.eso.org/success/buildingon/",
+    "https://elt.eso.org/science/galaxies/#",
+    "https://elt.eso.org/science/galaxies/#galaxy-evolution",
+    "https://elt.eso.org/science/galaxies/#intergalactic-medium",
+    "https://www.facebook.com/sharer/sharer.php?u=https://elt.eso.org/science/galaxies/",
+    "https://www.linkedin.com/sharing/share-offsite/?url=https://elt.eso.org/science/galaxies/",
+    {},
+    {},
+    "https://www.eso.org/public/images/potw2020a/",
+    "https://www.eso.org/public/teles-instr/paranal-observatory/vlt/",
+    "https://www.eso.org/public/images/gain-resolution-micado/",
+    "https://www.eso.org/public/images/science-galaxies-evolution3/",
+    "https://www.eso.org/public/images/eso1632a/",
+    "https://www.eso.org/public/images/mapping-igm/",
+    "https://elt.eso.org/credits/",
+    "mailto:information@eso.org",
+    "https://www.eso.org/public/outreach/newsletters/",
+    "https://www.cdn77.com/",
+    "https://www.eso.org/public/about-eso/privacy/",
+    "https://www.youtube.com/t/terms",
+    "https://support.google.com/youtube/answer/171780?hl=en-GB",
+    "https://support.brave.com/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.brave.com%2Fhc%2Fen-us%2Farticles%2F360050634931-How-Do-I-Manage-Cookies-In-Brave",
+    "https://support.google.com/chrome/bin/answer.py?hl=en&answer=95647&p=cpn_cookies",
+    "https://support.microsoft.com/en-us/windows/manage-cookies-in-microsoft-edge-view-allow-block-delete-and-use-168dab11-0753-043d-7c16-ede5947fc64d",
+    "https://support.mozilla.org/en-US/kb/Blocking%20cookies",
+    "https://docs.info.apple.com/article.html?path=Safari/3.0/en/9277.html"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/eso_logo.jpg",
+        "alt": "",
+        "w": 100,
+        "h": 130
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_topbar_mobile_1.png",
+        "alt": "ESO on Facebook",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_topbar_mobile_3.png",
+        "alt": "ESO on Instagram",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_topbar_mobile_4.png",
+        "alt": "ESO on LinkedIn",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_topbar_mobile_5.png",
+        "alt": "ESO on YouTube",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_topbar_mobile_1.png",
+        "alt": "ESO on Facebook",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_topbar_mobile_3.png",
+        "alt": "ESO on Instagram",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_topbar_mobile_4.png",
+        "alt": "ESO on LinkedIn",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_topbar_mobile_5.png",
+        "alt": "ESO on YouTube",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://cdn.eso.org/images/banner1920/header-science-galaxies.jpg",
+        "alt": "",
+        "w": 1920,
+        "h": 900
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/eso_logo_transparent.png",
+        "alt": "",
+        "w": 981,
+        "h": 1279
+      },
+      {
+        "src": "https://cdn.eso.org/images/banner1920/subheader-science-galaxies.jpg",
+        "alt": "",
+        "w": 1920,
+        "h": 900
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_share_1.png",
+        "alt": "Share on Facebook",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_share_3.png",
+        "alt": "",
+        "w": 36,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_share_1.png",
+        "alt": "Share on Facebook",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_share_5.png",
+        "alt": "E-Mail",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_share_6.png",
+        "alt": "Copy link",
+        "w": 36,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_share_4.png",
+        "alt": "Share on LinkedIn",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://cdn.eso.org/images/banner1920/science-galaxies-evolution.jpg",
+        "alt": "",
+        "w": 1920,
+        "h": 900
+      },
+      {
+        "src": "https://cdn.eso.org/images/banner1920/science-galaxies-igm.jpg",
+        "alt": "",
+        "w": 1920,
+        "h": 900
+      },
+      {
+        "src": "https://cdn.eso.org/images/original/science-galaxies-evolution-banner1.jpg",
+        "alt": "",
+        "w": 2560,
+        "h": 743
+      },
+      {
+        "src": "https://cdn.eso.org/images/screen/gain-resolution-micado.jpg",
+        "alt": "",
+        "w": 1280,
+        "h": 335
+      },
+      {
+        "src": "https://cdn.eso.org/images/original/science-galaxies-evolution3.jpg",
+        "alt": "",
+        "w": 826,
+        "h": 706
+      },
+      {
+        "src": "https://cdn.eso.org/images/original/science-galaxies-igm-banner1.jpg",
+        "alt": "",
+        "w": 2560,
+        "h": 743
+      },
+      {
+        "src": "https://cdn.eso.org/images/screen/mapping-igm.jpg",
+        "alt": "",
+        "w": 1280,
+        "h": 918
+      }
+    ],
+    "allImgCount": 25,
+    "cssBackgrounds": [],
+    "modals": [],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {
+    "--blue": "#007bff",
+    "--indigo": "#6610f2",
+    "--purple": "#6f42c1",
+    "--pink": "#e83e8c",
+    "--red": "#dc3545",
+    "--orange": "rgb(232, 133, 38)",
+    "--yellow": "#ffc107",
+    "--green": "#28a745",
+    "--teal": "#20c997",
+    "--cyan": "#17a2b8",
+    "--white": "#fff",
+    "--gray": "#6c757d",
+    "--gray-dark": "#343a40",
+    "--primary": "#007bff",
+    "--secondary": "#6c757d",
+    "--success": "#28a745",
+    "--info": "#17a2b8",
+    "--warning": "#ffc107",
+    "--danger": "#dc3545",
+    "--light": "#f8f9fa",
+    "--dark": "#343a40",
+    "--breakpoint-xxxs": "0",
+    "--breakpoint-xxs": "320px",
+    "--breakpoint-xs": "480px",
+    "--breakpoint-sm": "576px",
+    "--breakpoint-md": "768px",
+    "--breakpoint-lg": "992px",
+    "--breakpoint-xl": "1200px",
+    "--breakpoint-xxl": "1440px",
+    "--breakpoint-xxxl": "1680px",
+    "--breakpoint-xxxxl": "1920px",
+    "--font-family-sans-serif": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+    "--font-family-monospace": "SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+    "--swiper-theme-color": "#007aff",
+    "--swiper-navigation-size": "44px",
+    "--esoblue": "rgb(0, 119, 190)",
+    "--esoblueshade": "rgba(0, 119, 190, 0.1)",
+    "--esobluelightshade": "rgba(0, 119, 190, 0.4)",
+    "--headerblue": "rgb(45, 164, 245)",
+    "--esobluedarkdarkshade": "#005e97",
+    "--esobluedarkshade": "#0077be",
+    "--esogray": "#878787"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 7,
+    "mainTextLen": 18105,
+    "realImageCount": 25,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [],
+    "thirdPartyScriptHosts": [],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [],
+    "frameworkHints": [],
+    "forms": [],
+    "ariaLiveRegions": 0,
+    "triggers": [],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 0,
+      "thirdPartyEndpoints": 0,
+      "thirdPartyScriptHosts": 0,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": false
+    }
+  },
+  "screenshot": "assets/screenshots/science-galaxies.png",
+  "renderedHtml": "pages/science-galaxies.html",
+  "slots": {
+    "pageTitle": "Science with the ELT",
+    "heroImage": "https://cdn.eso.org/images/banner1920/header-science-galaxies.jpg",
+    "program-headline": "Galaxies",
+    "summary": "We share the Universe with hundreds of billions of other galaxies, the very first of which formed when the Universe was still very young.",
+    "description": "The ELT will explore these early galaxies in exquisite detail and follow their evolution through cosmic time. This will help us understand how galaxies form and evolve, providing a key contribution to our knowledge of the Universe.",
+    "quick-links": [
+      {
+        "label": "Galaxy evolution",
+        "href": "#galaxy-evolution"
+      },
+      {
+        "label": "The intergalactic medium",
+        "href": "#intergalactic-medium"
+      }
+    ],
+    "feature-grid": [
+      "",
+      ""
+    ],
+    "sections": [
+      "Galaxy evolution",
+      "The intergalactic medium"
+    ]
+  }
+}

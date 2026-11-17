@@ -1,0 +1,52 @@
+measure: overlay dismissed via extra selector .privacy-notice .privacy-button.accept-all
+measure  A = https://elt.eso.org/about/facts/
+         B = http://localhost:8791/about-facts-proposed.html
+  widths 360 · 5 selector(s) · 2 props · all matches (≤ 12)
+
+@ 360px
+  root
+    A  scrollWidth   360  viewport 360  scrollHeight   3681
+    B  scrollWidth   360  viewport 360  scrollHeight   3681
+    Δ  scrollWidth 0  scrollHeight 0
+  .container-darkblue   5 matches
+    [1]
+    A  x     0  y    219  w   360  h   897  vis  "Name Extremely Large Telescope (ELT) Ma…"
+    B  x     0  y    219  w   360  h   897  vis  "Name Extremely Large Telescope (ELT) Ma…"
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+    [2]
+    A  x     0  y   1116  w   360  h   454  vis  "How much light will the ELT gather? `"
+    B  x     0  y   1116  w   360  h   454  vis  "How much light will the ELT gather? `"
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+    [3]
+    A  x     0  y   1570  w   360  h   526  vis  "Type Optical/near-infrared extremely la…"
+    B  x     0  y   1570  w   360  h   526  vis  "Type Optical/near-infrared extremely la…"
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+    [4]
+    A  x     0  y   2096  w   360  h   320  vis  ""
+    B  x     0  y   2096  w   360  h   320  vis  ""
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+    [5]
+    A  x     0  y   2416  w   360  h  1144  vis  "Site Cerro Armazones, Atacama Desert, C…"
+    B  x     0  y   2416  w   360  h  1144  vis  "Site Cerro Armazones, Atacama Desert, C…"
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+  .big-header-title
+    A  x    38  y    123  w   284  h    72  vis  "About | Facts about the ELT"
+    B  x    38  y    123  w   284  h    72  vis  "About | Facts about the ELT"
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+  .swiper-button-prev   2 matches
+    [1]
+    A  x    10  y   1404  w    27  h    44  vis  ""
+    B  x    10  y   1404  w    27  h    44  vis  ""
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+    [2]
+    A  x    10  y   2250  w    27  h    44  vis  ""
+    B  x    10  y   2250  w    27  h    44  vis  ""
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+  footer
+    A  x     0  y   3560  w   360  h   121  vis  "ESO | ELT © 2026 Credits | Contact us |…"
+    B  x     0  y   3560  w   360  h   121  vis  "ESO | ELT © 2026 Credits | Contact us |…"
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal
+  #top-navbar
+    A  x     0  y      0  w   360  h    50  vis  "en | es"
+    B  x     0  y      0  w   360  h    50  vis  "en | es"
+    Δ  Δx 0 Δy 0 Δw 0 Δh 0  props equal

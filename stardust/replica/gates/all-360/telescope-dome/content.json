@@ -1,0 +1,7911 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-14T02:47:08.714Z",
+  "width": 360,
+  "variable": [
+   ".privacy-notice",
+   ".privacy-settings"
+  ],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://elt.eso.org/telescope/dome/",
+  "at": "2026-11-14T02:46:42.504Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 9868,
+  "root": "img.big-header-image.d-block",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "span.navbar-brand.ml-xl-5 > div.d-block > a",
+    "x": 4,
+    "y": 11,
+    "w": 38,
+    "h": 24,
+    "text": "",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.d-block > a > img.navbar-eso-logo",
+    "x": 4,
+    "y": 0,
+    "w": 38,
+    "h": 50,
+    "text": "",
+    "file": "eso_logo"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.navbar-brand.p-0 > div.nav-item_.menu-item_ > a",
+    "x": 55,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on facebook",
+    "href": "/ESOAstronomy"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.nav-item_.menu-item_ > a > img.desktop-top-sm-element",
+    "x": 55,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on facebook",
+    "file": "icon_topbar_mobile_1"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.navbar-brand.p-0 > div.nav-item_.menu-item_ > a",
+    "x": 105,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on instagram",
+    "href": "/esoastronomy/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.nav-item_.menu-item_ > a > img.desktop-top-sm-element",
+    "x": 105,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on instagram",
+    "file": "icon_topbar_mobile_3"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.navbar-brand.p-0 > div.nav-item_.menu-item_ > a",
+    "x": 155,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on linkedin",
+    "href": "/company/european-southern-observatory"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.nav-item_.menu-item_ > a > img.desktop-top-sm-element",
+    "x": 155,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on linkedin",
+    "file": "icon_topbar_mobile_4"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.navbar-brand.p-0 > div.nav-item_.menu-item_ > a",
+    "x": 205,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on youtube",
+    "href": "/channel/UCIhYoC2VIAJqCkoIWNHBQ3Q"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.nav-item_.menu-item_ > a > img.desktop-top-sm-element",
+    "x": 205,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on youtube",
+    "file": "icon_topbar_mobile_5"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav#top-navbar > span.lang-links > a.lang-link.link-en",
+    "x": 246,
+    "y": 17,
+    "w": 14,
+    "h": 15,
+    "text": "en",
+    "href": "/telescope/dome/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav#top-navbar > span.lang-links > a.lang-link.link-cl",
+    "x": 269,
+    "y": 17,
+    "w": 13,
+    "h": 15,
+    "text": "es",
+    "href": "/telescope/dome/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav#top-navbar > button.navbar-toggler",
+    "x": 300,
+    "y": 5,
+    "w": 56,
+    "h": 40,
+    "text": "toggle navigation"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "nav#top-navbar > button.navbar-toggler",
+    "x": 300,
+    "y": 5,
+    "w": 56,
+    "h": 40,
+    "label": "toggle navigation",
+    "value": "toggle navigation",
+    "via": "trigger"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "img.big-header-image.d-block",
+    "x": 0,
+    "y": 50,
+    "w": 360,
+    "h": 169,
+    "text": "",
+    "file": "header-dome"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#big-header > div.position-absolute.big-header-logos > img.big-header-eso-logo",
+    "x": 38,
+    "y": 58,
+    "w": 30,
+    "h": 39,
+    "text": "",
+    "file": "eso_logo_transparent"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#big-header > div.position-absolute.big-header-logos > p.esologo-text",
+    "x": 38,
+    "y": 103,
+    "w": 180,
+    "h": 23,
+    "text": "European Southern Observatory"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#big-header > div.position-absolute.big-header-title",
+    "x": 38,
+    "y": 150,
+    "w": 284,
+    "h": 45,
+    "text": "Telescope"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-fluid.container-dark > img.d-block.h-100",
+    "x": 0,
+    "y": 219,
+    "w": 360,
+    "h": 169,
+    "text": "",
+    "file": "subheader-dome"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.position-absolute.science-header-textblock > div.d-flex.flex-column > div.header-title",
+    "x": 38,
+    "y": 235,
+    "w": 322,
+    "h": 42,
+    "text": "Dome"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.d-flex.flex-column > div.d-block.header-quick-links > div",
+    "x": 38,
+    "y": 309,
+    "w": 288,
+    "h": 21,
+    "text": "Quick Links:"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.d-block.header-quick-links > div.instrument-link-color > a.instrument-link-color.instrument-link",
+    "x": 38,
+    "y": 332,
+    "w": 166,
+    "h": 17,
+    "text": "astronomical performance",
+    "href": "/telescope/dome/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.d-block.header-quick-links > div.instrument-link-color > a.instrument-link-color.instrument-link",
+    "x": 38,
+    "y": 332,
+    "w": 238,
+    "h": 38,
+    "text": "enclosure structure",
+    "href": "/telescope/dome/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-fluid.container-light > div.container-paragraph.section-title-paragraph > div",
+    "x": 38,
+    "y": 420,
+    "w": 144,
+    "h": 39,
+    "text": "In a Nutshell"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-paragraph.section-title-paragraph > div.d-flex > a.share-social-media-link.share-social-media-icons",
+    "x": 233,
+    "y": 420,
+    "w": 42,
+    "h": 38,
+    "text": "share on facebook",
+    "href": "/sharer/sharer.php"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.d-flex > a.share-social-media-link.share-social-media-icons > img",
+    "x": 238,
+    "y": 425,
+    "w": 33,
+    "h": 33,
+    "text": "share on facebook",
+    "file": "icon_share_1"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "span.position-relative.d-flex > span.share-social-media.share-social-media-icons > img.share-social-media",
+    "x": 282,
+    "y": 425,
+    "w": 34,
+    "h": 33,
+    "text": "",
+    "file": "icon_share_3"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-fluid.container-light > div.container-subtitle.d-block > p",
+    "x": 38,
+    "y": 483,
+    "w": 284,
+    "h": 166,
+    "text": "The giant ELT dome will house the telescope and its interior structure, providin"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-fluid.container-light > div.container-paragraph.d-block > p",
+    "x": 38,
+    "y": 669,
+    "w": 284,
+    "h": 195,
+    "text": "The dome will be about 80 metres high and have a diameter of about 93 metres, gi"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-fluid.container-light > div.container-paragraph.section-text-paragraph > p",
+    "x": 38,
+    "y": 887,
+    "w": 284,
+    "h": 222,
+    "text": "The sensitive and delicate components of the most sophisticated telescope ground"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-fluid.container-light > div.container-paragraph.section-text-paragraph > p",
+    "x": 38,
+    "y": 1125,
+    "w": 284,
+    "h": 276,
+    "text": "The ELT dome shelters the telescope in windy conditions during observations and "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-fluid.container-light > div.container-paragraph.section-text-paragraph > p",
+    "x": 38,
+    "y": 1417,
+    "w": 284,
+    "h": 249,
+    "text": "The dome enclosure has a thermally insulated cladding made of aluminium, which a"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-fluid.container-light > div.container-paragraph.section-text-paragraph > p",
+    "x": 38,
+    "y": 1683,
+    "w": 284,
+    "h": 330,
+    "text": "The pier of the dome is surrounded by an auxiliary building, with the instrument"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-fluid.container-light > div.container-paragraph.section-text-paragraph > p",
+    "x": 38,
+    "y": 2029,
+    "w": 284,
+    "h": 168,
+    "text": "The overall building is protected against major earthquakes. Both the dome pier "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-fluid.container-light > div.container-paragraph.section-text-paragraph > p",
+    "x": 38,
+    "y": 2213,
+    "w": 284,
+    "h": 87,
+    "text": "Please check the for recent news, images and videos of the ELT dome."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-paragraph.section-text-paragraph > p > a",
+    "x": 38,
+    "y": 2221,
+    "w": 255,
+    "h": 46,
+    "text": "news & multimedia section",
+    "href": "/media/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.row.d-flex > div.col-lg-6.p-0 > a",
+    "x": 0,
+    "y": 2426,
+    "w": 360,
+    "h": 19,
+    "text": "",
+    "href": "/telescope/dome/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.col-lg-6.p-0 > a > img.w-100",
+    "x": 0,
+    "y": 2352,
+    "w": 360,
+    "h": 169,
+    "text": "",
+    "file": "dome-astronomical"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.col-lg-6.p-0 > span.position-absolute.internal-menu-title > a",
+    "x": 38,
+    "y": 2430,
+    "w": 146,
+    "h": 70,
+    "text": "astronomical performance",
+    "href": "/telescope/dome/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.col-lg-6.pb-3 > div.internal-menu-text > p",
+    "x": 38,
+    "y": 2537,
+    "w": 284,
+    "h": 135,
+    "text": "For precise astronomical observations that reach various target objects in the n"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.col-lg-6.pb-3 > div.internal-menu-text > p",
+    "x": 38,
+    "y": 2889,
+    "w": 284,
+    "h": 135,
+    "text": "From a windscreen to ventilation and air conditioning, the ELT enclosure require"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.row.d-flex > div.col-lg-6.p-0 > a",
+    "x": 0,
+    "y": 2777,
+    "w": 360,
+    "h": 19,
+    "text": "",
+    "href": "/telescope/dome/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.col-lg-6.p-0 > a > img.w-100",
+    "x": 0,
+    "y": 2704,
+    "w": 360,
+    "h": 169,
+    "text": "",
+    "file": "dome-enclosure"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.col-lg-6.p-0 > span.position-absolute.internal-menu-title > a",
+    "x": 38,
+    "y": 2821,
+    "w": 220,
+    "h": 31,
+    "text": "enclosure structure",
+    "href": "/telescope/dome/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#astroperf_ > div.container-paragraph.section-title-paragraph",
+    "x": 0,
+    "y": 3088,
+    "w": 360,
+    "h": 102,
+    "text": "Astronomical Performance"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-heading > span.section-heading-paragraph > p",
+    "x": 38,
+    "y": 3190,
+    "w": 284,
+    "h": 114,
+    "text": "For precise astronomical observations that reach various target objects in the n"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#astroperf_ > div.container-paragraph.section-text-paragraph > p",
+    "x": 38,
+    "y": 3323,
+    "w": 284,
+    "h": 546,
+    "text": "The telescope needs to be able to track about the 1-degree zenithal avoidance lo"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.row.w-100 > div.col-lg-12.p-0 > a.d-flex.align-items-center",
+    "x": 0,
+    "y": 3889,
+    "w": 360,
+    "h": 169,
+    "text": "",
+    "href": "/public/images/ELT5k-2-wide-cc2/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.col-lg-12.p-0 > a.d-flex.align-items-center > img",
+    "x": 0,
+    "y": 3889,
+    "w": 360,
+    "h": 169,
+    "text": "",
+    "file": "header-about"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#astroperf_ > div.container-paragraph.section-text-paragraph > p",
+    "x": 38,
+    "y": 4064,
+    "w": 284,
+    "h": 330,
+    "text": "To avoid vibration during the rotation of the enclosure, the rotating mechanism "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#enclosurestruct_ > div.container-paragraph.section-title-paragraph",
+    "x": 0,
+    "y": 4446,
+    "w": 360,
+    "h": 63,
+    "text": "Enclosure Structure"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-heading > span.section-heading-paragraph > p",
+    "x": 38,
+    "y": 4509,
+    "w": 284,
+    "h": 87,
+    "text": "The ELT dome is a giant, extending about 80 meters from the ground and measuring"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#enclosurestruct_ > div.container-paragraph.section-text-paragraph > p",
+    "x": 38,
+    "y": 4615,
+    "w": 284,
+    "h": 600,
+    "text": "The rotating enclosure, once fully equipped and finished, will have a mass of ar"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#enclosurestruct_ > div.container-paragraph.section-text-paragraph > p",
+    "x": 38,
+    "y": 5232,
+    "w": 284,
+    "h": 357,
+    "text": "The enclosure's slit doors, that open to allow observations of the night sky, mo"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#enclosurestruct_ > div.container-paragraph.section-text-paragraph > p",
+    "x": 38,
+    "y": 5605,
+    "w": 284,
+    "h": 195,
+    "text": "Engineers have carried out wind tunnel tests to compute the pressure forces acti"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.row.w-100 > div.col-lg-12.p-0 > a.d-flex.align-items-center",
+    "x": 0,
+    "y": 5820,
+    "w": 360,
+    "h": 169,
+    "text": "",
+    "href": "/public/images/ELT4k-12-Night4-cc/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.col-lg-12.p-0 > a.d-flex.align-items-center > img",
+    "x": 0,
+    "y": 5820,
+    "w": 360,
+    "h": 169,
+    "text": "",
+    "file": "ELT4k-12-Night4-cc"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-subtitle > span.section-subtitle-paragraph > p",
+    "x": 38,
+    "y": 5992,
+    "w": 284,
+    "h": 38,
+    "text": "Windscreen"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#enclosurestruct_ > div.container-paragraph.section-text-paragraph > p",
+    "x": 38,
+    "y": 6050,
+    "w": 284,
+    "h": 573,
+    "text": "Since the ELT dome has a large opening, it requires a windscreen to protect the "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-subtitle > span.section-subtitle-paragraph > p",
+    "x": 38,
+    "y": 6850,
+    "w": 284,
+    "h": 70,
+    "text": "Ventilation and Air Conditioning"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#enclosurestruct_ > div.container-paragraph.section-text-paragraph > p",
+    "x": 38,
+    "y": 6940,
+    "w": 284,
+    "h": 357,
+    "text": "The ELT dome has been designed to allow sufficient ventilation for the telescope"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#enclosurestruct_ > div.container-paragraph.section-text-paragraph > p",
+    "x": 38,
+    "y": 7313,
+    "w": 284,
+    "h": 357,
+    "text": "Engineers have performed simulations to study the airflow in and around the dome"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#enclosurestruct_ > div.container-paragraph.section-text-paragraph > p",
+    "x": 38,
+    "y": 7686,
+    "w": 284,
+    "h": 384,
+    "text": "A powerful air conditioning system allows the regulation of air temperature insi"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#enclosurestruct_ > div.container-paragraph.section-text-paragraph > p",
+    "x": 38,
+    "y": 8087,
+    "w": 284,
+    "h": 276,
+    "text": "Cooling the telescope during the day is critical for operation. The air conditio"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 38,
+    "y": 8429,
+    "w": 157,
+    "h": 52,
+    "text": "Height of the dome"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 194,
+    "y": 8429,
+    "w": 128,
+    "h": 52,
+    "text": "80 m"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 38,
+    "y": 8481,
+    "w": 157,
+    "h": 79,
+    "text": "Diameter of the dome"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 194,
+    "y": 8481,
+    "w": 128,
+    "h": 79,
+    "text": "93 m"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 38,
+    "y": 8560,
+    "w": 157,
+    "h": 79,
+    "text": "Diameter of the auxiliary building"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 194,
+    "y": 8560,
+    "w": 128,
+    "h": 79,
+    "text": "117 m"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 38,
+    "y": 8639,
+    "w": 157,
+    "h": 79,
+    "text": "Height of the dome pier"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 194,
+    "y": 8639,
+    "w": 128,
+    "h": 79,
+    "text": "11 m"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 38,
+    "y": 8718,
+    "w": 157,
+    "h": 79,
+    "text": "Mass of the rotating enclosure"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 194,
+    "y": 8718,
+    "w": 128,
+    "h": 79,
+    "text": "6100 t"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 38,
+    "y": 8797,
+    "w": 157,
+    "h": 79,
+    "text": "Number of trolleys for rotation"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 38,
+    "y": 8876,
+    "w": 157,
+    "h": 79,
+    "text": "Dimension of each trolley"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 194,
+    "y": 8876,
+    "w": 128,
+    "h": 79,
+    "text": "4x2x3 m"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 38,
+    "y": 8955,
+    "w": 157,
+    "h": 79,
+    "text": "Mass of each trolley"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 194,
+    "y": 8955,
+    "w": 128,
+    "h": 79,
+    "text": "27 t"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 38,
+    "y": 9034,
+    "w": 157,
+    "h": 79,
+    "text": "Length of the track of dome"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 194,
+    "y": 9034,
+    "w": 128,
+    "h": 79,
+    "text": "270 m"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 38,
+    "y": 9113,
+    "w": 157,
+    "h": 79,
+    "text": "Door dimensions (w x h)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 194,
+    "y": 9113,
+    "w": 128,
+    "h": 79,
+    "text": "23x55 m"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 38,
+    "y": 9192,
+    "w": 157,
+    "h": 79,
+    "text": "Mass of each door"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 194,
+    "y": 9192,
+    "w": 128,
+    "h": 79,
+    "text": "600 t"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 38,
+    "y": 9271,
+    "w": 157,
+    "h": 106,
+    "text": "Number of ventilation louvers in dome pier"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 38,
+    "y": 9377,
+    "w": 157,
+    "h": 79,
+    "text": "Area of the ventilation louvers"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 194,
+    "y": 9377,
+    "w": 128,
+    "h": 79,
+    "text": "1240 m"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 38,
+    "y": 9456,
+    "w": 157,
+    "h": 79,
+    "text": "Number of seismic isolators"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 194,
+    "y": 9456,
+    "w": 128,
+    "h": 79,
+    "text": "118"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 38,
+    "y": 9535,
+    "w": 157,
+    "h": 160,
+    "text": "Heating, ventilation, and air conditioning system cooling power"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "tbody > tr > td",
+    "x": 194,
+    "y": 9535,
+    "w": 128,
+    "h": 160,
+    "text": "3 MW"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "footer.container-fluid.container-footer > div.row.d-flex > div.col-12.col-lg-3",
+    "x": -15,
+    "y": 9763,
+    "w": 360,
+    "h": 34,
+    "text": "| ELT ©"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.row.d-flex > div.col-12.col-lg-3 > a",
+    "x": 119,
+    "y": 9763,
+    "w": 24,
+    "h": 18,
+    "text": "eso",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.row.d-flex > div.col-12.col-lg-9 > div.text-center",
+    "x": 0,
+    "y": 9797,
+    "w": 330,
+    "h": 55,
+    "text": "| | | | |"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-lg-9 > div.text-center > a.w-100",
+    "x": 23,
+    "y": 9798,
+    "w": 41,
+    "h": 15,
+    "text": "credits",
+    "href": "/credits/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-lg-9 > div.text-center > a.w-100",
+    "x": 83,
+    "y": 9798,
+    "w": 61,
+    "h": 15,
+    "text": "contact us",
+    "href": "information@eso.org"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-lg-9 > div.text-center > a.w-100",
+    "x": 163,
+    "y": 9798,
+    "w": 128,
+    "h": 15,
+    "text": "subscribe to eso news",
+    "href": "/public/outreach/newsletters/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-lg-9 > div.text-center > a.w-100",
+    "x": 13,
+    "y": 9817,
+    "w": 123,
+    "h": 15,
+    "text": "accelerated by cdn77",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-lg-9 > div.text-center > a.w-100",
+    "x": 156,
+    "y": 9817,
+    "w": 105,
+    "h": 15,
+    "text": "terms & conditions",
+    "href": "/public/about-eso/privacy/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-lg-9 > div.text-center > a.w-100",
+    "x": 115,
+    "y": 9817,
+    "w": 202,
+    "h": 33,
+    "text": "cookie settings and policy",
+    "href": "/telescope/dome/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-notice > h1",
+    "x": 16,
+    "y": 1192,
+    "w": 328,
+    "h": 96,
+    "level": 1,
+    "text": "our use of cookies"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-container.centered-container > div.privacy-text-element > p",
+    "x": 16,
+    "y": 1296,
+    "w": 328,
+    "h": 168,
+    "text": "We use cookies that are essential for accessing our websites and using our servi"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-notice > div.privacy-container.centered-container > div.privacy-text-element",
+    "x": 16,
+    "y": 1496,
+    "w": 328,
+    "h": 72,
+    "text": "You can manage your cookie preferences and find out more by visiting 'Cookie Set"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-notice > div.centered-container > button.privacy-button.accept-all",
+    "x": 129,
+    "y": 1584,
+    "w": 101,
+    "h": 40,
+    "text": "accept all"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-notice > div.centered-container > button.privacy-button.reject-all",
+    "x": 59,
+    "y": 1656,
+    "w": 242,
+    "h": 40,
+    "text": "accept only essential cookies"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-notice > div.centered-container > button.privacy-button.settings",
+    "x": 72,
+    "y": 1728,
+    "w": 216,
+    "h": 40,
+    "text": "cookie settings and policy"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > h1",
+    "x": 32,
+    "y": 1006,
+    "w": 296,
+    "h": 96,
+    "level": 1,
+    "text": "eso cookies policy"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 1134,
+    "w": 296,
+    "h": 216,
+    "text": "The European Organisation for Astronomical Research in the Southern Hemisphere ("
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 1366,
+    "w": 296,
+    "h": 144,
+    "text": "This Cookies Policy is intended to provide clarity by outlining the cookies used"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > h2",
+    "x": 32,
+    "y": 1526,
+    "w": 296,
+    "h": 38,
+    "level": 2,
+    "text": "what are cookies?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 1572,
+    "w": 296,
+    "h": 144,
+    "text": "Cookies are small pieces of data stored on your device by websites you visit. Th"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > h2",
+    "x": 32,
+    "y": 1732,
+    "w": 296,
+    "h": 77,
+    "level": 2,
+    "text": "categories of cookies we use"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 1817,
+    "w": 296,
+    "h": 216,
+    "text": ": These cookies are strictly necessary for the proper functioning of our website"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 32,
+    "y": 2049,
+    "w": 197,
+    "h": 88,
+    "text": "Cookie ID/Name"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 229,
+    "y": 2049,
+    "w": 281,
+    "h": 88,
+    "text": "Description/Purpose"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 32,
+    "y": 2137,
+    "w": 197,
+    "h": 88,
+    "text": "csrftoken"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 229,
+    "y": 2137,
+    "w": 281,
+    "h": 88,
+    "text": "XSRF protection token. We use this cookie to protect against cross-site request "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 32,
+    "y": 2225,
+    "w": 197,
+    "h": 88,
+    "text": "user_privacy"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 229,
+    "y": 2225,
+    "w": 281,
+    "h": 88,
+    "text": "Your privacy choices. We use this cookie to save your privacy preferences."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 2329,
+    "w": 296,
+    "h": 216,
+    "text": ": These cookies enhance your browsing experience by enabling additional features"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row-choice.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 32,
+    "y": 2561,
+    "w": 170,
+    "h": 136,
+    "text": "Cookie ID/Name"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row-choice.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 202,
+    "y": 2561,
+    "w": 243,
+    "h": 136,
+    "text": "Description/Purpose"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row-choice > div.cookies-table-cell",
+    "x": 32,
+    "y": 2697,
+    "w": 170,
+    "h": 88,
+    "text": "preferred_language"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row-choice > div.cookies-table-cell",
+    "x": 202,
+    "y": 2697,
+    "w": 243,
+    "h": 88,
+    "text": "Language settings. We use this cookie to remember your preferred language settin"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 2801,
+    "w": 296,
+    "h": 240,
+    "text": ": These cookies collect information about how visitors interact with our website"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p > span",
+    "x": 64,
+    "y": 3059,
+    "w": 126,
+    "h": 19,
+    "text": "Matomo Cookies"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 3097,
+    "w": 296,
+    "h": 360,
+    "text": "This website uses Matomo (formerly Piwik), an open source software which enables"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 3473,
+    "w": 296,
+    "h": 144,
+    "text": "On behalf of ESO, Matomo will use this information for the purpose of evaluating"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > div.privacy-setting-toggle.privacy-matomo > span.privacy-option.privacy-option-off",
+    "x": 269,
+    "y": 3636,
+    "w": 39,
+    "h": 21,
+    "text": "OFF"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 3633,
+    "w": 296,
+    "h": 24,
+    "text": "Matomo cookies settings:"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 32,
+    "y": 3673,
+    "w": 197,
+    "h": 88,
+    "text": "Cookie ID/Name"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 229,
+    "y": 3673,
+    "w": 281,
+    "h": 88,
+    "text": "Description/Purpose"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 32,
+    "y": 3761,
+    "w": 197,
+    "h": 40,
+    "text": "Settings"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 32,
+    "y": 3801,
+    "w": 197,
+    "h": 40,
+    "text": "_pk_id"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 229,
+    "y": 3801,
+    "w": 281,
+    "h": 40,
+    "text": "Stores a unique visitor ID."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 32,
+    "y": 3841,
+    "w": 197,
+    "h": 64,
+    "text": "_pk_ses"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 229,
+    "y": 3841,
+    "w": 281,
+    "h": 64,
+    "text": "Session cookie temporarily stores data for the visit."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 32,
+    "y": 3905,
+    "w": 197,
+    "h": 88,
+    "text": "_pk_ref"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 229,
+    "y": 3905,
+    "w": 281,
+    "h": 88,
+    "text": "Stores attribution information (the referrer that brought the visitor to the web"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 32,
+    "y": 3993,
+    "w": 197,
+    "h": 136,
+    "text": "_pk_testcookie"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 229,
+    "y": 3993,
+    "w": 281,
+    "h": 136,
+    "text": "Temporary cookie to check if a visitor’s browser supports cookies (set in Intern"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 4145,
+    "w": 296,
+    "h": 96,
+    "text": ": some of our pages display content from external providers, e.g. YouTube."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 4257,
+    "w": 296,
+    "h": 72,
+    "text": "Such third-party services are outside of ESO control and may, at any time, chang"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 4345,
+    "w": 296,
+    "h": 264,
+    "text": ": Some videos on the ESO website are embedded from . We have enabled YouTube’s p"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p > a",
+    "x": 32,
+    "y": 4347,
+    "w": 59,
+    "h": 19,
+    "text": "youtube",
+    "href": "/t/terms"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p > a",
+    "x": 32,
+    "y": 4371,
+    "w": 288,
+    "h": 43,
+    "text": "eso’s official youtube channel",
+    "href": "/channel/UCIhYoC2VIAJqCkoIWNHBQ3Q"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p > a",
+    "x": 32,
+    "y": 4587,
+    "w": 247,
+    "h": 19,
+    "text": "embedding videos information page",
+    "href": "/youtube/answer/171780"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 4625,
+    "w": 296,
+    "h": 48,
+    "text": "Cookies can also be classified based on the following elements."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 4689,
+    "w": 296,
+    "h": 24,
+    "text": "Regarding the domain, there are:"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > ul.ul-privacy > li",
+    "x": 72,
+    "y": 4729,
+    "w": 256,
+    "h": 144,
+    "text": ", set by the website you are currently visiting. They are stored by the same dom"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > ul.ul-privacy > li",
+    "x": 72,
+    "y": 4873,
+    "w": 256,
+    "h": 72,
+    "text": ", set by a domain other than the one you are currently visiting."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 4961,
+    "w": 296,
+    "h": 24,
+    "text": "As for their duration, cookies can be:"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > ul.ul-privacy > li",
+    "x": 72,
+    "y": 5001,
+    "w": 256,
+    "h": 72,
+    "text": ", which are deleted when the user closes the browser;"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > ul.ul-privacy > li",
+    "x": 72,
+    "y": 5073,
+    "w": 256,
+    "h": 72,
+    "text": ", which stay on the user's device for a predetermined period of time."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > h2",
+    "x": 32,
+    "y": 5161,
+    "w": 296,
+    "h": 77,
+    "level": 2,
+    "text": "how to manage cookies"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 5246,
+    "w": 296,
+    "h": 96,
+    "text": ": You can modify your cookie choices for the ESO webpages at any time by clickin"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 5358,
+    "w": 296,
+    "h": 96,
+    "text": ": If you wish to delete cookies or instruct your browser to delete or block cook"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.ul-privacy > li > a",
+    "x": 72,
+    "y": 5472,
+    "w": 39,
+    "h": 19,
+    "text": "brave",
+    "href": "/hc/en-us/signin"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.ul-privacy > li > a",
+    "x": 72,
+    "y": 5496,
+    "w": 55,
+    "h": 19,
+    "text": "chrome",
+    "href": "/chrome/bin/answer.py"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.ul-privacy > li > a",
+    "x": 72,
+    "y": 5520,
+    "w": 36,
+    "h": 19,
+    "text": "edge",
+    "href": "/en-us/windows/manage-cookies-in-microsoft-edge-view-allow-block-delete-and-use-168dab11-0753-043d-7c16-ede5947fc64d"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.ul-privacy > li > a",
+    "x": 72,
+    "y": 5544,
+    "w": 45,
+    "h": 19,
+    "text": "firefox",
+    "href": "/en-US/kb/Blocking%20cookies"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.ul-privacy > li > a",
+    "x": 72,
+    "y": 5568,
+    "w": 39,
+    "h": 19,
+    "text": "safari",
+    "href": "/article.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 5606,
+    "w": 296,
+    "h": 96,
+    "text": "Please be aware that if you delete or decline cookies, certain functionalities o"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 5718,
+    "w": 296,
+    "h": 168,
+    "text": "You can set most browsers to prevent any cookies being placed on your device, bu"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > h2",
+    "x": 32,
+    "y": 5902,
+    "w": 296,
+    "h": 77,
+    "level": 2,
+    "text": "updates to the eso cookies policy"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 5987,
+    "w": 296,
+    "h": 72,
+    "text": "The ESO Cookies Policy may be subject to future updates, which will be made avai"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > h2",
+    "x": 32,
+    "y": 6075,
+    "w": 296,
+    "h": 77,
+    "level": 2,
+    "text": "additional information"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 6160,
+    "w": 296,
+    "h": 48,
+    "text": "For any queries related to cookies, please contact: pdprATesoDOTorg."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 32,
+    "y": 6224,
+    "w": 296,
+    "h": 96,
+    "text": "As ESO public webpages are managed by our Department of Communication, your ques"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > div.centered-container > button.privacy-button.save-settings",
+    "x": 64,
+    "y": 6352,
+    "w": 66,
+    "h": 40,
+    "text": "save"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > div.centered-container > button.privacy-button.cancel-settings",
+    "x": 199,
+    "y": 6352,
+    "w": 80,
+    "h": 40,
+    "text": "cancel"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 88,
+    "horizontal": 0,
+    "offPage": 60,
+    "textNodes": 236,
+    "controls": 38,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 24,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > p",
+     "text": "cookies are small pieces of data stored on your device by we",
+     "cutMin": 3,
+     "cutMax": 3
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 14,
+     "clipper": "div.privacy-settings",
+     "path": "div.cookies-table-container > div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+     "text": "csrftoken",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 12,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > p > span",
+     "text": "essential cookies (always active)",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "CONTROL SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 8,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > p > a",
+     "text": "youtube",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 8,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > p > a",
+     "text": "youtube",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 7,
+     "clipper": "div.privacy-settings",
+     "path": "div.cookies-table-container > div.cookies-table > div.cookies-table-row.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+     "text": "cookie id/name",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 4,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > h2",
+     "text": "categories of cookies we use",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 4,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > ul.ul-privacy > li",
+     "text": ", set by the website you are currently visiting. they are st",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > div.privacy-setting-toggle.privacy-matomo > span.privacy-option.privacy-option-on",
+     "text": "on",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > div.privacy-setting-toggle.privacy-matomo",
+     "text": "|",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > div.privacy-setting-toggle.privacy-matomo > span.privacy-option.privacy-option-off",
+     "text": "off",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "CONTROL SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > div.centered-container > button.privacy-button.save-settings",
+     "text": "save",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > div.centered-container > button.privacy-button.save-settings",
+     "text": "save",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "CONTROL SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > div.centered-container > button.privacy-button.cancel-settings",
+     "text": "cancel",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > div.centered-container > button.privacy-button.cancel-settings",
+     "text": "cancel",
+     "cutMin": null,
+     "cutMax": null
+    }
+   ]
+  }
+ },
+ "eds": {
+  "url": "https://main--26c59ee1--aemcoder.aem.page/telescope/dome",
+  "at": "2026-11-14T02:47:08.542Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 9842,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "span.navbar-brand.navbar-brand-main > div.brand-logo > a",
+    "x": 4,
+    "y": 0,
+    "w": 38,
+    "h": 50,
+    "text": "eso",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img.navbar-eso-logo",
+    "x": 4,
+    "y": 0,
+    "w": 38,
+    "h": 50,
+    "text": "eso",
+    "file": "media_175cb2986e8ee49e7c64e8a9df5fa3f1f9"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.navbar-brand.brand-social > div.desktop-top-sm-icons > a",
+    "x": 55,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on facebook",
+    "href": "/ESOAstronomy"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 55,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on facebook",
+    "file": "media_1f386e2b9f7ed0b34b2f603a73f839485d"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.navbar-brand.brand-social > div.desktop-top-sm-icons > a",
+    "x": 105,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on instagram",
+    "href": "/esoastronomy/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 105,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on instagram",
+    "file": "media_19faa7be92695e315cea4cad487aa3e15b"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.navbar-brand.brand-social > div.desktop-top-sm-icons > a",
+    "x": 155,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on linkedin",
+    "href": "/company/european-southern-observatory"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 155,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on linkedin",
+    "file": "media_15b4dfde77d1909c3b38baaf7167a2e3d4"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.navbar-brand.brand-social > div.desktop-top-sm-icons > a",
+    "x": 205,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on youtube",
+    "href": "/channel/UCIhYoC2VIAJqCkoIWNHBQ3Q"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 205,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on youtube",
+    "file": "media_101417719196c90d4b42a69d39754d790f"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "span.lang-links > p > a.lang-link",
+    "x": 246,
+    "y": 17,
+    "w": 14,
+    "h": 15,
+    "text": "en",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "span.lang-links > p > a.lang-link",
+    "x": 269,
+    "y": 17,
+    "w": 13,
+    "h": 15,
+    "text": "es",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header.block > nav#top-navbar > button.navbar-toggler",
+    "x": 300,
+    "y": 5,
+    "w": 56,
+    "h": 40,
+    "text": "toggle navigation"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header.block > nav#top-navbar > button.navbar-toggler",
+    "x": 300,
+    "y": 5,
+    "w": 56,
+    "h": 40,
+    "label": "toggle navigation",
+    "value": "toggle navigation",
+    "via": "trigger"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.big-header-media > picture > img.big-header-image",
+    "x": 0,
+    "y": 50,
+    "w": 360,
+    "h": 169,
+    "text": "",
+    "file": "media_17f6f7e1309abbb2963bd5cec0e02e45b6"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.big-header-logos > picture > img.big-header-eso-logo",
+    "x": 38,
+    "y": 58,
+    "w": 30,
+    "h": 39,
+    "text": "eso",
+    "file": "media_1a043431fda0378cd219e1a181f4b0998c"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.big-header-text > div.big-header-logos > p.esologo-text",
+    "x": 38,
+    "y": 103,
+    "w": 180,
+    "h": 23,
+    "text": "European Southern Observatory"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.big-header-text > div.big-header-title > h1#telescope",
+    "x": 38,
+    "y": 150,
+    "w": 284,
+    "h": 45,
+    "level": 1,
+    "text": "telescope"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page-intro.program > div.page-intro-image > img",
+    "x": 0,
+    "y": 219,
+    "w": 360,
+    "h": 169,
+    "text": "",
+    "file": "media_198af9d4c551facd177b752247f68ca8bc"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page-intro-textblock-inner > div.header-title > p",
+    "x": 38,
+    "y": 235,
+    "w": 322,
+    "h": 42,
+    "text": "Dome"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.header-quick-links > div.quick-links-label > p",
+    "x": 38,
+    "y": 309,
+    "w": 288,
+    "h": 21,
+    "text": "Quick Links:"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.quick-links-list > p > a",
+    "x": 38,
+    "y": 332,
+    "w": 166,
+    "h": 17,
+    "text": "astronomical performance",
+    "href": "/telescope/dome"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.quick-links-list > p > a",
+    "x": 38,
+    "y": 332,
+    "w": 240,
+    "h": 38,
+    "text": "enclosure structure",
+    "href": "/telescope/dome"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.intro > div.section-title-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 420,
+    "w": 145,
+    "h": 39,
+    "text": "In a Nutshell"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-title-paragraph.container-paragraph > div.share-bar.block > a.share-social-media-link.share-social-media-icons",
+    "x": 233,
+    "y": 421,
+    "w": 42,
+    "h": 38,
+    "text": "share on facebook",
+    "href": "/sharer/sharer.php"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.share-bar.block > a.share-social-media-link.share-social-media-icons > img",
+    "x": 238,
+    "y": 425,
+    "w": 33,
+    "h": 33,
+    "text": "share on facebook",
+    "file": "icon_share_1"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "span.share-menu > span.share-social-media.share-social-media-icons > img.share-social-media",
+    "x": 282,
+    "y": 425,
+    "w": 34,
+    "h": 33,
+    "text": "",
+    "file": "icon_share_3"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.intro > div.section-subtitle-paragraph.container-subtitle > p",
+    "x": 38,
+    "y": 483,
+    "w": 284,
+    "h": 166,
+    "text": "The giant ELT dome will house the telescope and its interior structure, providin"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.intro > div.section-text-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 669,
+    "w": 284,
+    "h": 195,
+    "text": "The dome will be about 80 metres high and have a diameter of about 93 metres, gi"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.intro > div.section-text-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 887,
+    "w": 284,
+    "h": 222,
+    "text": "The sensitive and delicate components of the most sophisticated telescope ground"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.intro > div.section-text-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 1125,
+    "w": 284,
+    "h": 249,
+    "text": "The ELT dome shelters the telescope in windy conditions during observations and "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.intro > div.section-text-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 1390,
+    "w": 284,
+    "h": 249,
+    "text": "The dome enclosure has a thermally insulated cladding made of aluminium, which a"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.intro > div.section-text-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 1656,
+    "w": 284,
+    "h": 330,
+    "text": "The pier of the dome is surrounded by an auxiliary building, with the instrument"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.intro > div.section-text-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 2002,
+    "w": 284,
+    "h": 168,
+    "text": "The overall building is protected against major earthquakes. Both the dome pier "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.intro > div.section-text-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 2186,
+    "w": 284,
+    "h": 87,
+    "text": "Please check the for recent news, images and videos of the ELT dome."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-text-paragraph.container-paragraph > p > a",
+    "x": 38,
+    "y": 2193,
+    "w": 255,
+    "h": 47,
+    "text": "news & multimedia section",
+    "href": "/media"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.lightlink-row > div.lightlink-media > a",
+    "x": 0,
+    "y": 2398,
+    "w": 360,
+    "h": 20,
+    "text": "",
+    "href": "/telescope/dome"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 0,
+    "y": 2325,
+    "w": 360,
+    "h": 169,
+    "text": "",
+    "file": "media_1fb608391fbb7e92efaab0ec6ae3f44017"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.internal-menu-title > p > a",
+    "x": 38,
+    "y": 2403,
+    "w": 145,
+    "h": 70,
+    "text": "astronomical performance",
+    "href": "/telescope/dome"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.lightlink-body > div.internal-menu-text > p",
+    "x": 38,
+    "y": 2510,
+    "w": 284,
+    "h": 135,
+    "text": "For precise astronomical observations that reach various target objects in the n"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.lightlink-body > div.internal-menu-text > p",
+    "x": 38,
+    "y": 2862,
+    "w": 284,
+    "h": 135,
+    "text": "From a windscreen to ventilation and air conditioning, the ELT enclosure require"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.lightlink-row.lightlink-row-reverse > div.lightlink-media > a",
+    "x": 0,
+    "y": 2750,
+    "w": 360,
+    "h": 20,
+    "text": "",
+    "href": "/telescope/dome"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 0,
+    "y": 2677,
+    "w": 360,
+    "h": 169,
+    "text": "",
+    "file": "media_1d844643e72ff73f60ff9148c8b3c4235c"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.internal-menu-title > p > a",
+    "x": 38,
+    "y": 2794,
+    "w": 221,
+    "h": 31,
+    "text": "enclosure structure",
+    "href": "/telescope/dome"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > div.section-title-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 3061,
+    "w": 284,
+    "h": 78,
+    "text": "Astronomical Performance"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > div.section-heading-paragraph.container-heading > p",
+    "x": 38,
+    "y": 3163,
+    "w": 284,
+    "h": 141,
+    "text": "For precise astronomical observations that reach various target objects in the n"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > div.section-text-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 3324,
+    "w": 284,
+    "h": 546,
+    "text": "The telescope needs to be able to track about the 1-degree zenithal avoidance lo"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > figure.article-image > a",
+    "x": 0,
+    "y": 3889,
+    "w": 360,
+    "h": 169,
+    "text": "",
+    "href": "/public/images/ELT5k-2-wide-cc2/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 0,
+    "y": 3889,
+    "w": 360,
+    "h": 169,
+    "text": "",
+    "file": "media_1f7f0bcff2cbebbc96f48c5b5644010c5b"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > div.section-text-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 4065,
+    "w": 284,
+    "h": 330,
+    "text": "To avoid vibration during the rotation of the enclosure, the rotating mechanism "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > div.section-title-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 4446,
+    "w": 284,
+    "h": 39,
+    "text": "Enclosure Structure"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > div.section-heading-paragraph.container-heading > p",
+    "x": 38,
+    "y": 4509,
+    "w": 284,
+    "h": 87,
+    "text": "The ELT dome is a giant, extending about 80 meters from the ground and measuring"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > div.section-text-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 4616,
+    "w": 284,
+    "h": 600,
+    "text": "The rotating enclosure, once fully equipped and finished, will have a mass of ar"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > div.section-text-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 5232,
+    "w": 284,
+    "h": 357,
+    "text": "The enclosure's slit doors, that open to allow observations of the night sky, mo"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > div.section-text-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 5606,
+    "w": 284,
+    "h": 195,
+    "text": "Engineers have carried out wind tunnel tests to compute the pressure forces acti"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > figure.article-image > a",
+    "x": 0,
+    "y": 5820,
+    "w": 360,
+    "h": 169,
+    "text": "",
+    "href": "/public/images/ELT4k-12-Night4-cc/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 0,
+    "y": 5820,
+    "w": 360,
+    "h": 169,
+    "text": "",
+    "file": "media_19da1ecb4e7203b1e55bd22b5006de1cfc"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > div.section-subtitle-paragraph.container-subtitle > p",
+    "x": 38,
+    "y": 5993,
+    "w": 284,
+    "h": 38,
+    "text": "Windscreen"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > div.section-text-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 6050,
+    "w": 284,
+    "h": 573,
+    "text": "Since the ELT dome has a large opening, it requires a windscreen to protect the "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.row-styles > div.section-subtitle-paragraph.container-subtitle > p",
+    "x": 38,
+    "y": 6851,
+    "w": 284,
+    "h": 70,
+    "text": "Ventilation and Air Conditioning"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.row-styles > div.section-text-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 6940,
+    "w": 284,
+    "h": 357,
+    "text": "The ELT dome has been designed to allow sufficient ventilation for the telescope"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.row-styles > div.section-text-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 7314,
+    "w": 284,
+    "h": 357,
+    "text": "Engineers have performed simulations to study the airflow in and around the dome"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.row-styles > div.section-text-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 7687,
+    "w": 284,
+    "h": 384,
+    "text": "A powerful air conditioning system allows the regulation of air temperature insi"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.row-styles > div.section-text-paragraph.container-paragraph > p",
+    "x": 38,
+    "y": 8088,
+    "w": 284,
+    "h": 276,
+    "text": "Cooling the telescope during the day is critical for operation. The air conditio"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 50,
+    "y": 8445,
+    "w": 131,
+    "h": 20,
+    "text": "Height of the dome"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 206,
+    "y": 8445,
+    "w": 34,
+    "h": 20,
+    "text": "80 m"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 50,
+    "y": 8497,
+    "w": 106,
+    "h": 47,
+    "text": "Diameter of the dome"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 206,
+    "y": 8497,
+    "w": 34,
+    "h": 20,
+    "text": "93 m"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 50,
+    "y": 8576,
+    "w": 114,
+    "h": 47,
+    "text": "Diameter of the auxiliary building"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 206,
+    "y": 8576,
+    "w": 43,
+    "h": 20,
+    "text": "117 m"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 50,
+    "y": 8655,
+    "w": 131,
+    "h": 47,
+    "text": "Height of the dome pier"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 206,
+    "y": 8655,
+    "w": 34,
+    "h": 20,
+    "text": "11 m"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 50,
+    "y": 8734,
+    "w": 123,
+    "h": 47,
+    "text": "Mass of the rotating enclosure"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 206,
+    "y": 8734,
+    "w": 43,
+    "h": 20,
+    "text": "6100 t"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 50,
+    "y": 8813,
+    "w": 126,
+    "h": 47,
+    "text": "Number of trolleys for rotation"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 50,
+    "y": 8892,
+    "w": 128,
+    "h": 47,
+    "text": "Dimension of each trolley"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 206,
+    "y": 8892,
+    "w": 58,
+    "h": 20,
+    "text": "4x2x3 m"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 50,
+    "y": 8971,
+    "w": 92,
+    "h": 47,
+    "text": "Mass of each trolley"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 206,
+    "y": 8971,
+    "w": 26,
+    "h": 20,
+    "text": "27 t"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 50,
+    "y": 9050,
+    "w": 128,
+    "h": 47,
+    "text": "Length of the track of dome"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 206,
+    "y": 9050,
+    "w": 43,
+    "h": 20,
+    "text": "270 m"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 50,
+    "y": 9129,
+    "w": 116,
+    "h": 47,
+    "text": "Door dimensions (w x h)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 206,
+    "y": 9129,
+    "w": 59,
+    "h": 20,
+    "text": "23x55 m"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 50,
+    "y": 9208,
+    "w": 127,
+    "h": 20,
+    "text": "Mass of each door"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 206,
+    "y": 9208,
+    "w": 34,
+    "h": 20,
+    "text": "600 t"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 50,
+    "y": 9260,
+    "w": 124,
+    "h": 74,
+    "text": "Number of ventilation louvers in dome pier"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 50,
+    "y": 9366,
+    "w": 124,
+    "h": 47,
+    "text": "Area of the ventilation louvers"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 206,
+    "y": 9366,
+    "w": 58,
+    "h": 20,
+    "text": "1240 m"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 50,
+    "y": 9445,
+    "w": 128,
+    "h": 47,
+    "text": "Number of seismic isolators"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 206,
+    "y": 9445,
+    "w": 26,
+    "h": 20,
+    "text": "118"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 50,
+    "y": 9524,
+    "w": 126,
+    "h": 128,
+    "text": "Heating, ventilation, and air conditioning system cooling power"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "tr > td > p",
+    "x": 206,
+    "y": 9524,
+    "w": 40,
+    "h": 20,
+    "text": "3 MW"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer > div.site-footer-row > p.site-footer-brand.footer-item",
+    "x": -15,
+    "y": 9737,
+    "w": 360,
+    "h": 34,
+    "text": "| ELT ©"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-row > p.site-footer-brand.footer-item > a",
+    "x": 118,
+    "y": 9737,
+    "w": 25,
+    "h": 18,
+    "text": "eso",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-links.footer-item > div > p",
+    "x": 0,
+    "y": 9771,
+    "w": 330,
+    "h": 55,
+    "text": "| | | | |"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > p > a",
+    "x": 23,
+    "y": 9772,
+    "w": 41,
+    "h": 15,
+    "text": "credits",
+    "href": "/credits/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > p > a",
+    "x": 83,
+    "y": 9772,
+    "w": 60,
+    "h": 15,
+    "text": "contact us",
+    "href": "information@eso.org"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > p > a",
+    "x": 163,
+    "y": 9772,
+    "w": 128,
+    "h": 15,
+    "text": "subscribe to eso news",
+    "href": "/public/outreach/newsletters/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > p > a",
+    "x": 12,
+    "y": 9790,
+    "w": 124,
+    "h": 15,
+    "text": "accelerated by cdn77",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > p > a",
+    "x": 155,
+    "y": 9790,
+    "w": 106,
+    "h": 15,
+    "text": "terms & conditions",
+    "href": "/public/about-eso/privacy/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > p > a",
+    "x": 115,
+    "y": 9790,
+    "w": 203,
+    "h": 33,
+    "text": "cookie settings and policy",
+    "href": "/telescope/dome"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 88,
+    "controls": 25,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 1
+   },
+   "eds": {
+    "link": 10,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 58,
+    "textHidden": 0,
+    "image": 9,
+    "imageHidden": 0
+   },
+   "findings": [
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "COUNT TEXT",
+    "COUNT IMAGES"
+   ]
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h1 \"telescope\" (y 150) has no origin heading",
+   "text": "telescope"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "×2 \"astronomical performance\" served in band \"(top)\", no origin link or button",
+   "band": 0,
+   "n": 2,
+   "text": "astronomical performance"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "×2 \"enclosure structure\" served in band \"(top)\", no origin link or button",
+   "band": 0,
+   "n": 2,
+   "text": "enclosure structure"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"share on facebook\" served in band \"(top)\", no origin link or button",
+   "band": 0,
+   "n": 1,
+   "text": "share on facebook"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"news & multimedia section\" served in band \"(top)\", no origin link or button",
+   "band": 0,
+   "n": 1,
+   "text": "news & multimedia section"
+  },
+  {
+   "sev": "🟡",
+   "kind": "COUNT TEXT",
+   "msg": "band \"(top)\": 0 origin → 58 served visible",
+   "band": 0,
+   "origin": 0,
+   "eds": 58,
+   "hidden": 0
+  },
+  {
+   "sev": "🟡",
+   "kind": "COUNT IMAGES",
+   "msg": "band \"(top)\": 1 origin → 9 served visible",
+   "band": 0,
+   "origin": 1,
+   "eds": 9,
+   "hidden": 0
+  }
+ ],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 1,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 6,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 2,
+  "findings": 7,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 246,
+    "y": 17,
+    "w": 14,
+    "h": 15
+   },
+   {
+    "x": 259,
+    "y": 17,
+    "w": 10,
+    "h": 15
+   },
+   {
+    "x": 269,
+    "y": 17,
+    "w": 13,
+    "h": 15
+   },
+   {
+    "x": 38,
+    "y": 104,
+    "w": 21,
+    "h": 6
+   },
+   {
+    "x": 38,
+    "y": 112,
+    "w": 20,
+    "h": 6
+   },
+   {
+    "x": 38,
+    "y": 119,
+    "w": 26,
+    "h": 6
+   },
+   {
+    "x": 38,
+    "y": 154,
+    "w": 130,
+    "h": 36
+   },
+   {
+    "x": 38,
+    "y": 239,
+    "w": 75,
+    "h": 34
+   },
+   {
+    "x": 38,
+    "y": 311,
+    "w": 77,
+    "h": 17
+   },
+   {
+    "x": 38,
+    "y": 332,
+    "w": 166,
+    "h": 17
+   },
+   {
+    "x": 203,
+    "y": 332,
+    "w": 11,
+    "h": 17
+   },
+   {
+    "x": 214,
+    "y": 332,
+    "w": 62,
+    "h": 17
+   },
+   {
+    "x": 38,
+    "y": 353,
+    "w": 58,
+    "h": 17
+   },
+   {
+    "x": 38,
+    "y": 424,
+    "w": 144,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 490,
+    "w": 281,
+    "h": 24
+   },
+   {
+    "x": 38,
+    "y": 522,
+    "w": 263,
+    "h": 24
+   },
+   {
+    "x": 38,
+    "y": 554,
+    "w": 280,
+    "h": 24
+   },
+   {
+    "x": 38,
+    "y": 586,
+    "w": 278,
+    "h": 24
+   },
+   {
+    "x": 38,
+    "y": 618,
+    "w": 246,
+    "h": 24
+   },
+   {
+    "x": 38,
+    "y": 676,
+    "w": 269,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 703,
+    "w": 280,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 730,
+    "w": 273,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 757,
+    "w": 278,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 784,
+    "w": 218,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 811,
+    "w": 231,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 838,
+    "w": 210,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 894,
+    "w": 268,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 921,
+    "w": 245,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 948,
+    "w": 275,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 975,
+    "w": 225,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1002,
+    "w": 232,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1029,
+    "w": 268,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1056,
+    "w": 267,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1083,
+    "w": 152,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1132,
+    "w": 270,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1159,
+    "w": 255,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1186,
+    "w": 253,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1213,
+    "w": 244,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1240,
+    "w": 227,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1267,
+    "w": 274,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1294,
+    "w": 259,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1321,
+    "w": 236,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1348,
+    "w": 282,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1375,
+    "w": 27,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1425,
+    "w": 249,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1452,
+    "w": 264,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1479,
+    "w": 275,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1506,
+    "w": 266,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1533,
+    "w": 266,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1560,
+    "w": 267,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1587,
+    "w": 250,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1614,
+    "w": 274,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1641,
+    "w": 76,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1690,
+    "w": 284,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1717,
+    "w": 252,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1744,
+    "w": 247,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1771,
+    "w": 222,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1798,
+    "w": 259,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1825,
+    "w": 254,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1852,
+    "w": 276,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1879,
+    "w": 239,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1906,
+    "w": 272,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1933,
+    "w": 258,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1960,
+    "w": 257,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 1987,
+    "w": 55,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2036,
+    "w": 271,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2063,
+    "w": 270,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2090,
+    "w": 267,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2117,
+    "w": 228,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2144,
+    "w": 242,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2171,
+    "w": 70,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2221,
+    "w": 122,
+    "h": 19
+   },
+   {
+    "x": 160,
+    "y": 2221,
+    "w": 132,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2248,
+    "w": 50,
+    "h": 19
+   },
+   {
+    "x": 87,
+    "y": 2248,
+    "w": 200,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2275,
+    "w": 167,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2430,
+    "w": 146,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 2469,
+    "w": 143,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 2544,
+    "w": 261,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2578,
+    "w": 263,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2611,
+    "w": 260,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2645,
+    "w": 204,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2896,
+    "w": 273,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2929,
+    "w": 274,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2963,
+    "w": 223,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2997,
+    "w": 199,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 2821,
+    "w": 220,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 3092,
+    "w": 152,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 3131,
+    "w": 148,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 3197,
+    "w": 282,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3224,
+    "w": 257,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3251,
+    "w": 262,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3278,
+    "w": 268,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3330,
+    "w": 273,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3357,
+    "w": 264,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3384,
+    "w": 280,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3411,
+    "w": 265,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3438,
+    "w": 271,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3465,
+    "w": 275,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3492,
+    "w": 274,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3519,
+    "w": 240,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3546,
+    "w": 260,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3573,
+    "w": 262,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3600,
+    "w": 247,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3627,
+    "w": 227,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3654,
+    "w": 229,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3681,
+    "w": 243,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3708,
+    "w": 247,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3735,
+    "w": 256,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3762,
+    "w": 252,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3789,
+    "w": 265,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3816,
+    "w": 245,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3843,
+    "w": 55,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4071,
+    "w": 267,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4098,
+    "w": 283,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4125,
+    "w": 230,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4152,
+    "w": 243,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4179,
+    "w": 206,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4206,
+    "w": 276,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4233,
+    "w": 271,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4260,
+    "w": 276,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4287,
+    "w": 257,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4314,
+    "w": 284,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4341,
+    "w": 283,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4368,
+    "w": 262,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4450,
+    "w": 229,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 4516,
+    "w": 258,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4543,
+    "w": 276,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4570,
+    "w": 245,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4623,
+    "w": 227,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4650,
+    "w": 273,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4677,
+    "w": 278,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4704,
+    "w": 280,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4731,
+    "w": 217,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4758,
+    "w": 271,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4785,
+    "w": 257,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4812,
+    "w": 262,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4839,
+    "w": 247,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4866,
+    "w": 219,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4893,
+    "w": 257,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4920,
+    "w": 258,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4947,
+    "w": 283,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4974,
+    "w": 266,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 5001,
+    "w": 282,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 5028,
+    "w": 244,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 5055,
+    "w": 277,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 5082,
+    "w": 262,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 5109,
+    "w": 255,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 5136,
+    "w": 241,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 5163,
+    "w": 217,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 5190,
+    "w": 78,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 5239,
+    "w": 268,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 5266,
+    "w": 283,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 5293,
+    "w": 249,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 5320,
+    "w": 249,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 5347,
+    "w": 277,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 5374,
+    "w": 268,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 5401,
+    "w": 272,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 5428,
+    "w": 279,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 5455,
+    "w": 279,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 5482,
+    "w": 219,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 5509,
+    "w": 249,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 5536,
+    "w": 191,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 5563,
+    "w": 259,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 5612,
+    "w": 266,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 5639,
+    "w": 253,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 5666,
+    "w": 251,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 5693,
+    "w": 284,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 5720,
+    "w": 272,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 5747,
+    "w": 202,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 5774,
+    "w": 203,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 5999,
+    "w": 110,
+    "h": 24
+   },
+   {
+    "x": 38,
+    "y": 6057,
+    "w": 282,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 6084,
+    "w": 260,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 6111,
+    "w": 241,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 6138,
+    "w": 280,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 6165,
+    "w": 238,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 6192,
+    "w": 237,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 6219,
+    "w": 249,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 6246,
+    "w": 257,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 6273,
+    "w": 283,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 6300,
+    "w": 245,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 6327,
+    "w": 278,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 6354,
+    "w": 257,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 6381,
+    "w": 225,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 6408,
+    "w": 237,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 6435,
+    "w": 235,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 6462,
+    "w": 212,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 6489,
+    "w": 214,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 6516,
+    "w": 269,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 6543,
+    "w": 262,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 6570,
+    "w": 228,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 6597,
+    "w": 58,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 6857,
+    "w": 167,
+    "h": 24
+   },
+   {
+    "x": 38,
+    "y": 6889,
+    "w": 118,
+    "h": 24
+   },
+   {
+    "x": 38,
+    "y": 6947,
+    "w": 253,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 6974,
+    "w": 221,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 7001,
+    "w": 247,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 7028,
+    "w": 252,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 7055,
+    "w": 205,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 7082,
+    "w": 273,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 7109,
+    "w": 277,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 7136,
+    "w": 278,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 7163,
+    "w": 256,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 7190,
+    "w": 270,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 7217,
+    "w": 281,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 7244,
+    "w": 238,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 7271,
+    "w": 44,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 7320,
+    "w": 280,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 7347,
+    "w": 282,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 7374,
+    "w": 271,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 7401,
+    "w": 276,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 7428,
+    "w": 267,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 7455,
+    "w": 281,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 7482,
+    "w": 275,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 7509,
+    "w": 255,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 7536,
+    "w": 263,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 7563,
+    "w": 268,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 7590,
+    "w": 260,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 7617,
+    "w": 250,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 7644,
+    "w": 192,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 7694,
+    "w": 283,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 7721,
+    "w": 263,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 7748,
+    "w": 238,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 7775,
+    "w": 280,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 7802,
+    "w": 253,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 7829,
+    "w": 256,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 7856,
+    "w": 274,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 7883,
+    "w": 244,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 7910,
+    "w": 265,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 7937,
+    "w": 270,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 7964,
+    "w": 276,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 7991,
+    "w": 279,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 8018,
+    "w": 269,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 8045,
+    "w": 133,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 8094,
+    "w": 268,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 8121,
+    "w": 279,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 8148,
+    "w": 284,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 8175,
+    "w": 282,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 8202,
+    "w": 280,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 8229,
+    "w": 257,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 8256,
+    "w": 278,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 8283,
+    "w": 271,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 8310,
+    "w": 270,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 8337,
+    "w": 192,
+    "h": 19
+   },
+   {
+    "x": 50,
+    "y": 8446,
+    "w": 132,
+    "h": 19
+   },
+   {
+    "x": 206,
+    "y": 8446,
+    "w": 36,
+    "h": 19
+   },
+   {
+    "x": 50,
+    "y": 8498,
+    "w": 105,
+    "h": 19
+   },
+   {
+    "x": 50,
+    "y": 8525,
+    "w": 44,
+    "h": 19
+   },
+   {
+    "x": 206,
+    "y": 8498,
+    "w": 36,
+    "h": 19
+   },
+   {
+    "x": 50,
+    "y": 8577,
+    "w": 105,
+    "h": 19
+   },
+   {
+    "x": 50,
+    "y": 8604,
+    "w": 117,
+    "h": 19
+   },
+   {
+    "x": 206,
+    "y": 8577,
+    "w": 44,
+    "h": 19
+   },
+   {
+    "x": 50,
+    "y": 8656,
+    "w": 132,
+    "h": 19
+   },
+   {
+    "x": 50,
+    "y": 8683,
+    "w": 30,
+    "h": 19
+   },
+   {
+    "x": 206,
+    "y": 8656,
+    "w": 36,
+    "h": 19
+   },
+   {
+    "x": 50,
+    "y": 8735,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 50,
+    "y": 8762,
+    "w": 127,
+    "h": 19
+   },
+   {
+    "x": 206,
+    "y": 8735,
+    "w": 45,
+    "h": 19
+   },
+   {
+    "x": 50,
+    "y": 8814,
+    "w": 125,
+    "h": 19
+   },
+   {
+    "x": 50,
+    "y": 8841,
+    "w": 79,
+    "h": 19
+   },
+   {
+    "x": 206,
+    "y": 8814,
+    "w": 18,
+    "h": 19
+   },
+   {
+    "x": 50,
+    "y": 8893,
+    "w": 128,
+    "h": 19
+   },
+   {
+    "x": 50,
+    "y": 8920,
+    "w": 45,
+    "h": 19
+   },
+   {
+    "x": 206,
+    "y": 8893,
+    "w": 60,
+    "h": 19
+   },
+   {
+    "x": 50,
+    "y": 8972,
+    "w": 92,
+    "h": 19
+   },
+   {
+    "x": 50,
+    "y": 8999,
+    "w": 45,
+    "h": 19
+   },
+   {
+    "x": 206,
+    "y": 8972,
+    "w": 27,
+    "h": 19
+   },
+   {
+    "x": 50,
+    "y": 9051,
+    "w": 129,
+    "h": 19
+   },
+   {
+    "x": 50,
+    "y": 9078,
+    "w": 62,
+    "h": 19
+   },
+   {
+    "x": 206,
+    "y": 9051,
+    "w": 44,
+    "h": 19
+   },
+   {
+    "x": 50,
+    "y": 9130,
+    "w": 116,
+    "h": 19
+   },
+   {
+    "x": 50,
+    "y": 9157,
+    "w": 49,
+    "h": 19
+   },
+   {
+    "x": 206,
+    "y": 9130,
+    "w": 61,
+    "h": 19
+   },
+   {
+    "x": 50,
+    "y": 9209,
+    "w": 92,
+    "h": 19
+   },
+   {
+    "x": 50,
+    "y": 9236,
+    "w": 36,
+    "h": 19
+   },
+   {
+    "x": 206,
+    "y": 9209,
+    "w": 36,
+    "h": 19
+   },
+   {
+    "x": 50,
+    "y": 9288,
+    "w": 73,
+    "h": 19
+   },
+   {
+    "x": 50,
+    "y": 9315,
+    "w": 122,
+    "h": 19
+   },
+   {
+    "x": 50,
+    "y": 9342,
+    "w": 90,
+    "h": 19
+   },
+   {
+    "x": 206,
+    "y": 9288,
+    "w": 18,
+    "h": 19
+   },
+   {
+    "x": 50,
+    "y": 9394,
+    "w": 75,
+    "h": 19
+   },
+   {
+    "x": 50,
+    "y": 9421,
+    "w": 126,
+    "h": 19
+   },
+   {
+    "x": 206,
+    "y": 9394,
+    "w": 53,
+    "h": 19
+   },
+   {
+    "x": 260,
+    "y": 9391,
+    "w": 7,
+    "h": 15
+   },
+   {
+    "x": 50,
+    "y": 9473,
+    "w": 129,
+    "h": 19
+   },
+   {
+    "x": 50,
+    "y": 9500,
+    "w": 61,
+    "h": 19
+   },
+   {
+    "x": 206,
+    "y": 9473,
+    "w": 31,
+    "h": 19
+   },
+   {
+    "x": 50,
+    "y": 9552,
+    "w": 58,
+    "h": 19
+   },
+   {
+    "x": 50,
+    "y": 9579,
+    "w": 124,
+    "h": 19
+   },
+   {
+    "x": 50,
+    "y": 9606,
+    "w": 84,
+    "h": 19
+   },
+   {
+    "x": 50,
+    "y": 9633,
+    "w": 103,
+    "h": 19
+   },
+   {
+    "x": 50,
+    "y": 9660,
+    "w": 48,
+    "h": 19
+   },
+   {
+    "x": 206,
+    "y": 9552,
+    "w": 46,
+    "h": 19
+   },
+   {
+    "x": 119,
+    "y": 9764,
+    "w": 24,
+    "h": 15
+   },
+   {
+    "x": 142,
+    "y": 9764,
+    "w": 42,
+    "h": 15
+   },
+   {
+    "x": 184,
+    "y": 9764,
+    "w": 27,
+    "h": 15
+   },
+   {
+    "x": 23,
+    "y": 9798,
+    "w": 41,
+    "h": 15
+   },
+   {
+    "x": 63,
+    "y": 9798,
+    "w": 20,
+    "h": 15
+   },
+   {
+    "x": 83,
+    "y": 9798,
+    "w": 61,
+    "h": 15
+   },
+   {
+    "x": 144,
+    "y": 9798,
+    "w": 20,
+    "h": 15
+   },
+   {
+    "x": 163,
+    "y": 9798,
+    "w": 128,
+    "h": 15
+   },
+   {
+    "x": 291,
+    "y": 9798,
+    "w": 16,
+    "h": 15
+   },
+   {
+    "x": 13,
+    "y": 9817,
+    "w": 123,
+    "h": 15
+   },
+   {
+    "x": 136,
+    "y": 9817,
+    "w": 20,
+    "h": 15
+   },
+   {
+    "x": 156,
+    "y": 9817,
+    "w": 105,
+    "h": 15
+   },
+   {
+    "x": 261,
+    "y": 9817,
+    "w": 20,
+    "h": 15
+   },
+   {
+    "x": 281,
+    "y": 9817,
+    "w": 37,
+    "h": 15
+   },
+   {
+    "x": 115,
+    "y": 9835,
+    "w": 99,
+    "h": 15
+   },
+   {
+    "x": 76,
+    "y": 1191,
+    "w": 180,
+    "h": 49
+   },
+   {
+    "x": 110,
+    "y": 1239,
+    "w": 140,
+    "h": 49
+   },
+   {
+    "x": 16,
+    "y": 1298,
+    "w": 262,
+    "h": 20
+   },
+   {
+    "x": 16,
+    "y": 1322,
+    "w": 270,
+    "h": 20
+   },
+   {
+    "x": 16,
+    "y": 1346,
+    "w": 296,
+    "h": 20
+   },
+   {
+    "x": 16,
+    "y": 1370,
+    "w": 255,
+    "h": 20
+   },
+   {
+    "x": 16,
+    "y": 1394,
+    "w": 306,
+    "h": 20
+   },
+   {
+    "x": 16,
+    "y": 1418,
+    "w": 302,
+    "h": 20
+   },
+   {
+    "x": 16,
+    "y": 1442,
+    "w": 227,
+    "h": 20
+   },
+   {
+    "x": 16,
+    "y": 1498,
+    "w": 327,
+    "h": 20
+   },
+   {
+    "x": 16,
+    "y": 1522,
+    "w": 325,
+    "h": 20
+   },
+   {
+    "x": 16,
+    "y": 1546,
+    "w": 51,
+    "h": 20
+   },
+   {
+    "x": 145,
+    "y": 1594,
+    "w": 69,
+    "h": 19
+   },
+   {
+    "x": 75,
+    "y": 1666,
+    "w": 210,
+    "h": 19
+   },
+   {
+    "x": 88,
+    "y": 1738,
+    "w": 184,
+    "h": 19
+   },
+   {
+    "x": 65,
+    "y": 1005,
+    "w": 230,
+    "h": 49
+   },
+   {
+    "x": 130,
+    "y": 1053,
+    "w": 100,
+    "h": 49
+   },
+   {
+    "x": 32,
+    "y": 1136,
+    "w": 210,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1160,
+    "w": 268,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1184,
+    "w": 255,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1208,
+    "w": 290,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1232,
+    "w": 291,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1256,
+    "w": 258,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1280,
+    "w": 257,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1304,
+    "w": 290,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1328,
+    "w": 99,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1368,
+    "w": 285,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1392,
+    "w": 292,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1416,
+    "w": 278,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1440,
+    "w": 289,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1464,
+    "w": 290,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1488,
+    "w": 49,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1525,
+    "w": 256,
+    "h": 39
+   },
+   {
+    "x": 32,
+    "y": 1574,
+    "w": 293,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1598,
+    "w": 267,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1622,
+    "w": 222,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1646,
+    "w": 237,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1670,
+    "w": 277,
+    "h": 19
+   },
+   {
+    "x": 32,
+    "y": 1694,
+    "w": 79,
+    "h": 19
+   }
+  ],
+  "eds": [
+   {
+    "x": 246,
+    "y": 17,
+    "w": 14,
+    "h": 15
+   },
+   {
+    "x": 259,
+    "y": 17,
+    "w": 10,
+    "h": 15
+   },
+   {
+    "x": 269,
+    "y": 17,
+    "w": 13,
+    "h": 15
+   },
+   {
+    "x": 38,
+    "y": 104,
+    "w": 21,
+    "h": 6
+   },
+   {
+    "x": 38,
+    "y": 112,
+    "w": 20,
+    "h": 6
+   },
+   {
+    "x": 38,
+    "y": 119,
+    "w": 26,
+    "h": 6
+   },
+   {
+    "x": 38,
+    "y": 154,
+    "w": 131,
+    "h": 36
+   },
+   {
+    "x": 38,
+    "y": 239,
+    "w": 75,
+    "h": 34
+   },
+   {
+    "x": 38,
+    "y": 311,
+    "w": 77,
+    "h": 17
+   },
+   {
+    "x": 38,
+    "y": 332,
+    "w": 166,
+    "h": 17
+   },
+   {
+    "x": 204,
+    "y": 332,
+    "w": 11,
+    "h": 17
+   },
+   {
+    "x": 215,
+    "y": 332,
+    "w": 63,
+    "h": 17
+   },
+   {
+    "x": 38,
+    "y": 353,
+    "w": 57,
+    "h": 17
+   },
+   {
+    "x": 38,
+    "y": 424,
+    "w": 145,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 490,
+    "w": 283,
+    "h": 24
+   },
+   {
+    "x": 38,
+    "y": 522,
+    "w": 264,
+    "h": 24
+   },
+   {
+    "x": 38,
+    "y": 554,
+    "w": 283,
+    "h": 24
+   },
+   {
+    "x": 38,
+    "y": 586,
+    "w": 279,
+    "h": 24
+   },
+   {
+    "x": 38,
+    "y": 618,
+    "w": 243,
+    "h": 24
+   },
+   {
+    "x": 38,
+    "y": 675,
+    "w": 267,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 702,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 729,
+    "w": 273,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 756,
+    "w": 274,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 783,
+    "w": 217,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 810,
+    "w": 230,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 837,
+    "w": 210,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 893,
+    "w": 267,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 920,
+    "w": 242,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 947,
+    "w": 273,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 974,
+    "w": 226,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1001,
+    "w": 232,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1028,
+    "w": 267,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1055,
+    "w": 264,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1082,
+    "w": 151,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1131,
+    "w": 272,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1158,
+    "w": 283,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1185,
+    "w": 280,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1212,
+    "w": 271,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1239,
+    "w": 245,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1266,
+    "w": 262,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1293,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1320,
+    "w": 222,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1347,
+    "w": 199,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1397,
+    "w": 250,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1424,
+    "w": 263,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1451,
+    "w": 273,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1478,
+    "w": 263,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1505,
+    "w": 267,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1532,
+    "w": 266,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1559,
+    "w": 250,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1586,
+    "w": 273,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1613,
+    "w": 76,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1662,
+    "w": 283,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1689,
+    "w": 253,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1716,
+    "w": 249,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1743,
+    "w": 219,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1770,
+    "w": 261,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1797,
+    "w": 253,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1824,
+    "w": 274,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1851,
+    "w": 238,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1878,
+    "w": 272,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1905,
+    "w": 255,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1932,
+    "w": 255,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 1959,
+    "w": 54,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2008,
+    "w": 273,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2035,
+    "w": 267,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2062,
+    "w": 267,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2089,
+    "w": 224,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2116,
+    "w": 239,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2143,
+    "w": 71,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2193,
+    "w": 122,
+    "h": 20
+   },
+   {
+    "x": 160,
+    "y": 2193,
+    "w": 132,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2220,
+    "w": 49,
+    "h": 20
+   },
+   {
+    "x": 87,
+    "y": 2220,
+    "w": 199,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2247,
+    "w": 166,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2403,
+    "w": 145,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 2442,
+    "w": 144,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 2516,
+    "w": 261,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2550,
+    "w": 262,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2583,
+    "w": 257,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2617,
+    "w": 206,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2868,
+    "w": 274,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2902,
+    "w": 275,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2935,
+    "w": 219,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2969,
+    "w": 199,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 2794,
+    "w": 221,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 3065,
+    "w": 151,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 3104,
+    "w": 150,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 3170,
+    "w": 185,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3197,
+    "w": 282,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3224,
+    "w": 278,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3251,
+    "w": 247,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3278,
+    "w": 78,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 3330,
+    "w": 271,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3357,
+    "w": 263,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3384,
+    "w": 277,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3411,
+    "w": 266,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3438,
+    "w": 271,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3465,
+    "w": 273,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3492,
+    "w": 273,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3519,
+    "w": 237,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3546,
+    "w": 259,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3573,
+    "w": 260,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3600,
+    "w": 248,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3627,
+    "w": 228,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3654,
+    "w": 228,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3681,
+    "w": 242,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3708,
+    "w": 248,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3735,
+    "w": 253,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3762,
+    "w": 249,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3789,
+    "w": 263,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3816,
+    "w": 243,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 3843,
+    "w": 55,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4071,
+    "w": 267,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4098,
+    "w": 282,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4125,
+    "w": 230,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4152,
+    "w": 281,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4179,
+    "w": 266,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4206,
+    "w": 264,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4233,
+    "w": 231,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4260,
+    "w": 249,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4287,
+    "w": 283,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4314,
+    "w": 244,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4341,
+    "w": 266,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4368,
+    "w": 261,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4450,
+    "w": 230,
+    "h": 31
+   },
+   {
+    "x": 38,
+    "y": 4517,
+    "w": 259,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4544,
+    "w": 275,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4571,
+    "w": 246,
+    "h": 19
+   },
+   {
+    "x": 38,
+    "y": 4622,
+    "w": 228,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4649,
+    "w": 273,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4676,
+    "w": 275,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4703,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4730,
+    "w": 215,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4757,
+    "w": 270,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4784,
+    "w": 255,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4811,
+    "w": 258,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4838,
+    "w": 247,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4865,
+    "w": 218,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4892,
+    "w": 256,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4919,
+    "w": 257,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4946,
+    "w": 281,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 4973,
+    "w": 264,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 5000,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 5027,
+    "w": 243,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 5054,
+    "w": 274,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 5081,
+    "w": 262,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 5108,
+    "w": 255,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 5135,
+    "w": 240,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 5162,
+    "w": 219,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 5189,
+    "w": 77,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 5238,
+    "w": 265,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 5265,
+    "w": 281,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 5292,
+    "w": 249,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 5319,
+    "w": 245,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 5346,
+    "w": 274,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 5373,
+    "w": 268,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 5400,
+    "w": 269,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 5427,
+    "w": 278,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 5454,
+    "w": 274,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 5481,
+    "w": 219,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 5508,
+    "w": 248,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 5535,
+    "w": 194,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 5562,
+    "w": 258,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 5612,
+    "w": 267,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 5639,
+    "w": 250,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 5666,
+    "w": 250,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 5693,
+    "w": 230,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 5720,
+    "w": 264,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 5747,
+    "w": 269,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 5774,
+    "w": 201,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 6000,
+    "w": 110,
+    "h": 24
+   },
+   {
+    "x": 38,
+    "y": 6057,
+    "w": 283,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 6084,
+    "w": 258,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 6111,
+    "w": 239,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 6138,
+    "w": 278,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 6165,
+    "w": 237,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 6192,
+    "w": 235,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 6219,
+    "w": 249,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 6246,
+    "w": 254,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 6273,
+    "w": 281,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 6300,
+    "w": 243,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 6327,
+    "w": 278,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 6354,
+    "w": 255,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 6381,
+    "w": 220,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 6408,
+    "w": 236,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 6435,
+    "w": 238,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 6462,
+    "w": 212,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 6489,
+    "w": 213,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 6516,
+    "w": 268,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 6543,
+    "w": 263,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 6570,
+    "w": 227,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 6597,
+    "w": 58,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 6858,
+    "w": 170,
+    "h": 24
+   },
+   {
+    "x": 38,
+    "y": 6890,
+    "w": 120,
+    "h": 24
+   },
+   {
+    "x": 38,
+    "y": 6947,
+    "w": 253,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 6974,
+    "w": 222,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 7001,
+    "w": 243,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 7028,
+    "w": 252,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 7055,
+    "w": 203,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 7082,
+    "w": 271,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 7109,
+    "w": 278,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 7136,
+    "w": 278,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 7163,
+    "w": 283,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 7190,
+    "w": 241,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 7217,
+    "w": 282,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 7244,
+    "w": 236,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 7271,
+    "w": 44,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 7320,
+    "w": 281,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 7347,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 7374,
+    "w": 269,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 7401,
+    "w": 272,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 7428,
+    "w": 265,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 7455,
+    "w": 278,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 7482,
+    "w": 273,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 7509,
+    "w": 253,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 7536,
+    "w": 261,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 7563,
+    "w": 269,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 7590,
+    "w": 261,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 7617,
+    "w": 249,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 7644,
+    "w": 193,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 7693,
+    "w": 281,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 7720,
+    "w": 265,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 7747,
+    "w": 237,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 7774,
+    "w": 280,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 7801,
+    "w": 251,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 7828,
+    "w": 254,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 7855,
+    "w": 273,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 7882,
+    "w": 241,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 7909,
+    "w": 263,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 7936,
+    "w": 271,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 7963,
+    "w": 274,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 7990,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 8017,
+    "w": 271,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 8044,
+    "w": 132,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 8094,
+    "w": 267,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 8121,
+    "w": 278,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 8148,
+    "w": 280,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 8175,
+    "w": 280,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 8202,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 8229,
+    "w": 256,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 8256,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 8283,
+    "w": 273,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 8310,
+    "w": 270,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 8337,
+    "w": 193,
+    "h": 20
+   },
+   {
+    "x": 50,
+    "y": 8445,
+    "w": 131,
+    "h": 20
+   },
+   {
+    "x": 206,
+    "y": 8445,
+    "w": 34,
+    "h": 20
+   },
+   {
+    "x": 50,
+    "y": 8497,
+    "w": 106,
+    "h": 20
+   },
+   {
+    "x": 50,
+    "y": 8524,
+    "w": 39,
+    "h": 20
+   },
+   {
+    "x": 206,
+    "y": 8497,
+    "w": 34,
+    "h": 20
+   },
+   {
+    "x": 50,
+    "y": 8576,
+    "w": 106,
+    "h": 20
+   },
+   {
+    "x": 50,
+    "y": 8603,
+    "w": 114,
+    "h": 20
+   },
+   {
+    "x": 206,
+    "y": 8576,
+    "w": 43,
+    "h": 20
+   },
+   {
+    "x": 50,
+    "y": 8655,
+    "w": 131,
+    "h": 20
+   },
+   {
+    "x": 50,
+    "y": 8682,
+    "w": 26,
+    "h": 20
+   },
+   {
+    "x": 206,
+    "y": 8655,
+    "w": 34,
+    "h": 20
+   },
+   {
+    "x": 50,
+    "y": 8734,
+    "w": 80,
+    "h": 20
+   },
+   {
+    "x": 50,
+    "y": 8761,
+    "w": 123,
+    "h": 20
+   },
+   {
+    "x": 206,
+    "y": 8734,
+    "w": 43,
+    "h": 20
+   },
+   {
+    "x": 50,
+    "y": 8813,
+    "w": 126,
+    "h": 20
+   },
+   {
+    "x": 50,
+    "y": 8840,
+    "w": 74,
+    "h": 20
+   },
+   {
+    "x": 206,
+    "y": 8813,
+    "w": 17,
+    "h": 20
+   },
+   {
+    "x": 50,
+    "y": 8892,
+    "w": 128,
+    "h": 20
+   },
+   {
+    "x": 50,
+    "y": 8919,
+    "w": 41,
+    "h": 20
+   },
+   {
+    "x": 206,
+    "y": 8892,
+    "w": 58,
+    "h": 20
+   },
+   {
+    "x": 50,
+    "y": 8971,
+    "w": 92,
+    "h": 20
+   },
+   {
+    "x": 50,
+    "y": 8998,
+    "w": 41,
+    "h": 20
+   },
+   {
+    "x": 206,
+    "y": 8971,
+    "w": 26,
+    "h": 20
+   },
+   {
+    "x": 50,
+    "y": 9050,
+    "w": 128,
+    "h": 20
+   },
+   {
+    "x": 50,
+    "y": 9077,
+    "w": 56,
+    "h": 20
+   },
+   {
+    "x": 206,
+    "y": 9050,
+    "w": 43,
+    "h": 20
+   },
+   {
+    "x": 50,
+    "y": 9129,
+    "w": 116,
+    "h": 20
+   },
+   {
+    "x": 50,
+    "y": 9156,
+    "w": 46,
+    "h": 20
+   },
+   {
+    "x": 206,
+    "y": 9129,
+    "w": 59,
+    "h": 20
+   },
+   {
+    "x": 50,
+    "y": 9208,
+    "w": 127,
+    "h": 20
+   },
+   {
+    "x": 206,
+    "y": 9208,
+    "w": 34,
+    "h": 20
+   },
+   {
+    "x": 50,
+    "y": 9260,
+    "w": 72,
+    "h": 20
+   },
+   {
+    "x": 50,
+    "y": 9287,
+    "w": 124,
+    "h": 20
+   },
+   {
+    "x": 50,
+    "y": 9314,
+    "w": 85,
+    "h": 20
+   },
+   {
+    "x": 206,
+    "y": 9260,
+    "w": 17,
+    "h": 20
+   },
+   {
+    "x": 50,
+    "y": 9366,
+    "w": 76,
+    "h": 20
+   },
+   {
+    "x": 50,
+    "y": 9393,
+    "w": 124,
+    "h": 20
+   },
+   {
+    "x": 206,
+    "y": 9366,
+    "w": 52,
+    "h": 20
+   },
+   {
+    "x": 258,
+    "y": 9364,
+    "w": 6,
+    "h": 15
+   },
+   {
+    "x": 50,
+    "y": 9445,
+    "w": 128,
+    "h": 20
+   },
+   {
+    "x": 50,
+    "y": 9472,
+    "w": 58,
+    "h": 20
+   },
+   {
+    "x": 206,
+    "y": 9445,
+    "w": 26,
+    "h": 20
+   },
+   {
+    "x": 50,
+    "y": 9524,
+    "w": 58,
+    "h": 20
+   },
+   {
+    "x": 50,
+    "y": 9551,
+    "w": 126,
+    "h": 20
+   },
+   {
+    "x": 50,
+    "y": 9578,
+    "w": 83,
+    "h": 20
+   },
+   {
+    "x": 50,
+    "y": 9605,
+    "w": 102,
+    "h": 20
+   },
+   {
+    "x": 50,
+    "y": 9632,
+    "w": 42,
+    "h": 20
+   },
+   {
+    "x": 206,
+    "y": 9524,
+    "w": 40,
+    "h": 20
+   },
+   {
+    "x": 118,
+    "y": 9738,
+    "w": 25,
+    "h": 15
+   },
+   {
+    "x": 143,
+    "y": 9738,
+    "w": 42,
+    "h": 15
+   },
+   {
+    "x": 185,
+    "y": 9738,
+    "w": 26,
+    "h": 15
+   },
+   {
+    "x": 23,
+    "y": 9772,
+    "w": 38,
+    "h": 15
+   },
+   {
+    "x": 64,
+    "y": 9772,
+    "w": 20,
+    "h": 15
+   },
+   {
+    "x": 83,
+    "y": 9772,
+    "w": 57,
+    "h": 15
+   },
+   {
+    "x": 143,
+    "y": 9772,
+    "w": 20,
+    "h": 15
+   },
+   {
+    "x": 163,
+    "y": 9772,
+    "w": 125,
+    "h": 15
+   },
+   {
+    "x": 291,
+    "y": 9772,
+    "w": 16,
+    "h": 15
+   },
+   {
+    "x": 12,
+    "y": 9790,
+    "w": 120,
+    "h": 15
+   },
+   {
+    "x": 136,
+    "y": 9790,
+    "w": 19,
+    "h": 15
+   },
+   {
+    "x": 155,
+    "y": 9790,
+    "w": 103,
+    "h": 15
+   },
+   {
+    "x": 261,
+    "y": 9790,
+    "w": 20,
+    "h": 15
+   },
+   {
+    "x": 281,
+    "y": 9790,
+    "w": 37,
+    "h": 15
+   },
+   {
+    "x": 115,
+    "y": 9809,
+    "w": 101,
+    "h": 15
+   }
+  ]
+ }
+}

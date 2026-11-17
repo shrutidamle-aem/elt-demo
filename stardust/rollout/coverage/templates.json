@@ -1,0 +1,243 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-11-13T14:59:50.417Z",
+    "readArtifacts": [
+      "stardust/migrated"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-14T04:18:37.329Z",
+  "templates": [
+    {
+      "id": "about-facts",
+      "representativeSlug": "about-facts",
+      "pages": [
+        "about-facts"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "carousel",
+        "facts"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "about-road",
+      "representativeSlug": "about-road",
+      "pages": [
+        "about-faq",
+        "about-industrial",
+        "about-location",
+        "about-road",
+        "about-team",
+        "about-webcams",
+        "about-workinggroups",
+        "credits",
+        "success-buildingon"
+      ],
+      "pageCount": 9,
+      "blocks": [
+        "share-bar",
+        "text-section"
+      ],
+      "delivery": {
+        "verified": 9,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "about-timeline",
+      "representativeSlug": "about-timeline",
+      "pages": [
+        "about-timeline"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "timeline"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "index",
+      "representativeSlug": "index",
+      "pages": [
+        "chile",
+        "index"
+      ],
+      "pageCount": 2,
+      "blocks": [
+        "carousel",
+        "home-tiles",
+        "webcam-panel"
+      ],
+      "delivery": {
+        "verified": 2,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "instrument",
+      "representativeSlug": "instrument-micado",
+      "pages": [
+        "instrument-andes",
+        "instrument-metis",
+        "instrument-micado",
+        "instrument-morfeo",
+        "instrument-mosaic"
+      ],
+      "pageCount": 5,
+      "blocks": [],
+      "delivery": {
+        "verified": 5,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "instrument-harmoni",
+      "representativeSlug": "instrument-harmoni",
+      "pages": [
+        "instrument-harmoni"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "page-intro",
+        "share-bar",
+        "subpage-tiles",
+        "tech-table",
+        "text-section"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "listing",
+      "representativeSlug": "about",
+      "pages": [
+        "about",
+        "instrument",
+        "mirror",
+        "science"
+      ],
+      "pageCount": 4,
+      "blocks": [],
+      "delivery": {
+        "verified": 4,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "media",
+      "representativeSlug": "media",
+      "pages": [
+        "media"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "carousel",
+        "media-stories",
+        "share-bar",
+        "text-section"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "program",
+      "representativeSlug": "telescope-structure",
+      "pages": [
+        "mirror-m1",
+        "mirror-m2m3",
+        "mirror-m4",
+        "mirror-m5",
+        "science-blackholes",
+        "science-cosmodm",
+        "science-discoveries",
+        "science-exoplanets",
+        "science-fundamentalphysics",
+        "science-galaxies",
+        "science-solarsystem",
+        "science-stars",
+        "telescope-adaptiveoptics",
+        "telescope-controls",
+        "telescope-operations",
+        "telescope-prefocal",
+        "telescope-structure"
+      ],
+      "pageCount": 17,
+      "blocks": [],
+      "delivery": {
+        "verified": 17,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "telescope",
+      "representativeSlug": "telescope",
+      "pages": [
+        "telescope"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "overview-bands",
+        "share-bar",
+        "text-section"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "telescope-dome",
+      "representativeSlug": "telescope-dome",
+      "pages": [
+        "telescope-dome"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "data-table",
+        "page-intro",
+        "share-bar",
+        "subpage-tiles",
+        "text-section"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    }
+  ]
+}

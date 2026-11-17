@@ -1,0 +1,44 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "design-system-font",
+        "value": "helvetica neue lt eso light",
+        "createdAt": "2026-11-13T12:32:55.963Z",
+        "reason": "replica of elt.eso.org: face lifted verbatim from the source stylesheet @font-face (elt_assets.66fa71510905.css L5-L13, L15624); same-design migration, no design change"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "font awesome 5 free",
+        "createdAt": "2026-11-13T12:32:55.972Z",
+        "reason": "replica of elt.eso.org: face lifted verbatim from the source stylesheet @font-face (elt_assets.66fa71510905.css L5-L13, L15624); same-design migration, no design change"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "material icons",
+        "createdAt": "2026-11-13T12:32:55.981Z",
+        "reason": "replica of elt.eso.org: face lifted verbatim from the source stylesheet @font-face (elt_assets.66fa71510905.css L5-L13, L15624); same-design migration, no design change"
+      },
+      {
+        "rule": "overused-font",
+        "value": "helvetica",
+        "createdAt": "2026-11-13T12:55:38.956818Z",
+        "reason": "replica of elt.eso.org: Helvetica Neue LT ESO is the source brand face (register R-01); same-design migration, no design change"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "swiper-icons",
+        "createdAt": "2026-11-13T13:42:29.341253Z",
+        "reason": "replica of elt.eso.org: Swiper carousel icon font used by the source's own carousel arrows; same-design migration"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "helvetica-neue-lt-eso-fallback",
+        "createdAt": "2026-11-13T15:13:23.037Z",
+        "reason": "agent: metric-matched local fallback face required by the deploy skill (Step 4 principle 3), sources local Helvetica/Arial"
+      }
+    ]
+  }
+}

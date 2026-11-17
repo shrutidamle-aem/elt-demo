@@ -1,0 +1,133 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+    "writtenAt": "2026-11-13T13:27:41.890Z",
+    "baseWidth": 1440,
+    "urls": [
+      "https://elt.eso.org/instrument/HARMONI/",
+      "http://localhost:8791/instrument-harmoni-proposed.html"
+    ],
+    "probeWidth": 2560,
+    "probeNote": "from DESIGN.json",
+    "tolerance": 20
+  },
+  "urls": [
+    "https://elt.eso.org/instrument/HARMONI/",
+    "http://localhost:8791/instrument-harmoni-proposed.html"
+  ],
+  "probeNote": "from DESIGN.json",
+  "live": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "#big-header",
+      "isBody": false,
+      "leaves": 2,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "module",
+        "px": 550,
+        "via": "other",
+        "selector": "#big-header > div.position-absolute.d-lg-block_",
+        "tier": 1,
+        "share": 0.5,
+        "section": 0,
+        "w1": 435,
+        "maxWidth": "none"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "#big-header > div.position-absolute.d-lg-block_",
+        "px": 550,
+        "capSelector": "#big-header > div.position-absolute.d-lg-block_"
+      },
+      {
+        "index": 1,
+        "selector": "#big-header > div.position-absolute.big-header-title",
+        "px": null,
+        "capSelector": null
+      }
+    ],
+    "shellMaxWidth": null,
+    "contentMaxWidth": 550,
+    "contentFrom": "module",
+    "maxCap": 550,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 270
+  },
+  "build": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "#big-header",
+      "isBody": false,
+      "leaves": 2,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "module",
+        "px": 550,
+        "via": "other",
+        "selector": "#big-header > div.big-header-logos",
+        "tier": 1,
+        "share": 0.5,
+        "section": 0,
+        "w1": 435,
+        "maxWidth": "none"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "#big-header > div.big-header-logos",
+        "px": 550,
+        "capSelector": "#big-header > div.big-header-logos"
+      },
+      {
+        "index": 1,
+        "selector": "#big-header > h1.big-header-title",
+        "px": null,
+        "capSelector": null
+      }
+    ],
+    "shellMaxWidth": null,
+    "contentMaxWidth": 550,
+    "contentFrom": "module",
+    "maxCap": 550,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 190
+  },
+  "compare": {
+    "probeWidth": 2560,
+    "rows": [
+      {
+        "ok": true,
+        "label": "content cap",
+        "detail": "live 550px = build 550px (±20, shared module cap)",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 1/2",
+        "detail": "550px = 550px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 2/2",
+        "detail": "full-bleed on both",
+        "advisory": false
+      }
+    ],
+    "fails": 0,
+    "pass": true
+  },
+  "evidence": "stardust/replica/gates/instrument-harmoni-2560/cap-iter.json"
+}

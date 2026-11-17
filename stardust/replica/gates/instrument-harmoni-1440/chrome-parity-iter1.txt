@@ -1,0 +1,12 @@
+chrome-parity @ 1440px, tolerance 1px
+  live:  https://elt.eso.org/instrument/HARMONI/
+  build: http://localhost:8791/instrument-harmoni-proposed.html
+
+■ header: ✓ parity — 2 paired of 2/2 texts, 5/5 icons
+  (live has no <header>: auto-detected nav#top-navbar.navbar.top_ — pass --region header=<liveSel>|<buildSel> to override)
+  (build has no <header>: auto-detected nav#top-navbar.navbar — pass --region header=<liveSel>|<buildSel> to override)
+
+■ footer: ✓ parity — 10 paired of 10/10 texts, 0/0 icons
+  OFFSET       the region and its 10 paired text(s) sit Δy +330px from live as one block — content identical; the page above is a different height (fix that, or a live feed rendered another length)
+
+✓ chrome parity within tolerance — run crop-compare (pass bar item 5) to confirm in pixels.

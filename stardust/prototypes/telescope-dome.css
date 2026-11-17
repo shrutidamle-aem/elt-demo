@@ -1,0 +1,369 @@
+/*
+ * telescope-dome.css — `program` template (telescope / mirror / instrument-free science topic pages:
+ * hero title, sub-header with text block, "In a Nutshell", internal-link rows, page sections with
+ * wide images, sub-titles, video embed, fact table, floated captioned figures).
+ * Imports canon.css (fonts, tokens, base, top bar, hero frame, main navbar, footer).
+ *
+ * Source of every value: elt_assets.66fa71510905.css (captured: stardust/current/assets/css/),
+ * line refs Lnnnnn. Media tiers are the source's own: max-width 576 / min-width 576, 768, 992,
+ * 1200, 1440, 1680, 1920 (`only screen`), plus Bootstrap display utilities at 992 / 1200 / 1440.
+ */
+
+/* 1 ─ Display utilities (Bootstrap d-*: lg 992, xl 1200, xxl 1440) ───────── */
+.show-lg, .show-xl, .show-xxl, .show-xl-only { display: none; }
+@media (min-width: 992px) { .show-lg { display: block; } }
+@media (min-width: 1200px) {
+  .show-xl, .show-xl-only { display: block; }
+  .hide-xl { display: none; }
+}
+@media (min-width: 1440px) {
+  .show-xxl { display: block; }
+  .show-xl-only { display: none; }
+}
+
+/* 2 ─ Hero title (over the canon hero frame) — .big-header-title L16689… ── */
+.big-header-title {
+  position: absolute;
+  bottom: 14%;
+  left: 10.5%;
+  right: 10.5%;
+  text-shadow: 2px 0 black;
+}
+@media only screen and (max-width: 576px) { .big-header-title { font-size: 1.875rem; } }
+@media only screen and (min-width: 576px) { .big-header-title { font-size: 2.15625rem; } }
+@media only screen and (min-width: 768px) { .big-header-title { font-size: 2.40625rem; } }
+@media only screen and (min-width: 992px) { .big-header-title { font-size: 2.71875rem; } }
+@media only screen and (min-width: 1200px) { .big-header-title { font-size: 3rem; } }
+@media only screen and (min-width: 1440px) { .big-header-title { font-size: 3.34375rem; } }
+@media only screen and (min-width: 1680px) { .big-header-title { font-size: 3.6875rem; } }
+@media only screen and (min-width: 1920px) { .big-header-title { font-size: 4rem; } }
+
+/* 3 ─ Section containers — .container-light L19621, .container-dark L19727, .container-tight L19760 ─ */
+.container-light {
+  margin: 0;
+  padding: 2rem 0 0;
+  background-color: rgb(232, 232, 232);
+  color: #000;
+}
+.container-light a { color: var(--esoblue); }
+.container-light a:hover { color: #0056b3; }
+.container-dark { margin: 0; padding: 2rem 0 0; background-color: #000; color: #fff; }
+.container-tight { padding: 0 !important; }
+a.anchor { display: block; position: relative; top: -150px; visibility: hidden; } /* L20502 */
+
+/* 4 ─ Program sub-header: image + text block — L15908–15978, L19587 ─────── */
+.program-header { position: relative; }
+.program-header__image { display: block; width: 100%; height: auto; }
+.science-header-textblock { position: absolute; top: 0; left: 10.5%; width: 89.5%; height: 100%; }
+.science-header-textblock__inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+}
+.header-title { font-weight: 600; color: var(--headerblue); }
+.header-subtitle, .header-description { width: 35%; }
+.header-description { font-family: "Helvetica Neue LT ESO"; }            /* L15926 — no fallback stack */
+.header-quick-links { width: 89.5%; font-weight: 600; font-family: "Helvetica Neue LT ESO"; } /* L19587 */
+.header-quick-links--sm-up { display: none; } /* mirror pages: d-none d-sm-block */
+@media (min-width: 576px) { .header-quick-links--sm-up { display: block; } }
+.instrument-link-color, a.instrument-link-color { color: var(--headerblue); } /* L20196 */
+a.instrument-link:hover { color: var(--orange); }
+@media only screen and (max-width: 576px) {
+  .header-title { font-size: 1.75rem; }
+  .header-subtitle { font-size: 1.5rem; line-height: 2.25rem; }
+  .header-description { font-size: 0.875rem; line-height: 1.625rem; }
+  .header-quick-links { font-size: 0.875rem; }
+}
+@media only screen and (min-width: 576px) {
+  .header-title { font-size: 1.875rem; }
+  .header-subtitle { font-size: 1.5625rem; line-height: 2.375rem; }
+  .header-description { font-size: 0.9375rem; line-height: 1.6875rem; }
+  .header-quick-links { font-size: 0.9375rem; }
+}
+@media only screen and (min-width: 768px) {
+  .header-title { font-size: 1.9375rem; }
+  .header-subtitle { font-size: 1.6875rem; line-height: 2.4375rem; }
+  .header-description { font-size: 1rem; line-height: 1.75rem; }
+  .header-quick-links { font-size: 1rem; }
+}
+@media only screen and (min-width: 992px) {
+  .header-title { font-size: 2.03125rem; }
+  .header-subtitle { font-size: 1.75rem; line-height: 2.5625rem; }
+  .header-description { font-size: 1.0625rem; line-height: 1.8125rem; }
+  .header-quick-links { font-size: 1.0625rem; }
+}
+@media only screen and (min-width: 1200px) {
+  .header-title { font-size: 2.125rem; }
+  .header-subtitle { font-size: 1.8125rem; line-height: 2.625rem; }
+  .header-description { font-size: 1.125rem; line-height: 1.875rem; }
+  .header-quick-links { font-size: 1.125rem; }
+}
+@media only screen and (min-width: 1440px) {
+  .header-title { font-size: 2.25rem; }
+  .header-subtitle { font-size: 1.9375rem; line-height: 2.75rem; }
+  .header-description { font-size: 1.1875rem; line-height: 2rem; }
+  .header-quick-links { font-size: 1.1875rem; }
+}
+@media only screen and (min-width: 1680px) {
+  .header-title { font-size: 2.375rem; } /* the source's 1920 step is malformed (`font-size 2.5rem`) — 2.375rem holds */
+  .header-subtitle { font-size: 2rem; line-height: 2.875rem; }
+  .header-description { font-size: 1.25rem; line-height: 2.0625rem; }
+  .header-quick-links { font-size: 1.25rem; }
+}
+@media only screen and (min-width: 1920px) {
+  .header-subtitle { font-size: 2.125rem; line-height: 3rem; }
+  .header-description { font-size: 1.3125rem; line-height: 2.125rem; }
+  .header-quick-links { font-size: 1.3125rem; }
+}
+
+/* 5 ─ Section type ramp — L16125, L16163–16207, L20244–20250 + per-tier rules ─ */
+.container-paragraph { padding: 0 10.5% 0.005rem; }
+.container-subtitle, .container-heading { padding: 0 10.5%; }
+.section-subtitle-paragraph, .section-subtitle-paragraph-aftertitle,
+.section-heading-paragraph { padding-top: 0; padding-bottom: 0; font-weight: 700; }
+.section-subtitle-paragraph p, .section-subtitle-paragraph-aftertitle p,
+.section-heading-paragraph p { padding-top: 0; padding-bottom: 0; }
+.section-title-paragraph { font-weight: 600; }
+.section-title-paragraph--share { display: flex; align-items: center; justify-content: space-between; }
+@media only screen and (max-width: 576px) {
+  .section-title-paragraph { font-size: 1.625rem; padding-top: 0; padding-bottom: 1.5rem; }
+  .section-subtitle-paragraph, .section-subtitle-paragraph-aftertitle { font-size: 1.25rem; line-height: 2rem; }
+  .section-heading-paragraph { font-size: 1rem; line-height: 1.6875rem; }
+  .section-text-paragraph { font-size: 1rem; line-height: 1.6875rem; padding-top: 0.2rem; padding-bottom: 0.2rem; }
+  .page-section p { font-size: 1rem; line-height: 1.6875rem; padding-top: 0.2rem; padding-bottom: 0.2rem; }
+  .section-subtitle-paragraph p, .section-subtitle-paragraph-aftertitle p { font-size: 1.25rem !important; line-height: 2rem !important; }
+  .section-heading-paragraph p, .section-text-paragraph p { font-size: 1rem !important; line-height: 1.6875rem !important; }
+  .section-text-paragraph p { padding-top: 0.2rem !important; padding-bottom: 0.2rem !important; }
+}
+@media only screen and (min-width: 576px) {
+  .section-title-paragraph { font-size: 1.6875rem; padding-top: 0.2rem; padding-bottom: 1.7rem; }
+  .section-subtitle-paragraph, .section-subtitle-paragraph-aftertitle { font-size: 1.31rem; line-height: 2.1rem; }
+  .section-heading-paragraph { font-size: 1.03125rem; line-height: 1.75rem; }
+  .section-text-paragraph { font-size: 1.03125rem; line-height: 1.75rem; padding-top: 0.25rem; padding-bottom: 0.25rem; }
+  .page-section p { font-size: 1.03125rem; line-height: 1.75rem; padding-top: 0.25rem; padding-bottom: 0.25rem; }
+  .section-subtitle-paragraph p, .section-subtitle-paragraph-aftertitle p { font-size: 1.31rem !important; line-height: 2.1rem !important; }
+  .section-heading-paragraph p, .section-text-paragraph p { font-size: 1.03125rem !important; line-height: 1.75rem !important; }
+  .section-text-paragraph p { padding-top: 0.25rem !important; padding-bottom: 0.25rem !important; }
+}
+@media only screen and (min-width: 768px) {
+  .section-title-paragraph { font-size: 1.75rem; padding-top: 0.4rem; padding-bottom: 1.9rem; }
+  .section-subtitle-paragraph, .section-subtitle-paragraph-aftertitle { font-size: 1.36rem; line-height: 2.17rem; }
+  .section-heading-paragraph { font-size: 1.0625rem; line-height: 1.8125rem; }
+  .section-text-paragraph { font-size: 1.0625rem; line-height: 1.8125rem; padding-top: 0.3rem; padding-bottom: 0.3rem; }
+  .page-section p { font-size: 1.0625rem; line-height: 1.8125rem; padding-top: 0.3rem; padding-bottom: 0.3rem; }
+  .section-subtitle-paragraph p, .section-subtitle-paragraph-aftertitle p { font-size: 1.36rem !important; line-height: 2.17rem !important; }
+  .section-heading-paragraph p, .section-text-paragraph p { font-size: 1.0625rem !important; line-height: 1.8125rem !important; }
+  .section-text-paragraph p { padding-top: 0.3rem !important; padding-bottom: 0.3rem !important; }
+}
+@media only screen and (min-width: 992px) {
+  .section-title-paragraph { font-size: 1.84375rem; padding-top: 0.6rem; padding-bottom: 2.1rem; }
+  .section-subtitle-paragraph, .section-subtitle-paragraph-aftertitle { font-size: 1.43rem; line-height: 2.3rem; }
+  .section-heading-paragraph { font-size: 1.125rem; line-height: 1.90625rem; }
+  .section-text-paragraph { font-size: 1.125rem; line-height: 1.90625rem; padding-top: 0.35rem; padding-bottom: 0.35rem; }
+  .page-section p { font-size: 1.125rem; line-height: 1.90625rem; padding-top: 0.35rem; padding-bottom: 0.35rem; }
+  .section-subtitle-paragraph p, .section-subtitle-paragraph-aftertitle p { font-size: 1.43rem !important; line-height: 2.3rem !important; }
+  .section-heading-paragraph p, .section-text-paragraph p { font-size: 1.125rem !important; line-height: 1.90625rem !important; }
+  .section-text-paragraph p { padding-top: 0.35rem !important; padding-bottom: 0.35rem !important; }
+}
+@media only screen and (min-width: 1200px) {
+  .section-title-paragraph { font-size: 1.9375rem; padding-top: 0.8rem; padding-bottom: 2.3rem; }
+  .section-subtitle-paragraph, .section-subtitle-paragraph-aftertitle { font-size: 1.49rem; line-height: 2.4rem; }
+  .section-heading-paragraph { font-size: 1.15625rem; line-height: 2rem; }
+  .section-text-paragraph { font-size: 1.15625rem; line-height: 2rem; padding-top: 0.4rem; padding-bottom: 0.4rem; }
+  .page-section p { font-size: 1.15625rem; line-height: 2rem; padding-top: 0.4rem; padding-bottom: 0.4rem; }
+  .section-subtitle-paragraph p, .section-subtitle-paragraph-aftertitle p { font-size: 1.49rem !important; line-height: 2.4rem !important; }
+  .section-heading-paragraph p, .section-text-paragraph p { font-size: 1.15625rem !important; line-height: 2rem !important; }
+  .section-text-paragraph p { padding-top: 0.4rem !important; padding-bottom: 0.4rem !important; }
+}
+@media only screen and (min-width: 1440px) {
+  .section-title-paragraph { font-size: 2rem; padding-top: 1rem; padding-bottom: 2.5rem; }
+  .section-subtitle-paragraph, .section-subtitle-paragraph-aftertitle { font-size: 1.56rem; line-height: 2.5rem; }
+  .section-heading-paragraph { font-size: 1.21875rem; line-height: 2.0625rem; }
+  .section-text-paragraph { font-size: 1.21875rem; line-height: 2.0625rem; padding-top: 0.48rem; padding-bottom: 0.48rem; }
+  .page-section p { font-size: 1.21875rem; line-height: 2.0625rem; padding-top: 0.48rem; padding-bottom: 0.48rem; }
+  .section-subtitle-paragraph p, .section-subtitle-paragraph-aftertitle p { font-size: 1.56rem !important; line-height: 2.5rem !important; }
+  .section-heading-paragraph p, .section-text-paragraph p { font-size: 1.21875rem !important; line-height: 2.0625rem !important; }
+  .section-text-paragraph p { padding-top: 0.48rem !important; padding-bottom: 0.48rem !important; }
+}
+@media only screen and (min-width: 1680px) {
+  .section-title-paragraph { font-size: 2.09375rem; padding-top: 1.25rem; padding-bottom: 2.8rem; }
+  .section-subtitle-paragraph, .section-subtitle-paragraph-aftertitle { font-size: 1.63rem; line-height: 2.6rem; }
+  .section-heading-paragraph { font-size: 1.25rem; line-height: 2.15625rem; }
+  .section-text-paragraph { font-size: 1.25rem; line-height: 2.15625rem; padding-top: 0.54rem; padding-bottom: 0.54rem; }
+  .page-section p { font-size: 1.25rem; line-height: 2.15625rem; padding-top: 0.54rem; padding-bottom: 0.54rem; }
+  .section-subtitle-paragraph p, .section-subtitle-paragraph-aftertitle p { font-size: 1.63rem !important; line-height: 2.6rem !important; }
+  .section-heading-paragraph p, .section-text-paragraph p { font-size: 1.25rem !important; line-height: 2.15625rem !important; }
+  .section-text-paragraph p { padding-top: 0.54rem !important; padding-bottom: 0.54rem !important; }
+}
+@media only screen and (min-width: 1920px) {
+  .section-title-paragraph { font-size: 2.1875rem; padding-top: 1.5rem; padding-bottom: 3rem; }
+  .section-subtitle-paragraph, .section-subtitle-paragraph-aftertitle { font-size: 1.7rem; line-height: 2.7rem; }
+  .section-heading-paragraph { font-size: 1.3125rem; line-height: 2.25rem; }
+  .section-text-paragraph { font-size: 1.3125rem; line-height: 2.25rem; padding-top: 0.6rem; padding-bottom: 0.6rem; }
+  .page-section p { font-size: 1.3125rem; line-height: 2.25rem; padding-top: 0.6rem; padding-bottom: 0.6rem; }
+  .section-subtitle-paragraph p, .section-subtitle-paragraph-aftertitle p { font-size: 1.7rem !important; line-height: 2.7rem !important; }
+  .section-heading-paragraph p, .section-text-paragraph p { font-size: 1.3125rem !important; line-height: 2.25rem !important; }
+  .section-text-paragraph p { padding-top: 0.6rem !important; padding-bottom: 0.6rem !important; }
+}
+
+/* 6 ─ Share icons (title row) — L15806–15890 ───────────────────────────── */
+.share-bar { display: flex; }
+.share-menu { position: relative; display: flex; }
+.share-social-media { cursor: pointer; }
+.share-social-media-icons { padding: 0 0.3rem; transform: scale(0.95); transition: all 0.5s ease; }
+.share-social-media-icons:hover { transform: scale(1.05); }
+.share-social-media-dropdown {
+  position: absolute;
+  top: 100%;
+  right: -25px;
+  z-index: 100;
+  width: 350px;
+  background: transparent;
+  transform: scale(1, 0);
+  transition: all 0.5s ease;
+}
+.share-social-media-dropdown:hover,
+.share-social-media:hover ~ .share-social-media-dropdown { transform: scale(1, 1); }
+.share-social-media-dropdown-icons {
+  position: relative;
+  margin-top: 2.5rem;
+  padding: 1rem 1.5rem;
+  background: rgb(232, 232, 232);
+  border-radius: 10px;
+}
+.share-social-media-dropdown-icons::before {
+  content: '';
+  position: absolute;
+  bottom: 99%;
+  right: 25px;
+  width: 0;
+  height: 0;
+  border: 18px solid transparent;
+  border-top: none;
+  border-bottom-color: rgb(232, 232, 232);
+}
+.share-social-media-dropdown-icons a { color: var(--esoblue) !important; }
+.share-social-media-dropdown-icons a img { transform: scale(0.95); transition: all 0.5s ease; }
+.share-social-media-dropdown-icons a:hover img { transform: scale(1.05); }
+.share-social-media-dropdown-text { font-size: 14px; }
+
+/* 7 ─ Internal-link rows (.lightlinks) — L16019–16057, L19695, L20275 ───── */
+.lightlinks a, .lightlinks a:hover { color: #fff; } /* L19695–19701 */
+.lightlink-row { display: flex; flex-wrap: wrap; align-items: stretch; width: 100%; margin: 0; background-color: var(--row-color); }
+.lightlink-media, .lightlink-body { position: relative; width: 100%; }
+.lightlink-media { padding: 0; }
+.lightlink-media img { width: 100%; height: auto; }
+.lightlink-body { display: flex; align-items: center; padding: 1rem 15px; }
+.lightlink-row--reverse .lightlink-body { order: 2; }
+.lightlink-row--reverse .lightlink-media { order: 1; }
+.internal-menu-title { position: absolute; bottom: 10%; left: 10.5%; right: 10.5%; color: #fff; pointer-events: none; }
+.internal-menu-text { line-height: 2.109375rem; color: #fff; padding-left: 7%; padding-right: 7%; }
+.internal-menu-shape { position: absolute; bottom: 0; left: 0; display: flex; align-items: flex-end; width: 100%; height: 100%; }
+.internal-menu-shape > div { width: 100%; }
+svg.internal-menu-trapezoid { display: block; width: 100%; height: 100%; } /* live reads inline but sits flush with the row bottom (no descender gap) — block reproduces its box */
+svg.internal-menu-trapezoid polygon { fill: #fff; stroke: #fff; stroke-width: 0; }
+.internal-menu-link {
+  position: absolute;
+  top: 83%;
+  bottom: 0;
+  left: 0;
+  right: 70%;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  pointer-events: none;
+}
+.lightlinks .internal-menu-link a, .lightlinks .internal-menu-link a:hover { color: var(--row-color); }
+@media (min-width: 992px) {
+  .lightlink-media, .lightlink-body { flex: 0 0 50%; max-width: 50%; }
+  .lightlink-row--reverse .lightlink-body { order: 1; }
+  .lightlink-row--reverse .lightlink-media { order: 2; }
+  .internal-menu-link { display: flex; }
+}
+@media only screen and (max-width: 576px) {
+  .internal-menu-link, .internal-menu-text { font-size: 1rem; }
+  .internal-menu-title { font-size: 1.625rem; }
+}
+@media only screen and (min-width: 576px) {
+  .internal-menu-link { font-size: 1.03125rem; }
+  .internal-menu-text { font-size: 1.057rem; }
+  .internal-menu-title { font-size: 1.6875rem; }
+}
+@media only screen and (min-width: 768px) {
+  .internal-menu-link { font-size: 1.09375rem; }
+  .internal-menu-text { font-size: 1.111rem; }
+  .internal-menu-title { font-size: 1.78125rem; }
+}
+@media only screen and (min-width: 992px) {
+  .internal-menu-link { font-size: 1.125rem; }
+  .internal-menu-text { font-size: 1.174rem; }
+  .internal-menu-title { font-size: 1.84375rem; }
+}
+@media only screen and (min-width: 1200px) {
+  .internal-menu-link { font-size: 1.15625rem; }
+  .internal-menu-text { font-size: 1.233rem; }
+  .internal-menu-title { font-size: 1.9375rem; }
+}
+@media only screen and (min-width: 1440px) {
+  .internal-menu-link { font-size: 1.21875rem; }
+  .internal-menu-text { font-size: 1.301rem; }
+  .internal-menu-title { font-size: 2rem; }
+}
+@media only screen and (min-width: 1680px) {
+  .internal-menu-link { font-size: 1.25rem; }
+  .internal-menu-text { font-size: 1.369rem; }
+  .internal-menu-title { font-size: 2.09375rem; }
+}
+@media only screen and (min-width: 1920px) {
+  .internal-menu-link { font-size: 1.3125rem; }
+  .internal-menu-text { font-size: 1.4375rem; }
+  .internal-menu-title { font-size: 2.1875rem; }
+}
+
+/* 8 ─ Wide image (full-bleed, linked to the ESO archive) ─────────────────── */
+.wide-image { margin: 0; padding-bottom: 1vw; }
+.wide-image a { display: flex; align-items: center; justify-content: center; width: 100%; }
+.wide-image img { width: 100%; height: auto; }
+
+/* 9 ─ Video embed (16:9) — .embed-responsive L8314–8343 ──────────────────── */
+.video-embed { display: flex; width: 100%; margin: 0 auto; padding-bottom: 3rem !important; }
+.video-embed__frame { position: relative; display: block; width: 100%; padding: 0; overflow: hidden; }
+.video-embed__frame::before { content: ""; display: block; padding-top: 56.25%; }
+.video-embed__frame iframe { position: absolute; top: 0; bottom: 0; left: 0; width: 100%; height: 100%; border: 0; }
+
+/* 10 ─ Fact table (.table.table-striped) — L2772–2815, L15707 ────────────── */
+.fact-table { width: 100%; height: 180px; margin-bottom: 0; padding-bottom: 1rem; color: #212529; border-collapse: collapse; }
+.fact-table sup { position: relative; font-size: 75%; line-height: 0; vertical-align: baseline; top: -0.5em; } /* Bootstrap reboot */
+.fact-table td { padding: 0.75rem; vertical-align: top; border-top: 1px solid #dee2e6; }
+.fact-table td:first-child { width: 55.0505%; }
+.fact-table td:last-child { width: 44.9495%; }
+.fact-table tr:nth-child(-n+10) { height: 18px; }
+.fact-table tbody tr:nth-of-type(odd) { background-color: rgba(0, 0, 0, 0.05); }
+
+/* 11 ─ Floated captioned figure (science / structure siblings) — L16142, L16148, L17570, L18398 ─ */
+.float-figure { display: none; width: 25%; margin-bottom: 1rem; flex-direction: column; align-items: center; justify-content: space-between; }
+.float-figure--right { float: right; margin-left: 3rem; }
+.float-figure--left { float: left; margin-right: 3rem; }
+.float-figure img { display: block; width: 100%; }
+.float-figure-mobile { display: flex; flex-direction: column; align-items: center; justify-content: space-between; width: 100%; margin-bottom: 1rem; }
+.float-figure-mobile img { display: block; width: 100%; }
+.caption-text { padding-top: 1rem; padding-bottom: 1rem; font-weight: 400; }
+.float-text p { padding-top: 0 !important; }
+.float-clear { clear: both; }
+.container-paragraph-right { padding-left: 10.5%; padding-right: 10.5%; }
+@media (min-width: 992px) {
+  .float-figure { display: flex; }
+  .float-figure-mobile { display: none; }
+}
+@media only screen and (max-width: 576px) { .caption-text { font-size: 0.8125rem !important; } }
+@media only screen and (min-width: 992px) {
+  .float-text p { margin-top: -0.4rem; }
+  .caption-text { font-size: 0.937rem !important; }
+  .container-paragraph-right { padding-left: 0; }
+}
+@media only screen and (min-width: 1440px) {
+  .float-text p { margin-top: -0.5rem; }
+  .caption-text { font-size: 1.028rem !important; }
+}

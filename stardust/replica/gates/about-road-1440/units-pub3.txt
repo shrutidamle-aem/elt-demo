@@ -1,0 +1,25 @@
+[live-session] waiting to pace live navigations to elt.eso.org (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+unit-geometry @ 1440px, tol 4px — https://elt.eso.org/about/road/ vs https://main--26c59ee1--aemcoder.aem.page/about/road
+footer .col-12=.site-footer__row > .footer-item: no visible unit on the served side (2 / 0 DOM matches)
+unit 1 of article-image-rows (required) .page-section > .m-0=.page-section > .article-image: origin 0,1404 1440×691 vs served 0,1404 1440×691 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "link:a.d-flex.align-items-center#1" | 0,0 1440×677 | 0,0 1440×677 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:img#1" | 0,0 1440×677 | 0,0 1440×677 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of article-image-rows (required) .page-section > .m-0=.page-section > .article-image: origin 0,2574 1440×512 vs served 0,2574 1440×512 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "link:a.d-flex.align-items-center#1" | 151,0 1138×497 | 151,0 1138×497 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:img#1" | 151,0 1138×497 | 151,0 1138×497 | 0 | 0 | 0 | 0 | ✓ |
+unit 3 of article-image-rows (required) .page-section > .m-0=.page-section > .article-image: origin 0,3566 1440×496 vs served 0,3566 1440×496 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "link:a.d-flex.align-items-center#1" | 151,0 1138×482 | 151,0 1138×482 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:img#1" | 151,0 1138×482 | 151,0 1138×482 | 0 | 0 | 0 | 0 | ✓ |
+unit 4 of article-image-rows (required) .page-section > .m-0=.page-section > .article-image: origin 0,4767 1440×544 vs served 0,4767 1440×544 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "link:a.d-flex.align-items-center#1" | 151,0 1138×529 | 151,0 1138×529 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:img#1" | 151,0 1138×529 | 151,0 1138×529 | 0 | 0 | 0 | 0 | ✓ |
+Units: 4 compared; elements within 8, off 0, hidden 0, missing 0; 1 selector error(s) → FAIL
+json → stardust/replica/gates/about-road-1440/units-pub3.json

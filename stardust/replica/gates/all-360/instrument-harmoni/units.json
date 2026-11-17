@@ -1,0 +1,1800 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-14T03:05:04.927Z",
+  "tol": 4,
+  "n": 5,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://elt.eso.org/instrument/HARMONI/",
+  "at": "2026-11-13T17:45:49.292Z",
+  "docH": 12412
+ },
+ "eds": {
+  "url": "https://main--26c59ee1--aemcoder.aem.page/instrument/harmoni",
+  "at": "2026-11-14T03:05:04.794Z",
+  "docH": 12413
+ },
+ "results": [
+  {
+   "sel": "footer .col-12=.site-footer-row > .footer-item",
+   "family": null,
+   "required": true,
+   "originMatches": 2,
+   "edsMatches": 2,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "footer.container-fluid.container-footer > div.row.d-flex > div.col-12.col-lg-3"
+     },
+     "eds": {
+      "path": "div.site-footer > div.site-footer-row > p.site-footer-brand.footer-item"
+     },
+     "rows": [
+      {
+       "key": "link:eso",
+       "role": "link",
+       "text": "eso",
+       "edsText": "eso",
+       "byPosition": false,
+       "origin": {
+        "x": 134,
+        "y": 0,
+        "w": 24,
+        "h": 18
+       },
+       "eds": {
+        "x": 133,
+        "y": 0,
+        "w": 25,
+        "h": 18,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": -1,
+       "dy": 0,
+       "dw": 1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/18/400",
+        "eds": "12/18/400"
+       }
+      },
+      {
+       "key": "text:2026",
+       "role": "text",
+       "text": "2026",
+       "edsText": "2026",
+       "byPosition": false,
+       "origin": {
+        "x": 199,
+        "y": 0,
+        "w": 27,
+        "h": 18
+       },
+       "eds": {
+        "x": 200,
+        "y": 0,
+        "w": 26,
+        "h": 18,
+        "sel": "div.current-year",
+        "role": "text"
+       },
+       "dx": 1,
+       "dy": 0,
+       "dw": -1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/18/400",
+        "eds": "12/18/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": -15,
+       "y": 12307,
+       "w": 360,
+       "h": 34
+      },
+      "eds": {
+       "x": -15,
+       "y": 12308,
+       "w": 360,
+       "h": 34
+      },
+      "dx": 0,
+      "dy": 1,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "footer.container-fluid.container-footer > div.row.d-flex > div.col-12.col-lg-9"
+     },
+     "eds": {
+      "path": "div.site-footer > div.site-footer-row > div.site-footer-links.footer-item"
+     },
+     "rows": [
+      {
+       "key": "text:| | | | |",
+       "role": "text",
+       "text": "| | | | |",
+       "edsText": "| | | | |",
+       "byPosition": false,
+       "origin": {
+        "x": 15,
+        "y": 0,
+        "w": 330,
+        "h": 55
+       },
+       "eds": {
+        "x": 15,
+        "y": 0,
+        "w": 330,
+        "h": 55,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/18/400",
+        "eds": "12/18/400"
+       }
+      },
+      {
+       "key": "link:credits",
+       "role": "link",
+       "text": "credits",
+       "edsText": "credits",
+       "byPosition": false,
+       "origin": {
+        "x": 38,
+        "y": 1,
+        "w": 41,
+        "h": 15
+       },
+       "eds": {
+        "x": 38,
+        "y": 1,
+        "w": 41,
+        "h": 15,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/18/400",
+        "eds": "12/18/400"
+       }
+      },
+      {
+       "key": "link:contact us",
+       "role": "link",
+       "text": "contact us",
+       "edsText": "contact us",
+       "byPosition": false,
+       "origin": {
+        "x": 98,
+        "y": 1,
+        "w": 61,
+        "h": 15
+       },
+       "eds": {
+        "x": 98,
+        "y": 1,
+        "w": 60,
+        "h": 15,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": -1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/18/400",
+        "eds": "12/18/400"
+       }
+      },
+      {
+       "key": "link:subscribe to eso news",
+       "role": "link",
+       "text": "subscribe to eso news",
+       "edsText": "subscribe to eso news",
+       "byPosition": false,
+       "origin": {
+        "x": 178,
+        "y": 1,
+        "w": 128,
+        "h": 15
+       },
+       "eds": {
+        "x": 178,
+        "y": 1,
+        "w": 128,
+        "h": 15,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/18/400",
+        "eds": "12/18/400"
+       }
+      },
+      {
+       "key": "link:accelerated by cdn77",
+       "role": "link",
+       "text": "accelerated by cdn77",
+       "edsText": "accelerated by cdn77",
+       "byPosition": false,
+       "origin": {
+        "x": 28,
+        "y": 19,
+        "w": 123,
+        "h": 15
+       },
+       "eds": {
+        "x": 27,
+        "y": 19,
+        "w": 124,
+        "h": 15,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": -1,
+       "dy": 0,
+       "dw": 1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/18/400",
+        "eds": "12/18/400"
+       }
+      },
+      {
+       "key": "link:cookie settings and policy",
+       "role": "link",
+       "text": "cookie settings and policy",
+       "edsText": "cookie settings and policy",
+       "byPosition": false,
+       "origin": {
+        "x": 130,
+        "y": 19,
+        "w": 202,
+        "h": 33
+       },
+       "eds": {
+        "x": 130,
+        "y": 19,
+        "w": 203,
+        "h": 33,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/18/400",
+        "eds": "12/18/400"
+       }
+      },
+      {
+       "key": "link:terms & conditions",
+       "role": "link",
+       "text": "terms & conditions",
+       "edsText": "terms & conditions",
+       "byPosition": false,
+       "origin": {
+        "x": 171,
+        "y": 19,
+        "w": 105,
+        "h": 15
+       },
+       "eds": {
+        "x": 170,
+        "y": 19,
+        "w": 106,
+        "h": 15,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": -1,
+       "dy": 0,
+       "dw": 1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/18/400",
+        "eds": "12/18/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": -15,
+       "y": 12341,
+       "w": 360,
+       "h": 55
+      },
+      "eds": {
+       "x": -15,
+       "y": 12342,
+       "w": 360,
+       "h": 55
+      },
+      "dx": 0,
+      "dy": 1,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 7,
+      "within": 7,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".lightlinks > .row=.subpage-tiles > .lightlink-row",
+   "family": null,
+   "required": true,
+   "originMatches": 4,
+   "edsMatches": 4,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.container-fluid.container-light > div.row.d-flex"
+     },
+     "eds": {
+      "path": "div.subpage-tiles-wrapper > div.subpage-tiles.block > div.lightlink-row"
+     },
+     "rows": [
+      {
+       "key": "image:img.w-100#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 169
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 169,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "link:a#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 74,
+        "w": 360,
+        "h": 19
+       },
+       "eds": {
+        "x": 0,
+        "y": 73,
+        "w": 360,
+        "h": 20,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 1,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "link:science with harmoni",
+       "role": "link",
+       "text": "science with harmoni",
+       "edsText": "science with harmoni",
+       "byPosition": false,
+       "origin": {
+        "x": 38,
+        "y": 117,
+        "w": 266,
+        "h": 31
+       },
+       "eds": {
+        "x": 38,
+        "y": 117,
+        "w": 267,
+        "h": 31,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "26/39/400",
+        "eds": "26/39/400"
+       }
+      },
+      {
+       "key": "text:harmoni's versatility will allow astrono",
+       "role": "text",
+       "text": "harmoni's versatility will allow astronomers to use it for a",
+       "edsText": "harmoni's versatility will allow astronomers to use it for a",
+       "byPosition": false,
+       "origin": {
+        "x": 38,
+        "y": 185,
+        "w": 284,
+        "h": 304
+       },
+       "eds": {
+        "x": 38,
+        "y": 185,
+        "w": 284,
+        "h": 304,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/34/400",
+        "eds": "16/34/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 1317,
+       "w": 360,
+       "h": 521
+      },
+      "eds": {
+       "x": 0,
+       "y": 1317,
+       "w": 360,
+       "h": 521
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.container-fluid.container-light > div.row.d-flex"
+     },
+     "eds": {
+      "path": "div.subpage-tiles-wrapper > div.subpage-tiles.block > div.lightlink-row.lightlink-row-reverse"
+     },
+     "rows": [
+      {
+       "key": "image:img.w-100#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 169
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 169,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "link:a#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 74,
+        "w": 360,
+        "h": 19
+       },
+       "eds": {
+        "x": 0,
+        "y": 73,
+        "w": 360,
+        "h": 20,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 1,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "link:instrument design",
+       "role": "link",
+       "text": "instrument design",
+       "edsText": "instrument design",
+       "byPosition": false,
+       "origin": {
+        "x": 38,
+        "y": 117,
+        "w": 203,
+        "h": 31
+       },
+       "eds": {
+        "x": 38,
+        "y": 117,
+        "w": 204,
+        "h": 31,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "26/39/400",
+        "eds": "26/39/400"
+       }
+      },
+      {
+       "key": "text:with its 3d spectroscopic capabilities a",
+       "role": "text",
+       "text": "with its 3d spectroscopic capabilities and a variety of spat",
+       "edsText": "with its 3d spectroscopic capabilities and a variety of spat",
+       "byPosition": false,
+       "origin": {
+        "x": 38,
+        "y": 185,
+        "w": 284,
+        "h": 185
+       },
+       "eds": {
+        "x": 38,
+        "y": 185,
+        "w": 284,
+        "h": 185,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/34/400",
+        "eds": "16/34/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 1838,
+       "w": 360,
+       "h": 402
+      },
+      "eds": {
+       "x": 0,
+       "y": 1838,
+       "w": 360,
+       "h": 402
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.container-fluid.container-light > div.row.d-flex"
+     },
+     "eds": {
+      "path": "div.subpage-tiles-wrapper > div.subpage-tiles.block > div.lightlink-row"
+     },
+     "rows": [
+      {
+       "key": "image:img.w-100#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 169
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 169,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "link:a#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 74,
+        "w": 360,
+        "h": 19
+       },
+       "eds": {
+        "x": 0,
+        "y": 73,
+        "w": 360,
+        "h": 20,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 1,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "link:tools and documents",
+       "role": "link",
+       "text": "tools and documents",
+       "edsText": "tools and documents",
+       "byPosition": false,
+       "origin": {
+        "x": 38,
+        "y": 117,
+        "w": 244,
+        "h": 31
+       },
+       "eds": {
+        "x": 38,
+        "y": 117,
+        "w": 242,
+        "h": 31,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": -2,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "26/39/400",
+        "eds": "26/39/400"
+       }
+      },
+      {
+       "key": "link:simulator",
+       "role": "link",
+       "text": "simulator",
+       "edsText": "simulator",
+       "byPosition": false,
+       "origin": {
+        "x": 38,
+        "y": 192,
+        "w": 65,
+        "h": 19
+       },
+       "eds": {
+        "x": 38,
+        "y": 191,
+        "w": 65,
+        "h": 20,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 1,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/34/400",
+        "eds": "16/34/400"
+       }
+      },
+      {
+       "key": "link:top level requirements",
+       "role": "link",
+       "text": "top level requirements",
+       "edsText": "top level requirements",
+       "byPosition": false,
+       "origin": {
+        "x": 38,
+        "y": 242,
+        "w": 165,
+        "h": 19
+       },
+       "eds": {
+        "x": 38,
+        "y": 241,
+        "w": 167,
+        "h": 20,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 2,
+       "dh": 1,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/34/400",
+        "eds": "16/34/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 2239,
+       "w": 360,
+       "h": 300
+      },
+      "eds": {
+       "x": 0,
+       "y": 2240,
+       "w": 360,
+       "h": 300
+      },
+      "dx": 0,
+      "dy": 1,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.container-fluid.container-light > div.row.d-flex"
+     },
+     "eds": {
+      "path": "div.subpage-tiles-wrapper > div.subpage-tiles.block > div.lightlink-row.lightlink-row-reverse"
+     },
+     "rows": [
+      {
+       "key": "image:img.w-100#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 169
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 169,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "link:a#2",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 74,
+        "w": 360,
+        "h": 19
+       },
+       "eds": {
+        "x": 0,
+        "y": 73,
+        "w": 360,
+        "h": 20,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 1,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "link:instrument consortium and contacts",
+       "role": "link",
+       "text": "instrument consortium and contacts",
+       "edsText": "instrument consortium and contacts",
+       "byPosition": false,
+       "origin": {
+        "x": 38,
+        "y": 78,
+        "w": 256,
+        "h": 70
+       },
+       "eds": {
+        "x": 38,
+        "y": 78,
+        "w": 254,
+        "h": 70,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": -2,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "26/39/400",
+        "eds": "26/39/400"
+       }
+      },
+      {
+       "key": "text:harmoni is made possible through an comp",
+       "role": "text",
+       "text": "harmoni is made possible through an composed of seven resear",
+       "edsText": "harmoni is made possible through an composed of seven resear",
+       "byPosition": false,
+       "origin": {
+        "x": 38,
+        "y": 185,
+        "w": 284,
+        "h": 135
+       },
+       "eds": {
+        "x": 38,
+        "y": 185,
+        "w": 284,
+        "h": 135,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/34/400",
+        "eds": "16/34/400"
+       }
+      },
+      {
+       "key": "link:international consortium",
+       "role": "link",
+       "text": "international consortium",
+       "edsText": "international consortium",
+       "byPosition": false,
+       "origin": {
+        "x": 59,
+        "y": 226,
+        "w": 164,
+        "h": 19
+       },
+       "eds": {
+        "x": 60,
+        "y": 225,
+        "w": 164,
+        "h": 20,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 1,
+       "dy": -1,
+       "dw": 0,
+       "dh": 1,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/34/400",
+        "eds": "16/34/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 2539,
+       "w": 360,
+       "h": 352
+      },
+      "eds": {
+       "x": 0,
+       "y": 2540,
+       "w": 360,
+       "h": 352
+      },
+      "dx": 0,
+      "dy": 1,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".page-section > .row.no-gutters=.tech-table-list > .tech-row",
+   "family": null,
+   "required": true,
+   "originMatches": 5,
+   "edsMatches": 5,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.container-fluid.container-light > div.row.d-flex"
+     },
+     "eds": {
+      "path": "div.tech-table.block > dl.tech-table-list > div.tech-row"
+     },
+     "rows": [
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 48,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:wavelength",
+       "role": "text",
+       "text": "wavelength",
+       "edsText": "wavelength",
+       "byPosition": false,
+       "origin": {
+        "x": 36,
+        "y": 7,
+        "w": 80,
+        "h": 33
+       },
+       "eds": {
+        "x": 36,
+        "y": 7,
+        "w": 81,
+        "h": 33,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/27/400",
+        "eds": "16/27/400"
+       }
+      },
+      {
+       "key": "text:0.47—2.45 μm",
+       "role": "text",
+       "text": "0.47—2.45 μm",
+       "edsText": "0.47—2.45 μm",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 48,
+        "w": 360,
+        "h": 33
+       },
+       "eds": {
+        "x": 0,
+        "y": 48,
+        "w": 360,
+        "h": 33,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/27/400",
+        "eds": "16/27/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 9646,
+       "w": 360,
+       "h": 81
+      },
+      "eds": {
+       "x": 0,
+       "y": 9646,
+       "w": 360,
+       "h": 81
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.container-fluid.container-light > div.row.d-flex"
+     },
+     "eds": {
+      "path": "div.tech-table.block > dl.tech-table-list > div.tech-row"
+     },
+     "rows": [
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 48,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:spectral resolution",
+       "role": "text",
+       "text": "spectral resolution",
+       "edsText": "spectral resolution",
+       "byPosition": false,
+       "origin": {
+        "x": 36,
+        "y": 7,
+        "w": 127,
+        "h": 33
+       },
+       "eds": {
+        "x": 36,
+        "y": 7,
+        "w": 128,
+        "h": 33,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/27/400",
+        "eds": "16/27/400"
+       }
+      },
+      {
+       "key": "text:~3,500, 7,500, and 18,000 in the nir and",
+       "role": "text",
+       "text": "~3,500, 7,500, and 18,000 in the nir and ~3,500 in the vis b",
+       "edsText": "~3,500, 7,500, and 18,000 in the nir and ~3,500 in the vis b",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 55,
+        "w": 360,
+        "h": 46
+       },
+       "eds": {
+        "x": 4,
+        "y": 54,
+        "w": 353,
+        "h": 47,
+        "sel": "span",
+        "role": "text"
+       },
+       "dx": 4,
+       "dy": -1,
+       "dw": -7,
+       "dh": 1,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/27/400",
+        "eds": "16/27/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 9735,
+       "w": 360,
+       "h": 108
+      },
+      "eds": {
+       "x": 0,
+       "y": 9735,
+       "w": 360,
+       "h": 108
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 2,
+      "off": 1,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.container-fluid.container-light > div.row.d-flex"
+     },
+     "eds": {
+      "path": "div.tech-table.block > dl.tech-table-list > div.tech-row"
+     },
+     "rows": [
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 48,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:simultaneous spectral range",
+       "role": "text",
+       "text": "simultaneous spectral range",
+       "edsText": "simultaneous spectral range",
+       "byPosition": false,
+       "origin": {
+        "x": 36,
+        "y": 7,
+        "w": 195,
+        "h": 33
+       },
+       "eds": {
+        "x": 36,
+        "y": 7,
+        "w": 196,
+        "h": 33,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/27/400",
+        "eds": "16/27/400"
+       }
+      },
+      {
+       "key": "text:at least one band at a time r~7,500 (i, ",
+       "role": "text",
+       "text": "at least one band at a time r~7,500 (i, z, j, h, k), two at ",
+       "edsText": "at least one band at a time r~7,500 (i, z, j, h, k), two at ",
+       "byPosition": false,
+       "origin": {
+        "x": 10,
+        "y": 55,
+        "w": 340,
+        "h": 46
+       },
+       "eds": {
+        "x": 10,
+        "y": 54,
+        "w": 339,
+        "h": 47,
+        "sel": "span",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": -1,
+       "dh": 1,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/27/400",
+        "eds": "16/27/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 9851,
+       "w": 360,
+       "h": 108
+      },
+      "eds": {
+       "x": 0,
+       "y": 9852,
+       "w": 360,
+       "h": 108
+      },
+      "dx": 0,
+      "dy": 1,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.container-fluid.container-light > div.row.d-flex"
+     },
+     "eds": {
+      "path": "div.tech-table.block > dl.tech-table-list > div.tech-row"
+     },
+     "rows": [
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 48,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:field(s)-of-view",
+       "role": "text",
+       "text": "field(s)-of-view",
+       "edsText": "field(s)-of-view",
+       "byPosition": false,
+       "origin": {
+        "x": 36,
+        "y": 7,
+        "w": 103,
+        "h": 33
+       },
+       "eds": {
+        "x": 36,
+        "y": 7,
+        "w": 106,
+        "h": 33,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 3,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/27/400",
+        "eds": "16/27/400"
+       }
+      },
+      {
+       "key": "text:four, corresponding to different spaxel ",
+       "role": "text",
+       "text": "four, corresponding to different spaxel scales",
+       "edsText": "four, corresponding to different spaxel scales",
+       "byPosition": false,
+       "origin": {
+        "x": 26,
+        "y": 55,
+        "w": 308,
+        "h": 19
+       },
+       "eds": {
+        "x": 27,
+        "y": 54,
+        "w": 307,
+        "h": 20,
+        "sel": "span",
+        "role": "text"
+       },
+       "dx": 1,
+       "dy": -1,
+       "dw": -1,
+       "dh": 1,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/27/400",
+        "eds": "16/27/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 9968,
+       "w": 360,
+       "h": 81
+      },
+      "eds": {
+       "x": 0,
+       "y": 9968,
+       "w": 360,
+       "h": 81
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div.container-fluid.container-light > div.row.d-flex"
+     },
+     "eds": {
+      "path": "div.tech-table.block > dl.tech-table-list > div.tech-row"
+     },
+     "rows": [
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 48,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:ao",
+       "role": "text",
+       "text": "ao",
+       "edsText": "ao",
+       "byPosition": false,
+       "origin": {
+        "x": 36,
+        "y": 7,
+        "w": 22,
+        "h": 33
+       },
+       "eds": {
+        "x": 36,
+        "y": 7,
+        "w": 22,
+        "h": 33,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/27/400",
+        "eds": "16/27/400"
+       }
+      },
+      {
+       "key": "text:ltao and scao",
+       "role": "text",
+       "text": "ltao and scao",
+       "edsText": "ltao and scao",
+       "byPosition": false,
+       "origin": {
+        "x": 123,
+        "y": 55,
+        "w": 114,
+        "h": 19
+       },
+       "eds": {
+        "x": 122,
+        "y": 54,
+        "w": 116,
+        "h": 20,
+        "sel": "span",
+        "role": "text"
+       },
+       "dx": -1,
+       "dy": -1,
+       "dw": 2,
+       "dh": 1,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/27/400",
+        "eds": "16/27/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 10057,
+       "w": 360,
+       "h": 81
+      },
+      "eds": {
+       "x": 0,
+       "y": 10058,
+       "w": 360,
+       "h": 81
+      },
+      "dx": 0,
+      "dy": 1,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 11,
+  "within": 41,
+  "off": 1,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 1
+ }
+}

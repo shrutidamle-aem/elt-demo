@@ -1,0 +1,480 @@
+[live-session] waiting to pace live navigations to elt.eso.org (4000 ms apart, 1 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+
+Visual diff @ 1440px (profile "generic") — screenshots in stardust/replica/gates/telescope-1440/vdiff-pub2/
+
+build red flags (advisory): none
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 675,
+  "textLen": 49,
+  "images": [
+   {
+    "src": "eso_logo.jpg",
+    "natural": "100x130",
+    "rendered": "38x50",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_topbar_mobile_1.png",
+    "natural": "35x35",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_topbar_mobile_3.png",
+    "natural": "35x35",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_topbar_mobile_4.png",
+    "natural": "35x35",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_topbar_mobile_5.png",
+    "natural": "35x35",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_topbar_mobile_1.png",
+    "natural": "35x35",
+    "rendered": "28x28",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_topbar_mobile_3.png",
+    "natural": "35x35",
+    "rendered": "28x28",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_topbar_mobile_4.png",
+    "natural": "35x35",
+    "rendered": "28x28",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_topbar_mobile_5.png",
+    "natural": "35x35",
+    "rendered": "28x28",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "header-telescope.jpg",
+    "natural": "1920x900",
+    "rendered": "1440x675",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "eso_logo_transparent.png",
+    "natural": "981x1279",
+    "rendered": "78x102",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_share_1.png",
+    "natural": "35x35",
+    "rendered": "33x33",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_share_3.png",
+    "natural": "36x35",
+    "rendered": "34x33",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_share_1.png",
+    "natural": "35x35",
+    "rendered": "33x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_share_5.png",
+    "natural": "35x35",
+    "rendered": "33x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_share_6.png",
+    "natural": "36x35",
+    "rendered": "34x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_share_4.png",
+    "natural": "35x35",
+    "rendered": "33x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "telescope-dome-landing.jpg",
+    "natural": "1920x900",
+    "rendered": "569x267",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "telescope-structure-landing.jpg",
+    "natural": "1920x900",
+    "rendered": "569x267",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "telescope-thumb-m1.jpg",
+    "natural": "1280x1024",
+    "rendered": "282x225",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "telescope-thumb-m2m3.jpg",
+    "natural": "1280x1024",
+    "rendered": "282x225",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "telescope-thumb-m4.jpg",
+    "natural": "1280x1024",
+    "rendered": "282x225",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "telescope-thumb-m5.jpg",
+    "natural": "1280x1024",
+    "rendered": "282x225",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "eso1716d.jpg",
+    "natural": "1920x900",
+    "rendered": "375x176",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "telescopes-controls-landing.jpg",
+    "natural": "1920x900",
+    "rendered": "375x176",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "telescope-prefocal-landing.jpg",
+    "natural": "1920x900",
+    "rendered": "375x176",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "telescope-operations-landing.jpg",
+    "natural": "1920x900",
+    "rendered": "1138x533",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": []
+ },
+ "build": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 675,
+  "textLen": 49,
+  "images": [
+   {
+    "src": "media_175cb2986e8ee49e7c64e8a9df5fa3f1f9b298693.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "100x130",
+    "rendered": "38x50",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1f386e2b9f7ed0b34b2f603a73f839485d120c14f.png?width=2000&format=webply&optimize=medium",
+    "natural": "35x35",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_19faa7be92695e315cea4cad487aa3e15b6594830.png?width=2000&format=webply&optimize=medium",
+    "natural": "35x35",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_15b4dfde77d1909c3b38baaf7167a2e3d48f25f72.png?width=2000&format=webply&optimize=medium",
+    "natural": "35x35",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_101417719196c90d4b42a69d39754d790fdc2b645.png?width=2000&format=webply&optimize=medium",
+    "natural": "35x35",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1f386e2b9f7ed0b34b2f603a73f839485d120c14f.png?width=2000&format=webply&optimize=medium",
+    "natural": "35x35",
+    "rendered": "28x28",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_19faa7be92695e315cea4cad487aa3e15b6594830.png?width=2000&format=webply&optimize=medium",
+    "natural": "35x35",
+    "rendered": "28x28",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_15b4dfde77d1909c3b38baaf7167a2e3d48f25f72.png?width=2000&format=webply&optimize=medium",
+    "natural": "35x35",
+    "rendered": "28x28",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_101417719196c90d4b42a69d39754d790fdc2b645.png?width=2000&format=webply&optimize=medium",
+    "natural": "35x35",
+    "rendered": "28x28",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_18822984e9fb61461f1a3fc55bf2277f78c676794.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "1920x900",
+    "rendered": "1440x675",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1a043431fda0378cd219e1a181f4b0998cf7fbc73.png?width=2000&format=webply&optimize=medium",
+    "natural": "981x1279",
+    "rendered": "78x102",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_share_1.png",
+    "natural": "35x35",
+    "rendered": "33x33",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_share_3.png",
+    "natural": "36x35",
+    "rendered": "34x33",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_share_1.png",
+    "natural": "35x35",
+    "rendered": "33x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_share_5.png",
+    "natural": "35x35",
+    "rendered": "33x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_share_6.png",
+    "natural": "36x35",
+    "rendered": "34x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_share_4.png",
+    "natural": "35x35",
+    "rendered": "33x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1f9811a5952a351126440830aba63511aff4fb420.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "1920x900",
+    "rendered": "569x267",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1655d9c35493977e80f9b47e09a4f4ee5617b7469.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "1920x900",
+    "rendered": "569x267",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1d946fd28c4cf051d16a113b1830d553e72cac1b7.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "1280x1024",
+    "rendered": "282x225",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_123adebf4e745bace406c7ffcd659aae15c34f403.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "1280x1024",
+    "rendered": "282x225",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1951aed6eab51f1c31baab2c3cd9adb6802a6089e.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "1280x1024",
+    "rendered": "282x225",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_10924bb3a883fd3f1e78ed1670177108fbdd1ca56.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "1280x1024",
+    "rendered": "282x225",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_191997b9f3104fd4e2effd6ceacbd6c4a08a75994.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "1920x900",
+    "rendered": "375x176",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1c9ef84511fce0d002a05d250f3f1d15b494b392b.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "1920x900",
+    "rendered": "375x176",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1ebf4c40b3ef88862078c75cf77ab21716049bbe7.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "1920x900",
+    "rendered": "375x176",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_109e5b2b69c880d4a1de4311d9d7fd9e78bbc3c0b.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "1920x900",
+    "rendered": "1138x533",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Telescope Overview",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "53.5008px",
+    "family": "Helvetica Neue LT ESO",
+    "fontLoaded": false
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "big-header-title",
+    "width": 1138,
+    "left": 151
+   }
+  ]
+ }
+}

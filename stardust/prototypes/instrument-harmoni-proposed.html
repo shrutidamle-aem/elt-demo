@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HARMONI | ELT | ESO</title>
+  <meta name="description" content="The Extremely Large Telescope: The World&#x27;s Biggest Eye On The Sky">
+  <link rel="icon" href="media/favicon.ico">
+  <link rel="stylesheet" href="canon.css">
+  <link rel="stylesheet" href="inner.css">
+  <link rel="stylesheet" href="instrument-harmoni.css">
+  <script src="canon.js" defer></script>
+  <script src="instrument-harmoni.js" defer></script>
+</head>
+<body class="page-instrument">
+  <nav id="top-navbar" class="navbar" aria-label="ESO and site navigation">
+    <span class="navbar-brand navbar-brand--main">
+      <div class="brand-logo"><a href="https://www.eso.org/" target="_blank" rel="noopener noreferrer"><img class="navbar-eso-logo" src="media/eso_logo.jpg" alt="" width="100" height="130"></a></div>
+      <div class="brand-flags">
+        <ul id="navbar-flags">
+          <li><span class="flag flag-at"></span></li>
+          <li><span class="flag flag-be"></span></li>
+          <li><span class="flag flag-cl"></span></li>
+          <li><span class="flag flag-cz"></span></li>
+          <li><span class="flag flag-da"></span></li>
+          <li><span class="flag flag-fi"></span></li>
+          <li><span class="flag flag-fr"></span></li>
+          <li><span class="flag flag-de"></span></li>
+          <li><span class="flag flag-ie"></span></li>
+          <li><span class="flag flag-it"></span></li>
+          <li><span class="flag flag-nl"></span></li>
+          <li><span class="flag flag-pl"></span></li>
+          <li><span class="flag flag-pt"></span></li>
+          <li><span class="flag flag-es"></span></li>
+          <li><span class="flag flag-sv"></span></li>
+          <li><span class="flag flag-ch"></span></li>
+          <li><span class="flag flag-gb"></span></li>
+          <li class="language-menu">
+            <div class="choose-language-message"> Choose your language &nbsp;<i class="fa-arrow-down" aria-hidden="true"></i></div>
+            <div class="language-options">
+              <a href="/telescope/?lang"><span class="flag flag-gb">&nbsp;</span> English </a>
+              <a href="/chile/telescope/?lang"><span class="flag flag-cl">&nbsp;</span> Español </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </span>
+    <div class="navbar-brand brand-social">
+      <div class="desktop-top-sm-icons">
+        <a href="https://facebook.com/ESOAstronomy" title="ESO on Facebook" target="_blank" rel="noopener noreferrer"><img src="media/icon_topbar_mobile_1.png" alt="ESO on Facebook" width="35" height="35"></a>
+        <a href="https://www.instagram.com/esoastronomy/" title="ESO on Instagram" target="_blank" rel="noopener noreferrer"><img src="media/icon_topbar_mobile_3.png" alt="ESO on Instagram" width="35" height="35"></a>
+        <a href="https://www.linkedin.com/company/european-southern-observatory" title="ESO on LinkedIn" target="_blank" rel="noopener noreferrer"><img src="media/icon_topbar_mobile_4.png" alt="ESO on LinkedIn" width="35" height="35"></a>
+        <a href="https://www.youtube.com/channel/UCIhYoC2VIAJqCkoIWNHBQ3Q" title="ESO on YouTube" target="_blank" rel="noopener noreferrer"><img src="media/icon_topbar_mobile_5.png" alt="ESO on YouTube" width="35" height="35"></a>
+      </div>
+    </div>
+    <span class="lang-links"><a href="/telescope/?lang" class="lang-link">en</a> | <a href="/telescope/?lang" class="lang-link">es</a></span>
+    <button class="navbar-toggler" type="button" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+    <div class="navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item menu-item mobile-only">
+          <a class="nav-link" href="/">ELT HOME</a>
+        </li>
+        <li class="nav-item menu-item mobile-only dropdown-menu-top dropup">
+          <a class="nav-link" href="/about/">ABOUT</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="/about/">About the ELT</a>
+            <a class="dropdown-item" href="/about/timeline/">Timeline</a>
+            <a class="dropdown-item" href="/about/location/">Location</a>
+            <a class="dropdown-item" href="/about/webcams/">Webcams</a>
+            <a class="dropdown-item" href="/about/facts/">Facts</a>
+            <a class="dropdown-item" href="/about/road/">Road to the ELT</a>
+            <a class="dropdown-item" href="/about/team/">Meet the Team</a>
+            <a class="dropdown-item" href="/about/workinggroups/">Working Groups</a>
+            <a class="dropdown-item" href="/about/industrial/">Industrial and Institutional Partners</a>
+            <a class="dropdown-item" href="/about/faq/">FAQ</a>
+          </div>
+        </li>
+        <li class="nav-item menu-item mobile-only dropdown-menu-top dropup">
+          <a class="nav-link" href="/telescope/" aria-current="page">TELESCOPE</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="/telescope/">Telescope Overview</a>
+            <a class="dropdown-item" href="/telescope/dome/">Dome</a>
+            <a class="dropdown-item" href="/telescope/structure/">Main Structure</a>
+            <div class="dropdown-submenu">
+              <a class="dropdown-item" href="/mirror/">Mirrors</a>
+              <div class="dropdown-menu bottom-aligned">
+                <a class="dropdown-item" href="/mirror/">Mirrors Overview</a>
+                <a class="dropdown-item" href="/mirror/M1/">M1</a>
+                <a class="dropdown-item" href="/mirror/M2M3/">M2M3</a>
+                <a class="dropdown-item" href="/mirror/M4/">M4</a>
+                <a class="dropdown-item" href="/mirror/M5/">M5</a>
+              </div>
+            </div>
+            <a class="dropdown-item" href="/telescope/adaptiveoptics/">Adaptive Optics</a>
+            <a class="dropdown-item" href="/telescope/prefocal/">Prefocal Station</a>
+            <a class="dropdown-item" href="/telescope/controls/">Controls</a>
+            <a class="dropdown-item" href="/telescope/operations/">Operations</a>
+          </div>
+        </li>
+        <li class="nav-item menu-item mobile-only dropdown-menu-top dropup active">
+          <a class="nav-link" href="/instrument/">INSTRUMENTS</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="/instrument/">Instruments Overview</a>
+            <a class="dropdown-item active" href="/instrument/HARMONI/" aria-current="page">HARMONI</a>
+            <a class="dropdown-item" href="/instrument/MICADO/">MICADO</a>
+            <a class="dropdown-item" href="/instrument/MORFEO/">MORFEO</a>
+            <a class="dropdown-item" href="/instrument/METIS/">METIS</a>
+            <a class="dropdown-item" href="/instrument/ANDES/">ANDES</a>
+            <a class="dropdown-item" href="/instrument/MOSAIC/">MOSAIC</a>
+          </div>
+        </li>
+        <li class="nav-item menu-item mobile-only dropdown-menu-top dropup">
+          <a class="nav-link" href="/science/">SCIENCE</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="/science/">Science Overview</a>
+            <a class="dropdown-item" href="/science/solarsystem/">Solar System</a>
+            <a class="dropdown-item" href="/science/exoplanets/">Exoplanets</a>
+            <a class="dropdown-item" href="/science/stars/">Stars</a>
+            <a class="dropdown-item" href="/science/blackholes/">Black Holes</a>
+            <a class="dropdown-item" href="/science/galaxies/">Galaxies</a>
+            <a class="dropdown-item" href="/science/cosmodm/">Cosmology and Dark Matter</a>
+            <a class="dropdown-item" href="/science/fundamentalphysics/">Fundamental Physics</a>
+            <a class="dropdown-item" href="/science/discoveries/">Unexpected Discoveries</a>
+          </div>
+        </li>
+        <li class="nav-item menu-item mobile-only">
+          <a class="nav-link" href="/media/">NEWS &amp; MULTIMEDIA</a>
+        </li>
+        <li class="nav-item menu-item mobile-only">
+          <a class="nav-link" href="/success/buildingon/">SUCCESS STORIES</a>
+        </li>
+        <li class="social-desktop desktop-top-sm-icons">
+          <a href="https://facebook.com/ESOAstronomy" title="ESO on Facebook" target="_blank" rel="noopener noreferrer"><img src="media/icon_topbar_mobile_1.png" alt="ESO on Facebook" width="35" height="35"></a>
+          <a href="https://www.instagram.com/esoastronomy/" title="ESO on Instagram" target="_blank" rel="noopener noreferrer"><img src="media/icon_topbar_mobile_3.png" alt="ESO on Instagram" width="35" height="35"></a>
+          <a href="https://www.linkedin.com/company/european-southern-observatory" title="ESO on LinkedIn" target="_blank" rel="noopener noreferrer"><img src="media/icon_topbar_mobile_4.png" alt="ESO on LinkedIn" width="35" height="35"></a>
+          <a href="https://www.youtube.com/channel/UCIhYoC2VIAJqCkoIWNHBQ3Q" title="ESO on YouTube" target="_blank" rel="noopener noreferrer"><img src="media/icon_topbar_mobile_5.png" alt="ESO on YouTube" width="35" height="35"></a>
+        </li>
+        <li id="nav-search" class="nav-item menu-item dropdown dropdown-menu-top-top">
+          <a class="nav-link" href="#"><i class="material-icons">search</i></a>
+          <div class="dropdown-menu">
+            <div class="dropdown-item">
+              <form class="search-form" action="/public/eltsearch/" method="get"><input type="search" placeholder="Search..." name="q" aria-label="Search"><button type="submit">Search</button></form>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <img class="big-header-image" src="https://cdn.eso.org/images/banner1920/header-instruments.jpg" alt="" width="1920" height="900">
+  <main class="elt-inner">
+    <div id="big-header" class="big-header-text">
+      <div class="big-header-logos">
+        <img class="big-header-eso-logo" src="media/eso_logo_transparent.png" alt="" width="981" height="1279">
+        <p class="esologo-text">European<br>Southern<br>Observatory</p>
+      </div>
+      <h1 class="big-header-title"> ELT Instruments </h1>
+    </div>
+
+    <nav id="main-navbar" class="navbar mysticky" aria-label="Main">
+      <button class="navbar-toggler" type="button" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      <div class="navbar-collapse">
+        <ul class="navbar-nav">
+          <li class="nav-item menu-item">
+            <a class="nav-link" href="/">ELT HOME</a>
+          </li>
+          <li class="nav-item menu-item dropdown-menu-top dropup">
+            <a class="nav-link" href="/about/">ABOUT</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="/about/">About the ELT</a>
+              <a class="dropdown-item" href="/about/timeline/">Timeline</a>
+              <a class="dropdown-item" href="/about/location/">Location</a>
+              <a class="dropdown-item" href="/about/webcams/">Webcams</a>
+              <a class="dropdown-item" href="/about/facts/">Facts</a>
+              <a class="dropdown-item" href="/about/road/">Road to the ELT</a>
+              <a class="dropdown-item" href="/about/team/">Meet the Team</a>
+              <a class="dropdown-item" href="/about/workinggroups/">Working Groups</a>
+              <a class="dropdown-item" href="/about/industrial/">Industrial and Institutional Partners</a>
+              <a class="dropdown-item" href="/about/faq/">FAQ</a>
+            </div>
+          </li>
+          <li class="nav-item menu-item dropdown-menu-top dropup">
+            <a class="nav-link" href="/telescope/" aria-current="page">TELESCOPE</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="/telescope/">Telescope Overview</a>
+              <a class="dropdown-item" href="/telescope/dome/">Dome</a>
+              <a class="dropdown-item" href="/telescope/structure/">Main Structure</a>
+              <div class="dropdown-submenu">
+                <a class="dropdown-item" href="/mirror/">Mirrors</a>
+                <div class="dropdown-menu bottom-aligned">
+                  <a class="dropdown-item" href="/mirror/">Mirrors Overview</a>
+                  <a class="dropdown-item" href="/mirror/M1/">M1</a>
+                  <a class="dropdown-item" href="/mirror/M2M3/">M2M3</a>
+                  <a class="dropdown-item" href="/mirror/M4/">M4</a>
+                  <a class="dropdown-item" href="/mirror/M5/">M5</a>
+                </div>
+              </div>
+              <a class="dropdown-item" href="/telescope/adaptiveoptics/">Adaptive Optics</a>
+              <a class="dropdown-item" href="/telescope/prefocal/">Prefocal Station</a>
+              <a class="dropdown-item" href="/telescope/controls/">Controls</a>
+              <a class="dropdown-item" href="/telescope/operations/">Operations</a>
+            </div>
+          </li>
+          <li class="nav-item menu-item dropdown-menu-top dropup active">
+            <a class="nav-link" href="/instrument/">INSTRUMENTS</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="/instrument/">Instruments Overview</a>
+              <a class="dropdown-item active" href="/instrument/HARMONI/" aria-current="page">HARMONI</a>
+              <a class="dropdown-item" href="/instrument/MICADO/">MICADO</a>
+              <a class="dropdown-item" href="/instrument/MORFEO/">MORFEO</a>
+              <a class="dropdown-item" href="/instrument/METIS/">METIS</a>
+              <a class="dropdown-item" href="/instrument/ANDES/">ANDES</a>
+              <a class="dropdown-item" href="/instrument/MOSAIC/">MOSAIC</a>
+            </div>
+          </li>
+          <li class="nav-item menu-item dropdown-menu-top dropup">
+            <a class="nav-link" href="/science/">SCIENCE</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="/science/">Science Overview</a>
+              <a class="dropdown-item" href="/science/solarsystem/">Solar System</a>
+              <a class="dropdown-item" href="/science/exoplanets/">Exoplanets</a>
+              <a class="dropdown-item" href="/science/stars/">Stars</a>
+              <a class="dropdown-item" href="/science/blackholes/">Black Holes</a>
+              <a class="dropdown-item" href="/science/galaxies/">Galaxies</a>
+              <a class="dropdown-item" href="/science/cosmodm/">Cosmology and Dark Matter</a>
+              <a class="dropdown-item" href="/science/fundamentalphysics/">Fundamental Physics</a>
+              <a class="dropdown-item" href="/science/discoveries/">Unexpected Discoveries</a>
+            </div>
+          </li>
+          <li class="nav-item menu-item">
+            <a class="nav-link" href="/media/">NEWS &amp; MULTIMEDIA</a>
+          </li>
+          <li class="nav-item menu-item">
+            <a class="nav-link" href="/success/buildingon/">SUCCESS STORIES</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="container-dark container-tight instrument-header" aria-label="HARMONI">
+      <img class="instrument-header__image" src="https://cdn.eso.org/images/banner1920/subheader-harmoni.jpg" alt="" width="1920" height="900">
+      <div class="instrument-header-textblock">
+        <div class="instrument-header-textblock__inner">
+          <div class="header-title">HARMONI</div>
+          <div class="header-subtitle instrument-header-subtitle show-lg">High Angular Resolution Monolithic Optical and Near-infrared Integral field spectrograph</div>
+          <div class="header-description instrument-header-description show-xl"><p>HARMONI will be one of the first generation of ELT instruments and will transform the visible and near-infrared astronomy landscape. This workhorse instrument, a 3D spectrograph, will disperse the light from astronomical objects into its component wavelengths, allowing scientists to study them in fine detail and go beyond what we can achieve with current spectrographs.&nbsp;</p></div>
+          <div class="header-quick-links">
+            <div>Quick Links:</div>
+            <div class="instrument-link-color"><a class="instrument-link-color instrument-link" href="#science">Science</a> | <a class="instrument-link-color instrument-link" href="#design">Design</a> | <a class="instrument-link-color instrument-link" href="#docsntools">Documents</a> | <a class="instrument-link-color instrument-link" href="#consortium">Consortium</a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-light nutshell page-section" aria-label="In a nutshell">
+      <div class="container-paragraph section-title-paragraph section-title-paragraph--share">
+        <div>In a nutshell</div>
+        <div class="share">
+          <a class="share-social-media-link share-social-media-icons" href="https://www.facebook.com/sharer/sharer.php?u=https://elt.eso.org/instrument/HARMONI/" title="Share on Facebook" target="_blank" rel="noopener noreferrer"><img src="media/icon_share_1.png" alt="Share on Facebook" width="35" height="35"></a>
+          <span class="share-menu" title="Share on Social Media">
+            <span class="share-social-media share-social-media-icons"><img class="share-social-media" src="media/icon_share_3.png" alt="" width="36" height="35"></span>
+            <div class="share-social-media-dropdown">
+              <div class="share-social-media-dropdown-icons">
+                <a class="share-social-media-link" href="https://www.facebook.com/sharer/sharer.php?u=https://elt.eso.org/instrument/HARMONI/" title="Share on Facebook" target="_blank" rel="noopener noreferrer"><img src="media/icon_share_1.png" alt="Share on Facebook" width="35" height="35"><span class="share-social-media-dropdown-text">Share on Facebook</span></a>
+                <a class="share-social-media-link share-email" href="#" title="E-Mail"><img src="media/icon_share_5.png" alt="E-Mail" width="35" height="35"><span class="share-social-media-dropdown-text">E-Mail</span></a>
+                <a class="share-social-media-link clipboard" href="#" title="Copy Link"><img src="media/icon_share_6.png" alt="Copy link" width="36" height="35"><span class="share-social-media-dropdown-text">Copy Link</span></a>
+                <a class="share-social-media-link" href="https://www.linkedin.com/sharing/share-offsite/?url=https://elt.eso.org/instrument/HARMONI/" title="Share on LinkedIn" target="_blank" rel="noopener noreferrer"><img src="media/icon_share_4.png" alt="Share on LinkedIn" width="35" height="35"><span class="share-social-media-dropdown-text">Share on LinkedIn</span></a>
+              </div>
+            </div>
+          </span>
+        </div>
+      </div>
+      <div class="container-subtitle section-subtitle-paragraph-aftertitle show-lg-only"><p>HARMONI will be one of the first generation of ELT instruments and will transform the visible and near-infrared astronomy landscape. This workhorse instrument, a 3D spectrograph, will disperse the light from astronomical objects into its component wavelengths, allowing scientists to study them in fine detail and go beyond what we can achieve with current spectrographs.&nbsp;</p></div>
+      <div class="container-subtitle section-subtitle-paragraph-aftertitle hide-lg">High Angular Resolution Monolithic Optical and Near-infrared Integral field spectrograph</div>
+      <div class="container-paragraph section-text-paragraph hide-lg"><p>HARMONI will be one of the first generation of ELT instruments and will transform the visible and near-infrared astronomy landscape. This workhorse instrument, a 3D spectrograph, will disperse the light from astronomical objects into its component wavelengths, allowing scientists to study them in fine detail and go beyond what we can achieve with current spectrographs.&nbsp;</p></div>
+      <div class="container-paragraph section-text-paragraph">
+        <p>Powerful and versatile, HARMONI will enable astronomers to study many different astronomical targets, from the far-off — distant galaxies, energetic quasars, and gamma-ray bursts — to individual stars in nearby galaxies and exoplanets in the Milky Way.&nbsp;&nbsp;</p>
+        <p>HARMONI will provide visible and near-infrared spectroscopy over a range of resolving powers and spatial scales and can work both with and without adaptive optics.</p>
+      </div>
+    </section>
+
+    <nav class="container-light lightlinks" aria-label="In this page">
+      <div class="lightlink-row" style="--row-color: rgb(79, 143, 176); --link-color: rgb(79, 143, 176);">
+        <div class="lightlink-media">
+          <a href="#science"><img src="https://cdn.eso.org/images/banner1920/eso1618a.jpg" alt="" width="1920" height="900"></a>
+          <span class="internal-menu-title"><a href="#science">Science with HARMONI</a></span>
+        </div>
+        <div class="lightlink-body">
+          <div class="internal-menu-text"><p>HARMONI's&nbsp;versatility will allow astronomers to use it for a wide range of science cases, with main goals including probing the physics of distant galaxies, studying populations of stars in other galaxies, exploring the relationship between black holes and their host galaxies, and characterising giant exoplanets.&nbsp;</p></div>
+          <div class="internal-menu-shape"><div class="show-xl"><svg class="internal-menu-trapezoid" viewBox="0 0 945 75" preserveAspectRatio="none" aria-hidden="true"><a href="/instrument/HARMONI/#science"><polygon points="0,0 260,0 340,67 945,67 945,75 0,75"></polygon></a></svg></div></div>
+          <div class="internal-menu-link"><a href="#science"> Read More </a></div>
+        </div>
+      </div>
+      <div class="lightlink-row lightlink-row--reverse" style="--row-color: rgb(95, 160, 151); --link-color: rgb(95, 160, 151);">
+        <div class="lightlink-body">
+          <div class="internal-menu-text"><p class="internal-menu-text__pad">With its 3D spectroscopic capabilities and a variety of spatial and spectral settings, HARMONI will be a very powerful and versatile first-generation instrument for the ELT.</p></div>
+          <div class="internal-menu-shape"><div class="show-xl"><svg class="internal-menu-trapezoid" viewBox="0 0 945 75" preserveAspectRatio="none" aria-hidden="true"><a href="/instrument/HARMONI/#design"><polygon points="0,0 260,0 340,67 945,67 945,75 0,75"></polygon></a></svg></div></div>
+          <div class="internal-menu-link"><a href="#design"> Read More </a></div>
+        </div>
+        <div class="lightlink-media">
+          <a href="#design"><img src="https://cdn.eso.org/images/banner1920/thumb-harmoni-design.jpg" alt="" width="1920" height="900"></a>
+          <span class="internal-menu-title"><a href="#design">Instrument Design</a></span>
+        </div>
+      </div>
+      <div class="lightlink-row" style="--row-color: rgb(154, 125, 85); --link-color: rgb(79, 143, 176);">
+        <div class="lightlink-media">
+          <a href="#docsntools"><img src="https://cdn.eso.org/images/banner1920/thumb-harmoni-docs.jpg" alt="" width="1920" height="900"></a>
+          <span class="internal-menu-title"><a href="#docsntools">Tools and Documents</a></span>
+        </div>
+        <div class="lightlink-body">
+          <div class="internal-menu-text"><p><a href="https://harmoni-elt.physics.ox.ac.uk/Hsim.html">Simulator</a></p><p><a href="https://www.eso.org/sci/facilities/eelt/docs/ESO-191883_2_Top_Level_Requirements_for_ELT-IFU.pdf">Top Level Requirements</a></p></div>
+          <div class="internal-menu-shape"><div class="show-xl"><svg class="internal-menu-trapezoid" viewBox="0 0 945 75" preserveAspectRatio="none" aria-hidden="true"><a href="/instrument/HARMONI/#docsntools"><polygon points="0,0 260,0 340,67 945,67 945,75 0,75"></polygon></a></svg></div></div>
+          <div class="internal-menu-link"><a href="#docsntools"> Read More </a></div>
+        </div>
+      </div>
+      <div class="lightlink-row lightlink-row--reverse" style="--row-color: rgb(80, 79, 184); --link-color: rgb(80, 79, 184);">
+        <div class="lightlink-body">
+          <div class="internal-menu-text"><p>HARMONI is made possible through an&nbsp;<a href="https://harmoni-elt.physics.ox.ac.uk/consortium.html">international consortium</a>&nbsp;composed of seven research institutes from four different countries.</p></div>
+          <div class="internal-menu-shape"><div class="show-xl"><svg class="internal-menu-trapezoid" viewBox="0 0 945 75" preserveAspectRatio="none" aria-hidden="true"><a href="/instrument/HARMONI/#consortium"><polygon points="0,0 260,0 340,67 945,67 945,75 0,75"></polygon></a></svg></div></div>
+          <div class="internal-menu-link"><a href="#consortium"> Read More </a></div>
+        </div>
+        <div class="lightlink-media">
+          <a href="#consortium"><img src="https://cdn.eso.org/images/banner1920/0200_ems_cc.jpg" alt="" width="1920" height="900"></a>
+          <span class="internal-menu-title"><a href="#consortium">Instrument Consortium and Contacts</a></span>
+        </div>
+      </div>
+    </nav>
+
+    <a id="science" class="anchor"></a>
+    <section id="science_" class="container-light page-section" aria-label="Science with HARMONI">
+      <div class="container-paragraph section-title-paragraph">Science with HARMONI</div>
+      <figure class="wide-image">
+        <a href="https://www.eso.org/public/images/instruments-harmoni-banner1/"><img src="https://cdn.eso.org/images/original/instruments-harmoni-banner1.jpg" alt="" width="1268" height="386"></a>
+      </figure>
+      <div class="container-heading">
+        <span class="section-heading-paragraph"><p>Large-area galaxy surveys have allowed us to study the global properties of galaxies at high-redshift, that is, galaxies that are very far away and thus far back in cosmic time. However, we have very little data to test the physical mechanisms at work, as probing the internal structure of galaxies is largely beyond our current capabilities. By studying the properties of these distant galaxies (internal kinematics, internal stellar population gradients, dust distribution, ionisation structure, nuclear properties, and interaction with the intergalactic medium), HARMONI will show how the different physical processes involved are related, and how they give rise to the physical properties we observe.</p></span>
+      </div>
+      <div class="container-paragraph section-text-paragraph">
+        <p>By probing the processes occurring within galaxies on the scale of individual star-forming regions, HARMONI also promises to help astronomers study the star formation, gas dynamics, metallicity and gas outflows of very distant galaxies in unprecedented detail. Moreover, the same data will tell us what fraction of galaxies at redshift z=2 have settled into stable, rotating disks and how individual episodes of star formation are related to outflowing winds, accretion of matter or steady evolution. This gives astronomers the opportunity to understand what physical mechanisms drive the star formation rate to peak at this redshift, which corresponds to a look-back time of about 10.3 billion years.</p>
+        <p>In addition, HARMONI's high angular resolution mode will help astronomers probe the environment surrounding galaxy nuclei, revealing not only the relationship between Active Galactic Nucleus (AGN) activity and star formation, but also opening up the opportunity to estimate the mass of the central supermassive black hole.</p>
+      </div>
+      <figure class="wide-image wide-image--captioned">
+        <a><img src="https://cdn.eso.org/images/original/instruments-harmoni-banner2.jpg" alt="" width="2560" height="666"></a>
+        <figcaption class="caption-text"><p>A simulation of how a galaxy in the early universe would look like when observed with various instruments on the VLT and the ELT. Credit:&nbsp;ESO/HARMONI consortium</p></figcaption>
+      </figure>
+      <div class="container-paragraph section-text-paragraph">
+        <p>By resolving individual stars in other galaxies, astronomers will find out more about their chemical and dynamical evolution. Such resolved stellar populations provide an archaeological record of a galaxy’s star formation history and dynamical assembly. So far, intricate studies like this have been limited to very nearby galaxies, but the stellar populations of more distant — and therefore older — galaxies are beyond current capabilities. One of the main goals of the ELT is to study the resolved stellar populations of massive galaxies with a variety of shapes, with the ultimate goal being to reach the rich and diverse galaxy population of the Virgo Cluster, which contains around 1300 galaxies and whose centre lies about 54 million light-years away.</p>
+        <p>To make direct measurements of the chemical and dynamical properties of resolved stars, HARMONI will make accurate velocity measurements combined with measurements of the chemical make-up (metallicity) of a significant numbers of stars in the different parts of a galaxy (e.g. thin disc, thick disc, halo, bulge). Such observations will enable astronomers to study the current dynamical state and thus dark matter masses and distributions in these systems as well as their chemical evolution. Simulations show that the higher spectral resolution modes of HARMONI will provide the most accurate measurements of velocity and metallicity for a fixed integration time. These features can be measured for main sequence stars in globular clusters and the field throughout the halo of the Milky Way, making it possible to study in detail the picture of halo assembly that will emerge from the European Space Agency’s Gaia mission. It will be possible to extend this work to the larger range of ages and star-forming environments in globular star clusters in the nearby Magellanic Cloud dwarf galaxies. Probing massive elliptical galaxies will be more challenging, but simulations show that HARMONI will be able to make precise measurements of velocity and metallicity below the tip of the red giant branch in the Centaurus A galaxy, and will be able to observe 1000 resolved stars in just 90 hours.</p>
+      </div>
+      <div class="container-paragraph section-text-paragraph">
+        <p>Astronomers believe that nearly all large galaxies have a massive black hole at their centre. Observing how the relationship between this black hole and its host galaxy changes with cosmic time will help uncover the details behind the assembly and evolution of galaxies and their black holes. HARMONl's high sensitivity and spatial resolution will allow astronomers to measure black hole masses, stellar velocities and other properties of host galaxies out to a cosmological redshift of z=2.</p>
+        <p>Closer to home, with its special high-contrast mode, HARMONI will allow a detailed spectral characterisation of giant exoplanets. The focus will be on planets less than 300 million years old, orbiting their host stars at 1 to 40 AU (1 AU is the Sun-Earth distance).</p>
+      </div>
+    </section>
+
+    <a id="design" class="anchor"></a>
+    <section id="design_" class="container-light page-section" aria-label="Instrument Design">
+      <div class="container-paragraph">
+        <figure class="float-figure float-figure--right image-title-paragraph" style="width: 35%;">
+          <a href="https://www.eso.org/public/images/HARMONI-4alpha/"><img src="https://cdn.eso.org/images/screen/image-harmoni.jpg" alt="" width="1280" height="1427"></a>
+        </figure>
+      </div>
+      <div class="container-title float-text"><div class="section-title-paragraph">Instrument Design</div></div>
+      <div class="container-paragraph">
+        <figure class="float-figure-mobile">
+          <a href="https://www.eso.org/public/images/HARMONI-4alpha/"><img src="https://cdn.eso.org/images/screen/image-harmoni.jpg" alt="" width="1280" height="1427"></a>
+        </figure>
+      </div>
+      <div class="container-subtitle float-text">
+        <span class="section-subtitle-paragraph"><p>With its 3D spectroscopic capabilities and a variety of spatial and spectral settings, HARMONI will be a very powerful and versatile first-generation instrument for the ELT.</p></span>
+      </div>
+      <div class="container-paragraph">
+        <figure class="float-figure float-figure--left" style="width: 40%;">
+          <div data-aos="fade-right" data-aos-offset="300">
+            <a href="https://www.eso.org/public/images/pixel-scale-harmoni/"><img src="https://cdn.eso.org/images/screen/pixel-scale-harmoni.jpg" alt="" width="1280" height="509"></a>
+            <div class="caption-text">The various spatial pixel scales and corresponding fields of view for HARMONI. Credit: ESO/HARMONI Consortium</div>
+          </div>
+        </figure>
+        <figure class="float-figure-mobile">
+          <div data-aos="fade-right" data-aos-offset="300">
+            <a href="https://www.eso.org/public/images/pixel-scale-harmoni/"><img src="https://cdn.eso.org/images/screen/pixel-scale-harmoni.jpg" alt="" width="1280" height="509"></a>
+            <div class="caption-text">The various spatial pixel scales and corresponding fields of view for HARMONI. Credit: ESO/HARMONI Consortium</div>
+          </div>
+        </figure>
+      </div>
+      <div class="container-paragraph float-text">
+        <span><p>HARMONI will use an Integral Field Unit (IFU) with an image slicer to divide a single contiguous field of view into many spatial pixels (called spaxels). The signal from each spaxel will be fed into a spectrograph that generates a spectrum for each one of them. Astronomers will be able to choose between four spaxel scales (from 4 mas to 60 mas) that result in different fields of view - with smaller spaxels comes a smaller field of view but a higher spatial resolution. This makes HARMONI very versatile.</p></span>
+      </div>
+      <div class="container-paragraph section-text-paragraph">
+        <p>Astronomers will also be able to choose between a range of spectral resolution settings (3000, 7000, 18000) available in all spatial scales covering wavelengths between 0.47 μm and 2.45 μm, though not simultaneously. The instrument will be able to work with two different adaptive optics systems that will correct for atmospheric turbulence: single-conjugate adaptive optics (SCAO) that uses a bright (R≤16) reference star to provide high Strehl image quality over a small fraction of the sky, and laser tomography adaptive optics (LTAO) that combines laser guide stars with fainter natural stars to deliver diffraction-limited image quality in the JHK bands over a large fraction of the sky.&nbsp;</p>
+        <p>HARMONI will be located at the “side-looking” Nasmyth port of the ELT. The first element in the optical path is a user-selectable dichroic that separates the light at the wavelength of about 600 nm used by the laser guide stars to enable LTAO observations from the science and natural guide stars light. This dichroic will be removed in case of science observations at visible wavelength below 600 nm. When using LTAO, the reflected laser light is redirected to a rotating Laser Guide Star Sensing system, which contains six laser guide star wavefront sensors. The light transmitted by the dichroic over a field of view of 120 arcsec in diameter for science and pick-up of the natural guide stars is relayed towards the instrument by using cold relay optics, to minimise the thermal background.&nbsp;&nbsp;</p>
+        <p>The bulk of the HARMONI’s optical and mechanical parts is hosted in a single up-looking gravity invariant cryostat cooled to a low temperature of around 140 K. A subsystem of pre-optics provides four selectable spaxel scales, as well as filters and pupil masks. The light from the entire field is then reformatted into four linear slits by the IFU subsystem, each of which feeds one of four spectrograph subsystems. Each spectrograph then collimates, disperses, and focuses the light onto a pair of 4k x 4k detectors, providing a choice of spectral ranges and resolving powers.</p>
+      </div>
+    </section>
+
+    <section class="container-light page-section tech-specs" aria-label="Technical specifications">
+      <dl class="tech-specs__list">
+        <div class="tech-row" style="--tab-color: rgb(240, 90, 67);"><dt class="tech-row__key"><svg class="tech-row__tab" viewBox="0 0 30 4" preserveAspectRatio="none" aria-hidden="true"><polygon points="0,0 20,0 30,2 20,4 0,4"></polygon></svg><span class="instrument-technical-table-cell"><p>Wavelength</p></span></dt><dd class="tech-row__value"><div class="instrument-technical-table-cell"><p>0.47—2.45 μm</p></div></dd></div>
+        <div class="tech-row" style="--tab-color: rgb(251, 159, 2);"><dt class="tech-row__key"><svg class="tech-row__tab" viewBox="0 0 30 4" preserveAspectRatio="none" aria-hidden="true"><polygon points="0,0 20,0 30,2 20,4 0,4"></polygon></svg><span class="instrument-technical-table-cell"><p>Spectral resolution</p></span></dt><dd class="tech-row__value"><div class="instrument-technical-table-cell"><p><span>~3,500, 7,500, and 18,000 in the NIR and ~3,500 in the VIS bands</span></p></div></dd></div>
+        <div class="tech-row" style="--tab-color: rgb(251, 193, 3);"><dt class="tech-row__key"><svg class="tech-row__tab" viewBox="0 0 30 4" preserveAspectRatio="none" aria-hidden="true"><polygon points="0,0 20,0 30,2 20,4 0,4"></polygon></svg><span class="instrument-technical-table-cell"><p>Simultaneous spectral range</p></span></dt><dd class="tech-row__value"><div class="instrument-technical-table-cell"><p><span>at least one band at a time R~7,500 (i, z, J, H, K), two at R~3,500</span></p></div></dd></div>
+        <div class="tech-row" style="--tab-color: rgb(42, 187, 119);"><dt class="tech-row__key"><svg class="tech-row__tab" viewBox="0 0 30 4" preserveAspectRatio="none" aria-hidden="true"><polygon points="0,0 20,0 30,2 20,4 0,4"></polygon></svg><span class="instrument-technical-table-cell"><p>Field(s)-of-view</p></span></dt><dd class="tech-row__value"><div class="instrument-technical-table-cell"><p><span>four, corresponding to different spaxel scales</span></p></div></dd></div>
+        <div class="tech-row" style="--tab-color: rgb(56, 169, 228);"><dt class="tech-row__key"><svg class="tech-row__tab" viewBox="0 0 30 4" preserveAspectRatio="none" aria-hidden="true"><polygon points="0,0 20,0 30,2 20,4 0,4"></polygon></svg><span class="instrument-technical-table-cell"><p>AO</p></span></dt><dd class="tech-row__value"><div class="instrument-technical-table-cell"><p><span>LTAO and SCAO</span></p></div></dd></div>
+      </dl>
+    </section>
+
+    <a id="docsntools" class="anchor"></a>
+    <section id="docsntools_" class="container-light page-section" aria-label="Tools and Documents">
+      <div class="container-paragraph section-title-paragraph">Tools and Documents</div>
+      <div class="container-paragraph section-text-paragraph">
+        <p><a href="https://harmoni-elt.physics.ox.ac.uk/Hsim.html">Simulator</a></p>
+        <p>Tool to simulate instrument observations</p>
+        <p><a href="https://www.eso.org/sci/facilities/eelt/docs/ESO-191883_2_Top_Level_Requirements_for_ELT-IFU.pdf">Top Level Requirements</a></p>
+        <p>Description of the characteristics of the instrument required by the science case</p>
+      </div>
+    </section>
+
+    <a id="consortium" class="anchor"></a>
+    <section id="consortium_" class="container-light page-section" aria-label="Instrument Consortium and Contacts">
+      <div class="container-paragraph section-title-paragraph">Instrument Consortium and Contacts</div>
+      <div class="container-paragraph section-text-paragraph">
+        <p><strong>HARMONI is made possible through an&nbsp;<a href="https://harmoni-elt.physics.ox.ac.uk/consortium.html">international consortium</a>&nbsp;composed of research institues from four different countries.</strong></p>
+        <p>The institutes that make up the HARMONI consortium are the University of Oxford (Oxford, United Kingdom), the UK Astronomy Technology Centre (Edinburgh, United Kingdom), the Durham University (UK), the Lyon Centre for Astrophysics Research (Lyon, France), the Marseille Astrophysics Laboratory (Marseille, France), the Canary Islands Institute of Astrophysics (Santa Cruz de Tenerife, Spain), the Spanish Astrobiology Centre (Torrejón de Ardoz, Spain), the University of Michigan (Ann Arbor, Michigan, US),&nbsp;the French Aerospace Lab (ONERA, France), the Grenoble Institute for Planetary Sciences and Astrophysics (IPAG) and the Toulouse Institute for Planetary Sciences and Astrophysics (IRAP).</p>
+      </div>
+      <div class="container-paragraph contacts">
+        <p><strong>Principal Investigator</strong></p>
+        <p><a href="mailto:James.Dunlop@ed.ac.uk">James Dunlop</a> (University of Edinburgh, UK) </p>
+        <p><a href="mailto:benoit.neichel@lam.fr">Benoit Neichel</a> (Deputy; LAM, France) </p>
+        <p><strong>Project Scientist</strong></p>
+        <p><a href="mailto:a.m.swinbank@durham.ac.uk">Mark Swinbank</a> (Durham University, UK) </p>
+        <p><a href="mailto:oscar.gonzalez@stfc.ac.uk">Óscar González</a> (STFC UKRI) </p>
+        <p><strong>Project Manager</strong></p>
+        <p><a href="mailto:mciras@eso.org">Michele Cirasuolo (in interim)</a> (ESO) </p>
+        <p><a href="mailto:stephen.chittick@stfc.ac.uk">Stephen Chittick</a> (UK Astronomy Technology Centre, UK) </p>
+        <p><a href="mailto:david.lemignant@lam.fr">David Le Mignant</a> (Deputy; LAM, France) </p>
+        <p><strong>Simulation Scientist</strong></p>
+        <p><a href="mailto:miguel.pereira@physics.ox.ac.uk">Miguel Pereira-Santaella</a> (Centre for Astrobiology CAB, INTA-CSIC, Spain) </p>
+        <p><strong>ESO Project Engineer</strong></p>
+        <p><a href="mailto:Peter.Hammersley@eso.org">Peter Hammersley</a></p>
+        <p><strong>ESO Project Scientist</strong></p>
+        <p><a href="mailto:Morten.Andersen@eso.org">Morten Andersen</a></p>
+        <p><strong>Instrument Scientist</strong></p>
+        <p><a href="mailto:None">William Taylor</a> (UK Astronomy Technology Centre, UK) </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__row">
+      <div class="site-footer__brand footer-item">
+        <a href="https:///www.eso.org/"><span class="esoblue">ESO</span></a>&nbsp;|&nbsp;ELT © <div id="current-year">2026</div>
+      </div>
+      <div class="site-footer__links footer-item">
+        <div>
+          <a href="/credits/"><span class="footer-item"> Credits </span></a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="mailto:information@eso.org"><span class="footer-item"> Contact us </span></a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="https://www.eso.org/public/outreach/newsletters/"><span class="footer-item"> Subscribe to ESO news </span></a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="https://www.cdn77.com/"><span class="footer-item"> Accelerated by CDN77 </span></a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="https://www.eso.org/public/about-eso/privacy/"><span class="footer-item"> Terms &amp; Conditions </span></a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="#"><span class="footer-item privacy-settings-link"> Cookie Settings and Policy </span></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
+

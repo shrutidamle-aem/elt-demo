@@ -1,0 +1,618 @@
+{
+  "types": {
+    "landing": {
+      "archetype": "index",
+      "rep_url": "https://elt.eso.org/",
+      "prototype": "stardust/prototypes/index-proposed.html",
+      "css": [
+        "stardust/prototypes/canon.css",
+        "stardust/prototypes/index.css"
+      ],
+      "js": [
+        "stardust/prototypes/canon.js",
+        "stardust/prototypes/index.js"
+      ],
+      "main": "#big-header,#main-navbar,.video-container,.swiper-container-science,.container-notop,.webcam-wrapper",
+      "regime": "prototype",
+      "iterations": {
+        "360": 3,
+        "1440": 3
+      },
+      "gates": {
+        "360": {
+          "pixel": "0.26%",
+          "dh": 0,
+          "contentDiff": "0 red / 0 nothing-lost (4 owner-accepted loop-clone CTAs)",
+          "visualDiff": "none",
+          "clip": 0,
+          "overflow": "360 = viewport",
+          "chromeHeader": "0.00%",
+          "chromeFooter": "0.00%",
+          "units": "PASS",
+          "evidence": "stardust/replica/gates/index-360/ (iter3)"
+        },
+        "1440": {
+          "pixel": "0.14%",
+          "dh": 0,
+          "contentDiff": "0 red / 0 nothing-lost (4 owner-accepted loop-clone CTAs)",
+          "visualDiff": "none",
+          "clip": 0,
+          "overflow": "1440 = viewport",
+          "chromeHeader": "1.12%",
+          "chromeFooter": "0.00%",
+          "units": "PASS",
+          "evidence": "stardust/replica/gates/index-1440/ (iter3)"
+        }
+      },
+      "capProbe": "PASS at 2560 (fluid both sides; --main body --build-main body) — stardust/replica/gates/index-2560/cap-iter.json",
+      "chromeParity": {
+        "360": "quiet (header, footer)",
+        "1440": "quiet (header, main-navbar strip, footer)"
+      },
+      "residuals": [
+        {
+          "what": "webcam image + timestamp are live data (pano_PV_960x.jpg hot-linked, timestamp frozen at the captured \"Armazones West | 12 Aug 2026 12:00 CEST / 06:00 CLT\")",
+          "cause": "nondeterministic-live",
+          "permanent": true
+        },
+        {
+          "what": "1440 header band 1.1%: \"Choose your language\" bounce animation phase at capture",
+          "cause": "animation-phase",
+          "permanent": true
+        }
+      ],
+      "captureState": [
+        {
+          "what": "teaser video: source autoplays eagerly; prototype preload=metadata and starts play() 1 s after window load (a 66 MB stream keeps the local page off network-idle, which build-side probes wait for)",
+          "where": ".video-container",
+          "restoreAtDelivery": "autoplay muted, controls, eager"
+        },
+        {
+          "what": "science carousel frozen on slide 1 for capture",
+          "where": ".swiper-container-science",
+          "restoreAtDelivery": "fade cross-fade 900 ms, autoplay every 5 s, loop, clickable bullets, prev/next"
+        }
+      ],
+      "accepted": "stardust/replica/accepted.json — MISSING CTA x4 from Swiper loop clone slides (presentational clones not rendered)",
+      "portations": [
+        "canon.js: scrollMonitor morph lifted from elt_assets.c4ebe47d5f34.js (mysticky/myfixed at innerHeight-70, dropup/dropdown flip at innerHeight-300, hero parallax -0.5*scrollY), mobile collapse toggle, footer year",
+        "index.js: Swiper behaviour re-implemented (no clones)"
+      ],
+      "motion": {
+        "observed": [
+          "main-navbar item hover (color, translateY(-12%) scale(1.07), bg, 250ms)",
+          "nav-search hover",
+          "social icon hover scale 0.8->0.95 500ms",
+          "menuDown dropdown animation",
+          "main-navbar dropup/dropdown + submenu bottom/top-aligned flip on scroll",
+          "carousel fade 900ms + 5s auto-advance + next/bullet pokes",
+          "teaser video autoplay muted"
+        ],
+        "implemented": [
+          "all observed"
+        ],
+        "dead": [
+          "tile image hover (no measured diff)",
+          "language menu hover (no measured diff in sampler; dropdown reveal kept from source CSS as header-contract content)"
+        ],
+        "compare": "16 parity, 1 MISSING (auto-advance idle window: live load took ~30 s so its idle window caught rotations; build loads in <3 s and rotates on the same 5 s timer — confirmed on class lines swiper-slide-active/prev/next, swiper-pagination-bullet-active, opacity 6/6)"
+      },
+      "notes": [
+        "unit-geometry origin cache stardust/current/measure/<slug>-units.json is keyed by slug, not width: a 360 round after a 1440 round reused 1440 origin geometry (false FAIL); deleted the cache between widths — flag for upstream"
+      ],
+      "status": "passed"
+    },
+    "listing": {
+      "archetype": "telescope",
+      "rep_url": "https://elt.eso.org/telescope/",
+      "prototype": "stardust/prototypes/telescope-proposed.html",
+      "css": [
+        "stardust/prototypes/canon.css",
+        "stardust/prototypes/telescope.css"
+      ],
+      "js": [
+        "stardust/prototypes/canon.js"
+      ],
+      "siblings": [
+        "about",
+        "mirror",
+        "instrument",
+        "science"
+      ],
+      "main": "#big-header,#main-navbar,.container-light",
+      "regime": "prototype",
+      "iterations": {
+        "360": 2,
+        "1440": 3
+      },
+      "gates": {
+        "360": {
+          "pixel": "0.00%",
+          "dh": 0,
+          "contentDiff": "0 red / 0 nothing-lost (2 auto-accepted ROLE UPGRADE div→heading: hero title h1, section titles h2)",
+          "visualDiff": "none",
+          "clip": 0,
+          "overflow": "360 = viewport",
+          "chromeHeader": "0.00%",
+          "chromeFooter": "0.00%",
+          "units": "PASS (12 units, 38 elements, 0 off)",
+          "evidence": "stardust/replica/gates/telescope-360/ (iter2)"
+        },
+        "1440": {
+          "pixel": "0.02%",
+          "dh": 0,
+          "contentDiff": "0 red / 0 nothing-lost (2 auto-accepted ROLE UPGRADE div→heading: hero title h1, section titles h2)",
+          "visualDiff": "none",
+          "clip": 0,
+          "overflow": "1440 = viewport",
+          "chromeHeader": "1.11% (language-bounce phase, as index)",
+          "chromeFooter": "0.00%",
+          "units": "PASS (12 units, 38 elements, 0 off)",
+          "evidence": "stardust/replica/gates/telescope-1440/ (iter3)"
+        }
+      },
+      "capProbe": "PASS at 2560 (402px module cap both sides, full-bleed both; --main/--build-main .container-light) — stardust/replica/gates/telescope-2560/cap-iter.json",
+      "chromeParity": {
+        "360": "quiet",
+        "1440": "quiet"
+      },
+      "residuals": [
+        {
+          "what": "1440 header band 1.1%: \"Choose your language\" bounce animation phase at capture (same as landing)",
+          "cause": "animation-phase",
+          "permanent": true
+        }
+      ],
+      "fixes": [
+        "iter1→2 (1440): inline trapezoid svg 7px high — Bootstrap reboot svg{vertical-align:middle} (L228) lifted onto .trapezoid",
+        "pre-gate: section-text-paragraph div carries the tier padding too; paragraph strings keep the source U+202F narrow no-break spaces verbatim",
+        "motion: badge kept its background on :hover (canon a:hover reset) — fixed in telescope.css"
+      ],
+      "motion": {
+        "observed": [
+          "share icon hover scale 0.95→1.05 500ms (a + span)",
+          "share dropdown scale(1,0)→(1,1) 500ms reveal",
+          "main-navbar item hover (canon)",
+          "dropup/dropdown + bottom/top-aligned flip on scroll (canon)"
+        ],
+        "implemented": [
+          "all observed"
+        ],
+        "dead": [
+          "section badge hover (no measured diff)",
+          "mirror/system label link hover",
+          "trapezoid polygon link hover"
+        ],
+        "compare": "9 parity, 0 missing, 0 extra, 0 advisory (stardust/replica/motion/telescope.json vs telescope-build.json)"
+      },
+      "notes": [
+        "live scrollMonitor also flips dropup/dropdown on the top-navbar (d-lg-none) items; canon.js flips #main-navbar only — invisible at ≥992, counted as parity by motion-compare",
+        "canon candidates kept scoped in telescope.css: .big-header-title, .dropdown-item.active, .container-light section frame, share icons, svg reboot rule"
+      ],
+      "status": "passed"
+    },
+    "program": {
+      "archetype": "telescope-dome",
+      "rep_url": "https://elt.eso.org/telescope/dome/",
+      "prototype": "stardust/prototypes/telescope-dome-proposed.html",
+      "css": [
+        "stardust/prototypes/canon.css",
+        "stardust/prototypes/telescope-dome.css"
+      ],
+      "js": [
+        "stardust/prototypes/canon.js"
+      ],
+      "main": "#big-header,#main-navbar,.container-tight,.container-light",
+      "regime": "prototype",
+      "siblings": 18,
+      "siblingModulesCovered": "science-stars / telescope-structure / mirror-m1 captures checked: floated captioned figure (.float-figure--right/--left + .float-figure-mobile, .caption-text, .float-text), .container-paragraph-right, .header-quick-links--sm-up (mirror pages) authored in telescope-dome.css; nutshell without page-section class on science pages",
+      "iterations": {
+        "360": 2,
+        "1440": 3
+      },
+      "gates": {
+        "360": {
+          "pixel": "0.01%",
+          "dh": 0,
+          "contentDiff": "0 red / 0 nothing-lost",
+          "visualDiff": "none",
+          "clip": 0,
+          "overflow": "360 = viewport",
+          "units": "PASS",
+          "chromeParity": "quiet (header, footer)",
+          "evidence": "stardust/replica/gates/telescope-dome-360/ (iter2)"
+        },
+        "1440": {
+          "pixel": "0.01%",
+          "dh": 0,
+          "contentDiff": "0 red / 0 nothing-lost",
+          "visualDiff": "none",
+          "clip": 0,
+          "overflow": "1440 = viewport",
+          "units": "PASS (footer-columns, program-lightlink-rows)",
+          "chromeParity": "quiet (header, footer)",
+          "evidence": "stardust/replica/gates/telescope-dome-1440/ (iter3)"
+        }
+      },
+      "capProbe": "PASS at 2560 with --main/--build-main \"#big-header,#main-navbar,.container-tight,.container-light\" (stardust/replica/gates/telescope-dome-2560/cap-iter.json). A body/body run reports FAIL only from the live cookie-consent overlay (body > .privacy-notice > .privacy-container max-width 1400, still displayed in the probe after the accept click) — not page content; every content module row matched (full-bleed / 550 logo block).",
+      "residuals": [],
+      "captureState": [
+        {
+          "what": "YouTube embed (youtube-nocookie t-Ub_02dfUg) — third-party iframe rendered on both sides",
+          "where": "#enclosurestruct_ .video-embed",
+          "restoreAtDelivery": "same iframe embed"
+        }
+      ],
+      "motion": {
+        "observed": "hover: share icons scale 0.95→1.05 + colour (0.5 s), share dropdown scale(1,0)→(1,1) on hover (0.5 s), quick links → orange, body links → #0056b3; scroll: main-navbar dropup/dropdown + submenu top/bottom-aligned flip (canon.js)",
+        "implemented": "all observed (CSS :hover rules lifted from L15851–15877, L20200, L19639; canon.js scrollMonitor) — motion-compare: 10 parity, 0 missing, 0 extra",
+        "dead": [
+          "hover on lightlinks image/title links (no diff on live)"
+        ]
+      },
+      "canonChanges": [
+        ".dropdown-item.active (L20037) added to canon.css — additive; index has no active dropdown item"
+      ],
+      "status": "passed"
+    },
+    "instrument": {
+      "archetype": "instrument-harmoni",
+      "rep_url": "https://elt.eso.org/instrument/HARMONI/",
+      "prototype": "stardust/prototypes/instrument-harmoni-proposed.html",
+      "css": [
+        "stardust/prototypes/canon.css",
+        "stardust/prototypes/inner.css",
+        "stardust/prototypes/instrument-harmoni.css"
+      ],
+      "js": [
+        "stardust/prototypes/canon.js",
+        "stardust/prototypes/instrument-harmoni.js"
+      ],
+      "siblings": [
+        "instrument-micado",
+        "instrument-morfeo",
+        "instrument-metis",
+        "instrument-andes",
+        "instrument-mosaic"
+      ],
+      "main": "#big-header,#main-navbar,.container-dark,.container-light",
+      "regime": "prototype",
+      "iterations": {
+        "360": 1,
+        "1440": 3
+      },
+      "gates": {
+        "360": {
+          "pixel": "0.00%",
+          "dh": 0,
+          "contentDiff": "0 red / 0 nothing-lost (1 auto-accepted role upgrade)",
+          "visualDiff": "none",
+          "clip": 0,
+          "overflow": "360 = viewport",
+          "chromeHeader": "0.00%",
+          "chromeFooter": "0.00%",
+          "units": "PASS (11 units, 0 off)",
+          "evidence": "stardust/replica/gates/instrument-harmoni-360/ (iter1 full; motion round 0.00%)"
+        },
+        "1440": {
+          "pixel": "0.00%",
+          "dh": 0,
+          "contentDiff": "0 red / 0 nothing-lost (1 auto-accepted role upgrade: hero title body→heading)",
+          "visualDiff": "none",
+          "clip": 0,
+          "overflow": "1440 = viewport",
+          "chromeHeader": "0.05% (crop y0+900)",
+          "chromeFooter": "0.00%",
+          "units": "PASS (11 units, 0 off)",
+          "evidence": "stardust/replica/gates/instrument-harmoni-1440/ (iter3 full; motion round 0.00%)"
+        }
+      },
+      "capProbe": "PASS at 2560 with --main/--build-main \"#big-header,#main-navbar,.container-tight,.container-light\" (550px module cap both sides, full-bleed both) — stardust/replica/gates/instrument-harmoni-2560/cap-iter.json",
+      "chromeParity": {
+        "360": "quiet",
+        "1440": "quiet"
+      },
+      "residuals": [],
+      "captureState": [
+        {
+          "what": "Instrument Design pixel-scale figure (AOS fade-right, offset 300) is captured unrevealed (opacity 0, translateX -100px) on BOTH sides — the stitched capture does not fire the reveal on live; the prototype reproduces the same mechanic",
+          "where": "#design_ [data-aos]",
+          "restoreAtDelivery": "AOS fade-right reveal 400ms ease when scrolled 300px into view, reverses when scrolled back (once:false)"
+        }
+      ],
+      "motion": {
+        "observed": [
+          "share icon hover scale 0.95→1.05 500ms + dropdown scale reveal",
+          "quick-link hover color (orange)",
+          "text link hover color",
+          "main-navbar item hover (canon)",
+          "dropup/dropdown + bottom/top-aligned flip on scroll (canon)",
+          "AOS fade-right reveal on the pixel-scale figure (opacity+transform 400ms)"
+        ],
+        "implemented": [
+          "all observed"
+        ],
+        "dead": [
+          ".lightlinks a hover (no measured diff on live)"
+        ],
+        "compare": "12 parity, 0 missing, 0 extra, 0 advisory (stardust/replica/motion/instrument-harmoni.json vs instrument-harmoni-build.json)"
+      },
+      "notes": [
+        "inner.css created (shared inner-page rules: .big-header-title, .dropdown-item.active, .container-light a/a:hover override, share icons + dropdown, svg reboot) — telescope/telescope-dome do not link it yet",
+        "lightlinks go 2-up at xl (1200) on instrument pages (col-xl-6), lg on program pages",
+        "source U+202F narrow no-break space kept in \"bright (R≤16)\""
+      ],
+      "status": "passed"
+    },
+    "article": {
+      "archetype": "about-road",
+      "rep_url": "https://elt.eso.org/about/road/",
+      "prototype": "stardust/prototypes/about-road-proposed.html",
+      "css": [
+        "stardust/prototypes/canon.css",
+        "stardust/prototypes/inner.css",
+        "stardust/prototypes/about-road.css"
+      ],
+      "js": [
+        "stardust/prototypes/canon.js"
+      ],
+      "siblings": [
+        "credits",
+        "about-location",
+        "about-webcams",
+        "about-team",
+        "about-workinggroups",
+        "about-industrial",
+        "about-faq",
+        "success-buildingon"
+      ],
+      "main": "#big-header,#main-navbar,.container-light",
+      "regime": "prototype",
+      "iterations": {
+        "360": 2,
+        "1440": 2
+      },
+      "gates": {
+        "360": {
+          "pixel": "0.00%",
+          "dh": 0,
+          "contentDiff": "0 red / 0 nothing-lost",
+          "visualDiff": "none",
+          "clip": 0,
+          "overflow": "360 = viewport",
+          "chromeHeader": "0.00%",
+          "chromeFooter": "0.00%",
+          "units": "PASS (footer-columns, article-image-rows)",
+          "chromeParity": "quiet (header, footer)",
+          "evidence": "stardust/replica/gates/about-road-360/ (iter2 = confirmation)"
+        },
+        "1440": {
+          "pixel": "0.01%",
+          "dh": 0,
+          "contentDiff": "0 red / 0 nothing-lost",
+          "visualDiff": "none",
+          "clip": 0,
+          "overflow": "1440 = viewport",
+          "chromeHeader": "0.94% (language-message bounce phase, as index)",
+          "chromeFooter": "0.00%",
+          "units": "PASS (footer-columns, article-image-rows)",
+          "chromeParity": "quiet (header, footer)",
+          "evidence": "stardust/replica/gates/about-road-1440/ (iter2 = confirmation)"
+        }
+      },
+      "capProbe": "PASS at 2560 (--main/--build-main \"#big-header,#main-navbar,.container-light\"; 550 module cap + full-bleed matched) — stardust/replica/gates/about-road-2560/cap-iter.json",
+      "residuals": [],
+      "motion": {
+        "observed": "hover: share icons scale 0.95→1.05 + colour (0.5 s), share-menu icon scale; body/image/document links colour → #0056b3; main-navbar link hover (250 ms); scroll: main-navbar dropup/dropdown + submenu top/bottom-aligned flip",
+        "implemented": "all observed (inner.css share + link hover rules, canon.css nav hover, canon.js scrollMonitor) — motion-compare: 12 parity, 0 missing, 0 extra, 0 advisory",
+        "dead": []
+      },
+      "notes": [
+        "Template modules: section title (+ share icons on first section), text paragraphs, linked wide image (full-bleed in first section, inset by .container-paragraph in later ones; source inline padding-bottom 1vw), container-subtitle (about-webcams), FAQ question/answer ramp (about-faq) — about-road.css §5",
+        "about-webcams webcam-wrapper module is the landing (index.css) webcam module — not re-implemented here"
+      ],
+      "status": "passed"
+    },
+    "facts": {
+      "archetype": "about-facts",
+      "rep_url": "https://elt.eso.org/about/facts/",
+      "prototype": "stardust/prototypes/about-facts-proposed.html",
+      "css": [
+        "stardust/prototypes/canon.css",
+        "stardust/prototypes/inner.css",
+        "stardust/prototypes/about-facts.css"
+      ],
+      "js": [
+        "stardust/prototypes/canon.js",
+        "stardust/prototypes/about-facts.js"
+      ],
+      "main": "#big-header,#main-navbar,.container-darkblue",
+      "regime": "prototype",
+      "iterations": {
+        "360": 2,
+        "1440": 2
+      },
+      "gates": {
+        "360": {
+          "pixel": "0.06%",
+          "dh": 0,
+          "contentDiff": "0 red / 0 nothing-lost (1 auto-accepted role upgrade: hero title div→h1)",
+          "visualDiff": "none",
+          "clip": 0,
+          "overflow": "scrollWidth = viewport",
+          "chromeHeader": "0.06% (1440) / 0.00% (360) crop-compare",
+          "chromeFooter": "0.00%",
+          "units": "PASS (facts-fact-names, facts-fact-values, footer-columns)",
+          "evidence": "stardust/replica/gates/about-facts-360/ (iter2 confirmation)"
+        },
+        "1440": {
+          "pixel": "0.01%",
+          "dh": 0,
+          "contentDiff": "0 red / 0 nothing-lost (1 auto-accepted role upgrade: hero title div→h1)",
+          "visualDiff": "none",
+          "clip": 0,
+          "overflow": "scrollWidth = viewport",
+          "chromeHeader": "0.06% (1440) / 0.00% (360) crop-compare",
+          "chromeFooter": "0.00%",
+          "units": "PASS (facts-fact-names, facts-fact-values, footer-columns)",
+          "evidence": "stardust/replica/gates/about-facts-1440/ (iter2 confirmation)"
+        }
+      },
+      "capProbe": "PASS at 2560 with --main/--build-main \"#big-header,#main-navbar,.container-darkblue\" (550px module cap both sides, full-bleed both) — stardust/replica/gates/about-facts-2560/cap-iter.json",
+      "chromeParity": {
+        "360": "quiet",
+        "1440": "quiet"
+      },
+      "residuals": [
+        {
+          "what": "1440 header band 0.06%: \"Choose your language\" bounce animation phase at capture",
+          "cause": "animation-phase",
+          "permanent": true
+        }
+      ],
+      "captureState": [],
+      "motion": {
+        "observed": [
+          "carousel prev/next slide (transform 300ms, centeredSlides loop, 2 per view >=1000px / 1 below) — swiper-slide-active/prev/next class lines",
+          "main-navbar item hover (canon)",
+          "dropup/dropdown + bottom/top-aligned flip on scroll (canon)"
+        ],
+        "implemented": [
+          "all observed (about-facts.js, no loop clones)"
+        ],
+        "dead": [
+          "swiper-button hover",
+          "slide image hover",
+          "fact-value hover",
+          "swiper-slide-duplicate-* classes (Swiper loop-clone bookkeeping; no clones rendered)"
+        ],
+        "compare": "10 parity, 3 MISSING (swiper-slide-duplicate-* clone classes only), 0 extra, 1 advisory (is-jump: wrap re-position without transition, as Swiper loop) — stardust/replica/motion/about-facts.json vs about-facts-build.json"
+      },
+      "status": "passed"
+    },
+    "timeline": {
+      "archetype": "about-timeline",
+      "rep_url": "https://elt.eso.org/about/timeline/",
+      "prototype": "stardust/prototypes/about-timeline-proposed.html",
+      "css": [
+        "stardust/prototypes/canon.css",
+        "stardust/prototypes/inner.css",
+        "stardust/prototypes/about-timeline.css"
+      ],
+      "js": [
+        "stardust/prototypes/canon.js",
+        "stardust/prototypes/about-timeline.js"
+      ],
+      "siblings": [],
+      "main": "#big-header,#main-navbar,.container-dark,.timeline-quick-access",
+      "regime": "prototype",
+      "iterations": {
+        "360": 2,
+        "1440": 2
+      },
+      "gates": {
+        "360": {
+          "pixel": "0.00%",
+          "dh": 0,
+          "contentDiff": "0 red / 0 nothing-lost",
+          "visualDiff": "none",
+          "clip": 0,
+          "overflow": "360 = viewport",
+          "units": "PASS (timeline-cards, footer-columns)",
+          "chromeParity": "quiet (header, footer)",
+          "evidence": "stardust/replica/gates/about-timeline-360/ (iter2 = confirmation)"
+        },
+        "1440": {
+          "pixel": "0.00%",
+          "dh": 0,
+          "contentDiff": "0 red / 0 nothing-lost",
+          "visualDiff": "none",
+          "clip": 0,
+          "overflow": "1440 = viewport",
+          "chromeHeader": "0.94% (language-message bounce phase, as index/about-road)",
+          "chromeFooter": "0.00%",
+          "units": "PASS (timeline-cards, footer-columns)",
+          "chromeParity": "1 phase delta: \"Choose your language\" Δx +20 (canon bounce animation, 3×4 s, still running on the faster build load; live ended) — not a chrome defect, canon untouched",
+          "evidence": "stardust/replica/gates/about-timeline-1440/ (iter2 = confirmation)"
+        }
+      },
+      "capProbe": "PASS at 2560 (--main/--build-main \"#big-header,#main-navbar,.container-dark,.timeline-quick-access\"; 550 module cap + full-bleed matched) — stardust/replica/gates/about-timeline-2560/cap-iter.json",
+      "residuals": [],
+      "motion": {
+        "observed": "scroll: banner frame static→fixed past .timeline-container top, column margin re-solved; closest card to viewport centre → banner cross-fade (opacity 500 ms) + card background rgba(90,140,200,.9) (0.5 s) + quick-access .active; quick-access entries opacity by distance from rail centre; hover: quick-access rail width 30→200 px + background (0.5 s), entry title reveal, main-navbar link (250 ms); scroll: main-navbar dropup/dropdown flip (canon)",
+        "implemented": "stardust/prototypes/about-timeline.js (port of elt_assets_timeline.a0c5b75c6b49.js, inline-style toggles as .is-shown/.is-current classes) + about-timeline.css hover rules; canon.js chrome; motion-compare: 14 parity, 0 missing, 0 extra, 2 advisory (is-current/is-shown class names)",
+        "dead": [
+          "#timeline-quick-access-link click: no sampled change on live (0-width link inside the 30 px rail); smooth-scroll handler kept from the source JS"
+        ],
+        "evidence": "stardust/replica/motion/about-timeline.json, about-timeline-build.json"
+      },
+      "status": "passed"
+    },
+    "media": {
+      "archetype": "media",
+      "rep_url": "https://elt.eso.org/media/",
+      "prototype": "stardust/prototypes/media-proposed.html",
+      "css": [
+        "stardust/prototypes/canon.css",
+        "stardust/prototypes/inner.css",
+        "stardust/prototypes/media.css"
+      ],
+      "js": [
+        "stardust/prototypes/canon.js",
+        "stardust/prototypes/media.js"
+      ],
+      "siblings": [],
+      "main": "#big-header,#main-navbar,.container-light,.bar-medium-dark,.swiper-container",
+      "regime": "prototype",
+      "iterations": {
+        "360": 2,
+        "1440": 2
+      },
+      "gates": {
+        "360": {
+          "pixel": "0.00%",
+          "dh": 0,
+          "contentDiff": "0 red / 0 nothing-lost (6 advisory ICON MOVED, as 1440)",
+          "visualDiff": "none",
+          "clip": 0,
+          "overflow": "360 = viewport",
+          "chromeHeader": "0.00%",
+          "chromeFooter": "0.00%",
+          "units": "PASS (10 units, 0 off)",
+          "chromeParity": "quiet (header, footer)",
+          "evidence": "stardust/replica/gates/media-360/ (iter2 = confirmation after media.js motion layer)"
+        },
+        "1440": {
+          "pixel": "0.01%",
+          "dh": 0,
+          "contentDiff": "0 red / 0 nothing-lost (6 advisory ICON MOVED: play-icon href=\"#\" resolves to the page URL on each side)",
+          "visualDiff": "none",
+          "clip": 0,
+          "overflow": "1440 = viewport (iter1 failed +15 px: source .row margin -15px overflow, live overflows too; fixed by overflow-x: clip on .bar-medium-dark, no painted change)",
+          "chromeHeader": "0.94% (language-message bounce phase, as index/about-road)",
+          "chromeFooter": "0.00%",
+          "units": "PASS (media-story-cards, media-video-slides, media-image-slides, footer-columns: 14 units, 0 off)",
+          "chromeParity": "quiet (header, footer)",
+          "motionRound": "0.01% / dh 0",
+          "evidence": "stardust/replica/gates/media-1440/ (iter2 = confirmation, then motion round)"
+        }
+      },
+      "capProbe": "PASS at 2560 (--main/--build-main \"#big-header,#main-navbar,.container-light,.bar-medium-dark,.swiper-container\"; 550 module cap + full-bleed matched) — stardust/replica/gates/media-2560/cap-iter.json",
+      "residuals": [],
+      "motion": {
+        "observed": "click: video/image rail next -> one-slide translate (480 px @1440) + swiper-slide-active/next/prev classes; category tab -> story-selected-category moves (grid refiltered); hover: story card translateY(-7px) + image scale 1.075 (250 ms), story description blue panel, category tab colour, rail tile image opacity -> 0.3 (0.5 s, targeted probe motion/media-imgcol.json), share icons scale (0.5 s), search button background (150 ms); main-navbar dropup/dropdown flips on scroll",
+        "implemented": "all observed — media.css hovers, media.js rail driver (1/2/3 per view at <1000/>=1000/>=1400, disabled ends, slide classes) + stories More.../category filter over the page's verbatim stories array; canon.js nav — motion-compare: 23 parity, 0 missing, 0 extra, 0 advisory",
+        "dead": [
+          ".media-ranking a hover (no measured diff)"
+        ]
+      },
+      "notes": [
+        "Template modules: featured-stories grid (category tabs, stamped cards, More... tile), visuals dashboard bar (fullscreen icon, Videos/Images label, sort links, search input group; Images bar inline padding-top 3rem), Swiper rails (video rows aspect 640/360, image tiles 16/9, hover overlay), page-section h2 ramp, centred press-kit image (50 %) and map (60 %) — media.css sections 3b-7",
+        "Rails and stories are fed on live by /media/innervid_paginated/, /media/innerimg_paginated/ and an inline stories array; the prototype carries the captured settled state (6 + 6 slides, 5 stories) plus the full stories array verbatim. Sort DATE/RANKING, search, fullscreen and the YouTube/image modals were not observed firing and are not implemented (dynamic-features rows 1, 7, 8)",
+        "Overflow: live document is 15 px wider than the viewport at both widths (Bootstrap .row -15 px margins in the dashboard); build clips it on .bar-medium-dark only — invisible, no pixel change",
+        "No canon.css / inner.css change"
+      ],
+      "status": "passed"
+    }
+  }
+}

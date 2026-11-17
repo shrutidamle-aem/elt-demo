@@ -1,0 +1,187 @@
+{
+ "source": "file:///workspace/26c59ee1/stardust/prototypes/index-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "band-dark",
+   "items": [],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "band-light",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Science with the ELT",
+     "href": "/science/"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Solar System",
+     "href": "/science/"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Science with the ELT",
+     "href": "/science/"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Exoplanets",
+     "href": "/science/"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Science with the ELT",
+     "href": "/science/"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Stars",
+     "href": "/science/"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Science with the ELT",
+     "href": "/science/"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Black Holes",
+     "href": "/science/"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Science with the ELT",
+     "href": "/science/"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Galaxies",
+     "href": "/science/"
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "Science with the ELT",
+     "href": "/science/"
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "Cosmology and Dark Matter",
+     "href": "/science/"
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Science with the ELT",
+     "href": "/science/"
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "Fundamental Physics",
+     "href": "/science/"
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "Science with the ELT",
+     "href": "/science/"
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "Unexpected Discoveries",
+     "href": "/science/"
+    }
+   ],
+   "imgCount": 8,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.science-slide",
+     "count": 8,
+     "unit": {
+      "headings": 0,
+      "ctas": 2,
+      "imgs": 1,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "band-light",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Telescope",
+     "href": "/telescope/"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Instruments",
+     "href": "/instrument/"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Facts",
+     "href": "/about/facts/"
+    }
+   ],
+   "imgCount": 6,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.menu-tile",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 2,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "band-dark",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Webcam"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Armazones West | 12 Aug 2026 12:00 CEST / 06:00 CLT",
+     "href": "/about/webcams/"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 0,
+   "repeats": []
+  }
+ ]
+}

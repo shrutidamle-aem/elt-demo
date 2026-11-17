@@ -1,0 +1,88 @@
+/*
+ * Webcam Panel — index.css "Webcam" (gated prototype; source `.webcam-wrapper`,
+ * `.webcam-stamps` border none !important). The timestamp is positioned against the panel
+ * (the source's positioned ancestor is the wrapper), horizontally at the panorama's left edge.
+ */
+.webcam-panel {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.webcam-panel .webcam-panel-label {
+  display: none;
+  position: relative;
+  justify-content: center;
+  padding: 0 15px;
+  color: #fff;
+}
+
+.webcam-panel .webcam-panel-label p {
+  margin: 0;
+}
+
+.webcam-panel .webcam-panel-link {
+  color: #fff;
+}
+
+.webcam-panel .webcam-panel-frame {
+  display: flex;
+  justify-content: center;
+}
+
+.webcam-panel .webcam-panel-image img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  padding: 0;
+}
+
+.webcam-panel .webcam-panel-timestamp {
+  position: absolute;
+  top: 0;
+  margin: 20px;
+  padding: 5px 10px;
+  border: none;
+  background-color: rgb(0 0 0 / 20%);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.webcam-panel .webcam-panel-timestamp p {
+  margin: 0;
+}
+
+@media only screen and (width <= 576px) {
+  .webcam-panel .webcam-panel-label {
+    font-size: 1rem;
+  }
+
+  .webcam-panel .webcam-panel-timestamp {
+    margin: 10px;
+    font-size: 10px;
+  }
+}
+
+@media only screen and (width >= 576px) {
+  .webcam-panel .webcam-panel-label {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (width >= 768px) {
+  .webcam-panel .webcam-panel-label {
+    font-size: 1.75rem;
+  }
+}
+
+@media only screen and (width >= 992px) {
+  .webcam-panel .webcam-panel-label {
+    display: flex;
+    flex: 0 0 16.6667%;
+    max-width: 16.6667%;
+    font-size: 2.125rem;
+  }
+}

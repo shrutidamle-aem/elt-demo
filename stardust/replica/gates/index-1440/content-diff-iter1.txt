@@ -1,0 +1,57 @@
+[live-session] waiting to pace live navigations to elt.eso.org (4000 ms apart, 1 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+
+Content diff @ 1440px (profile "generic", roots: #big-header, #main-navbar, .video-container, .swiper-container-science, .container-notop, .webcam-wrapper, header, footer)
+root "#big-header"
+  source: 3 text nodes — 0 headings, 0 eyebrows, 0 CTAs, 3 body; 1 img
+  build: 3 text nodes — 1 headings, 0 eyebrows, 0 CTAs, 2 body; 1 img
+  editable texts (outermost h*/p/ul/ol): source 1 / build 2
+  attributes (placeholder/aria-label/title): source 0 / build 0; icons: source 0 / build 0
+  accepted (invisible, nothing lost): 1 ROLE UPGRADE body → heading — "THE EXTREMELY LARGE TELESCOPE"
+root "#main-navbar"
+  source: 46 text nodes — 0 headings, 0 eyebrows, 46 CTAs, 0 body; 0 img
+  build: 46 text nodes — 0 headings, 0 eyebrows, 46 CTAs, 0 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 1 / build 1
+  attributes (placeholder/aria-label/title): source 1 / build 0; icons: source 1 / build 0
+root ".video-container"
+  source: 0 text nodes — 0 headings, 0 eyebrows, 0 CTAs, 0 body; 0 img
+  build: 0 text nodes — 0 headings, 0 eyebrows, 0 CTAs, 0 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 0 / build 0
+  attributes (placeholder/aria-label/title): source 0 / build 0; icons: source 0 / build 0
+root ".swiper-container-science"
+  source: 20 text nodes — 0 headings, 0 eyebrows, 20 CTAs, 0 body; 10 img
+  build: 16 text nodes — 0 headings, 0 eyebrows, 16 CTAs, 0 body; 8 img
+  editable texts (outermost h*/p/ul/ol): source 0 / build 1
+  attributes (placeholder/aria-label/title): source 10 / build 18; icons: source 0 / build 0
+root ".container-notop"
+  source: 3 text nodes — 0 headings, 0 eyebrows, 3 CTAs, 0 body; 6 img
+  build: 3 text nodes — 0 headings, 0 eyebrows, 3 CTAs, 0 body; 6 img
+  editable texts (outermost h*/p/ul/ol): source 0 / build 1
+  attributes (placeholder/aria-label/title): source 0 / build 0; icons: source 0 / build 0
+root ".webcam-wrapper"
+  source: 2 text nodes — 0 headings, 0 eyebrows, 1 CTAs, 1 body; 1 img
+  build: 2 text nodes — 0 headings, 0 eyebrows, 1 CTAs, 1 body; 1 img
+  editable texts (outermost h*/p/ul/ol): source 0 / build 0
+  attributes (placeholder/aria-label/title): source 0 / build 0; icons: source 0 / build 0
+root "header": absent on both sides (no <header> / [role="banner"] outside the main root(s)) — not compared
+root "footer"
+  source: 10 text nodes — 0 headings, 0 eyebrows, 7 CTAs, 3 body; 0 img
+  build: 10 text nodes — 0 headings, 0 eyebrows, 7 CTAs, 3 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 0 / build 0
+  attributes (placeholder/aria-label/title): source 0 / build 0; icons: source 0 / build 0
+
+Findings: 14 (5 structural 🔴)
+Tiers: looks-same 🔴 5 · nothing-lost 🟡 1 · accepted 🟢 1 (owner 0, auto 1) · advisory 8
+  🔴 MISSING ICON [#main-navbar]: source empty icon box (0×0) at "toggle navigation" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING CTA [.swiper-container-science]: source cta "Science with the ELT" → /science/ has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [.swiper-container-science]: source cta "Unexpected Discoveries" → /science/ has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [.swiper-container-science]: source cta "Science with the ELT" → /science/ has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [.swiper-container-science]: source cta "Solar System" → /science/ has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🟡 MISSING ARIA-LABEL [#main-navbar]: source <button> aria-label="Toggle navigation" has no build <button> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 EXTRA ARIA-LABEL [.swiper-container-science]: build <li> aria-label="1 / 8" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [.swiper-container-science]: build <li> aria-label="2 / 8" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [.swiper-container-science]: build <li> aria-label="3 / 8" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [.swiper-container-science]: build <li> aria-label="4 / 8" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [.swiper-container-science]: build <li> aria-label="5 / 8" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [.swiper-container-science]: build <li> aria-label="6 / 8" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [.swiper-container-science]: build <li> aria-label="7 / 8" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [.swiper-container-science]: build <li> aria-label="8 / 8" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).

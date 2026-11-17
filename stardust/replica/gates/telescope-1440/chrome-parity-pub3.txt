@@ -1,0 +1,22 @@
+chrome-parity @ 1440px, tolerance 1px
+  live:  https://elt.eso.org/telescope/ (live side from cache stardust/replica/gates/telescope-1440/chrome-live.json, probed 2026-11-13T13:02:13.474Z — delete the file to re-probe)
+  build: https://main--26c59ee1--aemcoder.aem.page/telescope
+
+■ header: 2 delta(s) — 2 paired of 2/2 texts, 5/5 icons
+  (live has no <header>: auto-detected nav#top-navbar.navbar.top_ — pass --region header=<liveSel>|<buildSel> to override)
+  REGION STYLE position fixed → static (fixed/sticky chrome must stay fixed/sticky — seam symmetry)
+  PAIR         "Choose your language"  tag <div> → <p>; Δx +9px (596→605)
+
+■ footer: 10 delta(s) — 10 paired of 10/10 texts, 0/0 icons
+  PAIR         "| ELT ©"  tag <div> → <p>; letterSpacing normal → 0.039744px
+  PAIR         "ESO"  letterSpacing normal → 0.039744px
+  PAIR         "2026"  letterSpacing normal → 0.039744px; Δx +2px (188→190)
+  PAIR         "| | | | |"  tag <div> → <p>; letterSpacing normal → 0.039744px
+  PAIR         "Credits"  letterSpacing normal → 0.039744px
+  PAIR         "Contact us"  letterSpacing normal → 0.039744px; Δw -2px (74→72)
+  PAIR         "Subscribe to ESO news"  letterSpacing normal → 0.039744px
+  PAIR         "Accelerated by CDN77"  letterSpacing normal → 0.039744px; Δx -2px (813→811)
+  PAIR         "Terms & Conditions"  letterSpacing normal → 0.039744px; Δx -2px (986→984)
+  PAIR         "Cookie Settings and Policy"  letterSpacing normal → 0.039744px
+
+✗ 12 delta(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

@@ -1,0 +1,322 @@
+L15662 html,body { font-family: "Helvetica Neue LT ESO", "Helvetica Neue", Helvetica, Arial, sans-serif; margin: 0px; padding: 0px; }
+L15671 body { background-color: #000000; color: #ffffff; padding-top: 50px; overflow-x: hidden; }
+L15678 a.anchor { display: block; position: relative; visibility: hidden; top: -125px; }
+L15685 a, a.active, a:hover { color: #fff; text-decoration: none; }
+L15690 li { padding-top: 1rem; padding-bottom: 1rem; }
+L15695 video { display: block; }
+L15729 .esoblue { color: var(--esoblue) !important; }
+L15733 #top-navbar { padding-top: 0 !important; padding-bottom: 0 !important; }
+L15739 #top-navbar li { padding-top: 0; padding-bottom: 0; }
+L15744 #main-navbar { z-index: 1020; width: 100%; }
+L15749 .big-header-image { position: fixed; top: 50px; width: 100vw; z-index: -1; }
+L15756 .big-header-text { height: 46.875vw; background: transparent !important; }
+L15761 .mysticky { position: sticky !important; top: 50px; }
+L15766 .myfixed { position: fixed; bottom: 0; }
+L15779 .big-header-eso-logo { margin-bottom: 5px; }
+L15784 .desktop-top-sm-icons { width: 210px; }
+L15788 .desktop-top-sm-icons a { transform: scale(0.8); transition: all 0.5s ease; -o-transition: all 0.5s ease; -ms-transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; }
+L15797 .desktop-top-sm-icons a:hover { transform: scale(0.95); transition: all 0.5s ease; -o-transition: all 0.5s ease; -ms-transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; }
+L15847 .share-social-media-dropdown-icons a, .share-social-media-dropdown-icons a.active, .share-social-media-dropdown-icons a:hover { color: var(--esoblue) !important; }
+L15862 .share-social-media-dropdown-icons a img { transform: scale(0.95); transition: all 0.5s ease; }
+L15867 .share-social-media-dropdown-icons a:hover img { transform: scale(1.05); transition: all 0.5s ease; }
+L15896 .navbar-eso-logo { height: 70px; margin-right: 0rem; }
+L15901 .navbar-logo-brand { font-family: "Helvetica Neue LT ESO"; font-size: 1.4375rem; color: rgba(255, 255, 255, 0.7); }
+L15993 .science-landing-trapezoid-link a { color: var(--orange) !important; font-weight: 600; text-decoration: underline; }
+L16007 .instrument-landing-trapezoid-link a { color: var(--orange) !important; font-weight: 600; }
+L16013 .frontpage-science-carousel-title a { color: var(--esoblue) !important; font-weight: 400; }
+L16084 a.telescope-landing-link-domestruct { padding-right: 0; }
+L16125 .container-paragraph { padding-left: 10.5%; padding-bottom: 0.005rem; padding-right: 10.5%; }
+L16157 .big-header-visuals-title { text-shadow: 2px 0px black; left: 10.5%; right: 10.5%; }
+L16213 .science-landing-trapezoid-link a { text-decoration: none; }
+L16221 #navbar-flags { transform-origin: left; width: 10px; margin: 0; padding-inline-start: 0; }
+L16228 .footer-item { font-weight: 400; }
+L16237 .frontpage-science-carousel-caption-grad { width: 80%; }
+L16242 .frontpage-science-carousel-caption-learnmore-arrow { transform: scale(1); transition: all 0.5s ease; }
+L16247 .frontpage-science-carousel-caption-learnmore-link:hover .frontpage-science-carousel-caption-learnmore-arrow { transform: scale(1.1); transition: all 0.5s ease; }
+L16252 .frontpage-science-carousel-caption-learnmore { color: white; }
+L16256 .frontpage-science-carousel-caption-learnmore div:first-child { background: var(--esoblue); padding: 0 0.5rem 0 0.5rem; }
+L16261 .frontpage-science-carousel-caption-learnmore div:last-child { background: var(--esoblue); padding: 0 0.5rem 0 0.5rem; border-radius: 0 50% 50% 0; }
+L16267 .frontpage-science-carousel-science { font-weight: 600; }
+L16271 .frontpage-science-carousel-title {  }
+L16276 .frontpage-menu-title { color: white; }
+L16288 .webcam-stamps { font-size: 11px; border: none !important; font-weight: 700 !important; }
+L16294 .text-shade { padding: 0 0.5rem 0 0.5rem; background-color: rgba(0, 0, 0, 0.3); }
+L16300 .lang-links { display: inline; color: rgba(255,255,255,0.7); font-size: 0.8rem; margin-right: 1rem; }
+L16307 .lang-link { color: rgba(255,255,255,0.7); font-size: 0.8rem; text-decoration: none; }
+L16313 .navbar { background-image: linear-gradient(rgb(40, 39, 49), rgb(16, 17, 19)); padding: 0 1rem; }
+L16332 [ (max-width: 576px)] .navbar { padding: 0rem 0.25rem; }
+L16336 [ (max-width: 576px)] .navbar-brand { margin-right: 0; }
+L16340 [ (max-width: 576px)] .webcam-stamps { font-size: 10px !important; margin: 10px !important; }
+L16345 [ (max-width: 576px)] .swiper-button-next:after, .swiper-button-prev:after { font-size: 22px; }
+L16349 [ (max-width: 576px)] .desktop-top-sm-icons { width: 200px; }
+L16357 [ (max-width: 576px)] .dropdown-search { right: 0; left: unset; }
+L16362 [ (max-width: 576px)] .navbar-eso-logo { height: 50px; }
+L16366 [ (max-width: 576px)] #navbar-flags { transform: scale(0.35); }
+L16423 [ (max-width: 576px)] .big-header-visuals-title { font-size: 1.5625rem; bottom: 5%; }
+L16449 [ (max-width: 576px)] .container-paragraph-right { padding-right: 10.5%; padding-left: 10.5%; }
+L16454 [ (max-width: 576px)] .footer-item { font-size: 0.76rem; }
+L16496 [ (max-width: 576px)] .instrument-landing-trapezoid-link a { font-size: 1rem; }
+L16656 [ (max-width: 576px)] .big-header-eso-logo { width: 30px; }
+L16660 [ (max-width: 576px)] .big-header-social-logos { width: 120px; }
+L16664 [ (max-width: 576px)] .big-header-logos { top: 5%; left: 10.5%; width: 180px; }
+L16670 [ (max-width: 576px)] .esologo-text { font-size: 0.3rem; }
+L16674 [ (max-width: 576px)] .frontpage-header-title { font-size: 1rem; font-weight: 600; text-shadow: 10px 10px 20px black; bottom: 5%; left: 10.5%; right: 10.5%; }
+L16683 [ (max-width: 576px)] .frontpage-header-subtitle { font-size: 1rem; font-weight: 500; text-shadow: 10px 10px 20px black; }
+L16689 [ (max-width: 576px)] .big-header-title { font-size: 1.875rem; text-shadow: 2px 0px black; bottom: 14%; left: 10.5%; right: 10.5%; }
+L16697 [ (max-width: 576px)] .big-header-title-facts { font-size: 1.5rem; }
+L16701 [ (max-width: 576px)] .big-header-title-mirrors { font-size: 1.5625rem; }
+L16705 [ (max-width: 576px)] .big-header-title-success { font-size: 0.95rem; }
+L16720 [ (max-width: 576px)] .science-landing-trapezoid-link a { font-size: 1rem; }
+L16724 [ (max-width: 576px)] .frontpage-science-carousel-title { font-size: 1rem; }
+L16729 [ (max-width: 576px)] .frontpage-menu-title { font-size: 1rem; }
+L16734 [ (max-width: 576px)] .frontpage-science-carousel-science { font-size: 1.25rem; }
+L16739 [ (max-width: 576px)] .frontpage-science-carousel-caption { top: 10%; bottom: 30%; left: 0; right: 0; }
+L16746 [ (max-width: 576px)] .frontpage-science-carousel-caption-pos { padding-left:13%; padding-right: 13%; }
+L16751 [ (max-width: 576px)] .frontpage-science-carousel-caption-learnmore { margin-top: 0.7rem; font-size: 0.7rem; }
+L16760 [ (min-width: 576px)] #navbar-flags { transform: scale(0.60); }
+L16764 [ (min-width: 576px)] .navbar-eso-logo { height: 50px; }
+L16772 [ (min-width: 576px)] .dropdown-search { right: 0; left: unset; }
+L16825 [ (min-width: 576px)] .big-header-visuals-title { font-size: 1.875rem; bottom: 6%; }
+L16851 [ (min-width: 576px)] .container-paragraph-right { padding-right: 10.5%; padding-left: 10.5%; }
+L16857 [ (min-width: 576px)] .footer-item { font-size: 0.79rem; }
+L16899 [ (min-width: 576px)] .instrument-landing-trapezoid-link a { font-size: 1.03125rem; }
+L16903 [ (min-width: 576px)] .science-landing-trapezoid-link a { font-size: 1.03125rem; }
+L17074 [ (min-width: 576px)] .big-header-eso-logo { width: 40px; }
+L17078 [ (min-width: 576px)] .big-header-social-logos { width: 150px; }
+L17082 [ (min-width: 576px)] .big-header-logos { top: 10%; left: 10.5%; width: 225px; }
+L17088 [ (min-width: 576px)] .esologo-text { font-size: 0.6rem; }
+L17092 [ (min-width: 576px)] .frontpage-header-title { font-size: 1.25rem; font-weight: 600; text-shadow: 10px 10px 20px black; bottom: 10%; left: 10.5%; right: 10.5%; }
+L17101 [ (min-width: 576px)] .frontpage-header-subtitle { font-size: 1.25rem; font-weight: 500; text-shadow: 10px 10px 20px black; }
+L17107 [ (min-width: 576px)] .big-header-title-facts { font-size: 1.82rem; }
+L17111 [ (min-width: 576px)] .big-header-title { font-size: 2.15625rem; text-shadow: 2px 0px black; bottom: 14%; left: 10.5%; right: 10.5%; }
+L17119 [ (min-width: 576px)] .big-header-title-mirrors { font-size: 1.875rem; }
+L17123 [ (min-width: 576px)] .big-header-title-success { font-size: 1.345rem; }
+L17138 [ (min-width: 576px)] .frontpage-science-carousel-title { font-size: 1.5rem; }
+L17142 [ (min-width: 576px)] .frontpage-menu-title { font-size: 1.5rem; }
+L17146 [ (min-width: 576px)] .frontpage-science-carousel-science { font-size: 2.125rem; }
+L17150 [ (min-width: 576px)] .frontpage-science-carousel-caption { top: 15%; bottom: 35%; left: 0; right: 0; }
+L17157 [ (min-width: 576px)] .frontpage-science-carousel-caption-pos { padding-left:13%; padding-right: 13%; }
+L17162 [ (min-width: 576px)] .frontpage-science-carousel-caption-learnmore { margin-top: 1rem; font-size: 0.76rem; }
+L17171 [ (min-width: 768px)] #navbar-flags { transform: scale(0.75); }
+L17175 [ (min-width: 768px)] .navbar-eso-logo { height: 50px; }
+L17231 [ (min-width: 768px)] .big-header-visuals-title { font-size: 2.1875rem; bottom: 7%; }
+L17257 [ (min-width: 768px)] .container-paragraph-right { padding-right: 10.5%; padding-left: 10.5%; }
+L17263 [ (min-width: 768px)] .footer-item { font-size: 0.82rem; }
+L17305 [ (min-width: 768px)] .instrument-landing-trapezoid-link a { font-size: 1.09375rem; }
+L17309 [ (min-width: 768px)] .science-landing-trapezoid-link a { font-size: 1.09375rem; }
+L17480 [ (min-width: 768px)] .big-header-eso-logo { width: 48px; }
+L17484 [ (min-width: 768px)] .big-header-social-logos { width: 180px; }
+L17488 [ (min-width: 768px)] .big-header-logos { top: 10%; left: 10.5%; width: 275px; }
+L17494 [ (min-width: 768px)] .big-header-title-facts { font-size: 2.13rem; }
+L17498 [ (min-width: 768px)] .big-header-title { font-size: 2.40625rem; text-shadow: 2px 0px black; bottom: 14%; left: 10.5%; right: 10.5%; }
+L17506 [ (min-width: 768px)] .big-header-title-mirrors { font-size: 2.125rem; }
+L17510 [ (min-width: 768px)] .big-header-title-success { font-size: 1.7243rem; }
+L17514 [ (min-width: 768px)] .esologo-text { font-size: 0.7rem; }
+L17518 [ (min-width: 768px)] .frontpage-header-title { font-size: 1.75rem; font-weight: 600; text-shadow: 10px 10px 20px black; bottom: 10%; left: 10.5%; right: 10.5%; }
+L17527 [ (min-width: 768px)] .frontpage-header-subtitle { font-size: 1.75rem; font-weight: 500; text-shadow: 10px 10px 20px black; }
+L17533 [ (min-width: 768px)] .frontpage-science-carousel-title { font-size: 1.75rem; }
+L17537 [ (min-width: 768px)] .frontpage-menu-title { font-size: 1.75rem; }
+L17541 [ (min-width: 768px)] .frontpage-science-carousel-science { font-size: 2.625rem; }
+L17545 [ (min-width: 768px)] .frontpage-science-carousel-caption { top: 15%; bottom: 40%; left: 0; right: 0; }
+L17552 [ (min-width: 768px)] .frontpage-science-carousel-caption-pos { padding-left:10.5%; padding-right: 10.5%; }
+L17557 [ (min-width: 768px)] .frontpage-science-carousel-caption-learnmore { margin-top: 1rem; font-size: 0.83rem; }
+L17566 [ (min-width: 992px)] .lang-links { display: none; }
+L17574 [ (min-width: 992px)] #navbar-flags { transform: scale(1); }
+L17578 [ (min-width: 992px)] .navbar-eso-logo { height: 50px; margin-right: 2rem; }
+L17635 [ (min-width: 992px)] .big-header-visuals-title { font-size: 2.5625rem; bottom: 9%; }
+L17661 [ (min-width: 992px)] .container-paragraph-right { padding-right: 10.5%; padding-left: 0%; }
+L17666 [ (min-width: 992px)] .footer-item { font-size: 0.86rem; }
+L17708 [ (min-width: 992px)] .instrument-landing-trapezoid-link a { font-size: 1.125rem; }
+L17712 [ (min-width: 992px)] .science-landing-trapezoid-link a { font-size: 1.125rem; }
+L17883 [ (min-width: 992px)] .big-header-eso-logo { width: 58px; }
+L17887 [ (min-width: 992px)] .big-header-social-logos { width: 210px; }
+L17891 [ (min-width: 992px)] .big-header-logos { top: 10%; left: 10.5%; width: 325px; }
+L17897 [ (min-width: 992px)] .big-header-title-facts { font-size: 2.5rem; }
+L17901 [ (min-width: 992px)] .big-header-title { font-size: 2.71875rem; text-shadow: 2px 0px black; bottom: 14%; left: 10.5%; right: 10.5%; }
+L17909 [ (min-width: 992px)] .big-header-title-mirrors { font-size: 2.5rem; }
+L17913 [ (min-width: 992px)] .big-header-title-success { font-size: 2.1668rem; }
+L17917 [ (min-width: 992px)] .esologo-text { font-size: 0.8rem; }
+L17921 [ (min-width: 992px)] .frontpage-header-title { font-size: 2.25rem; font-weight: 600; text-shadow: 10px 10px 20px black; bottom: 10%; left: 10.5%; right: 10.5%; }
+L17930 [ (min-width: 992px)] .frontpage-header-subtitle { font-size: 2.25rem; font-weight: 500; text-shadow: 10px 10px 20px black; }
+L17936 [ (min-width: 992px)] .frontpage-science-carousel-title { font-size: 2.125rem; }
+L17940 [ (min-width: 992px)] .frontpage-menu-title { font-size: 2.125rem; }
+L17944 [ (min-width: 992px)] .frontpage-science-carousel-science { font-size: 3.25rem; }
+L17948 [ (min-width: 992px)] .frontpage-science-carousel-caption { top: 15%; bottom: 45%; left: 0; right: 0; }
+L17955 [ (min-width: 992px)] .frontpage-science-carousel-caption-pos { padding-left:10.5%; padding-right: 10.5%; }
+L17960 [ (min-width: 992px)] .frontpage-science-carousel-caption-learnmore { margin-top: 1rem; font-size: 0.90rem; }
+L17965 [ (min-width: 992px)] .dropdown-submenu-list-items { transform: scale(0, 1); transform-origin: center left; display: block; }
+L17971 [ (min-width: 992px)] .dropdown-submenu:hover > .dropdown-submenu-list-items { animation: menuRight 0.25s forwards; transform: translateX(-1px); }
+L17976 [ (min-width: 992px)] .dropdown-menu-list-items { transform: scale(1, 0); transform-origin: top center; display: block; }
+L17983 [ (min-width: 992px)] .dropdown.dropdown-menu-top-top:hover > .dropdown-menu-list-items { animation: menuDown 0.25s forwards; }
+L17987 [ (min-width: 992px)] .dropdown.dropdown-menu-top:hover > .dropdown-menu-list-items { animation: menuDown 0.25s forwards; }
+L17991 [ (min-width: 992px)] .dropup.dropdown-menu-top:hover > .dropdown-menu-list-items { animation: menuDown 0.25s forwards; transform-origin: bottom center; }
+L18000 [ (min-width: 1200px)] .desktop-top-sm-icons { width: 250px; }
+L18064 [ (min-width: 1200px)] .big-header-visuals-title { font-size: 2.875rem; bottom: 10%; }
+L18090 [ (min-width: 1200px)] .container-paragraph-right { padding-right: 10.5%; padding-left: 0%; }
+L18095 [ (min-width: 1200px)] .footer-item { font-size: 0.89rem; }
+L18137 [ (min-width: 1200px)] .instrument-landing-trapezoid-link a { font-size: 1.15625rem; }
+L18141 [ (min-width: 1200px)] .science-landing-trapezoid-link a { font-size: 1.15625rem; }
+L18312 [ (min-width: 1200px)] .big-header-eso-logo { width: 67px; }
+L18316 [ (min-width: 1200px)] .big-header-social-logos { width: 240px; }
+L18320 [ (min-width: 1200px)] .big-header-logos { top: 10%; left: 10.5%; width: 375px; }
+L18326 [ (min-width: 1200px)] .big-header-title-facts { font-size: 2.83rem; }
+L18330 [ (min-width: 1200px)] .big-header-title { font-size: 3rem; text-shadow: 2px 0px black; bottom: 14%; left: 10.5%; right: 10.5%; }
+L18338 [ (min-width: 1200px)] .big-header-title-mirrors { font-size: 2.875rem; }
+L18342 [ (min-width: 1200px)] .big-header-title-success { font-size: 2.5777rem; }
+L18346 [ (min-width: 1200px)] .esologo-text { font-size: 0.9rem; }
+L18350 [ (min-width: 1200px)] .frontpage-header-title { font-size: 2.625rem; font-weight: 600; text-shadow: 10px 10px 20px black; bottom: 10%; left: 10.5%; right: 10.5%; }
+L18359 [ (min-width: 1200px)] .frontpage-header-subtitle { font-size: 2.625rem; font-weight: 500; text-shadow: 10px 10px 20px black; }
+L18365 [ (min-width: 1200px)] .frontpage-science-carousel-title { font-size 2.5rem; }
+L18369 [ (min-width: 1200px)] .frontpage-menu-title { font-size 2.5rem; }
+L18373 [ (min-width: 1200px)] .frontpage-science-carousel-science { font-size: 4rem; }
+L18377 [ (min-width: 1200px)] .frontpage-science-carousel-caption { top: 15%; bottom: 50%; left: 0; right: 0; }
+L18384 [ (min-width: 1200px)] .frontpage-science-carousel-caption-pos { padding-left:10.5%; padding-right: 10.5%; }
+L18389 [ (min-width: 1200px)] .frontpage-science-carousel-caption-learnmore { margin-top: 1rem; font-size: 1.04rem; }
+L18454 [ (min-width: 1440px)] .big-header-visuals-title { font-size: 3.25rem; bottom: 11%; }
+L18480 [ (min-width: 1440px)] .container-paragraph-right { padding-right: 10.5%; padding-left: 0%; }
+L18485 [ (min-width: 1440px)] .footer-item { font-size: 0.92rem; }
+L18527 [ (min-width: 1440px)] .instrument-landing-trapezoid-link a { font-size: 1.21875rem; }
+L18531 [ (min-width: 1440px)] .science-landing-trapezoid-link a { font-size: 1.21875rem; }
+L18702 [ (min-width: 1440px)] .big-header-eso-logo { width: 78px; }
+L18706 [ (min-width: 1440px)] .big-header-social-logos { width: 280px; }
+L18710 [ (min-width: 1440px)] .big-header-logos { top: 10%; left: 10.5%; width: 435px; }
+L18716 [ (min-width: 1440px)] .big-header-title-facts { font-size: 3.22rem; }
+L18720 [ (min-width: 1440px)] .big-header-title { font-size: 3.34375rem; text-shadow: 2px 0px black; bottom: 14%; left: 10.5%; right: 10.5%; }
+L18728 [ (min-width: 1440px)] .big-header-title-mirrors { font-size: 3.25rem; }
+L18732 [ (min-width: 1440px)] .big-header-title-success { font-size: 3.0518rem; }
+L18736 [ (min-width: 1440px)] .esologo-text { font-size: 1.0rem; }
+L18740 [ (min-width: 1440px)] .frontpage-header-title { font-size: 3rem; font-weight: 600; text-shadow: 10px 10px 20px black; bottom: 15%; left: 10.5%; right: 10.5%; }
+L18749 [ (min-width: 1440px)] .frontpage-header-subtitle { font-size: 3rem; font-weight: 500; text-shadow: 10px 10px 20px black; }
+L18755 [ (min-width: 1440px)] .frontpage-science-carousel-title { font-size 2.5rem; }
+L18759 [ (min-width: 1440px)] .frontpage-menu-title { font-size 2.5rem; }
+L18763 [ (min-width: 1440px)] .frontpage-science-carousel-science { font-size: 4rem; }
+L18767 [ (min-width: 1440px)] .frontpage-science-carousel-caption { top: 15%; bottom: 55%; left: 0; right: 0; }
+L18774 [ (min-width: 1440px)] .frontpage-science-carousel-caption-pos { padding-left:10.5%; padding-right: 10.5%; }
+L18779 [ (min-width: 1440px)] .frontpage-science-carousel-caption-learnmore { margin-top: 1rem; font-size: 1.12rem; }
+L18844 [ (min-width: 1680px)] .big-header-visuals-title { font-size: 3.625rem; bottom: 13%; }
+L18870 [ (min-width: 1680px)] .container-paragraph-right { padding-right: 10.5%; padding-left: 0%; }
+L18875 [ (min-width: 1680px)] .footer-item { font-size: 0.96rem; }
+L18913 [ (min-width: 1680px)] .instrument-landing-trapezoid-link a { font-size: 1.25rem; }
+L18917 [ (min-width: 1680px)] .science-landing-trapezoid-link a { font-size: 1.25rem; }
+L19088 [ (min-width: 1680px)] .big-header-eso-logo { width: 90px; }
+L19092 [ (min-width: 1680px)] .big-header-social-logos { width: 315px; }
+L19096 [ (min-width: 1680px)] .big-header-logos { top: 10%; left: 10.5%; width: 490px; }
+L19102 [ (min-width: 1680px)] .big-header-title-facts { font-size: 3.61rem; }
+L19106 [ (min-width: 1680px)] .big-header-title { font-size: 3.6875rem; text-shadow: 2px 0px black; bottom: 14%; left: 10.5%; right: 10.5%; }
+L19114 [ (min-width: 1680px)] .big-header-title-mirrors { font-size: 3.625rem; }
+L19118 [ (min-width: 1680px)] .big-header-title-success { font-size: 3.5259rem; }
+L19122 [ (min-width: 1680px)] .esologo-text { font-size: 1.1rem; }
+L19126 [ (min-width: 1680px)] .frontpage-header-title { font-size: 3.5rem; font-weight: 600; text-shadow: 10px 10px 20px black; bottom: 15%; left: 10.5%; right: 10.5%; }
+L19135 [ (min-width: 1680px)] .frontpage-header-subtitle { font-size: 3.5rem; font-weight: 500; text-shadow: 10px 10px 20px black; }
+L19141 [ (min-width: 1680px)] .frontpage-science-carousel-title { font-size 2.5rem; }
+L19145 [ (min-width: 1680px)] .frontpage-menu-title { font-size 2.5rem; }
+L19149 [ (min-width: 1680px)] .frontpage-science-carousel-science { font-size: 4rem; }
+L19153 [ (min-width: 1680px)] .frontpage-science-carousel-caption { top: 15%; bottom: 60%; left: 0; right: 0; }
+L19160 [ (min-width: 1680px)] .frontpage-science-carousel-caption-pos { padding-left:10.5%; padding-right: 10.5%; }
+L19165 [ (min-width: 1680px)] .frontpage-science-carousel-caption-learnmore { margin-top: 1rem; font-size: 1.2rem; }
+L19230 [ (min-width: 1920px)] .big-header-visuals-title { font-size: 4rem; bottom: 14%; }
+L19256 [ (min-width: 1920px)] .container-paragraph-right { padding-right: 10.5%; padding-left: 0%; }
+L19261 [ (min-width: 1920px)] .footer-item { font-size: 1rem; }
+L19303 [ (min-width: 1920px)] .instrument-landing-trapezoid-link a { font-size: 1.3125rem; }
+L19307 [ (min-width: 1920px)] .science-landing-trapezoid-link a { font-size: 1.3125rem; }
+L19478 [ (min-width: 1920px)] .big-header-eso-logo { width: 100px; }
+L19482 [ (min-width: 1920px)] .big-header-social-logos { width: 350px; }
+L19486 [ (min-width: 1920px)] .big-header-logos { top: 10%; left: 10.5%; width: 550px; }
+L19492 [ (min-width: 1920px)] .big-header-title { font-size: 4rem; text-shadow: 2px 0px black; bottom: 14%; left: 10.5%; right: 10.5%; }
+L19500 [ (min-width: 1920px)] .big-header-title-mirrors { font-size: 4rem; }
+L19504 [ (min-width: 1920px)] .big-header-title-success { font-size: 4rem; }
+L19508 [ (min-width: 1920px)] .esologo-text { font-size: 1.2rem; }
+L19512 [ (min-width: 1920px)] .frontpage-header-title { font-size: 4rem; font-weight: 600; text-shadow: 10px 10px 20px black; bottom: 15%; left: 10.5%; right: 10.5%; }
+L19521 [ (min-width: 1920px)] .frontpage-header-subtitle { font-size: 4rem; font-weight: 500; text-shadow: 10px 10px 20px black; }
+L19527 [ (min-width: 1920px)] .frontpage-science-carousel-title { font-size 2.5rem; }
+L19531 [ (min-width: 1920px)] .frontpage-menu-title { font-size 2.5rem; }
+L19535 [ (min-width: 1920px)] .frontpage-science-carousel-science { font-size: 4rem; }
+L19539 [ (min-width: 1920px)] .frontpage-science-carousel-caption { top: 15%; bottom: 60%; left: 0; right: 0; }
+L19546 [ (min-width: 1920px)] .frontpage-science-carousel-caption-pos { padding-left:10.5%; padding-right: 10.5%; }
+L19621 .container-light { padding-right: 0px; padding-left: 0px; margin-right: 0px; margin-left: 0px; background-color: rgb(232, 232, 232); color: #000; padding-top: 2rem; padding-bottom: 0; }
+L19633 .container-light a { color: var(--esoblue); }
+L19636 .container-light a.active { color: var(--esoblue); }
+L19639 .container-light a:hover { color: #0056b3; }
+L19643 .container-darkblue { padding-right: 0px; padding-left: 0px; margin-right: 0px; margin-left: 0px; background-color: rgb(11, 22, 39); color: #fff; padding-top: 2rem; padding-bottom: 0; }
+L19655 .container-darkblue a { color: #fff; }
+L19658 .container-darkblue a.active { color: #fff; }
+L19661 .container-darkblue a:hover { color: #fff; }
+L19665 .container-gray { padding-right: 0px; padding-left: 0px; margin-right: 0px; margin-left: 0px; background-color: rgb(104, 105, 106); color: #fff; padding-top: 2rem; padding-bottom: 0rem; }
+L19676 .container-gray a { color: var(--esoblue); }
+L19679 .container-gray a.active { color: var(--esoblue); }
+L19682 .container-gray a:hover { color: var(--esoblue); }
+L19687 .container-nobottom { padding-bottom: 0rem; }
+L19691 .container-notop { padding-top: 0rem !important; }
+L19695 .lightlinks a { color: #fff; }
+L19698 .lightlinks a.active { color: #fff; }
+L19701 .lightlinks a:hover { color: #fff; }
+L19705 .blacklinks a { color: black; }
+L19708 .blacklinks a.active { color: black; }
+L19711 .blacklinks a:hover { color: black; }
+L19716 .darklinks a { color: var(--esoblue); }
+L19720 .darklinks a.active { color: var(--esoblue); }
+L19723 .darklinks a:hover { color: var(--esoblue); }
+L19727 .container-dark { padding-right: 0px; padding-left: 0px; margin-right: 0px; margin-left: 0px; background-color: #000; color: #fff; padding-top: 2rem; padding-bottom: 0rem; }
+L19738 .container-transparent { padding-right: 0px; padding-left: 0px; margin-right: 0px; margin-left: 0px; background-color: transparent; color: #fff; padding-top: 2rem; padding-bottom: 0rem; }
+L19749 .container-footer { padding-right: 0px; padding-left: 0px; margin-right: 0px; margin-left: 0px; background-color: #202020; color: #fff; padding-top: 1rem; padding-bottom: 1rem; }
+L19760 .container-tight { padding: 0 !important; }
+L19764 .container-y-2 { padding-top: 2rem !important; padding-bottom: 2rem !important; }
+L19769 .container-top-2 { padding-top: 2rem !important; padding-bottom: 0 !important; }
+L19774 .container-bottom-2 { padding-bottom: 2rem !important; padding-top: 0 !important; }
+L19816 .menu-item { padding: 0.9rem 0.9rem 0.9rem 0.9rem; }
+L19820 .dropdown-submenu { position: relative; }
+L19824 .dropdown-submenu>.dropdown-menu.top-aligned { top: 0; left: 100%; }
+L19829 .dropdown-submenu>.dropdown-menu.bottom-aligned { bottom: 0; left: 100%; }
+L19908 [ (max-width: 992px)] .dropdown-submenu-list-items { transform: scale(1, 0); transform-origin: top center; display: block; height: 0; padding-top: 0; padding-bottom: 0; }
+L19917 [ (max-width: 992px)] .dropdown-submenu:hover > .dropdown-submenu-list-items { animation: menuDownCompact 0.25s forwards; padding-top: 0.5rem; padding-bottom: 0.5rem; }
+L19925 .dropdown-menu-list-items { margin: 0; display: none; }
+L19930 .dropdown-menu-top:hover > .dropdown-menu-list-items { display: block; }
+L19934 .dropdown-menu-top-top:hover > .dropdown-menu-list-items { display: block; }
+L19938 .dropdown-submenu-list-items { display: none; }
+L19942 .dropdown-submenu:hover > .dropdown-submenu-list-items { display: block; }
+L19960 .nav-link-white { color: white !important; }
+L19964 .navbar-nav .nav-item { border-style: solid; border-color: transparent; background-color: transparent; border-width: 0px 0px 0px 1px; }
+L19971 .navbar-nav .nav-item:hover { background-color: #232932; border-color: #ef3c3c; }
+L19976 .navbar-nav .nav-item.active { border-color: #ef3c3c; }
+L19980 .navbar-nav .nav-item:hover > a.nav-link { transition: all 0.25s ease; transform: translateY(-12%) scale(1.07); -ms-transform: translateY(-12%) scale(1.07); -webkit-transform: translateY(-12%) scale(1.07); -moz-transform: translateY(-12%) scale(1.07); -o-transform: translateY(-12%) scale(1.07); }
+L19994 .navbar-nav .nav-link { outline: none; }
+L19998 .nav-media { background-color: transparent; margin-top: -4.6rem; background-image: unset; }
+L20005 .nav-item-media { border-style: solid; border-color: transparent !important; background-color: transparent; border-width: 0px 0px 0px 1px; }
+L20012 .nav-item-media:hover { border-color: #ef3c3c !important; }
+L20020 .navbar-collapse-media { margin-top: 1.6rem !important; }
+L20024 .dropdown-main-menu .dropdown-item { color: rgba(255,255,255,.7); border-style: solid; border-color: transparent; border-width: 0px 0px 0px 1px; }
+L20031 .dropdown-main-menu .dropdown-item:focus, .dropdown-item:hover { color: rgba(255,255,255,.9); background-color: #232932; border-color: #ef3c3c; }
+L20037 .dropdown-item.active { color: rgba(255,255,255,.9); background-color: transparent; border-color: #ef3c3c; }
+L20043 .navbar-dark .navbar-nav .nav-link { color: rgba(255, 255, 255, 0.7); }
+L20047 .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus { color: rgba(255, 255, 255, 0.9); }
+L20058 .dropup .dropdown-menu { margin: 0; }
+L20068 .dropup:hover > .dropdown-menu { display: block; }
+L20072 .dropdown-collapse:hover > .dropdown-menu { display: block; }
+L20076 .nav-sci-img { height: 100%; width: 100%; object-fit: cover; object-position: center center; transition: .5s ease; opacity: 1; }
+L20103 .nav-sci-text { position: absolute; top: 4rem; color: #fff !important; }
+L20109 .nav-item-sci { padding: 0; border-style: none !important; width: 100%; background-color: red !important; }
+L20117 .nav-item-sci:hover .nav-sci-img { opacity: 0.3; }
+L20141 .esologo-text { font-weight: 600; padding-top: 0.5vw; }
+L20192 .swiper-button-dark { color: #000 !important; }
+L20244 .container-subtitle { padding-left: 10.5%; padding-bottom: 0rem; padding-right: 10.5%; }
+L20250 .container-heading { padding-left: 10.5%; padding-bottom: 0rem; padding-right: 10.5%; }
+L20256 .container-title { padding-left: 10.5%; padding-bottom: 0rem; padding-right: 10.5%; }
+L20262 .container-instrument { padding-left: 10.5%; padding-bottom: 1rem; padding-right: 10.5%; }
+L20402 .webcam-wrapper { position: relative; display: inline-block; }
+L20405 .webcam-wrapper img { padding: 0px !important; }
+L20407 .webcam-wrapper .webcam-label { text-align: center; padding-top: 5px; }
+L20411 .webcam-timestamp, .webcam-live, .webcam-nolive { color: #fff; font-weight: bold; }
+L20415 .webcam-timestamp, .webcam-nolive { background-color: rgba(0, 0, 0, 0.2); font-weight: 600; position: absolute; top: 0; margin: 20px; padding: 5px 10px; border: 1px solid #fff; font-size: 11px; }
+L20425 .webcam-nolive, .webcam-live { right: 0; }
+L20428 .webcam-live { background-color: #bc3738; position: absolute; top: 0; margin: 20px; padding: 5px 10px; text-transform: uppercase; }
+L20443 .swiper-pagination { display: flex; align-items: center; justify-content: center; }
+L20449 .swiper-pagination-bullet { width: 13px; height: 13px; text-align: center; line-height: 20px; font-size: 12px; color: #000; opacity: 1; background: rgba(255, 255, 255, 0.4); margin: 0 1vw 10px 1vw !important; }
+L20462 .swiper-pagination-bullet-active { width: 15px; height: 15px; color: #000; background: #fff; }
+L20485 .choose-language-message { animation: bounce 4s ease-in-out 3; }
+L20502 a.anchor { display: block; position: relative; top: -150px; visibility: hidden; }
+L20574 .privacy-text-element > a { text-decoration: underline; }
+L20584 .privacy-ul li { padding: 0; }
+L20741 .privacy-settings-ul li, .privacy-setting-toggle-ul li { padding-top: 1rem; padding-bottom: 1rem; }
+L20811 .privacy-text-element > a { text-decoration: underline; }
+L20821 .privacy-ul li { padding: 0; }
+L20982 .ul-privacy li { padding-block: 0; }

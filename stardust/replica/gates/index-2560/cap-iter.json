@@ -1,0 +1,689 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+    "writtenAt": "2026-11-13T12:46:22.479Z",
+    "baseWidth": 1440,
+    "urls": [
+      "https://elt.eso.org/",
+      "http://localhost:8791/index-proposed.html"
+    ],
+    "probeWidth": 2560,
+    "probeNote": "from DESIGN.json",
+    "tolerance": 20
+  },
+  "urls": [
+    "https://elt.eso.org/",
+    "http://localhost:8791/index-proposed.html"
+  ],
+  "probeNote": "from DESIGN.json",
+  "live": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "body",
+      "isBody": true,
+      "leaves": 179,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "module",
+        "px": 550,
+        "via": "other",
+        "selector": "#big-header > div.position-absolute.d-lg-block_",
+        "tier": 2,
+        "share": 0.01,
+        "section": 2,
+        "w1": 435,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 305,
+        "via": "fixed",
+        "selector": "div.position-absolute > div.d-flex.flex-column > div.d-flex.flex-column > div.text-left",
+        "tier": 9,
+        "share": 0.01,
+        "section": 5,
+        "w1": 305,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 695,
+        "via": "fixed",
+        "selector": "div.position-absolute > div.d-flex.flex-column > div.d-flex.flex-column > div.text-left",
+        "tier": 9,
+        "share": 0.01,
+        "section": 5,
+        "w1": 695,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 305,
+        "via": "fixed",
+        "selector": "div.position-absolute > div.d-flex.flex-column > div.d-flex.flex-column > div.text-left",
+        "tier": 9,
+        "share": 0.01,
+        "section": 5,
+        "w1": 305,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 380,
+        "via": "fixed",
+        "selector": "div.position-absolute > div.d-flex.flex-column > div.d-flex.flex-column > div.text-left",
+        "tier": 9,
+        "share": 0.01,
+        "section": 5,
+        "w1": 380,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 305,
+        "via": "fixed",
+        "selector": "div.position-absolute > div.d-flex.flex-column > div.d-flex.flex-column > div.text-left",
+        "tier": 9,
+        "share": 0.01,
+        "section": 5,
+        "w1": 305,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 316,
+        "via": "fixed",
+        "selector": "div.position-absolute > div.d-flex.flex-column > div.d-flex.flex-column > div.text-left",
+        "tier": 9,
+        "share": 0.01,
+        "section": 5,
+        "w1": 316,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 305,
+        "via": "fixed",
+        "selector": "div.position-absolute > div.d-flex.flex-column > div.d-flex.flex-column > div.text-left",
+        "tier": 9,
+        "share": 0.01,
+        "section": 5,
+        "w1": 305,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 305,
+        "via": "fixed",
+        "selector": "div.position-absolute > div.d-flex.flex-column > div.d-flex.flex-column > div.text-left",
+        "tier": 9,
+        "share": 0.01,
+        "section": 5,
+        "w1": 305,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 341,
+        "via": "fixed",
+        "selector": "div.position-absolute > div.d-flex.flex-column > div.d-flex.flex-column > div.text-left",
+        "tier": 9,
+        "share": 0.01,
+        "section": 5,
+        "w1": 341,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 305,
+        "via": "fixed",
+        "selector": "div.position-absolute > div.d-flex.flex-column > div.d-flex.flex-column > div.text-left",
+        "tier": 9,
+        "share": 0.01,
+        "section": 5,
+        "w1": 305,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 245,
+        "via": "fixed",
+        "selector": "div.position-absolute > div.d-flex.flex-column > div.d-flex.flex-column > div.text-left",
+        "tier": 9,
+        "share": 0.01,
+        "section": 5,
+        "w1": 245,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 305,
+        "via": "fixed",
+        "selector": "div.position-absolute > div.d-flex.flex-column > div.d-flex.flex-column > div.text-left",
+        "tier": 9,
+        "share": 0.01,
+        "section": 5,
+        "w1": 305,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 807,
+        "via": "fixed",
+        "selector": "div.position-absolute > div.d-flex.flex-column > div.d-flex.flex-column > div.text-left",
+        "tier": 9,
+        "share": 0.01,
+        "section": 5,
+        "w1": 807,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 305,
+        "via": "fixed",
+        "selector": "div.position-absolute > div.d-flex.flex-column > div.d-flex.flex-column > div.text-left",
+        "tier": 9,
+        "share": 0.01,
+        "section": 5,
+        "w1": 305,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 610,
+        "via": "fixed",
+        "selector": "div.position-absolute > div.d-flex.flex-column > div.d-flex.flex-column > div.text-left",
+        "tier": 9,
+        "share": 0.01,
+        "section": 5,
+        "w1": 610,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 305,
+        "via": "fixed",
+        "selector": "div.position-absolute > div.d-flex.flex-column > div.d-flex.flex-column > div.text-left",
+        "tier": 9,
+        "share": 0.01,
+        "section": 5,
+        "w1": 305,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 695,
+        "via": "fixed",
+        "selector": "div.position-absolute > div.d-flex.flex-column > div.d-flex.flex-column > div.text-left",
+        "tier": 9,
+        "share": 0.01,
+        "section": 5,
+        "w1": 695,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 305,
+        "via": "fixed",
+        "selector": "div.position-absolute > div.d-flex.flex-column > div.d-flex.flex-column > div.text-left",
+        "tier": 9,
+        "share": 0.01,
+        "section": 5,
+        "w1": 305,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 380,
+        "via": "fixed",
+        "selector": "div.position-absolute > div.d-flex.flex-column > div.d-flex.flex-column > div.text-left",
+        "tier": 9,
+        "share": 0.01,
+        "section": 5,
+        "w1": 380,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 960,
+        "via": "fixed",
+        "selector": "body > div.container-fluid.container-dark > div.d-flex.justify-content-center > a",
+        "tier": 3,
+        "share": 0.01,
+        "section": 7,
+        "w1": 960,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 299,
+        "via": "fixed",
+        "selector": "#armazonespano4public > div.webcam-stamps.webcam-timestamp",
+        "tier": 6,
+        "share": 0.01,
+        "section": 7,
+        "w1": 299,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1400,
+        "via": "max-width",
+        "selector": "body > div.privacy-notice > div.privacy-container.centered-container",
+        "tier": 2,
+        "share": 0.01,
+        "section": 9,
+        "w1": 1400,
+        "maxWidth": "1400px"
+      },
+      {
+        "kind": "module",
+        "px": 640,
+        "via": "fixed",
+        "selector": "body > div.privacy-notice > div.privacy-container.centered-container > div.privacy-text-element",
+        "tier": 3,
+        "share": 0.01,
+        "section": 9,
+        "w1": 640,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 640,
+        "via": "fixed",
+        "selector": "body > div.privacy-notice > div.privacy-container.centered-container > div.privacy-text-element",
+        "tier": 3,
+        "share": 0.01,
+        "section": 9,
+        "w1": 640,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1400,
+        "via": "max-width",
+        "selector": "body > div.privacy-notice > div.centered-container",
+        "tier": 2,
+        "share": 0.02,
+        "section": 9,
+        "w1": 1400,
+        "maxWidth": "1400px"
+      },
+      {
+        "kind": "module",
+        "px": 242,
+        "via": "fixed",
+        "selector": "body > div.privacy-notice > div.centered-container > button.privacy-button.reject-all",
+        "tier": 3,
+        "share": 0.01,
+        "section": 9,
+        "w1": 242,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1400,
+        "via": "max-width",
+        "selector": "body > div.privacy-settings > div.centered-container",
+        "tier": 2,
+        "share": 0.01,
+        "section": 10,
+        "w1": 1088,
+        "maxWidth": "1400px"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "#top-navbar",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 1,
+        "selector": "body > img.big-header-image.d-block",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 2,
+        "selector": "#big-header",
+        "px": 550,
+        "capSelector": "#big-header > div.position-absolute.d-lg-block_"
+      },
+      {
+        "index": 3,
+        "selector": "#main-navbar",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 4,
+        "selector": "body > div.container-fluid.container-dark",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 5,
+        "selector": "body > div.container-fluid.container-light",
+        "px": 807,
+        "capSelector": "div.position-absolute > div.d-flex.flex-column > div.d-flex.flex-column > div.text-left"
+      },
+      {
+        "index": 6,
+        "selector": "body > div.container-fluid.container-light",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 7,
+        "selector": "body > div.container-fluid.container-dark",
+        "px": 960,
+        "capSelector": "body > div.container-fluid.container-dark > div.d-flex.justify-content-center > a"
+      },
+      {
+        "index": 8,
+        "selector": "body > footer.container-fluid.container-footer",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 9,
+        "selector": "body > div.privacy-notice",
+        "px": 1400,
+        "capSelector": "body > div.privacy-notice > div.privacy-container.centered-container"
+      },
+      {
+        "index": 10,
+        "selector": "body > div.privacy-settings",
+        "px": 1400,
+        "capSelector": "body > div.privacy-settings > div.centered-container"
+      }
+    ],
+    "shellMaxWidth": null,
+    "contentMaxWidth": null,
+    "contentFrom": null,
+    "maxCap": 1400,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 216
+  },
+  "build": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "body.page-index",
+      "isBody": true,
+      "leaves": 43,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "other",
+        "px": 550,
+        "via": "other",
+        "selector": "#big-header > div.big-header-logos",
+        "tier": 3,
+        "share": 0.02,
+        "section": -1,
+        "w1": 435,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "other",
+        "px": 305,
+        "via": "fixed",
+        "selector": "li.science-slide.is-active > div > div > div",
+        "tier": 8,
+        "share": 0.02,
+        "section": -1,
+        "w1": 305,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "other",
+        "px": 380,
+        "via": "fixed",
+        "selector": "li.science-slide.is-active > div > div > div",
+        "tier": 8,
+        "share": 0.02,
+        "section": -1,
+        "w1": 380,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "other",
+        "px": 305,
+        "via": "fixed",
+        "selector": "li.science-slide > div > div > div",
+        "tier": 8,
+        "share": 0.02,
+        "section": -1,
+        "w1": 305,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "other",
+        "px": 316,
+        "via": "fixed",
+        "selector": "li.science-slide > div > div > div",
+        "tier": 8,
+        "share": 0.02,
+        "section": -1,
+        "w1": 316,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "other",
+        "px": 305,
+        "via": "fixed",
+        "selector": "li.science-slide > div > div > div",
+        "tier": 8,
+        "share": 0.02,
+        "section": -1,
+        "w1": 305,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "other",
+        "px": 305,
+        "via": "fixed",
+        "selector": "li.science-slide > div > div > div",
+        "tier": 8,
+        "share": 0.02,
+        "section": -1,
+        "w1": 305,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "other",
+        "px": 341,
+        "via": "fixed",
+        "selector": "li.science-slide > div > div > div",
+        "tier": 8,
+        "share": 0.02,
+        "section": -1,
+        "w1": 341,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "other",
+        "px": 305,
+        "via": "fixed",
+        "selector": "li.science-slide > div > div > div",
+        "tier": 8,
+        "share": 0.02,
+        "section": -1,
+        "w1": 305,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "other",
+        "px": 245,
+        "via": "fixed",
+        "selector": "li.science-slide > div > div > div",
+        "tier": 8,
+        "share": 0.02,
+        "section": -1,
+        "w1": 245,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "other",
+        "px": 305,
+        "via": "fixed",
+        "selector": "li.science-slide > div > div > div",
+        "tier": 8,
+        "share": 0.02,
+        "section": -1,
+        "w1": 305,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "other",
+        "px": 807,
+        "via": "fixed",
+        "selector": "li.science-slide > div > div > div",
+        "tier": 8,
+        "share": 0.02,
+        "section": -1,
+        "w1": 807,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "other",
+        "px": 305,
+        "via": "fixed",
+        "selector": "li.science-slide > div > div > div",
+        "tier": 8,
+        "share": 0.02,
+        "section": -1,
+        "w1": 305,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "other",
+        "px": 610,
+        "via": "fixed",
+        "selector": "li.science-slide > div > div > div",
+        "tier": 8,
+        "share": 0.02,
+        "section": -1,
+        "w1": 610,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "other",
+        "px": 305,
+        "via": "fixed",
+        "selector": "li.science-slide > div > div > div",
+        "tier": 8,
+        "share": 0.02,
+        "section": -1,
+        "w1": 305,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "other",
+        "px": 695,
+        "via": "fixed",
+        "selector": "li.science-slide > div > div > div",
+        "tier": 8,
+        "share": 0.02,
+        "section": -1,
+        "w1": 695,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "other",
+        "px": 960,
+        "via": "fixed",
+        "selector": "main.elt-home > section.band-dark > div.webcam-wrapper > a",
+        "tier": 4,
+        "share": 0.02,
+        "section": -1,
+        "w1": 960,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "other",
+        "px": 299,
+        "via": "fixed",
+        "selector": "#armazonespano4public > div.webcam-stamps.webcam-timestamp",
+        "tier": 7,
+        "share": 0.02,
+        "section": -1,
+        "w1": 299,
+        "maxWidth": "none"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "#top-navbar",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 1,
+        "selector": "body.page-index > img.big-header-image",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 2,
+        "selector": "body.page-index > footer.site-footer",
+        "px": null,
+        "capSelector": null
+      }
+    ],
+    "shellMaxWidth": null,
+    "contentMaxWidth": null,
+    "contentFrom": null,
+    "maxCap": 960,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 103
+  },
+  "compare": {
+    "probeWidth": 2560,
+    "rows": [
+      {
+        "ok": true,
+        "label": "content cap",
+        "detail": "fluid on both sides — no wrapper, no shared module cap",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "sections",
+        "detail": "live 11 vs build 3 top-level sections — module rows compared by order up to the shorter side, advisory until the structure matches",
+        "advisory": true
+      },
+      {
+        "ok": true,
+        "label": "module 1/11",
+        "detail": "full-bleed on both",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 2/11",
+        "detail": "full-bleed on both",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 3/11",
+        "detail": "live 550px (#big-header > div.position-absolute.d-lg-block_) → build full-bleed (body.page-index > footer.site-footer)",
+        "advisory": true
+      }
+    ],
+    "fails": 0,
+    "pass": true
+  },
+  "evidence": "stardust/replica/gates/index-2560/cap-iter.json"
+}

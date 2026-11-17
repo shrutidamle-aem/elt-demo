@@ -1,0 +1,14 @@
+cap-probe  base 1440 → probe 2560 (from DESIGN.json)
+live   https://elt.eso.org/telescope/
+  other    1 capped box(es) outside the section tier (in the JSON) — e.g. 550px #big-header > div.position-absolute.d-lg-block_
+  modules  2 sections: capped 402 ×1 · full-bleed ×1
+  contentMaxWidth 402px (module) · shellMaxWidth fluid · root body > div.container-fluid.container-light
+build  http://localhost:8791/telescope-proposed.html
+  other    1 capped box(es) outside the section tier (in the JSON) — e.g. 550px #big-header > div.big-header-logos
+  modules  2 sections: capped 402 ×1 · full-bleed ×1
+  contentMaxWidth 402px (module) · shellMaxWidth fluid · root body.page-telescope > main.elt-inner > section.container-light.blacklinks
+rows
+  ✓ content cap: live 402px = build 402px (±20, shared module cap)
+  ✓ module 1/2: 402px = 402px
+  ✓ module 2/2: full-bleed on both
+cap-probe: PASS at 2560 — 0 of 3 rows failed (evidence stardust/replica/gates/telescope-2560/cap-iter.json)

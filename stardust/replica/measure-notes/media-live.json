@@ -1,0 +1,3717 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/measure.mjs",
+    "writtenAt": "2026-11-13T14:02:28.735Z",
+    "urls": [
+      "https://elt.eso.org/media/"
+    ],
+    "widths": [
+      1440,
+      360
+    ],
+    "selectors": [
+      "#big-header",
+      ".big-header-title",
+      "#main-navbar",
+      ".container-light",
+      ".section-title-paragraph",
+      ".container-light > .section-text-paragraph",
+      ".title-categories",
+      ".story-categories",
+      ".story-category",
+      ".stories-container",
+      ".story-container",
+      ".story-img-container",
+      ".story-category-stamp",
+      ".story-description",
+      ".story-description .date",
+      ".story-description .title",
+      ".story-more-container",
+      ".story-more",
+      ".bar-medium-dark",
+      ".visuals-dashboard",
+      ".visuals-dashboard > .position-absolute",
+      ".visuals-fullscreen",
+      ".media-type",
+      ".visuals-dashboard > .row",
+      ".media-ranking",
+      ".media-ranking a",
+      "#videoSearchform",
+      "#video-searchstr",
+      "#videoSearchform .btn",
+      ".swiper-container-video",
+      ".carouselVideoItem",
+      ".carouselVideoItem .row",
+      ".swiper-button-next-video",
+      ".swiper-button-prev-video",
+      ".img-thumb-hover",
+      ".visuals-hover-title",
+      ".swiper-container-media",
+      ".img-carousel",
+      ".container-light.page-section",
+      ".page-section h2",
+      ".page-section .section-text-paragraph img",
+      ".m-0.container-paragraph",
+      ".m-0.container-paragraph img",
+      ".container-footer"
+    ],
+    "props": [
+      "display",
+      "position",
+      "boxSizing",
+      "width",
+      "height",
+      "maxWidth",
+      "margin",
+      "padding",
+      "gap",
+      "backgroundColor",
+      "backgroundImage",
+      "color",
+      "fontFamily",
+      "fontSize",
+      "fontWeight",
+      "lineHeight",
+      "letterSpacing",
+      "textTransform",
+      "textAlign",
+      "borderRadius",
+      "border",
+      "boxShadow",
+      "opacity",
+      "objectFit"
+    ],
+    "allMatches": false,
+    "failed": [],
+    "warnings": [
+      "https://elt.eso.org/media/ @360: horizontal overflow +15px (scrollWidth 375 > viewport 360)",
+      "https://elt.eso.org/media/ @1440: horizontal overflow +15px (scrollWidth 1455 > viewport 1440)"
+    ]
+  },
+  "widths": [
+    1440,
+    360
+  ],
+  "selectors": [
+    "#big-header",
+    ".big-header-title",
+    "#main-navbar",
+    ".container-light",
+    ".section-title-paragraph",
+    ".container-light > .section-text-paragraph",
+    ".title-categories",
+    ".story-categories",
+    ".story-category",
+    ".stories-container",
+    ".story-container",
+    ".story-img-container",
+    ".story-category-stamp",
+    ".story-description",
+    ".story-description .date",
+    ".story-description .title",
+    ".story-more-container",
+    ".story-more",
+    ".bar-medium-dark",
+    ".visuals-dashboard",
+    ".visuals-dashboard > .position-absolute",
+    ".visuals-fullscreen",
+    ".media-type",
+    ".visuals-dashboard > .row",
+    ".media-ranking",
+    ".media-ranking a",
+    "#videoSearchform",
+    "#video-searchstr",
+    "#videoSearchform .btn",
+    ".swiper-container-video",
+    ".carouselVideoItem",
+    ".carouselVideoItem .row",
+    ".swiper-button-next-video",
+    ".swiper-button-prev-video",
+    ".img-thumb-hover",
+    ".visuals-hover-title",
+    ".swiper-container-media",
+    ".img-carousel",
+    ".container-light.page-section",
+    ".page-section h2",
+    ".page-section .section-text-paragraph img",
+    ".m-0.container-paragraph",
+    ".m-0.container-paragraph img",
+    ".container-footer"
+  ],
+  "root": {
+    "https://elt.eso.org/media/": {
+      "360": {
+        "viewport": 360,
+        "clientWidth": 360,
+        "scrollWidth": 375,
+        "scrollHeight": 5544,
+        "overflowX": 15
+      },
+      "1440": {
+        "viewport": 1440,
+        "clientWidth": 1440,
+        "scrollWidth": 1455,
+        "scrollHeight": 5593,
+        "overflowX": 15
+      }
+    }
+  },
+  "pages": {
+    "https://elt.eso.org/media/": {
+      "360": {
+        "#big-header": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 50,
+              "w": 360,
+              "h": 169
+            },
+            "visible": true,
+            "text": "European Southern Observatory News & Mu…",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "168.75px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".big-header-title": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 38,
+              "y": 150,
+              "w": 284,
+              "h": 45
+            },
+            "visible": true,
+            "text": "News & Multimedia",
+            "props": {
+              "display": "block",
+              "position": "absolute",
+              "boxSizing": "border-box",
+              "width": "284.406px",
+              "height": "45px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "30px",
+              "fontWeight": "400",
+              "lineHeight": "45px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#main-navbar": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "ELT HOME ABOUT About the ELT Timeline L…",
+            "props": {
+              "display": "none",
+              "position": "sticky",
+              "boxSizing": "border-box",
+              "width": "100%",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px 4px",
+              "gap": "normal",
+              "backgroundColor": "rgb(0, 0, 0)",
+              "backgroundImage": "linear-gradient(rgb(40, 39, 49), rgb(16, 17, 19))",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".container-light": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 0,
+              "y": 219,
+              "w": 360,
+              "h": 1950
+            },
+            "visible": true,
+            "text": "Featured Stories Share on Facebook E-Ma…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "1949.61px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "32px 0px 18px",
+              "gap": "normal",
+              "backgroundColor": "rgb(232, 232, 232)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".section-title-paragraph": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 0,
+              "y": 251,
+              "w": 360,
+              "h": 64
+            },
+            "visible": true,
+            "text": "Featured Stories Share on Facebook E-Ma…",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "63.7812px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px 37.7969px 24px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "26px",
+              "fontWeight": "600",
+              "lineHeight": "39px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".container-light > .section-text-paragraph": [
+          {
+            "index": 0,
+            "of": 5,
+            "rect": {
+              "x": 0,
+              "y": 315,
+              "w": 360,
+              "h": 164
+            },
+            "visible": true,
+            "text": "This section shows ELT-related content …",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "163.75px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "3.2px 37.7969px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "27px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".title-categories": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 38,
+              "y": 542,
+              "w": 284,
+              "h": 200
+            },
+            "visible": true,
+            "text": "All Press Releases Announcements Pictur…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "284.406px",
+              "height": "200px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".story-categories": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 38,
+              "y": 542,
+              "w": 284,
+              "h": 200
+            },
+            "visible": true,
+            "text": "All Press Releases Announcements Pictur…",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "284.406px",
+              "height": "200px",
+              "maxWidth": "none",
+              "margin": "64px 0px 0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgba(0, 0, 0, 0.4)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "24px",
+              "fontWeight": "400",
+              "lineHeight": "36px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "right",
+              "borderRadius": "0px",
+              "border": "0px none rgba(0, 0, 0, 0.4)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".story-category": [
+          {
+            "index": 0,
+            "of": 7,
+            "rect": {
+              "x": 108,
+              "y": 550,
+              "w": 60,
+              "h": 24
+            },
+            "visible": true,
+            "text": "All",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "60.0156px",
+              "height": "24px",
+              "maxWidth": "none",
+              "margin": "8px 1.6px",
+              "padding": "0px 8px 0px 36px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "linear-gradient(45deg, rgba(0, 0, 0, 0) 26px, rgba(0, 119, 192, 0.8) 26px)",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "right",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".stories-container": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 38,
+              "y": 790,
+              "w": 284,
+              "h": 1360
+            },
+            "visible": true,
+            "text": "Video 5 Nov 2026 — cs0032a Chatting sci…",
+            "props": {
+              "display": "grid",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "284.406px",
+              "height": "1360px",
+              "maxWidth": "none",
+              "margin": "48px 0px 0px",
+              "padding": "0px",
+              "gap": "32px",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".story-container": [
+          {
+            "index": 0,
+            "of": 6,
+            "rect": {
+              "x": 38,
+              "y": 790,
+              "w": 284,
+              "h": 200
+            },
+            "visible": true,
+            "text": "Video 5 Nov 2026 — cs0032a Chatting sci…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "284.406px",
+              "height": "200px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".story-img-container": [
+          {
+            "index": 0,
+            "of": 5,
+            "rect": {
+              "x": 38,
+              "y": 790,
+              "w": 284,
+              "h": 90
+            },
+            "visible": true,
+            "text": "Video",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "284.406px",
+              "height": "90px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 119, 190)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 119, 190)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".story-category-stamp": [
+          {
+            "index": 0,
+            "of": 5,
+            "rect": {
+              "x": 244,
+              "y": 790,
+              "w": 79,
+              "h": 30
+            },
+            "visible": true,
+            "text": "Video",
+            "props": {
+              "display": "block",
+              "position": "absolute",
+              "boxSizing": "border-box",
+              "width": "78.5469px",
+              "height": "30px",
+              "maxWidth": "none",
+              "margin": "0px 0px 32px 64px",
+              "padding": "4px 8px 4px 32px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "linear-gradient(45deg, rgba(0, 0, 0, 0) 22px, rgba(188, 189, 189, 0.8) 22px)",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "250",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".story-description": [
+          {
+            "index": 0,
+            "of": 5,
+            "rect": {
+              "x": 38,
+              "y": 880,
+              "w": 284,
+              "h": 74
+            },
+            "visible": true,
+            "text": "5 Nov 2026 — cs0032a Chatting science w…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "284.406px",
+              "height": "73.5625px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "8px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 119, 190)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "12.8px",
+              "fontWeight": "400",
+              "lineHeight": "19.2px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 119, 190)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".story-description .date": [
+          {
+            "index": 0,
+            "of": 5,
+            "rect": {
+              "x": 46,
+              "y": 888,
+              "w": 268,
+              "h": 19
+            },
+            "visible": true,
+            "text": "5 Nov 2026 — cs0032a",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "268.406px",
+              "height": "19.1875px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 129, 201)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "12.8px",
+              "fontWeight": "400",
+              "lineHeight": "19.2px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 129, 201)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".story-description .title": [
+          {
+            "index": 0,
+            "of": 5,
+            "rect": {
+              "x": 46,
+              "y": 907,
+              "w": 268,
+              "h": 38
+            },
+            "visible": true,
+            "text": "Chatting science with the world's large…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "268.406px",
+              "height": "38.375px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(51, 51, 51)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "12.8px",
+              "fontWeight": "400",
+              "lineHeight": "19.2px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(51, 51, 51)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".story-more-container": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 38,
+              "y": 1950,
+              "w": 284,
+              "h": 108
+            },
+            "visible": true,
+            "text": "More...",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "284.406px",
+              "height": "108px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".story-more": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 116,
+              "y": 1974,
+              "w": 128,
+              "h": 60
+            },
+            "visible": true,
+            "text": "More...",
+            "props": {
+              "display": "block",
+              "position": "absolute",
+              "boxSizing": "border-box",
+              "width": "128.484px",
+              "height": "60px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgba(0, 0, 0, 0.2)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "40px",
+              "fontWeight": "700",
+              "lineHeight": "60px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgba(0, 0, 0, 0.2)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".bar-medium-dark": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 0,
+              "y": 2168,
+              "w": 360,
+              "h": 147
+            },
+            "visible": true,
+            "text": "fullscreen Videos Sort by DATE | RANKIN…",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "147.188px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "16px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(32, 32, 32)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".visuals-dashboard": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 0,
+              "y": 2184,
+              "w": 360,
+              "h": 115
+            },
+            "visible": true,
+            "text": "fullscreen Videos Sort by DATE | RANKIN…",
+            "props": {
+              "display": "grid",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "115.188px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".visuals-dashboard > .position-absolute": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 18,
+              "y": 2222,
+              "w": 32,
+              "h": 39
+            },
+            "visible": true,
+            "text": "fullscreen",
+            "props": {
+              "display": "block",
+              "position": "absolute",
+              "boxSizing": "border-box",
+              "width": "32px",
+              "height": "39px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".visuals-fullscreen": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 18,
+              "y": 2222,
+              "w": 32,
+              "h": 32
+            },
+            "visible": true,
+            "text": "fullscreen",
+            "props": {
+              "display": "inline-block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "32px",
+              "height": "32px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(130, 110, 85)",
+              "fontFamily": "\"Material Icons\"",
+              "fontSize": "32px",
+              "fontWeight": "400",
+              "lineHeight": "32px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(130, 110, 85)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".media-type": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 0,
+              "y": 2184,
+              "w": 360,
+              "h": 50
+            },
+            "visible": true,
+            "text": "Videos",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "50px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "4px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "28px",
+              "fontWeight": "400",
+              "lineHeight": "42px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".visuals-dashboard > .row": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": -15,
+              "y": 2234,
+              "w": 390,
+              "h": 65
+            },
+            "visible": true,
+            "text": "Sort by DATE | RANKING search",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "390px",
+              "height": "65.1875px",
+              "maxWidth": "none",
+              "margin": "0px -15px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".media-ranking": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": -15,
+              "y": 2234,
+              "w": 390,
+              "h": 27
+            },
+            "visible": true,
+            "text": "Sort by DATE | RANKING",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "390px",
+              "height": "27.1875px",
+              "maxWidth": "100%",
+              "margin": "0px",
+              "padding": "4px 15px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "12.8px",
+              "fontWeight": "400",
+              "lineHeight": "19.2px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".media-ranking a": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 154,
+              "y": 2240,
+              "w": 30,
+              "h": 15
+            },
+            "visible": true,
+            "text": "DATE",
+            "props": {
+              "display": "inline",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 140, 0)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "12.8px",
+              "fontWeight": "400",
+              "lineHeight": "19.2px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 140, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#videoSearchform": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 56,
+              "y": 2262,
+              "w": 248,
+              "h": 38
+            },
+            "visible": true,
+            "text": "search",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "248px",
+              "height": "38px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#video-searchstr": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 56,
+              "y": 2262,
+              "w": 207,
+              "h": 38
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "207px",
+              "height": "38px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "6px 12px",
+              "gap": "normal",
+              "backgroundColor": "rgb(255, 255, 255)",
+              "backgroundImage": "none",
+              "color": "rgb(73, 80, 87)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "4px 0px 0px 4px",
+              "border": "1px solid rgb(206, 212, 218)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#videoSearchform .btn": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 262,
+              "y": 2262,
+              "w": 42,
+              "h": 38
+            },
+            "visible": true,
+            "text": "search",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "42px",
+              "height": "38px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "6px 12px",
+              "gap": "normal",
+              "backgroundColor": "rgb(248, 249, 250)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px 4px 4px 0px",
+              "border": "1px solid rgb(248, 249, 250)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".swiper-container-video": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 2316,
+              "w": 360,
+              "h": 203
+            },
+            "visible": true,
+            "text": "Chatting science with the world's large…",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "202.5px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(32, 32, 32)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".carouselVideoItem": [
+          {
+            "index": 0,
+            "of": 6,
+            "rect": {
+              "x": 0,
+              "y": 2316,
+              "w": 360,
+              "h": 203
+            },
+            "visible": true,
+            "text": "Chatting science with the world's large…",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "202.5px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".carouselVideoItem .row": [
+          {
+            "index": 0,
+            "of": 6,
+            "rect": {
+              "x": 0,
+              "y": 2316,
+              "w": 360,
+              "h": 203
+            },
+            "visible": true,
+            "text": "Chatting science with the world's large…",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "202.5px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".swiper-button-next-video": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 323,
+              "y": 2395,
+              "w": 27,
+              "h": 44
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "flex",
+              "position": "absolute",
+              "boxSizing": "border-box",
+              "width": "27px",
+              "height": "44px",
+              "maxWidth": "none",
+              "margin": "-22px 0px 0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 122, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 122, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".swiper-button-prev-video": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 10,
+              "y": 2395,
+              "w": 27,
+              "h": 44
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "flex",
+              "position": "absolute",
+              "boxSizing": "border-box",
+              "width": "27px",
+              "height": "44px",
+              "maxWidth": "none",
+              "margin": "-22px 0px 0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 122, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 122, 255)",
+              "boxShadow": "none",
+              "opacity": "0.35",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".img-thumb-hover": [
+          {
+            "index": 0,
+            "of": 12,
+            "rect": {
+              "x": 0,
+              "y": 2295,
+              "w": 360,
+              "h": 203
+            },
+            "visible": true,
+            "text": "Chatting science with the world's large…",
+            "props": {
+              "display": "flex",
+              "position": "absolute",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "202.5px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "0",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".visuals-hover-title": [
+          {
+            "index": 0,
+            "of": 24,
+            "rect": {
+              "x": 0,
+              "y": 2307,
+              "w": 360,
+              "h": 66
+            },
+            "visible": true,
+            "text": "Chatting science with the world's large…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "66px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "22px",
+              "fontWeight": "400",
+              "lineHeight": "33px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".swiper-container-media": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 2697,
+              "w": 360,
+              "h": 203
+            },
+            "visible": true,
+            "text": "Tilting the ELT upwards Inclining the E…",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "202.5px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(32, 32, 32)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".img-carousel": [
+          {
+            "index": 0,
+            "of": 6,
+            "rect": {
+              "x": 0,
+              "y": 2697,
+              "w": 360,
+              "h": 203
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "202.5px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "cover"
+            },
+            "img": {
+              "naturalWidth": 1024,
+              "naturalHeight": 768,
+              "currentSrc": "https://cdn.eso.org/images/wallpaper1/potw2643a.jpg"
+            }
+          }
+        ],
+        ".container-light.page-section": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 2900,
+              "w": 360,
+              "h": 2524
+            },
+            "visible": true,
+            "text": "Media information and contacts ELT news…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "2523.55px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "32px 0px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(232, 232, 232)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".page-section h2": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 38,
+              "y": 3037,
+              "w": 284,
+              "h": 27
+            },
+            "visible": true,
+            "text": "ELT news",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "284.406px",
+              "height": "27px",
+              "maxWidth": "none",
+              "margin": "0px 0px 8px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "700",
+              "lineHeight": "27px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".page-section .section-text-paragraph img": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 109,
+              "y": 3244,
+              "w": 142,
+              "h": 201
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "142.203px",
+              "height": "201.078px",
+              "maxWidth": "none",
+              "margin": "0px 71.1094px 0px 71.0938px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 119, 190)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "27px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 119, 190)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            },
+            "img": {
+              "naturalWidth": 1280,
+              "naturalHeight": 1810,
+              "currentSrc": "https://www.eso.org/public/archives/brochures/screen/brochure_0079.jpg"
+            }
+          }
+        ],
+        ".m-0.container-paragraph": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 4885,
+              "w": 360,
+              "h": 106
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "105.969px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px 37.7969px 3.6px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".m-0.container-paragraph img": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 95,
+              "y": 4885,
+              "w": 171,
+              "h": 102
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "170.641px",
+              "height": "102.375px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 119, 190)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 119, 190)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            },
+            "img": {
+              "naturalWidth": 1280,
+              "naturalHeight": 768,
+              "currentSrc": "https://cdn.eso.org/images/screen/map-v4.jpg"
+            }
+          }
+        ],
+        ".container-footer": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 5423,
+              "w": 360,
+              "h": 121
+            },
+            "visible": true,
+            "text": "ESO | ELT © 2026 Credits | Contact us |…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "120.938px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "16px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(32, 32, 32)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ]
+      },
+      "1440": {
+        "#big-header": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 50,
+              "w": 1440,
+              "h": 675
+            },
+            "visible": true,
+            "text": "European Southern Observatory News & Mu…",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "675px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".big-header-title": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 151,
+              "y": 550,
+              "w": 1138,
+              "h": 80
+            },
+            "visible": true,
+            "text": "News & Multimedia",
+            "props": {
+              "display": "block",
+              "position": "absolute",
+              "boxSizing": "border-box",
+              "width": "1137.62px",
+              "height": "80.25px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "53.5px",
+              "fontWeight": "400",
+              "lineHeight": "80.25px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#main-navbar": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 725,
+              "w": 1440,
+              "h": 69
+            },
+            "visible": true,
+            "text": "ELT HOME ABOUT TELESCOPE INSTRUMENTS SC…",
+            "props": {
+              "display": "flex",
+              "position": "sticky",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "68.7812px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px 16px",
+              "gap": "normal",
+              "backgroundColor": "rgb(0, 0, 0)",
+              "backgroundImage": "linear-gradient(rgb(40, 39, 49), rgb(16, 17, 19))",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".container-light": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 0,
+              "y": 794,
+              "w": 1440,
+              "h": 1123
+            },
+            "visible": true,
+            "text": "Featured Stories Share on Facebook E-Ma…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "1123.36px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "32px 0px 72px",
+              "gap": "normal",
+              "backgroundColor": "rgb(232, 232, 232)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".section-title-paragraph": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 0,
+              "y": 826,
+              "w": 1440,
+              "h": 104
+            },
+            "visible": true,
+            "text": "Featured Stories Share on Facebook E-Ma…",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "104px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "16px 151.188px 40px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "32px",
+              "fontWeight": "600",
+              "lineHeight": "48px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".container-light > .section-text-paragraph": [
+          {
+            "index": 0,
+            "of": 5,
+            "rect": {
+              "x": 0,
+              "y": 930,
+              "w": 1440,
+              "h": 113
+            },
+            "visible": true,
+            "text": "This section shows ELT-related content …",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "112.688px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "7.68px 151.188px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "19.5px",
+              "fontWeight": "400",
+              "lineHeight": "33px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".title-categories": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 151,
+              "y": 1106,
+              "w": 1138,
+              "h": 104
+            },
+            "visible": true,
+            "text": "All Press Releases Announcements Pictur…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "1137.62px",
+              "height": "104px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".story-categories": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 151,
+              "y": 1106,
+              "w": 1138,
+              "h": 104
+            },
+            "visible": true,
+            "text": "All Press Releases Announcements Pictur…",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "1137.62px",
+              "height": "104px",
+              "maxWidth": "none",
+              "margin": "64px 0px 0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgba(0, 0, 0, 0.4)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "24px",
+              "fontWeight": "400",
+              "lineHeight": "36px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "right",
+              "borderRadius": "0px",
+              "border": "0px none rgba(0, 0, 0, 0.4)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".story-category": [
+          {
+            "index": 0,
+            "of": 7,
+            "rect": {
+              "x": 245,
+              "y": 1114,
+              "w": 68,
+              "h": 36
+            },
+            "visible": true,
+            "text": "All",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "68px",
+              "height": "36px",
+              "maxWidth": "none",
+              "margin": "8px 3.2px",
+              "padding": "0px 8px 0px 36px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "linear-gradient(45deg, rgba(0, 0, 0, 0) 26px, rgba(0, 119, 192, 0.8) 26px)",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "24px",
+              "fontWeight": "400",
+              "lineHeight": "36px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "right",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".stories-container": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 151,
+              "y": 1258,
+              "w": 1138,
+              "h": 587
+            },
+            "visible": true,
+            "text": "Video 5 Nov 2026 — cs0032a Chatting sci…",
+            "props": {
+              "display": "grid",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "1137.62px",
+              "height": "586.594px",
+              "maxWidth": "none",
+              "margin": "48px 0px 0px",
+              "padding": "0px",
+              "gap": "32px",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".story-container": [
+          {
+            "index": 0,
+            "of": 6,
+            "rect": {
+              "x": 151,
+              "y": 1258,
+              "w": 358,
+              "h": 289
+            },
+            "visible": true,
+            "text": "Video 5 Nov 2026 — cs0032a Chatting sci…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "357.875px",
+              "height": "289.297px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".story-img-container": [
+          {
+            "index": 0,
+            "of": 5,
+            "rect": {
+              "x": 151,
+              "y": 1258,
+              "w": 358,
+              "h": 201
+            },
+            "visible": true,
+            "text": "Video",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "357.875px",
+              "height": "201.297px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 119, 190)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 119, 190)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".story-category-stamp": [
+          {
+            "index": 0,
+            "of": 5,
+            "rect": {
+              "x": 431,
+              "y": 1258,
+              "w": 79,
+              "h": 30
+            },
+            "visible": true,
+            "text": "Video",
+            "props": {
+              "display": "block",
+              "position": "absolute",
+              "boxSizing": "border-box",
+              "width": "78.5469px",
+              "height": "30px",
+              "maxWidth": "none",
+              "margin": "0px 0px 32px 64px",
+              "padding": "4px 8px 4px 32px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "linear-gradient(45deg, rgba(0, 0, 0, 0) 22px, rgba(188, 189, 189, 0.8) 22px)",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "250",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".story-description": [
+          {
+            "index": 0,
+            "of": 5,
+            "rect": {
+              "x": 151,
+              "y": 1460,
+              "w": 358,
+              "h": 88
+            },
+            "visible": true,
+            "text": "5 Nov 2026 — cs0032a Chatting science w…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "357.875px",
+              "height": "88px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "8px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 119, 190)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 119, 190)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".story-description .date": [
+          {
+            "index": 0,
+            "of": 5,
+            "rect": {
+              "x": 159,
+              "y": 1468,
+              "w": 342,
+              "h": 24
+            },
+            "visible": true,
+            "text": "5 Nov 2026 — cs0032a",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "341.875px",
+              "height": "24px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 129, 201)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 129, 201)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".story-description .title": [
+          {
+            "index": 0,
+            "of": 5,
+            "rect": {
+              "x": 159,
+              "y": 1492,
+              "w": 342,
+              "h": 48
+            },
+            "visible": true,
+            "text": "Chatting science with the world's large…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "341.875px",
+              "height": "48px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(51, 51, 51)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(51, 51, 51)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".story-more-container": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 931,
+              "y": 1580,
+              "w": 358,
+              "h": 195
+            },
+            "visible": true,
+            "text": "More...",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "357.875px",
+              "height": "195px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".story-more": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 1046,
+              "y": 1647,
+              "w": 128,
+              "h": 60
+            },
+            "visible": true,
+            "text": "More...",
+            "props": {
+              "display": "block",
+              "position": "absolute",
+              "boxSizing": "border-box",
+              "width": "128.484px",
+              "height": "60px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgba(0, 0, 0, 0.2)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "40px",
+              "fontWeight": "700",
+              "lineHeight": "60px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgba(0, 0, 0, 0.2)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".bar-medium-dark": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 0,
+              "y": 1917,
+              "w": 1440,
+              "h": 94
+            },
+            "visible": true,
+            "text": "fullscreen Videos Sort by DATE | RANKIN…",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "94px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "16px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(32, 32, 32)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".visuals-dashboard": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 0,
+              "y": 1933,
+              "w": 1440,
+              "h": 62
+            },
+            "visible": true,
+            "text": "fullscreen Videos Sort by DATE | RANKIN…",
+            "props": {
+              "display": "grid",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "62px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".visuals-dashboard > .position-absolute": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 72,
+              "y": 1937,
+              "w": 49,
+              "h": 55
+            },
+            "visible": true,
+            "text": "fullscreen",
+            "props": {
+              "display": "block",
+              "position": "absolute",
+              "boxSizing": "border-box",
+              "width": "48.5px",
+              "height": "55px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".visuals-fullscreen": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 72,
+              "y": 1937,
+              "w": 49,
+              "h": 49
+            },
+            "visible": true,
+            "text": "fullscreen",
+            "props": {
+              "display": "inline-block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "48.5px",
+              "height": "48.5px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(130, 110, 85)",
+              "fontFamily": "\"Material Icons\"",
+              "fontSize": "48.5px",
+              "fontWeight": "400",
+              "lineHeight": "48.5px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(130, 110, 85)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".media-type": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 562,
+              "y": 1933,
+              "w": 317,
+              "h": 62
+            },
+            "visible": true,
+            "text": "Videos",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "316.797px",
+              "height": "62px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "4px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "36px",
+              "fontWeight": "400",
+              "lineHeight": "54px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".visuals-dashboard > .row": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 863,
+              "y": 1933,
+              "w": 592,
+              "h": 62
+            },
+            "visible": true,
+            "text": "Sort by DATE | RANKING search",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "591.594px",
+              "height": "62px",
+              "maxWidth": "none",
+              "margin": "0px -15px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".media-ranking": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 863,
+              "y": 1947,
+              "w": 296,
+              "h": 34
+            },
+            "visible": true,
+            "text": "Sort by DATE | RANKING",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "295.797px",
+              "height": "33.6875px",
+              "maxWidth": "50%",
+              "margin": "0px",
+              "padding": "4px 15px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "17.12px",
+              "fontWeight": "400",
+              "lineHeight": "25.68px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".media-ranking a": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 977,
+              "y": 1953,
+              "w": 40,
+              "h": 21
+            },
+            "visible": true,
+            "text": "DATE",
+            "props": {
+              "display": "inline",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 140, 0)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "17.12px",
+              "fontWeight": "400",
+              "lineHeight": "25.68px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 140, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#videoSearchform": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 1183,
+              "y": 1945,
+              "w": 248,
+              "h": 38
+            },
+            "visible": true,
+            "text": "search",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "248px",
+              "height": "38px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#video-searchstr": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 1183,
+              "y": 1945,
+              "w": 207,
+              "h": 38
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "207px",
+              "height": "38px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "6px 12px",
+              "gap": "normal",
+              "backgroundColor": "rgb(255, 255, 255)",
+              "backgroundImage": "none",
+              "color": "rgb(73, 80, 87)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "4px 0px 0px 4px",
+              "border": "1px solid rgb(206, 212, 218)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        "#videoSearchform .btn": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 1389,
+              "y": 1945,
+              "w": 42,
+              "h": 38
+            },
+            "visible": true,
+            "text": "search",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "42px",
+              "height": "38px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "6px 12px",
+              "gap": "normal",
+              "backgroundColor": "rgb(248, 249, 250)",
+              "backgroundImage": "none",
+              "color": "rgb(33, 37, 41)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px 4px 4px 0px",
+              "border": "1px solid rgb(248, 249, 250)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".swiper-container-video": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 2011,
+              "w": 1440,
+              "h": 270
+            },
+            "visible": true,
+            "text": "Chatting science with the world's large…",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "270px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(32, 32, 32)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".carouselVideoItem": [
+          {
+            "index": 0,
+            "of": 6,
+            "rect": {
+              "x": 0,
+              "y": 2011,
+              "w": 480,
+              "h": 270
+            },
+            "visible": true,
+            "text": "Chatting science with the world's large…",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "480px",
+              "height": "270px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".carouselVideoItem .row": [
+          {
+            "index": 0,
+            "of": 6,
+            "rect": {
+              "x": 0,
+              "y": 2011,
+              "w": 480,
+              "h": 270
+            },
+            "visible": true,
+            "text": "Chatting science with the world's large…",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "480px",
+              "height": "270px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".swiper-button-next-video": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 1403,
+              "y": 2124,
+              "w": 27,
+              "h": 44
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "flex",
+              "position": "absolute",
+              "boxSizing": "border-box",
+              "width": "27px",
+              "height": "44px",
+              "maxWidth": "none",
+              "margin": "-22px 0px 0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 122, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 122, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".swiper-button-prev-video": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 10,
+              "y": 2124,
+              "w": 27,
+              "h": 44
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "flex",
+              "position": "absolute",
+              "boxSizing": "border-box",
+              "width": "27px",
+              "height": "44px",
+              "maxWidth": "none",
+              "margin": "-22px 0px 0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 122, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 122, 255)",
+              "boxShadow": "none",
+              "opacity": "0.35",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".img-thumb-hover": [
+          {
+            "index": 0,
+            "of": 12,
+            "rect": {
+              "x": 0,
+              "y": 1984,
+              "w": 480,
+              "h": 270
+            },
+            "visible": true,
+            "text": "Chatting science with the world's large…",
+            "props": {
+              "display": "flex",
+              "position": "absolute",
+              "boxSizing": "border-box",
+              "width": "480px",
+              "height": "270px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "0",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".visuals-hover-title": [
+          {
+            "index": 0,
+            "of": 24,
+            "rect": {
+              "x": 0,
+              "y": 2000,
+              "w": 480,
+              "h": 87
+            },
+            "visible": true,
+            "text": "Chatting science with the world's large…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "480px",
+              "height": "87px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "29px",
+              "fontWeight": "400",
+              "lineHeight": "43.5px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".swiper-container-media": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 2407,
+              "w": 1440,
+              "h": 270
+            },
+            "visible": true,
+            "text": "Tilting the ELT upwards Inclining the E…",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "270px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(32, 32, 32)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".img-carousel": [
+          {
+            "index": 0,
+            "of": 6,
+            "rect": {
+              "x": 0,
+              "y": 2407,
+              "w": 480,
+              "h": 270
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "480px",
+              "height": "270px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "cover"
+            },
+            "img": {
+              "naturalWidth": 1024,
+              "naturalHeight": 768,
+              "currentSrc": "https://cdn.eso.org/images/wallpaper1/potw2643a.jpg"
+            }
+          }
+        ],
+        ".container-light.page-section": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 2677,
+              "w": 1440,
+              "h": 2861
+            },
+            "visible": true,
+            "text": "Media information and contacts ELT news…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "2861.38px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "32px 0px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(232, 232, 232)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".page-section h2": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 151,
+              "y": 2821,
+              "w": 1138,
+              "h": 33
+            },
+            "visible": true,
+            "text": "ELT news",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "1137.62px",
+              "height": "33px",
+              "maxWidth": "none",
+              "margin": "0px 0px 8px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "19.5px",
+              "fontWeight": "700",
+              "lineHeight": "33px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".page-section .section-text-paragraph img": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 436,
+              "y": 3016,
+              "w": 569,
+              "h": 804
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "568.812px",
+              "height": "804.328px",
+              "maxWidth": "none",
+              "margin": "0px 284.406px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 119, 190)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "19.5px",
+              "fontWeight": "400",
+              "lineHeight": "33px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 119, 190)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            },
+            "img": {
+              "naturalWidth": 1280,
+              "naturalHeight": 1810,
+              "currentSrc": "https://www.eso.org/public/archives/brochures/screen/brochure_0079.jpg"
+            }
+          }
+        ],
+        ".m-0.container-paragraph": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 4568,
+              "w": 1440,
+              "h": 424
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "423.922px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px 151.188px 14.4px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".m-0.container-paragraph img": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 379,
+              "y": 4568,
+              "w": 683,
+              "h": 410
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "682.562px",
+              "height": "409.531px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 119, 190)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 119, 190)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            },
+            "img": {
+              "naturalWidth": 1280,
+              "naturalHeight": 768,
+              "currentSrc": "https://cdn.eso.org/images/screen/map-v4.jpg"
+            }
+          }
+        ],
+        ".container-footer": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 5539,
+              "w": 1440,
+              "h": 54
+            },
+            "visible": true,
+            "text": "ESO | ELT © 2026 Credits | Contact us |…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "54.0781px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "16px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(32, 32, 32)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "\"Helvetica Neue LT ESO\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

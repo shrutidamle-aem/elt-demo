@@ -1,0 +1,6 @@
+{
+  "index": {
+    "masks": ["1570:720"],
+    "reason": "science carousel (.swiper-container-science) auto-advances every 5 s (observed live, implemented per motion inventory); slide at capture time is timer phase, not layout — archetype gate measured it frozen on slide 1 at 0.14% (captureState restoreAtDelivery)"
+  }
+}

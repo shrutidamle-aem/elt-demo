@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- stardust:migrate
+  writtenBy:        stardust:migrate
+  writtenAt:        2026-11-13T20:20:29Z
+  page:             M1 Mirror | ELT | ESO
+  slug:             mirror-m1
+  pagePath:         migrated/mirror/M1/index.html
+  renderBranch:     A'
+  template:         telescope-dome
+  archetypePath:    stardust/prototypes/telescope-dome-proposed.html
+  archetypeSha:     c42b9f92bef0
+  sourceCurrent:    stardust/current/pages/mirror-m1.json
+  againstDirection: stardust/direction.md (Active)
+  designMd:         DESIGN.md (sha: bcd81ac1bff9)
+  designJson:       DESIGN.json (sha: 1687cec3d675)
+  canonShas:        header:null footer:df97728fd0f7 css:7a5011377ec8
+  decisionTrace:    _meta.json
+  brokenInternalLinks: 17
+  stardustVersion:  local
+-->
+<style>
+:root {
+  --font-brand: "Helvetica Neue LT ESO", "Helvetica Neue", Helvetica, Arial, sans-serif; /* L15662 */
+  --esoblue: rgb(0, 119, 190);            /* L15617 */
+  --orange: rgb(232, 133, 38);
+  --headerblue: rgb(45, 164, 245);
+  --ink-black: #000;
+  --nav-gradient: linear-gradient(rgb(40, 39, 49), rgb(16, 17, 19)); /* .navbar L16313 */
+  --nav-link: rgba(255, 255, 255, 0.7);   /* L20043 */
+  --nav-link-hover: rgba(255, 255, 255, 0.9);
+  --nav-hover-bg: #232932;                /* L19971 */
+  --nav-accent: #ef3c3c;                  /* active / hover rule */
+  --menu-bg: #343a40;                     /* .bg-dark */
+  --menu-border: rgba(0, 0, 0, 0.15);
+  --light-bg: rgb(232, 232, 232);         /* .container-light, .medium-light */
+  --footer-bg: #202020;                   /* .container-footer */
+  --topbar-h: 50px;                       /* body padding-top, .mysticky top */
+}
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Dome | ELT | ESO","description":"The Extremely Large Telescope: The World&#x27;s Biggest Eye On The Sky","url":"https://elt.eso.org/mirror/M1/"}</script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dome | ELT | ESO</title>
+  <meta name="description" content="The Extremely Large Telescope: The World&#x27;s Biggest Eye On The Sky">
+  <link rel="icon" href="../../assets/media/favicon.ico">
+  <link rel="stylesheet" href="../../assets/canon.css">
+  <link rel="stylesheet" href="../../assets/telescope-dome.css">
+  <script src="../../assets/canon.js" defer></script>
+
+</head>
+<body class="page-program">
+  <nav id="top-navbar" class="navbar" aria-label="ESO and site navigation">
+    <span class="navbar-brand navbar-brand--main">
+      <div class="brand-logo"><a href="https://www.eso.org/" target="_blank" rel="noopener noreferrer"><img class="navbar-eso-logo" src="../../assets/media/eso_logo.jpg" alt="" width="100" height="130"></a></div>
+      <div class="brand-flags">
+        <ul id="navbar-flags">
+          <li><span class="flag flag-at"></span></li>
+          <li><span class="flag flag-be"></span></li>
+          <li><span class="flag flag-cl"></span></li>
+          <li><span class="flag flag-cz"></span></li>
+          <li><span class="flag flag-da"></span></li>
+          <li><span class="flag flag-fi"></span></li>
+          <li><span class="flag flag-fr"></span></li>
+          <li><span class="flag flag-de"></span></li>
+          <li><span class="flag flag-ie"></span></li>
+          <li><span class="flag flag-it"></span></li>
+          <li><span class="flag flag-nl"></span></li>
+          <li><span class="flag flag-pl"></span></li>
+          <li><span class="flag flag-pt"></span></li>
+          <li><span class="flag flag-es"></span></li>
+          <li><span class="flag flag-sv"></span></li>
+          <li><span class="flag flag-ch"></span></li>
+          <li><span class="flag flag-gb"></span></li>
+          <li class="language-menu">
+            <div class="choose-language-message"> Choose your language &nbsp;<i class="fa-arrow-down" aria-hidden="true"></i></div>
+            <div class="language-options">
+              <a href="../../index.html?lang"><span class="flag flag-gb">&nbsp;</span> English </a>
+              <a href="https://elt.eso.org/chile/?lang" data-broken-link="true"><span class="flag flag-cl">&nbsp;</span> Español </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </span>
+    <div class="navbar-brand brand-social">
+      <div class="desktop-top-sm-icons">
+        <a href="https://facebook.com/ESOAstronomy" title="ESO on Facebook" target="_blank" rel="noopener noreferrer"><img src="../../assets/media/icon_topbar_mobile_1.png" alt="ESO on Facebook" width="35" height="35"></a>
+        <a href="https://www.instagram.com/esoastronomy/" title="ESO on Instagram" target="_blank" rel="noopener noreferrer"><img src="../../assets/media/icon_topbar_mobile_3.png" alt="ESO on Instagram" width="35" height="35"></a>
+        <a href="https://www.linkedin.com/company/european-southern-observatory" title="ESO on LinkedIn" target="_blank" rel="noopener noreferrer"><img src="../../assets/media/icon_topbar_mobile_4.png" alt="ESO on LinkedIn" width="35" height="35"></a>
+        <a href="https://www.youtube.com/channel/UCIhYoC2VIAJqCkoIWNHBQ3Q" title="ESO on YouTube" target="_blank" rel="noopener noreferrer"><img src="../../assets/media/icon_topbar_mobile_5.png" alt="ESO on YouTube" width="35" height="35"></a>
+      </div>
+    </div>
+    <span class="lang-links"><a href="../../index.html?lang" class="lang-link">en</a> | <a href="../../index.html?lang" class="lang-link">es</a></span>
+    <button class="navbar-toggler" type="button" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+    <div class="navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item menu-item mobile-only">
+          <a class="nav-link" href="../../index.html">ELT HOME</a>
+        </li>
+        <li class="nav-item menu-item mobile-only dropdown-menu-top dropup">
+          <a class="nav-link" href="https://elt.eso.org/about/" data-broken-link="true">ABOUT</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="https://elt.eso.org/about/" data-broken-link="true">About the ELT</a>
+            <a class="dropdown-item" href="../../about/timeline/index.html">Timeline</a>
+            <a class="dropdown-item" href="../../about/location/index.html">Location</a>
+            <a class="dropdown-item" href="../../about/webcams/index.html">Webcams</a>
+            <a class="dropdown-item" href="../../about/facts/index.html">Facts</a>
+            <a class="dropdown-item" href="../../about/road/index.html">Road to the ELT</a>
+            <a class="dropdown-item" href="../../about/team/index.html">Meet the Team</a>
+            <a class="dropdown-item" href="../../about/workinggroups/index.html">Working Groups</a>
+            <a class="dropdown-item" href="../../about/industrial/index.html">Industrial and Institutional Partners</a>
+            <a class="dropdown-item" href="../../about/faq/index.html">FAQ</a>
+          </div>
+        </li>
+        <li class="nav-item menu-item mobile-only dropdown-menu-top dropup active">
+          <a class="nav-link" href="../../telescope/index.html">TELESCOPE</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="../../telescope/index.html">Telescope Overview</a>
+            <a class="dropdown-item active" href="../../telescope/dome/index.html" aria-current="page">Dome</a>
+            <a class="dropdown-item" href="../../telescope/structure/index.html">Main Structure</a>
+            <div class="dropdown-submenu">
+              <a class="dropdown-item" href="https://elt.eso.org/mirror/" data-broken-link="true">Mirrors</a>
+              <div class="dropdown-menu bottom-aligned">
+                <a class="dropdown-item" href="https://elt.eso.org/mirror/" data-broken-link="true">Mirrors Overview</a>
+                <a class="dropdown-item" href="../../mirror/M1/index.html">M1</a>
+                <a class="dropdown-item" href="../../mirror/M2M3/index.html">M2M3</a>
+                <a class="dropdown-item" href="../../mirror/M4/index.html">M4</a>
+                <a class="dropdown-item" href="../../mirror/M5/index.html">M5</a>
+              </div>
+            </div>
+            <a class="dropdown-item" href="../../telescope/adaptiveoptics/index.html">Adaptive Optics</a>
+            <a class="dropdown-item" href="../../telescope/prefocal/index.html">Prefocal Station</a>
+            <a class="dropdown-item" href="../../telescope/controls/index.html">Controls</a>
+            <a class="dropdown-item" href="../../telescope/operations/index.html">Operations</a>
+          </div>
+        </li>
+        <li class="nav-item menu-item mobile-only dropdown-menu-top dropup">
+          <a class="nav-link" href="https://elt.eso.org/instrument/" data-broken-link="true">INSTRUMENTS</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="https://elt.eso.org/instrument/" data-broken-link="true">Instruments Overview</a>
+            <a class="dropdown-item" href="../../instrument/HARMONI/index.html">HARMONI</a>
+            <a class="dropdown-item" href="../../instrument/MICADO/index.html">MICADO</a>
+            <a class="dropdown-item" href="../../instrument/MORFEO/index.html">MORFEO</a>
+            <a class="dropdown-item" href="../../instrument/METIS/index.html">METIS</a>
+            <a class="dropdown-item" href="../../instrument/ANDES/index.html">ANDES</a>
+            <a class="dropdown-item" href="../../instrument/MOSAIC/index.html">MOSAIC</a>
+          </div>
+        </li>
+        <li class="nav-item menu-item mobile-only dropdown-menu-top dropup">
+          <a class="nav-link" href="https://elt.eso.org/science/" data-broken-link="true">SCIENCE</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="https://elt.eso.org/science/" data-broken-link="true">Science Overview</a>
+            <a class="dropdown-item" href="../../science/solarsystem/index.html">Solar System</a>
+            <a class="dropdown-item" href="../../science/exoplanets/index.html">Exoplanets</a>
+            <a class="dropdown-item" href="../../science/stars/index.html">Stars</a>
+            <a class="dropdown-item" href="../../science/blackholes/index.html">Black Holes</a>
+            <a class="dropdown-item" href="../../science/galaxies/index.html">Galaxies</a>
+            <a class="dropdown-item" href="../../science/cosmodm/index.html">Cosmology and Dark Matter</a>
+            <a class="dropdown-item" href="../../science/fundamentalphysics/index.html">Fundamental Physics</a>
+            <a class="dropdown-item" href="../../science/discoveries/index.html">Unexpected Discoveries</a>
+          </div>
+        </li>
+        <li class="nav-item menu-item mobile-only">
+          <a class="nav-link" href="../../media/index.html">NEWS &amp; MULTIMEDIA</a>
+        </li>
+        <li class="nav-item menu-item mobile-only">
+          <a class="nav-link" href="../../success/buildingon/index.html">SUCCESS STORIES</a>
+        </li>
+        <li class="social-desktop desktop-top-sm-icons">
+          <a href="https://facebook.com/ESOAstronomy" title="ESO on Facebook" target="_blank" rel="noopener noreferrer"><img src="../../assets/media/icon_topbar_mobile_1.png" alt="ESO on Facebook" width="35" height="35"></a>
+          <a href="https://www.instagram.com/esoastronomy/" title="ESO on Instagram" target="_blank" rel="noopener noreferrer"><img src="../../assets/media/icon_topbar_mobile_3.png" alt="ESO on Instagram" width="35" height="35"></a>
+          <a href="https://www.linkedin.com/company/european-southern-observatory" title="ESO on LinkedIn" target="_blank" rel="noopener noreferrer"><img src="../../assets/media/icon_topbar_mobile_4.png" alt="ESO on LinkedIn" width="35" height="35"></a>
+          <a href="https://www.youtube.com/channel/UCIhYoC2VIAJqCkoIWNHBQ3Q" title="ESO on YouTube" target="_blank" rel="noopener noreferrer"><img src="../../assets/media/icon_topbar_mobile_5.png" alt="ESO on YouTube" width="35" height="35"></a>
+        </li>
+        <li id="nav-search" class="nav-item menu-item dropdown dropdown-menu-top-top">
+          <a class="nav-link" href="#"><i class="material-icons">search</i></a>
+          <div class="dropdown-menu">
+            <div class="dropdown-item">
+              <form class="search-form" action="/public/eltsearch/" method="get"><input type="search" placeholder="Search..." name="q" aria-label="Search"><button type="submit">Search</button></form>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <img class="big-header-image" src="https://cdn.eso.org/images/banner1920/header-dome.jpg" alt="" width="1920" height="900">
+  <main class="elt-program" data-template="telescope-dome">
+    <div id="big-header" class="big-header-text" data-section="1">
+      <div class="big-header-logos">
+        <img class="big-header-eso-logo" src="../../assets/media/eso_logo_transparent.png" alt="" width="981" height="1279">
+        <p class="esologo-text">European<br>Southern<br>Observatory</p>
+      </div>
+      <div class="big-header-title"> Telescope </div>
+    </div>
+
+    <nav id="main-navbar" class="navbar mysticky" aria-label="Main" data-section="2">
+      <button class="navbar-toggler" type="button" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      <div class="navbar-collapse">
+        <ul class="navbar-nav">
+          <li class="nav-item menu-item">
+            <a class="nav-link" href="../../index.html">ELT HOME</a>
+          </li>
+          <li class="nav-item menu-item dropdown-menu-top dropup">
+            <a class="nav-link" href="https://elt.eso.org/about/" data-broken-link="true">ABOUT</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="https://elt.eso.org/about/" data-broken-link="true">About the ELT</a>
+              <a class="dropdown-item" href="../../about/timeline/index.html">Timeline</a>
+              <a class="dropdown-item" href="../../about/location/index.html">Location</a>
+              <a class="dropdown-item" href="../../about/webcams/index.html">Webcams</a>
+              <a class="dropdown-item" href="../../about/facts/index.html">Facts</a>
+              <a class="dropdown-item" href="../../about/road/index.html">Road to the ELT</a>
+              <a class="dropdown-item" href="../../about/team/index.html">Meet the Team</a>
+              <a class="dropdown-item" href="../../about/workinggroups/index.html">Working Groups</a>
+              <a class="dropdown-item" href="../../about/industrial/index.html">Industrial and Institutional Partners</a>
+              <a class="dropdown-item" href="../../about/faq/index.html">FAQ</a>
+            </div>
+          </li>
+          <li class="nav-item menu-item dropdown-menu-top dropup active">
+            <a class="nav-link" href="../../telescope/index.html">TELESCOPE</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="../../telescope/index.html">Telescope Overview</a>
+              <a class="dropdown-item active" href="../../telescope/dome/index.html" aria-current="page">Dome</a>
+              <a class="dropdown-item" href="../../telescope/structure/index.html">Main Structure</a>
+              <div class="dropdown-submenu">
+                <a class="dropdown-item" href="https://elt.eso.org/mirror/" data-broken-link="true">Mirrors</a>
+                <div class="dropdown-menu bottom-aligned">
+                  <a class="dropdown-item" href="https://elt.eso.org/mirror/" data-broken-link="true">Mirrors Overview</a>
+                  <a class="dropdown-item" href="../../mirror/M1/index.html">M1</a>
+                  <a class="dropdown-item" href="../../mirror/M2M3/index.html">M2M3</a>
+                  <a class="dropdown-item" href="../../mirror/M4/index.html">M4</a>
+                  <a class="dropdown-item" href="../../mirror/M5/index.html">M5</a>
+                </div>
+              </div>
+              <a class="dropdown-item" href="../../telescope/adaptiveoptics/index.html">Adaptive Optics</a>
+              <a class="dropdown-item" href="../../telescope/prefocal/index.html">Prefocal Station</a>
+              <a class="dropdown-item" href="../../telescope/controls/index.html">Controls</a>
+              <a class="dropdown-item" href="../../telescope/operations/index.html">Operations</a>
+            </div>
+          </li>
+          <li class="nav-item menu-item dropdown-menu-top dropup">
+            <a class="nav-link" href="https://elt.eso.org/instrument/" data-broken-link="true">INSTRUMENTS</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="https://elt.eso.org/instrument/" data-broken-link="true">Instruments Overview</a>
+              <a class="dropdown-item" href="../../instrument/HARMONI/index.html">HARMONI</a>
+              <a class="dropdown-item" href="../../instrument/MICADO/index.html">MICADO</a>
+              <a class="dropdown-item" href="../../instrument/MORFEO/index.html">MORFEO</a>
+              <a class="dropdown-item" href="../../instrument/METIS/index.html">METIS</a>
+              <a class="dropdown-item" href="../../instrument/ANDES/index.html">ANDES</a>
+              <a class="dropdown-item" href="../../instrument/MOSAIC/index.html">MOSAIC</a>
+            </div>
+          </li>
+          <li class="nav-item menu-item dropdown-menu-top dropup">
+            <a class="nav-link" href="https://elt.eso.org/science/" data-broken-link="true">SCIENCE</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="https://elt.eso.org/science/" data-broken-link="true">Science Overview</a>
+              <a class="dropdown-item" href="../../science/solarsystem/index.html">Solar System</a>
+              <a class="dropdown-item" href="../../science/exoplanets/index.html">Exoplanets</a>
+              <a class="dropdown-item" href="../../science/stars/index.html">Stars</a>
+              <a class="dropdown-item" href="../../science/blackholes/index.html">Black Holes</a>
+              <a class="dropdown-item" href="../../science/galaxies/index.html">Galaxies</a>
+              <a class="dropdown-item" href="../../science/cosmodm/index.html">Cosmology and Dark Matter</a>
+              <a class="dropdown-item" href="../../science/fundamentalphysics/index.html">Fundamental Physics</a>
+              <a class="dropdown-item" href="../../science/discoveries/index.html">Unexpected Discoveries</a>
+            </div>
+          </li>
+          <li class="nav-item menu-item">
+            <a class="nav-link" href="../../media/index.html">NEWS &amp; MULTIMEDIA</a>
+          </li>
+          <li class="nav-item menu-item">
+            <a class="nav-link" href="../../success/buildingon/index.html">SUCCESS STORIES</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid container-dark container-tight position-relative" data-section="3">
+        <img class="d-block h-100 w-100" src="https://cdn.eso.org/images/banner1920/subheader-mirrors-m1.jpg">
+        <div class="position-absolute science-header-textblock">
+            <div class="d-flex flex-column justify-content-around h-100">
+                <div class="header-title">M1 Mirror</div>
+                <div class="d-none d-xl-block header-subtitle"><p>The giant primary mirror</p></div>
+                <div class="d-none d-xxl-block header-description">
+                    <p>The 39-metre-diameter primary mirror, which will be made up of hundreds of individual hexagonal segments, will be by far the largest ever made for an optical telescope. Together, the segments will collect tens of millions of times as much light as the human eye. </p>
+                </div>
+                <div class="d-none d-sm-block header-quick-links">
+                    <div>Quick Links:</div>
+                    <div class="instrument-link-color">
+                        
+                        <a class="instrument-link-color instrument-link" href="#mirrors-m1-technical">The M1 technical concept</a>
+                        
+                         | <a class="instrument-link-color instrument-link" href="#mirrors-m1-segments">The M1 segments</a>
+                        
+                         | <a class="instrument-link-color instrument-link" href="#mirrors-m1-making">Making the M1 mirror</a>
+                        
+                         | <a class="instrument-link-color instrument-link" href="#mirrors-m1-life">The life of the M1 mirror</a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="container-fluid container-light page-section" data-section="4">
+        
+                <div class="container-paragraph section-title-paragraph d-flex align-items-center justify-content-between">
+            <div class="">In a nutshell</div>
+            <div class="d-flex">
+                <a class="share-social-media-link share-social-media-icons" href="https://www.facebook.com/sharer/sharer.php?u=https://elt.eso.org/mirror/M1/" title="Share on Facebook" target="_blank" rel="noopener noreferrer">
+                    <img src="/public/archives/djp/elt-assets/img/social-media/icon_share_1.png" alt="Share on Facebook">
+                </a>
+                <span class="position-relative d-flex" style="" title="Share on Social Media">
+                    <span class="share-social-media share-social-media-icons">
+                    <img class="share-social-media" src="/public/archives/djp/elt-assets/img/social-media/icon_share_3.png" alt"share="" on="" social="" media"="">
+                    </span>
+                    <div class="position-absolute share-social-media-dropdown">
+                        <div class="share-social-media-dropdown-icons">
+                        <a class="share-social-media-link" href="https://www.facebook.com/sharer/sharer.php?u=https://elt.eso.org/mirror/M1/" title="Share on Facebook" target="_blank" rel="noopener noreferrer">
+                            <img src="/public/archives/djp/elt-assets/img/social-media/icon_share_1.png" alt="Share on Facebook">
+                            <span class="share-social-media-dropdown-text">Share on Facebook</span>
+                        </a>
+                        <a class="share-social-media-link share-email" href="#" title="E-Mail">
+                            <img src="/public/archives/djp/elt-assets/img/social-media/icon_share_5.png" alt="E-Mail">
+                            <span class="share-social-media-dropdown-text">E-Mail</span>
+                        </a>
+                        <a href="#" class="share-social-media-link clipboard" title="Copy Link">
+                            <img src="/public/archives/djp/elt-assets/img/social-media/icon_share_6.png" alt="Copy link">
+                            <span class="share-social-media-dropdown-text">Copy Link</span>
+                        </a>
+                        <a class="share-social-media-link" href="https://www.linkedin.com/sharing/share-offsite/?url=https://elt.eso.org/mirror/M1/" title="Share on LinkedIn" target="_blank" rel="noopener noreferrer">
+                            <img src="/public/archives/djp/elt-assets/img/social-media/icon_share_4.png" alt="Share on LinkedIn">
+                            <span class="share-social-media-dropdown-text">Share on LinkedIn</span>
+                        </a>
+                        </div>
+                    </div>
+                </span>
+            </div>
+        </div>
+
+        <div class="container-subtitle d-none d-xl-block d-xxl-none section-subtitle-paragraph-aftertitle"><p>The 39-metre-diameter primary mirror, which will be made up of hundreds of individual hexagonal segments, will be by far the largest ever made for an optical telescope. Together, the segments will collect tens of millions of times as much light as the human eye. </p></div>
+        <div class="container-subtitle d-block d-xl-none section-subtitle-paragraph-aftertitle"><p>The giant primary mirror</p></div>
+        <div class="container-paragraph d-block d-xl-none section-text-paragraph"><p>The 39-metre-diameter primary mirror, which will be made up of hundreds of individual hexagonal segments, will be by far the largest ever made for an optical telescope. Together, the segments will collect tens of millions of times as much light as the human eye. </p></div>
+        
+            
+            
+<div class="container-paragraph section-text-paragraph">
+    <p>M1, the ELT’s primary mirror, is the centrepiece of the revolutionary astronomy machine currently under construction in Chile's Atacama Desert. It is the surface that will gather light from cosmic objects, opening up new discovery spaces — from exoplanets close to their stars, to black holes, to the building blocks of galaxies — both in the local Universe and billions of light years away.&nbsp;&nbsp;</p>
+<p>The M1 is, without a doubt, one of the most impressive and challenging aspects of the entire ELT project. Too large to be made from a single piece of glass, the 39-metre-diameter mirror will consist of 798 segments, each about 5 centimetres thick, measuring close to 1.5 metres across and weighing 250 kg, including its support. Since the segments have to work together as a single mirror, they require specific infrastructure and control schemes. This is extremely challenging, as the full structure will be moving constantly during an observation and will be affected by wind and thermal changes. To achieve the required scientific performance, the mirror needs to be maintained in position and in shape to an accuracy of tens of nanometres — 10000 times thinner than a human hair — across its entire 39-metre diameter!&nbsp;&nbsp;</p>
+<p>M1 segments begin their life at SCHOTT in Germany as blanks made of Zerodur<sup>©</sup>, a glass-ceramic material that has very low thermal expansion. After the casting and machining of the blanks to their approximate shape at SCHOTT, the segments are delivered to Safran Reosc, in France, who are responsible for shaping the segments and mounting them on their support systems, as well as for polishing and testing. VDL ETG Projects B.V. in the Netherlands is responsible for the production and testing of the segment supports; they were custom-designed and prototyped by TNO, also a Dutch company, and act as the backbone of the mirror.</p>
+<p>Please check the <a href="../../media/index.html">News &amp; Multimedia section</a> for recent news, images and videos on the M1 mirror.</p>
+</div>
+
+        
+            
+            
+<div class="m-0 " style="padding-bottom: 1vw;">
+        <div class="row w-100 m-0">
+            <div class="col-lg-12 p-0 position-relative d-flex align-items-center order-lg-1 order-1">
+                <a href="https://www.eso.org/public/images/M1-2-cc/" target="_blank" class="d-flex align-items-center justify-content-center w-100" rel="noopener noreferrer">
+                    <img class="" style="width: 100%; " src="https://cdn.eso.org/images/original/mirrors-m1-banner1.jpg">
+                    
+                </a>
+
+                
+
+            </div>
+
+        </div>
+</div>
+
+
+
+        
+    </div>
+<div id="mirrors-m1-technical_" class="container-fluid container-light page-section" data-section="5">
+        
+        
+        <div class="container-paragraph section-title-paragraph">The M1 technical concept</div>
+        
+        
+            
+            
+<div class="container-paragraph section-text-paragraph">
+    <p>One of the most spectacular technological marvels of ESO’s ELT is its primary mirror. The concave mirror, 39 metres in diameter and with a 68.7 metres radius of curvature, is composed of hundreds of off-axis aspherical segments, 1.45 metres across. The gap between the segments is 4 mm.&nbsp;</p>
+<p>The full M1 has a six-fold symmetry; there are six identical sectors of 133 segments each. In each sector all 133 segments are different from each other in shape and optical prescription; in other words, there are 133 different segment types. To facilitate recoating there will be a seventh sector with 133 segments, i.e., one for each segment type. Having seven segments per family allows segment exchange while the telescope is off-line: a segment taken out of the telescope for recoating can immediately be replaced by another of the same family, which has been prepared beforehand. Taking the seven sectors together, the ELT will have a grand total of 931 segments, 798 of which will be on the telescope at any given time.</p>
+</div>
+
+
+    
+
+
+
+
+
+        
+            
+            
+<div class="m-0 " style="padding-bottom: 1vw;">
+        <div class="row w-100 m-0">
+            <div class="col-lg-12 p-0 position-relative d-flex align-items-center order-lg-1 order-1">
+                <a href="https://www.eso.org/public/images/mirrors-m1-banner2/" target="_blank" class="d-flex align-items-center justify-content-center w-100" rel="noopener noreferrer">
+                    <img class="" style="width: 100%; " src="https://cdn.eso.org/images/original/mirrors-m1-banner2.jpg">
+                    
+                </a>
+
+                
+
+            </div>
+
+        </div>
+</div>
+
+
+
+
+    
+
+
+
+
+
+        
+            
+            
+<div class="container-paragraph section-text-paragraph">
+    <p>There are various ways in which M1 can be actively controlled. Each segment is supported on a 27-point whiffletree, which is a mechanism to evenly distribute the support across the back of the segment using 27 points of contact across its surface. The load on the whiffletree can be adjusted via warping harnesses so as to slightly change the shape of the mirror to compensate for optical aberrations induced by gravity and thermal effects. Moreover, each segment assembly can be moved in height and tip/tilt relative to the structure by using three positioning actuators (PACTs). These three actuators can move independently with an accuracy of 2 nm with a maximum excursion (or stroke) of 10 mm to adjust its position and maintain the perfect co-alignment of all the segments and effectively create a giant monolithic mirror. To achieve this, each side of each hexagonal segment has two “edge sensors” that constantly measure piston, gap and shear with respect to the adjacent segment to nanometre accuracy and provide the necessary information to the control system to activate the PACTs, allowing the segments to work together to form a perfect imaging system.&nbsp;&nbsp;</p>
+<p>All in all, the M1 is a colossal system, featuring a staggering 798 segments, almost 2500 PACTs and about 9000 edge sensors (4500 pairs), not including the seventh sector and the spares.</p>
+</div>
+
+
+    
+
+
+
+
+
+        
+    </div>
+<div id="mirrors-m1-segments_" class="container-fluid container-light page-section" data-section="6">
+        
+        
+        <div class="container-paragraph section-title-paragraph">The M1 segments</div>
+        
+        
+            
+            
+<div class="container-paragraph section-text-paragraph">
+    <p>Each M1 segment is a polished substrate, machined to its final dimensions, and equipped with interface pads. It consists of:&nbsp;</p>
+<ul>
+<li>27 axial, six lateral, and three azimuthal pads, the mounting interfaces to the segment support,&nbsp;</li>
+<li>Edge/sensor interface pads, the interfaces for installation of edge sensors,&nbsp;</li>
+<li>Fiducials (optional, fiducial pads or machined areas).&nbsp;</li>
+</ul>
+<p>Each M1 segment blank is the segment material substrate. It is delivered circular, plano-concave with a spherical, fine-ground front surface. The blank is provided with the back pocket and the flat-back surface machined and acid etched to their final dimensions and surface conditions. Across the population of M1 segment blanks, the optical surface is machined to three different radii of curvature to minimise material removal during figuring.&nbsp;&nbsp;</p>
+<p>Each segment support includes axial and lateral supports and a clocking restraint, all attached to a moving frame. The axial support is a 27-point isostatic support, made of three 9-point whiffletrees. Each M1 segment assembly comprises a warping harness, made of nine shape actuators, that allows correction of three segment deformation modes: curvature, astigmatism, and trefoil. The actuators modify the axial support forces by applying a torque at the location of the axial support tripod pivots. The warping harness has a micron range stroke and it is a ‘slow’ actuator (1.5s full stroke). The segment support also includes adjustable counterweights to compensate for the 133 segment types shape variation.&nbsp;</p>
+<p>The segment support materials and components are selected to minimise outgassing under vacuum; the entire segment assembly is loaded in vacuum vessels for ion beam figuring (fabrication) and optical surface coating (operational maintenance). On the telescope, the segment assembly will be mounted with a fixed frame that provides local stiffness to the M1 subunit and accurate reference position to the mirror assembly.&nbsp;&nbsp;</p>
+</div>
+
+
+    
+
+
+
+
+
+        
+            
+            
+<div class="m-0 " style="padding-bottom: 1vw;">
+        <div class="row w-100 m-0">
+            <div class="col-lg-12 p-0 position-relative d-flex align-items-center order-lg-1 order-1">
+                <a href="https://www.eso.org/public/images/eso1801a/" target="_blank" class="d-flex align-items-center justify-content-center w-100" rel="noopener noreferrer">
+                    <img class="" style="width: 100%; " src="https://cdn.eso.org/images/original/mirrors-m1-banner3.jpg">
+                    
+                </a>
+
+                
+
+            </div>
+
+        </div>
+</div>
+
+
+
+
+    
+
+
+
+
+
+        
+    </div>
+<div id="mirrors-m1-making_" class="container-fluid container-light page-section" data-section="7">
+        
+        
+        <div class="container-paragraph section-title-paragraph">Making the M1 mirror</div>
+        
+        
+            
+            
+<div class="container-paragraph section-text-paragraph">
+    <p>In a ceremony held in January 2017, a contract was signed for the production of the edge sensors with FAMES, a consortium composed of Fogale (France) and MicroEpsilon (Germany), together with three other ELT procurements (the M2 and M3 Cells with SENER and the blanks for M2 and M3 with SCHOTT). The contract with FAMES covers the design and fabrication of a total of approximately 9000 edge sensors (~ 4500 pairs) for the 798 hexagonal segments of M1. These sensors are the most accurate to ever be used in a telescope and can measure the relative positions of the segments to an accuracy of a few nanometres.</p>
+</div>
+
+
+    
+
+
+
+
+
+        
+            
+            
+<div class="m-0 " style="padding-bottom: 1vw;">
+        <div class="row w-100 m-0">
+            <div class="col-lg-12 p-0 position-relative d-flex align-items-center order-lg-1 order-1">
+                <a href="https://www.eso.org/public/images/mirrors-m1-banner4/" target="_blank" class="d-flex align-items-center justify-content-center w-100" rel="noopener noreferrer">
+                    <img class="" style="width: 100%; " src="https://cdn.eso.org/images/original/mirrors-m1-banner4.jpg">
+                    
+                </a>
+
+                
+
+            </div>
+
+        </div>
+</div>
+
+
+
+
+    
+
+
+
+
+
+        
+            
+            
+<div class="container-paragraph section-text-paragraph">
+    <p>At a joint signature ceremony at the end of May 2017, two important contracts were signed to produce the 798 segments for the M1. The first one was signed with SCHOTT (Germany) for the production of the blanks. The second one was signed with Safran Reosc (France) for the polishing of the blanks and their integration with the segment supports.&nbsp;&nbsp;</p>
+<p>In January 2018, the first six segment blanks were successfully cast by SCHOTT at their facility in Mainz. After casting, the mirror segment blanks go through a process of slow cooling and heat treatment. The blanks are then delivered by SCHOTT to Reosc to figure and polish the segments, cut them into hexagonal shapes, integrate them into their support systems, and perform optical tests before delivery to Chile. During the polishing process, each segment is polished until it has no surface irregularity greater than about 8 nm. To meet the challenge of delivering such a large number of polished segments within seven years, Safran Reosc will build up to a peak production rate of one mirror a day. To meet this demand, Safran Reosc refurbished a facility, in a building that used to store aircraft engines, at their Poitiers plant to mass produce ELT M1 segments.&nbsp;&nbsp;</p>
+<p>In June 2017, ESO also signed a contract with the company Physik Instrumente GmbH &amp; Co. KG (Germany) to manufacture the PACTs, which will continuously adjust the positions of the 798 hexagonal segments of M1 on the telescope structure. Apart from the external contracts, M1 also requires a significant amount of work internally at ESO; in October 2017, the final design review of the M1 Local Control System was completed and ESO is working on a critical test bench to develop and validate the telescope wavefront control algorithms.</p>
+</div>
+
+
+    
+
+
+
+
+
+        
+            
+            
+<div class="m-0 " style="padding-bottom: 1vw;">
+        <div class="row w-100 m-0">
+            <div class="col-lg-12 p-0 position-relative d-flex align-items-center order-lg-1 order-1">
+                <a href="https://www.eso.org/public/images/mirrors-m1-banner5/" target="_blank" class="d-flex align-items-center justify-content-center w-100" rel="noopener noreferrer">
+                    <img class="" style="width: 100%; " src="https://cdn.eso.org/images/original/mirrors-m1-banner5.jpg">
+                    
+                </a>
+
+                
+
+            </div>
+
+        </div>
+</div>
+
+
+
+
+    
+
+
+
+
+
+        
+    </div>
+<div id="mirrors-m1-life_" class="container-fluid container-light page-section" data-section="8">
+        
+        
+        <div class="container-paragraph section-title-paragraph">The life of the M1 mirror</div>
+        
+        
+            
+            
+<div class="container-paragraph section-text-paragraph">
+    <p>It should be noted that the manufacturing, assembly and installation of M1 only represent its first steps, as M1 will lead a life that requires constant reconfiguration. Indeed, to maintain the best reflectivity and sensitivity of the telescope, each mirror will need to be recoated every 18 months, like the mirrors of the VLT. Given the number of segments, this means removing, recoating and reinstalling two segments on the telescope every day for the entire lifetime of the telescope. This represents a significant logistical effort, to keep up an efficient stripping, washing and coating process, as well as a well-defined maintenance plan for the thousands of ELT components. For this reason, the seventh sector of segments and the second maintenance unit (including the washing, stripping and coating plants) are particularly crucial for managing the efficient recoating of segments without regularly creating temporary holes in M1. This ensures optimal mirror control and image quality at the lowest operational costs, especially for the most demanding extreme adaptive optics applications.&nbsp;&nbsp;</p>
+<p>The M1 mirror is certainly one of the most challenging sub-systems of the entire ELT programme. It comprises thousands of highly sophisticated components that require extreme accuracy, not only during their manufacture, but also during installation and observations. This is certainly a challenge and the ELT Team is closely following the development of all the M1 components.</p>
+</div>
+
+
+    
+
+
+
+
+
+        
+            
+            
+<div class="m-0 ">
+        <div class="row w-100 m-0">
+            <div class="col-lg-12 p-0 position-relative d-flex align-items-center order-lg-1 order-1">
+                <a href="https://www.eso.org/public/images/ann20032a/" target="_blank" class="d-flex align-items-center justify-content-center w-100" rel="noopener noreferrer">
+                    <img class="" style="width: 100%; " src="https://cdn.eso.org/images/original/mirrors-m1-banner6.jpg">
+                    
+                </a>
+
+                
+
+            </div>
+
+        </div>
+</div>
+
+
+
+
+    
+
+
+
+
+
+        
+    </div>
+  </main>
+
+
+  <footer class="site-footer">
+    <div class="site-footer__row">
+      <div class="site-footer__brand footer-item">
+        <a href="https:///www.eso.org/"><span class="esoblue">ESO</span></a>&nbsp;|&nbsp;ELT © <div id="current-year">2026</div>
+      </div>
+      <div class="site-footer__links footer-item">
+        <div>
+          <a href="../../credits/index.html"><span class="footer-item"> Credits </span></a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="mailto:information@eso.org"><span class="footer-item"> Contact us </span></a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="https://www.eso.org/public/outreach/newsletters/"><span class="footer-item"> Subscribe to ESO news </span></a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="https://www.cdn77.com/"><span class="footer-item"> Accelerated by CDN77 </span></a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="https://www.eso.org/public/about-eso/privacy/"><span class="footer-item"> Terms &amp; Conditions </span></a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="#"><span class="footer-item privacy-settings-link"> Cookie Settings and Policy </span></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

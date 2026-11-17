@@ -1,0 +1,130 @@
+{
+  "slug": "mirror-m5",
+  "type": "program",
+  "renderBranch": "A'",
+  "template": "telescope-dome",
+  "modules": [
+    "big-header",
+    "page-intro",
+    "share-bar",
+    "text-section"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "big-header-text",
+    "navbar",
+    "container-fluid",
+    "container-fluid",
+    "container-fluid",
+    "container-fluid",
+    "container-fluid"
+  ],
+  "canonShas": {
+    "header": null,
+    "footer": "df97728fd0f7",
+    "css": "7a5011377ec8"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Dome | ELT | ESO",
+    "description": "The Extremely Large Telescope: The World&#x27;s Biggest Eye On The Sky",
+    "canonical": null,
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Dome | ELT | ESO",
+    "description": "The Extremely Large Telescope: The World&#x27;s Biggest Eye On The Sky",
+    "url": "https://elt.eso.org/mirror/M5/"
+  },
+  "migratedAt": "2026-11-13T20:20:29Z",
+  "designMdSha": "bcd81ac1bff9",
+  "designJsonSha": "1687cec3d675",
+  "sourceCurrentSha": "5c8cc660a27b",
+  "sourceProposedSha": "29ad208e325a",
+  "fidelityTier": "sibling",
+  "archetypeSource": "telescope-dome",
+  "archetypeSha": "c42b9f92bef0",
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 10,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/chile/?lang",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/about/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/about/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/mirror/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/mirror/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/instrument/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/instrument/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/science/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/science/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/about/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/about/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/mirror/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/mirror/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/instrument/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/instrument/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/science/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/science/",
+      "reason": "in-inventory-not-migrated"
+    }
+  ],
+  "outputPath": "mirror/M5/index.html",
+  "outputPathDefault": null,
+  "sidecar": "mirror/M5/_meta.json",
+  "driverVersion": "1"
+}

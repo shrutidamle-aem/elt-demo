@@ -1,0 +1,4 @@
+{
+ "server": "nginx/1.20.1",
+ "x-frame-options": "SAMEORIGIN"
+}

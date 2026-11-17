@@ -1,0 +1,13 @@
+/*
+ * Facts
+ * Dr Gurvan M. F. Bazin
+ */
+
+.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
+    opacity: 0 !important;
+}
+
+/* .swiper-button-next-carousel, .swiper-button-prev-carousel { */
+/*     top: 70%; */
+/* } */
+

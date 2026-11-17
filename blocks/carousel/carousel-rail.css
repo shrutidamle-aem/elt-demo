@@ -1,0 +1,555 @@
+/*
+ * Carousel variant `rail` — media.css §5 (visuals dashboard bar: .bar-medium-dark L19798,
+ * .visuals-dashboard L16232/L18008, Bootstrap .row/.col/.form-control/.input-group/.btn) and
+ * §6 (Swiper 5.4.5 rails: theme #007aff, 44 px nav; .img-col/.img-thumb L20150–20173,
+ * V: .img-carousel). Loaded by carousel-rail.js only; default carousel rendering untouched.
+ */
+.carousel.rail {
+  --rail-spv: 1;
+
+  background-color: #202020;
+  color: #fff;
+}
+
+.carousel.rail p {
+  margin: 0;
+  padding: 0;
+}
+
+.carousel.rail .visuals-hover-title a {
+  color: #fff;
+}
+
+/* dashboard bar */
+.carousel.rail .rail-bar {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 1rem 0;
+  overflow-x: clip;
+  background-color: #202020;
+}
+
+.carousel.rail.images .rail-bar {
+  padding-top: 3rem;
+}
+
+.carousel.rail .visuals-dashboard {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.carousel.rail .visuals-fullscreen-wrap {
+  position: absolute;
+  left: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel.rail .visuals-fullscreen {
+  line-height: 1;
+  color: rgb(130 110 85);
+}
+
+.carousel.rail .visuals-dashboard-spacer {
+  display: none;
+}
+
+.carousel.rail .media-type {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.25rem 0;
+}
+
+.carousel.rail .media-type-label {
+  z-index: 1;
+}
+
+.carousel.rail .dashboard-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 -15px;
+}
+
+.carousel.rail .dashboard-row > div {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.carousel.rail .media-ranking {
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  text-align: center;
+}
+
+.carousel.rail .media-ranking-label {
+  color: #808080;
+}
+
+.carousel.rail .media-ranking a {
+  color: #fff;
+}
+
+.carousel.rail .media-ranking a:hover {
+  color: #fff;
+}
+
+.carousel.rail .media-ranking a.media-type-active,
+.carousel.rail .media-ranking a.media-type-active:hover {
+  color: #ff8c00;
+}
+
+.carousel.rail .media-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel.rail .form-inline {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.carousel.rail .input-group {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;
+}
+
+.carousel.rail .form-control {
+  position: relative;
+  flex: 1 1 auto;
+  display: block;
+  width: 1%;
+  min-width: 0;
+  height: calc(1.5em + 0.75rem + 2px);
+  margin: 0;
+  padding: 0.375rem 0.75rem;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem 0 0 0.25rem;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.carousel.rail .form-control::placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+.carousel.rail .input-group-append {
+  display: flex;
+  margin-left: -1px;
+}
+
+.carousel.rail .btn {
+  position: relative;
+  z-index: 2;
+  display: inline-block;
+  margin: 0;
+  padding: 0.375rem 0.75rem;
+  border: 1px solid #f8f9fa;
+  border-radius: 0 0.25rem 0.25rem 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #f8f9fa;
+  cursor: pointer;
+  user-select: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.carousel.rail .btn:hover {
+  color: #212529;
+  background-color: #e2e6ea;
+  border-color: #dae0e5;
+}
+
+.carousel.rail .btn .material-icons {
+  font-size: 1rem;
+}
+
+@media (width >= 480px) {
+  .carousel.rail .dashboard-row > .media-ranking,
+  .carousel.rail .dashboard-row > .media-search {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (width >= 576px) {
+  .carousel.rail .form-inline .input-group {
+    width: auto;
+  }
+}
+
+@media (width >= 992px) {
+  .carousel.rail .visuals-dashboard-spacer {
+    display: block;
+  }
+}
+
+/* rail */
+.carousel.rail .rail-stage {
+  position: relative;
+  z-index: 1;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: #202020;
+}
+
+.carousel.rail .rail-track {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  box-sizing: content-box;
+  transform: translate3d(calc(var(--slide, 0) * -100% / var(--rail-spv)), 0, 0);
+  transition: transform 300ms;
+}
+
+.carousel.rail .rail-slide {
+  position: relative;
+  flex-shrink: 0;
+  width: calc(100% / var(--rail-spv));
+  height: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.carousel.rail .rail-tile {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0;
+}
+
+.carousel.rail .rail-tile-video {
+  aspect-ratio: 640 / 360;
+  overflow: hidden;
+}
+
+.carousel.rail .img-col {
+  position: relative;
+  flex: 1 0 0;
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+  background-color: var(--esoblue);
+  clip-path: polygon(0 0, 0% 100%, 100% 100%, 100% 0);
+}
+
+.carousel.rail .img-col picture {
+  display: contents;
+}
+
+.carousel.rail .img-thumb {
+  display: block;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  transition: 0.5s ease;
+}
+
+.carousel.rail.images .img-thumb {
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.carousel.rail .img-col:hover .img-thumb {
+  opacity: 0.3;
+}
+
+.carousel.rail .img-thumb-hover {
+  position: absolute;
+  top: -10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  text-align: center;
+  background-color: transparent;
+  opacity: 0;
+  transition: 0.5s ease;
+}
+
+.carousel.rail.images .img-thumb-hover {
+  height: 100%;
+}
+
+.carousel.rail.videos .img-thumb-hover {
+  aspect-ratio: 640 / 360;
+}
+
+.carousel.rail .img-col:hover .img-thumb-hover {
+  top: 0;
+  opacity: 1;
+}
+
+.carousel.rail .rail-trigger {
+  display: contents;
+  color: #fff;
+}
+
+.carousel.rail .visuals-hover-title {
+  line-height: 1.5;
+}
+
+.carousel.rail .visuals-hover-logo {
+  width: 12%;
+  height: auto;
+}
+
+.carousel.rail .px-3 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.carousel.rail .rail-sr {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* arrows (Swiper theme #007aff) */
+.carousel.rail .rail-arrow {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 27px;
+  height: 44px;
+  margin-top: -22px;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: #007aff;
+  cursor: pointer;
+}
+
+.carousel.rail .rail-arrow-prev {
+  left: 10px;
+  right: auto;
+}
+
+.carousel.rail .rail-arrow-next {
+  right: 10px;
+  left: auto;
+}
+
+.carousel.rail .rail-arrow-disabled {
+  opacity: 0.35;
+  cursor: auto;
+  pointer-events: none;
+}
+
+.carousel.rail .rail-arrow::after {
+  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+  font-family: swiper-icons;
+  font-size: 44px;
+  font-variant: initial;
+  line-height: 1;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.carousel.rail .rail-arrow-prev::after {
+  content: "prev";
+}
+
+.carousel.rail .rail-arrow-next::after {
+  content: "next";
+}
+
+@media (width >= 1000px) {
+  .carousel.rail {
+    --rail-spv: 2;
+  }
+}
+
+@media (width >= 1400px) {
+  .carousel.rail {
+    --rail-spv: 3;
+  }
+}
+
+/* type ramp (media.css §5 per-tier rules) */
+@media only screen and (width <= 576px) {
+  .carousel.rail .visuals-hover-title {
+    font-size: 1.375rem;
+  }
+
+  .carousel.rail .media-ranking {
+    font-size: 0.8rem;
+  }
+
+  .carousel.rail .visuals-fullscreen {
+    font-size: 2rem;
+  }
+
+  .carousel.rail .media-type {
+    font-size: 1.75rem;
+  }
+
+  .carousel.rail .rail-arrow::after {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (width >= 576px) {
+  .carousel.rail .visuals-hover-title {
+    font-size: 1.4688rem;
+  }
+
+  .carousel.rail .media-ranking {
+    font-size: 0.85rem;
+  }
+
+  .carousel.rail .visuals-fullscreen {
+    font-size: 2.1875rem;
+  }
+
+  .carousel.rail .media-type {
+    font-size: 1.8438rem;
+  }
+}
+
+@media only screen and (width >= 768px) {
+  .carousel.rail .visuals-hover-title {
+    font-size: 1.5313rem;
+  }
+
+  .carousel.rail .media-ranking {
+    font-size: 0.9rem;
+  }
+
+  .carousel.rail .visuals-fullscreen {
+    font-size: 2.375rem;
+  }
+
+  .carousel.rail .media-type {
+    font-size: 1.9375rem;
+  }
+}
+
+@media only screen and (width >= 992px) {
+  .carousel.rail .visuals-hover-title {
+    font-size: 1.625rem;
+  }
+
+  .carousel.rail .media-ranking {
+    font-size: 0.96rem;
+  }
+
+  .carousel.rail .visuals-fullscreen {
+    font-size: 2.5938rem;
+  }
+
+  .carousel.rail .media-type {
+    font-size: 2.0625rem;
+  }
+}
+
+@media only screen and (width >= 1200px) {
+  .carousel.rail .visuals-dashboard {
+    grid-template-columns: 39fr 22fr 39fr;
+  }
+
+  .carousel.rail .visuals-hover-title {
+    font-size: 1.7188rem;
+  }
+
+  .carousel.rail .media-ranking {
+    font-size: 1.01rem;
+  }
+
+  .carousel.rail .visuals-fullscreen {
+    font-size: 2.8125rem;
+  }
+
+  .carousel.rail .media-type {
+    font-size: 2.1563rem;
+  }
+}
+
+@media only screen and (width >= 1440px) {
+  .carousel.rail .visuals-hover-title {
+    font-size: 1.8125rem;
+  }
+
+  .carousel.rail .media-ranking {
+    font-size: 1.07rem;
+  }
+
+  .carousel.rail .visuals-fullscreen {
+    font-size: 3.0313rem;
+  }
+
+  .carousel.rail .media-type {
+    font-size: 2.25rem;
+  }
+}
+
+@media only screen and (width >= 1680px) {
+  .carousel.rail .visuals-hover-title {
+    font-size: 1.9063rem;
+  }
+
+  .carousel.rail .media-ranking {
+    font-size: 1.14rem;
+  }
+
+  .carousel.rail .visuals-fullscreen {
+    font-size: 3.25rem;
+  }
+
+  .carousel.rail .media-type {
+    font-size: 2.375rem;
+  }
+}
+
+@media only screen and (width >= 1920px) {
+  .carousel.rail .visuals-hover-title {
+    font-size: 2rem;
+  }
+
+  .carousel.rail .media-ranking {
+    font-size: 1.2rem;
+  }
+
+  .carousel.rail .visuals-fullscreen {
+    font-size: 3.5rem;
+  }
+
+  .carousel.rail .media-type {
+    font-size: 2.5rem;
+  }
+}

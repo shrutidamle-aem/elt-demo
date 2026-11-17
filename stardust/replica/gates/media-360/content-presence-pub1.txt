@@ -1,0 +1,37 @@
+[live-session] waiting to pace live navigations to elt.eso.org (8000 ms apart, 1 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+content-presence @ 360px (chrome) — origin https://elt.eso.org/media/ (docH 5544, 163 items, HTTP 200) vs served https://main--26c59ee1--aemcoder.aem.page/media (docH 5613, 92 items, HTTP 200)
+scope: whole page (one side has no <main> / --main root) (header/footer left to the chrome crop gate; --chrome to include)
+| band | heading | links O/E (+hidden) | buttons O/E (+hidden) | text O/E | images O/E | findings |
+|---|---|---|---|---|---|---|
+| 0 | (top) | 23/16 | 10/6 | 34/15 | 16/11 | MISSING HEADING, MISSING LINK, MISSING BUTTON, COUNT TEXT, COUNT IMAGES, CONTROL MISSING |
+| 1 | elt news | 1/1 | 0/0 | 3/1 | 0/0 | MISSING HEADING |
+| 2 | elt press kit | 1/1 | 0/0 | 1/0 | 1/1 | MISSING HEADING |
+| 3 | media visits | 6/3 | 0/0 | 26/4 | 1/1 | MISSING HEADING, MISSING LINK, COUNT TEXT |
+| 4 | media contacts | 2/2 | 0/0 | 5/2 | 0/0 | - |
+  🔴 MISSING HEADING: h1 "eso cookies policy" (origin y 1006) has no served heading
+  🔴 MISSING HEADING: h1 "our use of cookies" (origin y 1192) has no served heading
+  🔴 MISSING HEADING: h2 "what are cookies?" (origin y 1526) has no served heading
+  🔴 MISSING HEADING: h2 "categories of cookies we use" (origin y 1732) has no served heading
+  🔴 MISSING HEADING: h2 "how to manage cookies" (origin y 5161) has no served heading
+  🔴 MISSING LINK: "eso on facebook" → /ESOAstronomy in band "(top)" (origin y 11) not on the served page
+  🔴 MISSING LINK: "eso on instagram" → /esoastronomy/ in band "(top)" (origin y 11) not on the served page
+  🔴 MISSING LINK: "eso on linkedin" → /company/european-southern-observatory in band "(top)" (origin y 11) not on the served page
+  🔴 MISSING LINK: "eso on youtube" → /channel/UCIhYoC2VIAJqCkoIWNHBQ3Q in band "(top)" (origin y 11) not on the served page
+  🔴 MISSING LINK: "en" → /media/ in band "(top)" (origin y 17) not on the served page
+  🔴 MISSING LINK: "es" → /media/ in band "(top)" (origin y 17) not on the served page
+  🔴 MISSING LINK: "youtube" → /t/terms in band "media visits" (origin y 4347) not on the served page
+  🔴 MISSING LINK: "eso’s official youtube channel" → /channel/UCIhYoC2VIAJqCkoIWNHBQ3Q in band "media visits" (origin y 4371) not on the served page
+  🔴 MISSING LINK: "embedding videos information page" → /youtube/answer/171780 in band "media visits" (origin y 4587) not on the served page
+  🟠 MISSING BUTTON: "toggle navigation" in band "(top)" (origin y 5) not on the served page
+  🟠 MISSING BUTTON: "accept all" in band "(top)" (origin y 1584) not on the served page
+  🟠 MISSING BUTTON: "accept only essential cookies" in band "(top)" (origin y 1656) not on the served page
+  🟠 MISSING BUTTON: "cookie settings and policy" in band "(top)" (origin y 1728) not on the served page
+  🟡 EXTRA HEADING: served h1 "news & multimedia" (y 150) has no origin heading
+  🟡 COUNT TEXT: band "(top)": 34 origin → 15 served visible
+  🟡 COUNT IMAGES: band "(top)": 16 origin → 11 served visible
+  🟡 CONTROL MISSING: toggle navigation = "toggle navigation" (band "(top)") has no served counterpart
+  🟡 COUNT TEXT: band "media visits": 26 origin → 4 served visible
+Content: MISSING 14 (headings 5, links 9) / HIDDEN 0 (headings 0, links 0) / control-state 0 / buttons missing 4 hidden 0 / moved 0 extra 0 / count deltas 3
+Findings: 23 (14 structural 🔴)
+Clipped (served side): 0 — origin side 0
+json → stardust/replica/gates/media-360/content-presence-pub1.json

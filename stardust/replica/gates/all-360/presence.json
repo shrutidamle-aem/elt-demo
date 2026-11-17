@@ -1,0 +1,346 @@
+{
+ "about-facts": {
+  "variable": [
+   ".privacy-notice",
+   ".privacy-settings"
+  ],
+  "main": "body > :not(#top-navbar):not(footer):not(.privacy-notice):not(.privacy-settings):not(script):not(input)=main",
+  "reason": "symmetric content roots: the source has no <main> — its body children minus the top nav, footer and consent overlay vs EDS main (hero + #main-navbar strip + sections both sides); consent banner + cookie-policy panel are a site overlay, counts only"
+ },
+ "index": {
+  "variable": [
+   ".privacy-notice",
+   ".privacy-settings"
+  ],
+  "main": "body > :not(#top-navbar):not(footer):not(.privacy-notice):not(.privacy-settings):not(script):not(input)=main",
+  "reason": "symmetric content roots: the source has no <main> — its body children minus the top nav, footer and consent overlay vs EDS main (hero + #main-navbar strip + sections both sides); consent banner + cookie-policy panel are a site overlay, counts only"
+ },
+ "chile": {
+  "variable": [
+   ".privacy-notice",
+   ".privacy-settings"
+  ],
+  "main": "body > :not(#top-navbar):not(footer):not(.privacy-notice):not(.privacy-settings):not(script):not(input)=main",
+  "reason": "symmetric content roots: the source has no <main> — its body children minus the top nav, footer and consent overlay vs EDS main (hero + #main-navbar strip + sections both sides); consent banner + cookie-policy panel are a site overlay, counts only"
+ },
+ "about": {
+  "variable": [
+   ".privacy-notice",
+   ".privacy-settings"
+  ],
+  "main": "body > :not(#top-navbar):not(footer):not(.privacy-notice):not(.privacy-settings):not(script):not(input)=main",
+  "reason": "symmetric content roots: the source has no <main> — its body children minus the top nav, footer and consent overlay vs EDS main (hero + #main-navbar strip + sections both sides); consent banner + cookie-policy panel are a site overlay, counts only"
+ },
+ "telescope": {
+  "variable": [
+   ".privacy-notice",
+   ".privacy-settings"
+  ],
+  "main": "body > :not(#top-navbar):not(footer):not(.privacy-notice):not(.privacy-settings):not(script):not(input)=main",
+  "reason": "symmetric content roots: the source has no <main> — its body children minus the top nav, footer and consent overlay vs EDS main (hero + #main-navbar strip + sections both sides); consent banner + cookie-policy panel are a site overlay, counts only"
+ },
+ "mirror": {
+  "variable": [
+   ".privacy-notice",
+   ".privacy-settings"
+  ],
+  "main": "body > :not(#top-navbar):not(footer):not(.privacy-notice):not(.privacy-settings):not(script):not(input)=main",
+  "reason": "symmetric content roots: the source has no <main> — its body children minus the top nav, footer and consent overlay vs EDS main (hero + #main-navbar strip + sections both sides); consent banner + cookie-policy panel are a site overlay, counts only"
+ },
+ "instrument": {
+  "variable": [
+   ".privacy-notice",
+   ".privacy-settings"
+  ],
+  "main": "body > :not(#top-navbar):not(footer):not(.privacy-notice):not(.privacy-settings):not(script):not(input)=main",
+  "reason": "symmetric content roots: the source has no <main> — its body children minus the top nav, footer and consent overlay vs EDS main (hero + #main-navbar strip + sections both sides); consent banner + cookie-policy panel are a site overlay, counts only"
+ },
+ "science": {
+  "variable": [
+   ".privacy-notice",
+   ".privacy-settings"
+  ],
+  "main": "body > :not(#top-navbar):not(footer):not(.privacy-notice):not(.privacy-settings):not(script):not(input)=main",
+  "reason": "symmetric content roots: the source has no <main> — its body children minus the top nav, footer and consent overlay vs EDS main (hero + #main-navbar strip + sections both sides); consent banner + cookie-policy panel are a site overlay, counts only"
+ },
+ "media": {
+  "variable": [
+   ".privacy-notice",
+   ".privacy-settings"
+  ],
+  "main": "body > :not(#top-navbar):not(footer):not(.privacy-notice):not(.privacy-settings):not(script):not(input)=main",
+  "reason": "symmetric content roots: the source has no <main> — its body children minus the top nav, footer and consent overlay vs EDS main (hero + #main-navbar strip + sections both sides); consent banner + cookie-policy panel are a site overlay, counts only"
+ },
+ "credits": {
+  "variable": [
+   ".privacy-notice",
+   ".privacy-settings"
+  ],
+  "main": "body > :not(#top-navbar):not(footer):not(.privacy-notice):not(.privacy-settings):not(script):not(input)=main",
+  "reason": "symmetric content roots: the source has no <main> — its body children minus the top nav, footer and consent overlay vs EDS main (hero + #main-navbar strip + sections both sides); consent banner + cookie-policy panel are a site overlay, counts only"
+ },
+ "about-timeline": {
+  "variable": [
+   ".privacy-notice",
+   ".privacy-settings"
+  ],
+  "main": "body > :not(#top-navbar):not(footer):not(.privacy-notice):not(.privacy-settings):not(script):not(input)=main",
+  "reason": "symmetric content roots: the source has no <main> — its body children minus the top nav, footer and consent overlay vs EDS main (hero + #main-navbar strip + sections both sides); consent banner + cookie-policy panel are a site overlay, counts only"
+ },
+ "about-location": {
+  "variable": [
+   ".privacy-notice",
+   ".privacy-settings"
+  ],
+  "main": "body > :not(#top-navbar):not(footer):not(.privacy-notice):not(.privacy-settings):not(script):not(input)=main",
+  "reason": "symmetric content roots: the source has no <main> — its body children minus the top nav, footer and consent overlay vs EDS main (hero + #main-navbar strip + sections both sides); consent banner + cookie-policy panel are a site overlay, counts only"
+ },
+ "about-webcams": {
+  "variable": [
+   ".privacy-notice",
+   ".privacy-settings"
+  ],
+  "main": "body > :not(#top-navbar):not(footer):not(.privacy-notice):not(.privacy-settings):not(script):not(input)=main",
+  "reason": "symmetric content roots: the source has no <main> — its body children minus the top nav, footer and consent overlay vs EDS main (hero + #main-navbar strip + sections both sides); consent banner + cookie-policy panel are a site overlay, counts only"
+ },
+ "about-road": {
+  "variable": [
+   ".privacy-notice",
+   ".privacy-settings"
+  ],
+  "main": "body > :not(#top-navbar):not(footer):not(.privacy-notice):not(.privacy-settings):not(script):not(input)=main",
+  "reason": "symmetric content roots: the source has no <main> — its body children minus the top nav, footer and consent overlay vs EDS main (hero + #main-navbar strip + sections both sides); consent banner + cookie-policy panel are a site overlay, counts only"
+ },
+ "about-team": {
+  "variable": [
+   ".privacy-notice",
+   ".privacy-settings"
+  ],
+  "main": "body > :not(#top-navbar):not(footer):not(.privacy-notice):not(.privacy-settings):not(script):not(input)=main",
+  "reason": "symmetric content roots: the source has no <main> — its body children minus the top nav, footer and consent overlay vs EDS main (hero + #main-navbar strip + sections both sides); consent banner + cookie-policy panel are a site overlay, counts only"
+ },
+ "about-workinggroups": {
+  "variable": [
+   ".privacy-notice",
+   ".privacy-settings"
+  ],
+  "main": "body > :not(#top-navbar):not(footer):not(.privacy-notice):not(.privacy-settings):not(script):not(input)=main",
+  "reason": "symmetric content roots: the source has no <main> — its body children minus the top nav, footer and consent overlay vs EDS main (hero + #main-navbar strip + sections both sides); consent banner + cookie-policy panel are a site overlay, counts only"
+ },
+ "about-industrial": {
+  "variable": [
+   ".privacy-notice",
+   ".privacy-settings"
+  ],
+  "main": "body > :not(#top-navbar):not(footer):not(.privacy-notice):not(.privacy-settings):not(script):not(input)=main",
+  "reason": "symmetric content roots: the source has no <main> — its body children minus the top nav, footer and consent overlay vs EDS main (hero + #main-navbar strip + sections both sides); consent banner + cookie-policy panel are a site overlay, counts only"
+ },
+ "about-faq": {
+  "variable": [
+   ".privacy-notice",
+   ".privacy-settings"
+  ],
+  "main": "body > :not(#top-navbar):not(footer):not(.privacy-notice):not(.privacy-settings):not(script):not(input)=main",
+  "reason": "symmetric content roots: the source has no <main> — its body children minus the top nav, footer and consent overlay vs EDS main (hero + #main-navbar strip + sections both sides); consent banner + cookie-policy panel are a site overlay, counts only"
+ },
+ "telescope-dome": {
+  "variable": [
+   ".privacy-notice",
+   ".privacy-settings"
+  ],
+  "main": "body > :not(#top-navbar):not(footer):not(.privacy-notice):not(.privacy-settings):not(script):not(input)=main",
+  "reason": "symmetric content roots: the source has no <main> — its body children minus the top nav, footer and consent overlay vs EDS main (hero + #main-navbar strip + sections both sides); consent banner + cookie-policy panel are a site overlay, counts only"
+ },
+ "telescope-structure": {
+  "variable": [
+   ".privacy-notice",
+   ".privacy-settings"
+  ],
+  "main": "body > :not(#top-navbar):not(footer):not(.privacy-notice):not(.privacy-settings):not(script):not(input)=main",
+  "reason": "symmetric content roots: the source has no <main> — its body children minus the top nav, footer and consent overlay vs EDS main (hero + #main-navbar strip + sections both sides); consent banner + cookie-policy panel are a site overlay, counts only"
+ },
+ "mirror-m1": {
+  "variable": [
+   ".privacy-notice",
+   ".privacy-settings"
+  ],
+  "main": "body > :not(#top-navbar):not(footer):not(.privacy-notice):not(.privacy-settings):not(script):not(input)=main",
+  "reason": "symmetric content roots: the source has no <main> — its body children minus the top nav, footer and consent overlay vs EDS main (hero + #main-navbar strip + sections both sides); consent banner + cookie-policy panel are a site overlay, counts only"
+ },
+ "mirror-m2m3": {
+  "variable": [
+   ".privacy-notice",
+   ".privacy-settings"
+  ],
+  "main": "body > :not(#top-navbar):not(footer):not(.privacy-notice):not(.privacy-settings):not(script):not(input)=main",
+  "reason": "symmetric content roots: the source has no <main> — its body children minus the top nav, footer and consent overlay vs EDS main (hero + #main-navbar strip + sections both sides); consent banner + cookie-policy panel are a site overlay, counts only"
+ },
+ "mirror-m4": {
+  "variable": [
+   ".privacy-notice",
+   ".privacy-settings"
+  ],
+  "main": "body > :not(#top-navbar):not(footer):not(.privacy-notice):not(.privacy-settings):not(script):not(input)=main",
+  "reason": "symmetric content roots: the source has no <main> — its body children minus the top nav, footer and consent overlay vs EDS main (hero + #main-navbar strip + sections both sides); consent banner + cookie-policy panel are a site overlay, counts only"
+ },
+ "mirror-m5": {
+  "variable": [
+   ".privacy-notice",
+   ".privacy-settings"
+  ],
+  "main": "body > :not(#top-navbar):not(footer):not(.privacy-notice):not(.privacy-settings):not(script):not(input)=main",
+  "reason": "symmetric content roots: the source has no <main> — its body children minus the top nav, footer and consent overlay vs EDS main (hero + #main-navbar strip + sections both sides); consent banner + cookie-policy panel are a site overlay, counts only"
+ },
+ "telescope-adaptiveoptics": {
+  "variable": [
+   ".privacy-notice",
+   ".privacy-settings"
+  ],
+  "main": "body > :not(#top-navbar):not(footer):not(.privacy-notice):not(.privacy-settings):not(script):not(input)=main",
+  "reason": "symmetric content roots: the source has no <main> — its body children minus the top nav, footer and consent overlay vs EDS main (hero + #main-navbar strip + sections both sides); consent banner + cookie-policy panel are a site overlay, counts only"
+ },
+ "telescope-prefocal": {
+  "variable": [
+   ".privacy-notice",
+   ".privacy-settings"
+  ],
+  "main": "body > :not(#top-navbar):not(footer):not(.privacy-notice):not(.privacy-settings):not(script):not(input)=main",
+  "reason": "symmetric content roots: the source has no <main> — its body children minus the top nav, footer and consent overlay vs EDS main (hero + #main-navbar strip + sections both sides); consent banner + cookie-policy panel are a site overlay, counts only"
+ },
+ "telescope-controls": {
+  "variable": [
+   ".privacy-notice",
+   ".privacy-settings"
+  ],
+  "main": "body > :not(#top-navbar):not(footer):not(.privacy-notice):not(.privacy-settings):not(script):not(input)=main",
+  "reason": "symmetric content roots: the source has no <main> — its body children minus the top nav, footer and consent overlay vs EDS main (hero + #main-navbar strip + sections both sides); consent banner + cookie-policy panel are a site overlay, counts only"
+ },
+ "telescope-operations": {
+  "variable": [
+   ".privacy-notice",
+   ".privacy-settings"
+  ],
+  "main": "body > :not(#top-navbar):not(footer):not(.privacy-notice):not(.privacy-settings):not(script):not(input)=main",
+  "reason": "symmetric content roots: the source has no <main> — its body children minus the top nav, footer and consent overlay vs EDS main (hero + #main-navbar strip + sections both sides); consent banner + cookie-policy panel are a site overlay, counts only"
+ },
+ "instrument-harmoni": {
+  "variable": [
+   ".privacy-notice",
+   ".privacy-settings"
+  ],
+  "main": "body > :not(#top-navbar):not(footer):not(.privacy-notice):not(.privacy-settings):not(script):not(input)=main",
+  "reason": "symmetric content roots: the source has no <main> — its body children minus the top nav, footer and consent overlay vs EDS main (hero + #main-navbar strip + sections both sides); consent banner + cookie-policy panel are a site overlay, counts only"
+ },
+ "instrument-micado": {
+  "variable": [
+   ".privacy-notice",
+   ".privacy-settings"
+  ],
+  "main": "body > :not(#top-navbar):not(footer):not(.privacy-notice):not(.privacy-settings):not(script):not(input)=main",
+  "reason": "symmetric content roots: the source has no <main> — its body children minus the top nav, footer and consent overlay vs EDS main (hero + #main-navbar strip + sections both sides); consent banner + cookie-policy panel are a site overlay, counts only"
+ },
+ "instrument-morfeo": {
+  "variable": [
+   ".privacy-notice",
+   ".privacy-settings"
+  ],
+  "main": "body > :not(#top-navbar):not(footer):not(.privacy-notice):not(.privacy-settings):not(script):not(input)=main",
+  "reason": "symmetric content roots: the source has no <main> — its body children minus the top nav, footer and consent overlay vs EDS main (hero + #main-navbar strip + sections both sides); consent banner + cookie-policy panel are a site overlay, counts only"
+ },
+ "instrument-metis": {
+  "variable": [
+   ".privacy-notice",
+   ".privacy-settings"
+  ],
+  "main": "body > :not(#top-navbar):not(footer):not(.privacy-notice):not(.privacy-settings):not(script):not(input)=main",
+  "reason": "symmetric content roots: the source has no <main> — its body children minus the top nav, footer and consent overlay vs EDS main (hero + #main-navbar strip + sections both sides); consent banner + cookie-policy panel are a site overlay, counts only"
+ },
+ "instrument-andes": {
+  "variable": [
+   ".privacy-notice",
+   ".privacy-settings"
+  ],
+  "main": "body > :not(#top-navbar):not(footer):not(.privacy-notice):not(.privacy-settings):not(script):not(input)=main",
+  "reason": "symmetric content roots: the source has no <main> — its body children minus the top nav, footer and consent overlay vs EDS main (hero + #main-navbar strip + sections both sides); consent banner + cookie-policy panel are a site overlay, counts only"
+ },
+ "instrument-mosaic": {
+  "variable": [
+   ".privacy-notice",
+   ".privacy-settings"
+  ],
+  "main": "body > :not(#top-navbar):not(footer):not(.privacy-notice):not(.privacy-settings):not(script):not(input)=main",
+  "reason": "symmetric content roots: the source has no <main> — its body children minus the top nav, footer and consent overlay vs EDS main (hero + #main-navbar strip + sections both sides); consent banner + cookie-policy panel are a site overlay, counts only"
+ },
+ "science-solarsystem": {
+  "variable": [
+   ".privacy-notice",
+   ".privacy-settings"
+  ],
+  "main": "body > :not(#top-navbar):not(footer):not(.privacy-notice):not(.privacy-settings):not(script):not(input)=main",
+  "reason": "symmetric content roots: the source has no <main> — its body children minus the top nav, footer and consent overlay vs EDS main (hero + #main-navbar strip + sections both sides); consent banner + cookie-policy panel are a site overlay, counts only"
+ },
+ "science-exoplanets": {
+  "variable": [
+   ".privacy-notice",
+   ".privacy-settings"
+  ],
+  "main": "body > :not(#top-navbar):not(footer):not(.privacy-notice):not(.privacy-settings):not(script):not(input)=main",
+  "reason": "symmetric content roots: the source has no <main> — its body children minus the top nav, footer and consent overlay vs EDS main (hero + #main-navbar strip + sections both sides); consent banner + cookie-policy panel are a site overlay, counts only"
+ },
+ "science-stars": {
+  "variable": [
+   ".privacy-notice",
+   ".privacy-settings"
+  ],
+  "main": "body > :not(#top-navbar):not(footer):not(.privacy-notice):not(.privacy-settings):not(script):not(input)=main",
+  "reason": "symmetric content roots: the source has no <main> — its body children minus the top nav, footer and consent overlay vs EDS main (hero + #main-navbar strip + sections both sides); consent banner + cookie-policy panel are a site overlay, counts only"
+ },
+ "science-blackholes": {
+  "variable": [
+   ".privacy-notice",
+   ".privacy-settings"
+  ],
+  "main": "body > :not(#top-navbar):not(footer):not(.privacy-notice):not(.privacy-settings):not(script):not(input)=main",
+  "reason": "symmetric content roots: the source has no <main> — its body children minus the top nav, footer and consent overlay vs EDS main (hero + #main-navbar strip + sections both sides); consent banner + cookie-policy panel are a site overlay, counts only"
+ },
+ "science-galaxies": {
+  "variable": [
+   ".privacy-notice",
+   ".privacy-settings"
+  ],
+  "main": "body > :not(#top-navbar):not(footer):not(.privacy-notice):not(.privacy-settings):not(script):not(input)=main",
+  "reason": "symmetric content roots: the source has no <main> — its body children minus the top nav, footer and consent overlay vs EDS main (hero + #main-navbar strip + sections both sides); consent banner + cookie-policy panel are a site overlay, counts only"
+ },
+ "science-cosmodm": {
+  "variable": [
+   ".privacy-notice",
+   ".privacy-settings"
+  ],
+  "main": "body > :not(#top-navbar):not(footer):not(.privacy-notice):not(.privacy-settings):not(script):not(input)=main",
+  "reason": "symmetric content roots: the source has no <main> — its body children minus the top nav, footer and consent overlay vs EDS main (hero + #main-navbar strip + sections both sides); consent banner + cookie-policy panel are a site overlay, counts only"
+ },
+ "science-fundamentalphysics": {
+  "variable": [
+   ".privacy-notice",
+   ".privacy-settings"
+  ],
+  "main": "body > :not(#top-navbar):not(footer):not(.privacy-notice):not(.privacy-settings):not(script):not(input)=main",
+  "reason": "symmetric content roots: the source has no <main> — its body children minus the top nav, footer and consent overlay vs EDS main (hero + #main-navbar strip + sections both sides); consent banner + cookie-policy panel are a site overlay, counts only"
+ },
+ "science-discoveries": {
+  "variable": [
+   ".privacy-notice",
+   ".privacy-settings"
+  ],
+  "main": "body > :not(#top-navbar):not(footer):not(.privacy-notice):not(.privacy-settings):not(script):not(input)=main",
+  "reason": "symmetric content roots: the source has no <main> — its body children minus the top nav, footer and consent overlay vs EDS main (hero + #main-navbar strip + sections both sides); consent banner + cookie-policy panel are a site overlay, counts only"
+ },
+ "success-buildingon": {
+  "variable": [
+   ".privacy-notice",
+   ".privacy-settings"
+  ],
+  "main": "body > :not(#top-navbar):not(footer):not(.privacy-notice):not(.privacy-settings):not(script):not(input)=main",
+  "reason": "symmetric content roots: the source has no <main> — its body children minus the top nav, footer and consent overlay vs EDS main (hero + #main-navbar strip + sections both sides); consent banner + cookie-policy panel are a site overlay, counts only"
+ }
+}

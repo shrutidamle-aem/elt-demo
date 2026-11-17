@@ -1,0 +1,41 @@
+{
+  "a": "stardust/replica/gates/prototypes-360/index/origin.png",
+  "b": "stardust/replica/gates/prototypes-360/index/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 1350,
+    "mode": "overlap"
+  },
+  "heightDelta": 0,
+  "differingPixels": 39656,
+  "pct": 8.16,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/prototypes-360/index/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 10.1
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 11.9
+    },
+    {
+      "y0": 1000,
+      "y1": 1350,
+      "pct": 0
+    }
+  ],
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "http://localhost:8791/index-proposed.html"
+  }
+}

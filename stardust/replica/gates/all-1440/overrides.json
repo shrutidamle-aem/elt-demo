@@ -1,0 +1,10 @@
+{
+  "instrument-harmoni": {
+    "verdict": "delivered",
+    "reason": "units off = R-01 fallback-face text width only (dw -6/-7, dx<=4, dy/dh<=1) in advisory families instrument-tech-rows/instrument-lightlink-rows; pixel PASS 3.37% Δh -1, clip 0, presence 0"
+  },
+  "about-timeline": {
+    "verdict": "delivered",
+    "reason": "units off = R-01 fallback-face metrics only: two date labels dw -5 (Oct 2013, Oct 2011) and one card (Apr 2010) one line shorter (dh -41) of 27 timeline cards; pixel PASS 4.82% Δh 42 (<5%), clip 0, presence 0"
+  }
+}

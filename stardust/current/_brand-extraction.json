@@ -1,0 +1,1301 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-11-13T12:15:16.174Z",
+    "readArtifacts": [
+      "stardust/current/_computed-styles.json",
+      "stardust/current/pages/*.json",
+      "stardust/current/assets/css/elt_assets.66fa71510905.css"
+    ],
+    "synthesizedInputs": [],
+    "stardustVersion": "0.37.2"
+  },
+  "site": {
+    "name": "ESO — The Extremely Large Telescope",
+    "tagline": "The World's Biggest Eye on the Sky",
+    "originUrl": "https://elt.eso.org/"
+  },
+  "origins": [
+    {
+      "origin": "https://elt.eso.org",
+      "role": "primary",
+      "pages": 44
+    }
+  ],
+  "logo": {
+    "path": "stardust/current/assets/logo.jpg",
+    "source": "img.navbar-eso-logo",
+    "url": "https://elt.eso.org/public/archives/djp/elt-assets/img/eso_logo.jpg"
+  },
+  "favicon": {
+    "path": "stardust/current/assets/favicon.ico",
+    "url": "https://www.eso.org/public/archives/favicon.ico"
+  },
+  "palette": [
+    {
+      "hex": "#ffffff",
+      "roles": [
+        "text",
+        "secondary",
+        "heading"
+      ],
+      "weight": 14735,
+      "sources": [
+        {
+          "url": "https://elt.eso.org/about/timeline/",
+          "selector": "#navbar-flags > li:nth-of-type(18) > div:nth-of-type(1)",
+          "prop": "text"
+        },
+        {
+          "url": "https://elt.eso.org/about/timeline/",
+          "selector": "#big-header > div:nth-of-type(1) > p",
+          "prop": "text"
+        },
+        {
+          "url": "https://elt.eso.org/about/facts/",
+          "selector": "#navbar-flags > li:nth-of-type(18) > div:nth-of-type(1)",
+          "prop": "text"
+        }
+      ]
+    },
+    {
+      "hex": "#000000",
+      "roles": [
+        "background"
+      ],
+      "weight": 2806,
+      "sources": [
+        {
+          "url": "https://elt.eso.org/about/faq/",
+          "selector": "#faq_top > div:nth-of-type(1) > div:nth-of-type(1)",
+          "prop": "text"
+        },
+        {
+          "url": "https://elt.eso.org/about/team/",
+          "selector": "#about-meet > div > p",
+          "prop": "text"
+        },
+        {
+          "url": "https://elt.eso.org/about/workinggroups/",
+          "selector": "#about-workinggroups > div:nth-of-type(1) > p:nth-of-type(1)",
+          "prop": "text"
+        }
+      ]
+    },
+    {
+      "hex": "#0077be",
+      "roles": [
+        "primary"
+      ],
+      "weight": 2730,
+      "sources": [
+        {
+          "url": "https://elt.eso.org/about/industrial/",
+          "selector": "div:nth-of-type(3) > div > table > tbody > tr:nth-of-type(2) > td:nth-of-type(1) > p > a",
+          "prop": "text"
+        },
+        {
+          "url": "https://elt.eso.org/about/industrial/",
+          "selector": "div:nth-of-type(3) > div > table > tbody > tr:nth-of-type(2) > td:nth-of-type(1) > p > a",
+          "prop": "link"
+        },
+        {
+          "url": "https://elt.eso.org/about/faq/",
+          "selector": "#faq_top > div:nth-of-type(2) > div:nth-of-type(1) > a > p",
+          "prop": "text"
+        }
+      ]
+    },
+    {
+      "hex": "#dee2e6",
+      "roles": [
+        "surface",
+        "border"
+      ],
+      "weight": 1779,
+      "sources": [
+        {
+          "url": "https://elt.eso.org/about/industrial/",
+          "selector": "#nutshell > div:nth-of-type(3) > div > table > tbody > tr:nth-of-type(1) > td:nth-of-type(1)",
+          "prop": "border"
+        },
+        {
+          "url": "https://elt.eso.org/telescope/dome/",
+          "selector": "#enclosurestruct_ > div:nth-of-type(9) > table > tbody > tr:nth-of-type(1) > td:nth-of-type(1)",
+          "prop": "border"
+        },
+        {
+          "url": "https://elt.eso.org/telescope/adaptiveoptics/",
+          "selector": "#adaptive-optics-modes_ > div:nth-of-type(13) > div > table > tbody > tr:nth-of-type(1) > th:nth-of-type(2)",
+          "prop": "border"
+        }
+      ]
+    },
+    {
+      "hex": "#ffffffb3",
+      "roles": [
+        "accent"
+      ],
+      "weight": 810,
+      "sources": [
+        {
+          "url": "https://elt.eso.org/credits/",
+          "selector": "#nav-search > a",
+          "prop": "link"
+        },
+        {
+          "url": "https://elt.eso.org/credits/",
+          "selector": "#nav-search > a > i",
+          "prop": "text"
+        },
+        {
+          "url": "https://elt.eso.org/",
+          "selector": "#nav-search > a",
+          "prop": "link"
+        }
+      ]
+    },
+    {
+      "hex": "#212529",
+      "roles": [],
+      "weight": 862,
+      "sources": [
+        {
+          "url": "https://elt.eso.org/about/industrial/",
+          "selector": "#nutshell > div:nth-of-type(3) > div > table > tbody > tr:nth-of-type(1) > td:nth-of-type(1) > h4",
+          "prop": "text"
+        },
+        {
+          "url": "https://elt.eso.org/telescope/adaptiveoptics/",
+          "selector": "#adaptive-optics-modes_ > div:nth-of-type(13) > div > table > tbody > tr:nth-of-type(1) > th:nth-of-type(2)",
+          "prop": "text"
+        },
+        {
+          "url": "https://elt.eso.org/telescope/dome/",
+          "selector": "#enclosurestruct_ > div:nth-of-type(9) > table > tbody > tr:nth-of-type(1) > td:nth-of-type(1)",
+          "prop": "text"
+        }
+      ]
+    },
+    {
+      "hex": "#005e97",
+      "roles": [],
+      "weight": 516,
+      "sources": [
+        {
+          "url": "https://elt.eso.org/",
+          "selector": "body > div:nth-of-type(7) > div:nth-of-type(1) > div > div:nth-of-type(1)",
+          "prop": "background"
+        },
+        {
+          "url": "https://elt.eso.org/?lang",
+          "selector": "body > div:nth-of-type(7) > div:nth-of-type(1) > div > div:nth-of-type(1)",
+          "prop": "background"
+        },
+        {
+          "url": "https://elt.eso.org/about/",
+          "selector": "body > div:nth-of-type(5) > div:nth-of-type(1) > div > div:nth-of-type(1)",
+          "prop": "background"
+        }
+      ]
+    },
+    {
+      "hex": "#666666",
+      "roles": [],
+      "weight": 352,
+      "sources": [
+        {
+          "url": "https://elt.eso.org/",
+          "selector": "body > div:nth-of-type(7) > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(6) > div",
+          "prop": "background"
+        },
+        {
+          "url": "https://elt.eso.org/?lang",
+          "selector": "body > div:nth-of-type(7) > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(6) > div",
+          "prop": "background"
+        },
+        {
+          "url": "https://elt.eso.org/about/",
+          "selector": "body > div:nth-of-type(5) > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(6) > div",
+          "prop": "background"
+        }
+      ]
+    },
+    {
+      "hex": "#2da4f5",
+      "roles": [],
+      "weight": 347,
+      "sources": [
+        {
+          "url": "https://elt.eso.org/instrument/",
+          "selector": "body > div:nth-of-type(3) > div:nth-of-type(1) > div > a > span",
+          "prop": "text"
+        },
+        {
+          "url": "https://elt.eso.org/instrument/ANDES/",
+          "selector": "body > div:nth-of-type(2) > div > div > div:nth-of-type(1)",
+          "prop": "text"
+        },
+        {
+          "url": "https://elt.eso.org/instrument/HARMONI/",
+          "selector": "body > div:nth-of-type(2) > div > div > div:nth-of-type(1)",
+          "prop": "text"
+        }
+      ]
+    },
+    {
+      "hex": "#0bda51",
+      "roles": [],
+      "weight": 168,
+      "sources": [
+        {
+          "url": "https://elt.eso.org/",
+          "selector": "body > div:nth-of-type(7) > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(6) > div > span:nth-of-type(1)",
+          "prop": "background"
+        },
+        {
+          "url": "https://elt.eso.org/?lang",
+          "selector": "body > div:nth-of-type(7) > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(6) > div > span:nth-of-type(1)",
+          "prop": "background"
+        },
+        {
+          "url": "https://elt.eso.org/about/",
+          "selector": "body > div:nth-of-type(5) > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(6) > div > span:nth-of-type(1)",
+          "prop": "background"
+        }
+      ]
+    },
+    {
+      "hex": "#ffffff1a",
+      "roles": [],
+      "weight": 88,
+      "sources": [
+        {
+          "url": "https://elt.eso.org/",
+          "selector": "#top-navbar > button",
+          "prop": "border"
+        },
+        {
+          "url": "https://elt.eso.org/?lang",
+          "selector": "#top-navbar > button",
+          "prop": "border"
+        },
+        {
+          "url": "https://elt.eso.org/about/",
+          "selector": "#top-navbar > button",
+          "prop": "border"
+        }
+      ]
+    },
+    {
+      "hex": "#e88526",
+      "roles": [],
+      "weight": 76,
+      "sources": [
+        {
+          "url": "https://elt.eso.org/science/",
+          "selector": "body > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > a",
+          "prop": "link"
+        },
+        {
+          "url": "https://elt.eso.org/science/",
+          "selector": "body > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > a",
+          "prop": "text"
+        },
+        {
+          "url": "https://elt.eso.org/instrument/",
+          "selector": "body > div:nth-of-type(3) > div:nth-of-type(4) > a",
+          "prop": "link"
+        }
+      ]
+    },
+    {
+      "hex": "#d7d7d7",
+      "roles": [],
+      "weight": 64,
+      "sources": [
+        {
+          "url": "https://elt.eso.org/science/solarsystem/",
+          "selector": "body > div:nth-of-type(9) > table > tbody > tr:nth-of-type(1) > th",
+          "prop": "border"
+        },
+        {
+          "url": "https://elt.eso.org/media/",
+          "selector": "#video-searchstr",
+          "prop": "border"
+        }
+      ]
+    },
+    {
+      "hex": "#ff8c00",
+      "roles": [],
+      "weight": 56,
+      "sources": [
+        {
+          "url": "https://elt.eso.org/about/facts/",
+          "selector": "body > div:nth-of-type(2) > div > div:nth-of-type(1)",
+          "prop": "text"
+        },
+        {
+          "url": "https://elt.eso.org/media/",
+          "selector": "#video-date-link",
+          "prop": "link"
+        },
+        {
+          "url": "https://elt.eso.org/media/",
+          "selector": "#video-date-link",
+          "prop": "text"
+        }
+      ]
+    },
+    {
+      "hex": "#e19600",
+      "roles": [],
+      "weight": 54,
+      "sources": [
+        {
+          "url": "https://elt.eso.org/about/timeline/",
+          "selector": "body > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(1) > div > span",
+          "prop": "text"
+        }
+      ]
+    },
+    {
+      "hex": "#64646466",
+      "roles": [],
+      "weight": 52,
+      "sources": [
+        {
+          "url": "https://elt.eso.org/about/timeline/",
+          "selector": "body > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(2)",
+          "prop": "background"
+        }
+      ]
+    }
+  ],
+  "type": {
+    "families": [
+      {
+        "family": "Helvetica Neue LT ESO",
+        "count": 1987,
+        "headings": 606,
+        "text": 1029,
+        "buttons": 352
+      },
+      {
+        "family": "Helvetica Neue LT ESO Light",
+        "count": 3,
+        "headings": 0,
+        "text": 3,
+        "buttons": 0
+      }
+    ],
+    "headingFamily": "Helvetica Neue LT ESO",
+    "bodyFamily": "Helvetica Neue LT ESO",
+    "sizes": [
+      {
+        "px": 51,
+        "count": 5,
+        "headings": 0,
+        "text": 5,
+        "buttons": 0
+      },
+      {
+        "px": 40,
+        "count": 130,
+        "headings": 130,
+        "text": 0,
+        "buttons": 0
+      },
+      {
+        "px": 34,
+        "count": 3,
+        "headings": 0,
+        "text": 3,
+        "buttons": 0
+      },
+      {
+        "px": 32,
+        "count": 434,
+        "headings": 432,
+        "text": 2,
+        "buttons": 0
+      },
+      {
+        "px": 31,
+        "count": 18,
+        "headings": 0,
+        "text": 18,
+        "buttons": 0
+      },
+      {
+        "px": 28,
+        "count": 27,
+        "headings": 16,
+        "text": 11,
+        "buttons": 0
+      },
+      {
+        "px": 26,
+        "count": 2,
+        "headings": 0,
+        "text": 2,
+        "buttons": 0
+      },
+      {
+        "px": 24.96,
+        "count": 6,
+        "headings": 0,
+        "text": 6,
+        "buttons": 0
+      },
+      {
+        "px": 24,
+        "count": 10,
+        "headings": 10,
+        "text": 0,
+        "buttons": 0
+      },
+      {
+        "px": 22,
+        "count": 16,
+        "headings": 0,
+        "text": 16,
+        "buttons": 0
+      },
+      {
+        "px": 21,
+        "count": 3,
+        "headings": 0,
+        "text": 3,
+        "buttons": 0
+      },
+      {
+        "px": 20.82,
+        "count": 61,
+        "headings": 0,
+        "text": 61,
+        "buttons": 0
+      },
+      {
+        "px": 20,
+        "count": 68,
+        "headings": 0,
+        "text": 24,
+        "buttons": 44
+      },
+      {
+        "px": 19.5,
+        "count": 264,
+        "headings": 9,
+        "text": 255,
+        "buttons": 0
+      },
+      {
+        "px": 19,
+        "count": 29,
+        "headings": 0,
+        "text": 29,
+        "buttons": 0
+      },
+      {
+        "px": 16.45,
+        "count": 6,
+        "headings": 0,
+        "text": 6,
+        "buttons": 0
+      },
+      {
+        "px": 16,
+        "count": 858,
+        "headings": 9,
+        "text": 541,
+        "buttons": 308
+      },
+      {
+        "px": 13,
+        "count": 6,
+        "headings": 0,
+        "text": 6,
+        "buttons": 0
+      },
+      {
+        "px": 4.8,
+        "count": 44,
+        "headings": 0,
+        "text": 44,
+        "buttons": 0
+      }
+    ],
+    "weights": [
+      {
+        "weight": "400",
+        "count": 1232,
+        "headings": 0,
+        "text": 880,
+        "buttons": 352
+      },
+      {
+        "weight": "500",
+        "count": 588,
+        "headings": 588,
+        "text": 0,
+        "buttons": 0
+      },
+      {
+        "weight": "600",
+        "count": 100,
+        "headings": 0,
+        "text": 100,
+        "buttons": 0
+      },
+      {
+        "weight": "700",
+        "count": 70,
+        "headings": 18,
+        "text": 52,
+        "buttons": 0
+      }
+    ],
+    "files": [
+      {
+        "family": "Helvetica Neue LT ESO Light",
+        "weight": 400,
+        "style": "normal",
+        "cut": "35 Thin",
+        "file": "dbdbbd16-cc0e-45cc-aca2-110bab632ce7.1093db3619ee.woff2",
+        "path": "stardust/current/assets/fonts/dbdbbd16-cc0e-45cc-aca2-110bab632ce7.1093db3619ee.woff2",
+        "licensing": "proprietary"
+      },
+      {
+        "family": "Helvetica Neue LT ESO",
+        "weight": 400,
+        "style": "normal",
+        "cut": "45 Light",
+        "file": "05c8135e-5d0b-4822-b8d2-3e344f383a70.9437aea92626.woff2",
+        "path": "stardust/current/assets/fonts/05c8135e-5d0b-4822-b8d2-3e344f383a70.9437aea92626.woff2",
+        "licensing": "proprietary"
+      },
+      {
+        "family": "Helvetica Neue LT ESO",
+        "weight": 400,
+        "style": "italic",
+        "cut": "46 Light Italic",
+        "file": "8218d39f-10f6-4e4d-b084-f35398b31cf2.6c1e2654cd81.woff2",
+        "path": "stardust/current/assets/fonts/8218d39f-10f6-4e4d-b084-f35398b31cf2.6c1e2654cd81.woff2",
+        "licensing": "proprietary"
+      },
+      {
+        "family": "Helvetica Neue LT ESO",
+        "weight": 600,
+        "style": "normal",
+        "cut": "55 Roman",
+        "file": "d16374c2-cd72-48c0-9623-5aadd349654e.6debdb366391.woff2",
+        "path": "stardust/current/assets/fonts/d16374c2-cd72-48c0-9623-5aadd349654e.6debdb366391.woff2",
+        "licensing": "proprietary"
+      },
+      {
+        "family": "Helvetica Neue LT ESO",
+        "weight": 700,
+        "style": "normal",
+        "cut": "65 Medium",
+        "file": "1b94cf39-0593-4601-aa0b-39a06fc7a8dc.2e5dd68dc88d.woff2",
+        "path": "stardust/current/assets/fonts/1b94cf39-0593-4601-aa0b-39a06fc7a8dc.2e5dd68dc88d.woff2",
+        "licensing": "proprietary"
+      }
+    ],
+    "scaleAudit": {
+      "kind": "ad-hoc",
+      "note": "per-breakpoint rem ladders lifted from the stylesheet, not a modular ratio"
+    }
+  },
+  "spacing": {
+    "gutter": "10.5%",
+    "sectionTop": "2rem"
+  },
+  "motifs": {
+    "radius": {
+      "mode": "5px",
+      "areaMode": "5px",
+      "pill": null,
+      "values": [
+        {
+          "value": "5px",
+          "count": 570,
+          "area": 11405006,
+          "sources": [
+            {
+              "url": "https://elt.eso.org/",
+              "selector": "body > div:nth-of-type(7) > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(6) > div"
+            },
+            {
+              "url": "https://elt.eso.org/",
+              "selector": "body > div:nth-of-type(7) > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(6) > div > span:nth-of-type(1)"
+            },
+            {
+              "url": "https://elt.eso.org/",
+              "selector": "body > div:nth-of-type(7) > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(6) > div > span:nth-of-type(2)"
+            },
+            {
+              "url": "https://elt.eso.org/?lang",
+              "selector": "body > div:nth-of-type(7) > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(6) > div"
+            },
+            {
+              "url": "https://elt.eso.org/?lang",
+              "selector": "body > div:nth-of-type(7) > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(6) > div > span:nth-of-type(1)"
+            }
+          ]
+        },
+        {
+          "value": "40px",
+          "count": 304,
+          "area": 1484700,
+          "sources": [
+            {
+              "url": "https://elt.eso.org/",
+              "selector": "body > div:nth-of-type(7) > div:nth-of-type(5) > button:nth-of-type(1)"
+            },
+            {
+              "url": "https://elt.eso.org/",
+              "selector": "body > div:nth-of-type(7) > div:nth-of-type(5) > button:nth-of-type(2)"
+            },
+            {
+              "url": "https://elt.eso.org/",
+              "selector": "body > div:nth-of-type(6) > div:nth-of-type(3) > button:nth-of-type(1)"
+            },
+            {
+              "url": "https://elt.eso.org/",
+              "selector": "body > div:nth-of-type(6) > div:nth-of-type(3) > button:nth-of-type(2)"
+            },
+            {
+              "url": "https://elt.eso.org/",
+              "selector": "body > div:nth-of-type(6) > div:nth-of-type(3) > button:nth-of-type(3)"
+            }
+          ]
+        },
+        {
+          "value": "100%",
+          "count": 48,
+          "area": 8448,
+          "sources": [
+            {
+              "url": "https://elt.eso.org/",
+              "selector": "body > div:nth-of-type(3) > div > div:nth-of-type(4) > span:nth-of-type(1)"
+            },
+            {
+              "url": "https://elt.eso.org/",
+              "selector": "body > div:nth-of-type(3) > div > div:nth-of-type(4) > span:nth-of-type(2)"
+            },
+            {
+              "url": "https://elt.eso.org/",
+              "selector": "body > div:nth-of-type(3) > div > div:nth-of-type(4) > span:nth-of-type(3)"
+            },
+            {
+              "url": "https://elt.eso.org/?lang",
+              "selector": "body > div:nth-of-type(3) > div > div:nth-of-type(4) > span:nth-of-type(1)"
+            },
+            {
+              "url": "https://elt.eso.org/?lang",
+              "selector": "body > div:nth-of-type(3) > div > div:nth-of-type(4) > span:nth-of-type(2)"
+            }
+          ]
+        },
+        {
+          "value": "4px",
+          "count": 45,
+          "area": 100496,
+          "sources": [
+            {
+              "url": "https://elt.eso.org/",
+              "selector": "#top-navbar > button"
+            },
+            {
+              "url": "https://elt.eso.org/?lang",
+              "selector": "#top-navbar > button"
+            },
+            {
+              "url": "https://elt.eso.org/about/",
+              "selector": "#top-navbar > button"
+            },
+            {
+              "url": "https://elt.eso.org/about/facts/",
+              "selector": "#top-navbar > button"
+            },
+            {
+              "url": "https://elt.eso.org/about/faq/",
+              "selector": "#top-navbar > button"
+            }
+          ]
+        },
+        {
+          "value": "10%",
+          "count": 44,
+          "area": 28512,
+          "sources": [
+            {
+              "url": "https://elt.eso.org/",
+              "selector": "body > div:nth-of-type(6) > div:nth-of-type(1)"
+            },
+            {
+              "url": "https://elt.eso.org/?lang",
+              "selector": "body > div:nth-of-type(6) > div:nth-of-type(1)"
+            },
+            {
+              "url": "https://elt.eso.org/about/",
+              "selector": "body > div:nth-of-type(4) > div:nth-of-type(1)"
+            },
+            {
+              "url": "https://elt.eso.org/about/facts/",
+              "selector": "body > div:nth-of-type(7) > div:nth-of-type(1)"
+            },
+            {
+              "url": "https://elt.eso.org/about/faq/",
+              "selector": "body > div:nth-of-type(5) > div:nth-of-type(1)"
+            }
+          ]
+        },
+        {
+          "value": "0px 4px 4px 0px",
+          "count": 4,
+          "area": 6384,
+          "sources": [
+            {
+              "url": "https://elt.eso.org/media/",
+              "selector": "#videoSearchform > div > div > button"
+            },
+            {
+              "url": "https://elt.eso.org/media/",
+              "selector": "#searchform > div > div > button"
+            }
+          ]
+        },
+        {
+          "value": "4px 0px 0px 4px",
+          "count": 4,
+          "area": 31464,
+          "sources": [
+            {
+              "url": "https://elt.eso.org/media/",
+              "selector": "#video-searchstr"
+            },
+            {
+              "url": "https://elt.eso.org/media/",
+              "selector": "#searchstr"
+            }
+          ]
+        },
+        {
+          "value": "14.4px 0px 0px 14.4px",
+          "count": 1,
+          "area": 17280,
+          "sources": [
+            {
+              "url": "https://elt.eso.org/about/timeline/",
+              "selector": "body > div:nth-of-type(3)"
+            }
+          ]
+        },
+        {
+          "value": "9px 0px 0px 9px",
+          "count": 1,
+          "area": 17280,
+          "sources": [
+            {
+              "url": "https://elt.eso.org/about/timeline/",
+              "selector": "body > div:nth-of-type(3)"
+            }
+          ]
+        }
+      ]
+    },
+    "shadows": [
+      {
+        "value": "rgb(204, 204, 204) 0px 2px 4px 0px",
+        "count": 66,
+        "sources": [
+          {
+            "url": "https://elt.eso.org/instrument/ANDES/",
+            "selector": "body > div:nth-of-type(7) > div:nth-of-type(1)"
+          },
+          {
+            "url": "https://elt.eso.org/instrument/ANDES/",
+            "selector": "body > div:nth-of-type(7) > div:nth-of-type(2)"
+          },
+          {
+            "url": "https://elt.eso.org/instrument/ANDES/",
+            "selector": "body > div:nth-of-type(7) > div:nth-of-type(3)"
+          },
+          {
+            "url": "https://elt.eso.org/instrument/HARMONI/",
+            "selector": "body > div:nth-of-type(7) > div:nth-of-type(1)"
+          },
+          {
+            "url": "https://elt.eso.org/instrument/HARMONI/",
+            "selector": "body > div:nth-of-type(7) > div:nth-of-type(2)"
+          }
+        ]
+      },
+      {
+        "value": "rgb(50, 50, 50) 6px 6px 15px 0px",
+        "count": 54,
+        "sources": [
+          {
+            "url": "https://elt.eso.org/about/timeline/",
+            "selector": "body > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(1)"
+          },
+          {
+            "url": "https://elt.eso.org/about/timeline/",
+            "selector": "body > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(2)"
+          },
+          {
+            "url": "https://elt.eso.org/about/timeline/",
+            "selector": "body > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(3)"
+          }
+        ]
+      },
+      {
+        "value": "rgb(51, 51, 51) 5px 5px 10px 3px",
+        "count": 4,
+        "sources": [
+          {
+            "url": "https://elt.eso.org/instrument/MICADO/",
+            "selector": "#science_ > div:nth-of-type(4) > div > div:nth-of-type(1) > a > img"
+          },
+          {
+            "url": "https://elt.eso.org/science/blackholes/",
+            "selector": "#in-other-galaxies_ > div:nth-of-type(5) > div > div:nth-of-type(1) > a > img"
+          }
+        ]
+      }
+    ],
+    "gradients": [
+      {
+        "value": "linear-gradient(rgb(40, 39, 49), rgb(16, 17, 19))",
+        "count": 128,
+        "area": 7975890,
+        "sources": [
+          {
+            "url": "https://elt.eso.org/",
+            "selector": "#top-navbar"
+          },
+          {
+            "url": "https://elt.eso.org/",
+            "selector": "#main-navbar"
+          },
+          {
+            "url": "https://elt.eso.org/?lang",
+            "selector": "#top-navbar"
+          },
+          {
+            "url": "https://elt.eso.org/?lang",
+            "selector": "#main-navbar"
+          },
+          {
+            "url": "https://elt.eso.org/about/",
+            "selector": "#top-navbar"
+          }
+        ]
+      },
+      {
+        "value": "linear-gradient(45deg, rgba(0, 0, 0, 0) 26px, rgba(188, 189, 189, 0.8) 26px)",
+        "count": 12,
+        "area": 57732,
+        "sources": [
+          {
+            "url": "https://elt.eso.org/media/",
+            "selector": "body > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > div > span:nth-of-type(2)"
+          },
+          {
+            "url": "https://elt.eso.org/media/",
+            "selector": "body > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > div > span:nth-of-type(3)"
+          },
+          {
+            "url": "https://elt.eso.org/media/",
+            "selector": "body > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > div > span:nth-of-type(4)"
+          }
+        ]
+      },
+      {
+        "value": "linear-gradient(45deg, rgba(0, 0, 0, 0) 22px, rgba(188, 189, 189, 0.8) 22px)",
+        "count": 10,
+        "area": 23560,
+        "sources": [
+          {
+            "url": "https://elt.eso.org/media/",
+            "selector": "body > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > a > div:nth-of-type(1) > div"
+          },
+          {
+            "url": "https://elt.eso.org/media/",
+            "selector": "body > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(2) > a > div:nth-of-type(1) > div"
+          },
+          {
+            "url": "https://elt.eso.org/media/",
+            "selector": "body > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(3) > a > div:nth-of-type(1) > div"
+          }
+        ]
+      },
+      {
+        "value": "linear-gradient(45deg, rgba(0, 0, 0, 0) 26px, rgba(0, 119, 192, 0.8) 26px)",
+        "count": 2,
+        "area": 3888,
+        "sources": [
+          {
+            "url": "https://elt.eso.org/media/",
+            "selector": "body > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > div > span:nth-of-type(1)"
+          }
+        ]
+      }
+    ]
+  },
+  "componentStyle": {},
+  "hover": [
+    {
+      "kind": "link",
+      "from": {
+        "color": "rgba(255, 255, 255, 0.7)"
+      },
+      "to": {
+        "color": "rgb(255, 255, 255)"
+      },
+      "count": 44,
+      "sources": [
+        {
+          "url": "https://elt.eso.org/",
+          "selector": "#top-navbar > span:nth-of-type(2) > a:nth-of-type(1)"
+        },
+        {
+          "url": "https://elt.eso.org/?lang",
+          "selector": "#top-navbar > span:nth-of-type(2) > a:nth-of-type(1)"
+        },
+        {
+          "url": "https://elt.eso.org/about/",
+          "selector": "#top-navbar > span:nth-of-type(2) > a:nth-of-type(1)"
+        },
+        {
+          "url": "https://elt.eso.org/about/facts/",
+          "selector": "#top-navbar > span:nth-of-type(2) > a:nth-of-type(1)"
+        },
+        {
+          "url": "https://elt.eso.org/about/faq/",
+          "selector": "#top-navbar > span:nth-of-type(2) > a:nth-of-type(1)"
+        }
+      ]
+    },
+    {
+      "kind": "button",
+      "from": {
+        "backgroundColor": "rgb(0, 119, 190)",
+        "color": "rgb(255, 255, 255)",
+        "borderColor": "rgb(255, 255, 255)"
+      },
+      "to": {
+        "backgroundColor": "rgba(0, 119, 190, 0.1)",
+        "color": "rgb(239, 60, 60)",
+        "borderColor": "rgb(239, 60, 60)"
+      },
+      "count": 42,
+      "sources": [
+        {
+          "url": "https://elt.eso.org/",
+          "selector": "body > div:nth-of-type(6) > div:nth-of-type(3) > button:nth-of-type(1)"
+        },
+        {
+          "url": "https://elt.eso.org/?lang",
+          "selector": "body > div:nth-of-type(6) > div:nth-of-type(3) > button:nth-of-type(1)"
+        },
+        {
+          "url": "https://elt.eso.org/about/",
+          "selector": "body > div:nth-of-type(4) > div:nth-of-type(3) > button:nth-of-type(1)"
+        },
+        {
+          "url": "https://elt.eso.org/about/facts/",
+          "selector": "body > div:nth-of-type(7) > div:nth-of-type(3) > button:nth-of-type(1)"
+        },
+        {
+          "url": "https://elt.eso.org/about/faq/",
+          "selector": "body > div:nth-of-type(5) > div:nth-of-type(3) > button:nth-of-type(1)"
+        }
+      ]
+    },
+    {
+      "kind": "link",
+      "from": {
+        "color": "rgba(255, 255, 255, 0.7)"
+      },
+      "to": {
+        "color": "rgba(255, 255, 255, 0.9)"
+      },
+      "count": 42,
+      "sources": [
+        {
+          "url": "https://elt.eso.org/",
+          "selector": "#nav-search > a"
+        },
+        {
+          "url": "https://elt.eso.org/?lang",
+          "selector": "#nav-search > a"
+        },
+        {
+          "url": "https://elt.eso.org/about/",
+          "selector": "#nav-search > a"
+        },
+        {
+          "url": "https://elt.eso.org/about/facts/",
+          "selector": "#nav-search > a"
+        },
+        {
+          "url": "https://elt.eso.org/about/faq/",
+          "selector": "#nav-search > a"
+        }
+      ]
+    },
+    {
+      "kind": "link",
+      "from": {
+        "color": "rgb(255, 255, 255)"
+      },
+      "to": {
+        "color": "rgba(255, 255, 255, 0.9)"
+      },
+      "count": 40,
+      "sources": [
+        {
+          "url": "https://elt.eso.org/",
+          "selector": "#navbarToggler > ul > li:nth-of-type(1) > a"
+        },
+        {
+          "url": "https://elt.eso.org/?lang",
+          "selector": "#navbarToggler > ul > li:nth-of-type(1) > a"
+        },
+        {
+          "url": "https://elt.eso.org/about/",
+          "selector": "#navbarToggler > ul > li:nth-of-type(2) > a"
+        },
+        {
+          "url": "https://elt.eso.org/about/facts/",
+          "selector": "#navbarToggler > ul > li:nth-of-type(2) > a"
+        },
+        {
+          "url": "https://elt.eso.org/about/faq/",
+          "selector": "#navbarToggler > ul > li:nth-of-type(2) > a"
+        }
+      ]
+    },
+    {
+      "kind": "link",
+      "from": {
+        "color": "rgb(45, 164, 245)"
+      },
+      "to": {
+        "color": "rgb(232, 133, 38)"
+      },
+      "count": 22,
+      "sources": [
+        {
+          "url": "https://elt.eso.org/instrument/ANDES/",
+          "selector": "body > div:nth-of-type(2) > div > div > div:nth-of-type(4) > div:nth-of-type(2) > a:nth-of-type(1)"
+        },
+        {
+          "url": "https://elt.eso.org/instrument/HARMONI/",
+          "selector": "body > div:nth-of-type(2) > div > div > div:nth-of-type(4) > div:nth-of-type(2) > a:nth-of-type(1)"
+        },
+        {
+          "url": "https://elt.eso.org/instrument/METIS/",
+          "selector": "body > div:nth-of-type(2) > div > div > div:nth-of-type(4) > div:nth-of-type(2) > a:nth-of-type(1)"
+        },
+        {
+          "url": "https://elt.eso.org/instrument/MICADO/",
+          "selector": "body > div:nth-of-type(2) > div > div > div:nth-of-type(4) > div:nth-of-type(2) > a:nth-of-type(1)"
+        },
+        {
+          "url": "https://elt.eso.org/instrument/MORFEO/",
+          "selector": "body > div:nth-of-type(2) > div > div > div:nth-of-type(4) > div:nth-of-type(2) > a:nth-of-type(1)"
+        }
+      ]
+    },
+    {
+      "kind": "link",
+      "from": {
+        "color": "rgb(0, 119, 190)"
+      },
+      "to": {
+        "color": "rgb(0, 86, 179)"
+      },
+      "count": 14,
+      "sources": [
+        {
+          "url": "https://elt.eso.org/about/",
+          "selector": "body > div:nth-of-type(2) > div:nth-of-type(2) > p:nth-of-type(5) > a"
+        },
+        {
+          "url": "https://elt.eso.org/about/faq/",
+          "selector": "#faq_top > div:nth-of-type(2) > div:nth-of-type(1) > a"
+        },
+        {
+          "url": "https://elt.eso.org/about/faq/",
+          "selector": "#faq_top > div:nth-of-type(2) > div:nth-of-type(1) > a"
+        },
+        {
+          "url": "https://elt.eso.org/about/industrial/",
+          "selector": "div:nth-of-type(3) > div > table > tbody > tr:nth-of-type(2) > td:nth-of-type(1) > p > a"
+        },
+        {
+          "url": "https://elt.eso.org/about/industrial/",
+          "selector": "div:nth-of-type(3) > div > table > tbody > tr:nth-of-type(2) > td:nth-of-type(1) > p > a"
+        }
+      ]
+    },
+    {
+      "kind": "button",
+      "from": {
+        "backgroundColor": "rgb(248, 249, 250)",
+        "borderColor": "rgb(248, 249, 250)"
+      },
+      "to": {
+        "backgroundColor": "rgb(226, 230, 234)",
+        "borderColor": "rgb(218, 224, 229)"
+      },
+      "count": 1,
+      "sources": [
+        {
+          "url": "https://elt.eso.org/media/",
+          "selector": "#videoSearchform > div > div > button"
+        }
+      ]
+    },
+    {
+      "kind": "link",
+      "from": {
+        "color": "rgb(0, 119, 190)"
+      },
+      "to": {
+        "color": "rgb(255, 255, 255)"
+      },
+      "count": 1,
+      "sources": [
+        {
+          "url": "https://elt.eso.org/mirror/",
+          "selector": "body > div:nth-of-type(3) > div:nth-of-type(1) > div > a"
+        }
+      ]
+    }
+  ],
+  "systemComponents": [
+    {
+      "id": "site-header",
+      "selector": "#top-navbar + img.big-header-image + .big-header-text + nav.navbar",
+      "pages": 44
+    },
+    {
+      "id": "site-footer",
+      "selector": "footer.container-footer",
+      "pages": 44
+    },
+    {
+      "id": "consent-banner",
+      "selector": ".privacy-notice, .privacy-settings",
+      "pages": 44
+    }
+  ],
+  "iconFont": {
+    "families": [
+      "Font Awesome 5 Free",
+      "Font Awesome 5 Brands",
+      "Material Icons"
+    ],
+    "census": {
+      "families": [
+        "Font Awesome 5 Brands",
+        "Font Awesome 5 Free",
+        "Material Icons",
+        "swiper-icons"
+      ],
+      "glyphs": [
+        {
+          "class": "fas fa-arrow-down",
+          "pseudo": "::before",
+          "codepoint": "U+F063",
+          "fontFamily": "\"Font Awesome 5 Free\"",
+          "count": 86,
+          "sources": [
+            "https://elt.eso.org/",
+            "https://elt.eso.org/",
+            "https://elt.eso.org/?lang"
+          ]
+        },
+        {
+          "class": "fas fa-times",
+          "pseudo": "::before",
+          "codepoint": "U+F00D",
+          "fontFamily": "\"Font Awesome 5 Free\"",
+          "count": 44,
+          "sources": [
+            "https://elt.eso.org/",
+            "https://elt.eso.org/?lang",
+            "https://elt.eso.org/about/"
+          ]
+        },
+        {
+          "class": "fas fa-download",
+          "pseudo": "::before",
+          "codepoint": "U+F019",
+          "fontFamily": "\"Font Awesome 5 Free\"",
+          "count": 2,
+          "sources": [
+            "https://elt.eso.org/media/",
+            "https://elt.eso.org/media/"
+          ]
+        },
+        {
+          "class": "fas fa-external-link-alt",
+          "pseudo": "::before",
+          "codepoint": "U+F35D",
+          "fontFamily": "\"Font Awesome 5 Free\"",
+          "count": 2,
+          "sources": [
+            "https://elt.eso.org/media/",
+            "https://elt.eso.org/media/"
+          ]
+        },
+        {
+          "class": "fas fa-folder-open",
+          "pseudo": "::before",
+          "codepoint": "U+F07C",
+          "fontFamily": "\"Font Awesome 5 Free\"",
+          "count": 2,
+          "sources": [
+            "https://elt.eso.org/media/",
+            "https://elt.eso.org/media/"
+          ]
+        },
+        {
+          "class": "fas fa-play",
+          "pseudo": "::before",
+          "codepoint": "U+F04B",
+          "fontFamily": "\"Font Awesome 5 Free\"",
+          "count": 2,
+          "sources": [
+            "https://elt.eso.org/media/",
+            "https://elt.eso.org/media/"
+          ]
+        }
+      ]
+    }
+  },
+  "voice": {
+    "heroHeadline": "THE EXTREMELY LARGE TELESCOPE",
+    "heroLede": "The World's Biggest Eye on the Sky",
+    "heroImage": "(home hero image: img.big-header-image)",
+    "heroMedium": {
+      "kind": "swiper-carousel",
+      "selector": ".swiper-container-science"
+    },
+    "ctaSamples": [
+      "Read More",
+      "Accept All"
+    ]
+  },
+  "voiceTable": {},
+  "crossPromo": {},
+  "register": "brand"
+}

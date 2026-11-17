@@ -1,0 +1,46 @@
+{
+  "a": "stardust/replica/gates/all-1440/credits/origin.png",
+  "b": "stardust/replica/gates/all-1440/credits/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 1977,
+    "mode": "overlap"
+  },
+  "heightDelta": 64,
+  "differingPixels": 118434,
+  "pct": 4.16,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/credits/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 5.41,
+  "textBoxes": 107,
+  "textPixels": 651957,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.2
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 1.5
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 3
+    },
+    {
+      "y0": 1500,
+      "y1": 1977,
+      "pct": 12.4
+    }
+  ],
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--26c59ee1--aemcoder.aem.page/credits"
+  }
+}

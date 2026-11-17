@@ -1,0 +1,6183 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-14T03:09:08.340Z",
+  "width": 1440,
+  "variable": [
+   ".privacy-notice",
+   ".privacy-settings"
+  ],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://elt.eso.org/science/cosmodm/",
+  "at": "2026-11-14T03:08:45.698Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 7311,
+  "root": "img.big-header-image.d-block",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "span.navbar-brand.ml-xl-5 > div.d-block > a",
+    "x": 64,
+    "y": 11,
+    "w": 70,
+    "h": 24,
+    "text": "",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.d-block > a > img.navbar-eso-logo",
+    "x": 64,
+    "y": 0,
+    "w": 38,
+    "h": 50,
+    "text": "",
+    "file": "eso_logo"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul#navbar-flags > li.nav-item.text-center > div.choose-language-message.dropdown-toggle",
+    "x": 596,
+    "y": 15,
+    "w": 143,
+    "h": 19,
+    "text": "Choose your language"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.navbar-nav.ml-auto > li.nav-item_.menu-item_ > a",
+    "x": 1121,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on facebook",
+    "href": "/ESOAstronomy"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "li.nav-item_.menu-item_ > a > img.desktop-top-sm-element",
+    "x": 1121,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on facebook",
+    "file": "icon_topbar_mobile_1"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.navbar-nav.ml-auto > li.nav-item_.menu-item_ > a",
+    "x": 1184,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on instagram",
+    "href": "/esoastronomy/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "li.nav-item_.menu-item_ > a > img.desktop-top-sm-element",
+    "x": 1184,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on instagram",
+    "file": "icon_topbar_mobile_3"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.navbar-nav.ml-auto > li.nav-item_.menu-item_ > a",
+    "x": 1246,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on linkedin",
+    "href": "/company/european-southern-observatory"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "li.nav-item_.menu-item_ > a > img.desktop-top-sm-element",
+    "x": 1246,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on linkedin",
+    "file": "icon_topbar_mobile_4"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.navbar-nav.ml-auto > li.nav-item_.menu-item_ > a",
+    "x": 1309,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on youtube",
+    "href": "/channel/UCIhYoC2VIAJqCkoIWNHBQ3Q"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "li.nav-item_.menu-item_ > a > img.desktop-top-sm-element",
+    "x": 1309,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on youtube",
+    "file": "icon_topbar_mobile_5"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.navbar-nav.ml-auto > li#nav-search > a.nav-link",
+    "x": 1370,
+    "y": 2,
+    "w": 40,
+    "h": 47,
+    "text": "search",
+    "href": "/science/cosmodm/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "img.big-header-image.d-block",
+    "x": 0,
+    "y": 50,
+    "w": 1440,
+    "h": 675,
+    "text": "",
+    "file": "header-science-cosmology"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#big-header > div.position-absolute.d-lg-block_ > img.big-header-eso-logo",
+    "x": 151,
+    "y": 118,
+    "w": 78,
+    "h": 102,
+    "text": "",
+    "file": "eso_logo_transparent"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#big-header > div.position-absolute.d-lg-block_ > p.esologo-text",
+    "x": 151,
+    "y": 224,
+    "w": 435,
+    "h": 79,
+    "text": "European Southern Observatory"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#big-header > div.position-absolute.big-header-title",
+    "x": 151,
+    "y": 550,
+    "w": 1138,
+    "h": 80,
+    "text": "Science with the ELT"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.navbar-nav.mx-auto > li.nav-home.nav-item > a.nav-link",
+    "x": 231,
+    "y": 739,
+    "w": 92,
+    "h": 40,
+    "text": "elt home",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.navbar-nav.mx-auto > li.nav-about.nav-item > a.nav-link",
+    "x": 353,
+    "y": 739,
+    "w": 68,
+    "h": 40,
+    "text": "about",
+    "href": "/about/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.navbar-nav.mx-auto > li.nav-telescope.nav-item > a.nav-link",
+    "x": 451,
+    "y": 739,
+    "w": 105,
+    "h": 40,
+    "text": "telescope",
+    "href": "/telescope/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.navbar-nav.mx-auto > li.nav-instruments.nav-item > a.nav-link",
+    "x": 586,
+    "y": 739,
+    "w": 124,
+    "h": 40,
+    "text": "instruments",
+    "href": "/instrument/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.navbar-nav.mx-auto > li.nav-science.nav-item > a.nav-link",
+    "x": 740,
+    "y": 739,
+    "w": 82,
+    "h": 40,
+    "text": "science",
+    "href": "/science/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.navbar-nav.mx-auto > li.nav-multimedia.nav-item > a.nav-link",
+    "x": 852,
+    "y": 739,
+    "w": 171,
+    "h": 40,
+    "text": "news & multimedia",
+    "href": "/media/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.navbar-nav.mx-auto > li.nav-success-buildingon.nav-item > a.nav-link",
+    "x": 1053,
+    "y": 739,
+    "w": 157,
+    "h": 40,
+    "text": "success stories",
+    "href": "/success/buildingon/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-fluid.container-dark > img.d-block.h-100",
+    "x": 0,
+    "y": 794,
+    "w": 1440,
+    "h": 675,
+    "text": "",
+    "file": "subheader-science-cosmology"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.position-absolute.science-header-textblock > div.d-flex.flex-column > div.header-title",
+    "x": 151,
+    "y": 806,
+    "w": 1289,
+    "h": 54,
+    "text": "Cosmology and Dark Matter"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.d-flex.flex-column > div.d-none.d-xl-block > p",
+    "x": 151,
+    "y": 885,
+    "w": 451,
+    "h": 176,
+    "text": "What we see around us — the planets, stars and dust in between them — makes up j"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.d-flex.flex-column > div.d-none.d-xxl-block > p",
+    "x": 151,
+    "y": 1102,
+    "w": 451,
+    "h": 256,
+    "text": "The rest is invisible dark matter and a mysterious dark energy that is thought t"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.d-flex.flex-column > div.d-block.header-quick-links > div",
+    "x": 151,
+    "y": 1399,
+    "w": 1153,
+    "h": 29,
+    "text": "Quick Links:"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.d-block.header-quick-links > div.instrument-link-color > a.instrument-link-color.instrument-link",
+    "x": 151,
+    "y": 1430,
+    "w": 97,
+    "h": 23,
+    "text": "cosmology",
+    "href": "/science/cosmodm/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.d-block.header-quick-links > div.instrument-link-color > a.instrument-link-color.instrument-link",
+    "x": 263,
+    "y": 1430,
+    "w": 100,
+    "h": 23,
+    "text": "dark matter",
+    "href": "/science/cosmodm/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-fluid.container-light > div.container-paragraph.section-title-paragraph > div",
+    "x": 151,
+    "y": 1517,
+    "w": 172,
+    "h": 48,
+    "text": "In a nutshell"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-paragraph.section-title-paragraph > div.d-flex > a.share-social-media-link.share-social-media-icons",
+    "x": 1200,
+    "y": 1518,
+    "w": 42,
+    "h": 46,
+    "text": "share on facebook",
+    "href": "/sharer/sharer.php"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.d-flex > a.share-social-media-link.share-social-media-icons > img",
+    "x": 1204,
+    "y": 1527,
+    "w": 33,
+    "h": 33,
+    "text": "share on facebook",
+    "file": "icon_share_1"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "span.position-relative.d-flex > span.share-social-media.share-social-media-icons > img.share-social-media",
+    "x": 1249,
+    "y": 1527,
+    "w": 34,
+    "h": 33,
+    "text": "",
+    "file": "icon_share_3"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-fluid.container-light > div.container-paragraph.section-text-paragraph > p",
+    "x": 151,
+    "y": 1612,
+    "w": 1138,
+    "h": 180,
+    "text": "Galaxies rotate fast. So fast that the gravity generated by stars, dust and gas "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-fluid.container-light > div.container-paragraph.section-text-paragraph > p",
+    "x": 151,
+    "y": 1809,
+    "w": 1138,
+    "h": 180,
+    "text": "Dark matter makes up around a quarter of the Universe, but the even more mysteri"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-fluid.container-light > div.container-paragraph.section-text-paragraph > p",
+    "x": 151,
+    "y": 2005,
+    "w": 1138,
+    "h": 180,
+    "text": "This discovery profoundly changed cosmology because it suggested that there is a"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-fluid.container-light > div.container-paragraph.section-text-paragraph > p",
+    "x": 151,
+    "y": 2201,
+    "w": 1138,
+    "h": 180,
+    "text": "Ironically, the simplest form of such a dark energy is the cosmological constant"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-fluid.container-light > div.container-paragraph.section-text-paragraph > p",
+    "x": 151,
+    "y": 2398,
+    "w": 1138,
+    "h": 114,
+    "text": "The ELT will provide unique contributions towards deciding whether general relat"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.row.d-flex > div.col-lg-6.p-0 > a",
+    "x": 0,
+    "y": 2726,
+    "w": 720,
+    "h": 19,
+    "text": "",
+    "href": "/science/cosmodm/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.col-lg-6.p-0 > a > img.w-100",
+    "x": 0,
+    "y": 2568,
+    "w": 720,
+    "h": 338,
+    "text": "",
+    "file": "science-cosmology-watching"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.col-lg-6.p-0 > span.position-absolute.internal-menu-title > a",
+    "x": 76,
+    "y": 2780,
+    "w": 478,
+    "h": 87,
+    "text": "cosmology: watching the universe expand",
+    "href": "/science/cosmodm/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.col-lg-6.pb-3 > div.internal-menu-text > p",
+    "x": 783,
+    "y": 2695,
+    "w": 593,
+    "h": 68,
+    "text": "The ELT will revolutionise the way we measure the acceleration of the Universe a"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.col-lg-6.pb-3 > div.position-absolute.d-none > a",
+    "x": 780,
+    "y": 2862,
+    "w": 96,
+    "h": 29,
+    "text": "read more",
+    "href": "/science/cosmodm/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.col-lg-6.pb-3 > div.internal-menu-text > p",
+    "x": 63,
+    "y": 3015,
+    "w": 593,
+    "h": 101,
+    "text": "The ELT will also help us gather clues about the other component of the dark Uni"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.col-lg-6.pb-3 > div.position-absolute.d-none > a",
+    "x": 60,
+    "y": 3200,
+    "w": 96,
+    "h": 29,
+    "text": "read more",
+    "href": "/science/cosmodm/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.row.d-flex > div.col-lg-6.p-0 > a",
+    "x": 720,
+    "y": 3063,
+    "w": 720,
+    "h": 19,
+    "text": "",
+    "href": "/science/cosmodm/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.col-lg-6.p-0 > a > img.w-100",
+    "x": 720,
+    "y": 2905,
+    "w": 720,
+    "h": 338,
+    "text": "",
+    "file": "science-cosmology-dark"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.col-lg-6.p-0 > span.position-absolute.internal-menu-title > a",
+    "x": 796,
+    "y": 3165,
+    "w": 162,
+    "h": 39,
+    "text": "dark matter",
+    "href": "/science/cosmodm/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#watching-the-universe-expand_ > div.container-paragraph.section-title-paragraph",
+    "x": 0,
+    "y": 3275,
+    "w": 1440,
+    "h": 104,
+    "text": "Cosmology: watching the Universe expand"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.row.w-100 > div.col-lg-12.p-0 > a.d-flex.align-items-center",
+    "x": 0,
+    "y": 3379,
+    "w": 1440,
+    "h": 784,
+    "text": "",
+    "href": "/public/images/science-cosmology-banner1/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.col-lg-12.p-0 > a.d-flex.align-items-center > img",
+    "x": 0,
+    "y": 3379,
+    "w": 1440,
+    "h": 784,
+    "text": "",
+    "file": "science-cosmology-banner1"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-heading > span.section-heading-paragraph > p",
+    "x": 151,
+    "y": 4177,
+    "w": 1138,
+    "h": 114,
+    "text": "To understand our Universe we need to understand what’s driving its acceleration"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#watching-the-universe-expand_ > div.container-paragraph.section-text-paragraph > p",
+    "x": 151,
+    "y": 4315,
+    "w": 1138,
+    "h": 147,
+    "text": "Standard probes of the expansion of the Universe include weak gravitational lens"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#watching-the-universe-expand_ > div.container-paragraph.section-text-paragraph > p",
+    "x": 151,
+    "y": 4478,
+    "w": 1138,
+    "h": 81,
+    "text": "But the ESO telescope will also map the expansion history of the Universe using "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#watching-the-universe-expand_ > div.container-paragraph.section-text-paragraph > p",
+    "x": 151,
+    "y": 4576,
+    "w": 1138,
+    "h": 345,
+    "text": "Extracting information about the Universe’s expansion from standard probes relie"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#watching-the-universe-expand_ > div.container-paragraph.section-text-paragraph > p",
+    "x": 151,
+    "y": 4937,
+    "w": 1138,
+    "h": 147,
+    "text": "Astronomers will use the redshift drift method with the ELT’s instrument to dete"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-paragraph.section-text-paragraph > p > a",
+    "x": 658,
+    "y": 4949,
+    "w": 63,
+    "h": 24,
+    "text": "andes",
+    "href": "/instrument/ANDES/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#watching-the-universe-expand_ > div.container-paragraph.section-text-paragraph > p",
+    "x": 151,
+    "y": 5100,
+    "w": 1138,
+    "h": 147,
+    "text": "Apart from the fundamental conceptual importance of directly observing the Unive"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.row.w-100 > div.col-lg-12.p-0 > a.d-flex.align-items-center",
+    "x": 0,
+    "y": 5271,
+    "w": 1440,
+    "h": 433,
+    "text": "",
+    "href": "/public/images/constrainig-power-redshiftdrift/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.col-lg-12.p-0 > a.d-flex.align-items-center > img",
+    "x": 432,
+    "y": 5271,
+    "w": 576,
+    "h": 433,
+    "text": "",
+    "file": "constrainig-power-redshiftdrift"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.row.w-100 > div.col-lg-12.pt-3 > p",
+    "x": 15,
+    "y": 5720,
+    "w": 1410,
+    "h": 48,
+    "text": "Illustrating the constraining power of redshift drift measurements by the ELT fo"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div#dark-matter_ > div.container-paragraph.section-title-paragraph",
+    "x": 0,
+    "y": 5831,
+    "w": 1440,
+    "h": 104,
+    "text": "Dark matter"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.row.w-100 > div.col-lg-12.p-0 > a.d-flex.align-items-center",
+    "x": 0,
+    "y": 5935,
+    "w": 1440,
+    "h": 418,
+    "text": "",
+    "href": "/public/images/eso1212c/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.col-lg-12.p-0 > a.d-flex.align-items-center > img",
+    "x": 0,
+    "y": 5935,
+    "w": 1440,
+    "h": 418,
+    "text": "",
+    "file": "science-cosmology-banner3"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-heading > span.section-heading-paragraph > p",
+    "x": 151,
+    "y": 6367,
+    "w": 1138,
+    "h": 81,
+    "text": "The ELT will also help us gather clues about the other component of the dark Uni"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.d-none.d-lg-flex > div > a",
+    "x": 151,
+    "y": 6464,
+    "w": 375,
+    "h": 411,
+    "text": "",
+    "href": "/public/images/eso1217a/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div > a > img.w-100.d-block",
+    "x": 151,
+    "y": 6464,
+    "w": 375,
+    "h": 411,
+    "text": "",
+    "file": "science-cosmology-eso1217a"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.d-none.d-lg-flex > div > div.px-3_.pt-3",
+    "x": 151,
+    "y": 6875,
+    "w": 375,
+    "h": 106,
+    "text": "Artist’s impression of the expected dark matter distribution around the Milky Wa"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-paragraph.float-text > span > p",
+    "x": 151,
+    "y": 6456,
+    "w": 1138,
+    "h": 472,
+    "text": "Astrophysical evidence for dark matter halos around galaxies first emerged in th"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "span > p > a",
+    "x": 1157,
+    "y": 6660,
+    "w": 73,
+    "h": 24,
+    "text": "sinfoni",
+    "href": "/public/teles-instr/paranal-observatory/vlt/vlt-instr/sinfoni/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "span > p > a",
+    "x": 575,
+    "y": 6693,
+    "w": 56,
+    "h": 24,
+    "text": "kmos",
+    "href": "/public/teles-instr/paranal-observatory/vlt/vlt-instr/kmos/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "span > p > a",
+    "x": 766,
+    "y": 6693,
+    "w": 237,
+    "h": 24,
+    "text": "eso’s very large telescope",
+    "href": "/public/teles-instr/paranal-observatory/vlt/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.container-paragraph.float-text > span > p",
+    "x": 151,
+    "y": 6936,
+    "w": 1138,
+    "h": 305,
+    "text": "The ELT’s HARMONI will be the first instrument able to reach the spatial resolut"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "footer.container-fluid.container-footer > div.row.d-flex > div.col-12.col-lg-3",
+    "x": -15,
+    "y": 7273,
+    "w": 360,
+    "h": 22,
+    "text": "| ELT ©"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.row.d-flex > div.col-12.col-lg-3 > a",
+    "x": 109,
+    "y": 7273,
+    "w": 29,
+    "h": 22,
+    "text": "eso",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.row.d-flex > div.col-12.col-lg-9 > div.text-center",
+    "x": 464,
+    "y": 7273,
+    "w": 842,
+    "h": 22,
+    "text": "| | | | |"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-lg-9 > div.text-center > a.w-100",
+    "x": 464,
+    "y": 7275,
+    "w": 49,
+    "h": 18,
+    "text": "credits",
+    "href": "/credits/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-lg-9 > div.text-center > a.w-100",
+    "x": 537,
+    "y": 7275,
+    "w": 74,
+    "h": 18,
+    "text": "contact us",
+    "href": "information@eso.org"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-lg-9 > div.text-center > a.w-100",
+    "x": 634,
+    "y": 7275,
+    "w": 155,
+    "h": 18,
+    "text": "subscribe to eso news",
+    "href": "/public/outreach/newsletters/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-lg-9 > div.text-center > a.w-100",
+    "x": 813,
+    "y": 7275,
+    "w": 149,
+    "h": 18,
+    "text": "accelerated by cdn77",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-lg-9 > div.text-center > a.w-100",
+    "x": 986,
+    "y": 7275,
+    "w": 128,
+    "h": 18,
+    "text": "terms & conditions",
+    "href": "/public/about-eso/privacy/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.col-12.col-lg-9 > div.text-center > a.w-100",
+    "x": 1137,
+    "y": 7275,
+    "w": 169,
+    "h": 18,
+    "text": "cookie settings and policy",
+    "href": "/science/cosmodm/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-notice > h1",
+    "x": 16,
+    "y": 1544,
+    "w": 1408,
+    "h": 48,
+    "level": 1,
+    "text": "our use of cookies"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-container.centered-container > div.privacy-text-element > p",
+    "x": 49,
+    "y": 1600,
+    "w": 640,
+    "h": 96,
+    "text": "We use cookies that are essential for accessing our websites and using our servi"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-notice > div.privacy-container.centered-container > div.privacy-text-element",
+    "x": 751,
+    "y": 1600,
+    "w": 640,
+    "h": 112,
+    "text": "You can manage your cookie preferences and find out more by visiting 'Cookie Set"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-notice > div.centered-container > button.privacy-button.accept-all",
+    "x": 372,
+    "y": 1728,
+    "w": 101,
+    "h": 40,
+    "text": "accept all"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-notice > div.centered-container > button.privacy-button.reject-all",
+    "x": 542,
+    "y": 1728,
+    "w": 242,
+    "h": 40,
+    "text": "accept only essential cookies"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-notice > div.centered-container > button.privacy-button.settings",
+    "x": 852,
+    "y": 1728,
+    "w": 216,
+    "h": 40,
+    "text": "cookie settings and policy"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > h1",
+    "x": 176,
+    "y": 1006,
+    "w": 1088,
+    "h": 48,
+    "level": 1,
+    "text": "eso cookies policy"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 176,
+    "y": 1086,
+    "w": 1088,
+    "h": 72,
+    "text": "The European Organisation for Astronomical Research in the Southern Hemisphere ("
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 176,
+    "y": 1174,
+    "w": 1088,
+    "h": 48,
+    "text": "This Cookies Policy is intended to provide clarity by outlining the cookies used"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > h2",
+    "x": 176,
+    "y": 1238,
+    "w": 1088,
+    "h": 38,
+    "level": 2,
+    "text": "what are cookies?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 176,
+    "y": 1284,
+    "w": 1088,
+    "h": 48,
+    "text": "Cookies are small pieces of data stored on your device by websites you visit. Th"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > h2",
+    "x": 176,
+    "y": 1348,
+    "w": 1088,
+    "h": 38,
+    "level": 2,
+    "text": "categories of cookies we use"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 176,
+    "y": 1395,
+    "w": 1088,
+    "h": 72,
+    "text": ": These cookies are strictly necessary for the proper functioning of our website"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 176,
+    "y": 1483,
+    "w": 238,
+    "h": 88,
+    "text": "Cookie ID/Name"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 414,
+    "y": 1483,
+    "w": 340,
+    "h": 88,
+    "text": "Description/Purpose"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 754,
+    "y": 1483,
+    "w": 170,
+    "h": 88,
+    "text": "Provider (1 party or 3 party)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 924,
+    "y": 1483,
+    "w": 170,
+    "h": 88,
+    "text": "Browser session cookie or Stored cookie?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 1094,
+    "y": 1483,
+    "w": 170,
+    "h": 88,
+    "text": "Duration"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 176,
+    "y": 1571,
+    "w": 238,
+    "h": 88,
+    "text": "csrftoken"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 414,
+    "y": 1571,
+    "w": 340,
+    "h": 88,
+    "text": "XSRF protection token. We use this cookie to protect against cross-site request "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 754,
+    "y": 1571,
+    "w": 170,
+    "h": 88,
+    "text": "1 party"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 924,
+    "y": 1571,
+    "w": 170,
+    "h": 88,
+    "text": "Stored"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 1094,
+    "y": 1571,
+    "w": 170,
+    "h": 88,
+    "text": "1 year"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 176,
+    "y": 1659,
+    "w": 238,
+    "h": 64,
+    "text": "user_privacy"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 414,
+    "y": 1659,
+    "w": 340,
+    "h": 64,
+    "text": "Your privacy choices. We use this cookie to save your privacy preferences."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 754,
+    "y": 1659,
+    "w": 170,
+    "h": 64,
+    "text": "1 party"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 924,
+    "y": 1659,
+    "w": 170,
+    "h": 64,
+    "text": "Stored"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 1094,
+    "y": 1659,
+    "w": 170,
+    "h": 64,
+    "text": "6 months"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 176,
+    "y": 1739,
+    "w": 1088,
+    "h": 72,
+    "text": ": These cookies enhance your browsing experience by enabling additional features"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row-choice.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 176,
+    "y": 1827,
+    "w": 206,
+    "h": 88,
+    "text": "Cookie ID/Name"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row-choice.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 382,
+    "y": 1827,
+    "w": 294,
+    "h": 88,
+    "text": "Description/Purpose"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row-choice.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 676,
+    "y": 1827,
+    "w": 147,
+    "h": 88,
+    "text": "Provider (1 party or 3 party)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row-choice.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 823,
+    "y": 1827,
+    "w": 147,
+    "h": 88,
+    "text": "Browser session cookie or Stored cookie?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row-choice.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 970,
+    "y": 1827,
+    "w": 147,
+    "h": 88,
+    "text": "Duration"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row-choice.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 1117,
+    "y": 1827,
+    "w": 147,
+    "h": 88,
+    "text": "Settings"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row-choice > div.cookies-table-cell",
+    "x": 176,
+    "y": 1915,
+    "w": 206,
+    "h": 88,
+    "text": "preferred_language"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row-choice > div.cookies-table-cell",
+    "x": 382,
+    "y": 1915,
+    "w": 294,
+    "h": 88,
+    "text": "Language settings. We use this cookie to remember your preferred language settin"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row-choice > div.cookies-table-cell",
+    "x": 676,
+    "y": 1915,
+    "w": 147,
+    "h": 88,
+    "text": "1 party"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row-choice > div.cookies-table-cell",
+    "x": 823,
+    "y": 1915,
+    "w": 147,
+    "h": 88,
+    "text": "Stored"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row-choice > div.cookies-table-cell",
+    "x": 970,
+    "y": 1915,
+    "w": 147,
+    "h": 88,
+    "text": "1 year"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table-cell > div.privacy-setting-toggle.privacy-language > span.privacy-option.privacy-option-off",
+    "x": 1175,
+    "y": 1926,
+    "w": 39,
+    "h": 21,
+    "text": "OFF"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 176,
+    "y": 2019,
+    "w": 1088,
+    "h": 72,
+    "text": ": These cookies collect information about how visitors interact with our website"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p > span",
+    "x": 208,
+    "y": 2109,
+    "w": 126,
+    "h": 19,
+    "text": "Matomo Cookies"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 176,
+    "y": 2147,
+    "w": 1088,
+    "h": 96,
+    "text": "This website uses Matomo (formerly Piwik), an open source software which enables"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 176,
+    "y": 2259,
+    "w": 1088,
+    "h": 48,
+    "text": "On behalf of ESO, Matomo will use this information for the purpose of evaluating"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > div.privacy-setting-toggle.privacy-matomo > span.privacy-option.privacy-option-off",
+    "x": 1205,
+    "y": 2326,
+    "w": 39,
+    "h": 21,
+    "text": "OFF"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 176,
+    "y": 2323,
+    "w": 1088,
+    "h": 24,
+    "text": "Matomo cookies settings:"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 176,
+    "y": 2363,
+    "w": 238,
+    "h": 88,
+    "text": "Cookie ID/Name"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 414,
+    "y": 2363,
+    "w": 340,
+    "h": 88,
+    "text": "Description/Purpose"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 754,
+    "y": 2363,
+    "w": 170,
+    "h": 88,
+    "text": "Provider (1 party or 3 party)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 924,
+    "y": 2363,
+    "w": 170,
+    "h": 88,
+    "text": "Browser session cookie or Stored cookie?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 1094,
+    "y": 2363,
+    "w": 170,
+    "h": 88,
+    "text": "Duration"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+    "x": 176,
+    "y": 2451,
+    "w": 238,
+    "h": 40,
+    "text": "Settings"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 176,
+    "y": 2491,
+    "w": 238,
+    "h": 40,
+    "text": "_pk_id"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 414,
+    "y": 2491,
+    "w": 340,
+    "h": 40,
+    "text": "Stores a unique visitor ID."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 754,
+    "y": 2491,
+    "w": 170,
+    "h": 40,
+    "text": "1 party"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 924,
+    "y": 2491,
+    "w": 170,
+    "h": 40,
+    "text": "Stored"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 1094,
+    "y": 2491,
+    "w": 170,
+    "h": 40,
+    "text": "13 months"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 176,
+    "y": 2531,
+    "w": 238,
+    "h": 64,
+    "text": "_pk_ses"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 414,
+    "y": 2531,
+    "w": 340,
+    "h": 64,
+    "text": "Session cookie temporarily stores data for the visit."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 754,
+    "y": 2531,
+    "w": 170,
+    "h": 64,
+    "text": "1 party"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 924,
+    "y": 2531,
+    "w": 170,
+    "h": 64,
+    "text": "Stored"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 1094,
+    "y": 2531,
+    "w": 170,
+    "h": 64,
+    "text": "30 minutes"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 176,
+    "y": 2595,
+    "w": 238,
+    "h": 64,
+    "text": "_pk_ref"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 414,
+    "y": 2595,
+    "w": 340,
+    "h": 64,
+    "text": "Stores attribution information (the referrer that brought the visitor to the web"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 754,
+    "y": 2595,
+    "w": 170,
+    "h": 64,
+    "text": "1 party"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 924,
+    "y": 2595,
+    "w": 170,
+    "h": 64,
+    "text": "Stored"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 1094,
+    "y": 2595,
+    "w": 170,
+    "h": 64,
+    "text": "6 months"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 176,
+    "y": 2659,
+    "w": 238,
+    "h": 112,
+    "text": "_pk_testcookie"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 414,
+    "y": 2659,
+    "w": 340,
+    "h": 112,
+    "text": "Temporary cookie to check if a visitor’s browser supports cookies (set in Intern"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 754,
+    "y": 2659,
+    "w": 170,
+    "h": 112,
+    "text": "1 party"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 924,
+    "y": 2659,
+    "w": 170,
+    "h": 112,
+    "text": "Stored"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.cookies-table > div.cookies-table-row > div.cookies-table-cell",
+    "x": 1094,
+    "y": 2659,
+    "w": 170,
+    "h": 112,
+    "text": "Temporary cookie that expires almost immediately after being set."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 176,
+    "y": 2787,
+    "w": 1088,
+    "h": 24,
+    "text": ": some of our pages display content from external providers, e.g. YouTube."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 176,
+    "y": 2827,
+    "w": 1088,
+    "h": 24,
+    "text": "Such third-party services are outside of ESO control and may, at any time, chang"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 176,
+    "y": 2867,
+    "w": 1088,
+    "h": 72,
+    "text": ": Some videos on the ESO website are embedded from . We have enabled YouTube’s p"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p > a",
+    "x": 176,
+    "y": 2869,
+    "w": 59,
+    "h": 19,
+    "text": "youtube",
+    "href": "/t/terms"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p > a",
+    "x": 620,
+    "y": 2869,
+    "w": 211,
+    "h": 19,
+    "text": "eso’s official youtube channel",
+    "href": "/channel/UCIhYoC2VIAJqCkoIWNHBQ3Q"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p > a",
+    "x": 856,
+    "y": 2917,
+    "w": 247,
+    "h": 19,
+    "text": "embedding videos information page",
+    "href": "/youtube/answer/171780"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 176,
+    "y": 2955,
+    "w": 1088,
+    "h": 24,
+    "text": "Cookies can also be classified based on the following elements."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 176,
+    "y": 2995,
+    "w": 1088,
+    "h": 24,
+    "text": "Regarding the domain, there are:"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > ul.ul-privacy > li",
+    "x": 216,
+    "y": 3035,
+    "w": 1048,
+    "h": 48,
+    "text": ", set by the website you are currently visiting. They are stored by the same dom"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > ul.ul-privacy > li",
+    "x": 216,
+    "y": 3083,
+    "w": 1048,
+    "h": 24,
+    "text": ", set by a domain other than the one you are currently visiting."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 176,
+    "y": 3123,
+    "w": 1088,
+    "h": 24,
+    "text": "As for their duration, cookies can be:"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > ul.ul-privacy > li",
+    "x": 216,
+    "y": 3163,
+    "w": 1048,
+    "h": 24,
+    "text": ", which are deleted when the user closes the browser;"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > ul.ul-privacy > li",
+    "x": 216,
+    "y": 3187,
+    "w": 1048,
+    "h": 24,
+    "text": ", which stay on the user's device for a predetermined period of time."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > h2",
+    "x": 176,
+    "y": 3227,
+    "w": 1088,
+    "h": 38,
+    "level": 2,
+    "text": "how to manage cookies"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 176,
+    "y": 3273,
+    "w": 1088,
+    "h": 24,
+    "text": ": You can modify your cookie choices for the ESO webpages at any time by clickin"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 176,
+    "y": 3313,
+    "w": 1088,
+    "h": 24,
+    "text": ": If you wish to delete cookies or instruct your browser to delete or block cook"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.ul-privacy > li > a",
+    "x": 216,
+    "y": 3355,
+    "w": 39,
+    "h": 19,
+    "text": "brave",
+    "href": "/hc/en-us/signin"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.ul-privacy > li > a",
+    "x": 216,
+    "y": 3379,
+    "w": 55,
+    "h": 19,
+    "text": "chrome",
+    "href": "/chrome/bin/answer.py"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.ul-privacy > li > a",
+    "x": 216,
+    "y": 3403,
+    "w": 36,
+    "h": 19,
+    "text": "edge",
+    "href": "/en-us/windows/manage-cookies-in-microsoft-edge-view-allow-block-delete-and-use-168dab11-0753-043d-7c16-ede5947fc64d"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.ul-privacy > li > a",
+    "x": 216,
+    "y": 3427,
+    "w": 45,
+    "h": 19,
+    "text": "firefox",
+    "href": "/en-US/kb/Blocking%20cookies"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.ul-privacy > li > a",
+    "x": 216,
+    "y": 3451,
+    "w": 39,
+    "h": 19,
+    "text": "safari",
+    "href": "/article.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 176,
+    "y": 3489,
+    "w": 1088,
+    "h": 48,
+    "text": "Please be aware that if you delete or decline cookies, certain functionalities o"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 176,
+    "y": 3553,
+    "w": 1088,
+    "h": 48,
+    "text": "You can set most browsers to prevent any cookies being placed on your device, bu"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > h2",
+    "x": 176,
+    "y": 3617,
+    "w": 1088,
+    "h": 38,
+    "level": 2,
+    "text": "updates to the eso cookies policy"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 176,
+    "y": 3664,
+    "w": 1088,
+    "h": 24,
+    "text": "The ESO Cookies Policy may be subject to future updates, which will be made avai"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > h2",
+    "x": 176,
+    "y": 3704,
+    "w": 1088,
+    "h": 38,
+    "level": 2,
+    "text": "additional information"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 176,
+    "y": 3750,
+    "w": 1088,
+    "h": 24,
+    "text": "For any queries related to cookies, please contact: pdprATesoDOTorg."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > p",
+    "x": 176,
+    "y": 3790,
+    "w": 1088,
+    "h": 24,
+    "text": "As ESO public webpages are managed by our Department of Communication, your ques"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > div.centered-container > button.privacy-button.save-settings",
+    "x": 208,
+    "y": 3846,
+    "w": 66,
+    "h": 40,
+    "text": "save"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": true,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.privacy-settings > div.centered-container > button.privacy-button.cancel-settings",
+    "x": 343,
+    "y": 3846,
+    "w": 80,
+    "h": 40,
+    "text": "cancel"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 121,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 223,
+    "controls": 50,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 30,
+     "clipper": "div.privacy-settings",
+     "path": "div.cookies-table-container > div.cookies-table > div.cookies-table-row-choice > div.cookies-table-cell",
+     "text": "preferred_language",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 22,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > p",
+     "text": ": these cookies enhance your browsing experience by enabling",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 16,
+     "clipper": "div.privacy-settings",
+     "path": "div.cookies-table-container > div.cookies-table > div.cookies-table-row-choice.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header",
+     "text": "cookie id/name",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 11,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > p > span",
+     "text": "functional cookies",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 9,
+     "clipper": "div.privacy-settings",
+     "path": "div.cookies-table > div.cookies-table-row-choice.cookies-table-header > div.cookies-table-cell.cookies-table-cell-header > sup",
+     "text": "st",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "CONTROL SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 8,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > p > a",
+     "text": "youtube",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 8,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > p > a",
+     "text": "youtube",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 4,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > ul.ul-privacy > li",
+     "text": ", set by the website you are currently visiting. they are st",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 3,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > h2",
+     "text": "how to manage cookies",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 2,
+     "clipper": "div.privacy-settings",
+     "path": "div.cookies-table-row-choice > div.cookies-table-cell > div.privacy-setting-toggle.privacy-language > span.privacy-option.privacy-option-on",
+     "text": "on",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 2,
+     "clipper": "div.privacy-settings",
+     "path": "div.cookies-table-row-choice > div.cookies-table-cell > div.privacy-setting-toggle.privacy-language > span.privacy-option.privacy-option-off",
+     "text": "off",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.privacy-settings",
+     "path": "div.cookies-table > div.cookies-table-row-choice > div.cookies-table-cell > div.privacy-setting-toggle.privacy-language",
+     "text": "|",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > div.privacy-setting-toggle.privacy-matomo",
+     "text": "|",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "CONTROL SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > div.centered-container > button.privacy-button.save-settings",
+     "text": "save",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > div.centered-container > button.privacy-button.save-settings",
+     "text": "save",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "CONTROL SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > div.centered-container > button.privacy-button.cancel-settings",
+     "text": "cancel",
+     "cutMin": null,
+     "cutMax": null
+    },
+    {
+     "kind": "TEXT SCROLL-HIDDEN",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.privacy-settings",
+     "path": "div.privacy-settings > div.centered-container > button.privacy-button.cancel-settings",
+     "text": "cancel",
+     "cutMin": null,
+     "cutMax": null
+    }
+   ]
+  }
+ },
+ "eds": {
+  "url": "https://main--26c59ee1--aemcoder.aem.page/science/cosmodm",
+  "at": "2026-11-14T03:09:08.187Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 7316,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "span.navbar-brand.navbar-brand-main > div.brand-logo > a",
+    "x": 64,
+    "y": 0,
+    "w": 70,
+    "h": 50,
+    "text": "eso",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img.navbar-eso-logo",
+    "x": 64,
+    "y": 0,
+    "w": 38,
+    "h": 50,
+    "text": "eso",
+    "file": "media_175cb2986e8ee49e7c64e8a9df5fa3f1f9"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.language-menu > div.choose-language-message > p",
+    "x": 596,
+    "y": 15,
+    "w": 143,
+    "h": 19,
+    "text": "Choose your language"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.navbar-nav > li.social-desktop.desktop-top-sm-icons > a",
+    "x": 1121,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on facebook",
+    "href": "/ESOAstronomy"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 1121,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on facebook",
+    "file": "media_1f386e2b9f7ed0b34b2f603a73f839485d"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.navbar-nav > li.social-desktop.desktop-top-sm-icons > a",
+    "x": 1184,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on instagram",
+    "href": "/esoastronomy/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 1184,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on instagram",
+    "file": "media_19faa7be92695e315cea4cad487aa3e15b"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.navbar-nav > li.social-desktop.desktop-top-sm-icons > a",
+    "x": 1246,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on linkedin",
+    "href": "/company/european-southern-observatory"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 1246,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on linkedin",
+    "file": "media_15b4dfde77d1909c3b38baaf7167a2e3d4"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.navbar-nav > li.social-desktop.desktop-top-sm-icons > a",
+    "x": 1309,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on youtube",
+    "href": "/channel/UCIhYoC2VIAJqCkoIWNHBQ3Q"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a > picture > img",
+    "x": 1309,
+    "y": 11,
+    "w": 28,
+    "h": 28,
+    "text": "eso on youtube",
+    "file": "media_101417719196c90d4b42a69d39754d790f"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.navbar-nav > li#nav-search > a.nav-link",
+    "x": 1370,
+    "y": 2,
+    "w": 40,
+    "h": 46,
+    "text": "search",
+    "href": "/science/cosmodm"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.big-header-media > picture > img.big-header-image",
+    "x": 0,
+    "y": 50,
+    "w": 1440,
+    "h": 675,
+    "text": "",
+    "file": "media_13aaadc675e52740bb7fb05dd749ab0e01"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.big-header-logos > picture > img.big-header-eso-logo",
+    "x": 151,
+    "y": 118,
+    "w": 78,
+    "h": 102,
+    "text": "eso",
+    "file": "media_1a043431fda0378cd219e1a181f4b0998c"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.big-header-text > div.big-header-logos > p.esologo-text",
+    "x": 151,
+    "y": 224,
+    "w": 435,
+    "h": 79,
+    "text": "European Southern Observatory"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.big-header-text > div.big-header-title > h1#science-with-the-elt",
+    "x": 151,
+    "y": 550,
+    "w": 1138,
+    "h": 80,
+    "level": 1,
+    "text": "science with the elt"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.navbar-nav > li.nav-item.menu-item > a.nav-link",
+    "x": 231,
+    "y": 739,
+    "w": 91,
+    "h": 40,
+    "text": "elt home",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.navbar-nav > li.nav-item.menu-item > a.nav-link",
+    "x": 352,
+    "y": 739,
+    "w": 68,
+    "h": 40,
+    "text": "about",
+    "href": "/about/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.navbar-nav > li.nav-item.menu-item > a.nav-link",
+    "x": 449,
+    "y": 739,
+    "w": 106,
+    "h": 40,
+    "text": "telescope",
+    "href": "/telescope/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.navbar-nav > li.nav-item.menu-item > a.nav-link",
+    "x": 585,
+    "y": 739,
+    "w": 124,
+    "h": 40,
+    "text": "instruments",
+    "href": "/instrument/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.navbar-nav > li.nav-item.menu-item > a.nav-link",
+    "x": 739,
+    "y": 739,
+    "w": 83,
+    "h": 40,
+    "text": "science",
+    "href": "/science/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.navbar-nav > li.nav-item.menu-item > a.nav-link",
+    "x": 852,
+    "y": 739,
+    "w": 171,
+    "h": 40,
+    "text": "news & multimedia",
+    "href": "/media/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.navbar-nav > li.nav-item.menu-item > a.nav-link",
+    "x": 1052,
+    "y": 739,
+    "w": 158,
+    "h": 40,
+    "text": "success stories",
+    "href": "/success/buildingon/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page-intro.program > div.page-intro-image > img",
+    "x": 0,
+    "y": 794,
+    "w": 1440,
+    "h": 676,
+    "text": "",
+    "file": "media_11c3c38c6694aa17573ba9553d76e2c009"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page-intro-textblock-inner > div.header-title > p",
+    "x": 151,
+    "y": 808,
+    "w": 1289,
+    "h": 54,
+    "text": "Cosmology and Dark Matter"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page-intro-textblock-inner > div.header-subtitle > p",
+    "x": 151,
+    "y": 892,
+    "w": 451,
+    "h": 176,
+    "text": "What we see around us — the planets, stars and dust in between them — makes up j"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page-intro-textblock-inner > div.header-description > p",
+    "x": 151,
+    "y": 1097,
+    "w": 451,
+    "h": 256,
+    "text": "The rest is invisible dark matter and a mysterious dark energy that is thought t"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.header-quick-links > div.quick-links-label > p",
+    "x": 151,
+    "y": 1398,
+    "w": 1153,
+    "h": 29,
+    "text": "Quick Links:"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.quick-links-list > p > a",
+    "x": 151,
+    "y": 1429,
+    "w": 96,
+    "h": 23,
+    "text": "cosmology",
+    "href": "/science/cosmodm"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.quick-links-list > p > a",
+    "x": 262,
+    "y": 1429,
+    "w": 100,
+    "h": 23,
+    "text": "dark matter",
+    "href": "/science/cosmodm"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.intro > div.section-title-paragraph.container-paragraph > p",
+    "x": 151,
+    "y": 1518,
+    "w": 174,
+    "h": 48,
+    "text": "In a nutshell"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-title-paragraph.container-paragraph > div.share-bar.block > a.share-social-media-link.share-social-media-icons",
+    "x": 1200,
+    "y": 1519,
+    "w": 42,
+    "h": 46,
+    "text": "share on facebook",
+    "href": "/sharer/sharer.php"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.share-bar.block > a.share-social-media-link.share-social-media-icons > img",
+    "x": 1204,
+    "y": 1527,
+    "w": 33,
+    "h": 33,
+    "text": "share on facebook",
+    "file": "icon_share_1"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "span.share-menu > span.share-social-media.share-social-media-icons > img.share-social-media",
+    "x": 1249,
+    "y": 1527,
+    "w": 34,
+    "h": 33,
+    "text": "",
+    "file": "icon_share_3"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.intro > div.section-text-paragraph.container-paragraph > p",
+    "x": 151,
+    "y": 1613,
+    "w": 1138,
+    "h": 180,
+    "text": "Galaxies rotate fast. So fast that the gravity generated by stars, dust and gas "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.intro > div.section-text-paragraph.container-paragraph > p",
+    "x": 151,
+    "y": 1810,
+    "w": 1138,
+    "h": 180,
+    "text": "Dark matter makes up around a quarter of the Universe, but the even more mysteri"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.intro > div.section-text-paragraph.container-paragraph > p",
+    "x": 151,
+    "y": 2006,
+    "w": 1138,
+    "h": 180,
+    "text": "This discovery profoundly changed cosmology because it suggested that there is a"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.intro > div.section-text-paragraph.container-paragraph > p",
+    "x": 151,
+    "y": 2202,
+    "w": 1138,
+    "h": 180,
+    "text": "Ironically, the simplest form of such a dark energy is the cosmological constant"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.intro > div.section-text-paragraph.container-paragraph > p",
+    "x": 151,
+    "y": 2399,
+    "w": 1138,
+    "h": 114,
+    "text": "The ELT will provide unique contributions towards deciding whether general relat"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.lightlink-row > div.lightlink-media > a",
+    "x": 0,
+    "y": 2726,
+    "w": 720,
+    "h": 20,
+    "text": "",
+    "href": "/science/cosmodm"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 0,
+    "y": 2569,
+    "w": 720,
+    "h": 338,
+    "text": "",
+    "file": "media_1420c399024db1ffd994dc1b7669d9322f"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.internal-menu-title > p > a",
+    "x": 76,
+    "y": 2780,
+    "w": 477,
+    "h": 87,
+    "text": "cosmology: watching the universe expand",
+    "href": "/science/cosmodm"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.lightlink-body > div.internal-menu-text > p",
+    "x": 783,
+    "y": 2696,
+    "w": 593,
+    "h": 68,
+    "text": "The ELT will revolutionise the way we measure the acceleration of the Universe a"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.lightlink-body > div.internal-menu-link > a",
+    "x": 779,
+    "y": 2863,
+    "w": 97,
+    "h": 29,
+    "text": "read more",
+    "href": "/science/cosmodm"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.lightlink-body > div.internal-menu-text > p",
+    "x": 63,
+    "y": 3016,
+    "w": 593,
+    "h": 101,
+    "text": "The ELT will also help us gather clues about the other component of the dark Uni"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.lightlink-body > div.internal-menu-link > a",
+    "x": 59,
+    "y": 3200,
+    "w": 97,
+    "h": 29,
+    "text": "read more",
+    "href": "/science/cosmodm"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.lightlink-row.lightlink-row-reverse > div.lightlink-media > a",
+    "x": 720,
+    "y": 3063,
+    "w": 720,
+    "h": 20,
+    "text": "",
+    "href": "/science/cosmodm"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 720,
+    "y": 2906,
+    "w": 720,
+    "h": 338,
+    "text": "",
+    "file": "media_1ae587bfacffda846f92d8bdd87d85992c"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.internal-menu-title > p > a",
+    "x": 796,
+    "y": 3166,
+    "w": 162,
+    "h": 39,
+    "text": "dark matter",
+    "href": "/science/cosmodm"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > div.section-title-paragraph.container-paragraph > p",
+    "x": 151,
+    "y": 3292,
+    "w": 1138,
+    "h": 48,
+    "text": "Cosmology: watching the Universe expand"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > figure.article-image > a",
+    "x": 0,
+    "y": 3380,
+    "w": 1440,
+    "h": 784,
+    "text": "",
+    "href": "/public/images/science-cosmology-banner1/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 0,
+    "y": 3380,
+    "w": 1440,
+    "h": 784,
+    "text": "",
+    "file": "media_1c390a3d7f201f8eb6e16888a179110450"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > div.section-heading-paragraph.container-heading > p",
+    "x": 151,
+    "y": 4178,
+    "w": 1138,
+    "h": 114,
+    "text": "To understand our Universe we need to understand what’s driving its acceleration"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > div.section-text-paragraph.container-paragraph > p",
+    "x": 151,
+    "y": 4316,
+    "w": 1138,
+    "h": 147,
+    "text": "Standard probes of the expansion of the Universe include weak gravitational lens"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > div.section-text-paragraph.container-paragraph > p",
+    "x": 151,
+    "y": 4479,
+    "w": 1138,
+    "h": 81,
+    "text": "But the ESO telescope will also map the expansion history of the Universe using "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > div.section-text-paragraph.container-paragraph > p",
+    "x": 151,
+    "y": 4577,
+    "w": 1138,
+    "h": 345,
+    "text": "Extracting information about the Universe’s expansion from standard probes relie"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > div.section-text-paragraph.container-paragraph > p",
+    "x": 151,
+    "y": 4938,
+    "w": 1138,
+    "h": 147,
+    "text": "Astronomers will use the redshift drift method with the ELT’s instrument to dete"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-text-paragraph.container-paragraph > p > a",
+    "x": 655,
+    "y": 4950,
+    "w": 65,
+    "h": 24,
+    "text": "andes",
+    "href": "/instrument/andes"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > div.section-text-paragraph.container-paragraph > p",
+    "x": 151,
+    "y": 5101,
+    "w": 1138,
+    "h": 147,
+    "text": "Apart from the fundamental conceptual importance of directly observing the Unive"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > figure.article-image.article-image-medium > a",
+    "x": 0,
+    "y": 5272,
+    "w": 1440,
+    "h": 433,
+    "text": "",
+    "href": "/public/images/constrainig-power-redshiftdrift/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 432,
+    "y": 5272,
+    "w": 576,
+    "h": 433,
+    "text": "",
+    "file": "media_193757ab5444585d7be5729ae80264d7cb"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "figure.article-image.article-image-medium > figcaption.caption-text > p",
+    "x": 15,
+    "y": 5721,
+    "w": 1410,
+    "h": 48,
+    "text": "Illustrating the constraining power of redshift drift measurements by the ELT fo"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > div.section-title-paragraph.container-paragraph > p",
+    "x": 151,
+    "y": 5847,
+    "w": 1138,
+    "h": 48,
+    "text": "Dark matter"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > figure.article-image > a",
+    "x": 0,
+    "y": 5935,
+    "w": 1440,
+    "h": 418,
+    "text": "",
+    "href": "/public/images/eso1212c/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 0,
+    "y": 5935,
+    "w": 1440,
+    "h": 418,
+    "text": "",
+    "file": "media_18ce54f6ad707ac46e7fc7903c6f8b6cbc"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > div.section-heading-paragraph.container-heading > p",
+    "x": 151,
+    "y": 6367,
+    "w": 1138,
+    "h": 81,
+    "text": "The ELT will also help us gather clues about the other component of the dark Uni"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.container-paragraph.float-figure-box > figure.float-figure.float-figure-left > a",
+    "x": 151,
+    "y": 6465,
+    "w": 375,
+    "h": 411,
+    "text": "",
+    "href": "/public/images/eso1217a/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 151,
+    "y": 6465,
+    "w": 375,
+    "h": 411,
+    "text": "",
+    "file": "media_1fc7ad60fb000a3859b6ed606d992219fc"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "figure.float-figure.float-figure-left > div.caption-text > p",
+    "x": 151,
+    "y": 6892,
+    "w": 375,
+    "h": 74,
+    "text": "Artist’s impression of the expected dark matter distribution around the Milky Wa"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > div.container-paragraph.float-text > p",
+    "x": 151,
+    "y": 6457,
+    "w": 1138,
+    "h": 470,
+    "text": "Astrophysical evidence for dark matter halos around galaxies first emerged in th"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.container-paragraph.float-text > p > a",
+    "x": 1152,
+    "y": 6659,
+    "w": 77,
+    "h": 24,
+    "text": "sinfoni",
+    "href": "/public/teles-instr/paranal-observatory/vlt/vlt-instr/sinfoni/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.container-paragraph.float-text > p > a",
+    "x": 575,
+    "y": 6692,
+    "w": 56,
+    "h": 24,
+    "text": "kmos",
+    "href": "/public/teles-instr/paranal-observatory/vlt/vlt-instr/kmos/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.container-paragraph.float-text > p > a",
+    "x": 764,
+    "y": 6692,
+    "w": 239,
+    "h": 24,
+    "text": "eso’s very large telescope",
+    "href": "/public/teles-instr/paranal-observatory/vlt/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-section.bleed > div.container-paragraph.float-text > p",
+    "x": 151,
+    "y": 6935,
+    "w": 1138,
+    "h": 311,
+    "text": "The ELT’s HARMONI will be the first instrument able to reach the spatial resolut"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer > div.site-footer-row > p.site-footer-brand.footer-item",
+    "x": -15,
+    "y": 7278,
+    "w": 360,
+    "h": 22,
+    "text": "| ELT ©"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-row > p.site-footer-brand.footer-item > a",
+    "x": 108,
+    "y": 7278,
+    "w": 30,
+    "h": 22,
+    "text": "eso",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-links.footer-item > div > p",
+    "x": 464,
+    "y": 7278,
+    "w": 843,
+    "h": 22,
+    "text": "| | | | |"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > p > a",
+    "x": 464,
+    "y": 7280,
+    "w": 49,
+    "h": 18,
+    "text": "credits",
+    "href": "/credits/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > p > a",
+    "x": 537,
+    "y": 7280,
+    "w": 72,
+    "h": 18,
+    "text": "contact us",
+    "href": "information@eso.org"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > p > a",
+    "x": 633,
+    "y": 7280,
+    "w": 155,
+    "h": 18,
+    "text": "subscribe to eso news",
+    "href": "/public/outreach/newsletters/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > p > a",
+    "x": 811,
+    "y": 7280,
+    "w": 150,
+    "h": 18,
+    "text": "accelerated by cdn77",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > p > a",
+    "x": 984,
+    "y": 7280,
+    "w": 128,
+    "h": 18,
+    "text": "terms & conditions",
+    "href": "/public/about-eso/privacy/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > p > a",
+    "x": 1136,
+    "y": 7280,
+    "w": 170,
+    "h": 18,
+    "text": "cookie settings and policy",
+    "href": "/science/cosmodm"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 71,
+    "controls": 37,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 1
+   },
+   "eds": {
+    "link": 24,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 26,
+    "textHidden": 0,
+    "image": 11,
+    "imageHidden": 0
+   },
+   "findings": [
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "COUNT TEXT",
+    "COUNT IMAGES"
+   ]
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h1 \"science with the elt\" (y 550) has no origin heading",
+   "text": "science with the elt"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"elt home\" served in band \"(top)\", no origin link or button",
+   "band": 0,
+   "n": 1,
+   "text": "elt home"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"about\" served in band \"(top)\", no origin link or button",
+   "band": 0,
+   "n": 1,
+   "text": "about"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"telescope\" served in band \"(top)\", no origin link or button",
+   "band": 0,
+   "n": 1,
+   "text": "telescope"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"instruments\" served in band \"(top)\", no origin link or button",
+   "band": 0,
+   "n": 1,
+   "text": "instruments"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"science\" served in band \"(top)\", no origin link or button",
+   "band": 0,
+   "n": 1,
+   "text": "science"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"news & multimedia\" served in band \"(top)\", no origin link or button",
+   "band": 0,
+   "n": 1,
+   "text": "news & multimedia"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"success stories\" served in band \"(top)\", no origin link or button",
+   "band": 0,
+   "n": 1,
+   "text": "success stories"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"cosmology\" served in band \"(top)\", no origin link or button",
+   "band": 0,
+   "n": 1,
+   "text": "cosmology"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "×2 \"dark matter\" served in band \"(top)\", no origin link or button",
+   "band": 0,
+   "n": 2,
+   "text": "dark matter"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"share on facebook\" served in band \"(top)\", no origin link or button",
+   "band": 0,
+   "n": 1,
+   "text": "share on facebook"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"cosmology: watching the universe expand\" served in band \"(top)\", no origin link or button",
+   "band": 0,
+   "n": 1,
+   "text": "cosmology: watching the universe expand"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "×2 \"read more\" served in band \"(top)\", no origin link or button",
+   "band": 0,
+   "n": 2,
+   "text": "read more"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"andes\" served in band \"(top)\", no origin link or button",
+   "band": 0,
+   "n": 1,
+   "text": "andes"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"sinfoni\" served in band \"(top)\", no origin link or button",
+   "band": 0,
+   "n": 1,
+   "text": "sinfoni"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"kmos\" served in band \"(top)\", no origin link or button",
+   "band": 0,
+   "n": 1,
+   "text": "kmos"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"eso’s very large telescope\" served in band \"(top)\", no origin link or button",
+   "band": 0,
+   "n": 1,
+   "text": "eso’s very large telescope"
+  },
+  {
+   "sev": "🟡",
+   "kind": "COUNT TEXT",
+   "msg": "band \"(top)\": 0 origin → 26 served visible",
+   "band": 0,
+   "origin": 0,
+   "eds": 26,
+   "hidden": 0
+  },
+  {
+   "sev": "🟡",
+   "kind": "COUNT IMAGES",
+   "msg": "band \"(top)\": 1 origin → 11 served visible",
+   "band": 0,
+   "origin": 1,
+   "eds": 11,
+   "hidden": 0
+  }
+ ],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 1,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 18,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 2,
+  "findings": 19,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 596,
+    "y": 17,
+    "w": 131,
+    "h": 15
+   },
+   {
+    "x": 1378,
+    "y": 10,
+    "w": 24,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 233,
+    "w": 68,
+    "h": 20
+   },
+   {
+    "x": 151,
+    "y": 257,
+    "w": 65,
+    "h": 20
+   },
+   {
+    "x": 151,
+    "y": 281,
+    "w": 88,
+    "h": 20
+   },
+   {
+    "x": 151,
+    "y": 557,
+    "w": 480,
+    "h": 65
+   },
+   {
+    "x": 239,
+    "y": 749,
+    "w": 76,
+    "h": 19
+   },
+   {
+    "x": 361,
+    "y": 749,
+    "w": 52,
+    "h": 19
+   },
+   {
+    "x": 459,
+    "y": 749,
+    "w": 89,
+    "h": 19
+   },
+   {
+    "x": 594,
+    "y": 749,
+    "w": 108,
+    "h": 19
+   },
+   {
+    "x": 748,
+    "y": 749,
+    "w": 66,
+    "h": 19
+   },
+   {
+    "x": 860,
+    "y": 749,
+    "w": 155,
+    "h": 19
+   },
+   {
+    "x": 1061,
+    "y": 749,
+    "w": 141,
+    "h": 19
+   },
+   {
+    "x": 151,
+    "y": 811,
+    "w": 454,
+    "h": 44
+   },
+   {
+    "x": 151,
+    "y": 888,
+    "w": 406,
+    "h": 38
+   },
+   {
+    "x": 151,
+    "y": 932,
+    "w": 336,
+    "h": 38
+   },
+   {
+    "x": 151,
+    "y": 976,
+    "w": 426,
+    "h": 38
+   },
+   {
+    "x": 151,
+    "y": 1020,
+    "w": 261,
+    "h": 38
+   },
+   {
+    "x": 151,
+    "y": 1106,
+    "w": 438,
+    "h": 23
+   },
+   {
+    "x": 151,
+    "y": 1138,
+    "w": 422,
+    "h": 23
+   },
+   {
+    "x": 151,
+    "y": 1170,
+    "w": 392,
+    "h": 23
+   },
+   {
+    "x": 151,
+    "y": 1202,
+    "w": 436,
+    "h": 23
+   },
+   {
+    "x": 151,
+    "y": 1234,
+    "w": 434,
+    "h": 23
+   },
+   {
+    "x": 151,
+    "y": 1266,
+    "w": 415,
+    "h": 23
+   },
+   {
+    "x": 151,
+    "y": 1298,
+    "w": 441,
+    "h": 23
+   },
+   {
+    "x": 151,
+    "y": 1330,
+    "w": 319,
+    "h": 23
+   },
+   {
+    "x": 151,
+    "y": 1401,
+    "w": 105,
+    "h": 23
+   },
+   {
+    "x": 151,
+    "y": 1430,
+    "w": 97,
+    "h": 23
+   },
+   {
+    "x": 248,
+    "y": 1430,
+    "w": 15,
+    "h": 23
+   },
+   {
+    "x": 263,
+    "y": 1430,
+    "w": 100,
+    "h": 23
+   },
+   {
+    "x": 151,
+    "y": 1521,
+    "w": 172,
+    "h": 39
+   },
+   {
+    "x": 151,
+    "y": 1624,
+    "w": 1038,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 1657,
+    "w": 1107,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 1690,
+    "w": 1115,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 1723,
+    "w": 1083,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 1756,
+    "w": 191,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 1820,
+    "w": 1134,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 1853,
+    "w": 1118,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 1886,
+    "w": 1099,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 1919,
+    "w": 1132,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 1952,
+    "w": 609,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 2017,
+    "w": 1109,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 2050,
+    "w": 1123,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 2083,
+    "w": 1088,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 2116,
+    "w": 1128,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 2149,
+    "w": 149,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 2213,
+    "w": 1116,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 2246,
+    "w": 1083,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 2279,
+    "w": 1091,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 2312,
+    "w": 1059,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 2345,
+    "w": 988,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 2410,
+    "w": 1117,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 2443,
+    "w": 1128,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 2476,
+    "w": 107,
+    "h": 24
+   },
+   {
+    "x": 76,
+    "y": 2780,
+    "w": 478,
+    "h": 39
+   },
+   {
+    "x": 76,
+    "y": 2828,
+    "w": 102,
+    "h": 39
+   },
+   {
+    "x": 783,
+    "y": 2699,
+    "w": 582,
+    "h": 25
+   },
+   {
+    "x": 783,
+    "y": 2733,
+    "w": 572,
+    "h": 25
+   },
+   {
+    "x": 780,
+    "y": 2864,
+    "w": 96,
+    "h": 24
+   },
+   {
+    "x": 63,
+    "y": 3019,
+    "w": 584,
+    "h": 25
+   },
+   {
+    "x": 63,
+    "y": 3053,
+    "w": 536,
+    "h": 25
+   },
+   {
+    "x": 63,
+    "y": 3087,
+    "w": 245,
+    "h": 25
+   },
+   {
+    "x": 60,
+    "y": 3202,
+    "w": 96,
+    "h": 24
+   },
+   {
+    "x": 796,
+    "y": 3165,
+    "w": 162,
+    "h": 39
+   },
+   {
+    "x": 151,
+    "y": 3295,
+    "w": 613,
+    "h": 39
+   },
+   {
+    "x": 151,
+    "y": 4189,
+    "w": 1114,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4222,
+    "w": 1132,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4255,
+    "w": 381,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4327,
+    "w": 1114,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4360,
+    "w": 1074,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4393,
+    "w": 1113,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4426,
+    "w": 141,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4490,
+    "w": 1103,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4523,
+    "w": 169,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4587,
+    "w": 1077,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4620,
+    "w": 1109,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4653,
+    "w": 1137,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4686,
+    "w": 1129,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4719,
+    "w": 1084,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4752,
+    "w": 1115,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4785,
+    "w": 1122,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4818,
+    "w": 1137,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4851,
+    "w": 1130,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4884,
+    "w": 58,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4949,
+    "w": 507,
+    "h": 24
+   },
+   {
+    "x": 658,
+    "y": 4949,
+    "w": 63,
+    "h": 24
+   },
+   {
+    "x": 721,
+    "y": 4949,
+    "w": 564,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4982,
+    "w": 1137,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5015,
+    "w": 1135,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5048,
+    "w": 812,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5112,
+    "w": 1127,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5145,
+    "w": 1126,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5178,
+    "w": 1077,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5211,
+    "w": 87,
+    "h": 24
+   },
+   {
+    "x": 258,
+    "y": 5734,
+    "w": 925,
+    "h": 20
+   },
+   {
+    "x": 151,
+    "y": 5851,
+    "w": 168,
+    "h": 39
+   },
+   {
+    "x": 151,
+    "y": 6379,
+    "w": 1133,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 6412,
+    "w": 247,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 6893,
+    "w": 330,
+    "h": 20
+   },
+   {
+    "x": 151,
+    "y": 6918,
+    "w": 345,
+    "h": 20
+   },
+   {
+    "x": 151,
+    "y": 6943,
+    "w": 58,
+    "h": 20
+   },
+   {
+    "x": 575,
+    "y": 6460,
+    "w": 675,
+    "h": 24
+   },
+   {
+    "x": 575,
+    "y": 6493,
+    "w": 682,
+    "h": 24
+   },
+   {
+    "x": 575,
+    "y": 6526,
+    "w": 700,
+    "h": 24
+   },
+   {
+    "x": 575,
+    "y": 6559,
+    "w": 708,
+    "h": 24
+   },
+   {
+    "x": 575,
+    "y": 6592,
+    "w": 588,
+    "h": 24
+   },
+   {
+    "x": 1163,
+    "y": 6597,
+    "w": 16,
+    "h": 17
+   },
+   {
+    "x": 1179,
+    "y": 6592,
+    "w": 22,
+    "h": 24
+   },
+   {
+    "x": 575,
+    "y": 6626,
+    "w": 56,
+    "h": 24
+   },
+   {
+    "x": 631,
+    "y": 6631,
+    "w": 16,
+    "h": 17
+   },
+   {
+    "x": 647,
+    "y": 6626,
+    "w": 633,
+    "h": 24
+   },
+   {
+    "x": 575,
+    "y": 6660,
+    "w": 583,
+    "h": 24
+   },
+   {
+    "x": 1157,
+    "y": 6660,
+    "w": 73,
+    "h": 24
+   },
+   {
+    "x": 1231,
+    "y": 6660,
+    "w": 37,
+    "h": 24
+   },
+   {
+    "x": 575,
+    "y": 6693,
+    "w": 56,
+    "h": 24
+   },
+   {
+    "x": 630,
+    "y": 6693,
+    "w": 135,
+    "h": 24
+   },
+   {
+    "x": 766,
+    "y": 6693,
+    "w": 237,
+    "h": 24
+   },
+   {
+    "x": 1002,
+    "y": 6693,
+    "w": 257,
+    "h": 24
+   },
+   {
+    "x": 575,
+    "y": 6726,
+    "w": 676,
+    "h": 24
+   },
+   {
+    "x": 575,
+    "y": 6759,
+    "w": 697,
+    "h": 24
+   },
+   {
+    "x": 575,
+    "y": 6792,
+    "w": 654,
+    "h": 24
+   },
+   {
+    "x": 575,
+    "y": 6825,
+    "w": 696,
+    "h": 24
+   },
+   {
+    "x": 575,
+    "y": 6858,
+    "w": 633,
+    "h": 24
+   },
+   {
+    "x": 575,
+    "y": 6891,
+    "w": 226,
+    "h": 24
+   },
+   {
+    "x": 575,
+    "y": 6940,
+    "w": 685,
+    "h": 24
+   },
+   {
+    "x": 575,
+    "y": 6973,
+    "w": 705,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 7006,
+    "w": 1076,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 7039,
+    "w": 1125,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 7072,
+    "w": 1136,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 7105,
+    "w": 1130,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 7138,
+    "w": 608,
+    "h": 24
+   },
+   {
+    "x": 759,
+    "y": 7136,
+    "w": 8,
+    "h": 18
+   },
+   {
+    "x": 767,
+    "y": 7138,
+    "w": 301,
+    "h": 24
+   },
+   {
+    "x": 1068,
+    "y": 7136,
+    "w": 20,
+    "h": 18
+   },
+   {
+    "x": 1088,
+    "y": 7138,
+    "w": 134,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 7171,
+    "w": 1124,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 7204,
+    "w": 942,
+    "h": 24
+   },
+   {
+    "x": 109,
+    "y": 7275,
+    "w": 29,
+    "h": 18
+   },
+   {
+    "x": 138,
+    "y": 7275,
+    "w": 51,
+    "h": 18
+   },
+   {
+    "x": 188,
+    "y": 7275,
+    "w": 33,
+    "h": 18
+   },
+   {
+    "x": 464,
+    "y": 7275,
+    "w": 49,
+    "h": 18
+   },
+   {
+    "x": 513,
+    "y": 7275,
+    "w": 24,
+    "h": 18
+   },
+   {
+    "x": 537,
+    "y": 7275,
+    "w": 74,
+    "h": 18
+   },
+   {
+    "x": 610,
+    "y": 7275,
+    "w": 24,
+    "h": 18
+   },
+   {
+    "x": 634,
+    "y": 7275,
+    "w": 155,
+    "h": 18
+   },
+   {
+    "x": 789,
+    "y": 7275,
+    "w": 24,
+    "h": 18
+   },
+   {
+    "x": 813,
+    "y": 7275,
+    "w": 149,
+    "h": 18
+   },
+   {
+    "x": 962,
+    "y": 7275,
+    "w": 24,
+    "h": 18
+   },
+   {
+    "x": 986,
+    "y": 7275,
+    "w": 128,
+    "h": 18
+   },
+   {
+    "x": 1113,
+    "y": 7275,
+    "w": 24,
+    "h": 18
+   },
+   {
+    "x": 1137,
+    "y": 7275,
+    "w": 169,
+    "h": 18
+   },
+   {
+    "x": 541,
+    "y": 1543,
+    "w": 331,
+    "h": 49
+   },
+   {
+    "x": 49,
+    "y": 1602,
+    "w": 632,
+    "h": 20
+   },
+   {
+    "x": 49,
+    "y": 1626,
+    "w": 630,
+    "h": 20
+   },
+   {
+    "x": 49,
+    "y": 1650,
+    "w": 597,
+    "h": 20
+   },
+   {
+    "x": 49,
+    "y": 1674,
+    "w": 72,
+    "h": 20
+   },
+   {
+    "x": 751,
+    "y": 1602,
+    "w": 625,
+    "h": 20
+   },
+   {
+    "x": 751,
+    "y": 1626,
+    "w": 83,
+    "h": 20
+   },
+   {
+    "x": 388,
+    "y": 1738,
+    "w": 69,
+    "h": 19
+   },
+   {
+    "x": 558,
+    "y": 1738,
+    "w": 210,
+    "h": 19
+   },
+   {
+    "x": 868,
+    "y": 1738,
+    "w": 184,
+    "h": 19
+   },
+   {
+    "x": 550,
+    "y": 1005,
+    "w": 341,
+    "h": 49
+   },
+   {
+    "x": 176,
+    "y": 1088,
+    "w": 1037,
+    "h": 19
+   },
+   {
+    "x": 176,
+    "y": 1112,
+    "w": 1053,
+    "h": 19
+   },
+   {
+    "x": 176,
+    "y": 1136,
+    "w": 157,
+    "h": 19
+   },
+   {
+    "x": 176,
+    "y": 1176,
+    "w": 1084,
+    "h": 19
+   },
+   {
+    "x": 176,
+    "y": 1200,
+    "w": 418,
+    "h": 19
+   },
+   {
+    "x": 176,
+    "y": 1237,
+    "w": 256,
+    "h": 39
+   },
+   {
+    "x": 176,
+    "y": 1286,
+    "w": 1032,
+    "h": 19
+   },
+   {
+    "x": 176,
+    "y": 1310,
+    "w": 360,
+    "h": 19
+   },
+   {
+    "x": 176,
+    "y": 1347,
+    "w": 405,
+    "h": 39
+   },
+   {
+    "x": 176,
+    "y": 1397,
+    "w": 241,
+    "h": 19
+   },
+   {
+    "x": 417,
+    "y": 1397,
+    "w": 838,
+    "h": 19
+   },
+   {
+    "x": 176,
+    "y": 1421,
+    "w": 1037,
+    "h": 19
+   },
+   {
+    "x": 176,
+    "y": 1445,
+    "w": 243,
+    "h": 19
+   },
+   {
+    "x": 184,
+    "y": 1493,
+    "w": 121,
+    "h": 19
+   },
+   {
+    "x": 422,
+    "y": 1493,
+    "w": 152,
+    "h": 19
+   },
+   {
+    "x": 762,
+    "y": 1493,
+    "w": 80,
+    "h": 19
+   },
+   {
+    "x": 842,
+    "y": 1491,
+    "w": 10,
+    "h": 14
+   },
+   {
+    "x": 852,
+    "y": 1493,
+    "w": 62,
+    "h": 19
+   },
+   {
+    "x": 762,
+    "y": 1517,
+    "w": 9,
+    "h": 19
+   },
+   {
+    "x": 771,
+    "y": 1515,
+    "w": 11,
+    "h": 14
+   },
+   {
+    "x": 782,
+    "y": 1517,
+    "w": 47,
+    "h": 19
+   },
+   {
+    "x": 932,
+    "y": 1493,
+    "w": 122,
+    "h": 19
+   },
+   {
+    "x": 932,
+    "y": 1517,
+    "w": 122,
+    "h": 19
+   },
+   {
+    "x": 932,
+    "y": 1541,
+    "w": 58,
+    "h": 19
+   },
+   {
+    "x": 1102,
+    "y": 1493,
+    "w": 63,
+    "h": 19
+   },
+   {
+    "x": 184,
+    "y": 1581,
+    "w": 63,
+    "h": 19
+   },
+   {
+    "x": 422,
+    "y": 1581,
+    "w": 311,
+    "h": 19
+   },
+   {
+    "x": 422,
+    "y": 1605,
+    "w": 282,
+    "h": 19
+   },
+   {
+    "x": 422,
+    "y": 1629,
+    "w": 55,
+    "h": 19
+   },
+   {
+    "x": 762,
+    "y": 1581,
+    "w": 9,
+    "h": 19
+   },
+   {
+    "x": 771,
+    "y": 1578,
+    "w": 9,
+    "h": 15
+   },
+   {
+    "x": 780,
+    "y": 1581,
+    "w": 39,
+    "h": 19
+   },
+   {
+    "x": 932,
+    "y": 1581,
+    "w": 46,
+    "h": 19
+   },
+   {
+    "x": 1102,
+    "y": 1581,
+    "w": 42,
+    "h": 19
+   },
+   {
+    "x": 184,
+    "y": 1669,
+    "w": 86,
+    "h": 19
+   },
+   {
+    "x": 422,
+    "y": 1669,
+    "w": 298,
+    "h": 19
+   },
+   {
+    "x": 422,
+    "y": 1693,
+    "w": 209,
+    "h": 19
+   },
+   {
+    "x": 762,
+    "y": 1669,
+    "w": 9,
+    "h": 19
+   },
+   {
+    "x": 771,
+    "y": 1666,
+    "w": 9,
+    "h": 15
+   },
+   {
+    "x": 780,
+    "y": 1669,
+    "w": 39,
+    "h": 19
+   },
+   {
+    "x": 932,
+    "y": 1669,
+    "w": 46,
+    "h": 19
+   },
+   {
+    "x": 1102,
+    "y": 1669,
+    "w": 65,
+    "h": 19
+   }
+  ],
+  "eds": [
+   {
+    "x": 596,
+    "y": 17,
+    "w": 125,
+    "h": 15
+   },
+   {
+    "x": 1378,
+    "y": 10,
+    "w": 24,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 233,
+    "w": 70,
+    "h": 20
+   },
+   {
+    "x": 151,
+    "y": 257,
+    "w": 65,
+    "h": 20
+   },
+   {
+    "x": 151,
+    "y": 281,
+    "w": 88,
+    "h": 20
+   },
+   {
+    "x": 151,
+    "y": 557,
+    "w": 482,
+    "h": 65
+   },
+   {
+    "x": 239,
+    "y": 749,
+    "w": 75,
+    "h": 20
+   },
+   {
+    "x": 360,
+    "y": 749,
+    "w": 52,
+    "h": 20
+   },
+   {
+    "x": 457,
+    "y": 749,
+    "w": 90,
+    "h": 20
+   },
+   {
+    "x": 593,
+    "y": 749,
+    "w": 108,
+    "h": 20
+   },
+   {
+    "x": 747,
+    "y": 749,
+    "w": 67,
+    "h": 20
+   },
+   {
+    "x": 860,
+    "y": 749,
+    "w": 155,
+    "h": 20
+   },
+   {
+    "x": 1060,
+    "y": 749,
+    "w": 142,
+    "h": 20
+   },
+   {
+    "x": 151,
+    "y": 813,
+    "w": 451,
+    "h": 44
+   },
+   {
+    "x": 151,
+    "y": 895,
+    "w": 404,
+    "h": 38
+   },
+   {
+    "x": 151,
+    "y": 939,
+    "w": 334,
+    "h": 38
+   },
+   {
+    "x": 151,
+    "y": 983,
+    "w": 420,
+    "h": 38
+   },
+   {
+    "x": 151,
+    "y": 1027,
+    "w": 262,
+    "h": 38
+   },
+   {
+    "x": 151,
+    "y": 1101,
+    "w": 440,
+    "h": 23
+   },
+   {
+    "x": 151,
+    "y": 1133,
+    "w": 420,
+    "h": 23
+   },
+   {
+    "x": 151,
+    "y": 1165,
+    "w": 393,
+    "h": 23
+   },
+   {
+    "x": 151,
+    "y": 1197,
+    "w": 433,
+    "h": 23
+   },
+   {
+    "x": 151,
+    "y": 1229,
+    "w": 448,
+    "h": 23
+   },
+   {
+    "x": 151,
+    "y": 1261,
+    "w": 401,
+    "h": 23
+   },
+   {
+    "x": 151,
+    "y": 1293,
+    "w": 442,
+    "h": 23
+   },
+   {
+    "x": 151,
+    "y": 1325,
+    "w": 317,
+    "h": 23
+   },
+   {
+    "x": 151,
+    "y": 1400,
+    "w": 104,
+    "h": 23
+   },
+   {
+    "x": 151,
+    "y": 1429,
+    "w": 96,
+    "h": 23
+   },
+   {
+    "x": 247,
+    "y": 1429,
+    "w": 16,
+    "h": 23
+   },
+   {
+    "x": 262,
+    "y": 1429,
+    "w": 100,
+    "h": 23
+   },
+   {
+    "x": 151,
+    "y": 1522,
+    "w": 174,
+    "h": 39
+   },
+   {
+    "x": 151,
+    "y": 1625,
+    "w": 1033,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 1658,
+    "w": 1105,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 1691,
+    "w": 1113,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 1724,
+    "w": 1077,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 1757,
+    "w": 183,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 1821,
+    "w": 1128,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 1854,
+    "w": 1114,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 1887,
+    "w": 1095,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 1920,
+    "w": 1130,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 1953,
+    "w": 603,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 2018,
+    "w": 1101,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 2051,
+    "w": 1131,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 2084,
+    "w": 1131,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 2117,
+    "w": 1099,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 2150,
+    "w": 108,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 2214,
+    "w": 1109,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 2247,
+    "w": 1082,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 2280,
+    "w": 1095,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 2313,
+    "w": 1055,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 2346,
+    "w": 991,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 2410,
+    "w": 1117,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 2443,
+    "w": 1131,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 2476,
+    "w": 108,
+    "h": 24
+   },
+   {
+    "x": 76,
+    "y": 2780,
+    "w": 477,
+    "h": 39
+   },
+   {
+    "x": 76,
+    "y": 2828,
+    "w": 102,
+    "h": 39
+   },
+   {
+    "x": 783,
+    "y": 2700,
+    "w": 588,
+    "h": 25
+   },
+   {
+    "x": 783,
+    "y": 2733,
+    "w": 576,
+    "h": 25
+   },
+   {
+    "x": 779,
+    "y": 2865,
+    "w": 97,
+    "h": 24
+   },
+   {
+    "x": 63,
+    "y": 3020,
+    "w": 583,
+    "h": 25
+   },
+   {
+    "x": 63,
+    "y": 3054,
+    "w": 535,
+    "h": 25
+   },
+   {
+    "x": 63,
+    "y": 3088,
+    "w": 244,
+    "h": 25
+   },
+   {
+    "x": 59,
+    "y": 3202,
+    "w": 97,
+    "h": 24
+   },
+   {
+    "x": 796,
+    "y": 3166,
+    "w": 162,
+    "h": 39
+   },
+   {
+    "x": 151,
+    "y": 3296,
+    "w": 611,
+    "h": 39
+   },
+   {
+    "x": 151,
+    "y": 4189,
+    "w": 1119,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4222,
+    "w": 1059,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4255,
+    "w": 465,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4328,
+    "w": 1115,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4361,
+    "w": 1071,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4394,
+    "w": 1114,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4427,
+    "w": 133,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4491,
+    "w": 1102,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4524,
+    "w": 165,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4588,
+    "w": 1072,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4621,
+    "w": 1100,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4654,
+    "w": 1133,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4687,
+    "w": 1123,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4720,
+    "w": 1080,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4753,
+    "w": 1113,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4786,
+    "w": 1119,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4819,
+    "w": 1136,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4852,
+    "w": 1122,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4885,
+    "w": 52,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4950,
+    "w": 503,
+    "h": 24
+   },
+   {
+    "x": 655,
+    "y": 4950,
+    "w": 65,
+    "h": 24
+   },
+   {
+    "x": 720,
+    "y": 4950,
+    "w": 565,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 4983,
+    "w": 1134,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5016,
+    "w": 1136,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5049,
+    "w": 806,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5113,
+    "w": 1121,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5146,
+    "w": 1118,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5179,
+    "w": 1073,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 5212,
+    "w": 82,
+    "h": 24
+   },
+   {
+    "x": 257,
+    "y": 5734,
+    "w": 925,
+    "h": 20
+   },
+   {
+    "x": 151,
+    "y": 5851,
+    "w": 168,
+    "h": 39
+   },
+   {
+    "x": 151,
+    "y": 6379,
+    "w": 1134,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 6412,
+    "w": 246,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 6894,
+    "w": 327,
+    "h": 20
+   },
+   {
+    "x": 151,
+    "y": 6918,
+    "w": 344,
+    "h": 20
+   },
+   {
+    "x": 151,
+    "y": 6943,
+    "w": 58,
+    "h": 20
+   },
+   {
+    "x": 575,
+    "y": 6461,
+    "w": 676,
+    "h": 24
+   },
+   {
+    "x": 575,
+    "y": 6494,
+    "w": 713,
+    "h": 24
+   },
+   {
+    "x": 575,
+    "y": 6527,
+    "w": 689,
+    "h": 24
+   },
+   {
+    "x": 575,
+    "y": 6560,
+    "w": 712,
+    "h": 24
+   },
+   {
+    "x": 575,
+    "y": 6593,
+    "w": 594,
+    "h": 24
+   },
+   {
+    "x": 575,
+    "y": 6626,
+    "w": 709,
+    "h": 24
+   },
+   {
+    "x": 575,
+    "y": 6659,
+    "w": 578,
+    "h": 24
+   },
+   {
+    "x": 1152,
+    "y": 6659,
+    "w": 77,
+    "h": 24
+   },
+   {
+    "x": 1229,
+    "y": 6659,
+    "w": 37,
+    "h": 24
+   },
+   {
+    "x": 575,
+    "y": 6692,
+    "w": 56,
+    "h": 24
+   },
+   {
+    "x": 630,
+    "y": 6692,
+    "w": 134,
+    "h": 24
+   },
+   {
+    "x": 764,
+    "y": 6692,
+    "w": 239,
+    "h": 24
+   },
+   {
+    "x": 1004,
+    "y": 6692,
+    "w": 252,
+    "h": 24
+   },
+   {
+    "x": 575,
+    "y": 6725,
+    "w": 677,
+    "h": 24
+   },
+   {
+    "x": 575,
+    "y": 6758,
+    "w": 695,
+    "h": 24
+   },
+   {
+    "x": 575,
+    "y": 6791,
+    "w": 651,
+    "h": 24
+   },
+   {
+    "x": 575,
+    "y": 6824,
+    "w": 692,
+    "h": 24
+   },
+   {
+    "x": 575,
+    "y": 6857,
+    "w": 632,
+    "h": 24
+   },
+   {
+    "x": 575,
+    "y": 6890,
+    "w": 222,
+    "h": 24
+   },
+   {
+    "x": 575,
+    "y": 6939,
+    "w": 689,
+    "h": 24
+   },
+   {
+    "x": 575,
+    "y": 6972,
+    "w": 701,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 7005,
+    "w": 1076,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 7038,
+    "w": 1125,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 7071,
+    "w": 1130,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 7104,
+    "w": 1130,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 7143,
+    "w": 604,
+    "h": 24
+   },
+   {
+    "x": 755,
+    "y": 7139,
+    "w": 9,
+    "h": 20
+   },
+   {
+    "x": 764,
+    "y": 7143,
+    "w": 299,
+    "h": 24
+   },
+   {
+    "x": 1063,
+    "y": 7139,
+    "w": 22,
+    "h": 20
+   },
+   {
+    "x": 1084,
+    "y": 7143,
+    "w": 202,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 7176,
+    "w": 1119,
+    "h": 24
+   },
+   {
+    "x": 151,
+    "y": 7209,
+    "w": 874,
+    "h": 24
+   },
+   {
+    "x": 108,
+    "y": 7280,
+    "w": 30,
+    "h": 18
+   },
+   {
+    "x": 139,
+    "y": 7280,
+    "w": 51,
+    "h": 18
+   },
+   {
+    "x": 190,
+    "y": 7280,
+    "w": 32,
+    "h": 18
+   },
+   {
+    "x": 464,
+    "y": 7280,
+    "w": 45,
+    "h": 18
+   },
+   {
+    "x": 513,
+    "y": 7280,
+    "w": 24,
+    "h": 18
+   },
+   {
+    "x": 537,
+    "y": 7280,
+    "w": 68,
+    "h": 18
+   },
+   {
+    "x": 609,
+    "y": 7280,
+    "w": 24,
+    "h": 18
+   },
+   {
+    "x": 633,
+    "y": 7280,
+    "w": 151,
+    "h": 18
+   },
+   {
+    "x": 788,
+    "y": 7280,
+    "w": 23,
+    "h": 18
+   },
+   {
+    "x": 811,
+    "y": 7280,
+    "w": 146,
+    "h": 18
+   },
+   {
+    "x": 961,
+    "y": 7280,
+    "w": 23,
+    "h": 18
+   },
+   {
+    "x": 984,
+    "y": 7280,
+    "w": 124,
+    "h": 18
+   },
+   {
+    "x": 1112,
+    "y": 7280,
+    "w": 24,
+    "h": 18
+   },
+   {
+    "x": 1136,
+    "y": 7280,
+    "w": 170,
+    "h": 18
+   }
+  ]
+ }
+}

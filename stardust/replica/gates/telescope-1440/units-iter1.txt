@@ -1,0 +1,77 @@
+unit-geometry @ 1440px, tol 4px — https://elt.eso.org/telescope/ vs http://localhost:8791/telescope-proposed.html
+unit 1 of footer-columns (required) footer .col-12=.site-footer__row > .footer-item: origin -15,3395 360×22 vs served -15,3395 360×22 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "eso" | 124,0 29×22 | 124,0 29×22 | 0 | 0 | 0 | 0 | ✓ |
+| text "2026" | 203,0 33×22 | 203,0 33×22 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of footer-columns (required) footer .col-12=.site-footer__row > .footer-item: origin 345,3395 1080×22 vs served 345,3395 1080×22 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "| | | | |" | 119,0 842×22 | 119,0 842×22 | 0 | 0 | 0 | 0 | ✓ |
+| link "credits" | 119,2 49×18 | 119,2 49×18 | 0 | 0 | 0 | 0 | ✓ |
+| link "contact us" | 192,2 74×18 | 192,2 74×18 | 0 | 0 | 0 | 0 | ✓ |
+| link "subscribe to eso news" | 289,2 155×18 | 289,2 155×18 | 0 | 0 | 0 | 0 | ✓ |
+| link "accelerated by cdn77" | 468,2 149×18 | 468,2 149×18 | 0 | 0 | 0 | 0 | ✓ |
+| link "terms & conditions" | 641,2 128×18 | 641,2 128×18 | 0 | 0 | 0 | 0 | ✓ |
+| link "cookie settings and policy" | 792,2 169×18 | 792,2 169×18 | 0 | 0 | 0 | 0 | ✓ |
+unit 1 of listing-mirror-cards (required) .col-lg-3:has(> img)=.link-grid--4 > .card__image: origin 151,1536 284×225 vs served 151,1536 284×225 → Δx 0 Δy 0 Δw 0 Δh 0; 3 elements: 2 within 4px, 1 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:img#1" | 0,0 282×225 | 0,0 282×225 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 0,180 282×45 | 0,173 282×45 | 0 | -7 | 0 | 0 | ✗ |
+| link "read more" | 16,188 96×29 | 16,188 96×29 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of listing-mirror-cards (required) .col-lg-3:has(> img)=.link-grid--4 > .card__image: origin 436,1536 284×225 vs served 436,1536 284×225 → Δx 0 Δy 0 Δw 0 Δh 0; 3 elements: 2 within 4px, 1 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:img#1" | 0,0 282×225 | 0,0 282×225 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 0,180 282×45 | 0,173 282×45 | 0 | -7 | 0 | 0 | ✗ |
+| link "read more" | 16,188 96×29 | 16,188 96×29 | 0 | 0 | 0 | 0 | ✓ |
+unit 3 of listing-mirror-cards (required) .col-lg-3:has(> img)=.link-grid--4 > .card__image: origin 720,1536 284×225 vs served 720,1536 284×225 → Δx 0 Δy 0 Δw 0 Δh 0; 3 elements: 2 within 4px, 1 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:img#1" | 0,0 282×225 | 0,0 282×225 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 0,180 282×45 | 0,173 282×45 | 0 | -7 | 0 | 0 | ✗ |
+| link "read more" | 16,188 96×29 | 16,188 96×29 | 0 | 0 | 0 | 0 | ✓ |
+unit 4 of listing-mirror-cards (required) .col-lg-3:has(> img)=.link-grid--4 > .card__image: origin 1004,1536 284×225 vs served 1004,1536 284×225 → Δx 0 Δy 0 Δw 0 Δh 0; 3 elements: 2 within 4px, 1 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:img#1" | 0,0 282×225 | 0,0 282×225 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 0,180 282×45 | 0,173 282×45 | 0 | -7 | 0 | 0 | ✗ |
+| link "read more" | 16,188 96×29 | 16,188 96×29 | 0 | 0 | 0 | 0 | ✓ |
+unit 1 of listing-system-cards (required) .col-lg-4:has(> img)=.link-grid--3 > .card__image: origin 151,2155 379×176 vs served 151,2155 379×176 → Δx 0 Δy 0 Δw 0 Δh 0; 3 elements: 2 within 4px, 1 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:img#1" | 0,0 375×176 | 0,0 375×176 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 0,131 375×45 | 0,124 375×45 | 0 | -7 | 0 | 0 | ✗ |
+| link "read more" | 37,139 96×29 | 37,139 96×29 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of listing-system-cards (required) .col-lg-4:has(> img)=.link-grid--3 > .card__image: origin 530,2155 379×176 vs served 530,2155 379×176 → Δx 0 Δy 0 Δw 0 Δh 0; 3 elements: 2 within 4px, 1 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:img#1" | 0,0 375×176 | 0,0 375×176 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 0,131 375×45 | 0,124 375×45 | 0 | -7 | 0 | 0 | ✗ |
+| link "read more" | 37,139 96×29 | 37,139 96×29 | 0 | 0 | 0 | 0 | ✓ |
+unit 3 of listing-system-cards (required) .col-lg-4:has(> img)=.link-grid--3 > .card__image: origin 910,2155 379×176 vs served 910,2155 379×176 → Δx 0 Δy 0 Δw 0 Δh 0; 3 elements: 2 within 4px, 1 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:img#1" | 0,0 375×176 | 0,0 375×176 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 0,131 375×45 | 0,124 375×45 | 0 | -7 | 0 | 0 | ✗ |
+| link "read more" | 37,139 96×29 | 37,139 96×29 | 0 | 0 | 0 | 0 | ✓ |
+unit 1 of listing-wide-tile-bars (required) .telescope-landing-col-domestruct=.wide-tile__bar: origin 151,1196 569×59 vs served 151,1196 569×59 → Δx 0 Δy 0 Δw 0 Δh 0; 3 elements: 3 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:svg#1" | 0,0 569×59 | 0,0 569×59 | 0 | 0 | 0 | 0 | ✓ |
+| link "dome" | 453,14 59×35 | 453,14 59×35 | 0 | 0 | 0 | 0 | ✓ |
+| link "read more" | 37,20 96×29 | 37,20 96×29 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of listing-wide-tile-bars (required) .telescope-landing-col-domestruct=.wide-tile__bar: origin 720,1196 569×59 vs served 720,1196 569×59 → Δx 0 Δy 0 Δw 0 Δh 0; 3 elements: 3 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:svg#1" | 0,0 569×59 | 0,0 569×59 | 0 | 0 | 0 | 0 | ✓ |
+| link "main structure" | 370,14 142×35 | 370,14 142×35 | 0 | 0 | 0 | 0 | ✓ |
+| link "read more" | 37,20 96×29 | 37,20 96×29 | 0 | 0 | 0 | 0 | ✓ |
+unit 3 of listing-wide-tile-bars (required) .telescope-landing-col-domestruct=.wide-tile__bar: origin 151,3291 1138×59 vs served 151,3291 1138×59 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:svg#1" | 0,0 1138×59 | 0,0 1138×59 | 0 | 0 | 0 | 0 | ✓ |
+| link "read more" | 123,20 96×29 | 123,20 96×29 | 0 | 0 | 0 | 0 | ✓ |
+Units: 12 compared; elements within 31, off 7, hidden 0, missing 0 → FAIL
+json → stardust/replica/gates/telescope-1440/units-iter1.json

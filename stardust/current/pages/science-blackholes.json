@@ -1,0 +1,716 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-11-13T11:30:31.916Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "science-blackholes",
+  "url": "https://elt.eso.org/science/blackholes/",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-11-13T11:30:31.916Z",
+  "finalUrl": "https://elt.eso.org/science/blackholes/",
+  "title": "Black Holes | ELT | ESO",
+  "description": "The Extremely Large Telescope: The World's Biggest Eye On The Sky",
+  "og": {
+    "title": "Black Holes | ELT | ESO",
+    "description": "The Extremely Large Telescope: The World's Biggest Eye On The Sky",
+    "image": "http://cdn.eso.org/images/screen/header-frontpage.jpg",
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Our use of Cookies"
+    },
+    {
+      "tag": "h1",
+      "text": "ESO Cookies Policy"
+    },
+    {
+      "tag": "h2",
+      "text": "What are cookies?"
+    },
+    {
+      "tag": "h2",
+      "text": "Categories of cookies we use"
+    },
+    {
+      "tag": "h2",
+      "text": "How to manage cookies"
+    },
+    {
+      "tag": "h2",
+      "text": "Updates to the ESO Cookies Policy"
+    },
+    {
+      "tag": "h2",
+      "text": "Additional information"
+    }
+  ],
+  "body": [
+    "Choose your language English Español",
+    "search Search",
+    "EuropeanSouthernObservatory",
+    "ELT HOME",
+    "ABOUT About the ELT Timeline Location Webcams Facts Road to the ELT Meet the Team Working Groups Industrial and Institutional Partners FAQ",
+    "TELESCOPE Telescope Overview Dome Main Structure Mirrors Mirrors Overview M1 M2M3 M4 M5 Adaptive Optics Prefocal Station Controls Operations",
+    "INSTRUMENTS Instruments Overview HARMONI MICADO MORFEO METIS ANDES MOSAIC",
+    "SCIENCE Science Overview Solar System Exoplanets Stars Black Holes Galaxies Cosmology and Dark Matter Fundamental Physics Unexpected Discoveries",
+    "NEWS & MULTIMEDIA",
+    "SUCCESS STORIES",
+    "Black holes are so compact that nothing can escape their incredibly strong gravity, not even light.",
+    "Astronomers know that they can be as heavy as billions of suns or have masses just a few times that of our star, but much about these fascinating objects remains a mystery. The ELT is uniquely suited to exploring the supermassive black hole at the Milky Way’s centre, and it will also open our eyes to black holes at the centre of other galaxies, as well as smaller black holes that live among the stars.",
+    "Astronomers have evidence that black holes are extremely common throughout the Universe. A supermassive black hole lies at the centre of almost every large galaxy, including the Milky Way, while some of the less massive black holes are thought to form when massive stars reach the end of their lives. Since these objects are black — they don’t directly emit nor reflect light — astronomers rely mostly on indirect observations to spot their presence and study them. For example, they can infer much about a black hole by tracking the movements of stars and gas around it, something the ELT will excel at.",
+    "The centre of the Milky Way is a unique laboratory for exploring gravity around the closest supermassive black hole, a giant with four million times the mass of the Sun. The ELT will enable astronomers to build on research done with ESO telescopes on the Galactic Centre, which was recognised with the 2020 Nobel Prize in Physics. A dense cluster of stars surrounds the supermassive black hole, and the ELT will enable astronomers to study the behaviour of these stars in their strange environment with a level of detail and quality that we could only dream of reaching with smaller telescopes. The Galactic Centre also provides us with a place to study the accretion of matter onto supermassive black holes, as well as to better understand the relationship between their activity and star formation at the centre of galaxies.",
+    "Black hole research with the ELT will not be limited to the Galactic Centre. An open question awaiting the advent of the ELT is the existence and demographics of intermediate mass (100–10000 solar masses) black holes. These black holes represent a link currently missing between stellar-mass black holes and supermassive black holes, and they could serve as seeds in the early Universe for the formation of the supermassive black holes that we see today. The ELT will be able to accurately measure the 3D velocities of stars in massive star clusters and dwarf galaxies, where these intermediate mass black holes are thought to reside, allowing astronomers to find out more about them.",
+    "Another mystery astronomers will be able to tackle with the ELT is the role supermassive black holes play in the formation and evolution of galaxies and structures in the Universe. The centres of most galaxies harbour supermassive black holes weighing in at more than a million times the mass of the Sun. Supermassive black holes will be characterised out to large distances with the ELT, allowing us to trace the build-up of supermassive central objects in galaxies when the Universe was as young as a quarter of its present age.",
+    "A unique laboratory to push our understanding of physics to the limit and find out more about the monster at the centre of our Milky Way.",
+    "The ELT will search for evidence of intermediate mass black holes in massive stellar clusters.",
+    "The ELT will probe the supermassive black holes at the centre of galaxies, allowing astronomers to understand the role black holes play in the formation and evolution of their hosts.",
+    "Located at a distance of only 8 kpc, the centre of our Milky Way harbours the closest supermassive black hole, nicknamed Sagittarius A*. This proximity allows for more detailed observations than are possible for any other supermassive black hole in our Universe. As the space between us and Sagittarius A* contains dust and gas, we must use infrared instruments — like those on the ELT — that can peer through these obstacles to the Galactic Centre.",
+    "Since investigations of the Galactic Centre were first carried out in the early 1990s, astronomers have constantly been on a quest for higher resolution and sharper observations. With the advent of adaptive optics on very large telescopes, scientists could resolve the brightest stars around Sagittarius A*. Surprisingly, as many as 40 cold giant stars (so-called S stars) were found to reside in the immediate vicinity of the black hole, whose gravity forces the stars to orbit very quickly; the shortest period star confirmed so far orbits the black hole in just 12 years, and the brightest star in the system is on a 16-year orbit. Monitoring the orbits of these stars, including with the GRAVITY instrument on ESO’s Very Large Telescope Interferometer, has become key to studying the properties of the black hole at the centre of the Milky Way.",
+    "When we look towards Sagittarius A*, we see so many objects that distinguishing individual stars close to the black hole is difficult, even with adaptive optics on today’s large telescopes. The ELT’s MICADO instrument will push the effective stellar detection sensitivity by more than five magnitudes, making it possible to study the stars across the entire range of stellar masses, including those smaller than the Sun. By unearthing many more stars close to Sagittarius A* than have been discovered so far, MICADO will enable astronomers to tackle several key issues related to the physics of massive black holes and their surroundings. MICADO will make it possible to carry out astrometry with a long-term precision of 50–100µas, which is 3–6 times better than currently possible with the NACO instrument on ESO’s Very Large Telescope.",
+    "ELT’s MICADO will also excel when compared with GRAVITY, which has delivered several important results on the Galactic Centre. While GRAVITY offers a higher resolution, MICADO will have a much higher sensitivity and larger field of view, making it possible to track many more stars orbiting Sagittarius A* than currently possible. MICADO will deliver high-quality images with 12mas resolution with a superb sensitivity over a field of view 10s of arcseconds across.",
+    "Statistics of stellar orbits",
+    "The relatively small number of stars (around 40) currently known to orbit the black hole at the centre of the Milky Way limits the statistical analysis that can be done of this region of space. The current limitation comes from stellar crowding: while the brighter stars can be seen, stars fainter than magnitude of around 18 are hidden in the stray light of the surrounding brighter ones. MICADO will overcome this limitation. By reaching fainter magnitudes and higher precision positions than possible with 8-metre-class telescopes, the number of stellar orbits will increase into the hundreds, and the radial distance out to which one can detect orbits via accelerations will be increased. This means that, with MICADO, astronomers will be able to measure statistical quantities related to the orbits of stars close to black hole, including the eccentricity distribution and the distribution of specific angular momentum vectors. This will provide clues on how the stars formed and how they can reside where we find them today.",
+    "The impact of the very high resolution achievable with the ELT illustrated in the Galactic Centre field. Credit: Trippe et al. (2010)",
+    "Measuring the spin of Sagittarius A*",
+    "The spin of a black hole is one of its key properties and measuring it would be a crucial test of General Relativity. The value of this parameter affects the orbits of stars and gas very close to the black hole. However, measuring the spin of Sagittarius A* from stellar orbits via astrometry is a very tough problem since it is not clear whether a suitable star (with a short enough orbital period and high enough eccentricity) exists. ELT is likely to reveal stars closer to Sagittarius A* than any found to date, moving so fast that we can detect the effects of general relativity on their orbits. If a star on the same type of orbit as S2, but with 10 times smaller semi-major axis can be followed at a radial velocity accuracy of < 10 km/s the data start getting sensitive to spin.",
+    "The mass distribution and mass function in the Galactic Centre",
+    "Discovering more stars orbiting close to Sagittarius A* will enable astronomers to better estimate the mass contained in the Galactic Centre, as well as to determine the Initial Mass Function (IMF) that describes the initial distribution of masses for a group of stars. This will enable astronomers to test the emerging evidence that the IMF close to Sagittarius A* is much flatter (i.e., it includes more massive stars) than in the Galactic Disc, indicating a different mode of star formation.",
+    "Further, with MICADO, we expect to get more mass measurements referring to a range of radii, mapping out the radial mass distribution. While it is clear that the gravitational potential is dominated by Sagittarius A*, theory predicts that there should be a population of stellar remnants which have sunk in the nuclear cluster due to dynamical friction. Detecting this population would test our fundamental understanding of the evolution of dense stellar systems.",
+    "In addition, with a much larger number of stars being monitored, we increase the chances of detecting a stellar flyby. We might witness how one or more of the stars experience a \"kick\" along its path, from which one can estimate the mass of the perturber.",
+    "Gaseous objects around Sagittarius A*, star formation, and accretion onto the black hole",
+    "Most of the objects seen at the Galactic Centre are stars. However, a few gaseous objects have been discovered, and their nature is the subject of current research. MICADO will be able to make more detailed spectra of gaseous objects around Sagittarius A* to determine whether they are all of the same type, whether some or all contain a central star, what orbits they follow and how they formed.",
+    "Series of position-velocity diagrams of G2 obtained with SINFONI at the VLT. Credit: ESO/Gillessen et al. (2019)",
+    "One outstanding mystery is whether the gas that falls into the centre of the Milky Way forms stars near the massive black hole or whether it is accreted directly onto the massive black hole. Answering this question would help us find out if star formation at the centre of the Milky Way is related to the activity of Sagittarius A*. Observations of a group of young stars in the Galactic Centre have yielded the remarkable result that episodic star formation deep in the sphere of influence of the massive black hole appears to be efficient and has a top-heavy (i.e., with more massive stars than normally found) mass function. A better quantitative determination of the processes involved in stellar formation in this extreme environment, a precise determination of the resulting stellar mass function and density profile, and the exploration of the connection between the rates of star formation and black hole accretion are critical for understanding the cosmological co-evolution of galaxies and massive black holes.",
+    "Sagittarius A* is the prototype of the very common class of radiatively inefficient accretion sources. Detailed multi-wavelength observations of the black hole have shed light on the complex physics underlying the inefficient accretion process that appears to dominate at relatively low accretion rates and is guiding current theoretical work. The fact that infrared emission from Sagittarius A* is sporadic and faint and at a very confused location makes further substantial observational progress difficult without instrumental advances.",
+    "Astronomers have found plenty of observational evidence for supermassive black holes and smaller stellar-mass black holes. Intermediate mass black holes, with masses ranging from around 100 to 10000 solar masses, are the missing link between these two classes, and the type of black hole astronomers are less familiar with.",
+    "They could plausibly form from the first ultra-massive stars, or via the same unknown mechanism that forms supermassive black holes. Their existence in the local Universe cannot unambiguously be proven with current observational facilities. To date, only a few detections at the centres of dwarf galaxies and massive star clusters have been reported. Their existence has been inferred either from X-ray and radio emission that is believed to originate from matter falling onto a black hole, or from the disturbance in the motions of stars and gas at the centre of these objects.",
+    "In the search for possible intermediate mass black holes, the MICADO instrument on the ELT will allow astronomers to make dynamical measurements of prominent young star clusters, such as massive globular clusters. The unambiguous detection of an intermediate mass black hole in such a cluster has far-reaching consequences for black hole formation during the early Universe.",
+    "With HARMONI, astronomers will carry out deep kinematical studies of stellar populations to trace the gravitational potential at the centre of the cluster, to disentangle the effects of mass segregation from that of an intermediate mass black hole. This will allow us to obtain a census of black hole masses to constrain the formation mechanism of intermediate mass black holes and their relation to supermassive and stellar-mass black holes. It will also lead to more accurate predictions for gravitational-wave experiments.",
+    "Testing whether intermediate mass black holes exist and understanding their demographics is also an essential part of understanding the formation and co-evolution of galaxies and active galactic nuclei, and more generally, the overall formation of cosmic structure. The fundamental idea in detecting intermediate-mass black holes in nuclear star clusters and galactic globular clusters is the same: use stellar kinematics to look for evidence of a dark, central concentration of mass over and above what one would expect from dynamical mass-segregation processes. In nearby globular clusters, in particular, we expect that around one star exists per central spaxel, meaning we could measure radial velocities of individual stars.",
+    "Detailed simulations show that detection of an intermediate mass black hole within a faint nuclear star clusters requires: (a) spectral resolution ≥ 10,000; (b) a point spread function with a FWHM < 14 mas (K band: 2.0–2.3 μm) and < 8 mas (I band: 0.8–1.0 μm). These last constraints require diffraction-limited performance, that is a spaxel scale of 4 mas. These two bands provide the best possible prior constraint on the stellar mass distribution in the galaxy (K band) and achieve the best possible spatial resolution for kinematics (I band).",
+    "Theoretical and observational studies have established that the large-scale properties of nearby galaxies — for example, the mass and luminosity of the spherical bulge of stars at their centres, as well as the statistical dispersion of the velocities of stars in different parts of the galaxies — vary with the mass of the central black hole. Such relationships suggest that the growth of supermassive black holes must be intimately related to the formation and evolution of its host galaxy. The evolution over cosmic time of the relationship between the central black holes and the properties of their host galaxies provides key constrains for a comprehensive interpretation of the assembly and evolution of galaxies and their central black hole.",
+    "This goal requires systematic surveys that sample black holes with a large range of masses across cosmic time. The fundamental limiting factor so far has been the spatial resolution of current imaging and spectroscopic instrumentation. The best measurements of supermassive black hole masses have so far been obtained either through measuring the orbits of stars around the black hole in our own Milky Way or from the measurements of stimulated microwave emission (masers), but these methods are limited to only a few galaxies. While larger numbers and volumes can in principle be reached through secondary techniques, these need to be calibrated against measurements that rely on first principles for their mass estimates, namely dynamical measurements. Although they are challenging to obtain observationally, and to treat numerically, data on stellar motions are the easiest to interpret physically and are regarded as the highest confidence mass determinations beyond maser measurements.",
+    "The size of the spatial region where black holes directly influence the motions of stars and gas through their gravity is called the sphere of influence. To study this region of space and obtain accurate measurements of the motions of stars and gas within it, a telescope must be able to at least marginally resolve the radius of influence. The upcoming Enhanced Resolution Imager and Spectrograph (ERIS) on ESO’s Very Large Telescope will provide the highest available spatial resolution (~50 mas) in today’s telescopes, but even this is too low to probe the sphere of influence of a typical supermassive black hole beyond about 100 Mpc, and the most massive black holes, with billions of solar masses, are detectable only out to around 200 Mpc. In the closest galaxies, black holes that don’t significantly affect their surroundings, can only be detected if their masses are about one million solar masses or higher. This means that, at present, astronomers can only do direct stellar dynamical measurements for around 100 objects. Therefore, the redshift evolution of black hole scaling relations as measured by dynamical means are entirely hidden to us and, thus, any study of a possible correlation with the environment is currently impossible. The ELT will be able to detect black holes with about one million solar masses at distances up to about 30 Mpc. Heavier black holes, with masses of around one billion solar masses, will be detected up to distances of about 1 Gpc (redshift of about 0.3).",
+    "The James Webb Space Telescope (JWST) will improve on the flux sensitivity of current black hole surveys but it will not significantly improve upon the spatial resolution. In contrast, the ELT MICADO instrument will reach a much higher spatial resolution (a few mas compared to a few tenths of mas on JWST), and consequently, the observable volume will increase by a factor of more than 300 compared to what is possible today. MICADO will be able to determine black hole masses down to around a million times the mass of the Sun and out to redshifts of 3 (for much larger masses). This will increase the number of direct measurements of black hole mass that we can currently do by tracking stellar movements from a few hundred to several tens of thousands. The cores of the highest mass black holes will be resolvable at virtually all redshifts and, ultimately, their observability will be limited only by the dimming of their surface brightness.",
+    "Black hole mass as a function of angular size distance. Credit: ESO/P. Padovani",
+    "Complementary to this imaging, the ELT’s HARMONI instrument will estimate the masses of black holes in active galactic nuclei using spectroscopy. Moreover, by subtracting the nuclear contribution, HARMONI observations offer the prospect of unveiling the properties of the black hole’s host galaxy, for example the bulge mass and stellar velocity dispersion. Detailed simulations of a host galaxy and the quasar at its centre at a redshift of 1.5 carried out by the HARMONI consortium enabled the simultaneous observation of emission and absorption lines to estimate the properties of the quasar and the host galaxy. These results indicate that HARMONI can be used to unveil the co-evolution of galaxies and their central black holes.",
+    "Lower mass black holes — those with less than 100,000 times the mass of the Sun — are particularly tricky to study, and many are beyond the reach of the first generation of ELT instruments. A technique called spectro-astrometry makes it possible to measure gas rotational velocities on scales down to a tenth of the spatial resolution of the instrument. Working with this technique at the diffraction limit of the ELT, second-generation instrument ANDES will be able to detect smaller and more distant black holes, with masses down to 10,000 times the mass of the Sun up to a distance of about 20 Mpc (e.g., in the Virgo Cluster).",
+    "We use cookies that are essential for accessing our websites and using our services. We also use cookies to analyse, measure and improve our websites’ performance, to enable content sharing via social media and to display media content hosted on third-party platforms.",
+    "The European Organisation for Astronomical Research in the Southern Hemisphere (ESO) is the pre-eminent intergovernmental science and technology organisation in astronomy. It carries out an ambitious programme focused on the design, construction and operation of powerful ground-based observing facilities for astronomy.",
+    "This Cookies Policy is intended to provide clarity by outlining the cookies used on the ESO public websites, their functions, the options you have for controlling them, and the ways you can contact us for additional details.",
+    "Cookies are small pieces of data stored on your device by websites you visit. They serve various purposes, such as remembering login credentials and preferences and enhance your browsing experience.",
+    "Essential cookies (always active): These cookies are strictly necessary for the proper functioning of our website. Without these cookies, the website cannot operate correctly, and certain services, such as logging in or accessing secure areas, may not be available; because they are essential for the website’s operation, they cannot be disabled.",
+    "Functional Cookies: These cookies enhance your browsing experience by enabling additional features and personalization, such as remembering your preferences and settings. While not strictly necessary for the website to function, they improve usability and convenience; these cookies are only placed if you provide your consent.",
+    "Analytics cookies: These cookies collect information about how visitors interact with our website, such as which pages are visited most often and how users navigate the site. This data helps us improve website performance, optimize content, and enhance the user experience; these cookies are only placed if you provide your consent. We use the following analytics cookies.",
+    "Matomo Cookies:",
+    "This website uses Matomo (formerly Piwik), an open source software which enables the statistical analysis of website visits. Matomo uses cookies (text files) which are saved on your computer and which allow us to analyze how you use our website. The website user information generated by the cookies will only be saved on the servers of our IT Department. We use this information to analyze www.eso.org visits and to prepare reports on website activities. These data will not be disclosed to third parties.",
+    "On behalf of ESO, Matomo will use this information for the purpose of evaluating your use of the website, compiling reports on website activity and providing other services relating to website activity and internet usage.",
+    "Matomo cookies settings:",
+    "Additional Third-party cookies on ESO websites: some of our pages display content from external providers, e.g. YouTube.",
+    "Such third-party services are outside of ESO control and may, at any time, change their terms of service, use of cookies, etc.",
+    "YouTube: Some videos on the ESO website are embedded from ESO’s official YouTube channel. We have enabled YouTube’s privacy-enhanced mode, meaning that no cookies are set unless the user actively clicks on the video to play it. Additionally, in this mode, YouTube does not store any personally identifiable cookie data for embedded video playbacks. For more details, please refer to YouTube’s embedding videos information page.",
+    "Cookies can also be classified based on the following elements.",
+    "Regarding the domain, there are:",
+    "First-party cookies, set by the website you are currently visiting. They are stored by the same domain that you are browsing and are used to enhance your experience on that site;",
+    "Third-party cookies, set by a domain other than the one you are currently visiting.",
+    "As for their duration, cookies can be:",
+    "Browser-session cookies, which are deleted when the user closes the browser;",
+    "Stored cookies, which stay on the user's device for a predetermined period of time.",
+    "Cookie settings: You can modify your cookie choices for the ESO webpages at any time by clicking on the link Cookie settings at the bottom of any page.",
+    "In your browser: If you wish to delete cookies or instruct your browser to delete or block cookies by default, please visit the help pages of your browser:",
+    "Brave",
+    "Chrome",
+    "Edge",
+    "Firefox",
+    "Safari",
+    "Please be aware that if you delete or decline cookies, certain functionalities of our website may be not be available and your browsing experience may be affected.",
+    "You can set most browsers to prevent any cookies being placed on your device, but you may then have to manually adjust some preferences every time you visit a site/page. And some services and functionalities may not work properly at all (e.g. profile logging-in, shop check out).",
+    "The ESO Cookies Policy may be subject to future updates, which will be made available on this page.",
+    "For any queries related to cookies, please contact: pdprATesoDOTorg.",
+    "As ESO public webpages are managed by our Department of Communication, your questions will be dealt with the support of the said Department."
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "search",
+      "href": "#"
+    },
+    {
+      "label": "ELT HOME",
+      "href": "/"
+    },
+    {
+      "label": "ABOUT",
+      "href": "/about/"
+    },
+    {
+      "label": "TELESCOPE",
+      "href": "/telescope/"
+    },
+    {
+      "label": "INSTRUMENTS",
+      "href": "/instrument/"
+    },
+    {
+      "label": "SCIENCE",
+      "href": "/science/"
+    },
+    {
+      "label": "NEWS & MULTIMEDIA",
+      "href": "/media/"
+    },
+    {
+      "label": "SUCCESS STORIES",
+      "href": "/success/buildingon/"
+    },
+    {
+      "label": "Galactic Centre",
+      "href": "#galactic-centre"
+    },
+    {
+      "label": "Globular Clusters",
+      "href": "#in-globular-clusters"
+    },
+    {
+      "label": "Other galaxies",
+      "href": "#in-other-galaxies"
+    },
+    {
+      "label": "recognised with the 2020 Nobel Prize in Physics",
+      "href": "https://www.eso.org/public/news/eso2017/"
+    },
+    {
+      "label": "The Galactic Centre",
+      "href": "#galactic-centre"
+    },
+    {
+      "label": "Read More",
+      "href": "#galactic-centre"
+    },
+    {
+      "label": "Read More",
+      "href": "#in-globular-clusters"
+    },
+    {
+      "label": "In Globular Clusters",
+      "href": "#in-globular-clusters"
+    },
+    {
+      "label": "In other galaxies",
+      "href": "#in-other-galaxies"
+    },
+    {
+      "label": "Read More",
+      "href": "#in-other-galaxies"
+    },
+    {
+      "label": "GRAVITY",
+      "href": "https://www.eso.org/public/teles-instr/paranal-observatory/vlt/vlt-instr/gravity/"
+    },
+    {
+      "label": "MICADO",
+      "href": "/instrument/MICADO/"
+    },
+    {
+      "label": "NACO",
+      "href": "https://www.eso.org/public/teles-instr/paranal-observatory/vlt/vlt-instr/naco/"
+    },
+    {
+      "label": "ESO’s Very Large Telescope",
+      "href": "https://www.eso.org/public/teles-instr/paranal-observatory/vlt/"
+    },
+    {
+      "label": "MICADO",
+      "href": "/instrument/MICADO/"
+    },
+    {
+      "label": "HARMONI",
+      "href": "/instrument/HARMONI/"
+    },
+    {
+      "label": "ERIS",
+      "href": "https://www.eso.org/public/teles-instr/paranal-observatory/vlt/vlt-instr/eris/"
+    },
+    {
+      "label": "ESO’s Very Large Telescope",
+      "href": "https://www.eso.org/public/teles-instr/paranal-observatory/vlt/"
+    },
+    {
+      "label": "MICADO",
+      "href": "/instrument/MICADO/"
+    },
+    {
+      "label": "HARMONI",
+      "href": "/instrument/HARMONI/"
+    },
+    {
+      "label": "ANDES",
+      "href": "/instrument/ANDES/"
+    },
+    {
+      "label": "ESO",
+      "href": "https:///www.eso.org/"
+    },
+    {
+      "label": "Credits",
+      "href": "/credits/"
+    },
+    {
+      "label": "Contact us",
+      "href": "mailto:information@eso.org"
+    },
+    {
+      "label": "Subscribe to ESO news",
+      "href": "https://www.eso.org/public/outreach/newsletters/"
+    },
+    {
+      "label": "Accelerated by CDN77",
+      "href": "https://www.cdn77.com/"
+    },
+    {
+      "label": "Terms & Conditions",
+      "href": "https://www.eso.org/public/about-eso/privacy/"
+    },
+    {
+      "label": "Cookie Settings and Policy",
+      "href": "#"
+    },
+    {
+      "label": "Accept All",
+      "href": null
+    },
+    {
+      "label": "Accept Only Essential Cookies",
+      "href": null
+    },
+    {
+      "label": "Cookie Settings and Policy",
+      "href": null
+    },
+    {
+      "label": "YouTube",
+      "href": "https://www.youtube.com/t/terms"
+    },
+    {
+      "label": "ESO’s official YouTube channel",
+      "href": "https://www.youtube.com/channel/UCIhYoC2VIAJqCkoIWNHBQ3Q"
+    },
+    {
+      "label": "embedding videos information page",
+      "href": "https://support.google.com/youtube/answer/171780?hl=en-GB"
+    },
+    {
+      "label": "Brave",
+      "href": "https://support.brave.com/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.brave.com%2Fhc%2Fen-us%2Farticles%2F360050634931-How-Do-I-Manage-Cookies-In-Brave"
+    },
+    {
+      "label": "Chrome",
+      "href": "https://support.google.com/chrome/bin/answer.py?hl=en&answer=95647&p=cpn_cookies"
+    },
+    {
+      "label": "Edge",
+      "href": "https://support.microsoft.com/en-us/windows/manage-cookies-in-microsoft-edge-view-allow-block-delete-and-use-168dab11-0753-043d-7c16-ede5947fc64d"
+    },
+    {
+      "label": "Firefox",
+      "href": "https://support.mozilla.org/en-US/kb/Blocking cookies"
+    },
+    {
+      "label": "Safari",
+      "href": "https://docs.info.apple.com/article.html?path=Safari/3.0/en/9277.html"
+    },
+    {
+      "label": "Save",
+      "href": null
+    },
+    {
+      "label": "Cancel",
+      "href": null
+    }
+  ],
+  "links": [
+    "https://www.eso.org/",
+    "https://elt.eso.org/science/blackholes/?lang",
+    "https://elt.eso.org/chile/science/blackholes/?lang",
+    "https://facebook.com/ESOAstronomy",
+    "https://www.instagram.com/esoastronomy/",
+    "https://www.linkedin.com/company/european-southern-observatory",
+    "https://www.youtube.com/channel/UCIhYoC2VIAJqCkoIWNHBQ3Q",
+    "https://elt.eso.org/",
+    "https://elt.eso.org/about/",
+    "https://elt.eso.org/about/timeline/",
+    "https://elt.eso.org/about/location/",
+    "https://elt.eso.org/about/webcams/",
+    "https://elt.eso.org/about/facts/",
+    "https://elt.eso.org/about/road/",
+    "https://elt.eso.org/about/team/",
+    "https://elt.eso.org/about/workinggroups/",
+    "https://elt.eso.org/about/industrial/",
+    "https://elt.eso.org/about/faq/",
+    "https://elt.eso.org/telescope/",
+    "https://elt.eso.org/telescope/dome/",
+    "https://elt.eso.org/telescope/structure/",
+    "https://elt.eso.org/mirror/",
+    "https://elt.eso.org/mirror/M1/",
+    "https://elt.eso.org/mirror/M2M3/",
+    "https://elt.eso.org/mirror/M4/",
+    "https://elt.eso.org/mirror/M5/",
+    "https://elt.eso.org/telescope/adaptiveoptics/",
+    "https://elt.eso.org/telescope/prefocal/",
+    "https://elt.eso.org/telescope/controls/",
+    "https://elt.eso.org/telescope/operations/",
+    "https://elt.eso.org/instrument/",
+    "https://elt.eso.org/instrument/HARMONI/",
+    "https://elt.eso.org/instrument/MICADO/",
+    "https://elt.eso.org/instrument/MORFEO/",
+    "https://elt.eso.org/instrument/METIS/",
+    "https://elt.eso.org/instrument/ANDES/",
+    "https://elt.eso.org/instrument/MOSAIC/",
+    "https://elt.eso.org/science/",
+    "https://elt.eso.org/science/solarsystem/",
+    "https://elt.eso.org/science/exoplanets/",
+    "https://elt.eso.org/science/stars/",
+    "https://elt.eso.org/science/blackholes/",
+    "https://elt.eso.org/science/galaxies/",
+    "https://elt.eso.org/science/cosmodm/",
+    "https://elt.eso.org/science/fundamentalphysics/",
+    "https://elt.eso.org/science/discoveries/",
+    "https://elt.eso.org/media/",
+    "https://elt.eso.org/success/buildingon/",
+    "https://elt.eso.org/science/blackholes/#",
+    "https://elt.eso.org/science/blackholes/#galactic-centre",
+    "https://elt.eso.org/science/blackholes/#in-globular-clusters",
+    "https://elt.eso.org/science/blackholes/#in-other-galaxies",
+    "https://www.facebook.com/sharer/sharer.php?u=https://elt.eso.org/science/blackholes/",
+    "https://www.linkedin.com/sharing/share-offsite/?url=https://elt.eso.org/science/blackholes/",
+    "https://www.eso.org/public/news/eso2017/",
+    {},
+    {},
+    {},
+    "https://www.eso.org/public/images/ann17051a/",
+    "https://www.eso.org/public/images/eso0846a/",
+    "https://www.eso.org/public/teles-instr/paranal-observatory/vlt/vlt-instr/gravity/",
+    "https://www.eso.org/public/teles-instr/paranal-observatory/vlt/vlt-instr/naco/",
+    "https://www.eso.org/public/teles-instr/paranal-observatory/vlt/",
+    "https://www.eso.org/public/images/vlt-nacok-image/",
+    "https://www.eso.org/public/images/klf-den-extrop-ncao/",
+    "https://www.eso.org/public/images/position-velocity-diagrams/",
+    "https://www.eso.org/public/images/eso1802a/",
+    "https://www.eso.org/public/images/eso1247a/",
+    "https://www.eso.org/public/teles-instr/paranal-observatory/vlt/vlt-instr/eris/",
+    "https://www.eso.org/public/images/black-holes-mass-function/",
+    "https://elt.eso.org/credits/",
+    "mailto:information@eso.org",
+    "https://www.eso.org/public/outreach/newsletters/",
+    "https://www.cdn77.com/",
+    "https://www.eso.org/public/about-eso/privacy/",
+    "https://www.youtube.com/t/terms",
+    "https://support.google.com/youtube/answer/171780?hl=en-GB",
+    "https://support.brave.com/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.brave.com%2Fhc%2Fen-us%2Farticles%2F360050634931-How-Do-I-Manage-Cookies-In-Brave",
+    "https://support.google.com/chrome/bin/answer.py?hl=en&answer=95647&p=cpn_cookies",
+    "https://support.microsoft.com/en-us/windows/manage-cookies-in-microsoft-edge-view-allow-block-delete-and-use-168dab11-0753-043d-7c16-ede5947fc64d",
+    "https://support.mozilla.org/en-US/kb/Blocking%20cookies",
+    "https://docs.info.apple.com/article.html?path=Safari/3.0/en/9277.html"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/eso_logo.jpg",
+        "alt": "",
+        "w": 100,
+        "h": 130
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_topbar_mobile_1.png",
+        "alt": "ESO on Facebook",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_topbar_mobile_3.png",
+        "alt": "ESO on Instagram",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_topbar_mobile_4.png",
+        "alt": "ESO on LinkedIn",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_topbar_mobile_5.png",
+        "alt": "ESO on YouTube",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_topbar_mobile_1.png",
+        "alt": "ESO on Facebook",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_topbar_mobile_3.png",
+        "alt": "ESO on Instagram",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_topbar_mobile_4.png",
+        "alt": "ESO on LinkedIn",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_topbar_mobile_5.png",
+        "alt": "ESO on YouTube",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://cdn.eso.org/images/banner1920/header-science-blackholes.jpg",
+        "alt": "",
+        "w": 1920,
+        "h": 900
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/eso_logo_transparent.png",
+        "alt": "",
+        "w": 981,
+        "h": 1279
+      },
+      {
+        "src": "https://cdn.eso.org/images/banner1920/subheader-science-blackholes.jpg",
+        "alt": "",
+        "w": 1920,
+        "h": 900
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_share_1.png",
+        "alt": "Share on Facebook",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_share_3.png",
+        "alt": "",
+        "w": 36,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_share_1.png",
+        "alt": "Share on Facebook",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_share_5.png",
+        "alt": "E-Mail",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_share_6.png",
+        "alt": "Copy link",
+        "w": 36,
+        "h": 35
+      },
+      {
+        "src": "https://elt.eso.org/public/archives/djp/elt-assets/img/social-media/icon_share_4.png",
+        "alt": "Share on LinkedIn",
+        "w": 35,
+        "h": 35
+      },
+      {
+        "src": "https://cdn.eso.org/images/banner1920/science-bh-galactic.jpg",
+        "alt": "",
+        "w": 1920,
+        "h": 900
+      },
+      {
+        "src": "https://cdn.eso.org/images/banner1920/science-bh-globular.jpg",
+        "alt": "",
+        "w": 1920,
+        "h": 900
+      },
+      {
+        "src": "https://cdn.eso.org/images/banner1920/science-bh-othergalaxies.jpg",
+        "alt": "",
+        "w": 1920,
+        "h": 900
+      },
+      {
+        "src": "https://cdn.eso.org/images/original/science-bh-galactic-banner.jpg",
+        "alt": "",
+        "w": 2560,
+        "h": 743
+      },
+      {
+        "src": "https://cdn.eso.org/images/screen/eso0846a.jpg",
+        "alt": "",
+        "w": 1280,
+        "h": 1280
+      },
+      {
+        "src": "https://cdn.eso.org/images/screen/eso0846a.jpg",
+        "alt": "",
+        "w": 1280,
+        "h": 1280
+      },
+      {
+        "src": "https://cdn.eso.org/images/wallpaper3/vlt-nacok-image.jpg",
+        "alt": "",
+        "w": 1600,
+        "h": 1200
+      },
+      {
+        "src": "https://cdn.eso.org/images/wallpaper3/klf-den-extrop-ncao.jpg",
+        "alt": "",
+        "w": 1600,
+        "h": 1200
+      },
+      {
+        "src": "https://cdn.eso.org/images/screen/position-velocity-diagrams.jpg",
+        "alt": "",
+        "w": 1280,
+        "h": 339
+      },
+      {
+        "src": "https://cdn.eso.org/images/original/science-bh-globular-banner.jpg",
+        "alt": "",
+        "w": 2560,
+        "h": 743
+      },
+      {
+        "src": "https://cdn.eso.org/images/original/science-bh-other-banner.jpg",
+        "alt": "",
+        "w": 2560,
+        "h": 743
+      },
+      {
+        "src": "https://cdn.eso.org/images/screen/black-holes-mass-function.jpg",
+        "alt": "",
+        "w": 1280,
+        "h": 1249
+      }
+    ],
+    "allImgCount": 30,
+    "cssBackgrounds": [],
+    "modals": [],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {
+    "--blue": "#007bff",
+    "--indigo": "#6610f2",
+    "--purple": "#6f42c1",
+    "--pink": "#e83e8c",
+    "--red": "#dc3545",
+    "--orange": "rgb(232, 133, 38)",
+    "--yellow": "#ffc107",
+    "--green": "#28a745",
+    "--teal": "#20c997",
+    "--cyan": "#17a2b8",
+    "--white": "#fff",
+    "--gray": "#6c757d",
+    "--gray-dark": "#343a40",
+    "--primary": "#007bff",
+    "--secondary": "#6c757d",
+    "--success": "#28a745",
+    "--info": "#17a2b8",
+    "--warning": "#ffc107",
+    "--danger": "#dc3545",
+    "--light": "#f8f9fa",
+    "--dark": "#343a40",
+    "--breakpoint-xxxs": "0",
+    "--breakpoint-xxs": "320px",
+    "--breakpoint-xs": "480px",
+    "--breakpoint-sm": "576px",
+    "--breakpoint-md": "768px",
+    "--breakpoint-lg": "992px",
+    "--breakpoint-xl": "1200px",
+    "--breakpoint-xxl": "1440px",
+    "--breakpoint-xxxl": "1680px",
+    "--breakpoint-xxxxl": "1920px",
+    "--font-family-sans-serif": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+    "--font-family-monospace": "SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+    "--swiper-theme-color": "#007aff",
+    "--swiper-navigation-size": "44px",
+    "--esoblue": "rgb(0, 119, 190)",
+    "--esoblueshade": "rgba(0, 119, 190, 0.1)",
+    "--esobluelightshade": "rgba(0, 119, 190, 0.4)",
+    "--headerblue": "rgb(45, 164, 245)",
+    "--esobluedarkdarkshade": "#005e97",
+    "--esobluedarkshade": "#0077be",
+    "--esogray": "#878787"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 7,
+    "mainTextLen": 29997,
+    "realImageCount": 30,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [],
+    "thirdPartyScriptHosts": [],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [],
+    "frameworkHints": [],
+    "forms": [],
+    "ariaLiveRegions": 0,
+    "triggers": [],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 0,
+      "thirdPartyEndpoints": 0,
+      "thirdPartyScriptHosts": 0,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": false
+    }
+  },
+  "screenshot": "assets/screenshots/science-blackholes.png",
+  "renderedHtml": "pages/science-blackholes.html",
+  "slots": {
+    "pageTitle": "Science with the ELT",
+    "heroImage": "https://cdn.eso.org/images/banner1920/header-science-blackholes.jpg",
+    "program-headline": "Black Holes",
+    "summary": "Black holes are so compact that nothing can escape their incredibly strong gravity, not even light.",
+    "description": "Astronomers know that they can be as heavy as billions of suns or have masses just a few times that of our star, but much about these fascinating objects remains a mystery. The ELT is uniquely suited to exploring the supermassive black hole at the Milky Way’s centre, and it will also open our eyes to black holes at the centre of other galaxies, as well as smaller black holes that live among the stars.",
+    "quick-links": [
+      {
+        "label": "Galactic Centre",
+        "href": "#galactic-centre"
+      },
+      {
+        "label": "Globular Clusters",
+        "href": "#in-globular-clusters"
+      },
+      {
+        "label": "Other galaxies",
+        "href": "#in-other-galaxies"
+      }
+    ],
+    "feature-grid": [
+      "",
+      "",
+      ""
+    ],
+    "sections": [
+      "The Galactic Centre",
+      "In Globular Clusters",
+      "In other galaxies"
+    ]
+  }
+}

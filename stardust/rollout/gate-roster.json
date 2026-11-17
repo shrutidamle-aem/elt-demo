@@ -1,0 +1,392 @@
+{
+ "_note": "gate-all --state roster: one row per planned page (index-b7ff folded into index). Pass --only <slugs> for pages actually delivered.",
+ "pages": [
+  {
+   "slug": "index",
+   "url": "https://elt.eso.org/",
+   "template": "landing",
+   "status": "deployed",
+   "deployedPath": "/",
+   "liveUrl": "https://main--26c59ee1--aemcoder.aem.page/",
+   "fidelityTier": "archetype"
+  },
+  {
+   "slug": "chile",
+   "url": "https://elt.eso.org/chile/?lang",
+   "template": "landing",
+   "status": "deployed",
+   "deployedPath": "/chile",
+   "liveUrl": "https://main--26c59ee1--aemcoder.aem.page/chile",
+   "fidelityTier": "sibling"
+  },
+  {
+   "slug": "about",
+   "url": "https://elt.eso.org/about/",
+   "template": "listing",
+   "status": "deployed",
+   "deployedPath": "/about",
+   "liveUrl": "https://main--26c59ee1--aemcoder.aem.page/about",
+   "fidelityTier": "sibling"
+  },
+  {
+   "slug": "telescope",
+   "url": "https://elt.eso.org/telescope/",
+   "template": "listing",
+   "status": "deployed",
+   "deployedPath": "/telescope",
+   "liveUrl": "https://main--26c59ee1--aemcoder.aem.page/telescope",
+   "fidelityTier": "archetype"
+  },
+  {
+   "slug": "mirror",
+   "url": "https://elt.eso.org/mirror/",
+   "template": "listing",
+   "status": "deployed",
+   "deployedPath": "/mirror",
+   "liveUrl": "https://main--26c59ee1--aemcoder.aem.page/mirror",
+   "fidelityTier": "sibling"
+  },
+  {
+   "slug": "instrument",
+   "url": "https://elt.eso.org/instrument/",
+   "template": "listing",
+   "status": "deployed",
+   "deployedPath": "/instrument",
+   "liveUrl": "https://main--26c59ee1--aemcoder.aem.page/instrument",
+   "fidelityTier": "sibling"
+  },
+  {
+   "slug": "science",
+   "url": "https://elt.eso.org/science/",
+   "template": "listing",
+   "status": "deployed",
+   "deployedPath": "/science",
+   "liveUrl": "https://main--26c59ee1--aemcoder.aem.page/science",
+   "fidelityTier": "sibling"
+  },
+  {
+   "slug": "media",
+   "url": "https://elt.eso.org/media/",
+   "template": "media",
+   "status": "deployed",
+   "deployedPath": "/media",
+   "liveUrl": "https://main--26c59ee1--aemcoder.aem.page/media",
+   "fidelityTier": "archetype"
+  },
+  {
+   "slug": "credits",
+   "url": "https://elt.eso.org/credits/",
+   "template": "article",
+   "status": "deployed",
+   "deployedPath": "/credits",
+   "liveUrl": "https://main--26c59ee1--aemcoder.aem.page/credits",
+   "fidelityTier": "sibling"
+  },
+  {
+   "slug": "about-timeline",
+   "url": "https://elt.eso.org/about/timeline/",
+   "template": "timeline",
+   "status": "deployed",
+   "deployedPath": "/about/timeline",
+   "liveUrl": "https://main--26c59ee1--aemcoder.aem.page/about/timeline",
+   "fidelityTier": "archetype"
+  },
+  {
+   "slug": "about-location",
+   "url": "https://elt.eso.org/about/location/",
+   "template": "article",
+   "status": "deployed",
+   "deployedPath": "/about/location",
+   "liveUrl": "https://main--26c59ee1--aemcoder.aem.page/about/location",
+   "fidelityTier": "sibling"
+  },
+  {
+   "slug": "about-webcams",
+   "url": "https://elt.eso.org/about/webcams/",
+   "template": "article",
+   "status": "deployed",
+   "deployedPath": "/about/webcams",
+   "liveUrl": "https://main--26c59ee1--aemcoder.aem.page/about/webcams",
+   "fidelityTier": "sibling"
+  },
+  {
+   "slug": "about-facts",
+   "url": "https://elt.eso.org/about/facts/",
+   "template": "facts",
+   "status": "deployed",
+   "deployedPath": "/about/facts",
+   "liveUrl": "https://main--26c59ee1--aemcoder.aem.page/about/facts",
+   "fidelityTier": "archetype"
+  },
+  {
+   "slug": "about-road",
+   "url": "https://elt.eso.org/about/road/",
+   "template": "article",
+   "status": "deployed",
+   "deployedPath": "/about/road",
+   "liveUrl": "https://main--26c59ee1--aemcoder.aem.page/about/road",
+   "fidelityTier": "archetype"
+  },
+  {
+   "slug": "about-team",
+   "url": "https://elt.eso.org/about/team/",
+   "template": "article",
+   "status": "deployed",
+   "deployedPath": "/about/team",
+   "liveUrl": "https://main--26c59ee1--aemcoder.aem.page/about/team",
+   "fidelityTier": "sibling"
+  },
+  {
+   "slug": "about-workinggroups",
+   "url": "https://elt.eso.org/about/workinggroups/",
+   "template": "article",
+   "status": "deployed",
+   "deployedPath": "/about/workinggroups",
+   "liveUrl": "https://main--26c59ee1--aemcoder.aem.page/about/workinggroups",
+   "fidelityTier": "sibling"
+  },
+  {
+   "slug": "about-industrial",
+   "url": "https://elt.eso.org/about/industrial/",
+   "template": "article",
+   "status": "deployed",
+   "deployedPath": "/about/industrial",
+   "liveUrl": "https://main--26c59ee1--aemcoder.aem.page/about/industrial",
+   "fidelityTier": "sibling"
+  },
+  {
+   "slug": "about-faq",
+   "url": "https://elt.eso.org/about/faq/",
+   "template": "article",
+   "status": "deployed",
+   "deployedPath": "/about/faq",
+   "liveUrl": "https://main--26c59ee1--aemcoder.aem.page/about/faq",
+   "fidelityTier": "sibling"
+  },
+  {
+   "slug": "telescope-dome",
+   "url": "https://elt.eso.org/telescope/dome/",
+   "template": "program",
+   "status": "deployed",
+   "deployedPath": "/telescope/dome",
+   "liveUrl": "https://main--26c59ee1--aemcoder.aem.page/telescope/dome",
+   "fidelityTier": "archetype"
+  },
+  {
+   "slug": "telescope-structure",
+   "url": "https://elt.eso.org/telescope/structure/",
+   "template": "program",
+   "status": "deployed",
+   "deployedPath": "/telescope/structure",
+   "liveUrl": "https://main--26c59ee1--aemcoder.aem.page/telescope/structure",
+   "fidelityTier": "sibling"
+  },
+  {
+   "slug": "mirror-m1",
+   "url": "https://elt.eso.org/mirror/M1/",
+   "template": "program",
+   "status": "deployed",
+   "deployedPath": "/mirror/m1",
+   "liveUrl": "https://main--26c59ee1--aemcoder.aem.page/mirror/m1",
+   "fidelityTier": "sibling"
+  },
+  {
+   "slug": "mirror-m2m3",
+   "url": "https://elt.eso.org/mirror/M2M3/",
+   "template": "program",
+   "status": "deployed",
+   "deployedPath": "/mirror/m2m3",
+   "liveUrl": "https://main--26c59ee1--aemcoder.aem.page/mirror/m2m3",
+   "fidelityTier": "sibling"
+  },
+  {
+   "slug": "mirror-m4",
+   "url": "https://elt.eso.org/mirror/M4/",
+   "template": "program",
+   "status": "deployed",
+   "deployedPath": "/mirror/m4",
+   "liveUrl": "https://main--26c59ee1--aemcoder.aem.page/mirror/m4",
+   "fidelityTier": "sibling"
+  },
+  {
+   "slug": "mirror-m5",
+   "url": "https://elt.eso.org/mirror/M5/",
+   "template": "program",
+   "status": "deployed",
+   "deployedPath": "/mirror/m5",
+   "liveUrl": "https://main--26c59ee1--aemcoder.aem.page/mirror/m5",
+   "fidelityTier": "sibling"
+  },
+  {
+   "slug": "telescope-adaptiveoptics",
+   "url": "https://elt.eso.org/telescope/adaptiveoptics/",
+   "template": "program",
+   "status": "deployed",
+   "deployedPath": "/telescope/adaptiveoptics",
+   "liveUrl": "https://main--26c59ee1--aemcoder.aem.page/telescope/adaptiveoptics",
+   "fidelityTier": "sibling"
+  },
+  {
+   "slug": "telescope-prefocal",
+   "url": "https://elt.eso.org/telescope/prefocal/",
+   "template": "program",
+   "status": "deployed",
+   "deployedPath": "/telescope/prefocal",
+   "liveUrl": "https://main--26c59ee1--aemcoder.aem.page/telescope/prefocal",
+   "fidelityTier": "sibling"
+  },
+  {
+   "slug": "telescope-controls",
+   "url": "https://elt.eso.org/telescope/controls/",
+   "template": "program",
+   "status": "deployed",
+   "deployedPath": "/telescope/controls",
+   "liveUrl": "https://main--26c59ee1--aemcoder.aem.page/telescope/controls",
+   "fidelityTier": "sibling"
+  },
+  {
+   "slug": "telescope-operations",
+   "url": "https://elt.eso.org/telescope/operations/",
+   "template": "program",
+   "status": "deployed",
+   "deployedPath": "/telescope/operations",
+   "liveUrl": "https://main--26c59ee1--aemcoder.aem.page/telescope/operations",
+   "fidelityTier": "sibling"
+  },
+  {
+   "slug": "instrument-harmoni",
+   "url": "https://elt.eso.org/instrument/HARMONI/",
+   "template": "instrument",
+   "status": "deployed",
+   "deployedPath": "/instrument/harmoni",
+   "liveUrl": "https://main--26c59ee1--aemcoder.aem.page/instrument/harmoni",
+   "fidelityTier": "archetype"
+  },
+  {
+   "slug": "instrument-micado",
+   "url": "https://elt.eso.org/instrument/MICADO/",
+   "template": "instrument",
+   "status": "deployed",
+   "deployedPath": "/instrument/micado",
+   "liveUrl": "https://main--26c59ee1--aemcoder.aem.page/instrument/micado",
+   "fidelityTier": "sibling"
+  },
+  {
+   "slug": "instrument-morfeo",
+   "url": "https://elt.eso.org/instrument/MORFEO/",
+   "template": "instrument",
+   "status": "deployed",
+   "deployedPath": "/instrument/morfeo",
+   "liveUrl": "https://main--26c59ee1--aemcoder.aem.page/instrument/morfeo",
+   "fidelityTier": "sibling"
+  },
+  {
+   "slug": "instrument-metis",
+   "url": "https://elt.eso.org/instrument/METIS/",
+   "template": "instrument",
+   "status": "deployed",
+   "deployedPath": "/instrument/metis",
+   "liveUrl": "https://main--26c59ee1--aemcoder.aem.page/instrument/metis",
+   "fidelityTier": "sibling"
+  },
+  {
+   "slug": "instrument-andes",
+   "url": "https://elt.eso.org/instrument/ANDES/",
+   "template": "instrument",
+   "status": "deployed",
+   "deployedPath": "/instrument/andes",
+   "liveUrl": "https://main--26c59ee1--aemcoder.aem.page/instrument/andes",
+   "fidelityTier": "sibling"
+  },
+  {
+   "slug": "instrument-mosaic",
+   "url": "https://elt.eso.org/instrument/MOSAIC/",
+   "template": "instrument",
+   "status": "deployed",
+   "deployedPath": "/instrument/mosaic",
+   "liveUrl": "https://main--26c59ee1--aemcoder.aem.page/instrument/mosaic",
+   "fidelityTier": "sibling"
+  },
+  {
+   "slug": "science-solarsystem",
+   "url": "https://elt.eso.org/science/solarsystem/",
+   "template": "program",
+   "status": "deployed",
+   "deployedPath": "/science/solarsystem",
+   "liveUrl": "https://main--26c59ee1--aemcoder.aem.page/science/solarsystem",
+   "fidelityTier": "sibling"
+  },
+  {
+   "slug": "science-exoplanets",
+   "url": "https://elt.eso.org/science/exoplanets/",
+   "template": "program",
+   "status": "deployed",
+   "deployedPath": "/science/exoplanets",
+   "liveUrl": "https://main--26c59ee1--aemcoder.aem.page/science/exoplanets",
+   "fidelityTier": "sibling"
+  },
+  {
+   "slug": "science-stars",
+   "url": "https://elt.eso.org/science/stars/",
+   "template": "program",
+   "status": "deployed",
+   "deployedPath": "/science/stars",
+   "liveUrl": "https://main--26c59ee1--aemcoder.aem.page/science/stars",
+   "fidelityTier": "sibling"
+  },
+  {
+   "slug": "science-blackholes",
+   "url": "https://elt.eso.org/science/blackholes/",
+   "template": "program",
+   "status": "deployed",
+   "deployedPath": "/science/blackholes",
+   "liveUrl": "https://main--26c59ee1--aemcoder.aem.page/science/blackholes",
+   "fidelityTier": "sibling"
+  },
+  {
+   "slug": "science-galaxies",
+   "url": "https://elt.eso.org/science/galaxies/",
+   "template": "program",
+   "status": "deployed",
+   "deployedPath": "/science/galaxies",
+   "liveUrl": "https://main--26c59ee1--aemcoder.aem.page/science/galaxies",
+   "fidelityTier": "sibling"
+  },
+  {
+   "slug": "science-cosmodm",
+   "url": "https://elt.eso.org/science/cosmodm/",
+   "template": "program",
+   "status": "deployed",
+   "deployedPath": "/science/cosmodm",
+   "liveUrl": "https://main--26c59ee1--aemcoder.aem.page/science/cosmodm",
+   "fidelityTier": "sibling"
+  },
+  {
+   "slug": "science-fundamentalphysics",
+   "url": "https://elt.eso.org/science/fundamentalphysics/",
+   "template": "program",
+   "status": "deployed",
+   "deployedPath": "/science/fundamentalphysics",
+   "liveUrl": "https://main--26c59ee1--aemcoder.aem.page/science/fundamentalphysics",
+   "fidelityTier": "sibling"
+  },
+  {
+   "slug": "science-discoveries",
+   "url": "https://elt.eso.org/science/discoveries/",
+   "template": "program",
+   "status": "deployed",
+   "deployedPath": "/science/discoveries",
+   "liveUrl": "https://main--26c59ee1--aemcoder.aem.page/science/discoveries",
+   "fidelityTier": "sibling"
+  },
+  {
+   "slug": "success-buildingon",
+   "url": "https://elt.eso.org/success/buildingon/",
+   "template": "article",
+   "status": "deployed",
+   "deployedPath": "/success/buildingon",
+   "liveUrl": "https://main--26c59ee1--aemcoder.aem.page/success/buildingon",
+   "fidelityTier": "sibling"
+  }
+ ]
+}

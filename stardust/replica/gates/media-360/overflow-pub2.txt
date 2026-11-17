@@ -1,0 +1,8 @@
+measure  https://main--26c59ee1--aemcoder.aem.page/media
+  widths 360 · 1 selector(s) · 1 props · first match
+
+@ 360px
+  root  scrollWidth   360  viewport 360  scrollHeight   5543
+  html
+       x     0  y      0  w   360  h  5543  vis  "en | es European Southern Observatory N…"
+      display: block

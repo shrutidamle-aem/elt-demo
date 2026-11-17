@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- stardust:migrate
+  writtenBy:        stardust:migrate
+  writtenAt:        2026-11-13T20:20:29Z
+  page:             Adaptive Optics | ELT | ESO
+  slug:             telescope-adaptiveoptics
+  pagePath:         migrated/telescope/adaptiveoptics/index.html
+  renderBranch:     A'
+  template:         telescope-dome
+  archetypePath:    stardust/prototypes/telescope-dome-proposed.html
+  archetypeSha:     c42b9f92bef0
+  sourceCurrent:    stardust/current/pages/telescope-adaptiveoptics.json
+  againstDirection: stardust/direction.md (Active)
+  designMd:         DESIGN.md (sha: bcd81ac1bff9)
+  designJson:       DESIGN.json (sha: 1687cec3d675)
+  canonShas:        header:null footer:df97728fd0f7 css:7a5011377ec8
+  decisionTrace:    _meta.json
+  brokenInternalLinks: 17
+  stardustVersion:  local
+-->
+<style>
+:root {
+  --font-brand: "Helvetica Neue LT ESO", "Helvetica Neue", Helvetica, Arial, sans-serif; /* L15662 */
+  --esoblue: rgb(0, 119, 190);            /* L15617 */
+  --orange: rgb(232, 133, 38);
+  --headerblue: rgb(45, 164, 245);
+  --ink-black: #000;
+  --nav-gradient: linear-gradient(rgb(40, 39, 49), rgb(16, 17, 19)); /* .navbar L16313 */
+  --nav-link: rgba(255, 255, 255, 0.7);   /* L20043 */
+  --nav-link-hover: rgba(255, 255, 255, 0.9);
+  --nav-hover-bg: #232932;                /* L19971 */
+  --nav-accent: #ef3c3c;                  /* active / hover rule */
+  --menu-bg: #343a40;                     /* .bg-dark */
+  --menu-border: rgba(0, 0, 0, 0.15);
+  --light-bg: rgb(232, 232, 232);         /* .container-light, .medium-light */
+  --footer-bg: #202020;                   /* .container-footer */
+  --topbar-h: 50px;                       /* body padding-top, .mysticky top */
+}
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Dome | ELT | ESO","description":"The Extremely Large Telescope: The World&#x27;s Biggest Eye On The Sky","url":"https://elt.eso.org/telescope/adaptiveoptics/"}</script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dome | ELT | ESO</title>
+  <meta name="description" content="The Extremely Large Telescope: The World&#x27;s Biggest Eye On The Sky">
+  <link rel="icon" href="../../assets/media/favicon.ico">
+  <link rel="stylesheet" href="../../assets/canon.css">
+  <link rel="stylesheet" href="../../assets/telescope-dome.css">
+  <script src="../../assets/canon.js" defer></script>
+
+</head>
+<body class="page-program">
+  <nav id="top-navbar" class="navbar" aria-label="ESO and site navigation">
+    <span class="navbar-brand navbar-brand--main">
+      <div class="brand-logo"><a href="https://www.eso.org/" target="_blank" rel="noopener noreferrer"><img class="navbar-eso-logo" src="../../assets/media/eso_logo.jpg" alt="" width="100" height="130"></a></div>
+      <div class="brand-flags">
+        <ul id="navbar-flags">
+          <li><span class="flag flag-at"></span></li>
+          <li><span class="flag flag-be"></span></li>
+          <li><span class="flag flag-cl"></span></li>
+          <li><span class="flag flag-cz"></span></li>
+          <li><span class="flag flag-da"></span></li>
+          <li><span class="flag flag-fi"></span></li>
+          <li><span class="flag flag-fr"></span></li>
+          <li><span class="flag flag-de"></span></li>
+          <li><span class="flag flag-ie"></span></li>
+          <li><span class="flag flag-it"></span></li>
+          <li><span class="flag flag-nl"></span></li>
+          <li><span class="flag flag-pl"></span></li>
+          <li><span class="flag flag-pt"></span></li>
+          <li><span class="flag flag-es"></span></li>
+          <li><span class="flag flag-sv"></span></li>
+          <li><span class="flag flag-ch"></span></li>
+          <li><span class="flag flag-gb"></span></li>
+          <li class="language-menu">
+            <div class="choose-language-message"> Choose your language &nbsp;<i class="fa-arrow-down" aria-hidden="true"></i></div>
+            <div class="language-options">
+              <a href="../../index.html?lang"><span class="flag flag-gb">&nbsp;</span> English </a>
+              <a href="https://elt.eso.org/chile/?lang" data-broken-link="true"><span class="flag flag-cl">&nbsp;</span> Español </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </span>
+    <div class="navbar-brand brand-social">
+      <div class="desktop-top-sm-icons">
+        <a href="https://facebook.com/ESOAstronomy" title="ESO on Facebook" target="_blank" rel="noopener noreferrer"><img src="../../assets/media/icon_topbar_mobile_1.png" alt="ESO on Facebook" width="35" height="35"></a>
+        <a href="https://www.instagram.com/esoastronomy/" title="ESO on Instagram" target="_blank" rel="noopener noreferrer"><img src="../../assets/media/icon_topbar_mobile_3.png" alt="ESO on Instagram" width="35" height="35"></a>
+        <a href="https://www.linkedin.com/company/european-southern-observatory" title="ESO on LinkedIn" target="_blank" rel="noopener noreferrer"><img src="../../assets/media/icon_topbar_mobile_4.png" alt="ESO on LinkedIn" width="35" height="35"></a>
+        <a href="https://www.youtube.com/channel/UCIhYoC2VIAJqCkoIWNHBQ3Q" title="ESO on YouTube" target="_blank" rel="noopener noreferrer"><img src="../../assets/media/icon_topbar_mobile_5.png" alt="ESO on YouTube" width="35" height="35"></a>
+      </div>
+    </div>
+    <span class="lang-links"><a href="../../index.html?lang" class="lang-link">en</a> | <a href="../../index.html?lang" class="lang-link">es</a></span>
+    <button class="navbar-toggler" type="button" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+    <div class="navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item menu-item mobile-only">
+          <a class="nav-link" href="../../index.html">ELT HOME</a>
+        </li>
+        <li class="nav-item menu-item mobile-only dropdown-menu-top dropup">
+          <a class="nav-link" href="https://elt.eso.org/about/" data-broken-link="true">ABOUT</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="https://elt.eso.org/about/" data-broken-link="true">About the ELT</a>
+            <a class="dropdown-item" href="../../about/timeline/index.html">Timeline</a>
+            <a class="dropdown-item" href="../../about/location/index.html">Location</a>
+            <a class="dropdown-item" href="../../about/webcams/index.html">Webcams</a>
+            <a class="dropdown-item" href="../../about/facts/index.html">Facts</a>
+            <a class="dropdown-item" href="../../about/road/index.html">Road to the ELT</a>
+            <a class="dropdown-item" href="../../about/team/index.html">Meet the Team</a>
+            <a class="dropdown-item" href="../../about/workinggroups/index.html">Working Groups</a>
+            <a class="dropdown-item" href="../../about/industrial/index.html">Industrial and Institutional Partners</a>
+            <a class="dropdown-item" href="../../about/faq/index.html">FAQ</a>
+          </div>
+        </li>
+        <li class="nav-item menu-item mobile-only dropdown-menu-top dropup active">
+          <a class="nav-link" href="../../telescope/index.html">TELESCOPE</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="../../telescope/index.html">Telescope Overview</a>
+            <a class="dropdown-item active" href="../../telescope/dome/index.html" aria-current="page">Dome</a>
+            <a class="dropdown-item" href="../../telescope/structure/index.html">Main Structure</a>
+            <div class="dropdown-submenu">
+              <a class="dropdown-item" href="https://elt.eso.org/mirror/" data-broken-link="true">Mirrors</a>
+              <div class="dropdown-menu bottom-aligned">
+                <a class="dropdown-item" href="https://elt.eso.org/mirror/" data-broken-link="true">Mirrors Overview</a>
+                <a class="dropdown-item" href="../../mirror/M1/index.html">M1</a>
+                <a class="dropdown-item" href="../../mirror/M2M3/index.html">M2M3</a>
+                <a class="dropdown-item" href="../../mirror/M4/index.html">M4</a>
+                <a class="dropdown-item" href="../../mirror/M5/index.html">M5</a>
+              </div>
+            </div>
+            <a class="dropdown-item" href="../../telescope/adaptiveoptics/index.html">Adaptive Optics</a>
+            <a class="dropdown-item" href="../../telescope/prefocal/index.html">Prefocal Station</a>
+            <a class="dropdown-item" href="../../telescope/controls/index.html">Controls</a>
+            <a class="dropdown-item" href="../../telescope/operations/index.html">Operations</a>
+          </div>
+        </li>
+        <li class="nav-item menu-item mobile-only dropdown-menu-top dropup">
+          <a class="nav-link" href="https://elt.eso.org/instrument/" data-broken-link="true">INSTRUMENTS</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="https://elt.eso.org/instrument/" data-broken-link="true">Instruments Overview</a>
+            <a class="dropdown-item" href="../../instrument/HARMONI/index.html">HARMONI</a>
+            <a class="dropdown-item" href="../../instrument/MICADO/index.html">MICADO</a>
+            <a class="dropdown-item" href="../../instrument/MORFEO/index.html">MORFEO</a>
+            <a class="dropdown-item" href="../../instrument/METIS/index.html">METIS</a>
+            <a class="dropdown-item" href="../../instrument/ANDES/index.html">ANDES</a>
+            <a class="dropdown-item" href="../../instrument/MOSAIC/index.html">MOSAIC</a>
+          </div>
+        </li>
+        <li class="nav-item menu-item mobile-only dropdown-menu-top dropup">
+          <a class="nav-link" href="https://elt.eso.org/science/" data-broken-link="true">SCIENCE</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="https://elt.eso.org/science/" data-broken-link="true">Science Overview</a>
+            <a class="dropdown-item" href="../../science/solarsystem/index.html">Solar System</a>
+            <a class="dropdown-item" href="../../science/exoplanets/index.html">Exoplanets</a>
+            <a class="dropdown-item" href="../../science/stars/index.html">Stars</a>
+            <a class="dropdown-item" href="../../science/blackholes/index.html">Black Holes</a>
+            <a class="dropdown-item" href="../../science/galaxies/index.html">Galaxies</a>
+            <a class="dropdown-item" href="../../science/cosmodm/index.html">Cosmology and Dark Matter</a>
+            <a class="dropdown-item" href="../../science/fundamentalphysics/index.html">Fundamental Physics</a>
+            <a class="dropdown-item" href="../../science/discoveries/index.html">Unexpected Discoveries</a>
+          </div>
+        </li>
+        <li class="nav-item menu-item mobile-only">
+          <a class="nav-link" href="../../media/index.html">NEWS &amp; MULTIMEDIA</a>
+        </li>
+        <li class="nav-item menu-item mobile-only">
+          <a class="nav-link" href="../../success/buildingon/index.html">SUCCESS STORIES</a>
+        </li>
+        <li class="social-desktop desktop-top-sm-icons">
+          <a href="https://facebook.com/ESOAstronomy" title="ESO on Facebook" target="_blank" rel="noopener noreferrer"><img src="../../assets/media/icon_topbar_mobile_1.png" alt="ESO on Facebook" width="35" height="35"></a>
+          <a href="https://www.instagram.com/esoastronomy/" title="ESO on Instagram" target="_blank" rel="noopener noreferrer"><img src="../../assets/media/icon_topbar_mobile_3.png" alt="ESO on Instagram" width="35" height="35"></a>
+          <a href="https://www.linkedin.com/company/european-southern-observatory" title="ESO on LinkedIn" target="_blank" rel="noopener noreferrer"><img src="../../assets/media/icon_topbar_mobile_4.png" alt="ESO on LinkedIn" width="35" height="35"></a>
+          <a href="https://www.youtube.com/channel/UCIhYoC2VIAJqCkoIWNHBQ3Q" title="ESO on YouTube" target="_blank" rel="noopener noreferrer"><img src="../../assets/media/icon_topbar_mobile_5.png" alt="ESO on YouTube" width="35" height="35"></a>
+        </li>
+        <li id="nav-search" class="nav-item menu-item dropdown dropdown-menu-top-top">
+          <a class="nav-link" href="#"><i class="material-icons">search</i></a>
+          <div class="dropdown-menu">
+            <div class="dropdown-item">
+              <form class="search-form" action="/public/eltsearch/" method="get"><input type="search" placeholder="Search..." name="q" aria-label="Search"><button type="submit">Search</button></form>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <img class="big-header-image" src="https://cdn.eso.org/images/banner1920/header-dome.jpg" alt="" width="1920" height="900">
+  <main class="elt-program" data-template="telescope-dome">
+    <div id="big-header" class="big-header-text" data-section="1">
+      <div class="big-header-logos">
+        <img class="big-header-eso-logo" src="../../assets/media/eso_logo_transparent.png" alt="" width="981" height="1279">
+        <p class="esologo-text">European<br>Southern<br>Observatory</p>
+      </div>
+      <div class="big-header-title"> Telescope </div>
+    </div>
+
+    <nav id="main-navbar" class="navbar mysticky" aria-label="Main" data-section="2">
+      <button class="navbar-toggler" type="button" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      <div class="navbar-collapse">
+        <ul class="navbar-nav">
+          <li class="nav-item menu-item">
+            <a class="nav-link" href="../../index.html">ELT HOME</a>
+          </li>
+          <li class="nav-item menu-item dropdown-menu-top dropup">
+            <a class="nav-link" href="https://elt.eso.org/about/" data-broken-link="true">ABOUT</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="https://elt.eso.org/about/" data-broken-link="true">About the ELT</a>
+              <a class="dropdown-item" href="../../about/timeline/index.html">Timeline</a>
+              <a class="dropdown-item" href="../../about/location/index.html">Location</a>
+              <a class="dropdown-item" href="../../about/webcams/index.html">Webcams</a>
+              <a class="dropdown-item" href="../../about/facts/index.html">Facts</a>
+              <a class="dropdown-item" href="../../about/road/index.html">Road to the ELT</a>
+              <a class="dropdown-item" href="../../about/team/index.html">Meet the Team</a>
+              <a class="dropdown-item" href="../../about/workinggroups/index.html">Working Groups</a>
+              <a class="dropdown-item" href="../../about/industrial/index.html">Industrial and Institutional Partners</a>
+              <a class="dropdown-item" href="../../about/faq/index.html">FAQ</a>
+            </div>
+          </li>
+          <li class="nav-item menu-item dropdown-menu-top dropup active">
+            <a class="nav-link" href="../../telescope/index.html">TELESCOPE</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="../../telescope/index.html">Telescope Overview</a>
+              <a class="dropdown-item active" href="../../telescope/dome/index.html" aria-current="page">Dome</a>
+              <a class="dropdown-item" href="../../telescope/structure/index.html">Main Structure</a>
+              <div class="dropdown-submenu">
+                <a class="dropdown-item" href="https://elt.eso.org/mirror/" data-broken-link="true">Mirrors</a>
+                <div class="dropdown-menu bottom-aligned">
+                  <a class="dropdown-item" href="https://elt.eso.org/mirror/" data-broken-link="true">Mirrors Overview</a>
+                  <a class="dropdown-item" href="../../mirror/M1/index.html">M1</a>
+                  <a class="dropdown-item" href="../../mirror/M2M3/index.html">M2M3</a>
+                  <a class="dropdown-item" href="../../mirror/M4/index.html">M4</a>
+                  <a class="dropdown-item" href="../../mirror/M5/index.html">M5</a>
+                </div>
+              </div>
+              <a class="dropdown-item" href="../../telescope/adaptiveoptics/index.html">Adaptive Optics</a>
+              <a class="dropdown-item" href="../../telescope/prefocal/index.html">Prefocal Station</a>
+              <a class="dropdown-item" href="../../telescope/controls/index.html">Controls</a>
+              <a class="dropdown-item" href="../../telescope/operations/index.html">Operations</a>
+            </div>
+          </li>
+          <li class="nav-item menu-item dropdown-menu-top dropup">
+            <a class="nav-link" href="https://elt.eso.org/instrument/" data-broken-link="true">INSTRUMENTS</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="https://elt.eso.org/instrument/" data-broken-link="true">Instruments Overview</a>
+              <a class="dropdown-item" href="../../instrument/HARMONI/index.html">HARMONI</a>
+              <a class="dropdown-item" href="../../instrument/MICADO/index.html">MICADO</a>
+              <a class="dropdown-item" href="../../instrument/MORFEO/index.html">MORFEO</a>
+              <a class="dropdown-item" href="../../instrument/METIS/index.html">METIS</a>
+              <a class="dropdown-item" href="../../instrument/ANDES/index.html">ANDES</a>
+              <a class="dropdown-item" href="../../instrument/MOSAIC/index.html">MOSAIC</a>
+            </div>
+          </li>
+          <li class="nav-item menu-item dropdown-menu-top dropup">
+            <a class="nav-link" href="https://elt.eso.org/science/" data-broken-link="true">SCIENCE</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="https://elt.eso.org/science/" data-broken-link="true">Science Overview</a>
+              <a class="dropdown-item" href="../../science/solarsystem/index.html">Solar System</a>
+              <a class="dropdown-item" href="../../science/exoplanets/index.html">Exoplanets</a>
+              <a class="dropdown-item" href="../../science/stars/index.html">Stars</a>
+              <a class="dropdown-item" href="../../science/blackholes/index.html">Black Holes</a>
+              <a class="dropdown-item" href="../../science/galaxies/index.html">Galaxies</a>
+              <a class="dropdown-item" href="../../science/cosmodm/index.html">Cosmology and Dark Matter</a>
+              <a class="dropdown-item" href="../../science/fundamentalphysics/index.html">Fundamental Physics</a>
+              <a class="dropdown-item" href="../../science/discoveries/index.html">Unexpected Discoveries</a>
+            </div>
+          </li>
+          <li class="nav-item menu-item">
+            <a class="nav-link" href="../../media/index.html">NEWS &amp; MULTIMEDIA</a>
+          </li>
+          <li class="nav-item menu-item">
+            <a class="nav-link" href="../../success/buildingon/index.html">SUCCESS STORIES</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid container-dark container-tight position-relative" data-section="3">
+        <img class="d-block h-100 w-100" src="https://cdn.eso.org/images/banner1920/subheader-telescope-ao.jpg">
+        <div class="position-absolute science-header-textblock">
+            <div class="d-flex flex-column justify-content-around h-100">
+                <div class="header-title">Adaptive Optics</div>
+                <div class="d-none d-xl-block header-subtitle"><p>The turbulence of the Earth's atmosphere distorts images obtained at even the best sites in the world for astronomy, including Chile's Cerro Armazones, home to the ELT. </p></div>
+                <div class="d-none d-xxl-block header-description">
+                    <p>The telescope will employ incredibly sophisticated “adaptive optics” technologies to ensure its images are sharper than those of any other telescope.</p>
+                </div>
+                <div class="d-block header-quick-links">
+                    
+                    <div>Quick Links:</div>
+                    <div class="instrument-link-color">
+                        
+                        <a class="instrument-link-color instrument-link" href="#adaptive-optics-systems">Adaptive optics systems</a>
+                        
+                         | <a class="instrument-link-color instrument-link" href="#adaptive-optics-modes">Adaptive optics modes</a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="container-fluid container-light nutshell page-section" data-section="4">
+        
+        
+                <div class="container-paragraph section-title-paragraph d-flex align-items-center justify-content-between">
+            <div class="">In a nutshell</div>
+            <div class="d-flex">
+                <a class="share-social-media-link share-social-media-icons" href="https://www.facebook.com/sharer/sharer.php?u=https://elt.eso.org/telescope/adaptiveoptics/" title="Share on Facebook" target="_blank" rel="noopener noreferrer">
+                    <img src="/public/archives/djp/elt-assets/img/social-media/icon_share_1.png" alt="Share on Facebook">
+                </a>
+                <span class="position-relative d-flex" style="" title="Share on Social Media">
+                    <span class="share-social-media share-social-media-icons">
+                    <img class="share-social-media" src="/public/archives/djp/elt-assets/img/social-media/icon_share_3.png" alt"share="" on="" social="" media"="">
+                    </span>
+                    <div class="position-absolute share-social-media-dropdown">
+                        <div class="share-social-media-dropdown-icons">
+                        <a class="share-social-media-link" href="https://www.facebook.com/sharer/sharer.php?u=https://elt.eso.org/telescope/adaptiveoptics/" title="Share on Facebook" target="_blank" rel="noopener noreferrer">
+                            <img src="/public/archives/djp/elt-assets/img/social-media/icon_share_1.png" alt="Share on Facebook">
+                            <span class="share-social-media-dropdown-text">Share on Facebook</span>
+                        </a>
+                        <a class="share-social-media-link share-email" href="#" title="E-Mail">
+                            <img src="/public/archives/djp/elt-assets/img/social-media/icon_share_5.png" alt="E-Mail">
+                            <span class="share-social-media-dropdown-text">E-Mail</span>
+                        </a>
+                        <a href="#" class="share-social-media-link clipboard" title="Copy Link">
+                            <img src="/public/archives/djp/elt-assets/img/social-media/icon_share_6.png" alt="Copy link">
+                            <span class="share-social-media-dropdown-text">Copy Link</span>
+                        </a>
+                        <a class="share-social-media-link" href="https://www.linkedin.com/sharing/share-offsite/?url=https://elt.eso.org/telescope/adaptiveoptics/" title="Share on LinkedIn" target="_blank" rel="noopener noreferrer">
+                            <img src="/public/archives/djp/elt-assets/img/social-media/icon_share_4.png" alt="Share on LinkedIn">
+                            <span class="share-social-media-dropdown-text">Share on LinkedIn</span>
+                        </a>
+                        </div>
+                    </div>
+                </span>
+            </div>
+        </div>
+
+        <div class="container-subtitle d-none d-xl-block d-xxl-none section-subtitle-paragraph-aftertitle"><p>The telescope will employ incredibly sophisticated “adaptive optics” technologies to ensure its images are sharper than those of any other telescope.</p></div>
+        <div class="container-subtitle d-block d-xl-none section-subtitle-paragraph-aftertitle"><p>The turbulence of the Earth's atmosphere distorts images obtained at even the best sites in the world for astronomy, including Chile's Cerro Armazones, home to the ELT. </p></div>
+        <div class="container-paragraph d-block d-xl-none section-text-paragraph"><p>The telescope will employ incredibly sophisticated “adaptive optics” technologies to ensure its images are sharper than those of any other telescope.</p></div>
+        
+            
+            
+<div class="container-paragraph section-text-paragraph">
+    <p>Turbulence in the Earth’s atmosphere causes the stars to twinkle in a way that delights poets but frustrates astronomers since it blurs the finest details of the cosmos. Observing directly from space can avoid this atmospheric blurring effect, but the high cost of operating space telescopes compared to using ground-based facilities limits the size and scope of the telescopes we can place off-Earth.&nbsp;</p>
+<p>Astronomers have turned to a method called adaptive optics. Sophisticated, deformable mirrors controlled by computers can correct in real-time for the distortion caused by the turbulence of the Earth's atmosphere, making the images obtained almost as sharp as (or, in the case of the ELT, sharper than) those taken in space. Adaptive optics allows the corrected optical system to observe finer details of much fainter astronomical objects than is otherwise possible from the ground.</p>
+</div>
+
+        
+            
+            
+<div class="container-paragraph section-text-paragraph">
+    <p>Adaptive optics requires a fairly bright reference star that is very close to the object under study. This reference star is used to measure the blurring caused by the local atmosphere so that the deformable mirror can correct for it. Since suitable stars are not available everywhere in the night sky, astronomers can create artificial stars instead by shining a powerful laser beam into the Earth's upper atmosphere. Thanks to these laser guide stars, almost the entire sky can now be observed with adaptive optics. The ELT will have up to eight of these lasers.</p>
+<p>From the largest adaptive mirror ever built to advanced control systems, the ELT will have some of the most sophisticated technologies ever employed on a telescope to correct for the blurring effects of the Earth’s atmosphere. </p>
+</div>
+
+        
+            
+            
+<div class="container-paragraph section-text-paragraph">
+    <div class="position-relative" style="padding-top: 56.25%;" align="center"><iframe class="w-100 h-100 position-absolute" style="top: 0; left: 0;" src="https://www.youtube-nocookie.com/embed/h3I13AiIbho" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
+<p style="text-align: center;"><small>This video explains the principles of adaptive optics, a technique used in many ESO telescopes. Credit: ESO</small></p>
+</div>
+
+        
+    </div>
+<div class="container-fluid container-light lightlinks" data-section="5">
+        
+        
+        <div class="row d-flex w-100 m-0 align-items-stretch" style="background-color: rgb(31, 72, 104);">
+            <div class="col-lg-6 p-0 position-relative">
+                <a href="#adaptive-optics-systems">
+                    <img class="w-100" src="https://cdn.eso.org/images/banner1920/ao-systems-menu.jpg">
+                </a>
+                <span class="position-absolute internal-menu-title"><a href="#adaptive-optics-systems">Adaptive optics systems</a></span>
+                
+            </div>
+            <div class="col-lg-6 pb-3 pt-3 d-flex align-items-center position-relative">
+                <div class="internal-menu-text">
+                    <p>To correct for atmospheric distortions, the ELT will use advanced adaptive-optics hardware and software, working together seamlessly.</p>
+                </div>
+                <div class="h-100 w-100 position-absolute d-flex align-items-end internal-menu-shape">
+                    <div class="w-100 d-none d-lg-block">
+                        <svg class="instrument-trapezoid internal-menu-trapezoid" viewBox="0 0 945 75" preserveAspectRatio="none" style="/* height: 75px; */">
+                            <a href="../../telescope/adaptiveoptics/index.html#adaptive-optics-systems">
+                            <polygon points="0,0 260,0 340,67 945,67 945,75 0,75"></polygon>
+                            </a>
+                        </svg>
+                    </div>
+                </div>
+                <div class="position-absolute d-none d-lg-flex align-items-center justify-content-center internal-menu-link internal-menu-trapezoid-link">
+                    <a href="#adaptive-optics-systems" style="color: rgb(31, 72, 104);">
+                    Read More
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        <div class="row d-flex w-100 m-0 align-items-stretch" style="background-color: rgb(159, 113, 63);">
+            <div class="col-lg-6 pb-3 pt-3 d-flex align-items-center position-relative order-2 order-lg-1">
+                
+                <div class="internal-menu-text">
+                    <p>The best image quality is obtained by controlling the deformable mirror shape from the focus of the instruments in operation. ELT instruments do this using different adaptive optics modes.</p>
+                </div>
+                <div class="h-100 w-100 position-absolute d-flex align-items-end internal-menu-shape">
+                    <div class="w-100 d-none d-lg-block">
+                        <svg class="instrument-trapezoid internal-menu-trapezoid" viewBox="0 0 945 75" preserveAspectRatio="none" style="/* height: 75px; */">
+                            <a href="../../telescope/adaptiveoptics/index.html#adaptive-optics-modes">
+                            <polygon points="0,0 260,0 340,67 945,67 945,75 0,75"></polygon>
+                            </a>
+                        </svg>
+                    </div>
+                </div>
+                <div class="position-absolute d-none d-lg-flex align-items-center justify-content-center internal-menu-link internal-menu-trapezoid-link">
+                    <a href="#adaptive-optics-modes" style="color: rgb(159, 113, 63);">
+                    Read More
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-6 p-0 position-relative order-1 order-lg-2">
+                <a href="#adaptive-optics-modes">
+                    <img class="w-100" src="https://cdn.eso.org/images/banner1920/ao-mode-menu.jpg">
+                </a>
+                <span class="position-absolute internal-menu-title"><a href="#adaptive-optics-modes">Adaptive optics modes</a></span>
+            </div>
+        </div>
+        
+        
+    </div>
+<div id="adaptive-optics-systems_" class="container-fluid container-light page-section" data-section="6">
+        
+        <div class="container-paragraph section-title-paragraph">Adaptive optics systems</div>
+        
+            
+            
+<div class="m-0 " style="padding-bottom: 1vw;">
+        <div class="row w-100 m-0">
+            <div class="col-lg-12 p-0 position-relative d-flex align-items-center order-lg-1 order-1">
+                <a href="https://www.eso.org/public/chile/images/ao-systems-banner/" target="_blank" class="d-flex align-items-center justify-content-center w-100" rel="noopener noreferrer">
+                    <img class="" style="width: 100%; " src="https://cdn.eso.org/images/screen/ao-systems-banner.jpg">
+                    
+                </a>
+
+                
+
+            </div>
+
+        </div>
+</div>
+
+
+
+        
+            
+            <div class="container-heading">
+    <span class="section-heading-paragraph"><p>The larger a telescope’s main mirror is, the more light it can collect, allowing astronomers to observe faint structures in the Universe. Doubling the diameter of a telescope increases its ability to observe faint objects by 16 times, but without adaptive optics, this advantage is only 4-fold because it’s limited by atmospheric turbulence. Therefore, advanced adaptive optics systems are key to making sure large telescopes such as the ELT are able to function to their full potential.</p></span>
+</div>
+
+        
+            
+            <div class="container-subtitle">
+    <span class="section-subtitle-paragraph"><p>M4, a deformable and formidable mirror</p></span>
+</div>
+
+        
+            
+            
+<div class="container-paragraph section-text-paragraph">
+    <p>M4 is at the heart of adaptive optics corrections on ESO’s ELT. This large deformable mirror, with a reflective surface 2.4 metres in diameter, will be used by all instruments on the telescope. The mirror surface is extremely thin, less than 2mm, and is maintained actively in levitation by 5000 magnets glued to its back side. These magnets play a key role in deforming the flexible M4 surface, making adjustments 1000 times per second to an accuracy of a few tens of nanometers. This is necessary for the mirror to correct for atmospheric disturbances, which are very short-lived and need to be adjusted for extremely quickly.</p>
+<p>Besides turbulence, the adaptive mirror also helps correct for the wind shake of the telescope’s main structure and mirrors. More information on the M4 mirror can be found on a <a href="../../mirror/M4/index.html">dedicated</a> page.</p>
+</div>
+
+        
+            
+            <div class="container-subtitle">
+    <span class="section-subtitle-paragraph"><p>Laser guide stars</p></span>
+</div>
+
+        
+            
+            
+<div class="m-0 container-paragraph ">
+    <div style="width: 42%;" class="d-none d-lg-flex flex-column align-items-center justify-content-between float-left mr-5 mb-3">
+        <div>
+             <a href="https://www.eso.org/public/images/ao-elt/" target="_blank" rel="noopener noreferrer"><img class="w-100 d-block " style="" src="https://cdn.eso.org/images/screen/ao-elt.jpg"></a>
+            
+        </div>
+    </div>
+    <div class="d-flex d-lg-none flex-column align-items-center justify-content-between w-100 mb-3">
+        <div>
+             <a href="https://www.eso.org/public/images/ao-elt/" target="_blank"><img class="w-100 d-block " style="" src="https://cdn.eso.org/images/screen/ao-elt.jpg"></a>
+        
+        </div>
+    </div>
+</div>
+<div class="container-paragraph float-text">
+    <span>
+        <p>To know what adjustments the M4 mirror needs to make, systems on the ELT need to map atmospheric disturbances by measuring the blurring of a bright star. In the vast majority of the night sky, where a reference star is not available, this requires creating artificial stars by exciting sodium atoms in the Earth’s upper atmosphere. The more powerful lasers are, the more sodium atoms they excite, making the artificial star brighter and improving the turbulence correction.</p>
+<p>To improve the sharpness of adaptive-optics images, especially at visible wavelengths, lasers will shine around the scientific field of view. They will project on the sky as much light as thousands of handheld laser pointers, concentrated in 6 or 8 artificial stars, so high up in the atmosphere that some of the returning light will actually come from outer space.</p>
+<p>To ensure the safety of aircrafts approaching the laser beam, a dedicated camera will permanently observe the region around the laser guide stars. A sophisticated algorithm will analyse the images to ensure that the laser is switched off as soon as a flying object gets too close to the beam. A similar automated system is already in operation at ESO’s Very Large Telescope.</p>
+    </span>
+</div>
+
+<div style="clear: both;"></div>
+
+
+
+        
+            
+            <div class="container-subtitle">
+    <span class="section-subtitle-paragraph"><p>Sensing cameras and real-time computers</p></span>
+</div>
+
+        
+            
+            
+<div class="container-paragraph section-text-paragraph">
+    <p>Another essential component of ESO’s ELT adaptive optics system are the wavefront sensing cameras, which act as the “eyes” of the telescope by sensing the light from guide stars. ESO’s ELT will be equipped with three complementary types of <a href="../../telescope/prefocal/index.html">wavefront sensing cameras</a>, each with a distinct image sensor or detector, which will be used both by the telescope itself and by the science instruments. These wavefront sensors make extremely fast measurements of atmospheric distortions constantly, to optimally re-shape the surface of the deformable mirror.</p>
+<p>These cameras are considered so critical for the functioning of the ELT adaptive optics that ESO decided to do much of the work on them in-house. Two types of cameras, called ALICE and LISA, are designed at ESO while the third camera type, FREDA, is an adaptation of a commercially available camera. In addition, ESO has developed, in collaboration with international company Teledyne, the detector for LISA.</p>
+<p>Adaptive-optics real-time computers analyse the signals from the cameras in real-time — 500 times per second — to calculate how mirrors like M4 need to be deformed to correct for distortions caused by turbulence in the Earth’s atmosphere. More information on these control systems is available on a <a href="../../telescope/controls/index.html">dedicated page</a>.</p>
+</div>
+
+        
+            
+            <div class="container-subtitle">
+    <span class="section-subtitle-paragraph"><p>More deformable mirrors</p></span>
+</div>
+
+        
+            
+            
+<div class="m-0 container-paragraph ">
+    <div style="width: 40%;" class="d-none d-lg-flex flex-column align-items-center justify-content-between float-left mr-5 mb-3">
+        <div>
+             <a href="https://www.eso.org/public/images/ao-maory/" target="_blank" rel="noopener noreferrer"><img class="w-100 d-block " style="" src="https://cdn.eso.org/images/screen/ao-maory.jpg"></a>
+            
+        </div>
+    </div>
+    <div class="d-flex d-lg-none flex-column align-items-center justify-content-between w-100 mb-3">
+        <div>
+             <a href="https://www.eso.org/public/images/ao-maory/" target="_blank"><img class="w-100 d-block " style="" src="https://cdn.eso.org/images/screen/ao-maory.jpg"></a>
+        
+        </div>
+    </div>
+</div>
+<div class="container-paragraph float-text">
+    <span>
+        <p>M4 is the main adaptive mirror in the ELT and it is used by the telescope and all the instruments. However, in the ELT’s arsenal of adaptive-optics systems there is also MORFEO. This multi-conjugate adaptive-optics system features another two (smaller) deformable mirrors that will be used in combination with M4 to provide an extra layer of correction for atmospheric turbulence. MORFEO will work with the first-generation imager MICADO and, in the future, with an additional instrument. More information about MORFEO is available on a <a href="../../instrument/MORFEO/index.html">dedicated page</a>.</p>
+    </span>
+</div>
+
+<div style="clear: both;"></div>
+
+
+
+        
+
+        
+    </div>
+<div id="adaptive-optics-modes_" class="container-fluid container-light page-section" data-section="7">
+        
+        <div class="container-paragraph section-title-paragraph">Adaptive optics modes</div>
+        
+            
+            
+<div class="m-0 " style="padding-bottom: 1vw;">
+        <div class="row w-100 m-0">
+            <div class="col-lg-12 p-0 position-relative d-flex align-items-center order-lg-1 order-1">
+                <a href="https://www.eso.org/public/chile/images/ao-modes-banner/" target="_blank" class="d-flex align-items-center justify-content-center w-100" rel="noopener noreferrer">
+                    <img class="" style="width: 100%; " src="https://cdn.eso.org/images/screen/ao-modes-banner.jpg">
+                    
+                </a>
+
+                
+
+            </div>
+
+        </div>
+</div>
+
+
+
+        
+            
+            <div class="container-heading">
+    <span class="section-heading-paragraph"><p>By hosting a deformable mirror, the telescope can control the image it delivers to the instruments, but the best image quality is obtained by controlling the mirror shape from the focus of the instruments in operation. ELT instruments do this using different adaptive optics modes.</p></span>
+</div>
+
+        
+            
+            
+<div class="container-paragraph section-text-paragraph">
+    <p>There are multiple flavours of adaptive optics technology that have been developed, each of which is capable of achieving different goals.</p>
+<p>Classical adaptive optics is performed in the <strong>Single Conjugated Adaptive Optics (SCAO)</strong> mode. In this mode, the turbulence corrected for is that in a cylinder projection of the telescope aperture towards a guide star. SCAO benefits from high performance, but across a small field of view. In addition, the amount of the night sky that can be observed in this mode is limited by the availability of sufficiently bright natural guide stars. The sky coverage can however be improved by using a laser guide star, thus turning SCAO into <strong>Single Laser Adaptive Optics (SLAO)</strong>. This comes with some cost to performance due to the “cone effect”, because the lasers are projected at finite distance, and “anisoplanetism”, because only a single turbulence slice is sensed and corrected. The SCAO technology can be combined with coronography to achieve both extreme spatial resolution and image contrast, allowing, for instance, the detection of extremely faint exoplanets. The ELT instruments <a href="../../instrument/MICADO/index.html">MICADO</a>, <a href="../../instrument/HARMONI/index.html">HARMONI</a>, <a href="../../instrument/METIS/index.html">METIS</a> and <a href="../../instrument/ANDES/index.html">ANDES</a> are capable of operating using SCAO to observe the sky near tens of thousands of stars, bright enough to get good performance, but will benefit from the use of laser guide stars to enable the observation of the majority of the sky.</p>
+</div>
+
+        
+            
+            
+<div class="m-0 container-paragraph ">
+    <div style="width: 40%;" class="d-none d-lg-flex flex-column align-items-center justify-content-between float-left mr-5 mb-3">
+        <div>
+             <a href="https://www.eso.org/public/images/ao-mosaic/" target="_blank" rel="noopener noreferrer"><img class="w-100 d-block " style="" src="https://cdn.eso.org/images/screen/ao-mosaic.jpg"></a>
+            
+        </div>
+    </div>
+    <div class="d-flex d-lg-none flex-column align-items-center justify-content-between w-100 mb-3">
+        <div>
+             <a href="https://www.eso.org/public/images/ao-mosaic/" target="_blank"><img class="w-100 d-block " style="" src="https://cdn.eso.org/images/screen/ao-mosaic.jpg"></a>
+        
+        </div>
+    </div>
+</div>
+<div class="container-paragraph float-text">
+    <span>
+        <p>The <strong>Ground Layer Adaptive Optics (GLAO)</strong> mode, employed by <a href="../../instrument/MOSAIC/index.html">MOSAIC</a>, brings things down to Earth, by correcting for a turbulence layer at ground level, where the largest fraction of the atmospheric turbulence energy is concentrated. Unlike SCAO, which works for a specific line-of-sight (towards the guide star), ground-level turbulence is the same across the entire field of view, and therefore the correction is made over the whole field of view. In GLAO mode, multiple off-axis wavefront sensors are used to obtain an average of the ground turbulence, which is then corrected by a single deformable mirror. Experience on the VLT has also demonstrated that the image quality is stabilised by correcting for this low-altitude, variable turbulence. Along with the advantages of this mode (a large-field-of-view correction) comes the compromise of relatively low performance, with a limiting factor being the amount of turbulence at higher altitude.</p>
+    </span>
+</div>
+
+<div style="clear: both;"></div>
+
+
+
+        
+            
+            
+<div class="m-0 container-paragraph ">
+    <div style="width: 40%;" class="d-none d-lg-flex flex-column align-items-center justify-content-between float-right ml-5 mb-3">
+        <div>
+             <a href="https://www.eso.org/public/images/ao-harmoni/" target="_blank" rel="noopener noreferrer"><img class="w-100 d-block " style="" src="https://cdn.eso.org/images/screen/ao-harmoni.jpg"></a>
+            
+        </div>
+    </div>
+    <div class="d-flex d-lg-none flex-column align-items-center justify-content-between w-100 mb-3">
+        <div>
+             <a href="https://www.eso.org/public/images/ao-harmoni/" target="_blank"><img class="w-100 d-block " style="" src="https://cdn.eso.org/images/screen/ao-harmoni.jpg"></a>
+        
+        </div>
+    </div>
+</div>
+<div class="container-paragraph float-text">
+    <span>
+        <p>The <strong>Laser Tomography Adaptive Optics (LTAO)</strong> mode is a technique similar to executing a CT-scan of the atmosphere: it allows the telescope to reconstruct the turbulence above it layer by layer. Employed by <a href="../../instrument/HARMONI/index.html">HARMONI</a>, it is a compromise between the SCAO and MCAO modes. It implements several off-axis wavefront sensors, but optimised to analyse the centre of the field-of-view in detail. This way, the on-axis turbulence cylinder can be better sampled, almost as well as in the SCAO mode. The correction is applied using a single deformable mirror. The result is high performance across a small field-of-view, limited by tomographic error and low order residuals. The main advantage with respect to SCAO is the increased (medium) sky coverage.</p>
+    </span>
+</div>
+
+<div style="clear: both;"></div>
+
+
+
+        
+            
+            
+<div class="container-paragraph section-text-paragraph">
+    <p>It is possible to go a step further and correct for both ground-level and higher-altitude turbulence, by using several deformable mirrors. This is achieved with the <strong>Multi-Conjugate Adaptive Optics (MCAO)</strong> mode. In this setup, multiple off-axis wavefront sensors are used to measure the turbulence in several directions. These measurements are fed to a tomographic reconstructor (using both multiple lasers and stars) that estimates the 3D turbulence, which is in turn projected onto the deformable planes to generate the control commands. This mode offers medium-to-high performance across a medium field-of-view. In the laser-guide-star-based MCAO mode there is high sky coverage, but also a need for several natural guide stars, to keep a handle on the 3D turbulence. <a href="../../instrument/MORFEO/index.html">MORFEO</a> employs MCAO by using a deformable mirror (in addition to M4) that allows it to correct atmospheric turbulence not only directly on the line of sight of the telescope, but also in a wider field of view. Thanks to MCAO, MORFEO’s partner instrument MICADO is able to study large structures or multiple objects at once.</p>
+<p>Another complementary approach is provided by <strong>Multi Object Adaptive Optics (MOAO)</strong>. Here the goal is to obtain multiple small-field turbulence corrections within a larger overall field-of-view. Similarly to MCAO and LTAO, the 3D turbulence is tomographically reconstructed. But in this mode, the turbulence is corrected for along the specific lines of sight where the science objects are located. This is done using multiple natural- and/or laser-guide-star wavefront sensors across the field-of-view. A dedicated deformable mirror corrects each science channel. This mode can also be combined with a first common deformable mirror conjugated close to the ground level.</p>
+</div>
+
+        
+
+        
+
+        <div class="container-subtitle">
+            <span class="section-subtitle-paragraph">
+                <p>Main characteristics of the various adaptive optics modes</p>
+            </span>
+        </div>
+        <div class="container-paragraph section-text-paragraph">
+            <div class="table-responsive">
+                <table class="table table-bordered">
+                <tbody>
+                <tr>
+                <th style="border: none;" scope="col"></th>
+                
+                <th style="text-align: center; background-color: rgb(240, 90, 66);" scope="col">SCAO<br><span style="font-weight: normal;">Single Conjugated Adaptive Optics</span></th>
+                
+                <th style="text-align: center; background-color: rgb(188, 109, 201);" scope="col">LTAO<br><span style="font-weight: normal;">Laser Tomography Adaptive Optics</span></th>
+                
+                <th style="text-align: center; background-color: rgb(43, 187, 118);" scope="col">GLAO<br><span style="font-weight: normal;">Ground Layer Adaptive Optics</span></th>
+                
+                <th style="text-align: center; background-color: rgb(253, 159, 1);" scope="col">MCAO<br><span style="font-weight: normal;">Multi-Conjugate Adaptive Optics</span></th>
+                
+                </tr>
+                <tr>
+                <th style="border: none;" scope="col"></th>
+                
+                <th class="elt_ao_modes_collapsed_img" style="text-align: center;" scope="col"><img class="elt_ao_mode" style="height: auto; max-width: 100%;" data-imgsrc="https://cdn.eso.org/images/large/ELT_AO_Mode_SCAO.jpg" src="https://cdn.eso.org/images/large/ELT_AO_Mode_SCAO_collapsed.jpg"><br><span style="font-size: small; font-weight: normal;">click to enlarge</span></th>
+                
+                <th class="elt_ao_modes_collapsed_img" style="text-align: center;" scope="col"><img class="elt_ao_mode" style="height: auto; max-width: 100%;" data-imgsrc="https://cdn.eso.org/images/large/ELT_AO_Mode_LTAO.jpg" src="https://cdn.eso.org/images/large/ELT_AO_Mode_LTAO_collapsed.jpg"><br><span style="font-size: small; font-weight: normal;">click to enlarge</span></th>
+                
+                <th class="elt_ao_modes_collapsed_img" style="text-align: center;" scope="col"><img class="elt_ao_mode" style="height: auto; max-width: 100%;" data-imgsrc="https://cdn.eso.org/images/large/ELT_AO_Mode_GLAO.jpg" src="https://cdn.eso.org/images/large/ELT_AO_Mode_GLAO_collapsed.jpg"><br><span style="font-size: small; font-weight: normal;">click to enlarge</span></th>
+                
+                <th class="elt_ao_modes_collapsed_img" style="text-align: center;" scope="col"><img class="elt_ao_mode" style="height: auto; max-width: 100%;" data-imgsrc="https://cdn.eso.org/images/large/ELT_AO_Mode_MCAO.jpg" src="https://cdn.eso.org/images/large/ELT_AO_Mode_MCAO_collapsed.jpg"><br><span style="font-size: small; font-weight: normal;">click to enlarge</span></th>
+                
+                </tr>
+                <tr>
+                    
+                        
+                        </tr>
+                        <tr>
+                        <th style="text-align: center;">Corrected FoV</th>
+                        
+                        <td>
+                            
+                            <p style="text-align: center;"><span style="text-align: center;">Small</span><br style="text-align: center;"><span style="text-align: center;">(10-15 arcsec)</span></p>
+                        </td>
+                    
+                        
+                        <td>
+                            
+                            <p style="text-align: center;">Small<br>(10-15 arcsec)</p>
+                        </td>
+                    
+                        
+                        <td>
+                            
+                            <p style="text-align: center;"><span style="text-align: center;">Large</span><br style="text-align: center;"><span style="text-align: center;">(Several arcmin)</span></p>
+                        </td>
+                    
+                        
+                        <td>
+                            
+                            <p style="text-align: center;"><span style="text-align: center;">Medium</span><br style="text-align: center;"><span style="text-align: center;">(1-2 arcmin)</span></p>
+                        </td>
+                    
+                        
+                        </tr>
+                        <tr>
+                        <th style="text-align: center;">Performance/ Strehl ratio*</th>
+                        
+                        <td>
+                            
+                            <p style="text-align: center;">High</p>
+                        </td>
+                    
+                        
+                        <td>
+                            
+                            <p style="text-align: center;"><span style="text-align: center;">Medium/High</span></p>
+                        </td>
+                    
+                        
+                        <td>
+                            
+                            <p style="text-align: center;">Low</p>
+                        </td>
+                    
+                        
+                        <td>
+                            
+                            <p style="text-align: center;">Medium/High</p>
+                        </td>
+                    
+                        
+                        </tr>
+                        <tr>
+                        <th style="text-align: center;">Sky coverage</th>
+                        
+                        <td>
+                            
+                            <p style="text-align: center;">Small</p>
+                        </td>
+                    
+                        
+                        <td>
+                            
+                            <p style="text-align: center;">Large</p>
+                        </td>
+                    
+                        
+                        <td>
+                            
+                            <p style="text-align: center;">Large</p>
+                        </td>
+                    
+                        
+                        <td>
+                            
+                            <p style="text-align: center;">Large</p>
+                        </td>
+                    
+                </tr>
+                <tr>
+                    <th style="text-align: center;">Instrument</th>
+                    
+                        <td style="text-align: center;">
+                            
+                            <span>HARMONI, </span>
+                            
+                            <span>MICADO, </span>
+                            
+                            <span>METIS, </span>
+                            
+                            <span>ANDES</span>
+                            
+                        </td>
+                    
+                        <td style="text-align: center;">
+                            
+                            <span>HARMONI</span>
+                            
+                        </td>
+                    
+                        <td style="text-align: center;">
+                            
+                            <span>MOSAIC</span>
+                            
+                        </td>
+                    
+                        <td style="text-align: center;">
+                            
+                            <span>MICADO, </span>
+                            
+                            <span>MORFEO</span>
+                            
+                        </td>
+                    
+                </tr>
+                </tbody>
+                </table>
+            </div>
+            
+        <p><small>*The Strehl ratio provides a measure of how good the adaptive optics correction is. It is defined as the ratio between the peak intensity of the image corrected by adaptive optics compared to the maximum attainable intensity (i.e. if the system was perfect).</small>&nbsp;</p>
+            
+        </div>
+
+        <div class="elt_ao_modal">
+            <img class="elt_ao_modal_img" src="">
+        </div>
+
+        
+    </div>
+  </main>
+
+
+  <footer class="site-footer">
+    <div class="site-footer__row">
+      <div class="site-footer__brand footer-item">
+        <a href="https:///www.eso.org/"><span class="esoblue">ESO</span></a>&nbsp;|&nbsp;ELT © <div id="current-year">2026</div>
+      </div>
+      <div class="site-footer__links footer-item">
+        <div>
+          <a href="../../credits/index.html"><span class="footer-item"> Credits </span></a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="mailto:information@eso.org"><span class="footer-item"> Contact us </span></a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="https://www.eso.org/public/outreach/newsletters/"><span class="footer-item"> Subscribe to ESO news </span></a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="https://www.cdn77.com/"><span class="footer-item"> Accelerated by CDN77 </span></a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="https://www.eso.org/public/about-eso/privacy/"><span class="footer-item"> Terms &amp; Conditions </span></a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="#"><span class="footer-item privacy-settings-link"> Cookie Settings and Policy </span></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

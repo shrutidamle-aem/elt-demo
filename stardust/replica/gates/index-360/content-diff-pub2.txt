@@ -1,0 +1,544 @@
+[live-session] waiting to pace live navigations to main--26c59ee1--aemcoder.aem.page (7500 ms apart, 1 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+
+Content diff @ 360px (profile "generic", roots: #big-header, #main-navbar, .video-container, .swiper-container-science, .container-notop, .webcam-wrapper, main .big-header-text, main .teaser-video, main .carousel, main .home-tiles, main .webcam-panel, header, footer)
+⚠ root "#big-header": source has it, build fell back to <main> — both sides measured at <body> (aligned; source has no <main>)
+root "#big-header" — source: "#big-header" absent, fell back to <body>
+  source: 270 text nodes — 7 headings, 0 eyebrows, 136 CTAs, 127 body; 28 img
+  build: 135 text nodes — 1 headings, 0 eyebrows, 125 CTAs, 9 body; 26 img
+  editable texts (outermost h*/p/ul/ol): source 38 / build 31
+  attributes (placeholder/aria-label/title): source 41 / build 79; icons: source 14 / build 31
+root "#main-navbar"
+  source: 46 text nodes — 0 headings, 0 eyebrows, 46 CTAs, 0 body; 0 img
+  build: 46 text nodes — 0 headings, 0 eyebrows, 46 CTAs, 0 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 1 / build 1
+  attributes (placeholder/aria-label/title): source 1 / build 15; icons: source 1 / build 0
+root ".video-container" — build: absent (".video-container") — measured as empty
+  source: 0 text nodes — 0 headings, 0 eyebrows, 0 CTAs, 0 body; 0 img
+  build: 0 text nodes — 0 headings, 0 eyebrows, 0 CTAs, 0 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 0 / build 0
+  attributes (placeholder/aria-label/title): source 0 / build 0; icons: source 0 / build 0
+root ".swiper-container-science" — build: absent (".swiper-container-science") — measured as empty
+  source: 20 text nodes — 0 headings, 0 eyebrows, 20 CTAs, 0 body; 10 img
+  build: 0 text nodes — 0 headings, 0 eyebrows, 0 CTAs, 0 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 0 / build 0
+  attributes (placeholder/aria-label/title): source 10 / build 0; icons: source 0 / build 0
+root ".container-notop" — build: absent (".container-notop") — measured as empty
+  source: 3 text nodes — 0 headings, 0 eyebrows, 3 CTAs, 0 body; 6 img
+  build: 0 text nodes — 0 headings, 0 eyebrows, 0 CTAs, 0 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 0 / build 0
+  attributes (placeholder/aria-label/title): source 0 / build 0; icons: source 0 / build 0
+root ".webcam-wrapper" — build: absent (".webcam-wrapper") — measured as empty
+  source: 2 text nodes — 0 headings, 0 eyebrows, 1 CTAs, 1 body; 1 img
+  build: 0 text nodes — 0 headings, 0 eyebrows, 0 CTAs, 0 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 0 / build 0
+  attributes (placeholder/aria-label/title): source 0 / build 0; icons: source 0 / build 0
+root "main .big-header-text" — source: absent ("main .big-header-text") — measured as empty
+  source: 0 text nodes — 0 headings, 0 eyebrows, 0 CTAs, 0 body; 0 img
+  build: 3 text nodes — 1 headings, 0 eyebrows, 0 CTAs, 2 body; 1 img
+  editable texts (outermost h*/p/ul/ol): source 0 / build 3
+  attributes (placeholder/aria-label/title): source 0 / build 0; icons: source 0 / build 1
+root "main .teaser-video" — source: absent ("main .teaser-video") — measured as empty
+  source: 0 text nodes — 0 headings, 0 eyebrows, 0 CTAs, 0 body; 0 img
+  build: 1 text nodes — 0 headings, 0 eyebrows, 1 CTAs, 0 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 0 / build 1
+  attributes (placeholder/aria-label/title): source 0 / build 1; icons: source 0 / build 0
+root "main .carousel" — source: absent ("main .carousel") — measured as empty
+  source: 0 text nodes — 0 headings, 0 eyebrows, 0 CTAs, 0 body; 0 img
+  build: 16 text nodes — 0 headings, 0 eyebrows, 16 CTAs, 0 body; 8 img
+  editable texts (outermost h*/p/ul/ol): source 0 / build 16
+  attributes (placeholder/aria-label/title): source 0 / build 26; icons: source 0 / build 0
+root "main .home-tiles" — source: absent ("main .home-tiles") — measured as empty
+  source: 0 text nodes — 0 headings, 0 eyebrows, 0 CTAs, 0 body; 0 img
+  build: 3 text nodes — 0 headings, 0 eyebrows, 3 CTAs, 0 body; 6 img
+  editable texts (outermost h*/p/ul/ol): source 0 / build 3
+  attributes (placeholder/aria-label/title): source 0 / build 0; icons: source 0 / build 0
+root "main .webcam-panel" — source: absent ("main .webcam-panel") — measured as empty
+  source: 0 text nodes — 0 headings, 0 eyebrows, 0 CTAs, 0 body; 0 img
+  build: 2 text nodes — 0 headings, 0 eyebrows, 1 CTAs, 1 body; 1 img
+  editable texts (outermost h*/p/ul/ol): source 0 / build 2
+  attributes (placeholder/aria-label/title): source 0 / build 0; icons: source 0 / build 0
+root "header" — source: absent (no <header> / [role="banner"] outside the main root(s)) — measured as empty
+  source: 0 text nodes — 0 headings, 0 eyebrows, 0 CTAs, 0 body; 0 img
+  build: 54 text nodes — 0 headings, 0 eyebrows, 51 CTAs, 3 body; 9 img
+  editable texts (outermost h*/p/ul/ol): source 0 / build 3
+  attributes (placeholder/aria-label/title): source 0 / build 29; icons: source 0 / build 30
+root "footer"
+  source: 10 text nodes — 0 headings, 0 eyebrows, 7 CTAs, 3 body; 0 img
+  build: 10 text nodes — 0 headings, 0 eyebrows, 7 CTAs, 3 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 0 / build 2
+  attributes (placeholder/aria-label/title): source 0 / build 7; icons: source 0 / build 0
+
+Findings: 458 (41 structural 🔴)
+Tiers: looks-same 🔴 41 · nothing-lost 🟡 12 · accepted 🟢 14 (owner 14, auto 0) · advisory 405
+  🔴 ROLE SWAP [#big-header]: "THE EXTREMELY LARGE TELESCOPE" is a body in the source but a heading in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 MISSING CTA [#big-header]: source cta "Science with the ELT" → /science/ has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#big-header]: source cta "Unexpected Discoveries" → /science/ has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#big-header]: source cta "Science with the ELT" → /science/ has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#big-header]: source cta "Solar System" → /science/ has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING HEADING [#big-header]: source heading "Our use of Cookies" has no build heading of the same text. A source heading has no build equivalent — a dropped or renamed section.
+  🔴 MISSING HEADING [#big-header]: source heading "ESO Cookies Policy" has no build heading of the same text. A source heading has no build equivalent — a dropped or renamed section.
+  🔴 MISSING HEADING [#big-header]: source heading "What are cookies?" has no build heading of the same text. A source heading has no build equivalent — a dropped or renamed section.
+  🔴 MISSING HEADING [#big-header]: source heading "Categories of cookies we use" has no build heading of the same text. A source heading has no build equivalent — a dropped or renamed section.
+  🔴 MISSING CTA [#big-header]: source cta "YouTube" → https://www.youtube.com/t/terms has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#big-header]: source cta "ESO’s official YouTube channel" → https://www.youtube.com/channel/UCIhYoC2VIAJqCkoIWNHBQ3Q has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#big-header]: source cta "embedding videos information page" → https://support.google.com/youtube/answer/171780?hl=en-GB has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING HEADING [#big-header]: source heading "How to manage cookies" has no build heading of the same text. A source heading has no build equivalent — a dropped or renamed section.
+  🔴 MISSING CTA [#big-header]: source cta "Brave" → https://support.brave.com/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.brave.com%2Fhc%2Fen-us%2Farticles%2F360050634931-How-Do-I-Manage-Cookies-In-Brave has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#big-header]: source cta "Chrome" → https://support.google.com/chrome/bin/answer.py?hl=en&answer=95647&p=cpn_cookies has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#big-header]: source cta "Edge" → https://support.microsoft.com/en-us/windows/manage-cookies-in-microsoft-edge-view-allow-block-delete-and-use-168dab11-0753-043d-7c16-ede5947fc64d has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#big-header]: source cta "Firefox" → https://support.mozilla.org/en-US/kb/Blocking cookies has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [#big-header]: source cta "Safari" → https://docs.info.apple.com/article.html?path=Safari/3.0/en/9277.html has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING HEADING [#big-header]: source heading "Updates to the ESO Cookies Policy" has no build heading of the same text. A source heading has no build equivalent — a dropped or renamed section.
+  🔴 MISSING HEADING [#big-header]: source heading "Additional information" has no build heading of the same text. A source heading has no build equivalent — a dropped or renamed section.
+  🔴 ICON DIFF [#big-header]: source image eso_logo.jpg (38×50) vs build image media_175cb2986e8ee49e7c64e8a9df5fa3f1f9b298693.jpg (38×50) at "/". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [#big-header]: source image icon_topbar_mobile_1.png (28×28) vs build image media_1f386e2b9f7ed0b34b2f603a73f839485d120c14f.png (28×28) at "eso on facebook". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [#big-header]: source image icon_topbar_mobile_3.png (28×28) vs build image media_19faa7be92695e315cea4cad487aa3e15b6594830.png (28×28) at "eso on instagram". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [#big-header]: source image icon_topbar_mobile_4.png (28×28) vs build image media_15b4dfde77d1909c3b38baaf7167a2e3d48f25f72.png (28×28) at "eso on linkedin". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [#big-header]: source image icon_topbar_mobile_5.png (28×28) vs build image media_101417719196c90d4b42a69d39754d790fdc2b645.png (28×28) at "eso on youtube". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [#big-header]: source image icon_topbar_mobile_1.png (35×35) vs build image media_1f386e2b9f7ed0b34b2f603a73f839485d120c14f.png (35×35) at "eso on facebook". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [#big-header]: source image icon_topbar_mobile_3.png (35×35) vs build image media_19faa7be92695e315cea4cad487aa3e15b6594830.png (35×35) at "eso on instagram". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [#big-header]: source image icon_topbar_mobile_4.png (35×35) vs build image media_15b4dfde77d1909c3b38baaf7167a2e3d48f25f72.png (35×35) at "eso on linkedin". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 ICON DIFF [#big-header]: source image icon_topbar_mobile_5.png (35×35) vs build image media_101417719196c90d4b42a69d39754d790fdc2b645.png (35×35) at "eso on youtube". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🔴 MISSING ICON [#big-header]: source empty icon box (0×0) at "toggle navigation" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [#main-navbar]: source empty icon box (0×0) at "toggle navigation" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING CTA [.swiper-container-science]: source cta "Exoplanets" → /science/ has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [.swiper-container-science]: source cta "Stars" → /science/ has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [.swiper-container-science]: source cta "Black Holes" → /science/ has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [.swiper-container-science]: source cta "Galaxies" → /science/ has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [.swiper-container-science]: source cta "Cosmology and Dark Matter" → /science/ has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [.swiper-container-science]: source cta "Fundamental Physics" → /science/ has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [.container-notop]: source cta "Telescope" → /telescope/ has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [.container-notop]: source cta "Instruments" → /instrument/ has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [.container-notop]: source cta "Facts" → /about/facts/ has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [.webcam-wrapper]: source cta "Armazones West | 12 Aug 2026 12:00 CEST / 06:00 " → /about/webcams/ has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🟠 EXTRA [#big-header]: build cta "https://cdn.eso.org/videos/hd_1080p25_screen/elt" has no source source — Unexpected node with no source.
+  🟠 EXTRA [main .big-header-text]: build heading "THE EXTREMELY LARGE TELESCOPE" has no source source — Unexpected node with no source.
+  🟠 EXTRA [main .teaser-video]: build cta "https://cdn.eso.org/videos/hd_1080p25_screen/elt" has no source source — Unexpected node with no source.
+  🟠 EXTRA [main .carousel]: build cta "Science with the ELT" has no source source — Unexpected node with no source.
+  🟠 EXTRA [main .carousel]: build cta "Solar System" has no source source — Unexpected node with no source.
+  🟠 EXTRA [main .carousel]: build cta "Science with the ELT" has no source source — Unexpected node with no source.
+  🟠 EXTRA [main .carousel]: build cta "Exoplanets" has no source source — Unexpected node with no source.
+  🟠 EXTRA [main .carousel]: build cta "Science with the ELT" has no source source — Unexpected node with no source.
+  🟠 EXTRA [main .carousel]: build cta "Stars" has no source source — Unexpected node with no source.
+  🟠 EXTRA [main .carousel]: build cta "Science with the ELT" has no source source — Unexpected node with no source.
+  🟠 EXTRA [main .carousel]: build cta "Black Holes" has no source source — Unexpected node with no source.
+  🟠 EXTRA [main .carousel]: build cta "Science with the ELT" has no source source — Unexpected node with no source.
+  🟠 EXTRA [main .carousel]: build cta "Galaxies" has no source source — Unexpected node with no source.
+  🟠 EXTRA [main .carousel]: build cta "Science with the ELT" has no source source — Unexpected node with no source.
+  🟠 EXTRA [main .carousel]: build cta "Cosmology and Dark Matter" has no source source — Unexpected node with no source.
+  🟠 EXTRA [main .carousel]: build cta "Science with the ELT" has no source source — Unexpected node with no source.
+  🟠 EXTRA [main .carousel]: build cta "Fundamental Physics" has no source source — Unexpected node with no source.
+  🟠 EXTRA [main .carousel]: build cta "Science with the ELT" has no source source — Unexpected node with no source.
+  🟠 EXTRA [main .carousel]: build cta "Unexpected Discoveries" has no source source — Unexpected node with no source.
+  🟠 EXTRA [main .home-tiles]: build cta "Telescope" has no source source — Unexpected node with no source.
+  🟠 EXTRA [main .home-tiles]: build cta "Instruments" has no source source — Unexpected node with no source.
+  🟠 EXTRA [main .home-tiles]: build cta "Facts" has no source source — Unexpected node with no source.
+  🟠 EXTRA [main .webcam-panel]: build cta "Armazones West | 12 Aug 2026 12:00 CEST / 06:00 " has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "English" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Español" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "en" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "es" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "ELT HOME" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "ABOUT" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "About the ELT" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Timeline" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Location" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Webcams" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Facts" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Road to the ELT" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Meet the Team" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Working Groups" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Industrial and Institutional Partners" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "FAQ" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "TELESCOPE" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Telescope Overview" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Dome" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Main Structure" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Mirrors" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Mirrors Overview" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "M1" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "M2M3" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "M4" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "M5" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Adaptive Optics" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Prefocal Station" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Controls" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Operations" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "INSTRUMENTS" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Instruments Overview" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "HARMONI" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "MICADO" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "MORFEO" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "METIS" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "ANDES" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "MOSAIC" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "SCIENCE" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Science Overview" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Solar System" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Exoplanets" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Stars" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Black Holes" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Galaxies" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Cosmology and Dark Matter" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Fundamental Physics" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Unexpected Discoveries" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "NEWS & MULTIMEDIA" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "SUCCESS STORIES" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "search" has no source source — Unexpected node with no source.
+  🟡 MISSING BODY [#big-header]: source body "We use cookies that are essential for accessing "… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "You can manage your cookie preferences and find "… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "Accept All"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "Accept Only Essential Cookies"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "Cookie Settings and Policy"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "The European Organisation for Astronomical Resea"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "This Cookies Policy is intended to provide clari"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "Cookies are small pieces of data stored on your "… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body ": These cookies are strictly necessary for the p"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "Essential cookies (always active)"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "Cookie ID/Name"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "Description/Purpose"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "Provider (1 party or 3 party)"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "st"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "rd"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "Browser session cookie or Stored cookie?"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "Duration"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "csrftoken"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "XSRF protection token. We use this cookie to pro"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "1 party"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "st"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "Stored"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "1 year"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "user_privacy"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "Your privacy choices. We use this cookie to save"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "1 party"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "st"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "Stored"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "6 months"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body ": These cookies enhance your browsing experience"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "Functional Cookies"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "Cookie ID/Name"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "Description/Purpose"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "Provider (1 party or 3 party)"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "st"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "rd"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "Browser session cookie or Stored cookie?"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "Duration"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "Settings"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "preferred_language"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "Language settings. We use this cookie to remembe"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "1 party"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "st"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "Stored"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "1 year"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "|"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "ON"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "OFF"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body ": These cookies collect information about how vi"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "Analytics cookies"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "Matomo Cookies"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "This website uses Matomo (formerly Piwik), an op"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "On behalf of ESO, Matomo will use this informati"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "|"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "ON"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "OFF"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "Matomo cookies settings:"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "Cookie ID/Name"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "Description/Purpose"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "Provider (1 party or 3 party)"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "st"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "rd"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "Browser session cookie or Stored cookie?"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "Duration"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "Settings"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "_pk_id"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "Stores a unique visitor ID."… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "1 party"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "st"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "Stored"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "13 months"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "_pk_ses"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "Session cookie temporarily stores data for the v"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "1 party"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "st"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "Stored"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "30 minutes"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "_pk_ref"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "Stores attribution information (the referrer tha"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "1 party"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "st"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "Stored"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "6 months"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "_pk_testcookie"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "Temporary cookie to check if a visitor’s browser"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "1 party"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "st"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "Stored"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "Temporary cookie that expires almost immediately"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body ": some of our pages display content from externa"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "Additional Third-party cookies on ESO websites"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "Such third-party services are outside of ESO con"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body ": Some videos on the ESO website are embedded fr"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "Cookies can also be classified based on the foll"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "Regarding the domain, there are:"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body ", set by the website you are currently visiting."… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "First-party cookies"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body ", set by a domain other than the one you are cur"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "Third-party cookies"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "As for their duration, cookies can be:"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body ", which are deleted when the user closes the bro"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "Browser-session cookies"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body ", which stay on the user's device for a predeter"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "Stored cookies"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body ": You can modify your cookie choices for the ESO"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "Cookie settings"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "Cookie settings"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body ": If you wish to delete cookies or instruct your"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "In your browser"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "Please be aware that if you delete or decline co"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "You can set most browsers to prevent any cookies"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "The ESO Cookies Policy may be subject to future "… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "For any queries related to cookies, please conta"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "As ESO public webpages are managed by our Depart"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "Save"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#big-header]: source body "Cancel"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 EDITABLE COUNT [#big-header]: build has 31 outermost editable element(s) vs 38 in the source — fewer outermost editable elements after decoration usually means authored elements were rebuilt/merged — see deploy SKILL.md § Experience Workspace editability contract (run ew-editability-probe.mjs on the build URL for the per-block verdict).
+  🟡 MISSING TITLE [#big-header]: source <div> title="Austria" has no build <div> with that title. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [#big-header]: source <span> title="Belgium" has no build <span> with that title. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [#big-header]: source <div> title="Chile" has no build <div> with that title. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [#big-header]: source <div> title="Czechia" has no build <div> with that title. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [#big-header]: source <div> title="Denmark" has no build <div> with that title. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [#big-header]: source <div> title="Finland" has no build <div> with that title. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [#big-header]: source <div> title="France" has no build <div> with that title. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [#big-header]: source <div> title="Germany" has no build <div> with that title. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [#big-header]: source <div> title="Ireland" has no build <div> with that title. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [#big-header]: source <div> title="Italy" has no build <div> with that title. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [#big-header]: source <div> title="Netherlands" has no build <div> with that title. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [#big-header]: source <div> title="Poland" has no build <div> with that title. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [#big-header]: source <div> title="Portugal" has no build <div> with that title. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [#big-header]: source <div> title="Spain" has no build <div> with that title. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [#big-header]: source <div> title="Sweden" has no build <div> with that title. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [#big-header]: source <div> title="Switzerland" has no build <div> with that title. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [#big-header]: source <div> title="UK" has no build <div> with that title. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [#big-header]: source <div> title="UK" has no build <div> with that title. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [#big-header]: source <div> title="Chile" has no build <div> with that title. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#big-header]: source <button> aria-label="Toggle navigation" has no build <button> with that aria-label (build <button> aria-labels: "Toggle navigation", "Next slide", "Previous slide"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 EXTRA ARIA-LABEL [#big-header]: build <nav> aria-label="ESO and site navigation" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#big-header]: build <a> title="en" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#big-header]: build <a> title="es" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#big-header]: build <a> title="ELT HOME" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#big-header]: build <a> title="ABOUT" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#big-header]: build <a> title="TELESCOPE" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#big-header]: build <a> title="Telescope Overview" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#big-header]: build <a> title="Dome" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#big-header]: build <a> title="Main Structure" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#big-header]: build <a> title="Mirrors" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#big-header]: build <a> title="Adaptive Optics" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#big-header]: build <a> title="Prefocal Station" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#big-header]: build <a> title="Controls" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#big-header]: build <a> title="Operations" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#big-header]: build <a> title="INSTRUMENTS" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#big-header]: build <a> title="SCIENCE" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#big-header]: build <a> title="NEWS & MULTIMEDIA" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#big-header]: build <a> title="SUCCESS STORIES" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#big-header]: build <nav> aria-label="Main" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#big-header]: build <a> title="ELT HOME" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#big-header]: build <a> title="ABOUT" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#big-header]: build <a> title="TELESCOPE" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#big-header]: build <a> title="Telescope Overview" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#big-header]: build <a> title="Dome" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#big-header]: build <a> title="Main Structure" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#big-header]: build <a> title="Mirrors" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#big-header]: build <a> title="Adaptive Optics" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#big-header]: build <a> title="Prefocal Station" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#big-header]: build <a> title="Controls" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#big-header]: build <a> title="Operations" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#big-header]: build <a> title="INSTRUMENTS" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#big-header]: build <a> title="SCIENCE" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#big-header]: build <a> title="NEWS & MULTIMEDIA" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#big-header]: build <a> title="SUCCESS STORIES" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#big-header]: build <a> title="https://cdn.eso.org/videos/hd_1080p25_screen/elt" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#big-header]: build <a> title="Science with the ELT" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#big-header]: build <a> title="Solar System" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#big-header]: build <a> title="Science with the ELT" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#big-header]: build <a> title="Exoplanets" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#big-header]: build <a> title="Science with the ELT" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#big-header]: build <a> title="Stars" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#big-header]: build <a> title="Science with the ELT" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#big-header]: build <a> title="Black Holes" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#big-header]: build <a> title="Science with the ELT" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#big-header]: build <a> title="Galaxies" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#big-header]: build <a> title="Science with the ELT" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#big-header]: build <a> title="Cosmology and Dark Matter" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#big-header]: build <a> title="Science with the ELT" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#big-header]: build <a> title="Fundamental Physics" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#big-header]: build <a> title="Science with the ELT" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#big-header]: build <a> title="Unexpected Discoveries" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#big-header]: build <a> title="ESO" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#big-header]: build <a> title="Credits" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#big-header]: build <a> title="Contact us" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#big-header]: build <a> title="Subscribe to ESO news" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#big-header]: build <a> title="Accelerated by CDN77" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#big-header]: build <a> title="Terms & Conditions" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#big-header]: build <a> title="Cookie Settings and Policy" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 ICON DIFF [#big-header]: source image eso_logo_transparent.png (30×39) vs build image media_1a043431fda0378cd219e1a181f4b0998cf7fbc73.png (30×39) at "european southern observatory". Same anchor, different icon — lift the source's glyph, file or svg (or register the change).
+  🟡 MISSING ICON [#big-header]: source icon-font glyph U+F00D (Font Awesome 5 Free, 11×16) at "our use of cookies we use cookies that a" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 EXTRA ICON [#big-header]: build css icon bg:sprites.png (0×0) at "choose your language english español" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#big-header]: build css icon bg:sprites.png (0×0) at "choose your language english español" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#big-header]: build css icon bg:sprites.png (0×0) at "choose your language english español" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#big-header]: build css icon bg:sprites.png (0×0) at "choose your language english español" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#big-header]: build css icon bg:sprites.png (0×0) at "choose your language english español" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#big-header]: build css icon bg:sprites.png (0×0) at "choose your language english español" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#big-header]: build css icon bg:sprites.png (0×0) at "choose your language english español" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#big-header]: build css icon bg:sprites.png (0×0) at "choose your language english español" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#big-header]: build css icon bg:sprites.png (0×0) at "choose your language english español" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#big-header]: build css icon bg:sprites.png (0×0) at "choose your language english español" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#big-header]: build css icon bg:sprites.png (0×0) at "choose your language english español" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#big-header]: build css icon bg:sprites.png (0×0) at "choose your language english español" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#big-header]: build css icon bg:sprites.png (0×0) at "choose your language english español" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#big-header]: build css icon bg:sprites.png (0×0) at "choose your language english español" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#big-header]: build css icon bg:sprites.png (0×0) at "choose your language english español" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#big-header]: build css icon bg:sprites.png (0×0) at "choose your language english español" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#big-header]: build css icon bg:sprites.png (0×0) at "choose your language english español" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#big-header]: build css icon bg:sprites.png (0×0) at "english" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#big-header]: build css icon bg:sprites.png (0×0) at "español" has no source source. Build-only icon — confirm it is intended.
+  🟡 MISSING ARIA-LABEL [#main-navbar]: source <button> aria-label="Toggle navigation" has no build <button> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 EXTRA TITLE [#main-navbar]: build <a> title="ELT HOME" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#main-navbar]: build <a> title="ABOUT" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#main-navbar]: build <a> title="TELESCOPE" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#main-navbar]: build <a> title="Telescope Overview" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#main-navbar]: build <a> title="Dome" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#main-navbar]: build <a> title="Main Structure" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#main-navbar]: build <a> title="Mirrors" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#main-navbar]: build <a> title="Adaptive Optics" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#main-navbar]: build <a> title="Prefocal Station" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#main-navbar]: build <a> title="Controls" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#main-navbar]: build <a> title="Operations" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#main-navbar]: build <a> title="INSTRUMENTS" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#main-navbar]: build <a> title="SCIENCE" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#main-navbar]: build <a> title="NEWS & MULTIMEDIA" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#main-navbar]: build <a> title="SUCCESS STORIES" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 MISSING ARIA-LABEL [.swiper-container-science]: source <div> aria-label="Next slide" has no build <div> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [.swiper-container-science]: source <div> aria-label="Previous slide" has no build <div> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [.swiper-container-science]: source <span> aria-label="Go to slide 1" has no build <span> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [.swiper-container-science]: source <span> aria-label="Go to slide 2" has no build <span> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [.swiper-container-science]: source <span> aria-label="Go to slide 3" has no build <span> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [.swiper-container-science]: source <span> aria-label="Go to slide 4" has no build <span> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [.swiper-container-science]: source <span> aria-label="Go to slide 5" has no build <span> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [.swiper-container-science]: source <span> aria-label="Go to slide 6" has no build <span> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [.swiper-container-science]: source <span> aria-label="Go to slide 7" has no build <span> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [.swiper-container-science]: source <span> aria-label="Go to slide 8" has no build <span> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING BODY [.webcam-wrapper]: source body "Webcam"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 EXTRA [main .big-header-text]: build body "European Southern Observatory" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main .big-header-text]: build body "The World's Biggest Eye on the Sky" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA ICON [main .big-header-text]: build image media_1a043431fda0378cd219e1a181f4b0998cf7fbc73.png (30×39) at "european southern observatory" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA TITLE [main .teaser-video]: build <a> title="https://cdn.eso.org/videos/hd_1080p25_screen/elt" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main .carousel]: build <a> title="Science with the ELT" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main .carousel]: build <a> title="Solar System" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main .carousel]: build <a> title="Science with the ELT" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main .carousel]: build <a> title="Exoplanets" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main .carousel]: build <a> title="Science with the ELT" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main .carousel]: build <a> title="Stars" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main .carousel]: build <a> title="Science with the ELT" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main .carousel]: build <a> title="Black Holes" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main .carousel]: build <a> title="Science with the ELT" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main .carousel]: build <a> title="Galaxies" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main .carousel]: build <a> title="Science with the ELT" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main .carousel]: build <a> title="Cosmology and Dark Matter" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main .carousel]: build <a> title="Science with the ELT" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main .carousel]: build <a> title="Fundamental Physics" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main .carousel]: build <a> title="Science with the ELT" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main .carousel]: build <a> title="Unexpected Discoveries" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main .carousel]: build <button> aria-label="Next slide" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main .carousel]: build <button> aria-label="Previous slide" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main .carousel]: build <button> aria-label="Go to slide 1" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main .carousel]: build <button> aria-label="Go to slide 2" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main .carousel]: build <button> aria-label="Go to slide 3" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main .carousel]: build <button> aria-label="Go to slide 4" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main .carousel]: build <button> aria-label="Go to slide 5" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main .carousel]: build <button> aria-label="Go to slide 6" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main .carousel]: build <button> aria-label="Go to slide 7" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [main .carousel]: build <button> aria-label="Go to slide 8" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA [main .webcam-panel]: build body "Webcam" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Choose your language" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "|" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Search" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA ARIA-LABEL [header]: build <nav> aria-label="ESO and site navigation" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="ESO on Facebook" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="ESO on Instagram" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="ESO on LinkedIn" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="ESO on YouTube" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="en" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="es" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <button> aria-label="Toggle navigation" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="ELT HOME" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="ABOUT" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="TELESCOPE" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="Telescope Overview" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="Dome" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="Main Structure" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="Mirrors" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="Adaptive Optics" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="Prefocal Station" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="Controls" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="Operations" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="INSTRUMENTS" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="SCIENCE" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="NEWS & MULTIMEDIA" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="SUCCESS STORIES" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="ESO on Facebook" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="ESO on Instagram" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="ESO on LinkedIn" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [header]: build <a> title="ESO on YouTube" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA PLACEHOLDER [header]: build <input> placeholder="Search..." has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [header]: build <input> aria-label="Search" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ICON [header]: build image media_175cb2986e8ee49e7c64e8a9df5fa3f1f9b298693.jpg (38×50) at "/" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon bg:sprites.png (0×0) at "choose your language english español" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon bg:sprites.png (0×0) at "choose your language english español" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon bg:sprites.png (0×0) at "choose your language english español" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon bg:sprites.png (0×0) at "choose your language english español" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon bg:sprites.png (0×0) at "choose your language english español" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon bg:sprites.png (0×0) at "choose your language english español" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon bg:sprites.png (0×0) at "choose your language english español" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon bg:sprites.png (0×0) at "choose your language english español" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon bg:sprites.png (0×0) at "choose your language english español" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon bg:sprites.png (0×0) at "choose your language english español" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon bg:sprites.png (0×0) at "choose your language english español" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon bg:sprites.png (0×0) at "choose your language english español" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon bg:sprites.png (0×0) at "choose your language english español" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon bg:sprites.png (0×0) at "choose your language english español" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon bg:sprites.png (0×0) at "choose your language english español" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon bg:sprites.png (0×0) at "choose your language english español" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon bg:sprites.png (0×0) at "choose your language english español" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build icon-font glyph U+F063 (Font Awesome 5 Free, 0×0) at "choose your language" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon bg:sprites.png (0×0) at "english" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon bg:sprites.png (0×0) at "español" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build image media_1f386e2b9f7ed0b34b2f603a73f839485d120c14f.png (28×28) at "eso on facebook" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build image media_19faa7be92695e315cea4cad487aa3e15b6594830.png (28×28) at "eso on instagram" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build image media_15b4dfde77d1909c3b38baaf7167a2e3d48f25f72.png (28×28) at "eso on linkedin" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build image media_101417719196c90d4b42a69d39754d790fdc2b645.png (28×28) at "eso on youtube" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build empty icon box (30×30) at "toggle navigation" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build image media_1f386e2b9f7ed0b34b2f603a73f839485d120c14f.png (35×35) at "eso on facebook" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build image media_19faa7be92695e315cea4cad487aa3e15b6594830.png (35×35) at "eso on instagram" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build image media_15b4dfde77d1909c3b38baaf7167a2e3d48f25f72.png (35×35) at "eso on linkedin" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build image media_101417719196c90d4b42a69d39754d790fdc2b645.png (35×35) at "eso on youtube" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA TITLE [footer]: build <a> title="ESO" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: build <a> title="Credits" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: build <a> title="Contact us" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: build <a> title="Subscribe to ESO news" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: build <a> title="Accelerated by CDN77" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: build <a> title="Terms & Conditions" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [footer]: build <a> title="Cookie Settings and Policy" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟢 MISSING CTA [.swiper-container-science] accepted (stardust/replica/accepted.json): index (landing): live Swiper loop renders 2 presentational clone slides (data-swiper-slide-index 7 and 0) carrying duplicate CTAs; replica policy (recreation-procedure § Carousels: loop clones carry no text/href) renders the 8 real slides only — every distinct CTA is present
+  🟢 MISSING CTA [.swiper-container-science] accepted (stardust/replica/accepted.json): index (landing): live Swiper loop renders 2 presentational clone slides (data-swiper-slide-index 7 and 0) carrying duplicate CTAs; replica policy (recreation-procedure § Carousels: loop clones carry no text/href) renders the 8 real slides only — every distinct CTA is present
+  🟢 MISSING CTA [.swiper-container-science] accepted (stardust/replica/accepted.json): index (landing): live Swiper loop renders 2 presentational clone slides (data-swiper-slide-index 7 and 0) carrying duplicate CTAs; replica policy (recreation-procedure § Carousels: loop clones carry no text/href) renders the 8 real slides only — every distinct CTA is present
+  🟢 MISSING CTA [.swiper-container-science] accepted (stardust/replica/accepted.json): index (landing): live Swiper loop renders 2 presentational clone slides (data-swiper-slide-index 7 and 0) carrying duplicate CTAs; replica policy (recreation-procedure § Carousels: loop clones carry no text/href) renders the 8 real slides only — every distinct CTA is present
+  🟢 MISSING CTA [.swiper-container-science] accepted (stardust/replica/accepted.json): index (landing): live Swiper loop renders 2 presentational clone slides (data-swiper-slide-index 7 and 0) carrying duplicate CTAs; replica policy (recreation-procedure § Carousels: loop clones carry no text/href) renders the 8 real slides only — every distinct CTA is present
+  🟢 MISSING CTA [.swiper-container-science] accepted (stardust/replica/accepted.json): index (landing): live Swiper loop renders 2 presentational clone slides (data-swiper-slide-index 7 and 0) carrying duplicate CTAs; replica policy (recreation-procedure § Carousels: loop clones carry no text/href) renders the 8 real slides only — every distinct CTA is present
+  🟢 MISSING CTA [.swiper-container-science] accepted (stardust/replica/accepted.json): index (landing): live Swiper loop renders 2 presentational clone slides (data-swiper-slide-index 7 and 0) carrying duplicate CTAs; replica policy (recreation-procedure § Carousels: loop clones carry no text/href) renders the 8 real slides only — every distinct CTA is present
+  🟢 MISSING CTA [.swiper-container-science] accepted (stardust/replica/accepted.json): index (landing): live Swiper loop renders 2 presentational clone slides (data-swiper-slide-index 7 and 0) carrying duplicate CTAs; replica policy (recreation-procedure § Carousels: loop clones carry no text/href) renders the 8 real slides only — every distinct CTA is present
+  🟢 MISSING CTA [.swiper-container-science] accepted (stardust/replica/accepted.json): index (landing): live Swiper loop renders 2 presentational clone slides (data-swiper-slide-index 7 and 0) carrying duplicate CTAs; replica policy (recreation-procedure § Carousels: loop clones carry no text/href) renders the 8 real slides only — every distinct CTA is present
+  🟢 MISSING CTA [.swiper-container-science] accepted (stardust/replica/accepted.json): index (landing): live Swiper loop renders 2 presentational clone slides (data-swiper-slide-index 7 and 0) carrying duplicate CTAs; replica policy (recreation-procedure § Carousels: loop clones carry no text/href) renders the 8 real slides only — every distinct CTA is present
+  🟢 MISSING CTA [.swiper-container-science] accepted (stardust/replica/accepted.json): index (landing): live Swiper loop renders 2 presentational clone slides (data-swiper-slide-index 7 and 0) carrying duplicate CTAs; replica policy (recreation-procedure § Carousels: loop clones carry no text/href) renders the 8 real slides only — every distinct CTA is present
+  🟢 MISSING CTA [.swiper-container-science] accepted (stardust/replica/accepted.json): index (landing): live Swiper loop renders 2 presentational clone slides (data-swiper-slide-index 7 and 0) carrying duplicate CTAs; replica policy (recreation-procedure § Carousels: loop clones carry no text/href) renders the 8 real slides only — every distinct CTA is present
+  🟢 MISSING CTA [.swiper-container-science] accepted (stardust/replica/accepted.json): index (landing): live Swiper loop renders 2 presentational clone slides (data-swiper-slide-index 7 and 0) carrying duplicate CTAs; replica policy (recreation-procedure § Carousels: loop clones carry no text/href) renders the 8 real slides only — every distinct CTA is present
+  🟢 MISSING CTA [.swiper-container-science] accepted (stardust/replica/accepted.json): index (landing): live Swiper loop renders 2 presentational clone slides (data-swiper-slide-index 7 and 0) carrying duplicate CTAs; replica policy (recreation-procedure § Carousels: loop clones carry no text/href) renders the 8 real slides only — every distinct CTA is present

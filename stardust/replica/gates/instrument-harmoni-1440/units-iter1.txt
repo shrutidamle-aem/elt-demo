@@ -1,0 +1,87 @@
+[live-session] waiting to pace live navigations to elt.eso.org (4000 ms apart, 1 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+unit-geometry @ 1440px, tol 4px — https://elt.eso.org/instrument/HARMONI/ vs http://localhost:8791/instrument-harmoni-proposed.html
+unit 1 of footer-columns (required) footer .col-12=.site-footer__row > .footer-item: origin -15,9579 360×22 vs served -15,9909 360×22 → Δx 0 Δy +330 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "eso" | 124,0 29×22 | 124,0 29×22 | 0 | 0 | 0 | 0 | ✓ |
+| text "2026" | 203,0 33×22 | 203,0 33×22 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of footer-columns (required) footer .col-12=.site-footer__row > .footer-item: origin 345,9579 1080×22 vs served 345,9909 1080×22 → Δx 0 Δy +330 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "| | | | |" | 119,0 842×22 | 119,0 842×22 | 0 | 0 | 0 | 0 | ✓ |
+| link "credits" | 119,2 49×18 | 119,2 49×18 | 0 | 0 | 0 | 0 | ✓ |
+| link "contact us" | 192,2 74×18 | 192,2 74×18 | 0 | 0 | 0 | 0 | ✓ |
+| link "subscribe to eso news" | 289,2 155×18 | 289,2 155×18 | 0 | 0 | 0 | 0 | ✓ |
+| link "accelerated by cdn77" | 468,2 149×18 | 468,2 149×18 | 0 | 0 | 0 | 0 | ✓ |
+| link "terms & conditions" | 641,2 128×18 | 641,2 128×18 | 0 | 0 | 0 | 0 | ✓ |
+| link "cookie settings and policy" | 792,2 169×18 | 792,2 169×18 | 0 | 0 | 0 | 0 | ✓ |
+unit 1 of instrument-lightlink-rows (required) .lightlinks > .row=.lightlinks > .lightlink-row: origin 0,1847 1440×338 vs served 0,1847 1440×338 → Δx 0 Δy 0 Δw 0 Δh 0; 6 elements: 6 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:img.w-100#1" | 0,0 720×338 | 0,0 720×338 | 0 | 0 | 0 | 0 | ✓ |
+| text "harmoni's versatility will allow ast" | 783,68 593×169 | 783,68 593×169 | 0 | 0 | 0 | 0 | ✓ |
+| link "link:a#1" | 0,158 720×19 | 0,158 720×19 | 0 | 0 | 0 | 0 | ✓ |
+| link "science with harmoni" | 76,260 328×39 | 76,260 328×39 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 720,280 720×57 | 720,280 720×57 | 0 | 0 | 0 | 0 | ✓ |
+| link "read more" | 780,294 96×29 | 780,294 96×29 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of instrument-lightlink-rows (required) .lightlinks > .row=.lightlinks > .lightlink-row: origin 0,2184 1440×338 vs served 0,2184 1440×338 → Δx 0 Δy 0 Δw 0 Δh 0; 6 elements: 5 within 4px, 1 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:img.w-100#1" | 720,0 720×338 | 720,0 720×338 | 0 | 0 | 0 | 0 | ✓ |
+| text "with its 3d spectroscopic capabiliti" | 63,94 593×117 | 63,102 593×101 | 0 | +8 | 0 | -16 | ✗ |
+| link "link:a#1" | 720,158 720×19 | 720,158 720×19 | 0 | 0 | 0 | 0 | ✓ |
+| link "instrument design" | 796,260 250×39 | 796,260 250×39 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 0,280 720×57 | 0,280 720×57 | 0 | 0 | 0 | 0 | ✓ |
+| link "read more" | 60,294 96×29 | 60,294 96×29 | 0 | 0 | 0 | 0 | ✓ |
+unit 3 of instrument-lightlink-rows (required) .lightlinks > .row=.lightlinks > .lightlink-row: origin 0,2522 1440×338 vs served 0,2522 1440×338 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:img.w-100#1" | 0,0 720×338 | 0,0 720×338 | 0 | 0 | 0 | 0 | ✓ |
+| link "simulator" | 783,115 84×25 | 783,115 84×25 | 0 | 0 | 0 | 0 | ✓ |
+| link "link:a#1" | 0,158 720×19 | 0,158 720×19 | 0 | 0 | 0 | 0 | ✓ |
+| link "top level requirements" | 783,165 215×25 | 783,165 215×25 | 0 | 0 | 0 | 0 | ✓ |
+| link "tools and documents" | 76,260 300×39 | 76,260 300×39 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 720,280 720×57 | 720,280 720×57 | 0 | 0 | 0 | 0 | ✓ |
+| link "read more" | 780,294 96×29 | 780,294 96×29 | 0 | 0 | 0 | 0 | ✓ |
+unit 4 of instrument-lightlink-rows (required) .lightlinks > .row=.lightlinks > .lightlink-row: origin 0,2859 1440×338 vs served 0,2859 1440×338 → Δx 0 Δy 0 Δw 0 Δh 0; 7 elements: 7 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:img.w-100#1" | 720,0 720×338 | 720,0 720×338 | 0 | 0 | 0 | 0 | ✓ |
+| text "harmoni is made possible through an " | 63,102 593×101 | 63,102 593×101 | 0 | 0 | 0 | 0 | ✓ |
+| link "international consortium" | 63,106 466×59 | 63,106 466×59 | 0 | 0 | 0 | 0 | ✓ |
+| link "link:a#2" | 720,158 720×19 | 720,158 720×19 | 0 | 0 | 0 | 0 | ✓ |
+| link "instrument consortium and contacts" | 796,260 510×39 | 796,260 510×39 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 0,280 720×57 | 0,280 720×57 | 0 | 0 | 0 | 0 | ✓ |
+| link "read more" | 60,294 96×29 | 60,294 96×29 | 0 | 0 | 0 | 0 | ✓ |
+unit 1 of instrument-tech-rows (required) .page-section > .row.no-gutters=.tech-specs__list > .tech-row: origin 0,7175 1440×64 vs served 0,7505 1440×64 → Δx 0 Δy +330 Δw 0 Δh 0; 3 elements: 3 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:svg#1" | 0,0 480×64 | 0,0 480×64 | 0 | 0 | 0 | 0 | ✓ |
+| text "wavelength" | 48,8 98×48 | 48,8 98×48 | 0 | 0 | 0 | 0 | ✓ |
+| text "0.47—2.45 μm" | 480,8 960×48 | 480,8 960×48 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of instrument-tech-rows (required) .page-section > .row.no-gutters=.tech-specs__list > .tech-row: origin 0,7247 1440×64 vs served 0,7577 1440×64 → Δx 0 Δy +330 Δw 0 Δh 0; 3 elements: 3 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:svg#1" | 0,0 480×64 | 0,0 480×64 | 0 | 0 | 0 | 0 | ✓ |
+| text "spectral resolution" | 48,8 155×48 | 48,8 155×48 | 0 | 0 | 0 | 0 | ✓ |
+| text "~3,500, 7,500, and 18,000 in the nir" | 679,20 561×24 | 679,20 561×24 | 0 | 0 | 0 | 0 | ✓ |
+unit 3 of instrument-tech-rows (required) .page-section > .row.no-gutters=.tech-specs__list > .tech-row: origin 0,7319 1440×64 vs served 0,7649 1440×64 → Δx 0 Δy +330 Δw 0 Δh 0; 3 elements: 3 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:svg#1" | 0,0 480×64 | 0,0 480×64 | 0 | 0 | 0 | 0 | ✓ |
+| text "simultaneous spectral range" | 48,8 237×48 | 48,8 237×48 | 0 | 0 | 0 | 0 | ✓ |
+| text "at least one band at a time r~7,500 " | 684,20 552×24 | 684,20 552×24 | 0 | 0 | 0 | 0 | ✓ |
+unit 4 of instrument-tech-rows (required) .page-section > .row.no-gutters=.tech-specs__list > .tech-row: origin 0,7391 1440×64 vs served 0,7721 1440×64 → Δx 0 Δy +330 Δw 0 Δh 0; 3 elements: 3 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:svg#1" | 0,0 480×64 | 0,0 480×64 | 0 | 0 | 0 | 0 | ✓ |
+| text "field(s)-of-view" | 48,8 125×48 | 48,8 125×48 | 0 | 0 | 0 | 0 | ✓ |
+| text "four, corresponding to different spa" | 773,20 375×24 | 773,20 375×24 | 0 | 0 | 0 | 0 | ✓ |
+unit 5 of instrument-tech-rows (required) .page-section > .row.no-gutters=.tech-specs__list > .tech-row: origin 0,7463 1440×64 vs served 0,7793 1440×64 → Δx 0 Δy +330 Δw 0 Δh 0; 3 elements: 3 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "image:svg#1" | 0,0 480×64 | 0,0 480×64 | 0 | 0 | 0 | 0 | ✓ |
+| text "ao" | 48,8 26×48 | 48,8 26×48 | 0 | 0 | 0 | 0 | ✓ |
+| text "ltao and scao" | 891,20 139×24 | 891,20 139×24 | 0 | 0 | 0 | 0 | ✓ |
+Units: 11 compared; elements within 49, off 1, hidden 0, missing 0 → FAIL
+json → stardust/replica/gates/instrument-harmoni-1440/units-iter1.json
